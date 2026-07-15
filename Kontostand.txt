@@ -1,11 +1,11 @@
-CoachLeisi: 50,000,000 €
-Braunbär7: 50,000,000 €
-Julian: 50,000,000 €
-Timo Kramer : 50,000,000 €
-Sascha187: 50,000,000 €
-Joel: 50,000,000 €
-MirkoHengst: 50,000,000 €
-Philipp: 50,000,000 €
-Robinho: 50,000,000 €
-Vincent : 50,000,000 €
-Vanilleeis23: 50,000,000 €
+Julian: 61.000.000 €
+Timo Kramer : 53.200.000 €
+MirkoHengst: 52.800.000 €
+Sascha187: 52.700.000 €
+Philipp: 52.500.000 €
+Braunbär7: 51.850.000 €
+Robinho: 51.600.000 €
+Vincent : 50.900.000 €
+CoachLeisi: 50.600.000 €
+Joel: 50.100.000 €
+Vanilleeis23: 50.100.000 €
