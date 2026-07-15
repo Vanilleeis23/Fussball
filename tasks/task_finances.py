@@ -189,6 +189,8 @@ def run_calculate_kapital():
     FILE_1 = Path("Kaderwert.txt")
     FILE_2 = Path("Kontostand.txt")
     OUTPUT_FILE = Path("Kapital.txt")
+    
+    # Erkennt den Namen und den gesamten Zahlenbereich vor dem €-Zeichen
     pattern = re.compile(r"^(.*?):\s*([-0-9\.,\s\xa0\u202f]+)\s*€")
     totals = {}
 
@@ -204,27 +206,27 @@ def run_calculate_kapital():
                         continue
                     name, value = m.groups()
                     
-                    # Bereinige alle unsichtbaren Leerzeichen und Formatierungen
+                    # 1. Entferne alle unsichtbaren Leerzeichen
                     value = value.replace("\xa0", "").replace("\u202f", "").replace(" ", "")
                     
-                    # Deutsches Zahlenformat bereinigen:
-                    # Wenn wir ein Komma haben (z.B. 104.020.673,00 oder 12.345,67):
-                    if "," in value:
-                        value = value.replace(".", "")  # Tausenderpunkte weg
-                        value = value.replace(",", ".")  # Komma zu Punkt
-                    else:
-                        # Wenn kein Komma da ist, sind Punkte nur Tausendertrenner (z.B. 104.020.673)
-                        value = value.replace(".", "")
+                    # 2. Da wir im US-Format schreiben (z.B. 104,020,673),
+                    # entfernen wir einfach alle Kommas, um die reine Zahl zu bekommen.
+                    value = value.replace(",", "")
                     
                     try:
+                        # Berechnen: Kontostand + Kaderwert
                         totals[name.strip()] = totals.get(name.strip(), 0) + float(value)
                     except ValueError as e:
                         print(f"Fehler beim Konvertieren von {name} ({value}): {e}")
 
+    # Sortiere die Manager absteigend nach ihrem Gesamtkapital
     sorted_totals = sorted(totals.items(), key=lambda x: x[1], reverse=True)
 
+    # Schöne deutsche Formatierung für die finale Ausgabe-Datei
     with OUTPUT_FILE.open("w", encoding="utf-8") as out:
-        out.write("Summen pro Nutzer (absteigend sortiert):\n\n")
+        out.write("Gesamtkapital pro Nutzer (Kaderwert + Kontostand - absteigend sortiert):\n\n")
         for name, value in sorted_totals:
-            formatted = f"{value:,.2f} €".replace(",", "X").replace(".", ",").replace("X", ".")
+            # Formatiert die Zahl mit Punkten als Tausendertrenner (z.B. 154.020.673 €)
+            formatted = f"{value:,.0f} €".replace(",", ".")
             out.write(f"{name}: {formatted}\n")
+    print("Kapital erfolgreich berechnet!")
