@@ -1,3 +1,5 @@
+Summen pro Nutzer (absteigend sortiert):
+
 Philipp : 64.199.117 € (Kontostand: 52.500.000 €, Spieler auf dem Markt: 11.699.117 €)
 Julian : 63.525.537 € (Kontostand: 61.000.000 €, Spieler auf dem Markt: 2.525.537 €)
 Vanilleeis23 : 54.213.567 € (Kontostand: 50.100.000 €, Spieler auf dem Markt: 4.113.567 €)
