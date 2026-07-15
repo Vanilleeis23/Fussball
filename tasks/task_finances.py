@@ -93,9 +93,14 @@ def run_calculate_kontostand():
             if seller in balances:
                 balances[seller] += amount
 
+    # HIER NEU: Sortiert nach Kontostand absteigend
+    sorted_balances = sorted(balances.items(), key=lambda x: x[1], reverse=True)
+
     with open("Kontostand.txt", "w", encoding="utf-8") as f:
-        for manager, balance in balances.items():
-            f.write(f"{manager}: {balance:,.0f} €\n")
+        for manager, balance in sorted_balances:
+            # Formatierung mit Punkten (z.B. 45.120.500 €)
+            formatted_balance = f"{balance:,.0f}".replace(",", ".")
+            f.write(f"{manager}: {formatted_balance} €\n")
 
 
 def run_calculate_max_bid():
@@ -190,7 +195,6 @@ def run_calculate_kapital():
     FILE_2 = Path("Kontostand.txt")
     OUTPUT_FILE = Path("Kapital.txt")
     
-    # Erkennt den Namen und den gesamten Zahlenbereich vor dem €-Zeichen
     pattern = re.compile(r"^(.*?):\s*([-0-9\.,\s\xa0\u202f]+)\s*€")
     totals = {}
 
@@ -206,27 +210,23 @@ def run_calculate_kapital():
                         continue
                     name, value = m.groups()
                     
-                    # 1. Entferne alle unsichtbaren Leerzeichen
+                    # Bereinigung
                     value = value.replace("\xa0", "").replace("\u202f", "").replace(" ", "")
-                    
-                    # 2. Da wir im US-Format schreiben (z.B. 104,020,673),
-                    # entfernen wir einfach alle Kommas, um die reine Zahl zu bekommen.
-                    value = value.replace(",", "")
+                    value = value.replace(".", "").replace(",", "")
                     
                     try:
-                        # Berechnen: Kontostand + Kaderwert
                         totals[name.strip()] = totals.get(name.strip(), 0) + float(value)
                     except ValueError as e:
                         print(f"Fehler beim Konvertieren von {name} ({value}): {e}")
 
-    # Sortiere die Manager absteigend nach ihrem Gesamtkapital
+    # Sortiert das Kapital absteigend
     sorted_totals = sorted(totals.items(), key=lambda x: x[1], reverse=True)
 
-    # Schöne deutsche Formatierung für die finale Ausgabe-Datei
     with OUTPUT_FILE.open("w", encoding="utf-8") as out:
-        out.write("Gesamtkapital pro Nutzer (Kaderwert + Kontostand - absteigend sortiert):\n\n")
+        out.write("Summen pro Nutzer (absteigend sortiert):\n\n")
         for name, value in sorted_totals:
-            # Formatiert die Zahl mit Punkten als Tausendertrenner (z.B. 154.020.673 €)
-            formatted = f"{value:,.0f} €".replace(",", ".")
-            out.write(f"{name}: {formatted}\n")
-    print("Kapital erfolgreich berechnet!")
+            # Exakt dieselbe Formatierung wie in MaxBide (z.B. 154.020.673 €)
+            formatted_value = f"{int(value):,}".replace(",", ".")
+            out.write(f"{name} : {formatted_value} €\n")
+            
+    print("Kapital erfolgreich berechnet und sortiert!")
