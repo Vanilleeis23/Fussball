@@ -19,10 +19,9 @@ MANAGERS = [
 def run_squad_value(kb):
     print("Starte: getSquadValue...")
     
-    # Liga-ID deiner Kickbase-Liga (wird aus der API geladen)
-    # Wir holen uns die User der Liga
-    league_id = "2556726"  # Deine Liga-ID aus dem Activities-Feed
-    url = f"https://api.kickbase.com/v4/leagues/{league_id}/users"
+    # Verwende v3 statt v4, da der v4-Endpunkt für /users oft einen 404-Fehler wirft
+    league_id = "2556726"
+    url = f"https://api.kickbase.com/v3/leagues/{league_id}/users"
     
     response = kb.get_request(url)
     squad_values = {}
@@ -30,7 +29,7 @@ def run_squad_value(kb):
     if response and "users" in response:
         for user in response["users"]:
             name = user.get("name", "").strip()
-            # Finde den passenden Manager in unserer Liste (Tolerant gegenüber Leerzeichen)
+            # Finde den passenden Manager in unserer Liste
             matched_manager = None
             for m in MANAGERS:
                 if m.strip() == name:
@@ -38,11 +37,12 @@ def run_squad_value(kb):
                     break
             
             if matched_manager:
-                # Hole den Team-Wert (Sollte als Ganzzahl vorliegen)
-                team_value = user.get("teamValue", 0)
+                # Hole den Team-Wert (im v3-Endpunkt heißt das Feld meist ebenfalls teamValue oder teamvalue)
+                # Wir sichern uns ab und prüfen beide Schreibweisen
+                team_value = user.get("teamValue") or user.get("teamvalue") or 0
                 squad_values[matched_manager] = team_value
     
-    # Falls die API keine Daten lieferte, füllen wir mit 0 auf, damit nichts abstürzt
+    # Falls die API keine Daten lieferte, füllen wir mit 0 auf
     for m in MANAGERS:
         if m not in squad_values:
             squad_values[m] = 0
@@ -58,8 +58,7 @@ def run_squad_value(kb):
             f.write(f"{manager} : {formatted_value} €\n")
             
     print("Kaderwerte erfolgreich berechnet und sortiert!")
-
-
+    
 def run_market_players(kb):
     print("Starte: getMarketPlayers...")
     
