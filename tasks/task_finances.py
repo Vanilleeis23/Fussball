@@ -132,6 +132,7 @@ def run_calculate_kontostand():
         for manager, balance in sorted_balances:
             formatted_balance = f"{balance:,.0f}".replace(",", ".")
             f.write(f"{manager}: {formatted_balance} €\n")
+            
 def run_calculate_max_bid():
     print("Starte: calculateMaxBid...")
     kontostand = {}
@@ -142,8 +143,13 @@ def run_calculate_max_bid():
                 if not line or ":" not in line:
                     continue
                 name, wert = line.split(":", 1)
-                wert = int(wert.replace("€", "").replace(",", "").strip())
-                kontostand[name.strip()] = wert
+                # Entferne Euro, Punkte, Kommas und alle Leerzeichen
+                wert_clean = wert.replace("€", "").replace(".", "").replace(",", "").strip()
+                if wert_clean:
+                    try:
+                        kontostand[name.strip()] = int(wert_clean)
+                    except ValueError as e:
+                        print(f"Fehler bei Kontostand-Konvertierung von {name}: {e}")
 
     kaderwert = {}
     if Path("Kaderwert.txt").exists():
@@ -153,8 +159,13 @@ def run_calculate_max_bid():
                 if not line or ":" not in line:
                     continue
                 name, wert = line.split(":", 1)
-                wert = int(wert.replace("€", "").replace(",", "").strip())
-                kaderwert[name.strip()] = wert
+                # Entferne Euro, Punkte, Kommas und alle Leerzeichen
+                wert_clean = wert.replace("€", "").replace(".", "").replace(",", "").strip()
+                if wert_clean:
+                    try:
+                        kaderwert[name.strip()] = int(wert_clean)
+                    except ValueError as e:
+                        print(f"Fehler bei Kaderwert-Konvertierung von {name}: {e}")
 
     ergebnis = {}
     for name in kontostand:
@@ -166,7 +177,11 @@ def run_calculate_max_bid():
     with open("MaxBide.txt", "w", encoding="utf-8") as out:
         out.write("Summen pro Nutzer (absteigend sortiert):\n\n")
         for name, betrag in sorted(ergebnis.items(), key=lambda x: x[1], reverse=True):
-            out.write(f"{name} : {betrag:,} €\n")
+            # Formatiert die Ausgabe wieder mit Punkten
+            formatted_betrag = f"{betrag:,}".replace(",", ".")
+            out.write(f"{name} : {formatted_betrag} €\n")
+            
+    print("Max Bid erfolgreich berechnet!")
 
 
 def run_real_kontostand():
