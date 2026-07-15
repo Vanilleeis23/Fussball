@@ -1,0 +1,53 @@
+YAML
+
+name: Hourly Kickbase Update
+
+on:
+  schedule:
+    # Läuft einmal pro Stunde (zur vollen Stunde)
+    - cron: '0 * * * *'
+  workflow_dispatch: # Ermöglicht es dir, das Skript jederzeit manuell in GitHub zu starten
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        # Erlaubt das Zurückschreiben ins Repository
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-python: '3.11'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run Kickbase Script
+      env:
+        KICKBASE_EMAIL: ${{ secrets.KICKBASE_EMAIL }}
+        KICKBASE_PASSWORD: ${{ secrets.KICKBASE_PASSWORD }}
+      run: |
+        python main.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # Fügt alle geänderten oder neuen TXT-Dateien hinzu
+        git add *.txt
+        
+        # Nur committen, wenn es tatsächlich Änderungen gab
+        if git diff --cached --quiet; then
+          echo "Keine Änderungen an den TXT-Dateien festgestellt."
+        else
+          git commit -m "Auto-Update: Kontostände und Transaktionen aktualisiert [skip ci]"
+          git push
+        fi
