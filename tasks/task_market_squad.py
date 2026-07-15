@@ -48,27 +48,15 @@ def run_market_players(kb):
     league_id = "2556726"
     url = f"https://api.kickbase.com/v4/leagues/{league_id}/market"
     response = kb.get_request(url)
-    
-    players_on_market = []
-    print(response)
-    if response and "players" in response:
-        for player in response["players"]:
-            # Nur Spieler betrachten, die von echten Managern auf den Markt gestellt wurden (username existiert)
-            if "username" in player and player["username"]:
-                user = player["username"].strip()
-                # Vorname + Nachname des Spielers
-                first_name = player.get("firstName", "")
-                last_name = player.get("lastName", "")
-                player_name = f"{first_name} {last_name}".strip()
-                
-                price = player.get("price", 0)
-                formatted_price = f"{price:,}".replace(",", ".")
-                
-                players_on_market.append(f"{player_name} | {formatted_price} € | {user}")
+    data = response.json()
 
     # Speichere die Marktspieler ab
     with open("MarketPlayer.txt", "w", encoding="utf-8") as f:
-        for entry in players_on_market:
-            f.write(f"{entry}\n")
+         for p in data["it"]:
+            if "u" in p:
+                spieler_name = p["n"]
+                marktwert = p["mv"]
+                user_name = p["u"]["n"]
+                f.write(f"{spieler_name} | {marktwert:,} € | {user_name}\n")
             
     print("Marktspieler erfolgreich aktualisiert!")
