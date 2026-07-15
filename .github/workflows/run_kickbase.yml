@@ -5,7 +5,7 @@ name: Hourly Kickbase Update
 on:
   schedule:
     # Läuft einmal pro Stunde (zur vollen Stunde)
-    - cron: '0 * * * *'
+    - cron: '14 * * * *'
   workflow_dispatch: # Ermöglicht es dir, das Skript jederzeit manuell in GitHub zu starten
 
 jobs:
