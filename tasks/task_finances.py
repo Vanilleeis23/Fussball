@@ -21,8 +21,38 @@ MANAGERS = [
 
 def run_calculate_kontostand():
     print("Starte: calculateKontostand...")
-    balances = {m: 50_000_000 for m in MANAGERS}
+    
+    # 1. Ermittle das Startguthaben basierend auf dem anfaenglichen Kaderwert
+    balances = {}
+    initial_kader_file = Path("Anfangs_Kaderwert.txt")
+    
+    # Wir lesen die Anfangswerte ein
+    initial_kaderwerte = {}
+    if initial_kader_file.exists():
+        with initial_kader_file.open("r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or ":" not in line:
+                    continue
+                name, wert_str = line.split(":", 1)
+                # Nur Zahlen extrahieren
+                digits = re.sub(r"[^\d]", "", wert_str)
+                if digits:
+                    initial_kaderwerte[name.strip()] = int(digits)
 
+    # Berechne das jeweilige Startguthaben (150 Mio. minus Anfangs-Kaderwert)
+    for m in MANAGERS:
+        manager_clean = m.strip()
+        if manager_clean in initial_kaderwerte:
+            start_kader = initial_kaderwerte[manager_clean]
+            balances[m] = 150_000_000 - start_kader
+            print(f"Startguthaben fuer {manager_clean}: {balances[m]:,.0f} € (Kaderwert war {start_kader:,.0f} €)")
+        else:
+            # Fallback, falls kein Wert eingetragen wurde
+            balances[m] = 50_000_000
+            print(f"WARNUNG: Kein Anfangs-Kaderwert fuer {manager_clean} gefunden. Starte mit 50.000.000 €")
+
+    # 2. Spieltagsprämien (SPG.txt) dazurechnen
     if Path("SPG.txt").exists():
         with open("SPG.txt", "r", encoding="utf-8") as f:
             for line in f:
@@ -44,7 +74,7 @@ def run_calculate_kontostand():
                         balances[m] += total_add
                         break
 
-    # Bonus-Berechnung (Startdatum: 24. Aug 2026)
+    # 3. Bonus-Berechnung (Startdatum: 24. Aug 2026)
     start_date = datetime(2026, 8, 24)
     today = datetime.today()
     days_passed = (today - start_date).days
@@ -53,6 +83,7 @@ def run_calculate_kontostand():
     for m in balances:
         balances[m] += bonus_total
 
+    # Spieltagspunkte einlesen und dazurechnen
     if Path("SPG.txt").exists():
         with open("SPG.txt", "r", encoding="utf-8") as file:
             for line in file:
@@ -68,6 +99,7 @@ def run_calculate_kontostand():
                 except ValueError:
                     pass
 
+    # 4. Transaktionen verrechnen
     result = []
     if Path("Transactionen.txt").exists():
         with open("Transactionen.txt", "r", encoding="utf-8") as f:
@@ -93,16 +125,13 @@ def run_calculate_kontostand():
             if seller in balances:
                 balances[seller] += amount
 
-    # HIER NEU: Sortiert nach Kontostand absteigend
+    # Sortiert nach Kontostand absteigend
     sorted_balances = sorted(balances.items(), key=lambda x: x[1], reverse=True)
 
     with open("Kontostand.txt", "w", encoding="utf-8") as f:
         for manager, balance in sorted_balances:
-            # Formatierung mit Punkten (z.B. 45.120.500 €)
             formatted_balance = f"{balance:,.0f}".replace(",", ".")
             f.write(f"{manager}: {formatted_balance} €\n")
-
-
 def run_calculate_max_bid():
     print("Starte: calculateMaxBid...")
     kontostand = {}
