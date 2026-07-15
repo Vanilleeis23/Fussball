@@ -50,7 +50,7 @@ def run_market_players(kb):
     response = kb.get_request(url)
     
     players_on_market = []
-    
+    print(response)
     if response and "players" in response:
         for player in response["players"]:
             # Nur Spieler betrachten, die von echten Managern auf den Markt gestellt wurden (username existiert)
