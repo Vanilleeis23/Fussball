@@ -1,8 +1,9 @@
 import re
 from pathlib import Path
+
 def run_squad_value(kb):
     print("Starte: getSquadValue...")
-     managers = {
+    managers = {
         "2446378": "CoachLeisi",
         "165539": "Braunbär7",
         "2218524": "Julian",
@@ -16,7 +17,7 @@ def run_squad_value(kb):
         "2219496": "Vanilleeis23"
     }
     
-        # Datei beim ersten Manager neu schreiben, danach anhängen (append)
+    # Datei beim ersten Manager neu schreiben, danach anhängen (append)
     first = True
     for m_id, name in managers.items():
         url = f"https://api.kickbase.com/v4/leagues/2556726/managers/{m_id}/dashboard"
@@ -51,7 +52,7 @@ def run_market_players(kb):
                 
                 players_on_market.append(f"{player_name} | {formatted_price} € | {user}")
 
-    # Speichere die Marktspieler ab (hier ist keine Summen-Sortierung nötig, da es eine Liste ist)
+    # Speichere die Marktspieler ab
     with open("MarketPlayer.txt", "w", encoding="utf-8") as f:
         for entry in players_on_market:
             f.write(f"{entry}\n")
