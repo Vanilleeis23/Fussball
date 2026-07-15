@@ -1,24 +1,7 @@
 import re
 from pathlib import Path
-
-# Hilfsliste der Manager (für die Zuordnung)
-MANAGERS = [
-    "CoachLeisi",
-    "Braunbär7",
-    "Julian",
-    "Timo Kramer ",
-    "Sascha187",
-    "Joel",
-    "MirkoHengst",
-    "Philipp",
-    "Robinho",
-    "Vincent ",
-    "Vanilleeis23"
-]
-
 def run_squad_value(kb):
     print("Starte: getSquadValue...")
-
      managers = {
         "2446378": "CoachLeisi",
         "165539": "Braunbär7",
