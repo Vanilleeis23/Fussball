@@ -22,11 +22,10 @@ MANAGERS = [
 def run_calculate_kontostand():
     print("Starte: calculateKontostand...")
     
-    # 1. Ermittle das Startguthaben basierend auf dem anfaenglichen Kaderwert
+    # 1. Ermittle das Startguthaben basierend auf dem anfänglichen Kaderwert
     balances = {}
     initial_kader_file = Path("Anfangs_Kaderwert.txt")
     
-    # Wir lesen die Anfangswerte ein
     initial_kaderwerte = {}
     if initial_kader_file.exists():
         with initial_kader_file.open("r", encoding="utf-8") as f:
@@ -35,7 +34,6 @@ def run_calculate_kontostand():
                 if not line or ":" not in line:
                     continue
                 name, wert_str = line.split(":", 1)
-                # Nur Zahlen extrahieren
                 digits = re.sub(r"[^\d]", "", wert_str)
                 if digits:
                     initial_kaderwerte[name.strip()] = int(digits)
@@ -46,11 +44,10 @@ def run_calculate_kontostand():
         if manager_clean in initial_kaderwerte:
             start_kader = initial_kaderwerte[manager_clean]
             balances[m] = 150_000_000 - start_kader
-            print(f"Startguthaben fuer {manager_clean}: {balances[m]:,.0f} € (Kaderwert war {start_kader:,.0f} €)")
+            print(f"Startguthaben für {manager_clean}: {balances[m]:,.0f} € (Kaderwert war {start_kader:,.0f} €)")
         else:
-            # Fallback, falls kein Wert eingetragen wurde
             balances[m] = 50_000_000
-            print(f"WARNUNG: Kein Anfangs-Kaderwert fuer {manager_clean} gefunden. Starte mit 50.000.000 €")
+            print(f"WARNUNG: Kein Anfangs-Kaderwert für {manager_clean} gefunden. Starte mit 50.000.000 €")
 
     # 2. Spieltagsprämien (SPG.txt) dazurechnen
     if Path("SPG.txt").exists():
@@ -129,10 +126,12 @@ def run_calculate_kontostand():
     sorted_balances = sorted(balances.items(), key=lambda x: x[1], reverse=True)
 
     with open("Kontostand.txt", "w", encoding="utf-8") as f:
+        f.write("Summen pro Nutzer (absteigend sortiert):\n\n")
         for manager, balance in sorted_balances:
-            formatted_balance = f"{balance:,.0f}".replace(",", ".")
-            f.write(f"{manager}: {formatted_balance} €\n")
-            
+            formatted_balance = f"{int(balance):,}".replace(",", ".")
+            f.write(f"{manager} : {formatted_balance} €\n")
+
+
 def run_calculate_max_bid():
     print("Starte: calculateMaxBid...")
     kontostand = {}
@@ -143,7 +142,6 @@ def run_calculate_max_bid():
                 if not line or ":" not in line:
                     continue
                 name, wert = line.split(":", 1)
-                # Entferne Euro, Punkte, Kommas und alle Leerzeichen
                 wert_clean = wert.replace("€", "").replace(".", "").replace(",", "").strip()
                 if wert_clean:
                     try:
@@ -159,7 +157,6 @@ def run_calculate_max_bid():
                 if not line or ":" not in line:
                     continue
                 name, wert = line.split(":", 1)
-                # Entferne Euro, Punkte, Kommas und alle Leerzeichen
                 wert_clean = wert.replace("€", "").replace(".", "").replace(",", "").strip()
                 if wert_clean:
                     try:
@@ -177,8 +174,7 @@ def run_calculate_max_bid():
     with open("MaxBide.txt", "w", encoding="utf-8") as out:
         out.write("Summen pro Nutzer (absteigend sortiert):\n\n")
         for name, betrag in sorted(ergebnis.items(), key=lambda x: x[1], reverse=True):
-            # Formatiert die Ausgabe wieder mit Punkten
-            formatted_betrag = f"{betrag:,}".replace(",", ".")
+            formatted_betrag = f"{int(betrag):,}".replace(",", ".")
             out.write(f"{name} : {formatted_betrag} €\n")
             
     print("Max Bid erfolgreich berechnet!")
@@ -226,6 +222,7 @@ def run_real_kontostand():
     daten.sort(key=lambda x: x[3], reverse=True)
 
     with open("RealKontostand.txt", "w", encoding="utf-8") as f:
+        f.write("Summen pro Nutzer (absteigend sortiert):\n\n")
         for user, balance, market_value, total in daten:
             f.write(
                 f"{user} : {fmt(total)} € "
@@ -254,7 +251,6 @@ def run_calculate_kapital():
                         continue
                     name, value = m.groups()
                     
-                    # Bereinigung
                     value = value.replace("\xa0", "").replace("\u202f", "").replace(" ", "")
                     value = value.replace(".", "").replace(",", "")
                     
@@ -263,13 +259,11 @@ def run_calculate_kapital():
                     except ValueError as e:
                         print(f"Fehler beim Konvertieren von {name} ({value}): {e}")
 
-    # Sortiert das Kapital absteigend
     sorted_totals = sorted(totals.items(), key=lambda x: x[1], reverse=True)
 
     with OUTPUT_FILE.open("w", encoding="utf-8") as out:
         out.write("Summen pro Nutzer (absteigend sortiert):\n\n")
         for name, value in sorted_totals:
-            # Exakt dieselbe Formatierung wie in MaxBide (z.B. 154.020.673 €)
             formatted_value = f"{int(value):,}".replace(",", ".")
             out.write(f"{name} : {formatted_value} €\n")
             
