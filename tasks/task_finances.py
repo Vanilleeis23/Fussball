@@ -1,0 +1,212 @@
+import ast
+import re
+from datetime import datetime
+from pathlib import Path
+from collections import defaultdict
+
+# Hilfsliste der Manager
+MANAGERS = [
+    "CoachLeisi",
+    "Braunbär7",
+    "Julian",
+    "Timo Kramer ",
+    "Sascha187",
+    "Joel",
+    "MirkoHengst",
+    "Philipp",
+    "Robinho",
+    "Vincent ",
+    "Vanilleeis23"
+]
+
+def run_calculate_kontostand():
+    print("Starte: calculateKontostand...")
+    balances = {m: 50_000_000 for m in MANAGERS}
+
+    if Path("SPG.txt").exists():
+        with open("SPG.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or ":" not in line:
+                    continue
+                name, values = line.split(":", 1)
+                name = name.strip()
+                parts = values.strip().split(",")
+                total_add = 0
+                for part in parts:
+                    p = part.strip().replace(".", "").replace(",", ".")
+                    try:
+                        total_add += float(p)
+                    except ValueError:
+                        pass
+                for m in MANAGERS:
+                    if m.strip() == name:
+                        balances[m] += total_add
+                        break
+
+    # Bonus-Berechnung (Startdatum: 24. Aug 2026)
+    start_date = datetime(2026, 8, 24)
+    today = datetime.today()
+    days_passed = (today - start_date).days
+    bonus_total = max(0, days_passed * 100_000)
+
+    for m in balances:
+        balances[m] += bonus_total
+
+    if Path("SPG.txt").exists():
+        with open("SPG.txt", "r", encoding="utf-8") as file:
+            for line in file:
+                if ":" not in line:
+                    continue
+                name, value = line.split(":", 1)
+                name = name.strip()
+                value = value.strip().replace(",", ".")
+                try:
+                    spieltagspunkte = float(value) * 1000
+                    if name in balances:
+                        balances[name] += spieltagspunkte
+                except ValueError:
+                    pass
+
+    result = []
+    if Path("Transactionen.txt").exists():
+        with open("Transactionen.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    arr = ast.literal_eval(line)
+                    result.append(arr)
+                except Exception:
+                    pass
+
+    for i in range(len(result)):
+        if 'byr' in result[i][0]:
+            buyer = result[i][0][1]
+            amount = result[i][2][1]
+            if buyer in balances:
+                balances[buyer] -= amount
+        if 'slr' in result[i][0]:
+            seller = result[i][0][1]
+            amount = result[i][2][1]
+            if seller in balances:
+                balances[seller] += amount
+
+    with open("Kontostand.txt", "w", encoding="utf-8") as f:
+        for manager, balance in balances.items():
+            f.write(f"{manager}: {balance:,.0f} €\n")
+
+def run_calculate_max_bid():
+    print("Starte: calculateMaxBid...")
+    kontostand = {}
+    if Path("Kontostand.txt").exists():
+        with open("Kontostand.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or ":" not in line:
+                    continue
+                name, wert = line.split(":", 1)
+                wert = int(wert.replace("€", "").replace(",", "").strip())
+                kontostand[name.strip()] = wert
+
+    kaderwert = {}
+    if Path("Kaderwert.txt").exists():
+        with open("Kaderwert.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or ":" not in line:
+                    continue
+                name, wert = line.split(":", 1)
+                wert = int(wert.replace("€", "").replace(",", "").strip())
+                kaderwert[name.strip()] = wert
+
+    ergebnis = {}
+    for name in kontostand:
+        if name in kaderwert:
+            konto = kontostand[name]
+            kader = kaderwert[name]
+            ergebnis[name] = konto + int(kader * 0.33)
+
+    with open("MaxBide.txt", "w", encoding="utf-8") as out:
+        out.write("Summen pro Nutzer (absteigend sortiert):\n\n")
+        for name, betrag in sorted(ergebnis.items(), key=lambda x: x[1], reverse=True):
+            out.write(f"{name} : {betrag:,} €\n")
+
+def run_real_kontostand():
+    print("Starte: getRealKontostand...")
+    output_order = [m.strip() for m in MANAGERS]
+    player_values = defaultdict(int)
+
+    if Path("MarketPlayer.txt").exists():
+        with open("MarketPlayer.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                parts = [p.strip() for p in line.split("|")]
+                if len(parts) != 3:
+                    continue
+                _, value_str, user = parts
+                digits = re.sub(r"[^\d]", "", value_str)
+                player_values[user] += int(digits) if digits else 0
+
+    balances = {}
+    if Path("Kontostand.txt").exists():
+        with open("Kontostand.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or ":" not in line:
+                    continue
+                name, value_str = line.split(":", 1)
+                digits = re.sub(r"[^\d-]", "", value_str)
+                balances[name.strip()] = int(digits) if digits else 0
+
+    def fmt(n):
+        return f"{n:,}".replace(",", ".")
+
+    daten = []
+    for user in output_order:
+        balance = balances.get(user, 0)
+        market_value = player_values.get(user, 0)
+        total = balance + market_value
+        daten.append((user, balance, market_value, total))
+
+    daten.sort(key=lambda x: x[3], reverse=True)
+
+    with open("RealKontostand.txt", "w", encoding="utf-8") as f:
+        for user, balance, market_value, total in daten:
+            f.write(
+                f"{user} : {fmt(total)} € "
+                f"(Kontostand: {fmt(balance)} €, Spieler auf dem Markt: {fmt(market_value)} €)\n"
+            )
+
+def run_calculate_kapital():
+    print("Starte: CalculateKapital...")
+    FILE_1 = Path("Kaderwert.txt")
+    FILE_2 = Path("Kontostand.txt")
+    OUTPUT_FILE = Path("Kapital.txt")
+    pattern = re.compile(r"^(.*?):\s*([-0-9\.,\s]+) €")
+    totals = {}
+
+    for file_path in [FILE_1, FILE_2]:
+        if file_path.exists():
+            with file_path.open(encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    m = pattern.match(line)
+                    if not m:
+                        continue
+                    name, value = m.groups()
+                    value = float(value.replace("\xa0","").replace("\u202f","").replace(" ", "").replace(".", "").replace(",", "."))
+                    totals[name.strip()] = totals.get(name.strip(), 0) + value
+
+    sorted_totals = sorted(totals.items(), key=lambda x: x[1], reverse=True)
+
+    with OUTPUT_FILE.open("w", encoding="utf-8") as out:
+        out.write("Summen pro Nutzer (absteigend sortiert):\n\n")
+        for name, value in sorted_totals:
+            formatted = f"{value:,.2f} €".replace(",", "X").replace(".", ",").replace("X", ".")
+            out.write(f"{name}: {formatted}\n")
