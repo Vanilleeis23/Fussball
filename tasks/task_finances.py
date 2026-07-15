@@ -97,50 +97,43 @@ def run_calculate_kontostand():
         for manager, balance in balances.items():
             f.write(f"{manager}: {balance:,.0f} €\n")
 
-def run_calculate_kapital():
-    print("Starte: CalculateKapital...")
-    FILE_1 = Path("Kaderwert.txt")
-    FILE_2 = Path("Kontostand.txt")
-    OUTPUT_FILE = Path("Kapital.txt")
-    pattern = re.compile(r"^(.*?):\s*([-0-9\.,\s\xa0\u202f]+)\s*€")
-    totals = {}
 
-    for file_path in [FILE_1, FILE_2]:
-        if file_path.exists():
-            with file_path.open(encoding="utf-8") as f:
-                for line in f:
-                    line = line.strip()
-                    if not line:
-                        continue
-                    m = pattern.match(line)
-                    if not m:
-                        continue
-                    name, value = m.groups()
-                    
-                    # Bereinige alle unsichtbaren Leerzeichen und Formatierungen
-                    value = value.replace("\xa0", "").replace("\u202f", "").replace(" ", "")
-                    
-                    # Deutsches Zahlenformat bereinigen:
-                    # Wenn wir ein Komma haben (z.B. 104.020.673,00 oder 12.345,67):
-                    if "," in value:
-                        value = value.replace(".", "")  # Tausenderpunkte weg
-                        value = value.replace(",", ".")  # Komma zu Punkt
-                    else:
-                        # Wenn kein Komma da ist, sind Punkte nur Tausendertrenner (z.B. 104.020.673)
-                        value = value.replace(".", "")
-                    
-                    try:
-                        totals[name.strip()] = totals.get(name.strip(), 0) + float(value)
-                    except ValueError as e:
-                        print(f"Fehler beim Konvertieren von {name} ({value}): {e}")
+def run_calculate_max_bid():
+    print("Starte: calculateMaxBid...")
+    kontostand = {}
+    if Path("Kontostand.txt").exists():
+        with open("Kontostand.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or ":" not in line:
+                    continue
+                name, wert = line.split(":", 1)
+                wert = int(wert.replace("€", "").replace(",", "").strip())
+                kontostand[name.strip()] = wert
 
-    sorted_totals = sorted(totals.items(), key=lambda x: x[1], reverse=True)
+    kaderwert = {}
+    if Path("Kaderwert.txt").exists():
+        with open("Kaderwert.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or ":" not in line:
+                    continue
+                name, wert = line.split(":", 1)
+                wert = int(wert.replace("€", "").replace(",", "").strip())
+                kaderwert[name.strip()] = wert
 
-    with OUTPUT_FILE.open("w", encoding="utf-8") as out:
+    ergebnis = {}
+    for name in kontostand:
+        if name in kaderwert:
+            konto = kontostand[name]
+            kader = kaderwert[name]
+            ergebnis[name] = konto + int(kader * 0.33)
+
+    with open("MaxBide.txt", "w", encoding="utf-8") as out:
         out.write("Summen pro Nutzer (absteigend sortiert):\n\n")
-        for name, value in sorted_totals:
-            formatted = f"{value:,.2f} €".replace(",", "X").replace(".", ",").replace("X", ".")
-            out.write(f"{name}: {formatted}\n")
+        for name, betrag in sorted(ergebnis.items(), key=lambda x: x[1], reverse=True):
+            out.write(f"{name} : {betrag:,} €\n")
+
 
 def run_real_kontostand():
     print("Starte: getRealKontostand...")
@@ -190,12 +183,13 @@ def run_real_kontostand():
                 f"(Kontostand: {fmt(balance)} €, Spieler auf dem Markt: {fmt(market_value)} €)\n"
             )
 
+
 def run_calculate_kapital():
     print("Starte: CalculateKapital...")
     FILE_1 = Path("Kaderwert.txt")
     FILE_2 = Path("Kontostand.txt")
     OUTPUT_FILE = Path("Kapital.txt")
-    pattern = re.compile(r"^(.*?):\s*([-0-9\.,\s]+) €")
+    pattern = re.compile(r"^(.*?):\s*([-0-9\.,\s\xa0\u202f]+)\s*€")
     totals = {}
 
     for file_path in [FILE_1, FILE_2]:
@@ -209,8 +203,23 @@ def run_calculate_kapital():
                     if not m:
                         continue
                     name, value = m.groups()
-                    value = float(value.replace("\xa0","").replace("\u202f","").replace(" ", "").replace(".", "").replace(",", "."))
-                    totals[name.strip()] = totals.get(name.strip(), 0) + value
+                    
+                    # Bereinige alle unsichtbaren Leerzeichen und Formatierungen
+                    value = value.replace("\xa0", "").replace("\u202f", "").replace(" ", "")
+                    
+                    # Deutsches Zahlenformat bereinigen:
+                    # Wenn wir ein Komma haben (z.B. 104.020.673,00 oder 12.345,67):
+                    if "," in value:
+                        value = value.replace(".", "")  # Tausenderpunkte weg
+                        value = value.replace(",", ".")  # Komma zu Punkt
+                    else:
+                        # Wenn kein Komma da ist, sind Punkte nur Tausendertrenner (z.B. 104.020.673)
+                        value = value.replace(".", "")
+                    
+                    try:
+                        totals[name.strip()] = totals.get(name.strip(), 0) + float(value)
+                    except ValueError as e:
+                        print(f"Fehler beim Konvertieren von {name} ({value}): {e}")
 
     sorted_totals = sorted(totals.items(), key=lambda x: x[1], reverse=True)
 
