@@ -19,9 +19,8 @@ MANAGERS = [
 def run_squad_value(kb):
     print("Starte: getSquadValue...")
     
-    # Verwende v3 statt v4, da der v4-Endpunkt für /users oft einen 404-Fehler wirft
     league_id = "2556726"
-    url = f"https://api.kickbase.com/v3/leagues/{league_id}/users"
+    url = f"https://api.kickbase.com/v4/leagues/{league_id}/users"
     
     response = kb.get_request(url)
     squad_values = {}
