@@ -1,18 +1,36 @@
 from kickbase_client import KickbaseClient
 
-def main():
-    kb = KickbaseClient()
-    login_response = kb.login()
-    kb.get_transfers()
-    kb.getSquadValue()
-    kb.calculateKontostand()
-    kb.calculateMaxBid()
-    kb.getMarketPlayers()
-    kb.getRealKontostand()
-    kb.CalculateKapital()
-    kb.UeberMarktGelaufen()
-    kb.AblaufSpieler()
+# Importiere die ausgelagerten Task-Funktionen
+from tasks.task_transfers import run_transfers, run_ueber_markt_gelaufen, run_ablauf_spieler
+from tasks.task_market_squad import run_squad_value, run_market_players
+from tasks.task_finances import (
+    run_calculate_kontostand,
+    run_calculate_max_bid,
+    run_real_kontostand,
+    run_calculate_kapital
+)
 
+def main():
+    # 1. API Client initialisieren & einloggen
+    kb = KickbaseClient()
+    kb.login()
+
+    # 2. Daten abfragen & speichern
+    run_transfers(kb)
+    run_squad_value(kb)
+    run_market_players(kb)
+    
+    # 3. Finanzen berechnen (Reihenfolge ist wichtig, da sie aufeinander aufbauen!)
+    run_calculate_kontostand()
+    run_calculate_max_bid()
+    run_real_kontostand()
+    run_calculate_kapital()
+
+    # 4. Zusätzliche Analysen
+    run_ueber_markt_gelaufen(kb)
+    run_ablauf_spieler(kb)
+
+    print("Alle Aufgaben erfolgreich ausgeführt!")
 
 if __name__ == "__main__":
     main()
