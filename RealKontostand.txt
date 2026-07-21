@@ -1,8 +1,8 @@
 Summen pro Nutzer (absteigend sortiert):
 
-Julian : 64.813.273 € (Kontostand: 61.000.000 €, Spieler auf dem Markt: 3.813.273 €)
-Philipp : 64.332.509 € (Kontostand: 52.500.000 €, Spieler auf dem Markt: 11.832.509 €)
-Vanilleeis23 : 53.408.567 € (Kontostand: 50.100.000 €, Spieler auf dem Markt: 3.308.567 €)
+Julian : 65.019.723 € (Kontostand: 61.000.000 €, Spieler auf dem Markt: 4.019.723 €)
+Philipp : 64.358.461 € (Kontostand: 52.500.000 €, Spieler auf dem Markt: 11.858.461 €)
+Vanilleeis23 : 53.418.268 € (Kontostand: 50.100.000 €, Spieler auf dem Markt: 3.318.268 €)
 Timo Kramer : 53.200.000 € (Kontostand: 53.200.000 €, Spieler auf dem Markt: 0 €)
 MirkoHengst : 52.800.000 € (Kontostand: 52.800.000 €, Spieler auf dem Markt: 0 €)
 Sascha187 : 52.700.000 € (Kontostand: 52.700.000 €, Spieler auf dem Markt: 0 €)
