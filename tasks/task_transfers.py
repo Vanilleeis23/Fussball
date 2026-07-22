@@ -69,8 +69,6 @@ def run_transfers(kb):
         with open(filename, "w", encoding="utf-8") as f:
             f.write("\n".join(new_lines + existing_lines) + "\n")
 
-from datetime import datetime, timedelta
-
 def run_ueber_markt_gelaufen(kb):
     print("Starte: UeberMarktGelaufen (Doppel-Datei-Logik)...")
     
