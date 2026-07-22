@@ -69,136 +69,92 @@ def run_transfers(kb):
         with open(filename, "w", encoding="utf-8") as f:
             f.write("\n".join(new_lines + existing_lines) + "\n")
 
+from datetime import datetime, timedelta
+
 def run_ueber_markt_gelaufen(kb):
-    print("Starte: UeberMarktGelaufen...")
+    print("Starte: UeberMarktGelaufen (Doppel-Datei-Logik)...")
     
     # 1. Activities Feed holen (die letzten 100 Events)
     url_feed = "https://api.kickbase.com/v4/leagues/2556726/activitiesFeed"
     response_feed = kb.get_request(url_feed, params={"start": 0, "max": 100})
     
-    # Sicherstellen, dass wir mit dem Dict arbeiten
     if hasattr(response_feed, "json"):
         data_feed = response_feed.json()
     else:
         data_feed = response_feed
         
     events = data_feed.get('af', [])
-
-    # 2. Aktuellen Transfermarkt holen
-    url_market = "https://api.kickbase.com/v4/leagues/2556726/market"
-    response_market = kb.get_request(url_market)
     
-    if hasattr(response_market, "json"):
-        data_market = response_market.json()
-    else:
-        data_market = response_market
-        
-    market_players = data_market.get("players", [])
-    
-    # Set aller Spieler, die AKTUELL von Kickbase auf dem Markt sind (kein 'username' / 'u' vorhanden)
-    # Wir bauen den vollen Namen "Vorname Nachname" für den Abgleich
-    players_currently_on_market = set()
-    for p in market_players:
-        if not p.get("username"): # Wenn username leer/None ist, gehört der Spieler Kickbase
-            full_name = f"{p.get('firstName', '')} {p.get('lastName', '')}".strip()
-            players_currently_on_market.add(full_name)
+    file_vergangenheit = "ÜberMarktGelaufen.txt"
+    file_zukunft = "Ablaufdatum.txt"
 
-    output_file = "ÜberMarktGelaufen.txt"
-
-    # 3. Bereits erfasste Einträge aus der Datei einlesen (Duplikatschutz)
+    # 2. Bereits bestehende Einträge aus dem Archiv einlesen
+    tracked_players = {}
     try:
-        with open(output_file, "r", encoding="utf-8") as f:
-            existing_lines = f.readlines()
+        with open(file_vergangenheit, "r", encoding="utf-8") as f:
+            for line in f:
+                if "| Datum: " in line:
+                    parts = line.strip().split("| Datum: ")
+                    name = parts[0].replace("Name: ", "").strip()
+                    dt_str = parts[1].strip()
+                    try:
+                        tracked_players[name] = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%SZ")
+                    except ValueError:
+                        continue
     except FileNotFoundError:
-        existing_lines = []
+        pass
 
-    existing_entries = set()
-    for line in existing_lines:
-        if "| Datum: " in line:
-            parts = line.strip().split("| Datum: ")
-            name = parts[0].replace("Name: ", "").strip()
-            dt = parts[1].strip()
-            existing_entries.add(f"{name}|{dt}")
-
-    # 4. Feed analysieren
-    seen_purchased_or_sold = set()
-    market_placements = []
-
-    # Wir laufen chronologisch durch (älteste zuerst, falls der Feed umgekehrt sortiert ist)
+    # 3. Feed chronologisch von alt nach neu durchlaufen
     for e in reversed(events):
         data_evt = e.get("data", {})
         
-        # Fall A: Spieler wurde gekauft oder verkauft -> Für "Über Markt gelaufen" gesperrt
-        if "slr" in data_evt or "byr" in data_evt:
-            pn = data_evt.get("pn") or data_evt.get("ln")
-            if pn:
-                seen_purchased_or_sold.add(pn.strip())
-            continue
-
-        # Fall B: Spieler wurde von Kickbase auf den Markt gesetzt (Typ 12)
-        # Kickbase nutzt hier oft 'ln' (oder 'pn') im Event-Objekt
-        if e.get("t") == 12 or "ln" in data_evt:
+        # Fall A: Spieler kommt auf den Markt
+        if e.get("t") == 12 or "exs" in data_evt:
             ln = data_evt.get("ln") or data_evt.get("pn")
             if ln:
                 ln = ln.strip()
-                dt_str = e.get("dt") # Z.B. "2026-07-21T10:15:30Z"
+                dt_str = e.get("dt")
+                dt_event = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%SZ")
                 
-                # Wenn er nicht gekauft wurde und aktuell NICHT mehr auf dem Markt ist
-                if ln not in seen_purchased_or_sold and ln not in players_currently_on_market:
-                    dt_event = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%SZ")
-                    
-                    # Kickbase-Markt-Dauer beträgt exakt 24 Stunden (1 Tag)
-                    dt_abgelaufen = dt_event + timedelta(days=1)
-                    dt_abgelaufen_str = dt_abgelaufen.strftime("%Y-%m-%dT%H:%M:%SZ")
+                # Ablaufzeitpunkt anhand der Restsekunden berechnen
+                expiration_seconds = data_evt.get("exs", 86400)
+                dt_abgelaufen = dt_event + timedelta(seconds=expiration_seconds)
+                
+                tracked_players[ln] = dt_abgelaufen
 
-                    key = f"{ln}|{dt_abgelaufen_str}"
-                    if key not in existing_entries:
-                        market_placements.append((dt_abgelaufen, ln))
-                        existing_entries.add(key)
+        # Fall B: Spieler wurde gekauft -> fliegt komplett aus dem Tracking
+        elif "slr" in data_evt or "byr" in data_evt:
+            pn = data_evt.get("pn") or data_evt.get("ln")
+            if pn:
+                pn = pn.strip()
+                if pn in tracked_players:
+                    del tracked_players[pn]
 
-    # 5. Neue Einträge anhängen
-    with open(output_file, "a", encoding="utf-8") as f:
-        for dt, ln in market_placements:
+    # 4. In Vergangenheit und Zukunft aufteilen
+    jetzt = datetime.utcnow()
+    sicher_abgelaufen = {}
+    aktuell_auf_markt = {}
+    
+    for name, dt_abgelaufen in tracked_players.items():
+        if dt_abgelaufen < jetzt:
+            sicher_abgelaufen[name] = dt_abgelaufen
+        else:
+            aktuell_auf_markt[name] = dt_abgelaufen
+
+    # 5. Beide Listen chronologisch sortieren (nächste Abläufe zuerst)
+    sorted_vergangenheit = sorted(sicher_abgelaufen.items(), key=lambda x: x[1])
+    sorted_zukunft = sorted(aktuell_auf_markt.items(), key=lambda x: x[1])
+
+    # 6. Archiv-Datei schreiben (ÜberMarktGelaufen.txt)
+    with open(file_vergangenheit, "w", encoding="utf-8") as f:
+        for name, dt in sorted_vergangenheit:
             dt_str = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-            f.write(f"Name: {ln} | Datum: {dt_str}\n")
-            print(f"Über Markt gelaufen: {ln} (am {dt_str})")
+            f.write(f"Name: {name} | Datum: {dt_str}\n")
 
-    # 6. Gesamte Datei einlesen und chronologisch nach Datum aufsteigend sortieren
-    try:
-        with open(output_file, "r", encoding="utf-8") as f:
-            all_lines = f.readlines()
-            
-        sortable = []
-        for line in all_lines:
-            if "| Datum: " in line:
-                parts = line.strip().split("| Datum: ")
-                dt_str = parts[1].strip()
-                try:
-                    dt = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%SZ")
-                    sortable.append((dt, line))
-                except ValueError:
-                    sortable.append((datetime.max, line))
-            else:
-                sortable.append((datetime.max, line))
+    # 7. Live-Vorschau-Datei schreiben (Ablaufdatum.txt)
+    with open(file_zukunft, "w", encoding="utf-8") as f:
+        for name, dt in sorted_zukunft:
+            dt_str = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+            f.write(f"Name: {name} | Ablaufdatum: {dt_str}\n")
 
-        sortable.sort(key=lambda x: x[0])
-        
-        with open(output_file, "w", encoding="utf-8") as f:
-            for _, line in sortable:
-                f.write(line)
-                
-    except Exception as e:
-        print(f"Fehler beim Sortieren der Datei: {e}")
-
-    print("ÜberMarktGelaufen erfolgreich aktualisiert!")
-
-def run_ablauf_spieler(kb):
-    print("Starte: AblaufSpieler...")
-    response = kb.get_request("https://api.kickbase.com/v4/leagues/2556726/market")
-    players = response.json()["it"]
-    for e in players:
-        if e['n'] == 'Palacios':
-            jetzt = datetime.now()
-            ablauf = jetzt + timedelta(seconds=e['exs'])
-            print("Aktuelle Zeit:", jetzt.strftime('%Y-%m-%d %H:%M:%S'))
-            print(e["n"], "läuft aus um:", ablauf.strftime('%Y-%m-%d %H:%M:%S'))
+    print(f"Update beendet! Archiv: {len(sorted_vergangenheit)} Spieler | Aktuell auf dem Markt: {len(sorted_zukunft)} Spieler.")
