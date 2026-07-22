@@ -44,10 +44,8 @@ def run_calculate_kontostand():
         if manager_clean in initial_kaderwerte:
             start_kader = initial_kaderwerte[manager_clean]
             balances[m] = 150_000_000 - start_kader
-            print(f"Startguthaben für {manager_clean}: {balances[m]:,.0f} € (Kaderwert war {start_kader:,.0f} €)")
         else:
             balances[m] = 50_000_000
-            print(f"WARNUNG: Kein Anfangs-Kaderwert für {manager_clean} gefunden. Starte mit 50.000.000 €")
 
     # 2. Spieltagsprämien (SPG.txt) dazurechnen
     if Path("SPG.txt").exists():
