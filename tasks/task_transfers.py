@@ -15,18 +15,23 @@ def extract_by_key(data, keys_to_find):
         for item in data:
             results.extend(extract_by_key(item, keys_to_find))
     return results
-
-def run_transfers(kb):
+    
+def get_transfers(kb):
     print("Starte: get_transfers...")
     url = "https://api.kickbase.com/v4/leagues/2556726/activitiesFeed"
     params = {"start": 0, "max": 10}
     response = kb.get_request(url, params=params)
     
-    if response.status_code == 200:
-        data = response.json()
+    # Da dein kb-Wrapper in den vorherigen Funktionen direkt Dicts 
+    # oder Response-Objekte geliefert hat, fangen wir beides sicher ab
+    if hasattr(response, "status_code"):
+        if response.status_code == 200:
+            data = response.json()
+        else:
+            print(f"Fehler bei Transfers: {response.status_code}")
+            return
     else:
-        print(f"Fehler bei Transfers: {response.status_code}")
-        return
+        data = response
 
     activities = data.get('af', [])
     keys_to_find = ['byr', 'slr', 'pn', 'trp']
@@ -53,7 +58,8 @@ def run_transfers(kb):
 
     filename = "Transactionen.txt"
     if not os.path.exists(filename):
-        open(filename, "w").close()
+        with open(filename, "w", encoding="utf-8") as f:
+            pass
 
     with open(filename, "r", encoding="utf-8") as f:
         existing_lines = [l.rstrip("\n") for l in f]
@@ -63,11 +69,42 @@ def run_transfers(kb):
         line = json.dumps(entry, ensure_ascii=False)
         if line not in existing_lines:
             new_lines.append(line)
-            print("Neue Transaction:", line)
+            
+            # --- HIER IST DIE NEUE SCHÖNE AUSGABE ---
+            try:
+                # Ein Eintrag sieht typischerweise so aus: [{"byr": "Manager"}, {"pn": "Spieler"}, {"trp": 1000000}]
+                # Wir extrahieren die Werte dynamisch, egal ob 'byr' oder 'slr' enthalten ist
+                manager = ""
+                action = ""
+                spieler = ""
+                preis = 0
+                
+                for item in entry:
+                    if "byr" in item:
+                        manager = item["byr"]
+                        action = "KAUF"
+                    elif "slr" in item:
+                        manager = item["slr"]
+                        action = "VERKAUF"
+                    elif "pn" in item:
+                        spieler = item["pn"]
+                    elif "trp" in item:
+                        preis = item["trp"]
+                
+                # Preis schön formatieren (z.B. 12.500.000 €)
+                preis_formatiert = f"{preis:,}".replace(",", ".") + " €"
+                
+                print(f" Neue Transaktion erfasst: [{action}] {manager} -> {spieler} für {preis_formatiert}")
+            except Exception:
+                # Fallback, falls die Struktur des Eintrags mal unerwartet ist
+                print(" Neue Transaktion erfasst (Rohdaten):", line)
+            # ----------------------------------------
 
     if new_lines:
         with open(filename, "w", encoding="utf-8") as f:
             f.write("\n".join(new_lines + existing_lines) + "\n")
+            
+    print(f"get_transfers beendet. {len(new_lines)} neue Transfers hinzugefügt.")
 
 def run_ueber_markt_gelaufen(kb):
     print("Starte: UeberMarktGelaufen (Doppel-Datei-Logik)...")
