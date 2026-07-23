@@ -4,25 +4,28 @@ from pathlib import Path
 def run_squad_value(kb):
     print("Starte: getSquadValue...")
     managers = {
-        "2446378": "CoachLeisi",
-        "165539": "Braunbär7",
-        "2218524": "Julian",
-        "2216931": "Timo Kramer",
-        "2202080": "Sascha187",
-        "2558680": "Joel",
-        "3183264": "MirkoHengst",
-        "3180066": "Philipp",
-        "2202088": "Robinho",
-        "717710": "Vincent",
-        "2219496": "Vanilleeis23"
-    }
+            "2446378": "CoachLeisi",
+            "165539": "Braunbär7",
+            "2218524": "Julian",
+            "2216931": "Timo Kramer",
+            "2202080": "Sascha187",
+            "2558680": "Joel",
+            "3183264": "MirkoHengst",
+            "3180066": "Philipp",
+            "2202088": "Robinho",
+            "717710": "Vincent",
+            "2219496": "Vanilleeis23"
+        }
     
     squad_values = []
     
     for m_id, name in managers.items():
         url = f"https://api.kickbase.com/v4/leagues/2556726/managers/{m_id}/dashboard"
-        response = kb.get_request(url)
-        data = response.json()
+        # response ist jetzt direkt das Dictionary dank der neuen get_request()
+        data = kb.get_request(url) 
+        
+        # Ab hier kannst du direkt mit 'data' arbeiten, z.B.:
+        # team_value = data.get("tv", 0)
         
         # Wert aus der API holen (meist als Float oder Int)
         value = data.get('tv', 0)
@@ -47,16 +50,21 @@ def run_market_players(kb):
     
     league_id = "2556726"
     url = f"https://api.kickbase.com/v4/leagues/{league_id}/market"
-    response = kb.get_request(url)
-    data = response.json()
+    
+    # 1. DIREKT das Dictionary nutzen (ohne .json())
+    data = kb.get_request(url)
 
     # Speichere die Marktspieler ab
     with open("MarketPlayer.txt", "w", encoding="utf-8") as f:
-         for p in data["it"]:
-            if "u" in p:
-                spieler_name = p["n"]
-                marktwert = p["mv"]
-                user_name = p["u"]["n"]
+        # 2. In v4 heißt die Liste "players" statt "it"
+        for p in data.get("players", []):
+            # 3. Wenn "username" existiert, gehört der Spieler einem Manager (nicht dem Computer)
+            if p.get("username"):
+                # Namen zusammensetzen
+                spieler_name = f"{p.get('firstName', '')} {p.get('lastName', '')}".strip()
+                marktwert = p.get("marketValue", 0)
+                user_name = p.get("username")
+                
                 f.write(f"{spieler_name} | {marktwert:,} € | {user_name}\n")
             
     print("Marktspieler erfolgreich aktualisiert!")

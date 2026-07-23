@@ -1,7 +1,7 @@
 from kickbase_client import KickbaseClient
 
 # Importiere die ausgelagerten Task-Funktionen
-from tasks.task_transfers import run_transfers, run_ueber_markt_gelaufen
+from tasks.task_transfers import get_transfers, run_ueber_markt_gelaufen
 from tasks.task_market_squad import run_squad_value, run_market_players
 from tasks.task_finances import (
     run_calculate_kontostand,
@@ -16,7 +16,7 @@ def main():
     kb.login()
 
     # 2. Daten abfragen & speichern
-    run_transfers(kb)
+    get_transfers(kb)
     run_squad_value(kb)
     run_market_players(kb)
     

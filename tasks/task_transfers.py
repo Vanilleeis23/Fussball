@@ -104,7 +104,7 @@ def get_transfers(kb):
         with open(filename, "w", encoding="utf-8") as f:
             f.write("\n".join(new_lines + existing_lines) + "\n")
             
-    print(f"get_transfers beendet. {len(new_lines)} neue Transfers hinzugefügt.")
+    print(f"Transferberechnung beendet. {len(new_lines)} neue Transfers hinzugefügt.")
 
 def run_ueber_markt_gelaufen(kb):
     print("Starte: UeberMarktGelaufen (Doppel-Datei-Logik)...")

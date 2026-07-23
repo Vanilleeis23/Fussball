@@ -129,6 +129,8 @@ def run_calculate_kontostand():
             formatted_balance = f"{int(balance):,}".replace(",", ".")
             f.write(f"{manager} : {formatted_balance} €\n")
 
+    print("Kontostand erfolgreich berechnet!")
+
 
 def run_calculate_max_bid():
     print("Starte: calculateMaxBid...")
@@ -175,7 +177,7 @@ def run_calculate_max_bid():
             formatted_betrag = f"{int(betrag):,}".replace(",", ".")
             out.write(f"{name} : {formatted_betrag} €\n")
             
-    print("Max Bid erfolgreich berechnet!")
+    print("Maximales Gebot erfolgreich berechnet!")
 
 
 def run_real_kontostand():
@@ -226,6 +228,7 @@ def run_real_kontostand():
                 f"{user} : {fmt(total)} € "
                 f"(Kontostand: {fmt(balance)} €, Spieler auf dem Markt: {fmt(market_value)} €)\n"
             )
+    print("Realer Kontostand erfolgreich berechnet!")
 
 
 def run_calculate_kapital():
