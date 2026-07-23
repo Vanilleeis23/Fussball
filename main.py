@@ -9,6 +9,7 @@ from tasks.task_finances import (
     run_real_kontostand,
     run_calculate_kapital
 )
+from tasks.task_html_dashboard import run_generate_html_dashboard
 
 def main():
     # 1. API Client initialisieren & einloggen
@@ -28,6 +29,7 @@ def main():
 
     # 4. Zusätzliche Analysen
     run_ueber_markt_gelaufen(kb)
+    run_generate_html_dashboard()
     print("Alle Aufgaben erfolgreich ausgeführt!")
 
 if __name__ == "__main__":
