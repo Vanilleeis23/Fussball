@@ -7,48 +7,51 @@ def read_raw_line_from_file(filename, manager_name, default_value="0 €"):
     nach dem Doppelpunkt exakt so zurück, wie er in der Datei steht.
     """
     if not os.path.exists(filename):
+        print(f"Warnung: Datei {filename} wurde nicht gefunden.")
         return default_value
     try:
         with open(filename, "r", encoding="utf-8") as f:
             for line in f:
-                if manager_name.lower() in line.lower():
-                    if ":" in line:
-                        return line.split(":", 1)[1].strip()
-                    return line.strip()
+                if ":" in line:
+                    parts = line.split(":", 1)
+                    name_part = parts[0].strip()
+                    value_part = parts[1].strip()
+                    if manager_name.lower() == name_part.lower():
+                        return value_part
     except Exception as e:
         print(f"Fehler beim Lesen von {filename} für {manager_name}: {e}")
     return default_value
 
 def read_numeric_value_from_file(filename, manager_name, default_value=0):
     """
-    Hilfsfunktion für rein numerische Spalten (wie Teamwert, Kapital, MaxBid).
+    Trennt die Zeile am Doppelpunkt, gleicht den Namen ab und filtert 
+    dann alle Ziffern aus dem Wert-Teil heraus.
     """
     if not os.path.exists(filename):
+        print(f"Warnung: Datei {filename} wurde nicht gefunden.")
         return default_value
     try:
         with open(filename, "r", encoding="utf-8") as f:
             for line in f:
-                if manager_name.lower() in line.lower():
-                    if ":" in line:
-                        content = line.split(":", 1)[1]
-                    else:
-                        start_idx = line.lower().find(manager_name.lower()) + len(manager_name)
-                        content = line[start_idx:]
-                    clean_chars = [c for c in content if c.isdigit() or c == '-']
-                    clean_val = "".join(clean_chars)
-                    if clean_val:
-                        return int(clean_val)
+                if ":" in line:
+                    parts = line.split(":", 1)
+                    name_part = parts[0].strip()
+                    value_part = parts[1].strip()
+                    
+                    # Exakter Abgleich (ignoriert Groß-/Kleinschreibung)
+                    if manager_name.lower() == name_part.lower():
+                        clean_chars = [c for c in value_part if c.isdigit() or c == '-']
+                        clean_val = "".join(clean_chars)
+                        if clean_val:
+                            return int(clean_val)
     except Exception as e:
         print(f"Fehler beim numerischen Lesen von {filename} für {manager_name}: {e}")
     return default_value
 
 def extract_first_number_from_string(text_str):
     """
-    Spezialfunktion für den Realen Kontostand: Isoliert die allererste Zahl vor 
-    der Klammer (z.B. aus '61.000.000 € (Kontostand...)'), damit das JavaScript 
-    die Tabelle korrekt sortieren kann.
+    Isoliert die allererste Zahl vor der Klammer für die Sortierung des Realen Kontostands.
     """
-    # Wir betrachten nur den Teil vor der ersten Klammer
     main_part = text_str.split("(")[0]
     clean_chars = [c for c in main_part if c.isdigit() or c == '-']
     clean_val = "".join(clean_chars)
@@ -69,13 +72,12 @@ def run_generate_html_dashboard():
     display_data = []
     
     for m_id, name in managers.items():
-        team_wert = read_numeric_value_from_file("Teamwerte.txt", name, default_value=0)
-        max_bid = read_numeric_value_from_file("MaxBid.txt", name, default_value=0)
+        # HIER ANGEPASST: Exakte Dateinamen aus deiner Struktur
+        team_wert = read_numeric_value_from_file("Kaderwert.txt", name, default_value=0)
+        max_bid = read_numeric_value_from_file("MaxBide.txt", name, default_value=0)
         kapital = read_numeric_value_from_file("Kapital.txt", name, default_value=0)
         
-        # Holt den kompletten formatierten Text
         realer_kontostand_text = read_raw_line_from_file("RealKontostand.txt", name, default_value="0 €")
-        # Extrahiert die erste Zahl (den Gesamtwert) für die Sortierung im Hintergrund
         realer_kontostand_num = extract_first_number_from_string(realer_kontostand_text)
         
         markt_spieler = ["Keine"] 
@@ -226,7 +228,6 @@ def run_generate_html_dashboard():
                         <tr>
                             <td class="manager-name">{manager['name']}</td>
                             <td class="number" data-val="{manager['team_wert']}" style="color: #4ade80;">{tw} €</td>
-                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
                             <td class="real-kontostand-cell" data-val="{manager['realer_kontostand_num']}" style="color: #fbbf24;">{manager['realer_kontostand_text']}</td>
                             <td class="number" data-val="{manager['kapital']}" style="color: #a78bfa;">{kap} €</td>
                             <td class="number" data-val="{manager['max_bid']}" style="color: #f87171;">{mb} €</td>
@@ -310,4 +311,4 @@ def run_generate_html_dashboard():
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html_content)
         
-    print("index.html erfolgreich mit detailliertem Realen Kontostand generiert!")
+    print("index.html erfolgreich mit den korrekten Dateien eingelesen!")
