@@ -1,10 +1,10 @@
 import os
 import json
 
-def read_value_from_file(filename, manager_name, default_value=0):
+def read_raw_line_from_file(filename, manager_name, default_value="0 €"):
     """
-    Hilfsfunktion, um einen Wert für einen bestimmten Manager aus einer TXT-Datei zu lesen.
-    Unterstützt Formate wie 'Managername: 123456' oder rohen Text.
+    Liest die komplette Zeile für einen Manager aus und gibt den Text 
+    nach dem Doppelpunkt exakt so zurück, wie er in der Datei steht.
     """
     if not os.path.exists(filename):
         return default_value
@@ -12,13 +12,49 @@ def read_value_from_file(filename, manager_name, default_value=0):
         with open(filename, "r", encoding="utf-8") as f:
             for line in f:
                 if manager_name.lower() in line.lower():
-                    parts = line.split(":")
-                    if len(parts) > 1:
-                        clean_val = parts[1].replace("€", "").replace(".", "").replace(",", "").strip()
-                        return int(clean_val)
+                    if ":" in line:
+                        return line.split(":", 1)[1].strip()
+                    return line.strip()
     except Exception as e:
         print(f"Fehler beim Lesen von {filename} für {manager_name}: {e}")
     return default_value
+
+def read_numeric_value_from_file(filename, manager_name, default_value=0):
+    """
+    Hilfsfunktion für rein numerische Spalten (wie Teamwert, Kapital, MaxBid).
+    """
+    if not os.path.exists(filename):
+        return default_value
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            for line in f:
+                if manager_name.lower() in line.lower():
+                    if ":" in line:
+                        content = line.split(":", 1)[1]
+                    else:
+                        start_idx = line.lower().find(manager_name.lower()) + len(manager_name)
+                        content = line[start_idx:]
+                    clean_chars = [c for c in content if c.isdigit() or c == '-']
+                    clean_val = "".join(clean_chars)
+                    if clean_val:
+                        return int(clean_val)
+    except Exception as e:
+        print(f"Fehler beim numerischen Lesen von {filename} für {manager_name}: {e}")
+    return default_value
+
+def extract_first_number_from_string(text_str):
+    """
+    Spezialfunktion für den Realen Kontostand: Isoliert die allererste Zahl vor 
+    der Klammer (z.B. aus '61.000.000 € (Kontostand...)'), damit das JavaScript 
+    die Tabelle korrekt sortieren kann.
+    """
+    # Wir betrachten nur den Teil vor der ersten Klammer
+    main_part = text_str.split("(")[0]
+    clean_chars = [c for c in main_part if c.isdigit() or c == '-']
+    clean_val = "".join(clean_chars)
+    if clean_val:
+        return int(clean_val)
+    return 0
 
 def run_generate_html_dashboard():
     print("Starte: run_generate_html_dashboard...")
@@ -33,26 +69,29 @@ def run_generate_html_dashboard():
     display_data = []
     
     for m_id, name in managers.items():
-        team_wert = read_value_from_file("Teamwerte.txt", name, default_value=0)
-        kontostand = read_value_from_file("Kontostaende.txt", name, default_value=0)
-        realer_kontostand = read_value_from_file("RealKontostand.txt", name, default_value=0)
-        max_bid = read_value_from_file("MaxBid.txt", name, default_value=0)
-        kapital = read_value_from_file("Kapital.txt", name, default_value=0)
+        team_wert = read_numeric_value_from_file("Teamwerte.txt", name, default_value=0)
+        max_bid = read_numeric_value_from_file("MaxBid.txt", name, default_value=0)
+        kapital = read_numeric_value_from_file("Kapital.txt", name, default_value=0)
+        
+        # Holt den kompletten formatierten Text
+        realer_kontostand_text = read_raw_line_from_file("RealKontostand.txt", name, default_value="0 €")
+        # Extrahiert die erste Zahl (den Gesamtwert) für die Sortierung im Hintergrund
+        realer_kontostand_num = extract_first_number_from_string(realer_kontostand_text)
         
         markt_spieler = ["Keine"] 
 
         display_data.append({
             "name": name,
             "team_wert": team_wert,
-            "kontostand": kontostand,
-            "realer_kontostand": realer_kontostand,
+            "realer_kontostand_text": realer_kontostand_text,
+            "realer_kontostand_num": realer_kontostand_num,
             "kapital": kapital,
             "max_bid": max_bid,
             "markt_spieler": ", ".join(markt_spieler)
         })
 
-    # Standard-Sortierung auf der Website: Höchster realer Kontostand zuerst
-    display_data.sort(key=lambda x: x.get('realer_kontostand', 0), reverse=True)
+    # Standard-Sortierung: Höchster realer Kontostand zuerst
+    display_data.sort(key=lambda x: x.get('realer_kontostand_num', 0), reverse=True)
 
     # -------------------------------------------------------------------------
     # 2. TRANSFAKTIVITÄTEN AUSLESEN (Rechte Spalte)
@@ -62,7 +101,7 @@ def run_generate_html_dashboard():
         try:
             with open("Transactionen.txt", "r", encoding="utf-8") as f:
                 lines = f.readlines()
-                for line in lines[-5:]: # Die letzten 5 Transfers
+                for line in lines[-5:]:
                     line = line.strip()
                     if not line: continue
                     entry = json.loads(line)
@@ -89,25 +128,22 @@ def run_generate_html_dashboard():
         transfer_rows_html = "<tr><td colspan='4'>Noch keine Transfers aufgezeichnet.</td></tr>"
 
     # -------------------------------------------------------------------------
-    # 3. SPIELER ÜBER MARKT GELAUFEN AUSLESEN (NEU, Rechte Spalte unten)
+    # 3. SPIELER ÜBER MARKT GELAUFEN AUSLESEN (Rechte Spalte unten)
     # -------------------------------------------------------------------------
     markt_verlauf_rows_html = ""
     if os.path.exists("ÜberMarktGelaufen.txt"):
         try:
             with open("ÜberMarktGelaufen.txt", "r", encoding="utf-8") as f:
                 lines = f.readlines()
-                # Zeigt die letzten 8 Einträge an, damit die Liste aktuell bleibt
                 for line in lines[-8:]:
                     line = line.strip()
                     if not line: continue
                     
-                    # Falls das Format z.B. "Spielername: Marktwert/Info" ist
                     if ":" in line:
                         parts = line.split(":", 1)
                         s_name = parts[0].strip()
                         s_info = parts[1].strip()
                         
-                        # Versuche Zahlenwerte schön als Währung zu formatieren
                         try:
                             clean_info = s_info.replace("€", "").replace(".", "").replace(",", "").strip()
                             num_info = int(clean_info)
@@ -121,15 +157,12 @@ def run_generate_html_dashboard():
                             <td style="text-align: right; color: #94a3b8;">{s_info}</td>
                         </tr>"""
                     else:
-                        # Einfache Zeile, falls kein Trennzeichen vorhanden ist
                         markt_verlauf_rows_html += f"""
                         <tr>
                             <td colspan="2" style="color: #e2e8f0;">{line}</td>
                         </tr>"""
         except Exception as e:
             markt_verlauf_rows_html = f"<tr><td colspan='2'>Fehler beim Lesen der Markt-Historie: {e}</td></tr>"
-    else:
-        markt_verlauf_rows_html = "<tr><td colspan='2'>Keine Einträge in ÜberMarktGelaufen.txt gefunden.</td></tr>"
 
     # -------------------------------------------------------------------------
     # 4. HTML & CSS GENERIEREN
@@ -142,10 +175,10 @@ def run_generate_html_dashboard():
     <title>Kickbase Liga Dashboard</title>
     <style>
         body {{ font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0f172a; margin: 0; padding: 20px; color: #e2e8f0; }}
-        .container {{ max-width: 1550px; margin: 0 auto; }}
+        .container {{ max-width: 1650px; margin: 0 auto; }}
         h1 {{ text-align: center; color: #fff; margin-bottom: 30px; font-size: 2.5em; text-shadow: 0 2px 4px rgba(0,0,0,0.5); }}
         .grid {{ display: grid; grid-template-columns: 1fr; gap: 20px; }}
-        @media(min-width: 1024px) {{ .grid {{ grid-template-columns: 3.5fr 1.5fr; }} }}
+        @media(min-width: 1280px) {{ .grid {{ grid-template-columns: 3.4fr 1.6fr; }} }}
         .card {{ background: #1e293b; padding: 24px; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3); border: 1px solid #334155; overflow-x: auto; margin-bottom: 20px; }}
         h2 {{ margin-top: 0; color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 10px; }}
         table {{ width: 100%; border-collapse: collapse; margin-top: 10px; }}
@@ -156,8 +189,9 @@ def run_generate_html_dashboard():
         th.sort-desc::after {{ content: " ▾"; }}
         tr:hover {{ background-color: #161e2e; }}
         .number {{ text-align: right; font-variant-numeric: tabular-nums; font-weight: 500; }}
+        .real-kontostand-cell {{ white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 500; text-align: left; }}
         .manager-name {{ font-weight: bold; color: #fff; }}
-        .players-list {{ font-size: 0.85em; color: #94a3b8; max-width: 180px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
+        .players-list {{ font-size: 0.85em; color: #94a3b8; max-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
         .players-list:hover {{ white-space: normal; overflow: visible; }}
     </style>
 </head>
@@ -174,10 +208,9 @@ def run_generate_html_dashboard():
                         <tr>
                             <th onclick="sortTable(0, 'str')">Manager</th>
                             <th class="number" onclick="sortTable(1, 'num')">Teamwert</th>
-                            <th class="number" onclick="sortTable(2, 'num')">Kontostand</th>
-                            <th class="number" onclick="sortTable(3, 'num')">Realer Konto</th>
-                            <th class="number" onclick="sortTable(4, 'num')">Kapital</th>
-                            <th class="number" onclick="sortTable(5, 'num')">Max Bid</th>
+                            <th onclick="sortTable(2, 'num')">Realer Konto</th>
+                            <th class="number" onclick="sortTable(3, 'num')">Kapital</th>
+                            <th class="number" onclick="sortTable(4, 'num')">Max Bid</th>
                             <th>Spieler auf Markt</th>
                         </tr>
                     </thead>
@@ -186,8 +219,6 @@ def run_generate_html_dashboard():
 
     for manager in display_data:
         tw = f"{manager['team_wert']:,}".replace(",", ".")
-        ks = f"{manager['kontostand']:,}".replace(",", ".")
-        rk = f"{manager['realer_kontostand']:,}".replace(",", ".")
         kap = f"{manager['kapital']:,}".replace(",", ".")
         mb = f"{manager['max_bid']:,}".replace(",", ".")
 
@@ -195,8 +226,8 @@ def run_generate_html_dashboard():
                         <tr>
                             <td class="manager-name">{manager['name']}</td>
                             <td class="number" data-val="{manager['team_wert']}" style="color: #4ade80;">{tw} €</td>
-                            <td class="number" data-val="{manager['kontostand']}" style="color: #38bdf8;">{ks} €</td>
-                            <td class="number" data-val="{manager['realer_kontostand']}" style="color: #fbbf24;">{rk} €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="{manager['realer_kontostand_num']}" style="color: #fbbf24;">{manager['realer_kontostand_text']}</td>
                             <td class="number" data-val="{manager['kapital']}" style="color: #a78bfa;">{kap} €</td>
                             <td class="number" data-val="{manager['max_bid']}" style="color: #f87171;">{mb} €</td>
                             <td class="players-list" title="{manager['markt_spieler']}">{manager['markt_spieler']}</td>
@@ -207,7 +238,7 @@ def run_generate_html_dashboard():
                 </table>
             </div>
 
-            <!-- Rechte Spalte: Aktivitäten & Markt-Log -->
+            <!-- Rechte Spalte -->
             <div>
                 <div class="card">
                     <h2>Letzte Transfers</h2>
@@ -279,4 +310,4 @@ def run_generate_html_dashboard():
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html_content)
         
-    print("index.html erfolgreich inklusive Markt-Verlauf generiert!")
+    print("index.html erfolgreich mit detailliertem Realen Kontostand generiert!")
