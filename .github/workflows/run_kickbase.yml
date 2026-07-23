@@ -10,45 +10,42 @@ jobs:
   run-script:
     runs-on: ubuntu-latest
 
-  # (Hinweis: Lokal auf deinem PC wird diese Datei ignoriert – sie steuert nur GitHub)
-  steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
-      with:
-        # Erlaubt das Zurückschreiben ins Repository
-        token: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          # Erlaubt das Zurückschreiben ins Repository
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-    - name: Install dependencies
-      run: |
-            python -m pip install --upgrade pip
-            pip install requests python-dotenv
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests python-dotenv
 
-    - name: Run Kickbase Script
-      env:
-        # HIER KORRIGIERT: Die Namen links müssen exakt zu deinem Code passen (KB_USER / KB_PASSWORD)
-        # Die Namen rechts in den Klammern müssen exakt so heißen wie deine Secrets auf GitHub.
-        KB_USER: ${{ secrets.KICKBASE_EMAIL }}
-        KB_PASSWORD: ${{ secrets.KICKBASE_PASSWORD }}
-      run: |
-        python main.py
+      - name: Run Kickbase Script
+        env:
+          KB_USER: ${{ secrets.KICKBASE_EMAIL }}
+          KB_PASSWORD: ${{ secrets.KICKBASE_PASSWORD }}
+        run: |
+          python main.py
 
-    - name: Commit and Push changes
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        
-        # HIER ERWEITERT: Fügt neben den TXT-Dateien auch die neue HTML-Webseite hinzu
-        git add *.txt index.html
-        
-        # Nur committen, wenn es tatsächlich Änderungen gab
-        if git diff --cached --quiet; then
-          echo "Keine Änderungen festgestellt."
-        else
-          git commit -m "Auto-Update: Kickbase Daten & Dashboard aktualisiert [skip ci]"
-          git push
-        fi
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Fügt neben den TXT-Dateien auch die neue HTML-Webseite hinzu
+          git add *.txt index.html
+          
+          # Nur committen, wenn es tatsächlich Änderungen gab
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen festgestellt."
+          else
+            git commit -m "Auto-Update: Kickbase Daten & Dashboard aktualisiert [skip ci]"
+            git push
+          fi
