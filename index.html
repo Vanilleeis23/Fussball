@@ -6,10 +6,10 @@
     <title>Kickbase Liga Dashboard</title>
     <style>
         body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0f172a; margin: 0; padding: 20px; color: #e2e8f0; }
-        .container { max-width: 1550px; margin: 0 auto; }
+        .container { max-width: 1650px; margin: 0 auto; }
         h1 { text-align: center; color: #fff; margin-bottom: 30px; font-size: 2.5em; text-shadow: 0 2px 4px rgba(0,0,0,0.5); }
         .grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
-        @media(min-width: 1024px) { .grid { grid-template-columns: 3.5fr 1.5fr; } }
+        @media(min-width: 1280px) { .grid { grid-template-columns: 3.4fr 1.6fr; } }
         .card { background: #1e293b; padding: 24px; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3); border: 1px solid #334155; overflow-x: auto; margin-bottom: 20px; }
         h2 { margin-top: 0; color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 10px; }
         table { width: 100%; border-collapse: collapse; margin-top: 10px; }
@@ -20,8 +20,9 @@
         th.sort-desc::after { content: " ▾"; }
         tr:hover { background-color: #161e2e; }
         .number { text-align: right; font-variant-numeric: tabular-nums; font-weight: 500; }
+        .real-kontostand-cell { white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 500; text-align: left; }
         .manager-name { font-weight: bold; color: #fff; }
-        .players-list { font-size: 0.85em; color: #94a3b8; max-width: 180px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .players-list { font-size: 0.85em; color: #94a3b8; max-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .players-list:hover { white-space: normal; overflow: visible; }
     </style>
 </head>
@@ -38,38 +39,19 @@
                         <tr>
                             <th onclick="sortTable(0, 'str')">Manager</th>
                             <th class="number" onclick="sortTable(1, 'num')">Teamwert</th>
-                            <th class="number" onclick="sortTable(2, 'num')">Kontostand</th>
-                            <th class="number" onclick="sortTable(3, 'num')">Realer Konto</th>
-                            <th class="number" onclick="sortTable(4, 'num')">Kapital</th>
-                            <th class="number" onclick="sortTable(5, 'num')">Max Bid</th>
+                            <th onclick="sortTable(2, 'num')">Realer Konto</th>
+                            <th class="number" onclick="sortTable(3, 'num')">Kapital</th>
+                            <th class="number" onclick="sortTable(4, 'num')">Max Bid</th>
                             <th>Spieler auf Markt</th>
                         </tr>
                     </thead>
                     <tbody>
 
                         <tr>
-                            <td class="manager-name">CoachLeisi</td>
-                            <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
-                            <td class="number" data-val="0" style="color: #38bdf8;">0 €</td>
-                            <td class="number" data-val="0" style="color: #fbbf24;">0 €</td>
-                            <td class="number" data-val="160117076" style="color: #a78bfa;">160.117.076 €</td>
-                            <td class="number" data-val="0" style="color: #f87171;">0 €</td>
-                            <td class="players-list" title="Keine">Keine</td>
-                        </tr>
-                        <tr>
-                            <td class="manager-name">Braunbär7</td>
-                            <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
-                            <td class="number" data-val="0" style="color: #38bdf8;">0 €</td>
-                            <td class="number" data-val="0" style="color: #fbbf24;">0 €</td>
-                            <td class="number" data-val="226082164" style="color: #a78bfa;">226.082.164 €</td>
-                            <td class="number" data-val="0" style="color: #f87171;">0 €</td>
-                            <td class="players-list" title="Keine">Keine</td>
-                        </tr>
-                        <tr>
                             <td class="manager-name">Julian</td>
                             <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
-                            <td class="number" data-val="0" style="color: #38bdf8;">0 €</td>
-                            <td class="number" data-val="0" style="color: #fbbf24;">0 €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="61000000" style="color: #fbbf24;">61.000.000 € (Kontostand: 61.000.000 €, Spieler auf dem Markt: 0 €)</td>
                             <td class="number" data-val="217543124" style="color: #a78bfa;">217.543.124 €</td>
                             <td class="number" data-val="0" style="color: #f87171;">0 €</td>
                             <td class="players-list" title="Keine">Keine</td>
@@ -77,53 +59,53 @@
                         <tr>
                             <td class="manager-name">Timo Kramer</td>
                             <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
-                            <td class="number" data-val="0" style="color: #38bdf8;">0 €</td>
-                            <td class="number" data-val="0" style="color: #fbbf24;">0 €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="53200000" style="color: #fbbf24;">53.200.000 € (Kontostand: 53.200.000 €, Spieler auf dem Markt: 0 €)</td>
                             <td class="number" data-val="231388319" style="color: #a78bfa;">231.388.319 €</td>
-                            <td class="number" data-val="0" style="color: #f87171;">0 €</td>
-                            <td class="players-list" title="Keine">Keine</td>
-                        </tr>
-                        <tr>
-                            <td class="manager-name">Sascha187</td>
-                            <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
-                            <td class="number" data-val="0" style="color: #38bdf8;">0 €</td>
-                            <td class="number" data-val="0" style="color: #fbbf24;">0 €</td>
-                            <td class="number" data-val="224344427" style="color: #a78bfa;">224.344.427 €</td>
-                            <td class="number" data-val="0" style="color: #f87171;">0 €</td>
-                            <td class="players-list" title="Keine">Keine</td>
-                        </tr>
-                        <tr>
-                            <td class="manager-name">Joel</td>
-                            <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
-                            <td class="number" data-val="0" style="color: #38bdf8;">0 €</td>
-                            <td class="number" data-val="0" style="color: #fbbf24;">0 €</td>
-                            <td class="number" data-val="251266979" style="color: #a78bfa;">251.266.979 €</td>
                             <td class="number" data-val="0" style="color: #f87171;">0 €</td>
                             <td class="players-list" title="Keine">Keine</td>
                         </tr>
                         <tr>
                             <td class="manager-name">MirkoHengst</td>
                             <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
-                            <td class="number" data-val="0" style="color: #38bdf8;">0 €</td>
-                            <td class="number" data-val="0" style="color: #fbbf24;">0 €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="52800000" style="color: #fbbf24;">52.800.000 € (Kontostand: 52.800.000 €, Spieler auf dem Markt: 0 €)</td>
                             <td class="number" data-val="255167693" style="color: #a78bfa;">255.167.693 €</td>
+                            <td class="number" data-val="0" style="color: #f87171;">0 €</td>
+                            <td class="players-list" title="Keine">Keine</td>
+                        </tr>
+                        <tr>
+                            <td class="manager-name">Sascha187</td>
+                            <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="52700000" style="color: #fbbf24;">52.700.000 € (Kontostand: 52.700.000 €, Spieler auf dem Markt: 0 €)</td>
+                            <td class="number" data-val="224344427" style="color: #a78bfa;">224.344.427 €</td>
                             <td class="number" data-val="0" style="color: #f87171;">0 €</td>
                             <td class="players-list" title="Keine">Keine</td>
                         </tr>
                         <tr>
                             <td class="manager-name">Philipp</td>
                             <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
-                            <td class="number" data-val="0" style="color: #38bdf8;">0 €</td>
-                            <td class="number" data-val="0" style="color: #fbbf24;">0 €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="52500000" style="color: #fbbf24;">52.500.000 € (Kontostand: 52.500.000 €, Spieler auf dem Markt: 0 €)</td>
                             <td class="number" data-val="215140528" style="color: #a78bfa;">215.140.528 €</td>
+                            <td class="number" data-val="0" style="color: #f87171;">0 €</td>
+                            <td class="players-list" title="Keine">Keine</td>
+                        </tr>
+                        <tr>
+                            <td class="manager-name">Braunbär7</td>
+                            <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="51850000" style="color: #fbbf24;">51.850.000 € (Kontostand: 51.850.000 €, Spieler auf dem Markt: 0 €)</td>
+                            <td class="number" data-val="226082164" style="color: #a78bfa;">226.082.164 €</td>
                             <td class="number" data-val="0" style="color: #f87171;">0 €</td>
                             <td class="players-list" title="Keine">Keine</td>
                         </tr>
                         <tr>
                             <td class="manager-name">Robinho</td>
                             <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
-                            <td class="number" data-val="0" style="color: #38bdf8;">0 €</td>
-                            <td class="number" data-val="0" style="color: #fbbf24;">0 €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="51600000" style="color: #fbbf24;">51.600.000 € (Kontostand: 51.600.000 €, Spieler auf dem Markt: 0 €)</td>
                             <td class="number" data-val="201818529" style="color: #a78bfa;">201.818.529 €</td>
                             <td class="number" data-val="0" style="color: #f87171;">0 €</td>
                             <td class="players-list" title="Keine">Keine</td>
@@ -131,17 +113,35 @@
                         <tr>
                             <td class="manager-name">Vincent</td>
                             <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
-                            <td class="number" data-val="0" style="color: #38bdf8;">0 €</td>
-                            <td class="number" data-val="0" style="color: #fbbf24;">0 €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="50900000" style="color: #fbbf24;">50.900.000 € (Kontostand: 50.900.000 €, Spieler auf dem Markt: 0 €)</td>
                             <td class="number" data-val="182896795" style="color: #a78bfa;">182.896.795 €</td>
+                            <td class="number" data-val="0" style="color: #f87171;">0 €</td>
+                            <td class="players-list" title="Keine">Keine</td>
+                        </tr>
+                        <tr>
+                            <td class="manager-name">CoachLeisi</td>
+                            <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="50600000" style="color: #fbbf24;">50.600.000 € (Kontostand: 50.600.000 €, Spieler auf dem Markt: 0 €)</td>
+                            <td class="number" data-val="160117076" style="color: #a78bfa;">160.117.076 €</td>
+                            <td class="number" data-val="0" style="color: #f87171;">0 €</td>
+                            <td class="players-list" title="Keine">Keine</td>
+                        </tr>
+                        <tr>
+                            <td class="manager-name">Joel</td>
+                            <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="50100000" style="color: #fbbf24;">50.100.000 € (Kontostand: 50.100.000 €, Spieler auf dem Markt: 0 €)</td>
+                            <td class="number" data-val="251266979" style="color: #a78bfa;">251.266.979 €</td>
                             <td class="number" data-val="0" style="color: #f87171;">0 €</td>
                             <td class="players-list" title="Keine">Keine</td>
                         </tr>
                         <tr>
                             <td class="manager-name">Vanilleeis23</td>
                             <td class="number" data-val="0" style="color: #4ade80;">0 €</td>
-                            <td class="number" data-val="0" style="color: #38bdf8;">0 €</td>
-                            <td class="number" data-val="0" style="color: #fbbf24;">0 €</td>
+                            <!-- Gibt die komplette Zeile mit den Klammerwerten aus -->
+                            <td class="real-kontostand-cell" data-val="50100000" style="color: #fbbf24;">50.100.000 € (Kontostand: 50.100.000 €, Spieler auf dem Markt: 0 €)</td>
                             <td class="number" data-val="211257574" style="color: #a78bfa;">211.257.574 €</td>
                             <td class="number" data-val="0" style="color: #f87171;">0 €</td>
                             <td class="players-list" title="Keine">Keine</td>
@@ -150,7 +150,7 @@
                 </table>
             </div>
 
-            <!-- Rechte Spalte: Aktivitäten & Markt-Log -->
+            <!-- Rechte Spalte -->
             <div>
                 <div class="card">
                     <h2>Letzte Transfers</h2>
