@@ -3,8 +3,8 @@ import json
 
 def read_raw_line_from_file(filename, manager_name, default_value="0 €"):
     """
-    Liest die komplette Zeile für einen Manager aus und gibt den Text 
-    nach dem Doppelpunkt exakt so zurück, wie er in der Datei steht.
+    Liest die komplette Zeile aus, splittet am Doppelpunkt und prüft,
+    ob der gesuchte Managername im linken Teil enthalten ist.
     """
     if not os.path.exists(filename):
         print(f"Warnung: Datei {filename} wurde nicht gefunden.")
@@ -14,9 +14,11 @@ def read_raw_line_from_file(filename, manager_name, default_value="0 €"):
             for line in f:
                 if ":" in line:
                     parts = line.split(":", 1)
-                    name_part = parts[0].strip()
+                    name_part = parts[0].strip().lower()
                     value_part = parts[1].strip()
-                    if manager_name.lower() == name_part.lower():
+                    
+                    # Fehlertoleranter Abgleich per "in" statt "=="
+                    if manager_name.lower() in name_part:
                         return value_part
     except Exception as e:
         print(f"Fehler beim Lesen von {filename} für {manager_name}: {e}")
@@ -24,8 +26,8 @@ def read_raw_line_from_file(filename, manager_name, default_value="0 €"):
 
 def read_numeric_value_from_file(filename, manager_name, default_value=0):
     """
-    Trennt die Zeile am Doppelpunkt, gleicht den Namen ab und filtert 
-    dann alle Ziffern aus dem Wert-Teil heraus.
+    Sucht den Managernamen im linken Teil des Doppelpunkts und
+    extrahiert alle Ziffern aus dem rechten Teil.
     """
     if not os.path.exists(filename):
         print(f"Warnung: Datei {filename} wurde nicht gefunden.")
@@ -35,11 +37,11 @@ def read_numeric_value_from_file(filename, manager_name, default_value=0):
             for line in f:
                 if ":" in line:
                     parts = line.split(":", 1)
-                    name_part = parts[0].strip()
+                    name_part = parts[0].strip().lower()
                     value_part = parts[1].strip()
                     
-                    # Exakter Abgleich (ignoriert Groß-/Kleinschreibung)
-                    if manager_name.lower() == name_part.lower():
+                    # Fehlertoleranter Abgleich per "in" statt "=="
+                    if manager_name.lower() in name_part:
                         clean_chars = [c for c in value_part if c.isdigit() or c == '-']
                         clean_val = "".join(clean_chars)
                         if clean_val:
@@ -72,7 +74,7 @@ def run_generate_html_dashboard():
     display_data = []
     
     for m_id, name in managers.items():
-        # HIER ANGEPASST: Exakte Dateinamen aus deiner Struktur
+        # Richtige Dateinamen und fehlertolerante Suche
         team_wert = read_numeric_value_from_file("Kaderwert.txt", name, default_value=0)
         max_bid = read_numeric_value_from_file("MaxBide.txt", name, default_value=0)
         kapital = read_numeric_value_from_file("Kapital.txt", name, default_value=0)
@@ -311,4 +313,4 @@ def run_generate_html_dashboard():
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html_content)
         
-    print("index.html erfolgreich mit den korrekten Dateien eingelesen!")
+    print("index.html erfolgreich mit stabilerem Name-Matching generiert!")
