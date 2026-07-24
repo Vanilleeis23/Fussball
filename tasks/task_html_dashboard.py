@@ -1,5 +1,6 @@
 import os
 import json
+import re
 
 def read_raw_line_from_file(filename, manager_name, default_value="0 €"):
     """
@@ -17,7 +18,6 @@ def read_raw_line_from_file(filename, manager_name, default_value="0 €"):
                     name_part = parts[0].strip().lower()
                     value_part = parts[1].strip()
                     
-                    # Fehlertoleranter Abgleich per "in" statt "=="
                     if manager_name.lower() in name_part:
                         return value_part
     except Exception as e:
@@ -40,7 +40,6 @@ def read_numeric_value_from_file(filename, manager_name, default_value=0):
                     name_part = parts[0].strip().lower()
                     value_part = parts[1].strip()
                     
-                    # Fehlertoleranter Abgleich per "in" statt "=="
                     if manager_name.lower() in name_part:
                         clean_chars = [c for c in value_part if c.isdigit() or c == '-']
                         clean_val = "".join(clean_chars)
@@ -61,6 +60,22 @@ def extract_first_number_from_string(text_str):
         return int(clean_val)
     return 0
 
+def format_realer_kontostand(text_str):
+    """
+    Formatiert den Text '61.000.000 € (Kontostand: 61.000.000 €, Spieler auf dem Markt: 0 €)'
+    um in (OHNE Klammern):
+    61.000.000 €
+    Kontostand: 61.000.000 €,
+    Spieler auf dem Markt: 0 €
+    """
+    match = re.search(r"([\d.]+.*?€)\s*\((Kontostand:\s*[\d.]+.*?€),\s*(Spieler auf dem Markt:\s*[\d.]+.*?€)\)", text_str)
+    if match:
+        gesamt = match.group(1)
+        konto = match.group(2)
+        markt = match.group(3)
+        return f"{gesamt}<br>{konto}<br>{markt}"
+    return text_str
+
 def run_generate_html_dashboard():
     print("Starte: run_generate_html_dashboard...")
     
@@ -74,20 +89,20 @@ def run_generate_html_dashboard():
     display_data = []
     
     for m_id, name in managers.items():
-        # Richtige Dateinamen und fehlertolerante Suche
         team_wert = read_numeric_value_from_file("Kaderwert.txt", name, default_value=0)
         max_bid = read_numeric_value_from_file("MaxBide.txt", name, default_value=0)
         kapital = read_numeric_value_from_file("Kapital.txt", name, default_value=0)
         
-        realer_kontostand_text = read_raw_line_from_file("RealKontostand.txt", name, default_value="0 €")
-        realer_kontostand_num = extract_first_number_from_string(realer_kontostand_text)
+        realer_kontostand_raw = read_raw_line_from_file("RealKontostand.txt", name, default_value="0 €")
+        realer_kontostand_num = extract_first_number_from_string(realer_kontostand_raw)
+        realer_kontostand_html = format_realer_kontostand(realer_kontostand_raw)
         
         markt_spieler = ["Keine"] 
 
         display_data.append({
             "name": name,
             "team_wert": team_wert,
-            "realer_kontostand_text": realer_kontostand_text,
+            "realer_kontostand_html": realer_kontostand_html,
             "realer_kontostand_num": realer_kontostand_num,
             "kapital": kapital,
             "max_bid": max_bid,
@@ -105,7 +120,9 @@ def run_generate_html_dashboard():
         try:
             with open("Transactionen.txt", "r", encoding="utf-8") as f:
                 lines = f.readlines()
-                for line in lines[-5:]:
+                # Wir lesen nun ALLE Zeilen (und nicht nur die letzten 5), da die Box scrollbar ist
+                # Um die neuesten Transfers oben zu haben, drehen wir die Liste um
+                for line in reversed(lines):
                     line = line.strip()
                     if not line: continue
                     entry = json.loads(line)
@@ -121,15 +138,15 @@ def run_generate_html_dashboard():
                     
                     transfer_rows_html += f"""
                     <tr>
-                        <td><span style="background-color: {badge_color}; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em;">{action}</span></td>
-                        <td>{manager}</td>
-                        <td>{spieler}</td>
-                        <td style="text-align: right;">{preis_formatiert}</td>
+                        <td style="text-align: center;"><span style="background-color: {badge_color}; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em;">{action}</span></td>
+                        <td style="text-align: center;">{manager}</td>
+                        <td style="text-align: center;">{spieler}</td>
+                        <td style="text-align: center;">{preis_formatiert}</td>
                     </tr>"""
         except Exception as e:
-            transfer_rows_html = f"<tr><td colspan='4'>Fehler beim Laden der Transfers: {e}</td></tr>"
+            transfer_rows_html = f"<tr><td colspan='4' style='text-align: center;'>Fehler beim Laden der Transfers: {e}</td></tr>"
     else:
-        transfer_rows_html = "<tr><td colspan='4'>Noch keine Transfers aufgezeichnet.</td></tr>"
+        transfer_rows_html = "<tr><td colspan='4' style='text-align: center;'>Noch keine Transfers aufgezeichnet.</td></tr>"
 
     # -------------------------------------------------------------------------
     # 3. SPIELER ÜBER MARKT GELAUFEN AUSLESEN (Rechte Spalte unten)
@@ -139,7 +156,8 @@ def run_generate_html_dashboard():
         try:
             with open("ÜberMarktGelaufen.txt", "r", encoding="utf-8") as f:
                 lines = f.readlines()
-                for line in lines[-8:]:
+                # Auch hier lesen wir die gesamte Datei rückwärts, damit Aktuelles oben steht
+                for line in reversed(lines):
                     line = line.strip()
                     if not line: continue
                     
@@ -157,26 +175,55 @@ def run_generate_html_dashboard():
                             
                         markt_verlauf_rows_html += f"""
                         <tr>
-                            <td style="font-weight: 500; color: #fff;">{s_name}</td>
-                            <td style="text-align: right; color: #94a3b8;">{s_info}</td>
+                            <td style="font-weight: 500; color: #fff; text-align: center;">{s_name}</td>
+                            <td style="text-align: center; color: #94a3b8;">{s_info}</td>
                         </tr>"""
                     else:
                         markt_verlauf_rows_html += f"""
                         <tr>
-                            <td colspan="2" style="color: #e2e8f0;">{line}</td>
+                            <td colspan="2" style="color: #e2e8f0; text-align: center;">{line}</td>
                         </tr>"""
         except Exception as e:
-            markt_verlauf_rows_html = f"<tr><td colspan='2'>Fehler beim Lesen der Markt-Historie: {e}</td></tr>"
+            markt_verlauf_rows_html = f"<tr><td colspan='2' style='text-align: center;'>Fehler beim Lesen der Markt-Historie: {e}</td></tr>"
 
     # -------------------------------------------------------------------------
-    # 4. HTML & CSS GENERIEREN
+    # 4. ABLAUFDATUM AUSLESEN (Rechte Spalte ganz unten)
+    # -------------------------------------------------------------------------
+    ablauf_rows_html = ""
+    if os.path.exists("Ablaufdatum.txt"):
+        try:
+            with open("Ablaufdatum.txt", "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line: continue
+                    if ":" in line:
+                        parts = line.split(":", 1)
+                        spieler_name = parts[0].strip()
+                        zeit_info = parts[1].strip()
+                        ablauf_rows_html += f"""
+                        <tr>
+                            <td style="font-weight: 500; color: #fff; text-align: center;">{spieler_name}</td>
+                            <td style="text-align: center; color: #f87171;">{zeit_info}</td>
+                        </tr>"""
+                    else:
+                        ablauf_rows_html += f"""
+                        <tr>
+                            <td colspan="2" style="color: #e2e8f0; text-align: center;">{line}</td>
+                        </tr>"""
+        except Exception as e:
+            ablauf_rows_html = f"<tr><td colspan='2' style='text-align: center;'>Fehler beim Lesen der Ablaufdaten: {e}</td></tr>"
+    else:
+        ablauf_rows_html = "<tr><td colspan='2' style='text-align: center;'>Keine Ablaufdaten gefunden.</td></tr>"
+
+    # -------------------------------------------------------------------------
+    # 5. HTML & CSS GENERIEREN
     # -------------------------------------------------------------------------
     html_content = f"""<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kickbase Liga Dashboard</title>
+    <title>Großmanager im Ü</title>
     <style>
         body {{ font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0f172a; margin: 0; padding: 20px; color: #e2e8f0; }}
         .container {{ max-width: 1650px; margin: 0 auto; }}
@@ -184,24 +231,52 @@ def run_generate_html_dashboard():
         .grid {{ display: grid; grid-template-columns: 1fr; gap: 20px; }}
         @media(min-width: 1280px) {{ .grid {{ grid-template-columns: 3.4fr 1.6fr; }} }}
         .card {{ background: #1e293b; padding: 24px; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3); border: 1px solid #334155; overflow-x: auto; margin-bottom: 20px; }}
-        h2 {{ margin-top: 0; color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 10px; }}
-        table {{ width: 100%; border-collapse: collapse; margin-top: 10px; }}
-        th, td {{ padding: 12px 12px; text-align: left; border-bottom: 1px solid #334155; font-size: 0.95em; }}
-        th {{ color: #94a3b8; font-weight: 600; text-transform: uppercase; font-size: 0.8em; letter-spacing: 0.5px; cursor: pointer; user-select: none; }}
-        th:hover {{ color: #38bdf8; background-color: #1e293b; }}
+        h2 {{ margin-top: 0; color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 10px; margin-bottom: 10px; }}
+        
+        /* Neuer Container für scrollbare Tabellen */
+        .table-scroll-container {{
+            max-height: 245px; /* Entspricht ca. 5 Einträgen */
+            overflow-y: auto;
+            border-radius: 4px;
+        }}
+        
+        /* Dezenten Scrollbalken für moderne Browser stylen */
+        .table-scroll-container::-webkit-scrollbar {{ width: 6px; }}
+        .table-scroll-container::-webkit-scrollbar-track {{ background: #1e293b; }}
+        .table-scroll-container::-webkit-scrollbar-thumb {{ background: #475569; border-radius: 3px; }}
+        .table-scroll-container::-webkit-scrollbar-thumb:hover {{ background: #64748b; }}
+
+        table {{ width: 100%; border-collapse: collapse; }}
+        th, td {{ padding: 12px 12px; text-align: center; border-bottom: 1px solid #334155; font-size: 0.95em; }}
+        
+        /* Fixiert den Tabellenkopf beim Scrollen */
+        th {{ 
+            color: #94a3b8; 
+            font-weight: 600; 
+            text-transform: uppercase; 
+            font-size: 0.8em; 
+            letter-spacing: 0.5px; 
+            cursor: pointer; 
+            user-select: none;
+            position: sticky;
+            top: 0;
+            background-color: #1e293b;
+            z-index: 10;
+        }}
+        th:hover {{ color: #38bdf8; }}
         th.sort-asc::after {{ content: " ▴"; }}
         th.sort-desc::after {{ content: " ▾"; }}
         tr:hover {{ background-color: #161e2e; }}
-        .number {{ text-align: right; font-variant-numeric: tabular-nums; font-weight: 500; }}
-        .real-kontostand-cell {{ white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 500; text-align: left; }}
-        .manager-name {{ font-weight: bold; color: #fff; }}
-        .players-list {{ font-size: 0.85em; color: #94a3b8; max-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
+        .number {{ text-align: center; font-variant-numeric: tabular-nums; font-weight: 500; }}
+        .real-kontostand-cell {{ font-variant-numeric: tabular-nums; font-weight: 500; text-align: center; line-height: 1.4; }}
+        .manager-name {{ font-weight: bold; color: #fff; text-align: center; }}
+        .players-list {{ font-size: 0.85em; color: #94a3b8; max-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: center; }}
         .players-list:hover {{ white-space: normal; overflow: visible; }}
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🏆 Kickbase Liga-Dashboard</h1>
+        <h1>Großmanager im Ü</h1>
         
         <div class="grid">
             <!-- Linke Spalte: Haupttabelle -->
@@ -212,9 +287,9 @@ def run_generate_html_dashboard():
                         <tr>
                             <th onclick="sortTable(0, 'str')">Manager</th>
                             <th class="number" onclick="sortTable(1, 'num')">Teamwert</th>
-                            <th onclick="sortTable(2, 'num')">Realer Konto</th>
+                            <th onclick="sortTable(2, 'num')">Kontostand</th>
                             <th class="number" onclick="sortTable(3, 'num')">Kapital</th>
-                            <th class="number" onclick="sortTable(4, 'num')">Max Bid</th>
+                            <th class="number" onclick="sortTable(4, 'num')">Maximalgebot</th>
                             <th>Spieler auf Markt</th>
                         </tr>
                     </thead>
@@ -230,7 +305,7 @@ def run_generate_html_dashboard():
                         <tr>
                             <td class="manager-name">{manager['name']}</td>
                             <td class="number" data-val="{manager['team_wert']}" style="color: #4ade80;">{tw} €</td>
-                            <td class="real-kontostand-cell" data-val="{manager['realer_kontostand_num']}" style="color: #fbbf24;">{manager['realer_kontostand_text']}</td>
+                            <td class="real-kontostand-cell" data-val="{manager['realer_kontostand_num']}" style="color: #fbbf24;">{manager['realer_kontostand_html']}</td>
                             <td class="number" data-val="{manager['kapital']}" style="color: #a78bfa;">{kap} €</td>
                             <td class="number" data-val="{manager['max_bid']}" style="color: #f87171;">{mb} €</td>
                             <td class="players-list" title="{manager['markt_spieler']}">{manager['markt_spieler']}</td>
@@ -245,34 +320,55 @@ def run_generate_html_dashboard():
             <div>
                 <div class="card">
                     <h2>Letzte Transfers</h2>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Typ</th>
-                                <th>Manager</th>
-                                <th>Spieler</th>
-                                <th style="text-align: right;">Betrag</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {transfer_rows_html}
-                        </tbody>
-                    </table>
+                    <div class="table-scroll-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Typ</th>
+                                    <th>Manager</th>
+                                    <th>Spieler</th>
+                                    <th>Betrag</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {transfer_rows_html}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
 
                 <div class="card">
                     <h2>Zuletzt auf dem Markt</h2>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Spieler</th>
-                                <th style="text-align: right;">Info / Wert</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {markt_verlauf_rows_html}
-                        </tbody>
-                    </table>
+                    <div class="table-scroll-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Spieler</th>
+                                    <th>Info / Wert</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {markt_verlauf_rows_html}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>Spieler Ablaufdatum</h2>
+                    <div class="table-scroll-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Spieler</th>
+                                    <th>Endet in</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {ablauf_rows_html}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
@@ -313,4 +409,7 @@ def run_generate_html_dashboard():
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html_content)
         
-    print("index.html erfolgreich mit stabilerem Name-Matching generiert!")
+    print("index.html erfolgreich mit scrollbaren Tabellen-Boxen aktualisiert!")
+
+if __name__ == "__main__":
+    run_generate_html_dashboard()
