@@ -97,6 +97,8 @@ def run_generate_html_dashboard():
         realer_kontostand_num = extract_first_number_from_string(realer_kontostand_raw)
         realer_kontostand_html = format_realer_kontostand(realer_kontostand_raw)
         
+        # Hier liest du vermutlich später deine tatsächlichen Spieler ein.
+        # Zum Testen kannst du hier eine längere Liste nutzen, z.B. ["Musiala", "Wirtz", "Kane", "Simons", "Grimaldo", "Tah"]
         markt_spieler = ["Keine"] 
 
         display_data.append({
@@ -106,10 +108,9 @@ def run_generate_html_dashboard():
             "realer_kontostand_num": realer_kontostand_num,
             "kapital": kapital,
             "max_bid": max_bid,
-            "markt_spieler": ", ".join(markt_spieler)
+            "markt_spieler": markt_spieler
         })
 
-    # Standard-Sortierung: Höchster realer Kontostand zuerst
     display_data.sort(key=lambda x: x.get('realer_kontostand_num', 0), reverse=True)
 
     # -------------------------------------------------------------------------
@@ -120,8 +121,6 @@ def run_generate_html_dashboard():
         try:
             with open("Transactionen.txt", "r", encoding="utf-8") as f:
                 lines = f.readlines()
-                # Wir lesen nun ALLE Zeilen (und nicht nur die letzten 5), da die Box scrollbar ist
-                # Um die neuesten Transfers oben zu haben, drehen wir die Liste um
                 for line in reversed(lines):
                     line = line.strip()
                     if not line: continue
@@ -156,7 +155,6 @@ def run_generate_html_dashboard():
         try:
             with open("ÜberMarktGelaufen.txt", "r", encoding="utf-8") as f:
                 lines = f.readlines()
-                # Auch hier lesen wir die gesamte Datei rückwärts, damit Aktuelles oben steht
                 for line in reversed(lines):
                     line = line.strip()
                     if not line: continue
@@ -233,23 +231,20 @@ def run_generate_html_dashboard():
         .card {{ background: #1e293b; padding: 24px; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3); border: 1px solid #334155; overflow-x: auto; margin-bottom: 20px; }}
         h2 {{ margin-top: 0; color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 10px; margin-bottom: 10px; }}
         
-        /* Neuer Container für scrollbare Tabellen */
         .table-scroll-container {{
-            max-height: 245px; /* Entspricht ca. 5 Einträgen */
+            max-height: 245px;
             overflow-y: auto;
             border-radius: 4px;
         }}
         
-        /* Dezenten Scrollbalken für moderne Browser stylen */
-        .table-scroll-container::-webkit-scrollbar {{ width: 6px; }}
-        .table-scroll-container::-webkit-scrollbar-track {{ background: #1e293b; }}
-        .table-scroll-container::-webkit-scrollbar-thumb {{ background: #475569; border-radius: 3px; }}
-        .table-scroll-container::-webkit-scrollbar-thumb:hover {{ background: #64748b; }}
+        .table-scroll-container::-webkit-scrollbar, .players-list::-webkit-scrollbar {{ width: 6px; }}
+        .table-scroll-container::-webkit-scrollbar-track, .players-list::-webkit-scrollbar-track {{ background: #1e293b; }}
+        .table-scroll-container::-webkit-scrollbar-thumb, .players-list::-webkit-scrollbar-thumb {{ background: #475569; border-radius: 3px; }}
+        .table-scroll-container::-webkit-scrollbar-thumb:hover, .players-list::-webkit-scrollbar-thumb:hover {{ background: #64748b; }}
 
         table {{ width: 100%; border-collapse: collapse; }}
         th, td {{ padding: 12px 12px; text-align: center; border-bottom: 1px solid #334155; font-size: 0.95em; }}
         
-        /* Fixiert den Tabellenkopf beim Scrollen */
         th {{ 
             color: #94a3b8; 
             font-weight: 600; 
@@ -270,8 +265,17 @@ def run_generate_html_dashboard():
         .number {{ text-align: center; font-variant-numeric: tabular-nums; font-weight: 500; }}
         .real-kontostand-cell {{ font-variant-numeric: tabular-nums; font-weight: 500; text-align: center; line-height: 1.4; }}
         .manager-name {{ font-weight: bold; color: #fff; text-align: center; }}
-        .players-list {{ font-size: 0.85em; color: #94a3b8; max-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: center; }}
-        .players-list:hover {{ white-space: normal; overflow: visible; }}
+        
+        /* Modifizierter Scroll-Container für die Spielerliste in der Zelle */
+        .players-list {{ 
+            font-size: 0.85em; 
+            color: #94a3b8; 
+            max-height: 90px;      /* Höhe für ca. 5 Zeilen/Einträge */
+            overflow-y: auto;      /* Vertikales Scrollen aktivieren */
+            display: block;        /* Nötig, damit max-height greift */
+            text-align: center; 
+            line-height: 1.4;
+        }}
     </style>
 </head>
 <body>
@@ -300,6 +304,11 @@ def run_generate_html_dashboard():
         tw = f"{manager['team_wert']:,}".replace(",", ".")
         kap = f"{manager['kapital']:,}".replace(",", ".")
         mb = f"{manager['max_bid']:,}".replace(",", ".")
+        
+        # Erstellt die Spielerliste getrennt durch ein HTML-Break (<br>), statt Kommas
+        spieler_html = "<br>".join(manager['markt_spieler'])
+        # Für das 'title'-Attribut behalten wir die Komma-Variante als Fallback beim Rüberhovern bei
+        spieler_title = ", ".join(manager['markt_spieler'])
 
         html_content += f"""
                         <tr>
@@ -308,7 +317,11 @@ def run_generate_html_dashboard():
                             <td class="real-kontostand-cell" data-val="{manager['realer_kontostand_num']}" style="color: #fbbf24;">{manager['realer_kontostand_html']}</td>
                             <td class="number" data-val="{manager['kapital']}" style="color: #a78bfa;">{kap} €</td>
                             <td class="number" data-val="{manager['max_bid']}" style="color: #f87171;">{mb} €</td>
-                            <td class="players-list" title="{manager['markt_spieler']}">{manager['markt_spieler']}</td>
+                            <td>
+                                <span class="players-list" title="{spieler_title}">
+                                    {spieler_html}
+                                </span>
+                            </td>
                         </tr>"""
 
     html_content += f"""
@@ -409,7 +422,7 @@ def run_generate_html_dashboard():
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html_content)
         
-    print("index.html erfolgreich mit scrollbaren Tabellen-Boxen aktualisiert!")
+    print("index.html erfolgreich mit scrollbarer Spielerliste in der Tabelle aktualisiert!")
 
 if __name__ == "__main__":
     run_generate_html_dashboard()
