@@ -18,12 +18,20 @@ def extract_by_key(data, keys_to_find):
     
 def get_transfers(kb):
     print("Starte: get_transfers...")
+    
+    # -------------------------------------------------------------------------
+    # START-TRANSFER NACH DEM RESET FESTLEGEN
+    # Trage hier den allerersten Transfer der neuen Saison ein.
+    # Wenn RESET_SPIELER = None, wird kein Transfer gefiltert (alles wird geladen).
+    # -------------------------------------------------------------------------
+    RESET_SPIELER = "Sander"   # Z.B. "Pavlović"
+    RESET_MANAGER = "Joel"   # Z.B. "Julian"
+    RESET_TYP = "VERKAUF"       # "KAUF" oder "VERKAUF"
+    # -------------------------------------------------------------------------
+    
     url = "https://api.kickbase.com/v4/leagues/2556726/activitiesFeed"
     params = {"start": 0, "max": 200}
     response = kb.get_request(url, params=params)
-    
-    # Da dein kb-Wrapper in den vorherigen Funktionen direkt Dicts 
-    # oder Response-Objekte geliefert hat, fangen wir beides sicher ab
     if hasattr(response, "status_code"):
         if response.status_code == 200:
             data = response.json()
@@ -34,6 +42,7 @@ def get_transfers(kb):
         data = response
 
     activities = data.get('af', [])
+    
     keys_to_find = ['byr', 'slr', 'pn', 'trp']
     arr = extract_by_key(activities, keys_to_find)
     result = []
@@ -56,6 +65,37 @@ def get_transfers(kb):
             result.append(arr[i:])
             break
 
+    # --- RESET-FILTERUNG ---
+    # Da Kickbase die neuesten Transfers oben liefert, laufen wir durch die 
+    # extrahierten Ergebnisse durch. Sobald wir den festgelegten "ersten Transfer" 
+    # finden, behalten wir ihn noch und ignorieren alle danach folgenden (älteren) Einträge.
+    if RESET_SPIELER is not None and RESET_MANAGER is not None and RESET_TYP is not None:
+        filtered_result = []
+        for entry in result:
+            m_name, action, s_name = "", "", ""
+            for item in entry:
+                # HIER GEÄNDERT: item sicher entpacken, da es eine Liste/ein Tupel ist (z.B. ["slr", "Joel"])
+                if len(item) == 2:
+                    key, value = item[0], item[1]
+                    if key == "byr":
+                        m_name, action = value, "KAUF"
+                    elif key == "slr":
+                        m_name, action = value, "VERKAUF"
+                    elif key == "pn":
+                        s_name = value
+            
+            filtered_result.append(entry)
+            
+            # Wenn das der gesuchte allererste Transfer nach dem Reset war,
+            # brechen wir ab, sodass ältere Transfers nicht ins System gelangen.
+            if s_name.lower() == RESET_SPIELER.lower() and \
+               m_name.lower() == RESET_MANAGER.lower() and \
+               action == RESET_TYP.upper():
+                print(f" [Reset] Ersten Transfer der neuen Saison gefunden ({s_name}). Ältere Transfers werden ignoriert.")
+                break
+        result = filtered_result
+    # -----------------------
+
     filename = "Transactionen.txt"
     if not os.path.exists(filename):
         with open(filename, "w", encoding="utf-8") as f:
@@ -70,10 +110,7 @@ def get_transfers(kb):
         if line not in existing_lines:
             new_lines.append(line)
             
-            # --- HIER IST DIE NEUE SCHÖNE AUSGABE ---
             try:
-                # Ein Eintrag sieht typischerweise so aus: [{"byr": "Manager"}, {"pn": "Spieler"}, {"trp": 1000000}]
-                # Wir extrahieren die Werte dynamisch, egal ob 'byr' oder 'slr' enthalten ist
                 manager = ""
                 action = ""
                 spieler = ""
@@ -91,14 +128,10 @@ def get_transfers(kb):
                     elif "trp" in item:
                         preis = item["trp"]
                 
-                # Preis schön formatieren (z.B. 12.500.000 €)
-                preis_formatiert = f"{preis:,}".replace(",", ".") + " €"
-                
+                preis_formatiert = f"{preis:,}".replace(",", ".")
                 print(f" Neue Transaktion erfasst: [{action}] {manager} -> {spieler} für {preis_formatiert}")
             except Exception:
-                # Fallback, falls die Struktur des Eintrags mal unerwartet ist
                 print(" Neue Transaktion erfasst (Rohdaten):", line)
-            # ----------------------------------------
 
     if new_lines:
         with open(filename, "w", encoding="utf-8") as f:
@@ -106,12 +139,13 @@ def get_transfers(kb):
             
     print(f"Transferberechnung beendet. {len(new_lines)} neue Transfers hinzugefügt.")
 
+
 def run_ueber_markt_gelaufen(kb):
-    print("Starte: UeberMarktGelaufen (Doppel-Datei-Logik)...")
+    print("Starte: UeberMarktGelaufen (Splitting in abgelaufene und aktive System-Spieler)...")
     
-    # 1. Activities Feed holen (die letzten 100 Events)
+    # 1. Activities Feed holen (die letzten 200 Events)
     url_feed = "https://api.kickbase.com/v4/leagues/2556726/activitiesFeed"
-    response_feed = kb.get_request(url_feed, params={"start": 0, "max": 100})
+    response_feed = kb.get_request(url_feed, params={"start": 0, "max": 200})
     
     if hasattr(response_feed, "json"):
         data_feed = response_feed.json()
@@ -119,7 +153,7 @@ def run_ueber_markt_gelaufen(kb):
         data_feed = response_feed
         
     events = data_feed.get('af', [])
-    
+
     file_vergangenheit = "ÜberMarktGelaufen.txt"
     file_zukunft = "Ablaufdatum.txt"
 
@@ -144,28 +178,36 @@ def run_ueber_markt_gelaufen(kb):
         data_evt = e.get("data", {})
         
         # Fall A: Spieler kommt auf den Markt
-        if e.get("t") == 12 or "exs" in data_evt:
-            ln = data_evt.get("ln") or data_evt.get("pn")
-            if ln:
-                ln = ln.strip()
+        if e.get("t") == 12:
+            # Ignorieren, wenn von einem echten Manager
+            if data_evt.get("ui") or data_evt.get("un"):
+                continue
+                
+            vorname = data_evt.get("pn", "").strip()
+            nachname = data_evt.get("ln", "").strip()
+            full_name = f"{vorname} {nachname}".strip() if vorname else nachname
+            
+            if full_name:
                 dt_str = e.get("dt")
                 dt_event = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%SZ")
                 
-                # Ablaufzeitpunkt anhand der Restsekunden berechnen
+                # Ablaufzeitpunkt berechnen
                 expiration_seconds = data_evt.get("exs", 86400)
                 dt_abgelaufen = dt_event + timedelta(seconds=expiration_seconds)
                 
-                tracked_players[ln] = dt_abgelaufen
+                # Temporär/Dauerhaft tracken
+                tracked_players[full_name] = dt_abgelaufen
 
-        # Fall B: Spieler wurde gekauft -> fliegt komplett aus dem Tracking
+        # Fall B: Spieler wurde von einem Manager gekauft -> Fliegt sofort und dauerhaft raus
         elif "slr" in data_evt or "byr" in data_evt:
-            pn = data_evt.get("pn") or data_evt.get("ln")
-            if pn:
-                pn = pn.strip()
-                if pn in tracked_players:
-                    del tracked_players[pn]
+            vorname = data_evt.get("pn", "").strip()
+            nachname = data_evt.get("ln", "").strip()
+            full_name = f"{vorname} {nachname}".strip() if vorname else nachname
+            
+            if full_name and full_name in tracked_players:
+                del tracked_players[full_name]
 
-    # 4. In Vergangenheit und Zukunft aufteilen
+    # 4. In Vergangenheit (abgelaufen) und Zukunft (noch auf dem Markt) aufteilen
     jetzt = datetime.utcnow()
     sicher_abgelaufen = {}
     aktuell_auf_markt = {}
@@ -176,20 +218,20 @@ def run_ueber_markt_gelaufen(kb):
         else:
             aktuell_auf_markt[name] = dt_abgelaufen
 
-    # 5. Beide Listen chronologisch sortieren (nächste Abläufe zuerst)
+    # 5. Beide Listen chronologisch sortieren
     sorted_vergangenheit = sorted(sicher_abgelaufen.items(), key=lambda x: x[1])
     sorted_zukunft = sorted(aktuell_auf_markt.items(), key=lambda x: x[1])
 
-    # 6. Archiv-Datei schreiben (ÜberMarktGelaufen.txt)
+    # 6. Archiv-Datei neu schreiben (ÜberMarktGelaufen.txt)
     with open(file_vergangenheit, "w", encoding="utf-8") as f:
         for name, dt in sorted_vergangenheit:
             dt_str = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
             f.write(f"Name: {name} | Datum: {dt_str}\n")
 
-    # 7. Live-Vorschau-Datei schreiben (Ablaufdatum.txt)
+    # 7. Live-Vorschau-Datei neu schreiben (Ablaufdatum.txt)
     with open(file_zukunft, "w", encoding="utf-8") as f:
         for name, dt in sorted_zukunft:
             dt_str = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
             f.write(f"Name: {name} | Ablaufdatum: {dt_str}\n")
 
-    print(f"Update beendet! Archiv: {len(sorted_vergangenheit)} Spieler | Aktuell auf dem Markt: {len(sorted_zukunft)} Spieler.")
+    print(f"Update beendet! Archiv: {len(sorted_vergangenheit)} abgelaufene Spieler | Aktuell auf dem Markt: {len(sorted_zukunft)} Spieler.")
