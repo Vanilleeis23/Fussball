@@ -62,19 +62,56 @@ def extract_first_number_from_string(text_str):
 
 def format_realer_kontostand(text_str):
     """
-    Formatiert den Text '61.000.000 € (Kontostand: 61.000.000 €, Spieler auf dem Markt: 0 €)'
-    um in (OHNE Klammern):
-    61.000.000 €
-    Kontostand: 61.000.000 €,
-    Spieler auf dem Markt: 0 €
+    Formatiert den Text '65.439.984 € (Kontostand: 61.000.000 €, Spieler auf dem Markt: 4.439.984 €)'
+    um in:
+    65.439.984
+    Kontostand: 61.000.000
+    Marktspieler: 4.439.984
     """
-    match = re.search(r"([\d.]+.*?€)\s*\((Kontostand:\s*[\d.]+.*?€),\s*(Spieler auf dem Markt:\s*[\d.]+.*?€)\)", text_str)
+    # Das Komma steht jetzt außerhalb der Gruppe (zwischen den Gruppen 2 und 3)
+    match = re.search(r"([\d.]+)\s*€\s*\((Kontostand:\s*[\d.]+)\s*€,\s*Spieler auf dem Markt:\s*([\d.]+)\s*€\)", text_str)
     if match:
-        gesamt = match.group(1)
-        konto = match.group(2)
-        markt = match.group(3)
-        return f"{gesamt}<br>{konto}<br>{markt}"
+        gesamt = match.group(1)      # 65.439.984
+        konto = match.group(2)       # Kontostand: 61.000.000
+        markt_wert = match.group(3)  # 4.439.984
+        
+        # Hier bauen wir das Komma aus und benennen den Text in "Marktspieler" um
+        return f"{gesamt}<br>{konto}<br>Marktspieler: {markt_wert}"
     return text_str
+
+def get_players_on_market_for_manager(filename, manager_name):
+    """
+    Liest die Datei mit der Pipe-Struktur (Spieler | Wert | Manager) aus
+    und gibt eine Liste formatierter Strings zurück (OHNE Eurozeichen).
+    """
+    found_players = []
+    if not os.path.exists(filename):
+        return ["Keine"]
+        
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or "|" not in line:
+                    continue
+                
+                parts = line.split("|")
+                if len(parts) >= 3:
+                    spieler = parts[0].strip()
+                    wert = parts[1].strip()
+                    m_name = parts[2].strip()
+                    
+                    # Abgleich, ob die Zeile zum aktuellen Manager gehört
+                    if manager_name.lower() == m_name.lower():
+                        # Entfernt das €-Zeichen und überflüssige Leerzeichen aus dem Wert
+                        wert_clean = wert.replace("€", "").strip()
+                        
+                        # Kombiniert Name und den bereinigten Wert für die Anzeige
+                        found_players.append(f"{spieler} ({wert_clean})")
+    except Exception as e:
+        print(f"Fehler beim Lesen der Marktspieler-Datei: {e}")
+        
+    return found_players if found_players else ["Keine"]
 
 def run_generate_html_dashboard():
     print("Starte: run_generate_html_dashboard...")
@@ -97,9 +134,9 @@ def run_generate_html_dashboard():
         realer_kontostand_num = extract_first_number_from_string(realer_kontostand_raw)
         realer_kontostand_html = format_realer_kontostand(realer_kontostand_raw)
         
-        # Hier liest du vermutlich später deine tatsächlichen Spieler ein.
-        # Zum Testen kannst du hier eine längere Liste nutzen, z.B. ["Musiala", "Wirtz", "Kane", "Simons", "Grimaldo", "Tah"]
-        markt_spieler = ["Keine"] 
+        # Dynamisches Auslesen der Spieler aus der neuen Textdatei
+        markt_spieler = get_players_on_market_for_manager("MarketPlayer.txt", name)
+  
 
         display_data.append({
             "name": name,
@@ -266,15 +303,15 @@ def run_generate_html_dashboard():
         .real-kontostand-cell {{ font-variant-numeric: tabular-nums; font-weight: 500; text-align: center; line-height: 1.4; }}
         .manager-name {{ font-weight: bold; color: #fff; text-align: center; }}
         
-        /* Modifizierter Scroll-Container für die Spielerliste in der Zelle */
         .players-list {{ 
             font-size: 0.85em; 
             color: #94a3b8; 
-            max-height: 90px;      /* Höhe für ca. 5 Zeilen/Einträge */
-            overflow-y: auto;      /* Vertikales Scrollen aktivieren */
-            display: block;        /* Nötig, damit max-height greift */
+            max-height: 90px;      
+            overflow-y: auto;      
+            display: block;        
             text-align: center; 
             line-height: 1.4;
+            min-width: 180px;
         }}
     </style>
 </head>
@@ -305,18 +342,16 @@ def run_generate_html_dashboard():
         kap = f"{manager['kapital']:,}".replace(",", ".")
         mb = f"{manager['max_bid']:,}".replace(",", ".")
         
-        # Erstellt die Spielerliste getrennt durch ein HTML-Break (<br>), statt Kommas
         spieler_html = "<br>".join(manager['markt_spieler'])
-        # Für das 'title'-Attribut behalten wir die Komma-Variante als Fallback beim Rüberhovern bei
         spieler_title = ", ".join(manager['markt_spieler'])
 
         html_content += f"""
                         <tr>
                             <td class="manager-name">{manager['name']}</td>
-                            <td class="number" data-val="{manager['team_wert']}" style="color: #4ade80;">{tw} €</td>
+                            <td class="number" data-val="{manager['team_wert']}" style="color: #4ade80;">{tw}</td>
                             <td class="real-kontostand-cell" data-val="{manager['realer_kontostand_num']}" style="color: #fbbf24;">{manager['realer_kontostand_html']}</td>
-                            <td class="number" data-val="{manager['kapital']}" style="color: #a78bfa;">{kap} €</td>
-                            <td class="number" data-val="{manager['max_bid']}" style="color: #f87171;">{mb} €</td>
+                            <td class="number" data-val="{manager['kapital']}" style="color: #a78bfa;">{kap}</td>
+                            <td class="number" data-val="{manager['max_bid']}" style="color: #f87171;">{mb}</td>
                             <td>
                                 <span class="players-list" title="{spieler_title}">
                                     {spieler_html}
@@ -422,7 +457,7 @@ def run_generate_html_dashboard():
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html_content)
         
-    print("index.html erfolgreich mit scrollbarer Spielerliste in der Tabelle aktualisiert!")
+    print("index.html erfolgreich generiert. Marktspieler werden nun dynamisch zugeordnet!")
 
 if __name__ == "__main__":
     run_generate_html_dashboard()

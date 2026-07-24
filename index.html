@@ -48,15 +48,15 @@
         .real-kontostand-cell { font-variant-numeric: tabular-nums; font-weight: 500; text-align: center; line-height: 1.4; }
         .manager-name { font-weight: bold; color: #fff; text-align: center; }
         
-        /* Modifizierter Scroll-Container für die Spielerliste in der Zelle */
         .players-list { 
             font-size: 0.85em; 
             color: #94a3b8; 
-            max-height: 90px;      /* Höhe für ca. 5 Zeilen/Einträge */
-            overflow-y: auto;      /* Vertikales Scrollen aktivieren */
-            display: block;        /* Nötig, damit max-height greift */
+            max-height: 90px;      
+            overflow-y: auto;      
+            display: block;        
             text-align: center; 
             line-height: 1.4;
+            min-width: 180px;
         }
     </style>
 </head>
@@ -83,22 +83,46 @@
 
                         <tr>
                             <td class="manager-name">Julian</td>
-                            <td class="number" data-val="157419813" style="color: #4ade80;">157.419.813 €</td>
-                            <td class="real-kontostand-cell" data-val="61000000" style="color: #fbbf24;">61.000.000 €<br>Kontostand: 61.000.000 €<br>Spieler auf dem Markt: 0 €</td>
-                            <td class="number" data-val="218419813" style="color: #a78bfa;">218.419.813 €</td>
-                            <td class="number" data-val="112948538" style="color: #f87171;">112.948.538 €</td>
+                            <td class="number" data-val="157419813" style="color: #4ade80;">157.419.813</td>
+                            <td class="real-kontostand-cell" data-val="65439984" style="color: #fbbf24;">65.439.984<br>Kontostand: 61.000.000<br>Marktspieler: 4.439.984</td>
+                            <td class="number" data-val="218419813" style="color: #a78bfa;">218.419.813</td>
+                            <td class="number" data-val="112948538" style="color: #f87171;">112.948.538</td>
                             <td>
-                                <span class="players-list" title="Keine">
-                                    Keine
+                                <span class="players-list" title="El Chadaille Bitshiabu (4,439,984)">
+                                    El Chadaille Bitshiabu (4,439,984)
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="manager-name">Philipp</td>
+                            <td class="number" data-val="162407251" style="color: #4ade80;">162.407.251</td>
+                            <td class="real-kontostand-cell" data-val="64409501" style="color: #fbbf24;">64.409.501<br>Kontostand: 52.500.000<br>Marktspieler: 11.909.501</td>
+                            <td class="number" data-val="214907251" style="color: #a78bfa;">214.907.251</td>
+                            <td class="number" data-val="106094392" style="color: #f87171;">106.094.392</td>
+                            <td>
+                                <span class="players-list" title="Kaishu Sano (11,909,501)">
+                                    Kaishu Sano (11,909,501)
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="manager-name">Vanilleeis23</td>
+                            <td class="number" data-val="161550383" style="color: #4ade80;">161.550.383</td>
+                            <td class="real-kontostand-cell" data-val="53510705" style="color: #fbbf24;">53.510.705<br>Kontostand: 50.100.000<br>Marktspieler: 3.410.705</td>
+                            <td class="number" data-val="211650383" style="color: #a78bfa;">211.650.383</td>
+                            <td class="number" data-val="103411626" style="color: #f87171;">103.411.626</td>
+                            <td>
+                                <span class="players-list" title="Yannik Engelhardt (3,410,705)">
+                                    Yannik Engelhardt (3,410,705)
                                 </span>
                             </td>
                         </tr>
                         <tr>
                             <td class="manager-name">Timo Kramer</td>
-                            <td class="number" data-val="178498342" style="color: #4ade80;">178.498.342 €</td>
-                            <td class="real-kontostand-cell" data-val="53200000" style="color: #fbbf24;">53.200.000 €<br>Kontostand: 53.200.000 €<br>Spieler auf dem Markt: 0 €</td>
-                            <td class="number" data-val="231698342" style="color: #a78bfa;">231.698.342 €</td>
-                            <td class="number" data-val="112104452" style="color: #f87171;">112.104.452 €</td>
+                            <td class="number" data-val="178498342" style="color: #4ade80;">178.498.342</td>
+                            <td class="real-kontostand-cell" data-val="53200000" style="color: #fbbf24;">53.200.000<br>Kontostand: 53.200.000<br>Marktspieler: 0</td>
+                            <td class="number" data-val="231698342" style="color: #a78bfa;">231.698.342</td>
+                            <td class="number" data-val="112104452" style="color: #f87171;">112.104.452</td>
                             <td>
                                 <span class="players-list" title="Keine">
                                     Keine
@@ -107,10 +131,10 @@
                         </tr>
                         <tr>
                             <td class="manager-name">MirkoHengst</td>
-                            <td class="number" data-val="202790055" style="color: #4ade80;">202.790.055 €</td>
-                            <td class="real-kontostand-cell" data-val="52800000" style="color: #fbbf24;">52.800.000 €<br>Kontostand: 52.800.000 €<br>Spieler auf dem Markt: 0 €</td>
-                            <td class="number" data-val="255590055" style="color: #a78bfa;">255.590.055 €</td>
-                            <td class="number" data-val="119720718" style="color: #f87171;">119.720.718 €</td>
+                            <td class="number" data-val="202790055" style="color: #4ade80;">202.790.055</td>
+                            <td class="real-kontostand-cell" data-val="52800000" style="color: #fbbf24;">52.800.000<br>Kontostand: 52.800.000<br>Marktspieler: 0</td>
+                            <td class="number" data-val="255590055" style="color: #a78bfa;">255.590.055</td>
+                            <td class="number" data-val="119720718" style="color: #f87171;">119.720.718</td>
                             <td>
                                 <span class="players-list" title="Keine">
                                     Keine
@@ -119,22 +143,10 @@
                         </tr>
                         <tr>
                             <td class="manager-name">Sascha187</td>
-                            <td class="number" data-val="172448002" style="color: #4ade80;">172.448.002 €</td>
-                            <td class="real-kontostand-cell" data-val="52700000" style="color: #fbbf24;">52.700.000 €<br>Kontostand: 52.700.000 €<br>Spieler auf dem Markt: 0 €</td>
-                            <td class="number" data-val="225148002" style="color: #a78bfa;">225.148.002 €</td>
-                            <td class="number" data-val="109607840" style="color: #f87171;">109.607.840 €</td>
-                            <td>
-                                <span class="players-list" title="Keine">
-                                    Keine
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="manager-name">Philipp</td>
-                            <td class="number" data-val="162407251" style="color: #4ade80;">162.407.251 €</td>
-                            <td class="real-kontostand-cell" data-val="52500000" style="color: #fbbf24;">52.500.000 €<br>Kontostand: 52.500.000 €<br>Spieler auf dem Markt: 0 €</td>
-                            <td class="number" data-val="214907251" style="color: #a78bfa;">214.907.251 €</td>
-                            <td class="number" data-val="106094392" style="color: #f87171;">106.094.392 €</td>
+                            <td class="number" data-val="172448002" style="color: #4ade80;">172.448.002</td>
+                            <td class="real-kontostand-cell" data-val="52700000" style="color: #fbbf24;">52.700.000<br>Kontostand: 52.700.000<br>Marktspieler: 0</td>
+                            <td class="number" data-val="225148002" style="color: #a78bfa;">225.148.002</td>
+                            <td class="number" data-val="109607840" style="color: #f87171;">109.607.840</td>
                             <td>
                                 <span class="players-list" title="Keine">
                                     Keine
@@ -143,22 +155,22 @@
                         </tr>
                         <tr>
                             <td class="manager-name">Braunbär7</td>
-                            <td class="number" data-val="175057030" style="color: #4ade80;">175.057.030 €</td>
-                            <td class="real-kontostand-cell" data-val="51850000" style="color: #fbbf24;">51.850.000 €<br>Kontostand: 51.850.000 €<br>Spieler auf dem Markt: 0 €</td>
-                            <td class="number" data-val="226907030" style="color: #a78bfa;">226.907.030 €</td>
-                            <td class="number" data-val="109618819" style="color: #f87171;">109.618.819 €</td>
+                            <td class="number" data-val="175057030" style="color: #4ade80;">175.057.030</td>
+                            <td class="real-kontostand-cell" data-val="52350000" style="color: #fbbf24;">52.350.000<br>Kontostand: 51.850.000<br>Marktspieler: 500.000</td>
+                            <td class="number" data-val="226907030" style="color: #a78bfa;">226.907.030</td>
+                            <td class="number" data-val="109618819" style="color: #f87171;">109.618.819</td>
                             <td>
-                                <span class="players-list" title="Keine">
-                                    Keine
+                                <span class="players-list" title="Tiago Pereira  Cardoso (500,000)">
+                                    Tiago Pereira  Cardoso (500,000)
                                 </span>
                             </td>
                         </tr>
                         <tr>
                             <td class="manager-name">Robinho</td>
-                            <td class="number" data-val="150867932" style="color: #4ade80;">150.867.932 €</td>
-                            <td class="real-kontostand-cell" data-val="51600000" style="color: #fbbf24;">51.600.000 €<br>Kontostand: 51.600.000 €<br>Spieler auf dem Markt: 0 €</td>
-                            <td class="number" data-val="202467932" style="color: #a78bfa;">202.467.932 €</td>
-                            <td class="number" data-val="101386417" style="color: #f87171;">101.386.417 €</td>
+                            <td class="number" data-val="150867932" style="color: #4ade80;">150.867.932</td>
+                            <td class="real-kontostand-cell" data-val="51600000" style="color: #fbbf24;">51.600.000<br>Kontostand: 51.600.000<br>Marktspieler: 0</td>
+                            <td class="number" data-val="202467932" style="color: #a78bfa;">202.467.932</td>
+                            <td class="number" data-val="101386417" style="color: #f87171;">101.386.417</td>
                             <td>
                                 <span class="players-list" title="Keine">
                                     Keine
@@ -167,10 +179,10 @@
                         </tr>
                         <tr>
                             <td class="manager-name">Vincent</td>
-                            <td class="number" data-val="132408455" style="color: #4ade80;">132.408.455 €</td>
-                            <td class="real-kontostand-cell" data-val="50900000" style="color: #fbbf24;">50.900.000 €<br>Kontostand: 50.900.000 €<br>Spieler auf dem Markt: 0 €</td>
-                            <td class="number" data-val="183308455" style="color: #a78bfa;">183.308.455 €</td>
-                            <td class="number" data-val="94594790" style="color: #f87171;">94.594.790 €</td>
+                            <td class="number" data-val="132408455" style="color: #4ade80;">132.408.455</td>
+                            <td class="real-kontostand-cell" data-val="50900000" style="color: #fbbf24;">50.900.000<br>Kontostand: 50.900.000<br>Marktspieler: 0</td>
+                            <td class="number" data-val="183308455" style="color: #a78bfa;">183.308.455</td>
+                            <td class="number" data-val="94594790" style="color: #f87171;">94.594.790</td>
                             <td>
                                 <span class="players-list" title="Keine">
                                     Keine
@@ -179,10 +191,10 @@
                         </tr>
                         <tr>
                             <td class="manager-name">CoachLeisi</td>
-                            <td class="number" data-val="109922641" style="color: #4ade80;">109.922.641 €</td>
-                            <td class="real-kontostand-cell" data-val="50600000" style="color: #fbbf24;">50.600.000 €<br>Kontostand: 50.600.000 €<br>Spieler auf dem Markt: 0 €</td>
-                            <td class="number" data-val="160522641" style="color: #a78bfa;">160.522.641 €</td>
-                            <td class="number" data-val="86874471" style="color: #f87171;">86.874.471 €</td>
+                            <td class="number" data-val="109922641" style="color: #4ade80;">109.922.641</td>
+                            <td class="real-kontostand-cell" data-val="50600000" style="color: #fbbf24;">50.600.000<br>Kontostand: 50.600.000<br>Marktspieler: 0</td>
+                            <td class="number" data-val="160522641" style="color: #a78bfa;">160.522.641</td>
+                            <td class="number" data-val="86874471" style="color: #f87171;">86.874.471</td>
                             <td>
                                 <span class="players-list" title="Keine">
                                     Keine
@@ -191,22 +203,10 @@
                         </tr>
                         <tr>
                             <td class="manager-name">Joel</td>
-                            <td class="number" data-val="201751812" style="color: #4ade80;">201.751.812 €</td>
-                            <td class="real-kontostand-cell" data-val="50100000" style="color: #fbbf24;">50.100.000 €<br>Kontostand: 50.100.000 €<br>Spieler auf dem Markt: 0 €</td>
-                            <td class="number" data-val="251851812" style="color: #a78bfa;">251.851.812 €</td>
-                            <td class="number" data-val="116678097" style="color: #f87171;">116.678.097 €</td>
-                            <td>
-                                <span class="players-list" title="Keine">
-                                    Keine
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="manager-name">Vanilleeis23</td>
-                            <td class="number" data-val="161550383" style="color: #4ade80;">161.550.383 €</td>
-                            <td class="real-kontostand-cell" data-val="50100000" style="color: #fbbf24;">50.100.000 €<br>Kontostand: 50.100.000 €<br>Spieler auf dem Markt: 0 €</td>
-                            <td class="number" data-val="211650383" style="color: #a78bfa;">211.650.383 €</td>
-                            <td class="number" data-val="103411626" style="color: #f87171;">103.411.626 €</td>
+                            <td class="number" data-val="201751812" style="color: #4ade80;">201.751.812</td>
+                            <td class="real-kontostand-cell" data-val="50100000" style="color: #fbbf24;">50.100.000<br>Kontostand: 50.100.000<br>Marktspieler: 0</td>
+                            <td class="number" data-val="251851812" style="color: #a78bfa;">251.851.812</td>
+                            <td class="number" data-val="116678097" style="color: #f87171;">116.678.097</td>
                             <td>
                                 <span class="players-list" title="Keine">
                                     Keine

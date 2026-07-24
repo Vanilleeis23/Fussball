@@ -56,15 +56,14 @@ def run_market_players(kb):
 
     # Speichere die Marktspieler ab
     with open("MarketPlayer.txt", "w", encoding="utf-8") as f:
-        # 2. In v4 heißt die Liste "players" statt "it"
-        for p in data.get("players", []):
+        for p in data.get("it", []):
             # 3. Wenn "username" existiert, gehört der Spieler einem Manager (nicht dem Computer)
-            if p.get("username"):
+            if p.get("i"):
                 # Namen zusammensetzen
-                spieler_name = f"{p.get('firstName', '')} {p.get('lastName', '')}".strip()
-                marktwert = p.get("marketValue", 0)
-                user_name = p.get("username")
-                
+                spieler_name = f"{p.get('fn', '')} {p.get('n', '')}".strip()
+                marktwert = p.get("mv", 0)
+                user_name = p.get("u")
+                user_name = user_name.get("n")             
                 f.write(f"{spieler_name} | {marktwert:,} € | {user_name}\n")
             
     print("Marktspieler erfolgreich aktualisiert!")
