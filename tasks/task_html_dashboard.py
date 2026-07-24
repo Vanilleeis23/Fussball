@@ -82,7 +82,8 @@ def format_realer_kontostand(text_str):
 def get_players_on_market_for_manager(filename, manager_name):
     """
     Liest die Datei mit der Pipe-Struktur (Spieler | Wert | Manager) aus
-    und gibt eine Liste formatierter Strings zurück (OHNE Eurozeichen).
+    und gibt eine Liste formatierter Strings zurück.
+    Beispiel-Ausgabe: Kaishu Sano (11.909.501)
     """
     found_players = []
     if not os.path.exists(filename):
@@ -103,10 +104,10 @@ def get_players_on_market_for_manager(filename, manager_name):
                     
                     # Abgleich, ob die Zeile zum aktuellen Manager gehört
                     if manager_name.lower() == m_name.lower():
-                        # Entfernt das €-Zeichen und überflüssige Leerzeichen aus dem Wert
-                        wert_clean = wert.replace("€", "").strip()
+                        # Entfernt das €-Zeichen und tauscht Kommas gegen Punkte aus
+                        wert_clean = wert.replace("€", "").replace(",", ".").strip()
                         
-                        # Kombiniert Name und den bereinigten Wert für die Anzeige
+                        # Kombiniert Name und den bereinigten Punkt-Wert
                         found_players.append(f"{spieler} ({wert_clean})")
     except Exception as e:
         print(f"Fehler beim Lesen der Marktspieler-Datei: {e}")
@@ -119,7 +120,7 @@ def run_generate_html_dashboard():
     managers = {
         "2446378": "CoachLeisi", "165539": "Braunbär7", "2218524": "Julian",
         "2216931": "Timo Kramer", "2202080": "Sascha187", "2558680": "Joel",
-        "3183264": "MirkoHengst", "3180066": "Philipp", "2202088": "Robinho",
+        "3183264": "MirkoHengst", "3180066": "Philipp", "2202088": "404",
         "717710": "Vincent", "2219496": "Vanilleeis23"
     }
     
@@ -158,18 +159,27 @@ def run_generate_html_dashboard():
         try:
             with open("Transactionen.txt", "r", encoding="utf-8") as f:
                 lines = f.readlines()
-                for line in reversed(lines):
+                # HIER GEÄNDERT: reversed() entfernt, damit die Reihenfolge wie in der Datei bleibt
+                for line in lines:
                     line = line.strip()
                     if not line: continue
+                    
                     entry = json.loads(line)
                     manager, action, spieler, preis = "", "", "", 0
-                    for item in entry:
-                        if "byr" in item: manager, action = item["byr"], "Kauf"
-                        elif "slr" in item: manager, action = item["slr"], "Verkauf"
-                        elif "pn" in item: spieler = item["pn"]
-                        elif "trp" in item: preis = item["trp"]
                     
-                    preis_formatiert = f"{preis:,}".replace(",", ".") + " €"
+                    for item in entry:
+                        if len(item) == 2:
+                            key, value = item[0], item[1]
+                            if key == "byr": 
+                                manager, action = value, "Kauf"
+                            elif key == "slr": 
+                                manager, action = value, "Verkauf"
+                            elif key == "pn": 
+                                spieler = value
+                            elif key == "trp": 
+                                preis = value
+                    
+                    preis_formatiert = f"{preis:,}".replace(",", ".")
                     badge_color = "#22c55e" if action == "Kauf" else "#ef4444"
                     
                     transfer_rows_html += f"""
@@ -183,6 +193,7 @@ def run_generate_html_dashboard():
             transfer_rows_html = f"<tr><td colspan='4' style='text-align: center;'>Fehler beim Laden der Transfers: {e}</td></tr>"
     else:
         transfer_rows_html = "<tr><td colspan='4' style='text-align: center;'>Noch keine Transfers aufgezeichnet.</td></tr>"
+
 
     # -------------------------------------------------------------------------
     # 3. SPIELER ÜBER MARKT GELAUFEN AUSLESEN (Rechte Spalte unten)
@@ -258,7 +269,7 @@ def run_generate_html_dashboard():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Großmanager im Ü</title>
+    <title>Fußball</title>
     <style>
         body {{ font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0f172a; margin: 0; padding: 20px; color: #e2e8f0; }}
         .container {{ max-width: 1650px; margin: 0 auto; }}
@@ -317,7 +328,7 @@ def run_generate_html_dashboard():
 </head>
 <body>
     <div class="container">
-        <h1>Großmanager im Ü</h1>
+        <h1>Fußball</h1>
         
         <div class="grid">
             <!-- Linke Spalte: Haupttabelle -->

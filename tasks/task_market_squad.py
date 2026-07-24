@@ -12,7 +12,7 @@ def run_squad_value(kb):
             "2558680": "Joel",
             "3183264": "MirkoHengst",
             "3180066": "Philipp",
-            "2202088": "Robinho",
+            "2202088": "404",
             "717710": "Vincent",
             "2219496": "Vanilleeis23"
         }

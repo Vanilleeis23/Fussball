@@ -19,7 +19,7 @@ def extract_by_key(data, keys_to_find):
 def get_transfers(kb):
     print("Starte: get_transfers...")
     url = "https://api.kickbase.com/v4/leagues/2556726/activitiesFeed"
-    params = {"start": 0, "max": 10}
+    params = {"start": 0, "max": 200}
     response = kb.get_request(url, params=params)
     
     # Da dein kb-Wrapper in den vorherigen Funktionen direkt Dicts 
