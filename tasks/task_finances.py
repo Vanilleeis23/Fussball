@@ -1,5 +1,6 @@
 import ast
 import re
+import json
 from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
@@ -94,8 +95,7 @@ def run_calculate_kontostand():
                 except ValueError:
                     pass
 
-    # 4. Transaktionen verrechnen
-    result = []
+    # 4. HIER GEÄNDERT: Transaktionen flexibel und modern verrechnen
     if Path("Transactionen.txt").exists():
         with open("Transactionen.txt", "r", encoding="utf-8") as f:
             for line in f:
@@ -103,22 +103,32 @@ def run_calculate_kontostand():
                 if not line:
                     continue
                 try:
-                    arr = ast.literal_eval(line)
-                    result.append(arr)
-                except Exception:
+                    # Da es valides JSON ist, nutzen wir json.loads statt ast.literal_eval
+                    entry = json.loads(line)
+                    
+                    buyer = None
+                    seller = None
+                    amount = 0
+                    
+                    # Schleife durchsucht die Liste dynamisch nach den Keys
+                    for item in entry:
+                        if isinstance(item, dict):
+                            if "byr" in item:
+                                buyer = item["byr"]
+                            elif "slr" in item:
+                                seller = item["slr"]
+                            elif "trp" in item:
+                                amount = item["trp"]
+                    
+                    # Kontostände anpassen
+                    if buyer and buyer in balances:
+                        balances[buyer] -= amount
+                    if seller and seller in balances:
+                        balances[seller] += amount
+                        
+                except Exception as e:
+                    # Falls eine Zeile mal fehlerhaft formatiert ist, überspringen
                     pass
-
-    for i in range(len(result)):
-        if 'byr' in result[i][0]:
-            buyer = result[i][0][1]
-            amount = result[i][2][1]
-            if buyer in balances:
-                balances[buyer] -= amount
-        if 'slr' in result[i][0]:
-            seller = result[i][0][1]
-            amount = result[i][2][1]
-            if seller in balances:
-                balances[seller] += amount
 
     # Sortiert nach Kontostand absteigend
     sorted_balances = sorted(balances.items(), key=lambda x: x[1], reverse=True)

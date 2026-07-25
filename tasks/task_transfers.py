@@ -16,17 +16,21 @@ def extract_by_key(data, keys_to_find):
             results.extend(extract_by_key(item, keys_to_find))
     return results
     
+
+import os
+import json
+import os
+import json
+
 def get_transfers(kb):
     print("Starte: get_transfers...")
     
     # -------------------------------------------------------------------------
     # START-TRANSFER NACH DEM RESET FESTLEGEN
-    # Trage hier den allerersten Transfer der neuen Saison ein.
-    # Wenn RESET_SPIELER = None, wird kein Transfer gefiltert (alles wird geladen).
     # -------------------------------------------------------------------------
-    RESET_SPIELER = "Sander"   # Z.B. "Pavlović"
-    RESET_MANAGER = "Joel"   # Z.B. "Julian"
-    RESET_TYP = "VERKAUF"       # "KAUF" oder "VERKAUF"
+    RESET_SPIELER = "Sander"   
+    RESET_MANAGER = "Joel"   
+    RESET_TYP = "VERKAUF"       
     # -------------------------------------------------------------------------
     
     url = "https://api.kickbase.com/v4/leagues/2556726/activitiesFeed"
@@ -42,79 +46,100 @@ def get_transfers(kb):
         data = response
 
     activities = data.get('af', [])
+    raw_results = []
     
-    keys_to_find = ['byr', 'slr', 'pn', 'trp']
-    arr = extract_by_key(activities, keys_to_find)
-    result = []
-    i = 0
-    while i < len(arr):
-        if 'slr' in arr[i] and i + 3 < len(arr) and 'byr' in arr[i+1]:
-            byr_group = [arr[i], arr[i+2], arr[i+3]]
-            slr_group = [arr[i+1], arr[i+2], arr[i+3]]
-            result.append(byr_group)
-            result.append(slr_group)
-            i += 4
-            continue
-        if i + 2 < len(arr):
-            if 'slr' in arr[i] or 'byr' in arr[i]:
-                result.append(arr[i:i+3])
-                i += 3
-            else:
-                i += 2
-        else:
-            result.append(arr[i:])
-            break
+    for e in activities:
+        data_evt = e.get("data", {})
+        dt_str = e.get("dt")
+        
+        spieler = data_evt.get("pn")
+        preis = data_evt.get("trp", 0)
+        
+        if spieler and ("byr" in data_evt or "slr" in data_evt):
+            if "slr" in data_evt and "byr" in data_evt:
+                raw_results.append([{"slr": data_evt["slr"]}, {"pn": spieler}, {"trp": preis}, {"dt": dt_str}])
+                raw_results.append([{"byr": data_evt["byr"]}, {"pn": spieler}, {"trp": preis}, {"dt": dt_str}])
+            elif "byr" in data_evt:
+                raw_results.append([{"byr": data_evt["byr"]}, {"pn": spieler}, {"trp": preis}, {"dt": dt_str}])
+            elif "slr" in data_evt:
+                raw_results.append([{"slr": data_evt["slr"]}, {"pn": spieler}, {"trp": preis}, {"dt": dt_str}])
+
+    result = list(reversed(raw_results))
 
     # --- RESET-FILTERUNG ---
-    # Da Kickbase die neuesten Transfers oben liefert, laufen wir durch die 
-    # extrahierten Ergebnisse durch. Sobald wir den festgelegten "ersten Transfer" 
-    # finden, behalten wir ihn noch und ignorieren alle danach folgenden (älteren) Einträge.
     if RESET_SPIELER is not None and RESET_MANAGER is not None and RESET_TYP is not None:
         filtered_result = []
+        found_reset = False
+        
         for entry in result:
             m_name, action, s_name = "", "", ""
             for item in entry:
-                # HIER GEÄNDERT: item sicher entpacken, da es eine Liste/ein Tupel ist (z.B. ["slr", "Joel"])
-                if len(item) == 2:
-                    key, value = item[0], item[1]
-                    if key == "byr":
-                        m_name, action = value, "KAUF"
-                    elif key == "slr":
-                        m_name, action = value, "VERKAUF"
-                    elif key == "pn":
-                        s_name = value
+                if isinstance(item, dict):
+                    if "byr" in item:
+                        m_name, action = item["byr"], "KAUF"
+                    elif "slr" in item:
+                        m_name, action = item["slr"], "VERKAUF"
+                    elif "pn" in item:
+                        s_name = item["pn"]
             
-            filtered_result.append(entry)
+            if not found_reset:
+                if s_name.lower() == RESET_SPIELER.lower() and \
+                   m_name.lower() == RESET_MANAGER.lower() and \
+                   action == RESET_TYP.upper():
+                    print(f" [Reset] Ersten Transfer gefunden ({s_name}).")
+                    found_reset = True
             
-            # Wenn das der gesuchte allererste Transfer nach dem Reset war,
-            # brechen wir ab, sodass ältere Transfers nicht ins System gelangen.
-            if s_name.lower() == RESET_SPIELER.lower() and \
-               m_name.lower() == RESET_MANAGER.lower() and \
-               action == RESET_TYP.upper():
-                print(f" [Reset] Ersten Transfer der neuen Saison gefunden ({s_name}). Ältere Transfers werden ignoriert.")
-                break
+            if found_reset:
+                filtered_result.append(entry)
+                
         result = filtered_result
     # -----------------------
 
     filename = "Transactionen.txt"
-    if not os.path.exists(filename):
-        with open(filename, "w", encoding="utf-8") as f:
-            pass
+    
+    # 1. Existierende Einträge einlesen und parsen, damit wir inhaltlich vergleichen können
+    existing_entries = []
+    if os.path.exists(filename):
+        with open(filename, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    try:
+                        existing_entries.append(json.loads(line))
+                    except Exception:
+                        pass
 
-    with open(filename, "r", encoding="utf-8") as f:
-        existing_lines = [l.rstrip("\n") for l in f]
+    # Hilfsfunktion, um einen eindeutigen Identifier für ein Event zu bauen
+    def get_transfer_id(entry_list):
+        mgr, spl, dt = "", "", ""
+        for item in entry_list:
+            if "byr" in item: mgr = f"B_{item['byr']}"
+            elif "slr" in item: mgr = f"S_{item['slr']}"
+            elif "pn" in item: spl = item["pn"]
+            elif "dt" in item: dt = item["dt"]
+        return f"{mgr}_{spl}_{dt}"
+
+    # Erstelle ein Set von IDs, die bereits in der Datei existieren
+    existing_ids = {get_transfer_id(e) for e in existing_entries}
 
     new_lines = []
+    new_entries_to_save = []
+
     for entry in result:
-        line = json.dumps(entry, ensure_ascii=False)
-        if line not in existing_lines:
+        entry_id = get_transfer_id(entry)
+        
+        # HIER GEÄNDERT: Vergleich läuft jetzt über die inhaltliche ID, nicht über den rohen String
+        if entry_id not in existing_ids:
+            line = json.dumps(entry, ensure_ascii=False)
             new_lines.append(line)
+            new_entries_to_save.append(entry)
             
             try:
                 manager = ""
                 action = ""
                 spieler = ""
                 preis = 0
+                datum = "Unbekannt"
                 
                 for item in entry:
                     if "byr" in item:
@@ -127,18 +152,24 @@ def get_transfers(kb):
                         spieler = item["pn"]
                     elif "trp" in item:
                         preis = item["trp"]
+                    elif "dt" in item:
+                        datum = item["dt"]
                 
                 preis_formatiert = f"{preis:,}".replace(",", ".")
-                print(f" Neue Transaktion erfasst: [{action}] {manager} -> {spieler} für {preis_formatiert}")
+                print(f" Neue Transaktion erfasst: [{action}] {manager} -> {spieler} für {preis_formatiert} | Datum: {datum}")
             except Exception:
                 print(" Neue Transaktion erfasst (Rohdaten):", line)
 
-    if new_lines:
+    # Wenn neue Einträge da sind, schreiben wir sie zusammen mit den alten zurück
+    if new_entries_to_save:
+        # Wir setzen die NEUEN Einträge an den Anfang der Datei (wie in deinem Original-Code)
+        all_entries = new_entries_to_save + existing_entries
+        
         with open(filename, "w", encoding="utf-8") as f:
-            f.write("\n".join(new_lines + existing_lines) + "\n")
+            for e in all_entries:
+                f.write(json.dumps(e, ensure_ascii=False) + "\n")
             
     print(f"Transferberechnung beendet. {len(new_lines)} neue Transfers hinzugefügt.")
-
 
 def run_ueber_markt_gelaufen(kb):
     print("Starte: UeberMarktGelaufen (Splitting in abgelaufene und aktive System-Spieler)...")

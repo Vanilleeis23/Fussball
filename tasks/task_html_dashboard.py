@@ -154,21 +154,26 @@ def run_generate_html_dashboard():
     # -------------------------------------------------------------------------
     # 2. TRANSFAKTIVITÄTEN AUSLESEN (Rechte Spalte)
     # -------------------------------------------------------------------------
+    from datetime import datetime  # Sicherstellen, dass datetime verfügbar ist
+
     transfer_rows_html = ""
     if os.path.exists("Transactionen.txt"):
         try:
             with open("Transactionen.txt", "r", encoding="utf-8") as f:
-                lines = f.readlines()
-                # HIER GEÄNDERT: reversed() entfernt, damit die Reihenfolge wie in der Datei bleibt
+                # Zeilen umdrehen, damit die neuesten Einträge zuerst verarbeitet werden
+                lines = reversed(f.readlines())
+                
                 for line in lines:
                     line = line.strip()
-                    if not line: continue
+                    if not line: 
+                        continue
                     
                     entry = json.loads(line)
-                    manager, action, spieler, preis = "", "", "", 0
+                    manager, action, spieler, preis, raw_datum = "", "", "", 0, ""
                     
+                    # Falls der Eintrag eine Liste von Key-Value-Paaren/Listen ist
                     for item in entry:
-                        if len(item) == 2:
+                        if isinstance(item, list) and len(item) == 2:
                             key, value = item[0], item[1]
                             if key == "byr": 
                                 manager, action = value, "Kauf"
@@ -178,21 +183,53 @@ def run_generate_html_dashboard():
                                 spieler = value
                             elif key == "trp": 
                                 preis = value
-                    
-                    preis_formatiert = f"{preis:,}".replace(",", ".")
-                    badge_color = "#22c55e" if action == "Kauf" else "#ef4444"
-                    
-                    transfer_rows_html += f"""
-                    <tr>
-                        <td style="text-align: center;"><span style="background-color: {badge_color}; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em;">{action}</span></td>
-                        <td style="text-align: center;">{manager}</td>
-                        <td style="text-align: center;">{spieler}</td>
-                        <td style="text-align: center;">{preis_formatiert}</td>
-                    </tr>"""
+                            elif key in ["dt", "date", "time"]: 
+                                raw_datum = str(value)
+                        # Falls der Eintrag ein Dictionary innerhalb einer Liste ist
+                        elif isinstance(item, dict):
+                            if "byr" in item:
+                                manager, action = item["byr"], "Kauf"
+                            elif "slr" in item:
+                                manager, action = item["slr"], "Verkauf"
+                            if "pn" in item:
+                                spieler = item["pn"]
+                            if "trp" in item:
+                                preis = item["trp"]
+                            for d_key in ["dt", "date", "time"]:
+                                if d_key in item:
+                                    raw_datum = str(item[d_key])
+
+                    # Datum formatieren (Tag:Monat:Jahr <br> Stunden:Minuten)
+                    datum_formatiert = "-"
+                    if raw_datum:
+                        try:
+                            if "T" in raw_datum:
+                                clean_dt = raw_datum.split(".")[0].split("+")[0].replace("Z", "")
+                                dt_obj = datetime.strptime(clean_dt, "%Y-%m-%dT%H:%M:%S")
+                            else:
+                                dt_obj = datetime.fromisoformat(raw_datum)
+                            
+                            datum_formatiert = dt_obj.strftime("%d.%m.%Y<br>%H:%M")
+                        except Exception:
+                            datum_formatiert = raw_datum
+
+                    # Nur hinzufügen, wenn wir Daten extrahieren konnten
+                    if manager or spieler:
+                        preis_formatiert = f"{preis:,}".replace(",", ".")
+                        badge_color = "#22c55e" if action == "Kauf" else "#ef4444"
+                        
+                        transfer_rows_html += f"""
+                        <tr>
+                            <td style="text-align: center;"><span style="background-color: {badge_color}; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em;">{action}</span></td>
+                            <td style="text-align: center;">{manager}</td>
+                            <td style="text-align: center;">{spieler}</td>
+                            <td style="text-align: center;">{preis_formatiert}</td>
+                            <td style="text-align: center; color: #94a3b8; font-size: 0.85em; line-height: 1.2;">{datum_formatiert}</td>
+                        </tr>"""
         except Exception as e:
-            transfer_rows_html = f"<tr><td colspan='4' style='text-align: center;'>Fehler beim Laden der Transfers: {e}</td></tr>"
+            transfer_rows_html = f"<tr><td colspan='5' style='text-align: center;'>Fehler beim Laden der Transfers: {e}</td></tr>"
     else:
-        transfer_rows_html = "<tr><td colspan='4' style='text-align: center;'>Noch keine Transfers aufgezeichnet.</td></tr>"
+        transfer_rows_html = "<tr><td colspan='5' style='text-align: center;'>Noch keine Transfers aufgezeichnet.</td></tr>"
 
 
     # -------------------------------------------------------------------------
@@ -377,16 +414,18 @@ def run_generate_html_dashboard():
 
             <!-- Rechte Spalte -->
             <div>
-                <div class="card">
+                <div class="card" style="width: 100%; box-sizing: border-box;">
                     <h2>Letzte Transfers</h2>
-                    <div class="table-scroll-container">
-                        <table>
+                    <!-- overflow-x: hidden verhindert das Scrollen nach links/rechts; die Tabelle passt sich jetzt an -->
+                    <div class="table-scroll-container" style="max-height: 340px; overflow-y: auto; overflow-x: hidden; width: 100%;">
+                        <table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
                             <thead>
                                 <tr>
-                                    <th>Typ</th>
-                                    <th>Manager</th>
-                                    <th>Spieler</th>
-                                    <th>Betrag</th>
+                                    <th style="width: 15%; text-align: center; padding: 8px 4px;">Typ</th>
+                                    <th style="width: 25%; text-align: center; padding: 8px 4px;">Manager</th>
+                                    <th style="width: 20%; text-align: center; padding: 8px 4px;">Spieler</th>
+                                    <th style="width: 20%; text-align: center; padding: 8px 4px;">Betrag</th>
+                                    <th style="width: 20%; text-align: center; padding: 8px 4px;">Datum</th>
                                 </tr>
                             </thead>
                             <tbody>
