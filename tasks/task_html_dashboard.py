@@ -1,6 +1,7 @@
 import os
 import json
 import re
+from datetime import datetime
 
 def read_raw_line_from_file(filename, manager_name, default_value="0 €"):
     """
@@ -68,14 +69,12 @@ def format_realer_kontostand(text_str):
     Kontostand: 61.000.000
     Marktspieler: 4.439.984
     """
-    # Das Komma steht jetzt außerhalb der Gruppe (zwischen den Gruppen 2 und 3)
     match = re.search(r"([\d.]+)\s*€\s*\((Kontostand:\s*[\d.]+)\s*€,\s*Spieler auf dem Markt:\s*([\d.]+)\s*€\)", text_str)
     if match:
         gesamt = match.group(1)      # 65.439.984
         konto = match.group(2)       # Kontostand: 61.000.000
         markt_wert = match.group(3)  # 4.439.984
         
-        # Hier bauen wir das Komma aus und benennen den Text in "Marktspieler" um
         return f"{gesamt}<br>{konto}<br>Marktspieler: {markt_wert}"
     return text_str
 
@@ -102,12 +101,8 @@ def get_players_on_market_for_manager(filename, manager_name):
                     wert = parts[1].strip()
                     m_name = parts[2].strip()
                     
-                    # Abgleich, ob die Zeile zum aktuellen Manager gehört
                     if manager_name.lower() == m_name.lower():
-                        # Entfernt das €-Zeichen und tauscht Kommas gegen Punkte aus
                         wert_clean = wert.replace("€", "").replace(",", ".").strip()
-                        
-                        # Kombiniert Name und den bereinigten Punkt-Wert
                         found_players.append(f"{spieler} ({wert_clean})")
     except Exception as e:
         print(f"Fehler beim Lesen der Marktspieler-Datei: {e}")
@@ -135,10 +130,8 @@ def run_generate_html_dashboard():
         realer_kontostand_num = extract_first_number_from_string(realer_kontostand_raw)
         realer_kontostand_html = format_realer_kontostand(realer_kontostand_raw)
         
-        # Dynamisches Auslesen der Spieler aus der neuen Textdatei
         markt_spieler = get_players_on_market_for_manager("MarketPlayer.txt", name)
   
-
         display_data.append({
             "name": name,
             "team_wert": team_wert,
@@ -154,13 +147,10 @@ def run_generate_html_dashboard():
     # -------------------------------------------------------------------------
     # 2. TRANSFAKTIVITÄTEN AUSLESEN (Rechte Spalte)
     # -------------------------------------------------------------------------
-    from datetime import datetime  # Sicherstellen, dass datetime verfügbar ist
-
     transfer_rows_html = ""
     if os.path.exists("Transactionen.txt"):
         try:
             with open("Transactionen.txt", "r", encoding="utf-8") as f:
-                # Zeilen umdrehen, damit die neuesten Einträge zuerst verarbeitet werden
                 lines = reversed(f.readlines())
                 
                 for line in lines:
@@ -171,7 +161,6 @@ def run_generate_html_dashboard():
                     entry = json.loads(line)
                     manager, action, spieler, preis, raw_datum = "", "", "", 0, ""
                     
-                    # Falls der Eintrag eine Liste von Key-Value-Paaren/Listen ist
                     for item in entry:
                         if isinstance(item, list) and len(item) == 2:
                             key, value = item[0], item[1]
@@ -185,7 +174,6 @@ def run_generate_html_dashboard():
                                 preis = value
                             elif key in ["dt", "date", "time"]: 
                                 raw_datum = str(value)
-                        # Falls der Eintrag ein Dictionary innerhalb einer Liste ist
                         elif isinstance(item, dict):
                             if "byr" in item:
                                 manager, action = item["byr"], "Kauf"
@@ -199,7 +187,6 @@ def run_generate_html_dashboard():
                                 if d_key in item:
                                     raw_datum = str(item[d_key])
 
-                    # Datum formatieren (Tag:Monat:Jahr <br> Stunden:Minuten)
                     datum_formatiert = "-"
                     if raw_datum:
                         try:
@@ -213,7 +200,6 @@ def run_generate_html_dashboard():
                         except Exception:
                             datum_formatiert = raw_datum
 
-                    # Nur hinzufügen, wenn wir Daten extrahieren konnten
                     if manager or spieler:
                         preis_formatiert = f"{preis:,}".replace(",", ".")
                         badge_color = "#22c55e" if action == "Kauf" else "#ef4444"
@@ -230,7 +216,6 @@ def run_generate_html_dashboard():
             transfer_rows_html = f"<tr><td colspan='5' style='text-align: center;'>Fehler beim Laden der Transfers: {e}</td></tr>"
     else:
         transfer_rows_html = "<tr><td colspan='5' style='text-align: center;'>Noch keine Transfers aufgezeichnet.</td></tr>"
-
 
     # -------------------------------------------------------------------------
     # 3. SPIELER ÜBER MARKT GELAUFEN AUSLESEN (Rechte Spalte unten)
@@ -301,6 +286,8 @@ def run_generate_html_dashboard():
     # -------------------------------------------------------------------------
     # 5. HTML & CSS GENERIEREN
     # -------------------------------------------------------------------------
+    aktuelles_datum = datetime.now().strftime("%d.%m.%Y um %H:%M Uhr")
+
     html_content = f"""<!DOCTYPE html>
 <html lang="de">
 <head>
@@ -308,9 +295,37 @@ def run_generate_html_dashboard():
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fußball</title>
     <style>
-        body {{ font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0f172a; margin: 0; padding: 20px; color: #e2e8f0; }}
+        body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0f172a; margin: 0; padding: 20px; color: #e2e8f0; }}
         .container {{ max-width: 1650px; margin: 0 auto; }}
-        h1 {{ text-align: center; color: #fff; margin-bottom: 30px; font-size: 2.5em; text-shadow: 0 2px 4px rgba(0,0,0,0.5); }}
+        
+        /* EXAKTER HEADER-STYLE AUS KADER.HTML */
+        header {{
+            margin-bottom: 30px;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            gap: 15px;
+        }}
+        h1 {{ margin: 0; color: #38bdf8; font-size: 2.2em; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }}
+        .stand {{ font-size: 0.85em; color: #64748b; margin-top: 5px; }}
+        .nav-link {{
+            color: #38bdf8;
+            text-decoration: none;
+            font-size: 0.95em;
+            font-weight: 500;
+            border: 1px solid #38bdf8;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }}
+        .nav-link:hover {{
+            background-color: #38bdf8;
+            color: #0f172a;
+        }}
+
         .grid {{ display: grid; grid-template-columns: 1fr; gap: 20px; }}
         @media(min-width: 1280px) {{ .grid {{ grid-template-columns: 3.4fr 1.6fr; }} }}
         .card {{ background: #1e293b; padding: 24px; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3); border: 1px solid #334155; overflow-x: auto; margin-bottom: 20px; }}
@@ -365,7 +380,14 @@ def run_generate_html_dashboard():
 </head>
 <body>
     <div class="container">
-        <h1>Fußball</h1>
+        <!-- Neuer synchronisierter Header mit Link zur kader.html -->
+        <header>
+            <div>
+                <h1>Liga-Dashboard</h1>
+                <div class="stand">Stand: {aktuelles_datum}</div>
+            </div>
+            <a href="kader.html" class="nav-link">Zur Kader-Übersicht →</a>
+        </header>
         
         <div class="grid">
             <!-- Linke Spalte: Haupttabelle -->
@@ -416,7 +438,6 @@ def run_generate_html_dashboard():
             <div>
                 <div class="card" style="width: 100%; box-sizing: border-box;">
                     <h2>Letzte Transfers</h2>
-                    <!-- overflow-x: hidden verhindert das Scrollen nach links/rechts; die Tabelle passt sich jetzt an -->
                     <div class="table-scroll-container" style="max-height: 340px; overflow-y: auto; overflow-x: hidden; width: 100%;">
                         <table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
                             <thead>

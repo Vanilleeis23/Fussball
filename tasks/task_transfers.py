@@ -15,12 +15,6 @@ def extract_by_key(data, keys_to_find):
         for item in data:
             results.extend(extract_by_key(item, keys_to_find))
     return results
-    
-
-import os
-import json
-import os
-import json
 
 def get_transfers(kb):
     print("Starte: get_transfers...")
