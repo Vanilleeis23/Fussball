@@ -1,7 +1,7 @@
 import os
 import json
 import ast
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # Hilfsfunktion für die Rekursion
 def extract_by_key(data, keys_to_find):
@@ -207,8 +207,10 @@ def run_ueber_markt_gelaufen(kb):
             if full_name and full_name in tracked_players:
                 del tracked_players[full_name]
 
-    # 4. In Vergangenheit (abgelaufen) und Zukunft (noch auf dem Markt) aufteilen
-    jetzt = datetime.utcnow()
+    # 4. In Vergangenheit (abgelaufen) und Zukunft (noch auf dem Markt) aufteile
+    # Holt die aktuelle UTC-Zeit und entfernt die Zeitzonen-Information,
+    # damit sie perfekt zu den eingelesenen Zeiten aus der Textdatei passt.
+    jetzt = datetime.now(timezone.utc).replace(tzinfo=None)
     sicher_abgelaufen = {}
     aktuell_auf_markt = {}
     
