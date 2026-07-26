@@ -42,14 +42,16 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Flexibleres Hinzufügen: Fügt alle modifizierten/neuen Dateien hinzu
-          git add index.html
-          git add *.txt 2>/dev/null || echo "Keine .txt Dateien gefunden zum Hinzufügen"
+          # HIER NEU: kader.html explizit mit aufnehmen!
+          git add *.txt index.html kader.html
           
-          # Nur committen und pushen, wenn sich wirklich was geändert hat
+          # Nur committen, wenn es tatsächlich Änderungen gab
           if git diff --cached --quiet; then
             echo "Keine Änderungen festgestellt."
           else
+            git commit -m "Auto-Update: Kickbase Daten & Dashboard aktualisiert [skip ci]"
+            git push
+          fi
             git commit -m "Auto-Update: Kickbase Daten & Dashboard aktualisiert [skip ci]"
             git push origin HEAD:${{ github.ref }}
           fi
