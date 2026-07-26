@@ -2,9 +2,13 @@ name: Hourly Kickbase Update
 
 on:
   schedule:
-    # Läuft einmal pro Stunde (zur vollen Stunde)
+    # Läuft einmal pro Stunde (zur 14. Minute)
     - cron: '14 * * * *'
-  workflow_dispatch: # Ermöglicht es dir, das Skript jederzeit manuell in GitHub zu starten
+  workflow_dispatch: # Ermöglicht manuellen Start
+
+# HIER NEU: Explizite Schreibrechte für den GITHUB_TOKEN setzen
+permissions:
+  contents: write
 
 jobs:
   run-script:
@@ -14,7 +18,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          # Erlaubt das Zurückschreiben ins Repository
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
@@ -39,13 +42,14 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Fügt neben den TXT-Dateien auch die neue HTML-Webseite hinzu
-          git add *.txt index.html
+          # Flexibleres Hinzufügen: Fügt alle modifizierten/neuen Dateien hinzu
+          git add index.html
+          git add *.txt 2>/dev/null || echo "Keine .txt Dateien gefunden zum Hinzufügen"
           
-          # Nur committen, wenn es tatsächlich Änderungen gab
+          # Nur committen und pushen, wenn sich wirklich was geändert hat
           if git diff --cached --quiet; then
             echo "Keine Änderungen festgestellt."
           else
             git commit -m "Auto-Update: Kickbase Daten & Dashboard aktualisiert [skip ci]"
-            git push
+            git push origin HEAD:${{ github.ref }}
           fi
