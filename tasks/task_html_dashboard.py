@@ -2,6 +2,7 @@ import os
 import json
 import re
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 def read_raw_line_from_file(filename, manager_name, default_value="0 €"):
     """
@@ -286,7 +287,12 @@ def run_generate_html_dashboard():
     # -------------------------------------------------------------------------
     # 5. HTML & CSS GENERIEREN
     # -------------------------------------------------------------------------
-    aktuelles_datum = datetime.now().strftime("%d.%m.%Y um %H:%M Uhr")
+    # Ändere deine Zeile von:
+    # timestamp = datetime.now().strftime("%d.%m.%Y um %H:%M Uhr")
+    
+    # In diese Version:
+    tz_berlin = ZoneInfo("Europe/Berlin")
+    aktuelles_datum = datetime.now(tz_berlin).strftime("%d.%m.%Y um %H:%M Uhr")
 
     html_content = f"""<!DOCTYPE html>
 <html lang="de">

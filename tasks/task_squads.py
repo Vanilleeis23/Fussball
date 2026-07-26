@@ -1,6 +1,7 @@
 import os
 import json
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 # =========================================================================
 # CONFIGURATION
@@ -184,7 +185,12 @@ def run_generate_squads_html(kb):
     # =========================================================================
     # HTML GENERIERUNG mit JS Accordion, Sortierung & Live-Berechnung
     # =========================================================================
-    aktuelles_datum = datetime.now().strftime("%d.%m.%Y um %H:%M Uhr")
+    # Ändere deine Zeile von:
+    # timestamp = datetime.now().strftime("%d.%m.%Y um %H:%M Uhr")
+
+    # In diese Version:
+    tz_berlin = ZoneInfo("Europe/Berlin")
+    aktuelles_datum = datetime.now(tz_berlin).strftime("%d.%m.%Y um %H:%M Uhr")
     
     html_template = f"""
     <!DOCTYPE html>
