@@ -397,4 +397,7 @@ def run_generate_playerlist_html(kb):
     # 6. HTML-Datei schreiben
     with open("spielerliste.html", "w", encoding="utf-8") as f:
         f.write(html_content)
-    print(f"Erfolgreich: '{"spielerliste.html"}' wurde erzeugt.")
+    print("spielerliste.html erfolgreich generiert!")
+
+if __name__ == "__main__":
+    pass
