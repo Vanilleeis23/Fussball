@@ -65,17 +65,13 @@ def extract_first_number_from_string(text_str):
 def format_realer_kontostand(text_str):
     """
     Formatiert den Text '65.439.984 € (Kontostand: 61.000.000 €, Spieler auf dem Markt: 4.439.984 €)'
-    um in:
-    65.439.984
-    Kontostand: 61.000.000
-    Marktspieler: 4.439.984
+    um in HTML-Zeilenumbrüche.
     """
     match = re.search(r"([\d.]+)\s*€\s*\((Kontostand:\s*[\d.]+)\s*€,\s*Spieler auf dem Markt:\s*([\d.]+)\s*€\)", text_str)
     if match:
-        gesamt = match.group(1)      # 65.439.984
-        konto = match.group(2)       # Kontostand: 61.000.000
-        markt_wert = match.group(3)  # 4.439.984
-        
+        gesamt = match.group(1)
+        konto = match.group(2)
+        markt_wert = match.group(3)
         return f"{gesamt}<br>{konto}<br>Marktspieler: {markt_wert}"
     return text_str
 
@@ -83,7 +79,6 @@ def get_players_on_market_for_manager(filename, manager_name):
     """
     Liest die Datei mit der Pipe-Struktur (Spieler | Wert | Manager) aus
     und gibt eine Liste formatierter Strings zurück.
-    Beispiel-Ausgabe: Kaishu Sano (11.909.501)
     """
     found_players = []
     if not os.path.exists(filename):
@@ -287,10 +282,6 @@ def run_generate_html_dashboard():
     # -------------------------------------------------------------------------
     # 5. HTML & CSS GENERIEREN
     # -------------------------------------------------------------------------
-    # Ändere deine Zeile von:
-    # timestamp = datetime.now().strftime("%d.%m.%Y um %H:%M Uhr")
-    
-    # In diese Version:
     tz_berlin = ZoneInfo("Europe/Berlin")
     aktuelles_datum = datetime.now(tz_berlin).strftime("%d.%m.%Y um %H:%M Uhr")
 
@@ -304,7 +295,6 @@ def run_generate_html_dashboard():
         body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0f172a; margin: 0; padding: 20px; color: #e2e8f0; }}
         .container {{ max-width: 1650px; margin: 0 auto; }}
         
-        /* EXAKTER HEADER-STYLE AUS KADER.HTML */
         header {{
             margin-bottom: 30px;
             border-bottom: 1px solid #334155;
@@ -386,17 +376,18 @@ def run_generate_html_dashboard():
 </head>
 <body>
     <div class="container">
-        <!-- Neuer synchronisierter Header mit Link zur kader.html -->
         <header>
-            <div>
-                <h1>Liga-Dashboard</h1>
-                <div class="stand">Stand: {aktuelles_datum}</div>
-            </div>
-            <a href="kader.html" class="nav-link">Zur Kader-Übersicht →</a>
+                <div>
+                        <h1>Spielerliste</h1>
+                        <div class="stand">Stand: {aktuelles_datum}</div>
+                </div>
+                <div style="display: flex; gap: 10px;">
+                        <a href="kader.html" class="nav-link">Kader</a>
+                        <a href="playerlist.html" class="nav-link">Spielerliste</a>
+                </div>
         </header>
         
         <div class="grid">
-            <!-- Linke Spalte: Haupttabelle -->
             <div class="card">
                 <h2>Manager Übersicht <span style="font-size: 0.5em; color: #64748b;">(Klicke Spalten zum Sortieren)</span></h2>
                 <table id="managerTable">
@@ -414,20 +405,20 @@ def run_generate_html_dashboard():
 """
 
     for manager in display_data:
-        tw = f"{manager['team_wert']:,}".replace(",", ".")
-        kap = f"{manager['kapital']:,}".replace(",", ".")
-        mb = f"{manager['max_bid']:,}".replace(",", ".")
+        tw = f"{manager.get('team_wert', 0):,}".replace(",", ".")
+        kap = f"{manager.get('kapital', 0):,}".replace(",", ".")
+        mb = f"{manager.get('max_bid', 0):,}".replace(",", ".")
         
-        spieler_html = "<br>".join(manager['markt_spieler'])
-        spieler_title = ", ".join(manager['markt_spieler'])
+        spieler_html = "<br>".join(manager.get('markt_spieler', []))
+        spieler_title = ", ".join(manager.get('markt_spieler', []))
 
         html_content += f"""
                         <tr>
-                            <td class="manager-name">{manager['name']}</td>
-                            <td class="number" data-val="{manager['team_wert']}" style="color: #4ade80;">{tw}</td>
-                            <td class="real-kontostand-cell" data-val="{manager['realer_kontostand_num']}" style="color: #fbbf24;">{manager['realer_kontostand_html']}</td>
-                            <td class="number" data-val="{manager['kapital']}" style="color: #a78bfa;">{kap}</td>
-                            <td class="number" data-val="{manager['max_bid']}" style="color: #f87171;">{mb}</td>
+                            <td class="manager-name">{manager.get('name')}</td>
+                            <td class="number" data-val="{manager.get('team_wert', 0)}" style="color: #4ade80;">{tw}</td>
+                            <td class="real-kontostand-cell" data-val="{manager.get('realer_kontostand_num', 0)}" style="color: #fbbf24;">{manager.get('realer_kontostand_html')}</td>
+                            <td class="number" data-val="{manager.get('kapital', 0)}" style="color: #a78bfa;">{kap}</td>
+                            <td class="number" data-val="{manager.get('max_bid', 0)}" style="color: #f87171;">{mb}</td>
                             <td>
                                 <span class="players-list" title="{spieler_title}">
                                     {spieler_html}
@@ -440,7 +431,6 @@ def run_generate_html_dashboard():
                 </table>
             </div>
 
-            <!-- Rechte Spalte -->
             <div>
                 <div class="card" style="width: 100%; box-sizing: border-box;">
                     <h2>Letzte Transfers</h2>

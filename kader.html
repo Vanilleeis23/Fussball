@@ -29,6 +29,10 @@
             }
             h1 { margin: 0; color: #38bdf8; font-size: 2em; }
             .stand { font-size: 0.85em; color: #64748b; margin-top: 5px; }
+            .nav-buttons {
+                display: flex;
+                gap: 10px;
+            }
             .nav-link {
                 color: #38bdf8;
                 text-decoration: none;
@@ -95,16 +99,14 @@
             }
             .meta-info strong { color: #38bdf8; }
             
-            /* TABELLEN-CONTAINER PASST SICH NUN AUTOMATISCH AN */
             .table-container {
                 max-height: 0;
                 overflow: hidden;
                 transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
             }
             
-            /* Wenn Card aktiv, wird die maximale Höhe temporär aufgehoben */
             .card.active .table-container {
-                max-height: 2000px; /* Groß genug gewählt, damit alle Zeilen passen */
+                max-height: 2000px;
             }
             
             table { width: 100%; border-collapse: collapse; font-size: 0.9em; margin-top: 10px; }
@@ -157,9 +159,12 @@
             <header>
                 <div>
                     <h1>Liga-Kader Übersicht</h1>
-                    <div class="stand">Stand: 27.07.2026 um 09:49 Uhr</div>
+                    <div class="stand">Stand: 27.07.2026 um 15:45 Uhr</div>
                 </div>
-                <a href="index.html" class="nav-link">← Zum Dashboard</a>
+                <div class="nav-buttons">
+                    <a href="index.html" class="nav-link">Dashboard</a>
+                    <a href="playerlist.html" class="nav-link">Spielerliste</a>
+                </div>
             </header>
             
             <div class="squads-grid">

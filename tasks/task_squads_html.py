@@ -70,7 +70,7 @@ def run_generate_squads_html(kb):
 
     for m_id, m_name in MANAGER_IDS.items():
         url = f"https://api.kickbase.com/v4/leagues/{LEAGUE_ID}/managers/{m_id}/squad"
-        print(f"Lade Kader für {m_name}...")
+        #print(f"Lade Kader für {m_name}...")
         
         response = kb.get_request(url)
         if hasattr(response, "status_code"):
@@ -124,6 +124,7 @@ def run_generate_squads_html(kb):
                 p_profit_formatiert = "+" + p_profit_formatiert
             elif p_profit_val < 0:
                 profit_style = "color: #f87171; font-weight: 500;"
+                p_profit_formatiert = p_profit_formatiert
             else:
                 profit_style = "color: #f8fafc;"
             
@@ -185,10 +186,6 @@ def run_generate_squads_html(kb):
     # =========================================================================
     # HTML GENERIERUNG mit JS Accordion, Sortierung & Live-Berechnung
     # =========================================================================
-    # Ändere deine Zeile von:
-    # timestamp = datetime.now().strftime("%d.%m.%Y um %H:%M Uhr")
-
-    # In diese Version:
     tz_berlin = ZoneInfo("Europe/Berlin")
     aktuelles_datum = datetime.now(tz_berlin).strftime("%d.%m.%Y um %H:%M Uhr")
     
@@ -223,6 +220,10 @@ def run_generate_squads_html(kb):
             }}
             h1 {{ margin: 0; color: #38bdf8; font-size: 2em; }}
             .stand {{ font-size: 0.85em; color: #64748b; margin-top: 5px; }}
+            .nav-buttons {{
+                display: flex;
+                gap: 10px;
+            }}
             .nav-link {{
                 color: #38bdf8;
                 text-decoration: none;
@@ -289,16 +290,14 @@ def run_generate_squads_html(kb):
             }}
             .meta-info strong {{ color: #38bdf8; }}
             
-            /* TABELLEN-CONTAINER PASST SICH NUN AUTOMATISCH AN */
             .table-container {{
                 max-height: 0;
                 overflow: hidden;
                 transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
             }}
             
-            /* Wenn Card aktiv, wird die maximale Höhe temporär aufgehoben */
             .card.active .table-container {{
-                max-height: 2000px; /* Groß genug gewählt, damit alle Zeilen passen */
+                max-height: 2000px;
             }}
             
             table {{ width: 100%; border-collapse: collapse; font-size: 0.9em; margin-top: 10px; }}
@@ -353,7 +352,10 @@ def run_generate_squads_html(kb):
                     <h1>Liga-Kader Übersicht</h1>
                     <div class="stand">Stand: {aktuelles_datum}</div>
                 </div>
-                <a href="index.html" class="nav-link">← Zum Dashboard</a>
+                <div class="nav-buttons">
+                    <a href="index.html" class="nav-link">Dashboard</a>
+                    <a href="playerlist.html" class="nav-link">Spielerliste</a>
+                </div>
             </header>
             
             <div class="squads-grid">
@@ -464,6 +466,4 @@ def run_generate_squads_html(kb):
     print("kader.html erfolgreich ohne Scrollbalken und mit Einklapp-Funktion generiert!")
 
 if __name__ == "__main__":
-    # pass
-    # run_generate_squads_html(kb)
     pass

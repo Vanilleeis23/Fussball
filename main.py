@@ -9,8 +9,9 @@ from tasks.task_finances import (
     run_real_kontostand,
     run_calculate_kapital
 )
-from tasks.task_html_dashboard import run_generate_html_dashboard
-from tasks.task_squads import run_generate_squads_html
+from tasks.task_finances_html import run_generate_html_dashboard
+from tasks.task_squads_html import run_generate_squads_html
+from tasks.task_playerlist_html import run_generate_playerlist_html
 
 def main():
     # 1. API Client initialisieren & einloggen
@@ -32,6 +33,7 @@ def main():
     run_ueber_markt_gelaufen(kb)
     run_generate_html_dashboard()
     run_generate_squads_html(kb)
+    run_generate_playerlist_html(kb)
 
     print("Alle Aufgaben erfolgreich ausgeführt!")
 

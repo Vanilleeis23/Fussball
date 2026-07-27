@@ -1,0 +1,2507 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spielerliste Übersicht</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        header {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        h1 { margin: 0; color: #38bdf8; font-size: 2em; }
+        .stand { font-size: 0.85em; color: #64748b; margin-top: 5px; }
+        .nav-link {
+            color: #38bdf8;
+            text-decoration: none;
+            font-size: 0.95em;
+            font-weight: 500;
+            border: 1px solid #38bdf8;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+        .nav-link:hover {
+            background-color: #38bdf8;
+            color: #0f172a;
+        }
+        .card {
+            background-color: #1e293b;
+            border-radius: 12px;
+            padding: 24px;
+            border: 1px solid #334155;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3);
+        }
+        .search-container {
+            margin-bottom: 20px;
+        }
+        .search-input {
+            background: #0f172a;
+            border: 1px solid #334155;
+            color: #fff;
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-size: 0.95em;
+            width: 100%;
+            max-width: 400px;
+        }
+        .search-input:focus {
+            outline: none;
+            border-color: #38bdf8;
+        }
+        table { width: 100%; border-collapse: collapse; font-size: 0.95em; margin-top: 10px; }
+        th {
+            background-color: #1e293b;
+            color: #94a3b8;
+            padding: 12px 14px;
+            font-weight: 600;
+            border-bottom: 2px solid #334155;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            letter-spacing: 0.5px;
+        }
+        th.sortable {
+            cursor: pointer;
+            user-select: none;
+        }
+        th.sortable:hover {
+            color: #38bdf8;
+            background-color: #243347;
+        }
+        th.sortable::after {
+            content: ' ↕';
+            font-size: 0.8em;
+            opacity: 0.4;
+        }
+        th.sort-asc::after { content: ' ↑'; opacity: 1; color: #38bdf8; }
+        th.sort-desc::after { content: ' ↓'; opacity: 1; color: #38bdf8; }
+
+        tr { border-bottom: 1px solid #334155; }
+        tr:hover { background-color: #273549; }
+        td { padding: 12px 14px; text-align: center; }
+        
+        .number { font-variant-numeric: tabular-nums; font-weight: 500; }
+        
+        .pos-badge {
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75em;
+            font-weight: bold;
+            color: white;
+            display: inline-block;
+            width: 32px;
+            text-align: center;
+        }
+        .pos-tw { background-color: #eab308; color: #000; }
+        .pos-abw { background-color: #2563eb; }
+        .pos-mf { background-color: #16a34a; }
+        .pos-st { background-color: #dc2626; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Spielerliste</h1>
+                <div class="stand">Stand: 27.07.2026 um 14:12 Uhr</div>
+            </div>
+            <a href="index.html" class="nav-link">← Zum Dashboard</a>
+        </header>
+
+        <div class="card">
+            <div class="search-container">
+                <input type="text" id="playerSearch" class="search-input" onkeyup="filterByName()" placeholder="Nach Spielername oder Team suchen...">
+            </div>
+
+            <table id="playerTable">
+                <thead>
+                    <tr>
+                        <th style="text-align: left;">Spieler</th>
+                        <th style="text-align: left;">Team</th>
+                        <th class="sortable number" id="th-ap" onclick="sortTable(2, 'num')">Durchschnittspunkte</th>
+                        <th class="sortable number sort-desc" id="th-mv" onclick="sortTable(3, 'num')">Marktwert</th>
+                        <th>Besitzer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kane <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="216" style="color: #38bdf8;">216</td>
+            <td class="number" data-val="67975790" style="color: #4ade80;">67.975.790 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vanilleeis23</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Olise <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="225" style="color: #38bdf8;">225</td>
+            <td class="number" data-val="63787820" style="color: #4ade80;">63.787.820 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Braunbär7</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kimmich <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="186" style="color: #38bdf8;">186</td>
+            <td class="number" data-val="59041703" style="color: #4ade80;">59.041.703 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">404</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Díaz <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="178" style="color: #38bdf8;">178</td>
+            <td class="number" data-val="52508250" style="color: #4ade80;">52.508.250 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Timo Kramer</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Undav <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="138" style="color: #38bdf8;">138</td>
+            <td class="number" data-val="42265443" style="color: #4ade80;">42.265.443 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Sascha187</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Diomande <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="135" style="color: #38bdf8;">135</td>
+            <td class="number" data-val="38171267" style="color: #4ade80;">38.171.267 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Sascha187</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">García <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="142" style="color: #38bdf8;">142</td>
+            <td class="number" data-val="35847956" style="color: #4ade80;">35.847.956 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Timo Kramer</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Stiller <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="119" style="color: #38bdf8;">119</td>
+            <td class="number" data-val="35664898" style="color: #4ade80;">35.664.898 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Joel</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Tah <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="127" style="color: #38bdf8;">127</td>
+            <td class="number" data-val="35455977" style="color: #4ade80;">35.455.977 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Schlotterbeck <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="148" style="color: #38bdf8;">148</td>
+            <td class="number" data-val="35301573" style="color: #4ade80;">35.301.573 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">CoachLeisi</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Musiala <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="98" style="color: #38bdf8;">98</td>
+            <td class="number" data-val="33650222" style="color: #4ade80;">33.650.222 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">404</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Laimer <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="136" style="color: #38bdf8;">136</td>
+            <td class="number" data-val="33165849" style="color: #4ade80;">33.165.849 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Anton <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="126" style="color: #38bdf8;">126</td>
+            <td class="number" data-val="32272308" style="color: #4ade80;">32.272.308 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Julian</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Upamecano <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="119" style="color: #38bdf8;">119</td>
+            <td class="number" data-val="31959093" style="color: #4ade80;">31.959.093 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Raum <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="148" style="color: #38bdf8;">148</td>
+            <td class="number" data-val="31335274" style="color: #4ade80;">31.335.274 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Amiri <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="134" style="color: #38bdf8;">134</td>
+            <td class="number" data-val="30878407" style="color: #4ade80;">30.878.407 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Philipp</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Tapsoba <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="136" style="color: #38bdf8;">136</td>
+            <td class="number" data-val="30770336" style="color: #4ade80;">30.770.336 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Joel</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Pavlović <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="119" style="color: #38bdf8;">119</td>
+            <td class="number" data-val="29773352" style="color: #4ade80;">29.773.352 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Orban <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="131" style="color: #38bdf8;">131</td>
+            <td class="number" data-val="29631212" style="color: #4ade80;">29.631.212 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Joel</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Stanišić <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="128" style="color: #38bdf8;">128</td>
+            <td class="number" data-val="28716275" style="color: #4ade80;">28.716.275 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Saibari <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="28263821" style="color: #4ade80;">28.263.821 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Schick <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="103" style="color: #38bdf8;">103</td>
+            <td class="number" data-val="28153323" style="color: #4ade80;">28.153.323 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Philipp</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Mittelstädt <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="123" style="color: #38bdf8;">123</td>
+            <td class="number" data-val="27949525" style="color: #4ade80;">27.949.525 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Maza <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="98" style="color: #38bdf8;">98</td>
+            <td class="number" data-val="27664022" style="color: #4ade80;">27.664.022 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Julian</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Brown <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="83" style="color: #38bdf8;">83</td>
+            <td class="number" data-val="27161719" style="color: #4ade80;">27.161.719 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Guirassy <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="102" style="color: #38bdf8;">102</td>
+            <td class="number" data-val="26584546" style="color: #4ade80;">26.584.546 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Leweling <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="103" style="color: #38bdf8;">103</td>
+            <td class="number" data-val="26021872" style="color: #4ade80;">26.021.872 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Julian</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Uzun <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="106" style="color: #38bdf8;">106</td>
+            <td class="number" data-val="25863709" style="color: #4ade80;">25.863.709 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Braunbär7</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Asllani <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="90" style="color: #38bdf8;">90</td>
+            <td class="number" data-val="25613740" style="color: #4ade80;">25.613.740 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Joel</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Karl <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="106" style="color: #38bdf8;">106</td>
+            <td class="number" data-val="25603701" style="color: #4ade80;">25.603.701 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ginter <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="114" style="color: #38bdf8;">114</td>
+            <td class="number" data-val="25351427" style="color: #4ade80;">25.351.427 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Chabot <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="113" style="color: #38bdf8;">113</td>
+            <td class="number" data-val="25019725" style="color: #4ade80;">25.019.725 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">MirkoHengst</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kramarić <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="111" style="color: #38bdf8;">111</td>
+            <td class="number" data-val="24827118" style="color: #4ade80;">24.827.118 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Braunbär7</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ryerson <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="105" style="color: #38bdf8;">105</td>
+            <td class="number" data-val="24798409" style="color: #4ade80;">24.798.409 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Demirović <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="90" style="color: #38bdf8;">90</td>
+            <td class="number" data-val="24724942" style="color: #4ade80;">24.724.942 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">MirkoHengst</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">El Khannouss <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="109" style="color: #38bdf8;">109</td>
+            <td class="number" data-val="24532626" style="color: #4ade80;">24.532.626 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Beier <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="94" style="color: #38bdf8;">94</td>
+            <td class="number" data-val="24251989" style="color: #4ade80;">24.251.989 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Timo Kramer</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Burkardt <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="87" style="color: #38bdf8;">87</td>
+            <td class="number" data-val="23231418" style="color: #4ade80;">23.231.418 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">El Mala <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="71" style="color: #38bdf8;">71</td>
+            <td class="number" data-val="23165279" style="color: #4ade80;">23.165.279 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Julian</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Führich <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="101" style="color: #38bdf8;">101</td>
+            <td class="number" data-val="22584338" style="color: #4ade80;">22.584.338 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Joel</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Coufal <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="115" style="color: #38bdf8;">115</td>
+            <td class="number" data-val="22583042" style="color: #4ade80;">22.583.042 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vanilleeis23</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Nmecha <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="94" style="color: #38bdf8;">94</td>
+            <td class="number" data-val="22119251" style="color: #4ade80;">22.119.251 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">MirkoHengst</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Nusa <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="91" style="color: #38bdf8;">91</td>
+            <td class="number" data-val="22117754" style="color: #4ade80;">22.117.754 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kobel <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="104" style="color: #38bdf8;">104</td>
+            <td class="number" data-val="21882933" style="color: #4ade80;">21.882.933 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Koch <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="107" style="color: #38bdf8;">107</td>
+            <td class="number" data-val="20604703" style="color: #4ade80;">20.604.703 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">MirkoHengst</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ouédraogo <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="90" style="color: #38bdf8;">90</td>
+            <td class="number" data-val="20209924" style="color: #4ade80;">20.209.924 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">MirkoHengst</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Palacios <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="93" style="color: #38bdf8;">93</td>
+            <td class="number" data-val="19999155" style="color: #4ade80;">19.999.155 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">MirkoHengst</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Gadou <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="19970199" style="color: #4ade80;">19.970.199 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Castello Jr. <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="106" style="color: #38bdf8;">106</td>
+            <td class="number" data-val="19968299" style="color: #4ade80;">19.968.299 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Burger <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="114" style="color: #38bdf8;">114</td>
+            <td class="number" data-val="19382056" style="color: #4ade80;">19.382.056 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Joel</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bischof <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="118" style="color: #38bdf8;">118</td>
+            <td class="number" data-val="19344417" style="color: #4ade80;">19.344.417 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Baumann <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="99" style="color: #38bdf8;">99</td>
+            <td class="number" data-val="19179617" style="color: #4ade80;">19.179.617 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Quansah <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="102" style="color: #38bdf8;">102</td>
+            <td class="number" data-val="18916147" style="color: #4ade80;">18.916.147 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Timo Kramer</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Svensson <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="82" style="color: #38bdf8;">82</td>
+            <td class="number" data-val="18612314" style="color: #4ade80;">18.612.314 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Baumgartner <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="117" style="color: #38bdf8;">117</td>
+            <td class="number" data-val="18420288" style="color: #4ade80;">18.420.288 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Philipp</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Moreira <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="17793179" style="color: #4ade80;">17.793.179 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Gnabry <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="142" style="color: #38bdf8;">142</td>
+            <td class="number" data-val="17730635" style="color: #4ade80;">17.730.635 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kabak <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="105" style="color: #38bdf8;">105</td>
+            <td class="number" data-val="17689287" style="color: #4ade80;">17.689.287 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Sascha187</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Baku <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="102" style="color: #38bdf8;">102</td>
+            <td class="number" data-val="17652276" style="color: #4ade80;">17.652.276 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Dōan <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="90" style="color: #38bdf8;">90</td>
+            <td class="number" data-val="17315507" style="color: #4ade80;">17.315.507 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Rômulo <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="83" style="color: #38bdf8;">83</td>
+            <td class="number" data-val="17183579" style="color: #4ade80;">17.183.579 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Julian</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bellingham <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="68" style="color: #38bdf8;">68</td>
+            <td class="number" data-val="17040038" style="color: #4ade80;">17.040.038 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Philipp</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Nicolas <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="111" style="color: #38bdf8;">111</td>
+            <td class="number" data-val="16974698" style="color: #4ade80;">16.974.698 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Sascha187</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bensebaini <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="128" style="color: #38bdf8;">128</td>
+            <td class="number" data-val="16912134" style="color: #4ade80;">16.912.134 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Elvedi <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="106" style="color: #38bdf8;">106</td>
+            <td class="number" data-val="16586750" style="color: #4ade80;">16.586.750 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Tillman <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="82" style="color: #38bdf8;">82</td>
+            <td class="number" data-val="15395904" style="color: #4ade80;">15.395.904 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Estève <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="15382008" style="color: #4ade80;">15.382.008 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Davies <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="86" style="color: #38bdf8;">86</td>
+            <td class="number" data-val="14799214" style="color: #4ade80;">14.799.214 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Matanović <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="68" style="color: #38bdf8;">68</td>
+            <td class="number" data-val="14488445" style="color: #4ade80;">14.488.445 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">404</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Backhaus <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="95" style="color: #38bdf8;">95</td>
+            <td class="number" data-val="14326154" style="color: #4ade80;">14.326.154 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Hajdari <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="97" style="color: #38bdf8;">97</td>
+            <td class="number" data-val="14058218" style="color: #4ade80;">14.058.218 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">CoachLeisi</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Dahmen <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="90" style="color: #38bdf8;">90</td>
+            <td class="number" data-val="13789739" style="color: #4ade80;">13.789.739 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Timo Kramer</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Theate <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="93" style="color: #38bdf8;">93</td>
+            <td class="number" data-val="13398967" style="color: #4ade80;">13.398.967 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Philipp</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kleindienst <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="20" style="color: #38bdf8;">20</td>
+            <td class="number" data-val="13334025" style="color: #4ade80;">13.334.025 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Seiwald <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="86" style="color: #38bdf8;">86</td>
+            <td class="number" data-val="12939845" style="color: #4ade80;">12.939.845 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Badé <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="95" style="color: #38bdf8;">95</td>
+            <td class="number" data-val="12783978" style="color: #4ade80;">12.783.978 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Gruda <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="98" style="color: #38bdf8;">98</td>
+            <td class="number" data-val="12500325" style="color: #4ade80;">12.500.325 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">404</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Diks <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="95" style="color: #38bdf8;">95</td>
+            <td class="number" data-val="12357935" style="color: #4ade80;">12.357.935 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Sano <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="83" style="color: #38bdf8;">83</td>
+            <td class="number" data-val="12035038" style="color: #4ade80;">12.035.038 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Philipp</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Urbig <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="114" style="color: #38bdf8;">114</td>
+            <td class="number" data-val="11969253" style="color: #4ade80;">11.969.253 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Vandevoordt <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="109" style="color: #38bdf8;">109</td>
+            <td class="number" data-val="11966092" style="color: #4ade80;">11.966.092 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">MirkoHengst</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Chaïbi <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="83" style="color: #38bdf8;">83</td>
+            <td class="number" data-val="11886468" style="color: #4ade80;">11.886.468 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Flekken <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="93" style="color: #38bdf8;">93</td>
+            <td class="number" data-val="11825716" style="color: #4ade80;">11.825.716 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vanilleeis23</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">De Cat <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="11784702" style="color: #4ade80;">11.784.702 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Neuer <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="95" style="color: #38bdf8;">95</td>
+            <td class="number" data-val="11758621" style="color: #4ade80;">11.758.621 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Querfeld <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="90" style="color: #38bdf8;">90</td>
+            <td class="number" data-val="11746416" style="color: #4ade80;">11.746.416 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Avdullahu <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="85" style="color: #38bdf8;">85</td>
+            <td class="number" data-val="11741427" style="color: #4ade80;">11.741.427 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Sascha187</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Reitz <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="74" style="color: #38bdf8;">74</td>
+            <td class="number" data-val="11673938" style="color: #4ade80;">11.673.938 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Eggestein <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="84" style="color: #38bdf8;">84</td>
+            <td class="number" data-val="11601984" style="color: #4ade80;">11.601.984 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">CoachLeisi</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Leopold <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="11590106" style="color: #4ade80;">11.590.106 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Lemperle <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="74" style="color: #38bdf8;">74</td>
+            <td class="number" data-val="11548756" style="color: #4ade80;">11.548.756 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Braunbär7</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Inácio <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="52" style="color: #38bdf8;">52</td>
+            <td class="number" data-val="11447925" style="color: #4ade80;">11.447.925 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Schlotterbeck <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="87" style="color: #38bdf8;">87</td>
+            <td class="number" data-val="11185905" style="color: #4ade80;">11.185.905 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Prömel <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="76" style="color: #38bdf8;">76</td>
+            <td class="number" data-val="11158056" style="color: #4ade80;">11.158.056 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Schwäbe <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="96" style="color: #38bdf8;">96</td>
+            <td class="number" data-val="11131436" style="color: #4ade80;">11.131.436 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Braunbär7</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Nebel <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="67" style="color: #38bdf8;">67</td>
+            <td class="number" data-val="11000110" style="color: #4ade80;">11.000.110 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vincent</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Minjae <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="124" style="color: #38bdf8;">124</td>
+            <td class="number" data-val="10963587" style="color: #4ade80;">10.963.587 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Seimen <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="10954298" style="color: #4ade80;">10.954.298 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Atubolu <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="97" style="color: #38bdf8;">97</td>
+            <td class="number" data-val="10929889" style="color: #4ade80;">10.929.889 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Philipp</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Jeltsch <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="72" style="color: #38bdf8;">72</td>
+            <td class="number" data-val="10706378" style="color: #4ade80;">10.706.378 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Van den Bosch <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="10532088" style="color: #4ade80;">10.532.088 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Lidberg <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="10509148" style="color: #4ade80;">10.509.148 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Futkeu <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="10482375" style="color: #4ade80;">10.482.375 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Larsson <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="71" style="color: #38bdf8;">71</td>
+            <td class="number" data-val="10431349" style="color: #4ade80;">10.431.349 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Martel <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="77" style="color: #38bdf8;">77</td>
+            <td class="number" data-val="10411084" style="color: #4ade80;">10.411.084 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Andrich <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="82" style="color: #38bdf8;">82</td>
+            <td class="number" data-val="10387423" style="color: #4ade80;">10.387.423 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vanilleeis23</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Collins <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="71" style="color: #38bdf8;">71</td>
+            <td class="number" data-val="10347732" style="color: #4ade80;">10.347.732 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Koné <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="10303538" style="color: #4ade80;">10.303.538 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ache <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="67" style="color: #38bdf8;">67</td>
+            <td class="number" data-val="10227356" style="color: #4ade80;">10.227.356 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Becker <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="76" style="color: #38bdf8;">76</td>
+            <td class="number" data-val="10194166" style="color: #4ade80;">10.194.166 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vincent</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Alajbegovic <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="10180882" style="color: #4ade80;">10.180.882 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Claude-Maurice <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="80" style="color: #38bdf8;">80</td>
+            <td class="number" data-val="10157386" style="color: #4ade80;">10.157.386 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Sascha187</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Sabitzer <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="83" style="color: #38bdf8;">83</td>
+            <td class="number" data-val="10137098" style="color: #4ade80;">10.137.098 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Julian</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Matsima <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="82" style="color: #38bdf8;">82</td>
+            <td class="number" data-val="10059432" style="color: #4ade80;">10.059.432 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Braunbär7</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Hendriks <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="66" style="color: #38bdf8;">66</td>
+            <td class="number" data-val="9936284" style="color: #4ade80;">9.936.284 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Braunbär7</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kofane <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="58" style="color: #38bdf8;">58</td>
+            <td class="number" data-val="9934575" style="color: #4ade80;">9.934.575 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Karazor <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="65" style="color: #38bdf8;">65</td>
+            <td class="number" data-val="9903401" style="color: #4ade80;">9.903.401 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bernardo <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="82" style="color: #38bdf8;">82</td>
+            <td class="number" data-val="9882961" style="color: #4ade80;">9.882.961 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Timo Kramer</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Gruber <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="9807501" style="color: #4ade80;">9.807.501 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Eichhorn <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="9780346" style="color: #4ade80;">9.780.346 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Zentner <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="73" style="color: #38bdf8;">73</td>
+            <td class="number" data-val="9675311" style="color: #4ade80;">9.675.311 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ebnoutalib <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="25" style="color: #38bdf8;">25</td>
+            <td class="number" data-val="9614550" style="color: #4ade80;">9.614.550 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Grifo <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="71" style="color: #38bdf8;">71</td>
+            <td class="number" data-val="9347003" style="color: #4ade80;">9.347.003 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">CoachLeisi</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bahoya <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="64" style="color: #38bdf8;">64</td>
+            <td class="number" data-val="9298400" style="color: #4ade80;">9.298.400 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Suzuki <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="63" style="color: #38bdf8;">63</td>
+            <td class="number" data-val="9149719" style="color: #4ade80;">9.149.719 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Rots <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="9093945" style="color: #4ade80;">9.093.945 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Brackelmann <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="8841690" style="color: #4ade80;">8.841.690 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Goto <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="8839571" style="color: #4ade80;">8.839.571 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Rieder <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="71" style="color: #38bdf8;">71</td>
+            <td class="number" data-val="8821433" style="color: #4ade80;">8.821.433 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vanilleeis23</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Conté <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="8653935" style="color: #4ade80;">8.653.935 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Tella <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="68" style="color: #38bdf8;">68</td>
+            <td class="number" data-val="8587314" style="color: #4ade80;">8.587.314 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Lienhart <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="69" style="color: #38bdf8;">69</td>
+            <td class="number" data-val="8383709" style="color: #4ade80;">8.383.709 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Sascha187</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Lerma <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="8370580" style="color: #4ade80;">8.370.580 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Poku <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="72" style="color: #38bdf8;">72</td>
+            <td class="number" data-val="8329098" style="color: #4ade80;">8.329.098 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Yamamoto <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="8197522" style="color: #4ade80;">8.197.522 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Tietz <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="56" style="color: #38bdf8;">56</td>
+            <td class="number" data-val="8106900" style="color: #4ade80;">8.106.900 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">CoachLeisi</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ansah <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="40" style="color: #38bdf8;">40</td>
+            <td class="number" data-val="8046052" style="color: #4ade80;">8.046.052 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Philipp</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Sander <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="80" style="color: #38bdf8;">80</td>
+            <td class="number" data-val="8014653" style="color: #4ade80;">8.014.653 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Castrop <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="49" style="color: #38bdf8;">49</td>
+            <td class="number" data-val="7940291" style="color: #4ade80;">7.940.291 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">H. Ito <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="103" style="color: #38bdf8;">103</td>
+            <td class="number" data-val="7868629" style="color: #4ade80;">7.868.629 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Konoplia <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="7856805" style="color: #4ade80;">7.856.805 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bakayoko <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="49" style="color: #38bdf8;">49</td>
+            <td class="number" data-val="7834690" style="color: #4ade80;">7.834.690 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Andrés <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="77" style="color: #38bdf8;">77</td>
+            <td class="number" data-val="7813192" style="color: #4ade80;">7.813.192 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Herold <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="7744896" style="color: #4ade80;">7.744.896 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Fábio Silva <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="51" style="color: #38bdf8;">51</td>
+            <td class="number" data-val="7730017" style="color: #4ade80;">7.730.017 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">404</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Honorat <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="68" style="color: #38bdf8;">68</td>
+            <td class="number" data-val="7644888" style="color: #4ade80;">7.644.888 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Potulski <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="80" style="color: #38bdf8;">80</td>
+            <td class="number" data-val="7616783" style="color: #4ade80;">7.616.783 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Mohya <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="34" style="color: #38bdf8;">34</td>
+            <td class="number" data-val="7608485" style="color: #4ade80;">7.608.485 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kauã Santos <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="65" style="color: #38bdf8;">65</td>
+            <td class="number" data-val="7522048" style="color: #4ade80;">7.522.048 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Chukwuemeka <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="47" style="color: #38bdf8;">47</td>
+            <td class="number" data-val="7471841" style="color: #4ade80;">7.471.841 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Gulácsi <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="103" style="color: #38bdf8;">103</td>
+            <td class="number" data-val="7430771" style="color: #4ade80;">7.430.771 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Prates <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="7355845" style="color: #4ade80;">7.355.845 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ilic <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="69" style="color: #38bdf8;">69</td>
+            <td class="number" data-val="7332316" style="color: #4ade80;">7.332.316 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Wimmer <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="59" style="color: #38bdf8;">59</td>
+            <td class="number" data-val="7328111" style="color: #4ade80;">7.328.111 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Treu <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="52" style="color: #38bdf8;">52</td>
+            <td class="number" data-val="7279821" style="color: #4ade80;">7.279.821 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Rönnow <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="75" style="color: #38bdf8;">75</td>
+            <td class="number" data-val="7081233" style="color: #4ade80;">7.081.233 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Culbreath <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="61" style="color: #38bdf8;">61</td>
+            <td class="number" data-val="7031672" style="color: #4ade80;">7.031.672 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kade <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="64" style="color: #38bdf8;">64</td>
+            <td class="number" data-val="6999267" style="color: #4ade80;">6.999.267 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Timo Kramer</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Gregoritsch <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="74" style="color: #38bdf8;">74</td>
+            <td class="number" data-val="6980401" style="color: #4ade80;">6.980.401 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Gouweleeuw <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="62" style="color: #38bdf8;">62</td>
+            <td class="number" data-val="6961672" style="color: #4ade80;">6.961.672 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Braunbär7</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Simpson-Pusey <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="61" style="color: #38bdf8;">61</td>
+            <td class="number" data-val="6842592" style="color: #4ade80;">6.842.592 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Zetterer <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="94" style="color: #38bdf8;">94</td>
+            <td class="number" data-val="6835363" style="color: #4ade80;">6.835.363 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">404</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Da Costa <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="73" style="color: #38bdf8;">73</td>
+            <td class="number" data-val="6809449" style="color: #4ade80;">6.809.449 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Reggiani <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="74" style="color: #38bdf8;">74</td>
+            <td class="number" data-val="6703141" style="color: #4ade80;">6.703.141 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">CoachLeisi</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Beste <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="60" style="color: #38bdf8;">60</td>
+            <td class="number" data-val="6416975" style="color: #4ade80;">6.416.975 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Vagnoman <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="61" style="color: #38bdf8;">61</td>
+            <td class="number" data-val="6382737" style="color: #4ade80;">6.382.737 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kohr <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="71" style="color: #38bdf8;">71</td>
+            <td class="number" data-val="6369484" style="color: #4ade80;">6.369.484 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">404</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Fellhauer <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="65" style="color: #38bdf8;">65</td>
+            <td class="number" data-val="6305694" style="color: #4ade80;">6.305.694 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Joel</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Jaquez <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="83" style="color: #38bdf8;">83</td>
+            <td class="number" data-val="6226975" style="color: #4ade80;">6.226.975 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Lee <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="65" style="color: #38bdf8;">65</td>
+            <td class="number" data-val="6192529" style="color: #4ade80;">6.192.529 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Damjanovic <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="6142940" style="color: #4ade80;">6.142.940 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Hack <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="59" style="color: #38bdf8;">59</td>
+            <td class="number" data-val="6120000" style="color: #4ade80;">6.120.000 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">CoachLeisi</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Yilmaz <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="5995777" style="color: #4ade80;">5.995.777 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Königsdörffer <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="45" style="color: #38bdf8;">45</td>
+            <td class="number" data-val="5959651" style="color: #4ade80;">5.959.651 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Scally <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="62" style="color: #38bdf8;">62</td>
+            <td class="number" data-val="5915019" style="color: #4ade80;">5.915.019 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vincent</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ibrahimović <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="57" style="color: #38bdf8;">57</td>
+            <td class="number" data-val="5903567" style="color: #4ade80;">5.903.567 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Philipp</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Aséko <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="5899396" style="color: #4ade80;">5.899.396 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Mensah <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="5884829" style="color: #4ade80;">5.884.829 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Giannoulis <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="73" style="color: #38bdf8;">73</td>
+            <td class="number" data-val="5863494" style="color: #4ade80;">5.863.494 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vincent</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Lochoshvili <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="5822299" style="color: #4ade80;">5.822.299 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Mwene <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="49" style="color: #38bdf8;">49</td>
+            <td class="number" data-val="5758346" style="color: #4ade80;">5.758.346 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vanilleeis23</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Batz <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="111" style="color: #38bdf8;">111</td>
+            <td class="number" data-val="5751079" style="color: #4ade80;">5.751.079 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Massengo <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="59" style="color: #38bdf8;">59</td>
+            <td class="number" data-val="5635030" style="color: #4ade80;">5.635.030 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Zagadou <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="141" style="color: #38bdf8;">141</td>
+            <td class="number" data-val="5622776" style="color: #4ade80;">5.622.776 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Heskey <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="5597224" style="color: #4ade80;">5.597.224 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Nartey <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="73" style="color: #38bdf8;">73</td>
+            <td class="number" data-val="5555916" style="color: #4ade80;">5.555.916 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Hranác <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="79" style="color: #38bdf8;">79</td>
+            <td class="number" data-val="5470371" style="color: #4ade80;">5.470.371 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Uno <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="5394527" style="color: #4ade80;">5.394.527 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Banks <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="73" style="color: #38bdf8;">73</td>
+            <td class="number" data-val="5354999" style="color: #4ade80;">5.354.999 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Arthur <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="64" style="color: #38bdf8;">64</td>
+            <td class="number" data-val="5298116" style="color: #4ade80;">5.298.116 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Jóhannesson <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="48" style="color: #38bdf8;">48</td>
+            <td class="number" data-val="5142518" style="color: #4ade80;">5.142.518 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Amaimouni <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="40" style="color: #38bdf8;">40</td>
+            <td class="number" data-val="5095451" style="color: #4ade80;">5.095.451 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Julian</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Tiago Tomás <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="59" style="color: #38bdf8;">59</td>
+            <td class="number" data-val="5042777" style="color: #4ade80;">5.042.777 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bitshiabu <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="74" style="color: #38bdf8;">74</td>
+            <td class="number" data-val="4992992" style="color: #4ade80;">4.992.992 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Julian</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Pimpong <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="4985052" style="color: #4ade80;">4.985.052 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Knauff <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="46" style="color: #38bdf8;">46</td>
+            <td class="number" data-val="4983401" style="color: #4ade80;">4.983.401 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Caci <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="54" style="color: #38bdf8;">54</td>
+            <td class="number" data-val="4965006" style="color: #4ade80;">4.965.006 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Sebulonsen <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="46" style="color: #38bdf8;">46</td>
+            <td class="number" data-val="4918455" style="color: #4ade80;">4.918.455 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Prass <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="50" style="color: #38bdf8;">50</td>
+            <td class="number" data-val="4765774" style="color: #4ade80;">4.765.774 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Skhiri <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="41" style="color: #38bdf8;">41</td>
+            <td class="number" data-val="4748249" style="color: #4ade80;">4.748.249 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Harder <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="39" style="color: #38bdf8;">39</td>
+            <td class="number" data-val="4693827" style="color: #4ade80;">4.693.827 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Henrichs <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="26" style="color: #38bdf8;">26</td>
+            <td class="number" data-val="4686099" style="color: #4ade80;">4.686.099 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Chaves <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="69" style="color: #38bdf8;">69</td>
+            <td class="number" data-val="4664093" style="color: #4ade80;">4.664.093 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Suleiman <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="4632993" style="color: #4ade80;">4.632.993 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Leszczynski <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="4602927" style="color: #4ade80;">4.602.927 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Vogt <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="4598830" style="color: #4ade80;">4.598.830 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Schäfer <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="42" style="color: #38bdf8;">42</td>
+            <td class="number" data-val="4584921" style="color: #4ade80;">4.584.921 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kübler <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="82" style="color: #38bdf8;">82</td>
+            <td class="number" data-val="4574993" style="color: #4ade80;">4.574.993 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">404</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Boniface <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="43" style="color: #38bdf8;">43</td>
+            <td class="number" data-val="4540848" style="color: #4ade80;">4.540.848 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Krauß <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="56" style="color: #38bdf8;">56</td>
+            <td class="number" data-val="4533552" style="color: #4ade80;">4.533.552 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Højlund <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="32" style="color: #38bdf8;">32</td>
+            <td class="number" data-val="4504722" style="color: #4ade80;">4.504.722 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Scherhant <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="48" style="color: #38bdf8;">48</td>
+            <td class="number" data-val="4501199" style="color: #4ade80;">4.501.199 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Baum <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="6" style="color: #38bdf8;">6</td>
+            <td class="number" data-val="4465009" style="color: #4ade80;">4.465.009 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Behrens <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="68" style="color: #38bdf8;">68</td>
+            <td class="number" data-val="4461583" style="color: #4ade80;">4.461.583 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">CoachLeisi</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Hübers <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="92" style="color: #38bdf8;">92</td>
+            <td class="number" data-val="4453485" style="color: #4ade80;">4.453.485 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Banzuzi <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="36" style="color: #38bdf8;">36</td>
+            <td class="number" data-val="4413129" style="color: #4ade80;">4.413.129 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Khedira <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="61" style="color: #38bdf8;">61</td>
+            <td class="number" data-val="4369924" style="color: #4ade80;">4.369.924 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Neuhaus <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="53" style="color: #38bdf8;">53</td>
+            <td class="number" data-val="4368745" style="color: #4ade80;">4.368.745 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bell <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="73" style="color: #38bdf8;">73</td>
+            <td class="number" data-val="4307389" style="color: #4ade80;">4.307.389 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Lenz <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="4265491" style="color: #4ade80;">4.265.491 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Machida <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="42" style="color: #38bdf8;">42</td>
+            <td class="number" data-val="4245929" style="color: #4ade80;">4.245.929 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ben Seghir <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="35" style="color: #38bdf8;">35</td>
+            <td class="number" data-val="4237222" style="color: #4ade80;">4.237.222 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Fernández <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="58" style="color: #38bdf8;">58</td>
+            <td class="number" data-val="4218905" style="color: #4ade80;">4.218.905 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Hložek <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="1" style="color: #38bdf8;">1</td>
+            <td class="number" data-val="4213298" style="color: #4ade80;">4.213.298 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ogbus <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="52" style="color: #38bdf8;">52</td>
+            <td class="number" data-val="4149317" style="color: #4ade80;">4.149.317 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kemlein <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="48" style="color: #38bdf8;">48</td>
+            <td class="number" data-val="4094455" style="color: #4ade80;">4.094.455 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Widmer <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="54" style="color: #38bdf8;">54</td>
+            <td class="number" data-val="4072097" style="color: #4ade80;">4.072.097 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Jakić <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="56" style="color: #38bdf8;">56</td>
+            <td class="number" data-val="4023419" style="color: #4ade80;">4.023.419 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Engelhardt <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="64" style="color: #38bdf8;">64</td>
+            <td class="number" data-val="3950277" style="color: #4ade80;">3.950.277 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vanilleeis23</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Köhn <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="48" style="color: #38bdf8;">48</td>
+            <td class="number" data-val="3925710" style="color: #4ade80;">3.925.710 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Dinkçi <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="44" style="color: #38bdf8;">44</td>
+            <td class="number" data-val="3918648" style="color: #4ade80;">3.918.648 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Braunbär7</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Höler <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="46" style="color: #38bdf8;">46</td>
+            <td class="number" data-val="3912815" style="color: #4ade80;">3.912.815 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Belocian <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="54" style="color: #38bdf8;">54</td>
+            <td class="number" data-val="3886067" style="color: #4ade80;">3.886.067 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">404</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Lucas Vázquez <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="69" style="color: #38bdf8;">69</td>
+            <td class="number" data-val="3852029" style="color: #4ade80;">3.852.029 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bülter <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="53" style="color: #38bdf8;">53</td>
+            <td class="number" data-val="3837457" style="color: #4ade80;">3.837.457 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Günter <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="48" style="color: #38bdf8;">48</td>
+            <td class="number" data-val="3813750" style="color: #4ade80;">3.813.750 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Couto <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="77" style="color: #38bdf8;">77</td>
+            <td class="number" data-val="3799906" style="color: #4ade80;">3.799.906 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Castro-Montes <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="64" style="color: #38bdf8;">64</td>
+            <td class="number" data-val="3792096" style="color: #4ade80;">3.792.096 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Reyna <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="35" style="color: #38bdf8;">35</td>
+            <td class="number" data-val="3782604" style="color: #4ade80;">3.782.604 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Suso <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="3765533" style="color: #4ade80;">3.765.533 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Makengo <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="42" style="color: #38bdf8;">42</td>
+            <td class="number" data-val="3713937" style="color: #4ade80;">3.713.937 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Rothe <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="41" style="color: #38bdf8;">41</td>
+            <td class="number" data-val="3711050" style="color: #4ade80;">3.711.050 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vanilleeis23</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Maina <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="40" style="color: #38bdf8;">40</td>
+            <td class="number" data-val="3699617" style="color: #4ade80;">3.699.617 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">van den Berg <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="58" style="color: #38bdf8;">58</td>
+            <td class="number" data-val="3617916" style="color: #4ade80;">3.617.916 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Moerstedt <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="23" style="color: #38bdf8;">23</td>
+            <td class="number" data-val="3597989" style="color: #4ade80;">3.597.989 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bouanani <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="39" style="color: #38bdf8;">39</td>
+            <td class="number" data-val="3567421" style="color: #4ade80;">3.567.421 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Hofmann <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="58" style="color: #38bdf8;">58</td>
+            <td class="number" data-val="3563626" style="color: #4ade80;">3.563.626 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Can <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="114" style="color: #38bdf8;">114</td>
+            <td class="number" data-val="3526911" style="color: #4ade80;">3.526.911 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Burcu <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="28" style="color: #38bdf8;">28</td>
+            <td class="number" data-val="3503813" style="color: #4ade80;">3.503.813 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kömür <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="53" style="color: #38bdf8;">53</td>
+            <td class="number" data-val="3488659" style="color: #4ade80;">3.488.659 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Terrier <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="54" style="color: #38bdf8;">54</td>
+            <td class="number" data-val="3412487" style="color: #4ade80;">3.412.487 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Schmied <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="40" style="color: #38bdf8;">40</td>
+            <td class="number" data-val="3364346" style="color: #4ade80;">3.364.346 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Blaswich <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="111" style="color: #38bdf8;">111</td>
+            <td class="number" data-val="3254364" style="color: #4ade80;">3.254.364 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bolin <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="40" style="color: #38bdf8;">40</td>
+            <td class="number" data-val="3202959" style="color: #4ade80;">3.202.959 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vincent</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ruoppi <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="3118112" style="color: #4ade80;">3.118.112 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Pauli <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="2884828" style="color: #4ade80;">2.884.828 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Thielmann <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="52" style="color: #38bdf8;">52</td>
+            <td class="number" data-val="2736954" style="color: #4ade80;">2.736.954 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vincent</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Finkgräfe <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="55" style="color: #38bdf8;">55</td>
+            <td class="number" data-val="2560324" style="color: #4ade80;">2.560.324 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Philipp</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Tape <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="20" style="color: #38bdf8;">20</td>
+            <td class="number" data-val="2559767" style="color: #4ade80;">2.559.767 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kabadayi <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="2428303" style="color: #4ade80;">2.428.303 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ribeiro <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="38" style="color: #38bdf8;">38</td>
+            <td class="number" data-val="2426622" style="color: #4ade80;">2.426.622 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Mane <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="12" style="color: #38bdf8;">12</td>
+            <td class="number" data-val="2413301" style="color: #4ade80;">2.413.301 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Friedrich <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="29" style="color: #38bdf8;">29</td>
+            <td class="number" data-val="2352359" style="color: #4ade80;">2.352.359 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Juranović <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="50" style="color: #38bdf8;">50</td>
+            <td class="number" data-val="2282905" style="color: #4ade80;">2.282.905 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Jeong <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="36" style="color: #38bdf8;">36</td>
+            <td class="number" data-val="2267088" style="color: #4ade80;">2.267.088 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Wolf <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="24" style="color: #38bdf8;">24</td>
+            <td class="number" data-val="2119795" style="color: #4ade80;">2.119.795 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vanilleeis23</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Rosenfelder <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="27" style="color: #38bdf8;">27</td>
+            <td class="number" data-val="2068639" style="color: #4ade80;">2.068.639 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Chiarodia <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="33" style="color: #38bdf8;">33</td>
+            <td class="number" data-val="2021363" style="color: #4ade80;">2.021.363 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Keitel <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="39" style="color: #38bdf8;">39</td>
+            <td class="number" data-val="1990058" style="color: #4ade80;">1.990.058 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Machino <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="23" style="color: #38bdf8;">23</td>
+            <td class="number" data-val="1967556" style="color: #4ade80;">1.967.556 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Hanche-Olsen <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="57" style="color: #38bdf8;">57</td>
+            <td class="number" data-val="1946189" style="color: #4ade80;">1.946.189 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Gomis <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="23" style="color: #38bdf8;">23</td>
+            <td class="number" data-val="1931507" style="color: #4ade80;">1.931.507 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Trimmel <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="60" style="color: #38bdf8;">60</td>
+            <td class="number" data-val="1817551" style="color: #4ade80;">1.817.551 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vanilleeis23</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Burke <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="49" style="color: #38bdf8;">49</td>
+            <td class="number" data-val="1779327" style="color: #4ade80;">1.779.327 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Sascha187</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Al Dakhil <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="52" style="color: #38bdf8;">52</td>
+            <td class="number" data-val="1735537" style="color: #4ade80;">1.735.537 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Klostermann <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="40" style="color: #38bdf8;">40</td>
+            <td class="number" data-val="1675926" style="color: #4ade80;">1.675.926 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Arrhov <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="14" style="color: #38bdf8;">14</td>
+            <td class="number" data-val="1673055" style="color: #4ade80;">1.673.055 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Boey <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="70" style="color: #38bdf8;">70</td>
+            <td class="number" data-val="1595486" style="color: #4ade80;">1.595.486 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bredlow <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="1572920" style="color: #4ade80;">1.572.920 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Milosevic <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="31" style="color: #38bdf8;">31</td>
+            <td class="number" data-val="1488600" style="color: #4ade80;">1.488.600 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Götze <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="33" style="color: #38bdf8;">33</td>
+            <td class="number" data-val="1472954" style="color: #4ade80;">1.472.954 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Haberer <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="31" style="color: #38bdf8;">31</td>
+            <td class="number" data-val="1440758" style="color: #4ade80;">1.440.758 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Irié <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="15" style="color: #38bdf8;">15</td>
+            <td class="number" data-val="1407220" style="color: #4ade80;">1.407.220 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Assignon <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="48" style="color: #38bdf8;">48</td>
+            <td class="number" data-val="1363307" style="color: #4ade80;">1.363.307 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Timo Kramer</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Klaus <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="117" style="color: #38bdf8;">117</td>
+            <td class="number" data-val="1273591" style="color: #4ade80;">1.273.591 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Joel</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Stergiou <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="29" style="color: #38bdf8;">29</td>
+            <td class="number" data-val="1268454" style="color: #4ade80;">1.268.454 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ngoumou <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="1251059" style="color: #4ade80;">1.251.059 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Stöger <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="43" style="color: #38bdf8;">43</td>
+            <td class="number" data-val="1187086" style="color: #4ade80;">1.187.086 €</td>
+            <td style="color: #f1f5f9; font-weight: 600;">Vanilleeis23</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Gendrey <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="36" style="color: #38bdf8;">36</td>
+            <td class="number" data-val="1158609" style="color: #4ade80;">1.158.609 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Waldschmidt <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="50" style="color: #38bdf8;">50</td>
+            <td class="number" data-val="1133115" style="color: #4ade80;">1.133.115 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Hollerbach <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="36" style="color: #38bdf8;">36</td>
+            <td class="number" data-val="997451" style="color: #4ade80;">997.451 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Batshuayi <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="17" style="color: #38bdf8;">17</td>
+            <td class="number" data-val="802532" style="color: #4ade80;">802.532 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Silas <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="30" style="color: #38bdf8;">30</td>
+            <td class="number" data-val="798787" style="color: #4ade80;">798.787 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Skov <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="35" style="color: #38bdf8;">35</td>
+            <td class="number" data-val="763310" style="color: #4ade80;">763.310 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ulreich <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayern München</td>
+            <td class="number" data-val="125" style="color: #38bdf8;">125</td>
+            <td class="number" data-val="756579" style="color: #4ade80;">756.579 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ullrich <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="33" style="color: #38bdf8;">33</td>
+            <td class="number" data-val="738396" style="color: #4ade80;">738.396 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Skarke <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="26" style="color: #38bdf8;">26</td>
+            <td class="number" data-val="721407" style="color: #4ade80;">721.407 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Osterhage <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="47" style="color: #38bdf8;">47</td>
+            <td class="number" data-val="718519" style="color: #4ade80;">718.519 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Nsoki <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="55" style="color: #38bdf8;">55</td>
+            <td class="number" data-val="702745" style="color: #4ade80;">702.745 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Niang <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="6" style="color: #38bdf8;">6</td>
+            <td class="number" data-val="691262" style="color: #4ade80;">691.262 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kosugi <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="638927" style="color: #4ade80;">638.927 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Jung <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="37" style="color: #38bdf8;">37</td>
+            <td class="number" data-val="604363" style="color: #4ade80;">604.363 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Vermeeren <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="564485" style="color: #4ade80;">564.485 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Meyer <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="523769" style="color: #4ade80;">523.769 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Bøving <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="16" style="color: #38bdf8;">16</td>
+            <td class="number" data-val="522877" style="color: #4ade80;">522.877 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Maksimovic <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="18" style="color: #38bdf8;">18</td>
+            <td class="number" data-val="508081" style="color: #4ade80;">508.081 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Maloney <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="16" style="color: #38bdf8;">16</td>
+            <td class="number" data-val="505630" style="color: #4ade80;">505.630 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Drewes <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia Dortmund</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Grahl <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Chandler <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Eintracht Frankfurt</td>
+            <td class="number" data-val="31" style="color: #38bdf8;">31</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Huth <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Müller <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">VfB Stuttgart</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Oermann <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Bayer Leverkusen</td>
+            <td class="number" data-val="2" style="color: #38bdf8;">2</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Funk <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Diehl <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Jovanovic <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="10" style="color: #38bdf8;">10</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Arévalo <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Schalke 04</td>
+            <td class="number" data-val="15" style="color: #38bdf8;">15</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Pedersen <span class="pos-badge pos-abw" style="margin-left: 8px;">ABW</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="10" style="color: #38bdf8;">10</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Labrović <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Sakar <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Ogundu <span class="pos-badge pos-st" style="margin-left: 8px;">STU</span></td>
+            <td style="text-align: left; color: #94a3b8;">Borussia M'gladbach</td>
+            <td class="number" data-val="18" style="color: #38bdf8;">18</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Philipp <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Petersson <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">SC Freiburg</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Olschowsky <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FSV Mainz 05</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Kawasaki <span class="pos-badge pos-mf" style="margin-left: 8px;">MIT</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC Augsburg</td>
+            <td class="number" data-val="15" style="color: #38bdf8;">15</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Zieler <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Köbbing <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Köln</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Raab <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">1. FC Union Berlin</td>
+            <td class="number" data-val="214" style="color: #38bdf8;">214</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight: 500; color: #fff;">Zingerle <span class="pos-badge pos-tw" style="margin-left: 8px;">TOR</span></td>
+            <td style="text-align: left; color: #94a3b8;">FC St. Pauli</td>
+            <td class="number" data-val="0" style="color: #38bdf8;">0</td>
+            <td class="number" data-val="500000" style="color: #4ade80;">500.000 €</td>
+            <td style="color: #64748b; font-style: italic;">Frei</td>
+        </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+    // Live-Suchfunktion für Spielernamen und Teams
+    function filterByName() {
+        const searchInput = document.getElementById("playerSearch").value.toLowerCase();
+        const rows = document.getElementById("playerTable").getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+
+        for (let row of rows) {
+            const playerName = row.cells[0].textContent.toLowerCase();
+            const teamName = row.cells[1].textContent.toLowerCase();
+            if (playerName.includes(searchInput) || teamName.includes(searchInput)) {
+                row.style.display = "";
+            } else {
+                row.style.display = "none";
+            }
+        }
+    }
+
+    // Spalten-Sortierung
+    let currentSortCol = 3; // Index 3 ist der Marktwert
+    let isAsc = false;      // Standardmäßig absteigend (Höchste Werte oben)
+
+    function sortTable(colIndex, type) {
+        const table = document.getElementById("playerTable");
+        const tbody = table.tBodies[0];
+        const rows = Array.from(tbody.rows);
+        
+        const thAP = document.getElementById("th-ap");
+        const thMV = document.getElementById("th-mv");
+
+        if (currentSortCol === colIndex) {
+            isAsc = !isAsc;
+        } else {
+            isAsc = false;
+            currentSortCol = colIndex;
+        }
+
+        thAP.classList.remove("sort-asc", "sort-desc");
+        thMV.classList.remove("sort-asc", "sort-desc");
+        
+        const activeTh = colIndex === 2 ? thAP : thMV;
+        activeTh.classList.add(isAsc ? "sort-asc" : "sort-desc");
+
+        const direction = isAsc ? 1 : -1;
+
+        rows.sort((a, b) => {
+            let valA = parseFloat(a.cells[colIndex].getAttribute('data-val')) || 0;
+            let valB = parseFloat(b.cells[colIndex].getAttribute('data-val')) || 0;
+            return (valA - valB) * direction;
+        });
+
+        rows.forEach(row => tbody.appendChild(row));
+    }
+    </script>
+</body>
+</html>
