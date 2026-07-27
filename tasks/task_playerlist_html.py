@@ -111,7 +111,7 @@ def fetch_all_bundesliga_players(kb):
             print(f"Fehler bei Team ID {team_id}: {e}")  
     return all_players
 
-def run_generate_playerlist_html(kb, output_filename="spielerliste.html"):
+def run_generate_playerlist_html(kb):
     """
     Generiert die spielerliste.html.
     Spieler voll sichtbar, nach Marktwert absteigend sortiert.
@@ -395,6 +395,6 @@ def run_generate_playerlist_html(kb, output_filename="spielerliste.html"):
 """
 
     # 6. HTML-Datei schreiben
-    with open(output_filename, "w", encoding="utf-8") as f:
+    with open("spielerliste.html", "w", encoding="utf-8") as f:
         f.write(html_content)
-    print(f"Erfolgreich: '{output_filename}' wurde erzeugt.")
+    print(f"Erfolgreich: '{"spielerliste.html"}' wurde erzeugt.")

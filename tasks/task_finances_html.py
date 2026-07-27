@@ -383,7 +383,7 @@ def run_generate_html_dashboard():
                 </div>
                 <div style="display: flex; gap: 10px;">
                         <a href="kader.html" class="nav-link">Kader</a>
-                        <a href="playerlist.html" class="nav-link">Spielerliste</a>
+                        <a href="spielerliste.html" class="nav-link">Spielerliste</a>
                 </div>
         </header>
         

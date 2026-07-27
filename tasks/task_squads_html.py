@@ -354,7 +354,7 @@ def run_generate_squads_html(kb):
                 </div>
                 <div class="nav-buttons">
                     <a href="index.html" class="nav-link">Dashboard</a>
-                    <a href="playerlist.html" class="nav-link">Spielerliste</a>
+                    <a href="spielerliste.html" class="nav-link">Spielerliste</a>
                 </div>
             </header>
             
