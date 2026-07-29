@@ -21,9 +21,6 @@ MANAGER_IDS = {
     "2219496": "Vanilleeis23"
 }
 
-# Die offiziellen Kickbase Team-IDs der 18 Bundesliga-Vereine
-BUNDESLIGA_TEAM_IDS = [2, 3, 4, 5, 7, 9, 11, 13, 14, 15, 18, 19, 20, 22, 24, 28, 40, 43]
-
 # Mapping der offiziellen Kickbase Team-IDs zu den echten Vereinsnamen
 TEAM_NAMES = {
     2: "Bayern München",
@@ -43,12 +40,34 @@ TEAM_NAMES = {
     28: "1. FC Köln",     
     29: "SC Paderborn 07",       
     40: "1. FC Union Berlin",
-    43: "RB Leipzig" ,  
+    43: "RB Leipzig",  
     77: "SV 07 Elversberg"
 }
 
 # Nutzt die Keys des Mappings direkt als Schleifen-Basis
 BUNDESLIGA_TEAM_IDS = list(TEAM_NAMES.keys())
+
+# Festgelegte Reihenfolge nach Tabellenplatzierung der letzten Saison + Sonderwünsche am Ende
+TEAM_ORDER = [
+    "Bayern München",
+    "Borussia Dortmund",
+    "RB Leipzig",
+    "VfB Stuttgart",
+    "TSG 1899 Hoffenheim",
+    "Bayer Leverkusen",
+    "SC Freiburg",
+    "Eintracht Frankfurt",
+    "FC Augsburg",
+    "1. FSV Mainz 05",
+    "1. FC Union Berlin",
+    "VFL Borussia Mönchengladbach",
+    "Hamburger SV",
+    "1. FC Köln",     
+    "Werder Bremen",
+    "FC Schalke 04",     # Platz 16
+    "SV 07 Elversberg",  # Platz 17
+    "SC Paderborn 07"    # Ganz am Ende (Platz 18)
+]
 
 def fetch_owned_players(kb):
     """Holt alle vergebenen Spieler aus den Manager-Dashboards."""
@@ -59,13 +78,11 @@ def fetch_owned_players(kb):
         url = f"{BASE_URL}/v4/leagues/{LEAGUE_ID}/managers/{m_id}/squad"
         try:
             data = kb.get_request(url)
-            # Holt die Spielerliste aus dem Dashboard (Fallback auf leere Liste)
             players_data = data.get("it", [])
             for p in players_data:
                 p_id = p.get("pi")
                 if p_id:
                     owned_players[p_id] = m_name
-            #print(f" -> Kader von {m_name} geladen.")
         except Exception as e:
             print(f"Fehler bei Manager {m_name} ({m_id}): {e}")
             
@@ -77,7 +94,6 @@ def fetch_all_bundesliga_players(kb):
     all_players = []
     pos_mapping = {1: "Torwart", 2: "Abwehr", 3: "Mittelfeld", 4: "Sturm"}
     
-    #print("Lade alle Spieler aus der Bundesliga-Datenbank...")
     for team_id in BUNDESLIGA_TEAM_IDS:
         url = f"{BASE_URL}/v4/leagues/{LEAGUE_ID}/teams/{team_id}/teamprofile"
         try:
@@ -91,8 +107,6 @@ def fetch_all_bundesliga_players(kb):
                 pos_raw = p.get("pos", "Unbekannt")
                 position = pos_mapping.get(pos_raw, pos_raw)
                 
-                # Hier holen wir uns den Namen aus dem Dictionary. 
-                # Wir wandeln die tid per int() um, damit der Abgleich mit den Keys klappt.
                 team_id_raw = p.get("tid")
                 try:
                     team_name = TEAM_NAMES.get(int(team_id_raw), f"Team {team_id_raw}")
@@ -105,7 +119,7 @@ def fetch_all_bundesliga_players(kb):
                     "position": position,
                     "marketValue": p.get("mv", 0),
                     "AveragePoints": p.get("ap", 0),
-                    "teamName": team_name  # Hier steht jetzt der echte Name drin!
+                    "teamName": team_name
                 })
         except Exception as e:
             print(f"Fehler bei Team ID {team_id}: {e}")  
@@ -113,15 +127,11 @@ def fetch_all_bundesliga_players(kb):
 
 def run_generate_playerlist_html(kb):
     """
-    Generiert die spielerliste.html.
-    Spieler voll sichtbar, nach Marktwert absteigend sortiert.
-    Inklusive Position als eigene Spalte (Kürzel: TW, ABW, MF, ANG).
-    Inklusive Suchfunktion und Sortierung nach MW und Punkten.
+    Generiert die spielerliste.html mit farblich hervorgehobenen Teams im Dropdown.
     """
     all_players = fetch_all_bundesliga_players(kb)
-    owned_players = fetch_owned_players(kb) # Ist bereits ein Dict: {spieler_id: manager_name}
+    owned_players = fetch_owned_players(kb)
     
-    # Mapping für die Positionskürzel
     short_pos_mapping = {
         "Torwart": "TW",
         "Abwehr": "ABW",
@@ -132,8 +142,6 @@ def run_generate_playerlist_html(kb):
     # 1. Besitzer-Attribut anreichern
     for player in all_players:
         player_id = player.get("id")
-        
-        # Wenn die ID im Dictionary existiert, tragen wir den Namen ein, sonst "Frei"
         if player_id in owned_players:
             player["besitzer"] = owned_players[player_id]
         else:
@@ -146,7 +154,27 @@ def run_generate_playerlist_html(kb):
     tz_berlin = ZoneInfo("Europe/Berlin")
     aktuelles_datum = datetime.now(tz_berlin).strftime("%d.%m.%Y um %H:%M Uhr")
 
-    # 4. Tabellenzeilen generieren
+    # 4. Teams filtern und Dropdown mit Farb-Klassen bauen
+    unique_teams_in_data = set(TEAM_NAMES.values())
+    sorted_dropdown_teams = sorted(
+        list(unique_teams_in_data),
+        key=lambda t: TEAM_ORDER.index(t) if t in TEAM_ORDER else 999
+    )
+
+    dropdown_options_html = ""
+    for team in sorted_dropdown_teams:
+        bg_class = ""
+        if team in ["Bayern München", "Borussia Dortmund", "RB Leipzig", "VfB Stuttgart"]:
+            bg_class = "team-highlight-blue"
+        elif team in ["SC Freiburg", "TSG 1899 Hoffenheim", "Bayer Leverkusen"]:
+            bg_class = "team-highlight-orange"
+
+        dropdown_options_html += f"""
+        <label class="dropdown-item {bg_class}">
+            <input type="checkbox" value="{team}" onchange="filterTable()"> {team}
+        </label>"""
+
+    # 5. Tabellenzeilen generieren
     player_rows_html = ""
     for p in all_players:
         name = p.get("lastName", "")
@@ -155,18 +183,17 @@ def run_generate_playerlist_html(kb):
         mv = p.get("marketValue", 0)
         besitzer = p.get("besitzer", "Frei")
         
-        # Formatierungen für Anzeige und Filter-Attribute
         mv_formatiert = f"{mv:,}".replace(",", ".") + " €"
         ap_formatiert = f"{ap:,}".replace(",", ".")
         
-        # Position und zugehöriges Kürzel + Badge-Klasse ermitteln
         pos_full = p.get("position", "")
-        pos_short = short_pos_mapping.get(pos_full, pos_full) # TW, ABW, MF, ANG
+        pos_short = short_pos_mapping.get(pos_full, pos_full)
         
         pos_class = "pos-tw" if pos_full == "Torwart" else "pos-abw" if pos_full == "Abwehr" else "pos-mf" if pos_full == "Mittelfeld" else "pos-st"
-        pos_td_html = f'<td><span class="pos-badge {pos_class}">{pos_short}</span></td>' if pos_short else '<td>-</td>'
         
-        # Besitzer-Styling
+        # HIER KORRIGIERT: data-pos Attribut hinzugefügt, damit das JavaScript filtern kann
+        pos_td_html = f'<td data-pos="{pos_short}"><span class="pos-badge {pos_class}">{pos_short}</span></td>' if pos_short else '<td data-pos="">-</td>'
+        
         if besitzer == "Frei":
             besitzer_style = "color: #64748b; font-style: italic;"
         else:
@@ -182,7 +209,7 @@ def run_generate_playerlist_html(kb):
             <td style="{besitzer_style}">{besitzer}</td>
         </tr>"""
 
-# 5. Das HTML-Dokument zusammenbauen
+    # 6. Das HTML-Dokument zusammenbauen
     html_content = f"""<!DOCTYPE html>
 <html lang="de">
 <head>
@@ -235,8 +262,13 @@ def run_generate_playerlist_html(kb):
             border: 1px solid #334155;
             box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3);
         }}
-        .search-container {{
+        
+        .filter-container {{
+            display: flex;
+            gap: 15px;
             margin-bottom: 20px;
+            align-items: center;
+            flex-wrap: wrap;
         }}
         .search-input {{
             background: #0f172a;
@@ -252,6 +284,79 @@ def run_generate_playerlist_html(kb):
             outline: none;
             border-color: #38bdf8;
         }}
+
+        .dropdown {{
+            position: relative;
+            display: inline-block;
+        }}
+        .dropdown-button {{
+            background: #0f172a;
+            border: 1px solid #334155;
+            color: #fff;
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-size: 0.95em;
+            cursor: pointer;
+            min-width: 180px;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }}
+        .dropdown-button:focus {{
+            border-color: #38bdf8;
+        }}
+        .dropdown-content {{
+            display: none;
+            position: absolute;
+            background-color: #1e293b;
+            min-width: 240px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.5);
+            border: 1px solid #334155;
+            border-radius: 6px;
+            padding: 10px;
+            z-index: 10;
+            max-height: 400px;
+            overflow-y: auto;
+            margin-top: 5px;
+        }}
+        .dropdown-content.show {{
+            display: block;
+        }}
+        .dropdown-item {{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 10px;
+            color: #f8fafc;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-bottom: 2px;
+        }}
+        .dropdown-item:hover {{
+            background-color: #273549;
+        }}
+        
+        /* Team-spezifische Highlights */
+        .dropdown-item.team-highlight-blue {{
+            background-color: #1e3a8a;
+        }}
+        .dropdown-item.team-highlight-blue:hover {{
+            background-color: #1d4ed8;
+        }}
+        .dropdown-item.team-highlight-orange {{
+            background-color: #c2410c;
+        }}
+        .dropdown-item.team-highlight-orange:hover {{
+            background-color: #ea580c;
+        }}
+
+        .dropdown-item input {{
+            cursor: pointer;
+            accent-color: #38bdf8;
+        }}
+
         table {{ width: 100%; border-collapse: collapse; font-size: 0.95em; margin-top: 10px; }}
         th {{
             background-color: #1e293b;
@@ -315,8 +420,31 @@ def run_generate_playerlist_html(kb):
         </header>
 
         <div class="card">
-            <div class="search-container">
-                <input type="text" id="playerSearch" class="search-input" onkeyup="filterByName()" placeholder="Nach Spielername oder Team suchen...">
+            <div class="filter-container">
+                <input type="text" id="playerSearch" class="search-input" onkeyup="filterTable()" placeholder="Nach Spielername oder Team suchen...">
+                
+                <!-- Vereinsfilter -->
+                <div class="dropdown">
+                    <button type="button" class="dropdown-button" id="teamDropdownBtn" onclick="toggleDropdown(event, 'teamDropdownOptions')">
+                        <span>Teams filtern</span> <span>▼</span>
+                    </button>
+                    <div class="dropdown-content" id="teamDropdownOptions">
+                        {dropdown_options_html}
+                    </div>
+                </div>
+
+                <!-- Neuer Positionsfilter -->
+                <div class="dropdown">
+                    <button type="button" class="dropdown-button" id="posDropdownBtn" onclick="toggleDropdown(event, 'posDropdownOptions')">
+                        <span>Positionen filtern</span> <span>▼</span>
+                    </button>
+                    <div class="dropdown-content" id="posDropdownOptions">
+                        <label class="dropdown-item"><input type="checkbox" value="TW" onchange="filterTable()"> Torwart (TW)</label>
+                        <label class="dropdown-item"><input type="checkbox" value="ABW" onchange="filterTable()"> Abwehr (ABW)</label>
+                        <label class="dropdown-item"><input type="checkbox" value="MF" onchange="filterTable()"> Mittelfeld (MF)</label>
+                        <label class="dropdown-item"><input type="checkbox" value="ANG" onchange="filterTable()"> Sturm (ANG)</label>
+                    </div>
+                </div>
             </div>
 
             <table id="playerTable">
@@ -338,15 +466,70 @@ def run_generate_playerlist_html(kb):
     </div>
 
     <script>
-    // Live-Suchfunktion für Spielernamen und Teams
-    function filterByName() {{
-        const searchInput = document.getElementById("playerSearch").value.toLowerCase();
-        const rows = document.getElementById("playerTable").getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+    function toggleDropdown(e, id) {{
+        e.stopPropagation();
+        // Schließe zuerst alle anderen Dropdowns
+        document.querySelectorAll('.dropdown-content').forEach(el => {{
+            if(el.id !== id) el.classList.remove('show');
+        }});
+        // Öffne/Schließe das geklickte Dropdown
+        document.getElementById(id).classList.toggle("show");
+    }}
 
+    document.addEventListener("click", function() {{
+        document.querySelectorAll('.dropdown-content').forEach(el => el.classList.remove("show"));
+    }});
+    
+    document.querySelectorAll('.dropdown-content').forEach(el => {{
+        el.addEventListener("click", function(e) {{
+            e.stopPropagation();
+        }});
+    }});
+
+    function filterTable() {{
+        const searchInput = document.getElementById("playerSearch").value.toLowerCase();
+        
+        // Team Checkboxes auslesen
+        const teamCheckboxes = document.querySelectorAll("#teamDropdownOptions input[type='checkbox']");
+        let selectedTeams = [];
+        teamCheckboxes.forEach(cb => {{
+            if (cb.checked) selectedTeams.push(cb.value.toLowerCase());
+        }});
+
+        // Positions-Checkboxes auslesen
+        const posCheckboxes = document.querySelectorAll("#posDropdownOptions input[type='checkbox']");
+        let selectedPositions = [];
+        posCheckboxes.forEach(cb => {{
+            if (cb.checked) selectedPositions.push(cb.value.toUpperCase());
+        }});
+
+        // Button-Texte aktualisieren
+        const teamBtnText = document.getElementById("teamDropdownBtn").querySelector("span");
+        if (selectedTeams.length === 0) {{
+            teamBtnText.textContent = "Teams filtern";
+        }} else {{
+            teamBtnText.textContent = "Teams (" + selectedTeams.length + ")";
+        }}
+
+        const posBtnText = document.getElementById("posDropdownBtn").querySelector("span");
+        if (selectedPositions.length === 0) {{
+            posBtnText.textContent = "Positionen filtern";
+        }} else {{
+            posBtnText.textContent = "Positionen (" + selectedPositions.length + ")";
+        }}
+
+        // Zeilen filtern
+        const rows = document.getElementById("playerTable").getElementsByTagName("tbody")[0].getElementsByTagName("tr");
         for (let row of rows) {{
             const playerName = row.cells[0].textContent.toLowerCase();
-            const teamName = row.cells[2].textContent.toLowerCase(); // Index auf 2 geändert wegen neuer Spalte
-            if (playerName.includes(searchInput) || teamName.includes(searchInput)) {{
+            const playerPos = row.cells[1].getAttribute('data-pos').toUpperCase();
+            const teamName = row.cells[2].textContent.toLowerCase();
+
+            const matchesSearch = playerName.includes(searchInput) || teamName.includes(searchInput);
+            const matchesTeam = selectedTeams.length === 0 || selectedTeams.includes(teamName);
+            const matchesPos = selectedPositions.length === 0 || selectedPositions.includes(playerPos);
+
+            if (matchesSearch && matchesTeam && matchesPos) {{
                 row.style.display = "";
             }} else {{
                 row.style.display = "none";
@@ -354,8 +537,7 @@ def run_generate_playerlist_html(kb):
         }}
     }}
 
-    // Spalten-Sortierung
-    let currentSortCol = 4; // Index 4 ist jetzt der Marktwert wegen der neuen Position-Spalte
+    let currentSortCol = 4;
     let isAsc = false;
 
     function sortTable(colIndex, type) {{
@@ -376,7 +558,7 @@ def run_generate_playerlist_html(kb):
         thAP.classList.remove("sort-asc", "sort-desc");
         thMV.classList.remove("sort-asc", "sort-desc");
         
-        const activeTh = colIndex === 3 ? thAP : thMV; // Indizes angepasst (3 = AP, 4 = MV)
+        const activeTh = colIndex === 3 ? thAP : thMV;
         activeTh.classList.add(isAsc ? "sort-asc" : "sort-desc");
 
         const direction = isAsc ? 1 : -1;
@@ -394,7 +576,6 @@ def run_generate_playerlist_html(kb):
 </html>
 """
 
-    # 6. HTML-Datei schreiben
     with open("spielerliste.html", "w", encoding="utf-8") as f:
         f.write(html_content)
     print("spielerliste.html erfolgreich generiert!")
