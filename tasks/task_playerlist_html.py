@@ -36,7 +36,6 @@ TEAM_NAMES = {
     14: "TSG 1899 Hoffenheim",
     15: "VFL Borussia Mönchengladbach",
     18: "1. FSV Mainz 05",
-    22: "RB Leipzig",
     28: "1. FC Köln",     
     29: "SC Paderborn 07",       
     40: "1. FC Union Berlin",
@@ -112,14 +111,16 @@ def fetch_all_bundesliga_players(kb):
                     team_name = TEAM_NAMES.get(int(team_id_raw), f"Team {team_id_raw}")
                 except (ValueError, TypeError):
                     team_name = f"Team {team_id_raw}"
-                
+
                 all_players.append({
                     "id": p_id,
                     "lastName": p.get("n", ""),
                     "position": position,
                     "marketValue": p.get("mv", 0),
                     "AveragePoints": p.get("ap", 0),
-                    "teamName": team_name
+                    "teamName": team_name,
+                    "status": p.get("st", 0),      # Neu aufgenommen
+                    "probability": p.get("prob", 0) # Neu aufgenommen
                 })
         except Exception as e:
             print(f"Fehler bei Team ID {team_id}: {e}")  
@@ -127,7 +128,9 @@ def fetch_all_bundesliga_players(kb):
 
 def run_generate_playerlist_html(kb):
     """
-    Generiert die spielerliste.html mit farblich hervorgehobenen Teams im Dropdown.
+    Generiert die spielerliste.html mit erweiterten Filteroptionen für
+    Teams, Positionen, Startelf-Wahrscheinlichkeiten und medizinische Stati.
+    Inklusive farblicher Hervorhebung der Top-Teams im Dropdown.
     """
     all_players = fetch_all_bundesliga_players(kb)
     owned_players = fetch_owned_players(kb)
@@ -139,6 +142,9 @@ def run_generate_playerlist_html(kb):
         "Sturm": "ANG"
     }
     
+    gefundene_stati = set()
+    gefundene_wahrscheinlichkeiten = set()
+    
     # 1. Besitzer-Attribut anreichern
     for player in all_players:
         player_id = player.get("id")
@@ -147,14 +153,14 @@ def run_generate_playerlist_html(kb):
         else:
             player["besitzer"] = "Frei"
 
-    # 2. Standardmäßig vorab nach Marktwert absteigend sortieren
-    all_players.sort(key=lambda x: x.get("marketValue", 0), reverse=True)
+    # 2. Sortierung nach Marktwert absteigend
+    all_players.sort(key=lambda x: x.get("marketValue") if x.get("marketValue") is not None else 0, reverse=True)
     
-    # 3. Aktuelles Datum für den Header generieren
+    # 3. Aktuelles Datum für den Header
     tz_berlin = ZoneInfo("Europe/Berlin")
     aktuelles_datum = datetime.now(tz_berlin).strftime("%d.%m.%Y um %H:%M Uhr")
 
-    # 4. Teams filtern und Dropdown mit Farb-Klassen bauen
+    # 4. Dropdown für Teams bauen (MIT FARBLICHER HINTERLEGUNG)
     unique_teams_in_data = set(TEAM_NAMES.values())
     sorted_dropdown_teams = sorted(
         list(unique_teams_in_data),
@@ -164,6 +170,7 @@ def run_generate_playerlist_html(kb):
     dropdown_options_html = ""
     for team in sorted_dropdown_teams:
         bg_class = ""
+        # Farbkriterien für die Top-Teams
         if team in ["Bayern München", "Borussia Dortmund", "RB Leipzig", "VfB Stuttgart"]:
             bg_class = "team-highlight-blue"
         elif team in ["SC Freiburg", "TSG 1899 Hoffenheim", "Bayer Leverkusen"]:
@@ -176,40 +183,93 @@ def run_generate_playerlist_html(kb):
 
     # 5. Tabellenzeilen generieren
     player_rows_html = ""
-    for p in all_players:
-        name = p.get("lastName", "")
-        team = p.get("teamName", "Verein")
-        ap = p.get("AveragePoints", 0)
-        mv = p.get("marketValue", 0)
-        besitzer = p.get("besitzer", "Frei")
-        
-        mv_formatiert = f"{mv:,}".replace(",", ".") + " €"
-        ap_formatiert = f"{ap:,}".replace(",", ".")
-        
-        pos_full = p.get("position", "")
-        pos_short = short_pos_mapping.get(pos_full, pos_full)
-        
-        pos_class = "pos-tw" if pos_full == "Torwart" else "pos-abw" if pos_full == "Abwehr" else "pos-mf" if pos_full == "Mittelfeld" else "pos-st"
-        
-        # HIER KORRIGIERT: data-pos Attribut hinzugefügt, damit das JavaScript filtern kann
-        pos_td_html = f'<td data-pos="{pos_short}"><span class="pos-badge {pos_class}">{pos_short}</span></td>' if pos_short else '<td data-pos="">-</td>'
-        
-        if besitzer == "Frei":
-            besitzer_style = "color: #64748b; font-style: italic;"
-        else:
-            besitzer_style = "color: #f1f5f9; font-weight: 600;"
-
-        player_rows_html += f"""
+    
+    if not all_players:
+        player_rows_html = """
         <tr>
-            <td style="text-align: left; font-weight: 500; color: #fff;">{name}</td>
-            {pos_td_html}
-            <td style="text-align: left; color: #94a3b8;">{team}</td>
-            <td class="number" data-val="{ap}" style="color: #38bdf8;">{ap_formatiert}</td>
-            <td class="number" data-val="{mv}" style="color: #4ade80;">{mv_formatiert}</td>
-            <td style="{besitzer_style}">{besitzer}</td>
+            <td colspan="6" style="text-align: center; color: #94a3b8; font-style: italic; padding: 30px;">
+                Keine Spielerdaten gefunden.
+            </td>
         </tr>"""
+    else:
+        for p in all_players:
+            name = p.get("lastName", "")
+            team = p.get("teamName", "Verein")
+            ap = p.get("AveragePoints", 0)
+            mv = p.get("marketValue", 0)
+            besitzer = p.get("besitzer", "Frei")
+            
+            status_raw = p.get("status")
+            prob_raw = p.get("probability")
+            
+            status_val = "unknown" if status_raw is None else str(status_raw)
+            prob_val = "0" if prob_raw is None else str(prob_raw)
+            
+            if status_raw is not None: gefundene_stati.add(status_raw)
+            if prob_raw is not None: gefundene_wahrscheinlichkeiten.add(prob_raw)
+            
+            mv_formatiert = f"{mv:,}".replace(",", ".") + " €"
+            ap_formatiert = f"{ap:,}".replace(",", ".")
+            
+            pos_full = p.get("position", "")
+            pos_short = short_pos_mapping.get(pos_full, pos_full)
+            
+            pos_class = "pos-tw" if pos_full == "Torwart" else "pos-abw" if pos_full == "Abwehr" else "pos-mf" if pos_full == "Mittelfeld" else "pos-st"
+            pos_td_html = f'<td data-pos="{pos_short}"><span class="pos-badge {pos_class}">{pos_short}</span></td>' if pos_short else '<td data-pos="">-</td>'
+            
+            # === STATUS-LOGIK ===
+            if status_raw == 0:
+                status_html = '<span class="indicator-circle status-fit" title="Fit">✔️</span>'
+            elif status_raw == 2:
+                status_html = '<span class="indicator-circle status-injured" title="Angeschlagen">🩹</span>'
+            elif status_raw == 4:
+                status_html = '<span class="indicator-circle status-training" title="Im Aufbautraining">🏋️</span>'
+            elif status_raw == 8:
+                status_html = '<span class="indicator-circle status-suspended" title="Gesperrt">🟥</span>'
+            elif status_raw == 256:
+                status_html = '<span class="indicator-circle status-away" title="Abwesend">⏳</span>'
+            elif status_raw == 1 or status_raw is None:
+                status_html = '<span class="indicator-circle status-out" title="Verletzt / Ausfall">❌</span>'
+                status_val = "1"
+            else:
+                status_html = f'<span class="indicator-circle status-alert" title="Unbekannter Status-Code ({status_raw})">❓</span>'
+                
+            # === PROBABILITY LOGIK ===
+            if prob_raw == 1:
+                prob_html = '<span class="indicator-circle prob-safe" title="Sicher Startelf">⭐</span>'
+            elif prob_raw == 2:
+                prob_html = '<span class="indicator-circle prob-high" title="Sehr Wahrscheinlich">✔️</span>'
+            elif prob_raw == 3:
+                prob_html = '<span class="indicator-circle prob-medium" title="Möglich / Rotationsgefahr">❓</span>'
+            elif prob_raw == 4:
+                prob_html = '<span class="indicator-circle prob-low" title="Unwahrscheinlich">⚠️</span>'
+            elif prob_raw == 5:
+                prob_html = '<span class="indicator-circle prob-none" title="Ausfall / Keine Startelf">✖️</span>'
+            else:
+                prob_html = ''
 
-    # 6. Das HTML-Dokument zusammenbauen
+            if besitzer == "Frei":
+                besitzer_style = "color: #64748b; font-style: italic;"
+            else:
+                besitzer_style = "color: #f1f5f9; font-weight: 600;"
+
+            player_rows_html += f"""
+            <tr data-prob="{prob_val}" data-status="{status_val}">
+                <td style="text-align: left; font-weight: 500; color: #fff;">
+                    <div class="player-name-container">
+                        <span class="player-name-text">{name}</span>
+                        {prob_html}
+                        {status_html}
+                    </div>
+                </td>
+                {pos_td_html}
+                <td style="text-align: left; color: #94a3b8;">{team}</td>
+                <td class="number" data-val="{ap}" style="color: #38bdf8;">{ap_formatiert}</td>
+                <td class="number" data-val="{mv}" style="color: #4ade80;">{mv_formatiert}</td>
+                <td style="{besitzer_style}">{besitzer}</td>
+            </tr>"""
+
+    # 6. HTML-Dokument zusammenbauen
     html_content = f"""<!DOCTYPE html>
 <html lang="de">
 <head>
@@ -265,7 +325,7 @@ def run_generate_playerlist_html(kb):
         
         .filter-container {{
             display: flex;
-            gap: 15px;
+            gap: 12px;
             margin-bottom: 20px;
             align-items: center;
             flex-wrap: wrap;
@@ -278,7 +338,7 @@ def run_generate_playerlist_html(kb):
             border-radius: 6px;
             font-size: 0.95em;
             width: 100%;
-            max-width: 400px;
+            max-width: 320px;
         }}
         .search-input:focus {{
             outline: none;
@@ -293,11 +353,11 @@ def run_generate_playerlist_html(kb):
             background: #0f172a;
             border: 1px solid #334155;
             color: #fff;
-            padding: 12px 16px;
+            padding: 12px 14px;
             border-radius: 6px;
-            font-size: 0.95em;
+            font-size: 0.9em;
             cursor: pointer;
-            min-width: 180px;
+            min-width: 170px;
             text-align: left;
             display: flex;
             justify-content: space-between;
@@ -337,19 +397,15 @@ def run_generate_playerlist_html(kb):
         .dropdown-item:hover {{
             background-color: #273549;
         }}
-        
-        /* Team-spezifische Highlights */
-        .dropdown-item.team-highlight-blue {{
-            background-color: #1e3a8a;
+
+        /* DA SIND SIE WIEDER: CSS-Klassen für Highlight-Teams im Dropdown */
+        .team-highlight-blue {{
+            background-color: rgba(56, 189, 248, 0.08) !important;
+            border-left: 3px solid #38bdf8;
         }}
-        .dropdown-item.team-highlight-blue:hover {{
-            background-color: #1d4ed8;
-        }}
-        .dropdown-item.team-highlight-orange {{
-            background-color: #c2410c;
-        }}
-        .dropdown-item.team-highlight-orange:hover {{
-            background-color: #ea580c;
+        .team-highlight-orange {{
+            background-color: rgba(249, 115, 22, 0.08) !important;
+            border-left: 3px solid #f97316;
         }}
 
         .dropdown-item input {{
@@ -404,6 +460,48 @@ def run_generate_playerlist_html(kb):
         .pos-abw {{ background-color: #2563eb; }}
         .pos-mf {{ background-color: #16a34a; }}
         .pos-st {{ background-color: #dc2626; }}
+
+        .player-name-container {{
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }}
+        .player-name-text {{
+            max-width: 220px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }}
+
+        /* UNIFORME KREIS-KLASSE FÜR ALLE INDIKATOREN */
+        .indicator-circle {{
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            line-height: 1;
+            flex-shrink: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+        }}
+
+        /* Medizinischer Status */
+        .status-fit {{ background-color: #15803d; }}
+        .status-injured {{ background-color: #b45309; }}
+        .status-training {{ background-color: #1d4ed8; }}
+        .status-suspended {{ background-color: #7f1d1d; }}
+        .status-away {{ background-color: #4b5563; }}
+        .status-out {{ background-color: #991b1b; }}
+        .status-alert {{ background-color: #6b21a8; }}
+
+        /* Aufstellungswahrscheinlichkeit */
+        .prob-safe {{ background-color: #1e3a8a; }}
+        .prob-high {{ background-color: #16a34a; }}
+        .prob-medium {{ background-color: #c2410c; }}
+        .prob-low {{ background-color: #991b1b; }}
+        .prob-none {{ background-color: #1e293b; }}
     </style>
 </head>
 <body>
@@ -421,9 +519,9 @@ def run_generate_playerlist_html(kb):
 
         <div class="card">
             <div class="filter-container">
-                <input type="text" id="playerSearch" class="search-input" onkeyup="filterTable()" placeholder="Nach Spielername oder Team suchen...">
+                <input type="text" id="playerSearch" class="search-input" onkeyup="filterTable()" placeholder="Nach Name oder Team suchen...">
                 
-                <!-- Vereinsfilter -->
+                <!-- 1. FILTER: TEAMS (Hinterlegung ist aktiv) -->
                 <div class="dropdown">
                     <button type="button" class="dropdown-button" id="teamDropdownBtn" onclick="toggleDropdown(event, 'teamDropdownOptions')">
                         <span>Teams filtern</span> <span>▼</span>
@@ -433,16 +531,45 @@ def run_generate_playerlist_html(kb):
                     </div>
                 </div>
 
-                <!-- Neuer Positionsfilter -->
+                <!-- 2. FILTER: POSITIONEN -->
                 <div class="dropdown">
                     <button type="button" class="dropdown-button" id="posDropdownBtn" onclick="toggleDropdown(event, 'posDropdownOptions')">
-                        <span>Positionen filtern</span> <span>▼</span>
+                        <span>Positionen</span> <span>▼</span>
                     </button>
                     <div class="dropdown-content" id="posDropdownOptions">
                         <label class="dropdown-item"><input type="checkbox" value="TW" onchange="filterTable()"> Torwart (TW)</label>
                         <label class="dropdown-item"><input type="checkbox" value="ABW" onchange="filterTable()"> Abwehr (ABW)</label>
                         <label class="dropdown-item"><input type="checkbox" value="MF" onchange="filterTable()"> Mittelfeld (MF)</label>
                         <label class="dropdown-item"><input type="checkbox" value="ANG" onchange="filterTable()"> Sturm (ANG)</label>
+                    </div>
+                </div>
+
+                <!-- 3. FILTER: WAHRSCHEINLICHKEIT -->
+                <div class="dropdown">
+                    <button type="button" class="dropdown-button" id="probDropdownBtn" onclick="toggleDropdown(event, 'probDropdownOptions')">
+                        <span>Sterne filtern</span> <span>▼</span>
+                    </button>
+                    <div class="dropdown-content" id="probDropdownOptions">
+                        <label class="dropdown-item"><input type="checkbox" value="1" onchange="filterTable()"> ⭐ Sicher Startelf</label>
+                        <label class="dropdown-item"><input type="checkbox" value="2" onchange="filterTable()"> ✔️ Sehr wahrscheinlich</label>
+                        <label class="dropdown-item"><input type="checkbox" value="3" onchange="filterTable()"> ❓ Möglich / Rotation</label>
+                        <label class="dropdown-item"><input type="checkbox" value="4" onchange="filterTable()"> ⚠️ Unwahrscheinlich</label>
+                        <label class="dropdown-item"><input type="checkbox" value="5" onchange="filterTable()"> ✖️ Keine Startelf / Ausfall</label>
+                    </div>
+                </div>
+
+                <!-- 4. FILTER: STATUS -->
+                <div class="dropdown">
+                    <button type="button" class="dropdown-button" id="statusDropdownBtn" onclick="toggleDropdown(event, 'statusDropdownOptions')">
+                        <span>Status filtern</span> <span>▼</span>
+                    </button>
+                    <div class="dropdown-content" id="statusDropdownOptions">
+                        <label class="dropdown-item"><input type="checkbox" value="0" onchange="filterTable()"> ✔️ Fit</label>
+                        <label class="dropdown-item"><input type="checkbox" value="2" onchange="filterTable()"> 🩹 Angeschlagen</label>
+                        <label class="dropdown-item"><input type="checkbox" value="4" onchange="filterTable()"> 🏋️ Aufbautraining</label>
+                        <label class="dropdown-item"><input type="checkbox" value="1" onchange="filterTable()"> ❌ Verletzt / Ausfall</label>
+                        <label class="dropdown-item"><input type="checkbox" value="256" onchange="filterTable()"> ⏳ Abwesend</label>
+                        <label class="dropdown-item"><input type="checkbox" value="8" onchange="filterTable()"> 🟥 Gesperrt</label>
                     </div>
                 </div>
             </div>
@@ -468,11 +595,9 @@ def run_generate_playerlist_html(kb):
     <script>
     function toggleDropdown(e, id) {{
         e.stopPropagation();
-        // Schließe zuerst alle anderen Dropdowns
         document.querySelectorAll('.dropdown-content').forEach(el => {{
             if(el.id !== id) el.classList.remove('show');
         }});
-        // Öffne/Schließe das geklickte Dropdown
         document.getElementById(id).classList.toggle("show");
     }}
 
@@ -489,47 +614,44 @@ def run_generate_playerlist_html(kb):
     function filterTable() {{
         const searchInput = document.getElementById("playerSearch").value.toLowerCase();
         
-        // Team Checkboxes auslesen
         const teamCheckboxes = document.querySelectorAll("#teamDropdownOptions input[type='checkbox']");
         let selectedTeams = [];
-        teamCheckboxes.forEach(cb => {{
-            if (cb.checked) selectedTeams.push(cb.value.toLowerCase());
-        }});
+        teamCheckboxes.forEach(cb => {{ if (cb.checked) selectedTeams.push(cb.value.toLowerCase()); }});
 
-        // Positions-Checkboxes auslesen
         const posCheckboxes = document.querySelectorAll("#posDropdownOptions input[type='checkbox']");
         let selectedPositions = [];
-        posCheckboxes.forEach(cb => {{
-            if (cb.checked) selectedPositions.push(cb.value.toUpperCase());
-        }});
+        posCheckboxes.forEach(cb => {{ if (cb.checked) selectedPositions.push(cb.value.toUpperCase()); }});
 
-        // Button-Texte aktualisieren
-        const teamBtnText = document.getElementById("teamDropdownBtn").querySelector("span");
-        if (selectedTeams.length === 0) {{
-            teamBtnText.textContent = "Teams filtern";
-        }} else {{
-            teamBtnText.textContent = "Teams (" + selectedTeams.length + ")";
-        }}
+        const probCheckboxes = document.querySelectorAll("#probDropdownOptions input[type='checkbox']");
+        let selectedProbs = [];
+        probCheckboxes.forEach(cb => {{ if (cb.checked) selectedProbs.push(cb.value); }});
 
-        const posBtnText = document.getElementById("posDropdownBtn").querySelector("span");
-        if (selectedPositions.length === 0) {{
-            posBtnText.textContent = "Positionen filtern";
-        }} else {{
-            posBtnText.textContent = "Positionen (" + selectedPositions.length + ")";
-        }}
+        const statusCheckboxes = document.querySelectorAll("#statusDropdownOptions input[type='checkbox']");
+        let selectedStati = [];
+        statusCheckboxes.forEach(cb => {{ if (cb.checked) selectedStati.push(cb.value); }});
 
-        // Zeilen filtern
+        document.getElementById("teamDropdownBtn").querySelector("span").textContent = selectedTeams.length === 0 ? "Teams filtern" : "Teams (" + selectedTeams.length + ")";
+        document.getElementById("posDropdownBtn").querySelector("span").textContent = selectedPositions.length === 0 ? "Positionen" : "Pos (" + selectedPositions.length + ")";
+        document.getElementById("probDropdownBtn").querySelector("span").textContent = selectedProbs.length === 0 ? "Sterne filtern" : "Sterne (" + selectedProbs.length + ")";
+        document.getElementById("statusDropdownBtn").querySelector("span").textContent = selectedStati.length === 0 ? "Status filtern" : "Status (" + selectedStati.length + ")";
+
         const rows = document.getElementById("playerTable").getElementsByTagName("tbody")[0].getElementsByTagName("tr");
         for (let row of rows) {{
+            if (row.cells.length < 3) continue;
+
             const playerName = row.cells[0].textContent.toLowerCase();
             const playerPos = row.cells[1].getAttribute('data-pos').toUpperCase();
             const teamName = row.cells[2].textContent.toLowerCase();
+            const playerProb = row.getAttribute('data-prob');
+            const playerStatus = row.getAttribute('data-status');
 
             const matchesSearch = playerName.includes(searchInput) || teamName.includes(searchInput);
             const matchesTeam = selectedTeams.length === 0 || selectedTeams.includes(teamName);
             const matchesPos = selectedPositions.length === 0 || selectedPositions.includes(playerPos);
+            const matchesProb = selectedProbs.length === 0 || selectedProbs.includes(playerProb);
+            const matchesStatus = selectedStati.length === 0 || selectedStati.includes(playerStatus);
 
-            if (matchesSearch && matchesTeam && matchesPos) {{
+            if (matchesSearch && matchesTeam && matchesPos && matchesProb && matchesStatus) {{
                 row.style.display = "";
             }} else {{
                 row.style.display = "none";
@@ -545,6 +667,8 @@ def run_generate_playerlist_html(kb):
         const tbody = table.tBodies[0];
         const rows = Array.from(tbody.rows);
         
+        if (rows.length === 1 && rows[0].cells.length < 3) return;
+
         const thAP = document.getElementById("th-ap");
         const thMV = document.getElementById("th-mv");
 
@@ -579,6 +703,3 @@ def run_generate_playerlist_html(kb):
     with open("spielerliste.html", "w", encoding="utf-8") as f:
         f.write(html_content)
     print("spielerliste.html erfolgreich generiert!")
-
-if __name__ == "__main__":
-    pass
