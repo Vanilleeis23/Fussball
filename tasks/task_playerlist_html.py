@@ -547,7 +547,7 @@ def run_generate_playerlist_html(kb):
                 <!-- 3. FILTER: WAHRSCHEINLICHKEIT -->
                 <div class="dropdown">
                     <button type="button" class="dropdown-button" id="probDropdownBtn" onclick="toggleDropdown(event, 'probDropdownOptions')">
-                        <span>Sterne filtern</span> <span>▼</span>
+                        <span>S11 Wahrscheinlichkeit</span> <span>▼</span>
                     </button>
                     <div class="dropdown-content" id="probDropdownOptions">
                         <label class="dropdown-item"><input type="checkbox" value="1" onchange="filterTable()"> ⭐ Sicher Startelf</label>
