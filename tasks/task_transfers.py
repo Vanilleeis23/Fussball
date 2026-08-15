@@ -22,8 +22,8 @@ def get_transfers(kb):
     # -------------------------------------------------------------------------
     # START-TRANSFER NACH DEM RESET FESTLEGEN
     # -------------------------------------------------------------------------
-    RESET_SPIELER = "Sander"   
-    RESET_MANAGER = "Joel"   
+    RESET_SPIELER = "Ndiaye"   
+    RESET_MANAGER = "Vanilleeis23"   
     RESET_TYP = "VERKAUF"       
     # -------------------------------------------------------------------------
     

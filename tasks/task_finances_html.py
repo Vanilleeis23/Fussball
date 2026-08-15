@@ -111,7 +111,7 @@ def run_generate_html_dashboard():
     managers = {
         "2446378": "CoachLeisi", "165539": "Braunbär7", "2218524": "Julian",
         "2216931": "Timo Kramer", "2202080": "Sascha187", "2558680": "Joel",
-        "3183264": "MirkoHengst", "3180066": "Philipp", "2202088": "404",
+        "3183264": "MirkoHengst", "3180066": "Philipp", "2202088": "Robinho",
         "717710": "Vincent", "2219496": "Vanilleeis23"
     }
     

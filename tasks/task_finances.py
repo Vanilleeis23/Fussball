@@ -15,7 +15,7 @@ MANAGERS = [
     "Joel",
     "MirkoHengst",
     "Philipp",
-    "404",
+    "Robinho",
     "Vincent ",
     "Vanilleeis23"
 ]

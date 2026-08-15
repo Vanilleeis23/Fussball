@@ -12,7 +12,7 @@ def run_squad_value(kb):
             "2558680": "Joel",
             "3183264": "MirkoHengst",
             "3180066": "Philipp",
-            "2202088": "404",
+            "2202088": "Robinho",
             "717710": "Vincent",
             "2219496": "Vanilleeis23"
         }
@@ -62,8 +62,11 @@ def run_market_players(kb):
                 # Namen zusammensetzen
                 spieler_name = p.get('n', '')
                 marktwert = p.get("mv", 0)
-                user_name = p.get("u")
-                user_name = user_name.get("n")             
+                user_name = p.get("u")  
+                try:
+                    user_name = user_name.get('n')     
+                except:
+                    user_name = "Market"     
                 f.write(f"{spieler_name} | {marktwert:,} € | {user_name}\n")
             
     print("Marktspieler erfolgreich aktualisiert!")

@@ -17,7 +17,7 @@ MANAGER_IDS = {
     "2558680": "Joel",
     "3183264": "MirkoHengst",
     "3180066": "Philipp",
-    "2202088": "404",
+    "2202088": "Robinho",
     "717710": "Vincent",
     "2219496": "Vanilleeis23"
 }
