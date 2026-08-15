@@ -60,7 +60,7 @@ def run_market_players(kb):
             # 3. Wenn "username" existiert, gehört der Spieler einem Manager (nicht dem Computer)
             if p.get("i"):
                 # Namen zusammensetzen
-                spieler_name = f"{p.get('fn', '')} {p.get('n', '')}".strip()
+                spieler_name = p.get('n', '')
                 marktwert = p.get("mv", 0)
                 user_name = p.get("u")
                 user_name = user_name.get("n")             

@@ -126,14 +126,31 @@ def fetch_all_bundesliga_players(kb):
             print(f"Fehler bei Team ID {team_id}: {e}")  
     return all_players
 
+def load_market_players(filepath="MarketPlayer.txt"):
+    """Liest die Spieler auf dem Transfermarkt aus der Textdatei ein."""
+    market_players = set()
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                for line in f:
+                    if "|" in line:
+                        name = line.split("|")[0].strip()
+                        if name:
+                            market_players.add(name)
+        except Exception as e:
+            print(f"Fehler beim Lesen von {filepath}: {e}")
+    else:
+        print(f"Hinweis: {filepath} wurde nicht gefunden.")
+    return market_players
+
 def run_generate_playerlist_html(kb):
     """
     Generiert die spielerliste.html mit erweiterten Filteroptionen für
-    Teams, Positionen, Startelf-Wahrscheinlichkeiten und medizinische Stati.
-    Inklusive farblicher Hervorhebung der Top-Teams im Dropdown.
+    Teams, Positionen, Startelf-Wahrscheinlichkeiten, medizinische Stati und Transfermarkt.
     """
     all_players = fetch_all_bundesliga_players(kb)
     owned_players = fetch_owned_players(kb)
+    market_players = load_market_players("MarketPlayer.txt") # Transfermarkt-Spieler laden
     
     short_pos_mapping = {
         "Torwart": "TW",
@@ -170,7 +187,6 @@ def run_generate_playerlist_html(kb):
     dropdown_options_html = ""
     for team in sorted_dropdown_teams:
         bg_class = ""
-        # Farbkriterien für die Top-Teams
         if team in ["Bayern München", "Borussia Dortmund", "RB Leipzig", "VfB Stuttgart"]:
             bg_class = "team-highlight-blue"
         elif team in ["SC Freiburg", "TSG 1899 Hoffenheim", "Bayer Leverkusen"]:
@@ -198,6 +214,9 @@ def run_generate_playerlist_html(kb):
             ap = p.get("AveragePoints", 0)
             mv = p.get("marketValue", 0)
             besitzer = p.get("besitzer", "Frei")
+            
+            # Prüfen, ob Spieler auf dem Transfermarkt ist
+            is_on_market = "true" if name in market_players else "false"
             
             status_raw = p.get("status")
             prob_raw = p.get("probability")
@@ -254,7 +273,7 @@ def run_generate_playerlist_html(kb):
                 besitzer_style = "color: #f1f5f9; font-weight: 600;"
 
             player_rows_html += f"""
-            <tr data-prob="{prob_val}" data-status="{status_val}">
+            <tr data-prob="{prob_val}" data-status="{status_val}" data-market="{is_on_market}">
                 <td style="text-align: left; font-weight: 500; color: #fff;">
                     <div class="player-name-container">
                         <span class="player-name-text">{name}</span>
@@ -398,7 +417,6 @@ def run_generate_playerlist_html(kb):
             background-color: #273549;
         }}
 
-        /* DA SIND SIE WIEDER: CSS-Klassen für Highlight-Teams im Dropdown */
         .team-highlight-blue {{
             background-color: rgba(56, 189, 248, 0.08) !important;
             border-left: 3px solid #38bdf8;
@@ -473,7 +491,6 @@ def run_generate_playerlist_html(kb):
             white-space: nowrap;
         }}
 
-        /* UNIFORME KREIS-KLASSE FÜR ALLE INDIKATOREN */
         .indicator-circle {{
             width: 22px;
             height: 22px;
@@ -487,7 +504,6 @@ def run_generate_playerlist_html(kb):
             box-shadow: 0 2px 4px rgba(0,0,0,0.25);
         }}
 
-        /* Medizinischer Status */
         .status-fit {{ background-color: #15803d; }}
         .status-injured {{ background-color: #b45309; }}
         .status-training {{ background-color: #1d4ed8; }}
@@ -496,7 +512,6 @@ def run_generate_playerlist_html(kb):
         .status-out {{ background-color: #991b1b; }}
         .status-alert {{ background-color: #6b21a8; }}
 
-        /* Aufstellungswahrscheinlichkeit */
         .prob-safe {{ background-color: #1e3a8a; }}
         .prob-high {{ background-color: #16a34a; }}
         .prob-medium {{ background-color: #c2410c; }}
@@ -521,7 +536,7 @@ def run_generate_playerlist_html(kb):
             <div class="filter-container">
                 <input type="text" id="playerSearch" class="search-input" onkeyup="filterTable()" placeholder="Nach Name oder Team suchen...">
                 
-                <!-- 1. FILTER: TEAMS (Hinterlegung ist aktiv) -->
+                <!-- 1. FILTER: TEAMS -->
                 <div class="dropdown">
                     <button type="button" class="dropdown-button" id="teamDropdownBtn" onclick="toggleDropdown(event, 'teamDropdownOptions')">
                         <span>Teams filtern</span> <span>▼</span>
@@ -570,6 +585,17 @@ def run_generate_playerlist_html(kb):
                         <label class="dropdown-item"><input type="checkbox" value="1" onchange="filterTable()"> ❌ Verletzt / Ausfall</label>
                         <label class="dropdown-item"><input type="checkbox" value="256" onchange="filterTable()"> ⏳ Abwesend</label>
                         <label class="dropdown-item"><input type="checkbox" value="8" onchange="filterTable()"> 🟥 Gesperrt</label>
+                    </div>
+                </div>
+
+                <!-- 5. FILTER: TRANSFERMARKT -->
+                <div class="dropdown">
+                    <button type="button" class="dropdown-button" id="marketDropdownBtn" onclick="toggleDropdown(event, 'marketDropdownOptions')">
+                        <span>Transfermarkt</span> <span>▼</span>
+                    </button>
+                    <div class="dropdown-content" id="marketDropdownOptions">
+                        <label class="dropdown-item"><input type="checkbox" value="true" onchange="filterTable()"> Auf dem Markt</label>
+                        <label class="dropdown-item"><input type="checkbox" value="false" onchange="filterTable()"> Nicht auf dem Markt</label>
                     </div>
                 </div>
             </div>
@@ -630,10 +656,15 @@ def run_generate_playerlist_html(kb):
         let selectedStati = [];
         statusCheckboxes.forEach(cb => {{ if (cb.checked) selectedStati.push(cb.value); }});
 
+        const marketCheckboxes = document.querySelectorAll("#marketDropdownOptions input[type='checkbox']");
+        let selectedMarket = [];
+        marketCheckboxes.forEach(cb => {{ if (cb.checked) selectedMarket.push(cb.value); }});
+
         document.getElementById("teamDropdownBtn").querySelector("span").textContent = selectedTeams.length === 0 ? "Teams filtern" : "Teams (" + selectedTeams.length + ")";
         document.getElementById("posDropdownBtn").querySelector("span").textContent = selectedPositions.length === 0 ? "Positionen" : "Pos (" + selectedPositions.length + ")";
         document.getElementById("probDropdownBtn").querySelector("span").textContent = selectedProbs.length === 0 ? "Sterne filtern" : "Sterne (" + selectedProbs.length + ")";
         document.getElementById("statusDropdownBtn").querySelector("span").textContent = selectedStati.length === 0 ? "Status filtern" : "Status (" + selectedStati.length + ")";
+        document.getElementById("marketDropdownBtn").querySelector("span").textContent = selectedMarket.length === 0 ? "Transfermarkt" : "Markt (" + selectedMarket.length + ")";
 
         const rows = document.getElementById("playerTable").getElementsByTagName("tbody")[0].getElementsByTagName("tr");
         for (let row of rows) {{
@@ -644,14 +675,16 @@ def run_generate_playerlist_html(kb):
             const teamName = row.cells[2].textContent.toLowerCase();
             const playerProb = row.getAttribute('data-prob');
             const playerStatus = row.getAttribute('data-status');
+            const playerMarket = row.getAttribute('data-market');
 
             const matchesSearch = playerName.includes(searchInput) || teamName.includes(searchInput);
             const matchesTeam = selectedTeams.length === 0 || selectedTeams.includes(teamName);
             const matchesPos = selectedPositions.length === 0 || selectedPositions.includes(playerPos);
             const matchesProb = selectedProbs.length === 0 || selectedProbs.includes(playerProb);
             const matchesStatus = selectedStati.length === 0 || selectedStati.includes(playerStatus);
+            const matchesMarket = selectedMarket.length === 0 || selectedMarket.includes(playerMarket);
 
-            if (matchesSearch && matchesTeam && matchesPos && matchesProb && matchesStatus) {{
+            if (matchesSearch && matchesTeam && matchesPos && matchesProb && matchesStatus && matchesMarket) {{
                 row.style.display = "";
             }} else {{
                 row.style.display = "none";
