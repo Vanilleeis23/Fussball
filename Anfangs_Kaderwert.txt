@@ -1,11 +1,11 @@
-CoachLeisi: 99.600.847
-Braunbär7: 100.710.801
-Julian: 100.255.104
-Timo Kramer : 100.438.647
-Sascha187: 100.803.546
-Joel: 100.584.134
-MirkoHengst: 100.633.418
-Philipp: 100.199.828
-Robinho: 99.186.423
-Vincent : 100.743.141
-Vanilleeis23: 99.188.780
+CoachLeisi: 99600847
+Braunbär7: 100710801
+Julian: 100255104
+Timo Kramer : 100438647
+Sascha187: 100803546
+Joel: 100584134
+MirkoHengst: 100633418
+Philipp: 100199828
+Robinho: 99186423
+Vincent : 100743141
+Vanilleeis23: 99188780
