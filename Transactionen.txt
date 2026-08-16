@@ -1,3 +1,5 @@
+[{"byr": "Vanilleeis23"}, {"pn": "Stöger"}, {"trp": 8000000}, {"dt": "2026-08-16T14:50:51Z"}]
+[{"slr": "MirkoHengst"}, {"pn": "Stöger"}, {"trp": 8000000}, {"dt": "2026-08-16T14:50:51Z"}]
 [{"slr": "Timo Kramer "}, {"pn": "Ben Seghir"}, {"trp": 1866262}, {"dt": "2026-08-16T11:25:21Z"}]
 [{"slr": "Julian"}, {"pn": "Suso"}, {"trp": 3906054}, {"dt": "2026-08-16T10:25:31Z"}]
 [{"slr": "Julian"}, {"pn": "Ruoppi"}, {"trp": 4175536}, {"dt": "2026-08-16T10:25:17Z"}]
