@@ -1,58 +1,70 @@
-Dina Ebimbe | 6,227,970 € | Market | 2026-08-16 16:15:18
-Ulreich | 2,068,478 € | Market | 2026-08-16 18:09:29
-Posch | 8,838,770 € | Market | 2026-08-16 20:40:06
-Itten | 9,559,342 € | Market | 2026-08-16 20:42:30
-Zieler | 3,063,516 € | Market | 2026-08-16 22:04:55
-Fernández | 4,668,830 € | Market | 2026-08-16 23:37:49
-Hein | 12,505,821 € | Market | 2026-08-17 00:52:05
-Ceka | 3,170,512 € | Market | 2026-08-17 01:33:09
-Reitz | 13,158,530 € | Market | 2026-08-17 02:37:37
-Petkov | 11,742,100 € | Market | 2026-08-17 04:45:22
-Baumann | 19,429,494 € | Market | 2026-08-17 05:16:06
-Asllani | 26,862,152 € | Market | 2026-08-17 05:21:06
-Da Costa | 8,955,264 € | Market | 2026-08-17 08:02:06
-Tapsoba | 32,133,698 € | Market | 2026-08-17 13:09:32
-Maza | 29,231,715 € | Market | 2026-08-17 13:32:06
-Funk | 4,430,263 € | Market | 2026-08-17 14:16:48
-Okpala | 3,287,397 € | Market | 2026-08-17 15:23:10
-Juranović | 4,424,892 € | Market | 2026-08-17 15:36:06
-Castello Jr. | 19,492,967 € | Market | 2026-08-17 19:49:06
-Mohya | 9,866,070 € | Market | 2026-08-18 01:23:06
-De Cat | 16,307,245 € | Market | 2026-08-18 04:55:06
-Koch | 23,398,569 € | Market | 2026-08-18 07:00:06
+Dina Ebimbe | 6,227,970 € | Market | 2026-08-16 16:15:19
+Ulreich | 2,068,478 € | Market | 2026-08-16 18:09:30
+Posch | 8,838,770 € | Market | 2026-08-16 20:40:07
+Itten | 9,559,342 € | Market | 2026-08-16 20:42:31
+Zieler | 3,063,516 € | Market | 2026-08-16 22:04:56
+Fernández | 4,668,830 € | Market | 2026-08-16 23:37:50
+Hein | 12,505,821 € | Market | 2026-08-17 00:52:06
+Ceka | 3,170,512 € | Market | 2026-08-17 01:33:10
+Reitz | 13,158,530 € | Market | 2026-08-17 02:37:38
+Petkov | 11,742,100 € | Market | 2026-08-17 04:45:23
+Baumann | 19,429,494 € | Market | 2026-08-17 05:16:07
+Asllani | 26,862,152 € | Market | 2026-08-17 05:21:07
+Da Costa | 8,955,264 € | Market | 2026-08-17 08:02:07
+Tapsoba | 32,133,698 € | Market | 2026-08-17 13:09:33
+Maza | 29,231,715 € | Market | 2026-08-17 13:32:07
+Funk | 4,430,263 € | Market | 2026-08-17 14:16:49
+Okpala | 3,287,397 € | Market | 2026-08-17 15:23:11
+Juranović | 4,424,892 € | Market | 2026-08-17 15:36:07
+Castello Jr. | 19,492,967 € | Market | 2026-08-17 19:49:07
+Mohya | 9,866,070 € | Market | 2026-08-18 01:23:07
+De Cat | 16,307,245 € | Market | 2026-08-18 04:55:07
+Koch | 23,398,569 € | Market | 2026-08-18 07:00:07
+Flekken | 14,408,080 € | Vincent  | Kein Ablaufdatum
 Stark | 2,852,591 € | Vanilleeis23 | Kein Ablaufdatum
 Gregoritsch | 9,781,682 € | Philipp | Kein Ablaufdatum
 Bell | 2,707,461 € | Sascha187 | Kein Ablaufdatum
 Haberer | 4,644,007 € | Vanilleeis23 | Kein Ablaufdatum
+Schwäbe | 13,886,721 € | Joel | Kein Ablaufdatum
 Prömel | 11,995,544 € | CoachLeisi | Kein Ablaufdatum
+Gouweleeuw | 10,362,478 € | Vincent  | Kein Ablaufdatum
 Sabitzer | 9,518,886 € | Sascha187 | Kein Ablaufdatum
 Jung | 2,230,298 € | Vanilleeis23 | Kein Ablaufdatum
+Tietz | 12,005,524 € | Vincent  | Kein Ablaufdatum
 Beste | 10,605,998 € | CoachLeisi | Kein Ablaufdatum
 Neuhaus | 2,304,178 € | Vanilleeis23 | Kein Ablaufdatum
 Schlotterbeck | 10,584,115 € | Sascha187 | Kein Ablaufdatum
 Rönnow | 9,845,164 € | Julian | Kein Ablaufdatum
+Davies | 13,985,865 € | Joel | Kein Ablaufdatum
 Bülter | 5,983,317 € | Sascha187 | Kein Ablaufdatum
 Sander | 11,400,155 € | MirkoHengst | Kein Ablaufdatum
 Beier | 25,891,574 € | CoachLeisi | Kein Ablaufdatum
-Skhiri | 3,072,756 € | Vanilleeis23 | Kein Ablaufdatum
 Musiala | 35,215,989 € | MirkoHengst | Kein Ablaufdatum
+Noll | 12,022,346 € | Joel | Kein Ablaufdatum
+Muheim | 9,582,208 € | Robinho | Kein Ablaufdatum
+Raab | 1,303,352 € | Robinho | Kein Ablaufdatum
 Hložek | 7,779,268 € | Vanilleeis23 | Kein Ablaufdatum
+Stage | 18,844,210 € | Robinho | Kein Ablaufdatum
 Ngoumou | 4,873,170 € | Sascha187 | Kein Ablaufdatum
 Hollerbach | 5,096,265 € | Sascha187 | Kein Ablaufdatum
 Fellhauer | 10,164,504 € | Philipp | Kein Ablaufdatum
+Larsson | 10,446,792 € | Joel | Kein Ablaufdatum
 Curda | 11,815,196 € | Braunbär7 | Kein Ablaufdatum
 Remberg | 11,562,571 € | Sascha187 | Kein Ablaufdatum
 Ouédraogo | 17,510,869 € | Braunbär7 | Kein Ablaufdatum
 Honorat | 9,895,758 € | Braunbär7 | Kein Ablaufdatum
 Minjae | 9,621,542 € | Julian | Kein Ablaufdatum
 Deman | 10,431,101 € | Philipp | Kein Ablaufdatum
+Baum | 9,497,064 € | Robinho | Kein Ablaufdatum
 Jeltsch | 12,711,593 € | Philipp | Kein Ablaufdatum
 Sylla | 9,021,865 € | Braunbär7 | Kein Ablaufdatum
 Awortwie-Grant | 500,000 € | Sascha187 | Kein Ablaufdatum
 Bogdanov | 500,000 € | Julian | Kein Ablaufdatum
 Nusa | 25,211,087 € | Sascha187 | Kein Ablaufdatum
+Lidberg | 10,315,195 € | Vincent  | Kein Ablaufdatum
 Grønbæk | 10,426,625 € | Vanilleeis23 | Kein Ablaufdatum
 Covic | 4,656,226 € | Sascha187 | Kein Ablaufdatum
+Ebnoutalib | 10,108,603 € | Robinho | Kein Ablaufdatum
 Jaquez | 4,429,273 € | Vanilleeis23 | Kein Ablaufdatum
 Gomis | 4,491,257 € | Sascha187 | Kein Ablaufdatum
 Avdullahu | 15,053,337 € | Julian | Kein Ablaufdatum
