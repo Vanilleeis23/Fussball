@@ -1,3 +1,8 @@
+[{"slr": "Robinho"}, {"pn": "Zagadou"}, {"trp": 3928526}, {"dt": "2026-08-16T15:38:00Z"}]
+[{"slr": "Vanilleeis23"}, {"pn": "Skhiri"}, {"trp": 3072756}, {"dt": "2026-08-16T15:25:13Z"}]
+[{"slr": "Braunbär7"}, {"pn": "Poulsen"}, {"trp": 4016606}, {"dt": "2026-08-16T15:12:01Z"}]
+[{"slr": "Braunbär7"}, {"pn": "Maloney"}, {"trp": 2078740}, {"dt": "2026-08-16T15:11:48Z"}]
+[{"slr": "Braunbär7"}, {"pn": "Jakić"}, {"trp": 2085351}, {"dt": "2026-08-16T15:11:45Z"}]
 [{"byr": "Vanilleeis23"}, {"pn": "Stöger"}, {"trp": 8000000}, {"dt": "2026-08-16T14:50:51Z"}]
 [{"slr": "MirkoHengst"}, {"pn": "Stöger"}, {"trp": 8000000}, {"dt": "2026-08-16T14:50:51Z"}]
 [{"slr": "Timo Kramer "}, {"pn": "Ben Seghir"}, {"trp": 1866262}, {"dt": "2026-08-16T11:25:21Z"}]
