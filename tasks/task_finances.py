@@ -71,10 +71,20 @@ def run_calculate_kontostand():
                         break
 
     # 3. Bonus-Berechnung (Startdatum: 24. Aug 2026)
-    start_date = datetime(2026, 8, 16)
-    today = datetime.today()
-    days_passed = (today - start_date).days
-    bonus_total = max(0, days_passed * 100_000)
+    start_date = datetime(2026, 8, 15)  # Gestern (15.08.2026) war Tag 1
+    today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+
+    # Vergangene Tage ab dem Starttag inklusive heute (+1)
+    days = (today - start_date).days + 1
+
+    if days <= 0:
+        bonus_total = 0
+    elif days <= 10:
+        # Gaußsche Summenformel für die Tage 1 bis 10 (10k, 20k, ..., 100k)
+        bonus_total = (days * (days + 1) // 2) * 10_000
+    else:
+        # 550.000 € für die ersten 10 Tage + jeweils 100.000 € für jeden weiteren Tag
+        bonus_total = 550_000 + (days - 10) * 100_000
 
     for m in balances:
         balances[m] += bonus_total

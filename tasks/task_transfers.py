@@ -3,6 +3,14 @@ import json
 import ast
 from datetime import datetime, timedelta, timezone
 
+def adjust_datetime_to_local(dt_str):
+    try:
+        dt_obj = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%SZ")
+        dt_local = dt_obj + timedelta(hours=2) # UTC zu MESZ (+2h)
+        return dt_local.strftime("%Y-%m-%dT%H:%M:%SZ")
+    except Exception:
+        return dt_str
+
 # Hilfsfunktion für die Rekursion
 def extract_by_key(data, keys_to_find):
     results = []
@@ -112,6 +120,12 @@ def get_transfers(kb):
             elif "pn" in item: spl = item["pn"]
             elif "dt" in item: dt = item["dt"]
         return f"{mgr}_{spl}_{dt}"
+    # Hilfsfunktion, um das Datum einer Transaktion für die Sortierung zu extrahieren
+    def get_transfer_date(entry_list):
+        for item in entry_list:
+            if "dt" in item:
+                return item["dt"]
+        return ""
 
     # Erstelle ein Set von IDs, die bereits in der Datei existieren
     existing_ids = {get_transfer_id(e) for e in existing_entries}
@@ -148,6 +162,7 @@ def get_transfers(kb):
                         preis = item["trp"]
                     elif "dt" in item:
                         datum = item["dt"]
+                        datum = adjust_datetime_to_local(datum)
                 
                 preis_formatiert = f"{preis:,}".replace(",", ".")
                 print(f" Neue Transaktion erfasst: [{action}] {manager} -> {spieler} für {preis_formatiert} | Datum: {datum}")
@@ -158,7 +173,9 @@ def get_transfers(kb):
     if new_entries_to_save:
         # Wir setzen die NEUEN Einträge an den Anfang der Datei (wie in deinem Original-Code)
         all_entries = new_entries_to_save + existing_entries
-        
+
+        # Absteigend nach Datum sortieren (neueste Transaktion oben)
+        all_entries.sort(key=get_transfer_date, reverse=True)
         with open(filename, "w", encoding="utf-8") as f:
             for e in all_entries:
                 f.write(json.dumps(e, ensure_ascii=False) + "\n")
@@ -166,99 +183,54 @@ def get_transfers(kb):
     print(f"Transferberechnung beendet. {len(new_lines)} neue Transfers hinzugefügt.")
 
 def run_ueber_markt_gelaufen(kb):
-    print("Starte: UeberMarktGelaufen (Splitting in abgelaufene und aktive System-Spieler)...")
-    
-    # 1. Activities Feed holen (die letzten 200 Events)
-    url_feed = "https://api.kickbase.com/v4/leagues/2556726/activitiesFeed"
-    response_feed = kb.get_request(url_feed, params={"start": 0, "max": 200})
-    
-    if hasattr(response_feed, "json"):
-        data_feed = response_feed.json()
-    else:
-        data_feed = response_feed
-        
-    events = data_feed.get('af', [])
+    """
+    Ermittelt abgelaufene, unverkaufte Spieler und speichert sie mit Zeitstempel in expired_players.txt.
+    """
+    old_market_filepath = "MarketPlayer_old.txt"
+    new_market_filepath = "MarketPlayer.txt"
+    transactions_filepath = "Transactions.txt"
+    output_filepath = "ÜberMarktGelaufen.txt"
 
-    file_vergangenheit = "ÜberMarktGelaufen.txt"
-    file_zukunft = "Ablaufdatum.txt"
+    old_market = set()
+    new_market = set()
+    traded_players = set()
 
-    # 2. Bereits bestehende Einträge aus dem Archiv einlesen
-    tracked_players = {}
-    try:
-        with open(file_vergangenheit, "r", encoding="utf-8") as f:
+    # 1. Alten Markt-Stand einlesen
+    if os.path.exists(old_market_filepath):
+        with open(old_market_filepath, "r", encoding="utf-8") as f:
             for line in f:
-                if "| Datum: " in line:
-                    parts = line.strip().split("| Datum: ")
-                    name = parts[0].replace("Name: ", "").strip()
-                    dt_str = parts[1].strip()
+                parts = line.strip().split("|")
+                if len(parts) >= 3 and parts[2].strip().lower() == "market":
+                    old_market.add(parts[0].strip())
+
+    # 2. Neuen Markt-Stand einlesen
+    if os.path.exists(new_market_filepath):
+        with open(new_market_filepath, "r", encoding="utf-8") as f:
+            for line in f:
+                parts = line.strip().split("|")
+                if len(parts) >= 3 and parts[2].strip().lower() == "market":
+                    new_market.add(parts[0].strip())
+
+    # 3. Transaktionen einlesen
+    if os.path.exists(transactions_filepath):
+        with open(transactions_filepath, "r", encoding="utf-8") as f:
+            for line in f:
+                line_str = line.strip()
+                if line_str:
                     try:
-                        tracked_players[name] = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%SZ")
-                    except ValueError:
+                        data_list = json.loads(line_str)
+                        for item in data_list:
+                            if "pn" in item:
+                                traded_players.add(item["pn"].strip())
+                    except json.JSONDecodeError:
                         continue
-    except FileNotFoundError:
-        pass
 
-    # 3. Feed chronologisch von alt nach neu durchlaufen
-    for e in reversed(events):
-        data_evt = e.get("data", {})
-        
-        # Fall A: Spieler kommt auf den Markt
-        if e.get("t") == 12:
-            # Ignorieren, wenn von einem echten Manager
-            if data_evt.get("ui") or data_evt.get("un"):
-                continue
-                
-            vorname = data_evt.get("pn", "").strip()
-            nachname = data_evt.get("ln", "").strip()
-            full_name = f"{vorname} {nachname}".strip() if vorname else nachname
-            
-            if full_name:
-                dt_str = e.get("dt")
-                dt_event = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%SZ")
-                
-                # Ablaufzeitpunkt berechnen
-                expiration_seconds = data_evt.get("exs", 86400)
-                dt_abgelaufen = dt_event + timedelta(seconds=expiration_seconds)
-                
-                # Temporär/Dauerhaft tracken
-                tracked_players[full_name] = dt_abgelaufen
+    # 4. Differenz berechnen: (Alt - Neu) - Transaktionen
+    expired_unbought = sorted(list((old_market - new_market) - traded_players))
 
-        # Fall B: Spieler wurde von einem Manager gekauft -> Fliegt sofort und dauerhaft raus
-        elif "slr" in data_evt or "byr" in data_evt:
-            vorname = data_evt.get("pn", "").strip()
-            nachname = data_evt.get("ln", "").strip()
-            full_name = f"{vorname} {nachname}".strip() if vorname else nachname
-            
-            if full_name and full_name in tracked_players:
-                del tracked_players[full_name]
-
-    # 4. In Vergangenheit (abgelaufen) und Zukunft (noch auf dem Markt) aufteile
-    # Holt die aktuelle UTC-Zeit und entfernt die Zeitzonen-Information,
-    # damit sie perfekt zu den eingelesenen Zeiten aus der Textdatei passt.
-    jetzt = datetime.now(timezone.utc).replace(tzinfo=None)
-    sicher_abgelaufen = {}
-    aktuell_auf_markt = {}
-    
-    for name, dt_abgelaufen in tracked_players.items():
-        if dt_abgelaufen < jetzt:
-            sicher_abgelaufen[name] = dt_abgelaufen
-        else:
-            aktuell_auf_markt[name] = dt_abgelaufen
-
-    # 5. Beide Listen chronologisch sortieren
-    sorted_vergangenheit = sorted(sicher_abgelaufen.items(), key=lambda x: x[1])
-    sorted_zukunft = sorted(aktuell_auf_markt.items(), key=lambda x: x[1])
-
-    # 6. Archiv-Datei neu schreiben (ÜberMarktGelaufen.txt)
-    with open(file_vergangenheit, "w", encoding="utf-8") as f:
-        for name, dt in sorted_vergangenheit:
-            dt_str = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-            f.write(f"Name: {name} | Datum: {dt_str}\n")
-
-    # 7. Live-Vorschau-Datei neu schreiben (Ablaufdatum.txt)
-    with open(file_zukunft, "w", encoding="utf-8") as f:
-        for name, dt in sorted_zukunft:
-            dt_str = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-            f.write(f"Name: {name} | Ablaufdatum: {dt_str}\n")
-
-    print(f"Update beendet! Archiv: {len(sorted_vergangenheit)} abgelaufene Spieler | Aktuell auf dem Markt: {len(sorted_zukunft)} Spieler.")
+    # 5. Mit Timestamp in Datei schreiben (Anhänge-Modus)
+    if expired_unbought:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with open(output_filepath, "a", encoding="utf-8") as f:
+            for player in expired_unbought:
+                f.write(f"{timestamp} | {player}\n")

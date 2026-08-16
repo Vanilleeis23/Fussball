@@ -147,7 +147,7 @@ def run_generate_html_dashboard():
     if os.path.exists("Transactionen.txt"):
         try:
             with open("Transactionen.txt", "r", encoding="utf-8") as f:
-                lines = reversed(f.readlines())
+                lines = f.readlines()
                 
                 for line in lines:
                     line = line.strip()
@@ -250,34 +250,49 @@ def run_generate_html_dashboard():
         except Exception as e:
             markt_verlauf_rows_html = f"<tr><td colspan='2' style='text-align: center;'>Fehler beim Lesen der Markt-Historie: {e}</td></tr>"
 
-    # -------------------------------------------------------------------------
-    # 4. ABLAUFDATUM AUSLESEN (Rechte Spalte ganz unten)
+# -------------------------------------------------------------------------
+    # 4. ABLAUFDATUM AUSLESEN (MarketPlayer.txt)
     # -------------------------------------------------------------------------
     ablauf_rows_html = ""
-    if os.path.exists("Ablaufdatum.txt"):
+    if os.path.exists("MarketPlayer.txt"):
         try:
-            with open("Ablaufdatum.txt", "r", encoding="utf-8") as f:
+            has_entries = False
+            with open("MarketPlayer.txt", "r", encoding="utf-8") as f:
                 for line in f:
                     line = line.strip()
-                    if not line: continue
-                    if ":" in line:
-                        parts = line.split(":", 1)
-                        spieler_name = parts[0].strip()
-                        zeit_info = parts[1].strip()
-                        ablauf_rows_html += f"""
-                        <tr>
-                            <td style="font-weight: 500; color: #fff; text-align: center;">{spieler_name}</td>
-                            <td style="text-align: center; color: #f87171;">{zeit_info}</td>
-                        </tr>"""
-                    else:
-                        ablauf_rows_html += f"""
-                        <tr>
-                            <td colspan="2" style="color: #e2e8f0; text-align: center;">{line}</td>
-                        </tr>"""
+                    if not line:
+                        continue
+                    
+                    parts = [p.strip() for p in line.split("|")]
+                    if len(parts) >= 4:
+                        spieler_name = parts[0]
+                        besitzer = parts[2]
+                        ablaufdatum_raw = parts[3]
+                        
+                        # Nur Markt-Spieler mit gültigem Ablaufdatum anzeigen
+                        if besitzer == "Market" and ablaufdatum_raw != "Kein Ablaufdatum":
+                            has_entries = True
+                            
+                            # Datum hübsch formatieren (2026-08-16 18:15:18 -> 16.08. 18:15 Uhr)
+                            try:
+                                dt_obj = datetime.strptime(ablaufdatum_raw, "%Y-%m-%d %H:%M:%S")
+                                formatiertes_datum = dt_obj.strftime("%d.%m. %H:%M Uhr")
+                            except Exception:
+                                formatiertes_datum = ablaufdatum_raw
+
+                            ablauf_rows_html += f"""
+                            <tr>
+                                <td style="font-weight: 500; color: #fff; text-align: center;">{spieler_name}</td>
+                                <td style="text-align: center; color: #f87171;">{formatiertes_datum}</td>
+                            </tr>"""
+
+            if not has_entries:
+                ablauf_rows_html = "<tr><td colspan='2' style='text-align: center; color: #94a3b8;'>Aktuell keine Marktspieler vorhanden.</td></tr>"
+
         except Exception as e:
-            ablauf_rows_html = f"<tr><td colspan='2' style='text-align: center;'>Fehler beim Lesen der Ablaufdaten: {e}</td></tr>"
+            ablauf_rows_html = f"<tr><td colspan='2' style='text-align: center; color: #ef4444;'>Fehler beim Lesen der Ablaufdaten: {e}</td></tr>"
     else:
-        ablauf_rows_html = "<tr><td colspan='2' style='text-align: center;'>Keine Ablaufdaten gefunden.</td></tr>"
+        ablauf_rows_html = "<tr><td colspan='2' style='text-align: center; color: #94a3b8;'>Keine MarketPlayer.txt gefunden.</td></tr>"
 
     # -------------------------------------------------------------------------
     # 5. HTML & CSS GENERIEREN
