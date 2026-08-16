@@ -22,9 +22,6 @@ De Cat | 16,307,245 € | Market | 2026-08-18 04:55:06
 Koch | 23,398,569 € | Market | 2026-08-18 07:00:06
 Drewes | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Schwäbe | 13,886,721 € | Joel | Kein Ablaufdatum
-Sabitzer | 9,518,886 € | Sascha187 | Kein Ablaufdatum
-Schlotterbeck | 10,584,115 € | Sascha187 | Kein Ablaufdatum
-Rönnow | 9,845,164 € | Julian | Kein Ablaufdatum
 Davies | 13,985,865 € | Joel | Kein Ablaufdatum
 Boss | 5,546,256 € | Braunbär7 | Kein Ablaufdatum
 Bülter | 5,983,317 € | Sascha187 | Kein Ablaufdatum
@@ -36,9 +33,7 @@ Oermann | 5,301,250 € | Braunbär7 | Kein Ablaufdatum
 Hollerbach | 5,096,265 € | Sascha187 | Kein Ablaufdatum
 Larsson | 10,446,792 € | Joel | Kein Ablaufdatum
 Curda | 11,815,196 € | Braunbär7 | Kein Ablaufdatum
-Bätzner | 2,844,483 € | Robinho | Kein Ablaufdatum
 Ouédraogo | 17,510,869 € | Braunbär7 | Kein Ablaufdatum
-Minjae | 9,621,542 € | Julian | Kein Ablaufdatum
 Deman | 10,431,101 € | Philipp | Kein Ablaufdatum
 Malatini | 4,965,272 € | Robinho | Kein Ablaufdatum
 Sylla | 9,021,865 € | Braunbär7 | Kein Ablaufdatum
