@@ -24,6 +24,7 @@ Tapsoba | 32,133,698 € | Market
 Musiala | 35,215,989 € | MirkoHengst
 Reitz | 13,158,530 € | Market
 Petkov | 11,742,100 € | Market
+Itten | 9,559,342 € | Market
 Asllani | 26,862,152 € | Market
 Hložek | 7,779,268 € | Vanilleeis23
 Dina Ebimbe | 6,227,970 € | Market
@@ -39,10 +40,8 @@ Honorat | 9,895,758 € | Braunbär7
 Minjae | 9,621,542 € | Julian
 Castello Jr. | 19,492,967 € | Market
 Deman | 10,431,101 € | Philipp
-Suso | 3,906,054 € | Julian
 Jeltsch | 12,711,593 € | Philipp
 Sylla | 9,021,865 € | Braunbär7
-Yilmaz | 9,329,610 € | Julian
 Awortwie-Grant | 500,000 € | Sascha187
 Bogdanov | 500,000 € | Julian
 Nusa | 25,211,087 € | Sascha187
@@ -53,13 +52,9 @@ Jaquez | 4,429,273 € | Vanilleeis23
 Gomis | 4,491,257 € | Sascha187
 Avdullahu | 15,053,337 € | Julian
 Mohya | 9,866,070 € | Market
-van den Berg | 3,225,765 € | Julian
 Fernández | 4,668,830 € | Market
 Gomis | 4,053,822 € | Julian
 Okpala | 3,287,397 € | Market
-Ruoppi | 4,175,536 € | Julian
 Saibari | 29,671,895 € | Vanilleeis23
-Lerma | 8,039,818 € | Julian
 De Cat | 16,307,245 € | Market
-Estève | 18,038,248 € | Vanilleeis23
 Otávio | 6,771,096 € | MirkoHengst
