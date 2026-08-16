@@ -1,5 +1,6 @@
 Stark | 2,852,591 € | Vanilleeis23
 Ulreich | 2,068,478 € | Market
+Zieler | 3,063,516 € | Market
 Gregoritsch | 9,781,682 € | Philipp
 Baumann | 19,429,494 € | Market
 Bell | 2,707,461 € | Sascha187
@@ -13,6 +14,7 @@ Beste | 10,605,998 € | CoachLeisi
 Koch | 23,398,569 € | Market
 Neuhaus | 2,304,178 € | Vanilleeis23
 Schlotterbeck | 10,584,115 € | Sascha187
+Rönnow | 9,845,164 € | Julian
 Funk | 4,430,263 € | Market
 Bülter | 5,983,317 € | Sascha187
 Sander | 11,400,155 € | MirkoHengst
@@ -34,21 +36,30 @@ Curda | 11,815,196 € | Braunbär7
 Remberg | 11,562,571 € | Sascha187
 Ouédraogo | 17,510,869 € | Braunbär7
 Honorat | 9,895,758 € | Braunbär7
+Minjae | 9,621,542 € | Julian
 Castello Jr. | 19,492,967 € | Market
 Deman | 10,431,101 € | Philipp
+Suso | 3,906,054 € | Julian
 Jeltsch | 12,711,593 € | Philipp
 Sylla | 9,021,865 € | Braunbär7
+Yilmaz | 9,329,610 € | Julian
 Awortwie-Grant | 500,000 € | Sascha187
+Bogdanov | 500,000 € | Julian
 Nusa | 25,211,087 € | Sascha187
 Hein | 12,505,821 € | Market
 Grønbæk | 10,426,625 € | Vanilleeis23
 Covic | 4,656,226 € | Sascha187
 Jaquez | 4,429,273 € | Vanilleeis23
 Gomis | 4,491,257 € | Sascha187
+Avdullahu | 15,053,337 € | Julian
 Mohya | 9,866,070 € | Market
+van den Berg | 3,225,765 € | Julian
 Fernández | 4,668,830 € | Market
+Gomis | 4,053,822 € | Julian
 Okpala | 3,287,397 € | Market
+Ruoppi | 4,175,536 € | Julian
 Saibari | 29,671,895 € | Vanilleeis23
+Lerma | 8,039,818 € | Julian
 De Cat | 16,307,245 € | Market
 Estève | 18,038,248 € | Vanilleeis23
 Otávio | 6,771,096 € | MirkoHengst
