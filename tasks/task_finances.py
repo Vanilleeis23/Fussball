@@ -212,9 +212,9 @@ def run_real_kontostand():
                 if not line:
                     continue
                 parts = [p.strip() for p in line.split("|")]
-                if len(parts) != 3:
+                if len(parts) != 4:
                     continue
-                _, value_str, user = parts
+                _, value_str, user, ablauf = parts
                 digits = re.sub(r"[^\d]", "", value_str)
                 player_values[user] += int(digits) if digits else 0
 

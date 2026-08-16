@@ -53,7 +53,7 @@ def get_transfers(kb):
     for e in activities:
         data_evt = e.get("data", {})
         dt_str = e.get("dt")
-        
+        dt_str=adjust_datetime_to_local(dt_str)
         spieler = data_evt.get("pn")
         preis = data_evt.get("trp", 0)
         
@@ -162,8 +162,7 @@ def get_transfers(kb):
                         preis = item["trp"]
                     elif "dt" in item:
                         datum = item["dt"]
-                        datum = adjust_datetime_to_local(datum)
-                
+
                 preis_formatiert = f"{preis:,}".replace(",", ".")
                 print(f" Neue Transaktion erfasst: [{action}] {manager} -> {spieler} für {preis_formatiert} | Datum: {datum}")
             except Exception:
