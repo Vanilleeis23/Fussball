@@ -1,3 +1,4 @@
+Stark | 2,852,591 € | Vanilleeis23
 Ulreich | 2,068,478 € | Market
 Gregoritsch | 9,781,682 € | Philipp
 Baumann | 19,429,494 € | Market
@@ -8,8 +9,11 @@ Jung | 2,230,298 € | Vanilleeis23
 Posch | 8,838,770 € | Market
 Beste | 10,605,998 € | CoachLeisi
 Koch | 23,398,569 € | Market
+Neuhaus | 2,304,178 € | Vanilleeis23
+Funk | 4,430,263 € | Market
 Beier | 25,891,574 € | CoachLeisi
 Skhiri | 3,072,756 € | Vanilleeis23
+Tapsoba | 32,133,698 € | Market
 Reitz | 13,158,530 € | Market
 Asllani | 26,862,152 € | Market
 Hložek | 7,779,268 € | Vanilleeis23
