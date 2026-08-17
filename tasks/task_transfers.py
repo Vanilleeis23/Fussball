@@ -187,7 +187,7 @@ def run_ueber_markt_gelaufen(kb):
     """
     old_market_filepath = "MarketPlayer_old.txt"
     new_market_filepath = "MarketPlayer.txt"
-    transactions_filepath = "Transactions.txt"
+    transactions_filepath = "Transactionen.txt"
     output_filepath = "ÜberMarktGelaufen.txt"
 
     old_market = set()
