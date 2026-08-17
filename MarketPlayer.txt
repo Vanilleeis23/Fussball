@@ -1,34 +1,32 @@
-Castello Jr. | 19,197,077 € | Market | 2026-08-17 21:49:06
-Hofmann | 1,642,655 € | Market | 2026-08-17 22:09:22
-Brown | 28,700,467 € | Market | 2026-08-17 23:59:53
-Keidel | 4,787,946 € | Market | 2026-08-18 02:19:10
-Mohya | 10,082,151 € | Market | 2026-08-18 03:23:06
-De Cat | 16,522,188 € | Market | 2026-08-18 06:55:06
-Heuer Fernandes | 13,884,837 € | Market | 2026-08-18 07:43:49
-Koch | 23,455,591 € | Market | 2026-08-18 09:00:06
-Kuruçay | 12,790,970 € | Market | 2026-08-18 09:22:05
-Ogbus | 2,159,744 € | Market | 2026-08-18 14:18:19
-Maina | 3,912,838 € | Market | 2026-08-18 14:58:12
-Harder | 3,463,519 € | Market | 2026-08-18 18:16:26
-Ryerson | 25,577,034 € | Market | 2026-08-18 18:59:37
+Brown | 28,772,607 € | Market | 2026-08-17 23:59:53
+Keidel | 5,114,759 € | Market | 2026-08-18 02:19:10
+Mohya | 10,237,269 € | Market | 2026-08-18 03:23:06
+De Cat | 16,735,689 € | Market | 2026-08-18 06:55:06
+Heuer Fernandes | 14,049,239 € | Market | 2026-08-18 07:43:49
+Koch | 23,465,622 € | Market | 2026-08-18 09:00:06
+Kuruçay | 12,873,631 € | Market | 2026-08-18 09:22:05
+Ogbus | 2,052,929 € | Market | 2026-08-18 14:18:19
+Maina | 3,889,074 € | Market | 2026-08-18 14:58:12
+Harder | 3,382,267 € | Market | 2026-08-18 18:16:26
+Ryerson | 25,619,908 € | Market | 2026-08-18 18:59:37
 Müller | 500,000 € | Market | 2026-08-18 19:07:39
-Pimpong | 4,641,881 € | Market | 2026-08-18 23:14:24
-Schlotterbeck | 29,634,417 € | Market | 2026-08-18 23:34:33
-Meyer | 1,325,133 € | Market | 2026-08-19 01:51:43
-Potulski | 7,137,458 € | Market | 2026-08-19 02:55:56
-Aouchiche | 14,676,379 € | Market | 2026-08-19 03:30:03
-Hendriks | 12,606,945 € | Market | 2026-08-19 05:23:25
-Claude-Maurice | 12,015,477 € | Market | 2026-08-19 13:25:17
+Pimpong | 4,518,073 € | Market | 2026-08-18 23:14:24
+Schlotterbeck | 28,970,210 € | Market | 2026-08-18 23:34:33
+Meyer | 1,187,956 € | Market | 2026-08-19 01:51:43
+Potulski | 6,855,104 € | Market | 2026-08-19 02:55:56
+Aouchiche | 14,799,527 € | Market | 2026-08-19 03:30:03
+Hendriks | 12,772,231 € | Market | 2026-08-19 05:23:25
+Claude-Maurice | 11,669,962 € | Market | 2026-08-19 13:25:17
 Drewes | 500,000 € | Braunbär7 | Kein Ablaufdatum
-Jatta | 4,162,808 € | CoachLeisi | Kein Ablaufdatum
-Funk | 4,615,059 € | CoachLeisi | Kein Ablaufdatum
-Bülter | 6,153,017 € | Sascha187 | Kein Ablaufdatum
-Ito | 4,660,152 € | Robinho | Kein Ablaufdatum
-Oermann | 5,542,639 € | Braunbär7 | Kein Ablaufdatum
-Hollerbach | 5,256,064 € | Sascha187 | Kein Ablaufdatum
-Malatini | 5,098,670 € | Robinho | Kein Ablaufdatum
-Moerstedt | 6,724,423 € | CoachLeisi | Kein Ablaufdatum
-Prass | 4,234,687 € | Robinho | Kein Ablaufdatum
-Sylla | 9,147,309 € | Braunbär7 | Kein Ablaufdatum
-Gomis | 4,400,948 € | Sascha187 | Kein Ablaufdatum
-Bøving | 5,320,825 € | CoachLeisi | Kein Ablaufdatum
+Jatta | 4,203,208 € | CoachLeisi | Kein Ablaufdatum
+Funk | 4,780,015 € | CoachLeisi | Kein Ablaufdatum
+Bülter | 6,358,586 € | Sascha187 | Kein Ablaufdatum
+Ito | 4,605,004 € | Robinho | Kein Ablaufdatum
+Oermann | 5,762,724 € | Braunbär7 | Kein Ablaufdatum
+Hollerbach | 5,336,298 € | Sascha187 | Kein Ablaufdatum
+Malatini | 5,217,126 € | Robinho | Kein Ablaufdatum
+Prass | 4,117,730 € | Robinho | Kein Ablaufdatum
+Sylla | 9,296,998 € | Braunbär7 | Kein Ablaufdatum
+Gomis | 4,337,419 € | Sascha187 | Kein Ablaufdatum
+Bøving | 5,389,486 € | CoachLeisi | Kein Ablaufdatum
+Güther | 751,488 € | CoachLeisi | Kein Ablaufdatum
