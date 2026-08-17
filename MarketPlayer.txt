@@ -10,6 +10,7 @@ Siebeking | 2,440,588 € | Market | 2026-08-17 16:22:35
 Culbreath | 4,340,206 € | Market | 2026-08-17 18:51:21
 Castello Jr. | 19,197,077 € | Market | 2026-08-17 19:49:06
 Hofmann | 1,642,655 € | Market | 2026-08-17 20:09:22
+Brown | 28,700,467 € | Market | 2026-08-17 21:59:53
 Keidel | 4,787,946 € | Market | 2026-08-18 00:19:10
 Mohya | 10,082,151 € | Market | 2026-08-18 01:23:06
 De Cat | 16,522,188 € | Market | 2026-08-18 04:55:06
@@ -22,7 +23,6 @@ Drewes | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Boss | 5,610,571 € | Braunbär7 | Kein Ablaufdatum
 Bülter | 6,153,017 € | Sascha187 | Kein Ablaufdatum
 Ito | 4,660,152 € | Robinho | Kein Ablaufdatum
-Muheim | 9,682,030 € | Robinho | Kein Ablaufdatum
 Oermann | 5,542,639 € | Braunbär7 | Kein Ablaufdatum
 Hollerbach | 5,256,064 € | Sascha187 | Kein Ablaufdatum
 Malatini | 5,098,670 € | Robinho | Kein Ablaufdatum
