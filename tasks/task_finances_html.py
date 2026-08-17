@@ -277,7 +277,6 @@ def run_generate_html_dashboard():
                         spieler_name = parts[0]
                         besitzer = parts[2]
                         ablaufdatum_raw = parts[3]
-                        
                         # Nur Markt-Spieler mit gültigem Ablaufdatum anzeigen
                         if besitzer == "Market" and ablaufdatum_raw != "Kein Ablaufdatum":
                             has_entries = True
@@ -286,7 +285,6 @@ def run_generate_html_dashboard():
                             try:
                                 dt_obj = datetime.strptime(ablaufdatum_raw, "%Y-%m-%d %H:%M:%S")
                                 formatiertes_datum = dt_obj.strftime("%d.%m. %H:%M Uhr")
-                                formatiertes_datum = adjust_datetime_to_local(formatiertes_datum)
                             except Exception:
                                 formatiertes_datum = ablaufdatum_raw
 

@@ -4,6 +4,14 @@ import shutil
 from datetime import datetime, timedelta
 from pathlib import Path
 
+def adjust_datetime_to_local(dt_str):
+    try:
+        dt_obj = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%SZ")
+        dt_local = dt_obj + timedelta(hours=2) # UTC zu MESZ (+2h)
+        return dt_local.strftime("%Y-%m-%dT%H:%M:%SZ")
+    except Exception:
+        return dt_str
+    
 def run_squad_value(kb):
     print("Starte: getSquadValue...")
     managers = {
