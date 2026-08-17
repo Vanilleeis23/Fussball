@@ -1,3 +1,4 @@
+[{"byr": "CoachLeisi"}, {"pn": "Funk"}, {"trp": 4900000}, {"dt": "2026-08-17T16:17:05Z"}]
 [{"slr": "Timo Kramer "}, {"pn": "Niang"}, {"trp": 5655700}, {"dt": "2026-08-17T15:46:27Z"}]
 [{"byr": "CoachLeisi"}, {"pn": "Maza"}, {"trp": 38500000}, {"dt": "2026-08-17T15:32:18Z"}]
 [{"byr": "Julian"}, {"pn": "Tapsoba"}, {"trp": 36500000}, {"dt": "2026-08-17T15:09:43Z"}]

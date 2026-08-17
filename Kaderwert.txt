@@ -1,7 +1,7 @@
 Summen pro Nutzer (absteigend sortiert):
 
+CoachLeisi : 106.789.594 €
 Joel : 104.623.768 €
-CoachLeisi : 102.174.535 €
 Julian : 96.812.546 €
 Sascha187 : 86.255.542 €
 Philipp : 83.457.136 €
