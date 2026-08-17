@@ -1,8 +1,16 @@
 import os
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
+
+def adjust_datetime_to_local(dt_str):
+    try:
+        dt_obj = datetime.strptime(dt_str, "%Y-%m-%dT%H:%M:%SZ")
+        dt_local = dt_obj + timedelta(hours=2) # UTC zu MESZ (+2h)
+        return dt_local.strftime("%Y-%m-%dT%H:%M:%SZ")
+    except Exception:
+        return dt_str
 
 def read_raw_line_from_file(filename, manager_name, default_value="0 €"):
     """
@@ -277,6 +285,7 @@ def run_generate_html_dashboard():
                             try:
                                 dt_obj = datetime.strptime(ablaufdatum_raw, "%Y-%m-%d %H:%M:%S")
                                 formatiertes_datum = dt_obj.strftime("%d.%m. %H:%M Uhr")
+                                formatiertes_datum = adjust_datetime_to_local(formatiertes_datum)
                             except Exception:
                                 formatiertes_datum = ablaufdatum_raw
 
