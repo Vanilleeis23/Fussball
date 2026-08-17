@@ -10,6 +10,7 @@ Koch | 23,455,591 € | Market | 2026-08-18 09:00:06
 Kuruçay | 12,790,970 € | Market | 2026-08-18 09:22:05
 Ogbus | 2,159,744 € | Market | 2026-08-18 14:18:19
 Maina | 3,912,838 € | Market | 2026-08-18 14:58:12
+Ryerson | 25,577,034 € | Market | 2026-08-18 18:59:37
 Müller | 500,000 € | Market | 2026-08-18 19:07:39
 Pimpong | 4,641,881 € | Market | 2026-08-18 23:14:24
 Schlotterbeck | 29,634,417 € | Market | 2026-08-18 23:34:33
@@ -19,7 +20,7 @@ Aouchiche | 14,676,379 € | Market | 2026-08-19 03:30:03
 Claude-Maurice | 12,015,477 € | Market | 2026-08-19 13:25:17
 Drewes | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Jatta | 4,162,808 € | CoachLeisi | Kein Ablaufdatum
-Boss | 5,610,571 € | Braunbär7 | Kein Ablaufdatum
+Funk | 4,615,059 € | CoachLeisi | Kein Ablaufdatum
 Bülter | 6,153,017 € | Sascha187 | Kein Ablaufdatum
 Ito | 4,660,152 € | Robinho | Kein Ablaufdatum
 Oermann | 5,542,639 € | Braunbär7 | Kein Ablaufdatum
@@ -28,6 +29,5 @@ Malatini | 5,098,670 € | Robinho | Kein Ablaufdatum
 Moerstedt | 6,724,423 € | CoachLeisi | Kein Ablaufdatum
 Prass | 4,234,687 € | Robinho | Kein Ablaufdatum
 Sylla | 9,147,309 € | Braunbär7 | Kein Ablaufdatum
-Sirch | 6,683,196 € | Braunbär7 | Kein Ablaufdatum
 Gomis | 4,400,948 € | Sascha187 | Kein Ablaufdatum
 Bøving | 5,320,825 € | CoachLeisi | Kein Ablaufdatum
