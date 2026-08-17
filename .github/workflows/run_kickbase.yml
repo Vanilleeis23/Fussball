@@ -13,6 +13,8 @@ permissions:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    env:
+      TZ: "Europe/Berlin"  # Setzt die Systemzeitzone für alle Schritte
 
     steps:
       - name: Checkout Repository
