@@ -1,3 +1,6 @@
+[{"slr": "Timo Kramer "}, {"pn": "Niang"}, {"trp": 5655700}, {"dt": "2026-08-17T15:46:27Z"}]
+[{"byr": "CoachLeisi"}, {"pn": "Maza"}, {"trp": 38500000}, {"dt": "2026-08-17T15:32:18Z"}]
+[{"byr": "Julian"}, {"pn": "Tapsoba"}, {"trp": 36500000}, {"dt": "2026-08-17T15:09:43Z"}]
 [{"slr": "MirkoHengst"}, {"pn": "Köbbing"}, {"trp": 500000}, {"dt": "2026-08-17T14:27:12Z"}]
 [{"byr": "Philipp"}, {"pn": "Müller"}, {"trp": 4935647}, {"dt": "2026-08-17T12:09:07Z"}]
 [{"byr": "Philipp"}, {"pn": "Da Costa"}, {"trp": 10139645}, {"dt": "2026-08-17T10:02:13Z"}]
