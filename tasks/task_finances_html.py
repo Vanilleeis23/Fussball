@@ -234,21 +234,22 @@ def run_generate_html_dashboard():
                     if not line: continue
                     
                     if ":" in line:
-                        parts = line.split(":", 1)
-                        s_name = parts[0].strip()
-                        s_info = parts[1].strip()
+                        parts = line.split("|", 1)
+                        s_name = parts[1].strip()
+                        ablaufdatum_raw = parts[0].strip()
                         
+                        # Datum hübsch formatieren (2026-08-16 18:15:18 -> 16.08. 18:15 Uhr)
                         try:
-                            clean_info = s_info.replace("€", "").replace(".", "").replace(",", "").strip()
-                            num_info = int(clean_info)
-                            s_info = f"{num_info:,}".replace(",", ".") + " €"
-                        except ValueError:
-                            pass
+                            dt_obj = datetime.strptime(ablaufdatum_raw, "%Y-%m-%d %H:%M:%S")
+                            formatiertes_datum = dt_obj.strftime("%d.%m. %H:%M Uhr")
+                            formatiertes_datum = adjust_datetime_to_local(formatiertes_datum)
+                        except Exception:
+                            formatiertes_datum = ablaufdatum_raw                        
                             
                         markt_verlauf_rows_html += f"""
                         <tr>
                             <td style="font-weight: 500; color: #fff; text-align: center;">{s_name}</td>
-                            <td style="text-align: center; color: #94a3b8;">{s_info}</td>
+                            <td style="font-weight: 500; color: #fff; text-align: center;">{formatiertes_datum}</td>
                         </tr>"""
                     else:
                         markt_verlauf_rows_html += f"""
@@ -292,7 +293,7 @@ def run_generate_html_dashboard():
                             ablauf_rows_html += f"""
                             <tr>
                                 <td style="font-weight: 500; color: #fff; text-align: center;">{spieler_name}</td>
-                                <td style="text-align: center; color: #f87171;">{formatiertes_datum}</td>
+                                <td style="font-weight: 500; text-align: center; color: #fff;">{formatiertes_datum}</td>
                             </tr>"""
 
             if not has_entries:
@@ -477,13 +478,13 @@ def run_generate_html_dashboard():
                 </div>
 
                 <div class="card">
-                    <h2>Zuletzt auf dem Markt</h2>
+                    <h2>Über den Markt gelaufen</h2>
                     <div class="table-scroll-container">
                         <table>
                             <thead>
                                 <tr>
                                     <th>Spieler</th>
-                                    <th>Info / Wert</th>
+                                    <th>Datum</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -500,7 +501,7 @@ def run_generate_html_dashboard():
                             <thead>
                                 <tr>
                                     <th>Spieler</th>
-                                    <th>Endet in</th>
+                                    <th>Endet um</th>
                                 </tr>
                             </thead>
                             <tbody>
