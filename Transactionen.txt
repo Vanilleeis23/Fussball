@@ -1,3 +1,4 @@
+[{"slr": "Philipp"}, {"pn": "Chukwuemeka"}, {"trp": 4268743}, {"dt": "2026-08-17T18:35:41Z"}]
 [{"byr": "Robinho"}, {"pn": "Juranović"}, {"trp": 6400000}, {"dt": "2026-08-17T17:36:16Z"}]
 [{"byr": "CoachLeisi"}, {"pn": "Funk"}, {"trp": 4900000}, {"dt": "2026-08-17T16:17:05Z"}]
 [{"slr": "Timo Kramer "}, {"pn": "Niang"}, {"trp": 5655700}, {"dt": "2026-08-17T15:46:27Z"}]
