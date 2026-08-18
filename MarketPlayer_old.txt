@@ -14,6 +14,7 @@ Meyer | 1,187,956 € | Market | 2026-08-19 01:51:43
 Potulski | 6,855,104 € | Market | 2026-08-19 02:55:56
 Aouchiche | 14,799,527 € | Market | 2026-08-19 03:30:03
 Hendriks | 12,772,231 € | Market | 2026-08-19 05:23:25
+Zentner | 12,888,058 € | Market | 2026-08-19 11:35:55
 Claude-Maurice | 11,669,962 € | Market | 2026-08-19 13:25:17
 Skov | 2,934,719 € | Market | 2026-08-19 16:37:53
 Pruhs | 3,946,986 € | Market | 2026-08-19 18:06:56
@@ -26,6 +27,7 @@ Bülter | 6,358,586 € | Sascha187 | Kein Ablaufdatum
 Ito | 4,605,004 € | Robinho | Kein Ablaufdatum
 Oermann | 5,762,724 € | Braunbär7 | Kein Ablaufdatum
 Hollerbach | 5,336,298 € | Sascha187 | Kein Ablaufdatum
+Boniface | 4,337,464 € | Vanilleeis23 | Kein Ablaufdatum
 Malatini | 5,217,126 € | Robinho | Kein Ablaufdatum
 Prass | 4,117,730 € | Robinho | Kein Ablaufdatum
 Sylla | 9,296,998 € | Braunbär7 | Kein Ablaufdatum
