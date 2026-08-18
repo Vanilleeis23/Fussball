@@ -243,7 +243,7 @@ def run_generate_playerlist_html(kb):
                 status_html = '<span class="indicator-circle status-injured" title="Angeschlagen">🩹</span>'
             elif status_raw == 4:
                 status_html = '<span class="indicator-circle status-training" title="Im Aufbautraining">🏋️</span>'
-            elif status_raw == 8:
+            elif status_raw == 16:
                 status_html = '<span class="indicator-circle status-suspended" title="Gesperrt">🟥</span>'
             elif status_raw == 256:
                 status_html = '<span class="indicator-circle status-away" title="Abwesend">⏳</span>'
