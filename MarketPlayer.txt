@@ -1,4 +1,3 @@
-Koch | 23,465,622 € | Market | 2026-08-18 09:00:06
 Kuruçay | 12,873,631 € | Market | 2026-08-18 09:22:05
 Ogbus | 2,052,929 € | Market | 2026-08-18 14:18:19
 Maina | 3,889,074 € | Market | 2026-08-18 14:58:12
@@ -15,6 +14,7 @@ Hendriks | 12,772,231 € | Market | 2026-08-19 05:23:25
 Zentner | 12,888,058 € | Market | 2026-08-19 11:35:55
 Claude-Maurice | 11,669,962 € | Market | 2026-08-19 13:25:17
 Nicolas | 19,009,783 € | Market | 2026-08-19 15:53:26
+Finkgräfe | 5,471,867 € | Market | 2026-08-19 16:01:58
 Skov | 2,934,719 € | Market | 2026-08-19 16:37:53
 Pruhs | 3,946,986 € | Market | 2026-08-19 18:06:56
 Castro-Montes | 5,542,516 € | Market | 2026-08-19 23:09:17
@@ -25,7 +25,6 @@ Funk | 4,780,015 € | CoachLeisi | Kein Ablaufdatum
 Bülter | 6,358,586 € | Sascha187 | Kein Ablaufdatum
 Ito | 4,605,004 € | Robinho | Kein Ablaufdatum
 Oermann | 5,762,724 € | Braunbär7 | Kein Ablaufdatum
-Hollerbach | 5,336,298 € | Sascha187 | Kein Ablaufdatum
 Boniface | 4,337,464 € | Vanilleeis23 | Kein Ablaufdatum
 Malatini | 5,217,126 € | Robinho | Kein Ablaufdatum
 Prass | 4,117,730 € | Robinho | Kein Ablaufdatum
