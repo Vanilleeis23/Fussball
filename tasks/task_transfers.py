@@ -36,7 +36,7 @@ def get_transfers(kb):
     # -------------------------------------------------------------------------
     
     url = "https://api.kickbase.com/v4/leagues/2556726/activitiesFeed"
-    params = {"start": 0, "max": 200}
+    params = {"start": 0, "max": 30}
     response = kb.get_request(url, params=params)
     if hasattr(response, "status_code"):
         if response.status_code == 200:
@@ -68,34 +68,55 @@ def get_transfers(kb):
 
     result = list(reversed(raw_results))
 
-    # --- RESET-FILTERUNG ---
-    if RESET_SPIELER is not None and RESET_MANAGER is not None and RESET_TYP is not None:
-        filtered_result = []
-        found_reset = False
-        
+    # --- RESET-FILTERUNG (KORRIGIERT) ---
+    # --- RESET-FILTERUNG (MIT FALLBACK) ---
+    if RESET_SPIELER is not None and RESET_MANAGER is not None:
+        # 1. Prüfen, ob der Reset-Transfer überhaupt in den abgerufenen Daten existiert
+        reset_exists = False
         for entry in result:
             m_name, action, s_name = "", "", ""
             for item in entry:
                 if isinstance(item, dict):
-                    if "byr" in item:
-                        m_name, action = item["byr"], "KAUF"
-                    elif "slr" in item:
-                        m_name, action = item["slr"], "VERKAUF"
-                    elif "pn" in item:
-                        s_name = item["pn"]
+                    if "byr" in item: m_name, action = item["byr"], "KAUF"
+                    elif "slr" in item: m_name, action = item["slr"], "VERKAUF"
+                    elif "pn" in item: s_name = item["pn"]
             
-            if not found_reset:
-                if s_name.lower() == RESET_SPIELER.lower() and \
-                   m_name.lower() == RESET_MANAGER.lower() and \
-                   action == RESET_TYP.upper():
-                    print(f" [Reset] Ersten Transfer gefunden ({s_name}).")
-                    found_reset = True
+            match_spieler = (s_name.lower() == RESET_SPIELER.lower())
+            match_manager = (m_name.lower() == RESET_MANAGER.lower())
+            match_typ = (action == RESET_TYP.upper()) if RESET_TYP else True
             
-            if found_reset:
-                filtered_result.append(entry)
+            if match_spieler and match_manager and match_typ:
+                reset_exists = True
+                break
+
+        # 2. Wenn der Reset existiert, filtern wir ab diesem Punkt
+        if reset_exists:
+            filtered_result = []
+            found_reset = False
+            for entry in result:
+                m_name, action, s_name = "", "", ""
+                for item in entry:
+                    if isinstance(item, dict):
+                        if "byr" in item: m_name, action = item["byr"], "KAUF"
+                        elif "slr" in item: m_name, action = item["slr"], "VERKAUF"
+                        elif "pn" in item: s_name = item["pn"]
                 
-        result = filtered_result
-    # -----------------------
+                if not found_reset:
+                    match_spieler = (s_name.lower() == RESET_SPIELER.lower())
+                    match_manager = (m_name.lower() == RESET_MANAGER.lower())
+                    match_typ = (action == RESET_TYP.upper()) if RESET_TYP else True
+                    
+                    if match_spieler and match_manager and match_typ:
+                        print(f" [Reset] Reset-Transfer gefunden ({s_name} von {m_name}).")
+                        found_reset = True
+                
+                if found_reset:
+                    filtered_result.append(entry)
+            
+            result = filtered_result
+        else:
+            print(" [Hinweis] Reset-Transfer nicht in den aktuellen Daten gefunden. Übernehme alle gefundenen Transfers.")
+    # -------------------------------------
 
     filename = "Transactionen.txt"
     

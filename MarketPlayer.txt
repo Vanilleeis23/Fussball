@@ -1,5 +1,3 @@
-Hendriks | 12,940,094 € | Market | 2026-08-19 05:23:25
-Coulibaly | 5,154,312 € | Market | 2026-08-19 06:31:01
 Zentner | 13,069,247 € | Market | 2026-08-19 11:35:55
 Claude-Maurice | 11,243,596 € | Market | 2026-08-19 13:25:17
 Olise | 64,653,648 € | Market | 2026-08-19 15:22:04
@@ -18,8 +16,10 @@ Sambi Lokonga | 10,577,058 € | Market | 2026-08-20 01:17:25
 Bischof | 22,340,580 € | Market | 2026-08-20 04:13:34
 Lemke | 3,015,073 € | Market | 2026-08-20 08:11:03
 Bensebaini | 20,961,070 € | Market | 2026-08-20 13:22:30
+Andrich | 7,928,659 € | Market | 2026-08-20 15:31:37
 Daghim | 5,787,009 € | Market | 2026-08-20 16:13:18
 Ullrich | 6,973,817 € | Market | 2026-08-20 19:57:56
+Dōan | 21,046,433 € | Market | 2026-08-20 20:19:06
 Drewes | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Jatta | 4,331,777 € | CoachLeisi | Kein Ablaufdatum
 Ryerson | 25,686,852 € | Sascha187 | Kein Ablaufdatum
@@ -27,6 +27,7 @@ Funk | 4,948,070 € | CoachLeisi | Kein Ablaufdatum
 Beier | 25,533,392 € | CoachLeisi | Kein Ablaufdatum
 Ito | 4,568,927 € | Robinho | Kein Ablaufdatum
 Oermann | 5,976,843 € | Braunbär7 | Kein Ablaufdatum
+Fellhauer | 10,368,791 € | Robinho | Kein Ablaufdatum
 Malatini | 5,294,882 € | Robinho | Kein Ablaufdatum
 Bogdanov | 771,965 € | Vanilleeis23 | Kein Ablaufdatum
 Gomis | 4,272,275 € | Sascha187 | Kein Ablaufdatum
