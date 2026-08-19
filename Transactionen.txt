@@ -1,3 +1,7 @@
+[{"byr": "CoachLeisi"}, {"pn": "Finkgräfe"}, {"trp": 7000000}, {"dt": "2026-08-19T16:02:16Z"}]
+[{"byr": "Philipp"}, {"pn": "Nicolas"}, {"trp": 19196999}, {"dt": "2026-08-19T15:53:36Z"}]
+[{"byr": "MirkoHengst"}, {"pn": "El-Faouzi"}, {"trp": 15333333}, {"dt": "2026-08-19T15:31:09Z"}]
+[{"byr": "Sascha187"}, {"pn": "Olise"}, {"trp": 84444444}, {"dt": "2026-08-19T15:22:27Z"}]
 [{"byr": "Robinho"}, {"pn": "Claude-Maurice"}, {"trp": 11840000}, {"dt": "2026-08-19T13:25:41Z"}]
 [{"byr": "Timo Kramer "}, {"pn": "Zentner"}, {"trp": 13597247}, {"dt": "2026-08-19T11:36:02Z"}]
 [{"byr": "CoachLeisi"}, {"pn": "Ito"}, {"trp": 5500000}, {"dt": "2026-08-19T11:06:39Z"}]
