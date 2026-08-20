@@ -53,11 +53,12 @@ def get_transfers(kb):
     for e in activities:
         data_evt = e.get("data", {})
         dt_str = e.get("dt")
-        dt_str=adjust_datetime_to_local(dt_str)
+        dt_str = adjust_datetime_to_local(dt_str)
         spieler = data_evt.get("pn")
         preis = data_evt.get("trp", 0)
         
-        if spieler and ("byr" in data_evt or "slr" in data_evt):
+        # --- HIER GEÄNDERT: `preis > 0` als Filter hinzugefügt ---
+        if spieler and preis > 0 and ("byr" in data_evt or "slr" in data_evt):
             if "slr" in data_evt and "byr" in data_evt:
                 raw_results.append([{"slr": data_evt["slr"]}, {"pn": spieler}, {"trp": preis}, {"dt": dt_str}])
                 raw_results.append([{"byr": data_evt["byr"]}, {"pn": spieler}, {"trp": preis}, {"dt": dt_str}])
@@ -68,7 +69,6 @@ def get_transfers(kb):
 
     result = list(reversed(raw_results))
 
-    # --- RESET-FILTERUNG (KORRIGIERT) ---
     # --- RESET-FILTERUNG (MIT FALLBACK) ---
     if RESET_SPIELER is not None and RESET_MANAGER is not None:
         # 1. Prüfen, ob der Reset-Transfer überhaupt in den abgerufenen Daten existiert
@@ -120,7 +120,7 @@ def get_transfers(kb):
 
     filename = "Transactionen.txt"
     
-    # 1. Existierende Einträge einlesen und parsen, damit wir inhaltlich vergleichen können
+    # 1. Existierende Einträge einlesen und parsen
     existing_entries = []
     if os.path.exists(filename):
         with open(filename, "r", encoding="utf-8") as f:
@@ -132,7 +132,6 @@ def get_transfers(kb):
                     except Exception:
                         pass
 
-    # Hilfsfunktion, um einen eindeutigen Identifier für ein Event zu bauen
     def get_transfer_id(entry_list):
         mgr, spl, dt = "", "", ""
         for item in entry_list:
@@ -141,14 +140,13 @@ def get_transfers(kb):
             elif "pn" in item: spl = item["pn"]
             elif "dt" in item: dt = item["dt"]
         return f"{mgr}_{spl}_{dt}"
-    # Hilfsfunktion, um das Datum einer Transaktion für die Sortierung zu extrahieren
+
     def get_transfer_date(entry_list):
         for item in entry_list:
             if "dt" in item:
                 return item["dt"]
         return ""
 
-    # Erstelle ein Set von IDs, die bereits in der Datei existieren
     existing_ids = {get_transfer_id(e) for e in existing_entries}
 
     new_lines = []
@@ -157,7 +155,6 @@ def get_transfers(kb):
     for entry in result:
         entry_id = get_transfer_id(entry)
         
-        # HIER GEÄNDERT: Vergleich läuft jetzt über die inhaltliche ID, nicht über den rohen String
         if entry_id not in existing_ids:
             line = json.dumps(entry, ensure_ascii=False)
             new_lines.append(line)
@@ -189,19 +186,15 @@ def get_transfers(kb):
             except Exception:
                 print(" Neue Transaktion erfasst (Rohdaten):", line)
 
-    # Wenn neue Einträge da sind, schreiben wir sie zusammen mit den alten zurück
     if new_entries_to_save:
-        # Wir setzen die NEUEN Einträge an den Anfang der Datei (wie in deinem Original-Code)
         all_entries = new_entries_to_save + existing_entries
-
-        # Absteigend nach Datum sortieren (neueste Transaktion oben)
         all_entries.sort(key=get_transfer_date, reverse=True)
         with open(filename, "w", encoding="utf-8") as f:
             for e in all_entries:
                 f.write(json.dumps(e, ensure_ascii=False) + "\n")
             
     print(f"Transferberechnung beendet. {len(new_lines)} neue Transfers hinzugefügt.")
-
+    
 def run_ueber_markt_gelaufen(kb):
     """
     Ermittelt abgelaufene, unverkaufte Spieler und speichert sie mit Zeitstempel in expired_players.txt.

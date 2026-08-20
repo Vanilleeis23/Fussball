@@ -1,4 +1,5 @@
-[{"slr": "Robinho"}, {"pn": "Castro-Montes"}, {"trp": 0}, {"dt": "2026-08-20T17:29:02Z"}]
+[{"byr": "Joel"}, {"pn": "Dōan"}, {"trp": 21864268}, {"dt": "2026-08-20T20:19:38Z"}]
+[{"byr": "MirkoHengst"}, {"pn": "Ullrich"}, {"trp": 8777777}, {"dt": "2026-08-20T19:58:13Z"}]
 [{"byr": "Joel"}, {"pn": "Tah"}, {"trp": 37222222}, {"dt": "2026-08-20T16:38:16Z"}]
 [{"byr": "MirkoHengst"}, {"pn": "Daghim"}, {"trp": 9411111}, {"dt": "2026-08-20T16:13:51Z"}]
 [{"byr": "Vanilleeis23"}, {"pn": "Vázquez"}, {"trp": 5500000}, {"dt": "2026-08-20T15:07:05Z"}]
