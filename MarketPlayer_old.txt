@@ -1,4 +1,3 @@
-Andrich | 7,663,646 € | Market | 2026-08-20 15:31:37
 Daghim | 6,134,274 € | Market | 2026-08-20 16:13:18
 Tah | 36,944,368 € | Market | 2026-08-20 16:37:46
 Ullrich | 7,258,581 € | Market | 2026-08-20 19:57:56
@@ -33,4 +32,5 @@ Bogdanov | 1,106,304 € | Vanilleeis23 | Kein Ablaufdatum
 Gomis | 4,204,379 € | CoachLeisi | Kein Ablaufdatum
 Müller | 4,511,417 € | Philipp | Kein Ablaufdatum
 Musah | 7,242,810 € | CoachLeisi | Kein Ablaufdatum
+Castro-Montes | 6,283,806 € | Robinho | Kein Ablaufdatum
 Güther | 1,453,653 € | CoachLeisi | Kein Ablaufdatum
