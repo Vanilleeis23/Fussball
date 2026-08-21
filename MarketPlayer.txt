@@ -1,4 +1,3 @@
-Pavlović | 32,145,678 € | Market | 2026-08-21 20:13:45
 Eggestein | 15,488,486 € | Market | 2026-08-21 21:10:22
 Grüger | 1,959,366 € | Market | 2026-08-21 23:52:49
 Michel | 2,038,063 € | Market | 2026-08-22 01:14:33
@@ -16,6 +15,7 @@ Elfadli | 3,633,716 € | Market | 2026-08-23 07:25:40
 Ribeiro | 3,905,501 € | Market | 2026-08-23 09:31:02
 Uzun | 27,917,245 € | Market | 2026-08-23 12:43:54
 Labrović | 1,901,336 € | Market | 2026-08-23 13:27:39
+Palacios | 19,519,061 € | Market | 2026-08-23 17:07:39
 Drewes | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Chandler | 512,035 € | CoachLeisi | Kein Ablaufdatum
 Heuer Fernandes | 14,508,596 € | Timo Kramer  | Kein Ablaufdatum
@@ -29,6 +29,7 @@ Stage | 19,419,121 € | Timo Kramer  | Kein Ablaufdatum
 Oermann | 6,292,578 € | Braunbär7 | Kein Ablaufdatum
 Diehl | 500,000 € | Vanilleeis23 | Kein Ablaufdatum
 Finkgräfe | 6,300,899 € | CoachLeisi | Kein Ablaufdatum
+Claude-Maurice | 10,459,368 € | Robinho | Kein Ablaufdatum
 Müller | 4,773,882 € | Philipp | Kein Ablaufdatum
 Castro-Montes | 6,641,959 € | Robinho | Kein Ablaufdatum
 Güther | 1,802,023 € | CoachLeisi | Kein Ablaufdatum
