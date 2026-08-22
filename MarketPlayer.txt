@@ -1,4 +1,3 @@
-Schnellbacher | 5,578,592 € | Market | 2026-08-23 00:14:54
 Konoplia | 2,386,415 € | Market | 2026-08-23 01:16:29
 Chaves | 2,381,119 € | Market | 2026-08-23 04:16:11
 Elfadli | 3,363,580 € | Market | 2026-08-23 07:25:40
@@ -8,6 +7,7 @@ Bornauw | 9,960,035 € | Market | 2026-08-23 10:07:07
 Wolf | 2,765,834 € | Market | 2026-08-23 11:37:14
 Uzun | 28,088,449 € | Market | 2026-08-23 12:43:54
 Labrović | 1,604,956 € | Market | 2026-08-23 13:27:39
+Tangvik | 1,221,519 € | Market | 2026-08-23 15:54:25
 Palacios | 18,599,831 € | Market | 2026-08-23 17:07:39
 Vogt | 1,126,860 € | Market | 2026-08-23 17:44:09
 Gendrey | 3,639,617 € | Market | 2026-08-23 19:06:34
@@ -19,7 +19,6 @@ Marino | 10,024,081 € | Market | 2026-08-24 06:33:49
 Grüll | 6,933,587 € | Market | 2026-08-24 07:47:19
 Orban | 31,321,056 € | Market | 2026-08-24 12:07:24
 Hübers | 1,885,677 € | Market | 2026-08-24 15:40:17
-Drewes | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Chandler | 975,748 € | CoachLeisi | Kein Ablaufdatum
 Prömel | 13,100,408 € | Braunbär7 | Kein Ablaufdatum
 Henrichs | 8,651,011 € | Julian | Kein Ablaufdatum
