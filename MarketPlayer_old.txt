@@ -1,4 +1,3 @@
-Zeitler | 2,937,292 € | Market | 2026-08-22 13:41:14
 Gruber | 13,856,588 € | Market | 2026-08-22 19:28:06
 Keitel | 3,428,864 € | Market | 2026-08-22 19:51:54
 Karl | 22,520,026 € | Market | 2026-08-22 20:37:14
@@ -20,6 +19,7 @@ Gendrey | 3,778,096 € | Market | 2026-08-23 19:06:34
 Castañeda | 9,365,784 € | Market | 2026-08-24 00:55:39
 Füllkrug | 10,656,460 € | Market | 2026-08-24 02:50:00
 Marino | 10,268,286 € | Market | 2026-08-24 06:33:49
+Grüll | 6,737,920 € | Market | 2026-08-24 07:47:19
 Drewes | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Chandler | 705,532 € | CoachLeisi | Kein Ablaufdatum
 Heuer Fernandes | 14,632,335 € | Timo Kramer  | Kein Ablaufdatum
