@@ -1,5 +1,3 @@
-Keitel | 3,428,864 € | Market | 2026-08-22 19:51:54
-Karl | 22,520,026 € | Market | 2026-08-22 20:37:14
 Schmetgens | 6,909,876 € | Market | 2026-08-22 21:09:35
 Vozar | 1,564,962 € | Market | 2026-08-22 22:35:00
 Schnellbacher | 5,367,551 € | Market | 2026-08-23 00:14:54
@@ -19,8 +17,10 @@ Castañeda | 9,365,784 € | Market | 2026-08-24 00:55:39
 Füllkrug | 10,656,460 € | Market | 2026-08-24 02:50:00
 Marino | 10,268,286 € | Market | 2026-08-24 06:33:49
 Grüll | 6,737,920 € | Market | 2026-08-24 07:47:19
+Orban | 31,280,239 € | Market | 2026-08-24 12:07:24
 Drewes | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Chandler | 705,532 € | CoachLeisi | Kein Ablaufdatum
+Prömel | 12,891,741 € | Braunbär7 | Kein Ablaufdatum
 Heuer Fernandes | 14,632,335 € | Timo Kramer  | Kein Ablaufdatum
 Jatta | 5,174,992 € | CoachLeisi | Kein Ablaufdatum
 Ryerson | 25,873,371 € | Sascha187 | Kein Ablaufdatum
@@ -34,7 +34,6 @@ Diehl | 500,000 € | Vanilleeis23 | Kein Ablaufdatum
 Pavlović | 32,216,318 € | Braunbär7 | Kein Ablaufdatum
 Finkgräfe | 6,502,961 € | CoachLeisi | Kein Ablaufdatum
 Højlund | 3,667,000 € | Vanilleeis23 | Kein Ablaufdatum
-Banzuzi | 7,395,120 € | Braunbär7 | Kein Ablaufdatum
 Müller | 5,031,095 € | Philipp | Kein Ablaufdatum
 Castro-Montes | 6,963,106 € | Robinho | Kein Ablaufdatum
 Güther | 2,118,749 € | CoachLeisi | Kein Ablaufdatum
