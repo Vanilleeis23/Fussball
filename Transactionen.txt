@@ -1,3 +1,6 @@
+[{"byr": "Julian"}, {"pn": "Ulrich"}, {"trp": 7500000}, {"dt": "2026-08-22T23:06:31Z"}]
+[{"slr": "Braunbär7"}, {"pn": "Ulrich"}, {"trp": 7500000}, {"dt": "2026-08-22T23:06:31Z"}]
+[{"slr": "Timo Kramer "}, {"pn": "Schwolow"}, {"trp": 5817322}, {"dt": "2026-08-22T22:39:36Z"}]
 [{"byr": "Philipp"}, {"pn": "Vozar"}, {"trp": 3194781}, {"dt": "2026-08-22T22:35:22Z"}]
 [{"slr": "Philipp"}, {"pn": "Nicolas"}, {"trp": 19209956}, {"dt": "2026-08-22T22:30:41Z"}]
 [{"byr": "Robinho"}, {"pn": "Tigges"}, {"trp": 2750000}, {"dt": "2026-08-22T22:30:22Z"}]
