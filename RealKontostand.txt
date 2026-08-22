@@ -10,4 +10,4 @@ CoachLeisi : 27.658.559 € (Kontostand: 7.422.099 €, Spieler auf dem Markt: 2
 MirkoHengst : 26.231.229 € (Kontostand: 26.231.229 €, Spieler auf dem Markt: 0 €)
 Julian : 14.516.601 € (Kontostand: 14.516.601 €, Spieler auf dem Markt: 0 €)
 Joel : 9.626.337 € (Kontostand: 9.626.337 €, Spieler auf dem Markt: 0 €)
-Philipp : -2.254.439 € (Kontostand: -7.467.403 €, Spieler auf dem Markt: 5.212.964 €)
+Philipp : -5.449.220 € (Kontostand: -10.662.184 €, Spieler auf dem Markt: 5.212.964 €)
