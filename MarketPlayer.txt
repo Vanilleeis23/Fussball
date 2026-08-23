@@ -1,4 +1,3 @@
-Tangvik | 1,221,519 € | Market | 2026-08-23 15:54:25
 Palacios | 18,599,831 € | Market | 2026-08-23 17:07:39
 Vogt | 1,126,860 € | Market | 2026-08-23 17:44:09
 Lippmann | 1,597,036 € | Market | 2026-08-23 18:01:37
@@ -36,7 +35,6 @@ Pavlović | 32,285,629 € | Braunbär7 | Kein Ablaufdatum
 Schnellbacher | 5,578,592 € | Braunbär7 | Kein Ablaufdatum
 Honorat | 9,753,607 € | CoachLeisi | Kein Ablaufdatum
 Finkgräfe | 6,645,578 € | CoachLeisi | Kein Ablaufdatum
-Vermeeren | 6,476,321 € | Julian | Kein Ablaufdatum
 Højlund | 3,917,007 € | Vanilleeis23 | Kein Ablaufdatum
 Avdullahu | 16,253,969 € | Robinho | Kein Ablaufdatum
 Müller | 5,212,964 € | Philipp | Kein Ablaufdatum
