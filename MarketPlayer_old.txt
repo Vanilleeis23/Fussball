@@ -1,4 +1,3 @@
-Hübers | 1,768,448 € | Market | 2026-08-24 15:40:17
 Obermair | 8,992,647 € | Market | 2026-08-24 19:10:52
 Arévalo | 3,127,182 € | Market | 2026-08-25 01:19:27
 Nartey | 8,582,281 € | Market | 2026-08-25 01:30:17
@@ -13,6 +12,7 @@ Futkeu | 10,417,842 € | Market | 2026-08-25 07:00:27
 Koné | 3,488,560 € | Market | 2026-08-25 07:18:23
 Philippe | 2,718,766 € | Market | 2026-08-25 19:23:01
 Kabak | 22,235,611 € | Market | 2026-08-25 20:31:06
+Díaz | 53,511,448 € | Market | 2026-08-25 20:33:06
 Batz | 2,323,209 € | Market | 2026-08-25 20:44:29
 Topp | 500,000 € | Market | 2026-08-25 21:19:32
 Mokwa | 3,035,554 € | Market | 2026-08-25 23:22:44
@@ -39,6 +39,5 @@ Højlund | 4,226,462 € | Vanilleeis23 | Kein Ablaufdatum
 Sambi Lokonga | 10,825,061 € | Joel | Kein Ablaufdatum
 Avdullahu | 16,387,816 € | Robinho | Kein Ablaufdatum
 Müller | 5,325,758 € | Philipp | Kein Ablaufdatum
-Musah | 7,798,662 € | CoachLeisi | Kein Ablaufdatum
 Lemke | 4,804,340 € | Joel | Kein Ablaufdatum
 Güther | 2,732,436 € | CoachLeisi | Kein Ablaufdatum

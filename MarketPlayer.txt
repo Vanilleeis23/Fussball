@@ -17,6 +17,7 @@ Batz | 2,323,209 € | Market | 2026-08-25 20:44:29
 Topp | 500,000 € | Market | 2026-08-25 21:19:32
 Mokwa | 3,035,554 € | Market | 2026-08-25 23:22:44
 Schlager | 3,650,182 € | Market | 2026-08-26 03:46:48
+Anton | 34,041,705 € | Market | 2026-08-26 04:36:50
 Chandler | 1,281,423 € | CoachLeisi | Kein Ablaufdatum
 Friedrich | 2,498,774 € | Vanilleeis23 | Kein Ablaufdatum
 Prömel | 13,318,091 € | Braunbär7 | Kein Ablaufdatum
@@ -24,7 +25,6 @@ Henrichs | 8,779,072 € | Julian | Kein Ablaufdatum
 Heuer Fernandes | 14,861,423 € | Timo Kramer  | Kein Ablaufdatum
 Jatta | 5,728,003 € | CoachLeisi | Kein Ablaufdatum
 Torunarigha | 11,986,787 € | Robinho | Kein Ablaufdatum
-Friedl | 13,486,113 € | Robinho | Kein Ablaufdatum
 Ryerson | 25,975,663 € | Sascha187 | Kein Ablaufdatum
 Silas | 1,724,888 € | Braunbär7 | Kein Ablaufdatum
 Chiarodia | 856,808 € | Vanilleeis23 | Kein Ablaufdatum
