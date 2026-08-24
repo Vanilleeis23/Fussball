@@ -1,4 +1,3 @@
-Orban | 31,361,266 € | Market | 2026-08-24 12:07:24
 Amoako | 2,990,370 € | Market | 2026-08-24 13:03:36
 Castrop | 3,919,199 € | Market | 2026-08-24 14:41:05
 Hübers | 1,768,448 € | Market | 2026-08-24 15:40:17
@@ -14,6 +13,7 @@ Köhn | 1,976,586 € | Market | 2026-08-25 05:03:59
 Adamu | 6,132,624 € | Market | 2026-08-25 06:16:03
 Futkeu | 10,417,842 € | Market | 2026-08-25 07:00:27
 Koné | 3,488,560 € | Market | 2026-08-25 07:18:23
+Philippe | 2,718,766 € | Market | 2026-08-25 19:23:01
 Kabak | 22,235,611 € | Market | 2026-08-25 20:31:06
 Batz | 2,323,209 € | Market | 2026-08-25 20:44:29
 Mokwa | 3,035,554 € | Market | 2026-08-25 23:22:44
@@ -39,4 +39,5 @@ Højlund | 4,226,462 € | Vanilleeis23 | Kein Ablaufdatum
 Avdullahu | 16,387,816 € | Robinho | Kein Ablaufdatum
 Müller | 5,325,758 € | Philipp | Kein Ablaufdatum
 Musah | 7,798,662 € | CoachLeisi | Kein Ablaufdatum
+Lemke | 4,804,340 € | Joel | Kein Ablaufdatum
 Güther | 2,732,436 € | CoachLeisi | Kein Ablaufdatum
