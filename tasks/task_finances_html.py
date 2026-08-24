@@ -71,16 +71,22 @@ def extract_first_number_from_string(text_str):
     return 0
 
 def format_realer_kontostand(text_str):
+    """Formatiert den Kontostand-Text (auch mit negativen Beträgen) um in HTML-
+
+    Zeilenumbrüche.
     """
-    Formatiert den Text '65.439.984 € (Kontostand: 61.000.000 €, Spieler auf dem Markt: 4.439.984 €)'
-    um in HTML-Zeilenumbrüche.
-    """
-    match = re.search(r"([\d.]+)\s*€\s*\((Kontostand:\s*[\d.]+)\s*€,\s*Spieler auf dem Markt:\s*([\d.]+)\s*€\)", text_str)
+    # -? erlaubt ein optionales Minuszeichen vor den Zahlen
+    match = re.search(
+        r"(-?[\d.]+)\s*€\s*\((Kontostand:\s*-?[\d.]+)\s*€,\s*Spieler auf dem Markt:\s*(-?[\d.]+)\s*€\)",
+        text_str,
+    )
     if match:
         gesamt = match.group(1)
         konto = match.group(2)
         markt_wert = match.group(3)
-        return f"{gesamt}<br>{konto}<br>Marktspieler: {markt_wert}"
+        return (
+            f"{gesamt} €<br>{konto} €<br>Spieler auf dem Markt: {markt_wert} €"
+        )
     return text_str
 
 def get_players_on_market_for_manager(filename, manager_name):
