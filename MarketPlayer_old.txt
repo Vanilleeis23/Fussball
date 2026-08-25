@@ -1,4 +1,3 @@
-Adamu | 5,961,205 € | Market | 2026-08-25 06:16:03
 Futkeu | 10,282,960 € | Market | 2026-08-25 07:00:27
 Koné | 3,348,219 € | Market | 2026-08-25 07:18:23
 Philipp | 500,000 € | Market | 2026-08-25 15:53:41
@@ -17,6 +16,7 @@ Ache | 14,664,621 € | Market | 2026-08-26 07:28:15
 Stergiou | 3,416,147 € | Market | 2026-08-26 09:18:13
 Mittelstädt | 26,208,450 € | Market | 2026-08-26 11:40:01
 Reis | 5,857,463 € | Market | 2026-08-26 14:38:07
+Agu | 3,530,908 € | Market | 2026-08-26 15:26:44
 Chandler | 1,582,465 € | CoachLeisi | Kein Ablaufdatum
 Friedrich | 2,800,053 € | Vanilleeis23 | Kein Ablaufdatum
 Prömel | 13,531,566 € | Braunbär7 | Kein Ablaufdatum
