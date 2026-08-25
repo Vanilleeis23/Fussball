@@ -1,4 +1,3 @@
-Philipp | 500,000 € | Market | 2026-08-25 15:53:41
 Philippe | 2,616,968 € | Market | 2026-08-25 19:23:01
 Kabak | 22,367,155 € | Market | 2026-08-25 20:31:06
 Díaz | 53,536,449 € | Market | 2026-08-25 20:33:06
@@ -27,7 +26,6 @@ Prömel | 13,531,566 € | Braunbär7 | Kein Ablaufdatum
 Henrichs | 8,840,433 € | Julian | Kein Ablaufdatum
 Heuer Fernandes | 14,982,884 € | Timo Kramer  | Kein Ablaufdatum
 Jatta | 6,008,277 € | CoachLeisi | Kein Ablaufdatum
-Torunarigha | 12,019,368 € | Robinho | Kein Ablaufdatum
 Ryerson | 26,027,952 € | Sascha187 | Kein Ablaufdatum
 Silas | 1,965,267 € | Braunbär7 | Kein Ablaufdatum
 Chiarodia | 1,123,453 € | Vanilleeis23 | Kein Ablaufdatum
