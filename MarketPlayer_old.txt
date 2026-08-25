@@ -1,4 +1,3 @@
-Mokwa | 2,980,207 € | Market | 2026-08-25 23:22:44
 Machida | 1,033,154 € | Market | 2026-08-26 00:09:03
 Waldschmidt | 4,561,090 € | Market | 2026-08-26 02:09:05
 Kolke | 500,000 € | Market | 2026-08-26 03:13:12
@@ -14,13 +13,13 @@ Agu | 3,395,570 € | Market | 2026-08-26 15:26:44
 Trimmel | 3,978,697 € | Market | 2026-08-26 22:48:20
 Okon-Engstler | 4,814,820 € | Market | 2026-08-27 03:13:40
 Itakura | 10,616,392 € | Market | 2026-08-27 04:02:51
+Krattenmacher | 2,247,852 € | Market | 2026-08-27 05:04:31
 Banks | 5,669,487 € | Market | 2026-08-27 10:43:09
 Zimmerschied | 3,381,792 € | Market | 2026-08-27 11:12:18
 Chandler | 1,887,764 € | CoachLeisi | Kein Ablaufdatum
 Friedrich | 3,053,090 € | Vanilleeis23 | Kein Ablaufdatum
 Kübler | 3,751,743 € | Braunbär7 | Kein Ablaufdatum
 Prömel | 13,735,535 € | Braunbär7 | Kein Ablaufdatum
-Henrichs | 8,616,844 € | Julian | Kein Ablaufdatum
 Jatta | 6,301,325 € | CoachLeisi | Kein Ablaufdatum
 Burkardt | 26,849,340 € | Braunbär7 | Kein Ablaufdatum
 Ryerson | 26,075,600 € | Sascha187 | Kein Ablaufdatum
@@ -32,7 +31,9 @@ Topp | 666,003 € | Vanilleeis23 | Kein Ablaufdatum
 Stage | 19,970,901 € | Timo Kramer  | Kein Ablaufdatum
 Diehl | 507,080 € | Vanilleeis23 | Kein Ablaufdatum
 Pavlović | 32,507,941 € | Braunbär7 | Kein Ablaufdatum
+Pinckert | 8,741,651 € | Julian | Kein Ablaufdatum
 Schnellbacher | 6,242,003 € | Braunbär7 | Kein Ablaufdatum
+Seiwald | 17,842,961 € | Timo Kramer  | Kein Ablaufdatum
 Sano | 16,260,236 € | Vanilleeis23 | Kein Ablaufdatum
 Avdullahu | 16,652,910 € | Robinho | Kein Ablaufdatum
 Güther | 3,252,193 € | CoachLeisi | Kein Ablaufdatum
