@@ -1,6 +1,3 @@
-Kabak | 22,367,155 € | Market | 2026-08-25 20:31:06
-Díaz | 53,536,449 € | Market | 2026-08-25 20:33:06
-Batz | 2,196,989 € | Market | 2026-08-25 20:44:29
 Burkardt | 26,808,672 € | Market | 2026-08-25 21:03:55
 Sano | 16,097,155 € | Market | 2026-08-25 21:11:04
 Topp | 509,260 € | Market | 2026-08-25 21:19:32
@@ -19,6 +16,7 @@ Trimmel | 4,073,158 € | Market | 2026-08-26 22:48:20
 Okon-Engstler | 5,335,467 € | Market | 2026-08-27 03:13:40
 Itakura | 10,402,647 € | Market | 2026-08-27 04:02:51
 Banks | 5,434,578 € | Market | 2026-08-27 10:43:09
+Zimmerschied | 3,529,513 € | Market | 2026-08-27 11:12:18
 Chandler | 1,582,465 € | CoachLeisi | Kein Ablaufdatum
 Friedrich | 2,800,053 € | Vanilleeis23 | Kein Ablaufdatum
 Kübler | 3,727,561 € | Braunbär7 | Kein Ablaufdatum
@@ -35,6 +33,7 @@ Diehl | 500,000 € | Vanilleeis23 | Kein Ablaufdatum
 Pavlović | 32,438,401 € | Braunbär7 | Kein Ablaufdatum
 Schnellbacher | 6,024,425 € | Braunbär7 | Kein Ablaufdatum
 Sambi Lokonga | 10,854,141 € | Joel | Kein Ablaufdatum
+Awortwie-Grant | 500,000 € | Vanilleeis23 | Kein Ablaufdatum
 Avdullahu | 16,526,455 € | Robinho | Kein Ablaufdatum
 Güther | 3,000,951 € | CoachLeisi | Kein Ablaufdatum
 Prates | 2,558,604 € | Sascha187 | Kein Ablaufdatum
