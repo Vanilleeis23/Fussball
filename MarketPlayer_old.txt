@@ -1,5 +1,3 @@
-Arévalo | 2,975,212 € | Market | 2026-08-25 01:19:27
-Nartey | 8,035,348 € | Market | 2026-08-25 01:30:17
 Kübler | 3,727,561 € | Market | 2026-08-25 02:05:37
 Arthur | 3,348,032 € | Market | 2026-08-25 02:33:02
 Osterhage | 4,012,852 € | Market | 2026-08-25 02:43:35
@@ -20,6 +18,7 @@ Mokwa | 3,010,903 € | Market | 2026-08-25 23:22:44
 Schlager | 3,549,210 € | Market | 2026-08-26 03:46:48
 Anton | 34,065,334 € | Market | 2026-08-26 04:36:50
 Ache | 14,664,621 € | Market | 2026-08-26 07:28:15
+Stergiou | 3,416,147 € | Market | 2026-08-26 09:18:13
 Chandler | 1,582,465 € | CoachLeisi | Kein Ablaufdatum
 Friedrich | 2,800,053 € | Vanilleeis23 | Kein Ablaufdatum
 Prömel | 13,531,566 € | Braunbär7 | Kein Ablaufdatum
