@@ -8,6 +8,7 @@ Sano | 16,097,155 € | Market | 2026-08-25 21:11:04
 Topp | 509,260 € | Market | 2026-08-25 21:19:32
 Mokwa | 3,010,903 € | Market | 2026-08-25 23:22:44
 Waldschmidt | 4,705,300 € | Market | 2026-08-26 02:09:05
+Kolke | 500,000 € | Market | 2026-08-26 03:13:12
 Schlager | 3,549,210 € | Market | 2026-08-26 03:46:48
 Anton | 34,065,334 € | Market | 2026-08-26 04:36:50
 Ache | 14,664,621 € | Market | 2026-08-26 07:28:15
@@ -15,8 +16,10 @@ Stergiou | 3,416,147 € | Market | 2026-08-26 09:18:13
 Mittelstädt | 26,208,450 € | Market | 2026-08-26 11:40:01
 Reis | 5,857,463 € | Market | 2026-08-26 14:38:07
 Agu | 3,530,908 € | Market | 2026-08-26 15:26:44
+Trimmel | 4,073,158 € | Market | 2026-08-26 22:48:20
 Chandler | 1,582,465 € | CoachLeisi | Kein Ablaufdatum
 Friedrich | 2,800,053 € | Vanilleeis23 | Kein Ablaufdatum
+Kübler | 3,727,561 € | Braunbär7 | Kein Ablaufdatum
 Prömel | 13,531,566 € | Braunbär7 | Kein Ablaufdatum
 Henrichs | 8,840,433 € | Julian | Kein Ablaufdatum
 Heuer Fernandes | 14,982,884 € | Timo Kramer  | Kein Ablaufdatum
@@ -33,5 +36,4 @@ Schnellbacher | 6,024,425 € | Braunbär7 | Kein Ablaufdatum
 Højlund | 4,591,991 € | Vanilleeis23 | Kein Ablaufdatum
 Sambi Lokonga | 10,854,141 € | Joel | Kein Ablaufdatum
 Avdullahu | 16,526,455 € | Robinho | Kein Ablaufdatum
-Lemke | 5,099,250 € | Joel | Kein Ablaufdatum
 Güther | 3,000,951 € | CoachLeisi | Kein Ablaufdatum

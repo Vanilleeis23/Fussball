@@ -1,6 +1,6 @@
 Summen pro Nutzer (absteigend sortiert):
 
-Vanilleeis23 : 70.868.418 €
+Vanilleeis23 : 76.868.418 €
 Vincent  : 39.280.726 €
 Robinho : 28.701.139 €
 Joel : 24.662.689 €
@@ -10,4 +10,4 @@ MirkoHengst : 4.503.460 €
 Philipp : 2.463.923 €
 Sascha187 : 1.187.058 €
 Braunbär7 : 332.323 €
-Julian : -1.968.371 €
+Julian : -7.968.371 €
