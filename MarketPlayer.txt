@@ -7,6 +7,7 @@ Ayhan | 7,346,442 € | Market | 2026-08-26 22:48:20
 Nandja | 1,251,654 € | Market | 2026-08-26 22:50:53
 Gutiérrez | 20,891,403 € | Market | 2026-08-27 02:48:03
 Okon-Engstler | 4,814,820 € | Market | 2026-08-27 03:13:40
+Pfeiffer | 3,384,479 € | Market | 2026-08-27 03:52:03
 Itakura | 10,616,392 € | Market | 2026-08-27 04:02:51
 Terrier | 1,758,984 € | Market | 2026-08-27 04:30:10
 Krattenmacher | 2,247,852 € | Market | 2026-08-27 05:04:31
@@ -35,8 +36,10 @@ Diehl | 507,080 € | Vanilleeis23 | Kein Ablaufdatum
 Pavlović | 32,507,941 € | Braunbär7 | Kein Ablaufdatum
 Pinckert | 8,741,651 € | Julian | Kein Ablaufdatum
 Seiwald | 17,842,961 € | Timo Kramer  | Kein Ablaufdatum
+Campbell | 6,460,437 € | Vanilleeis23 | Kein Ablaufdatum
 Sano | 16,260,236 € | Vanilleeis23 | Kein Ablaufdatum
 Mbangula | 9,763,187 € | Joel | Kein Ablaufdatum
+Schmetgens | 7,970,845 € | Joel | Kein Ablaufdatum
 Avdullahu | 16,652,910 € | Robinho | Kein Ablaufdatum
 Güther | 3,252,193 € | CoachLeisi | Kein Ablaufdatum
 Prates | 2,445,569 € | Sascha187 | Kein Ablaufdatum
