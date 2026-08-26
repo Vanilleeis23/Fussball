@@ -1,5 +1,3 @@
-Condé | 1,794,086 € | Market | 2026-08-26 13:59:48
-Reis | 6,232,732 € | Market | 2026-08-26 14:38:07
 Agu | 3,395,570 € | Market | 2026-08-26 15:26:44
 Trimmel | 3,978,697 € | Market | 2026-08-26 22:48:20
 Ayhan | 7,346,442 € | Market | 2026-08-26 22:48:20
@@ -10,6 +8,7 @@ Pfeiffer | 3,384,479 € | Market | 2026-08-27 03:52:03
 Itakura | 10,616,392 € | Market | 2026-08-27 04:02:51
 Terrier | 1,758,984 € | Market | 2026-08-27 04:30:10
 Krattenmacher | 2,247,852 € | Market | 2026-08-27 05:04:31
+Hashioka | 10,498,980 € | Market | 2026-08-27 07:51:55
 Ljubicic | 3,028,777 € | Market | 2026-08-27 09:53:47
 Kawasaki | 4,406,270 € | Market | 2026-08-27 10:25:35
 Banks | 5,669,487 € | Market | 2026-08-27 10:43:09
@@ -42,4 +41,3 @@ Mbangula | 9,763,187 € | Joel | Kein Ablaufdatum
 Schmetgens | 7,970,845 € | Joel | Kein Ablaufdatum
 Avdullahu | 16,652,910 € | Robinho | Kein Ablaufdatum
 Güther | 3,252,193 € | CoachLeisi | Kein Ablaufdatum
-Prates | 2,445,569 € | Sascha187 | Kein Ablaufdatum
