@@ -32,7 +32,6 @@ Philipp | 500,000 € | Robinho | Kein Ablaufdatum
 Chiarodia | 1,435,800 € | Vanilleeis23 | Kein Ablaufdatum
 Ito | 5,545,551 € | CoachLeisi | Kein Ablaufdatum
 Topp | 666,003 € | Vanilleeis23 | Kein Ablaufdatum
-Stage | 19,970,901 € | Timo Kramer  | Kein Ablaufdatum
 Diehl | 507,080 € | Vanilleeis23 | Kein Ablaufdatum
 Pavlović | 32,507,941 € | Braunbär7 | Kein Ablaufdatum
 Seiwald | 17,842,961 € | Timo Kramer  | Kein Ablaufdatum

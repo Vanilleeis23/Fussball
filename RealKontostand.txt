@@ -10,4 +10,4 @@ CoachLeisi : 15.609.830 € (Kontostand: -1.377.003 €, Spieler auf dem Markt: 
 Julian : 6.437.034 € (Kontostand: 6.437.034 €, Spieler auf dem Markt: 0 €)
 Philipp : -1.039.233 € (Kontostand: -11.321.317 €, Spieler auf dem Markt: 10.282.084 €)
 MirkoHengst : -1.859.510 € (Kontostand: -1.859.510 €, Spieler auf dem Markt: 0 €)
-Timo Kramer : -7.569.826 € (Kontostand: -45.383.688 €, Spieler auf dem Markt: 37.813.862 €)
+Timo Kramer : -27.540.727 € (Kontostand: -45.383.688 €, Spieler auf dem Markt: 17.842.961 €)
