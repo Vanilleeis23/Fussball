@@ -1,4 +1,3 @@
-Anton | 34,086,638 € | Market | 2026-08-26 04:36:50
 Ache | 14,783,260 € | Market | 2026-08-26 07:28:15
 Stergiou | 3,272,073 € | Market | 2026-08-26 09:18:13
 Jovanovic | 4,244,214 € | Market | 2026-08-26 09:52:09
@@ -16,6 +15,7 @@ Krattenmacher | 2,247,852 € | Market | 2026-08-27 05:04:31
 Ljubicic | 3,028,777 € | Market | 2026-08-27 09:53:47
 Banks | 5,669,487 € | Market | 2026-08-27 10:43:09
 Zimmerschied | 3,381,792 € | Market | 2026-08-27 11:12:18
+Stiller | 36,764,717 € | Market | 2026-08-27 11:20:54
 Chandler | 1,887,764 € | CoachLeisi | Kein Ablaufdatum
 Friedrich | 3,053,090 € | Vanilleeis23 | Kein Ablaufdatum
 Kübler | 3,751,743 € | Braunbär7 | Kein Ablaufdatum
