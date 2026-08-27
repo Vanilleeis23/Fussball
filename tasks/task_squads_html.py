@@ -52,25 +52,59 @@ def load_balances_from_txt(filename="Kontostand.txt"):
                     continue
         print(f"Kontostände erfolgreich aus {filename} geladen.")
     except Exception as e:
-        print(f"Fehler beim Lesen der Kontostand.txt: {e}")
+        print(f"Fehler beim Lesen der {filename}: {e}")
         
     return balances
 
+def load_maxbids_from_txt(filename="maxbide.txt"):
+    """
+    Liest die MaxBids aus einer Textdatei ein.
+    Erwartet Zeilen wie: 'CoachLeisi: 45.000.000'
+    """
+    maxbids = {}
+    if not os.path.exists(filename):
+        print(f"Hinweis: {filename} nicht gefunden. MaxBids werden dynamisch berechnet.")
+        return maxbids
+
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or ":" not in line:
+                    continue
+                
+                parts = line.split(":", 1)
+                name = parts[0].strip()
+                val_str = parts[1].strip()
+                
+                val_str = val_str.replace(".", "").replace("€", "").strip()
+                
+                try:
+                    maxbid_val = int(val_str)
+                    maxbids[name] = maxbid_val
+                except ValueError:
+                    continue
+        print(f"MaxBids erfolgreich aus {filename} geladen.")
+    except Exception as e:
+        print(f"Fehler beim Lesen der {filename}: {e}")
+        
+    return maxbids
+
 def run_generate_squads_html(kb):
     """
-    Generiert die kader.html unter Verwendung der Kontostand.txt.
+    Generiert die kader.html unter Verwendung der Kontostand.txt und maxbide.txt.
     Spieler voll sichtbar (kein Scrollen), Manager-Karten ein-/ausklappbar.
-    Inklusive interaktivem Verkaufs-Rechner für Kontostand und Spieleranzahl.
+    Inklusive interaktivem Verkaufs-Rechner für Kontostand, Realen Kaderwert, Reales MaxBid (33% Regel) und Spieleranzahl.
     """
-    # 1. Kontostände aus einer lokalen Textdatei laden
+    # 1. Kontostände & MaxBids aus lokalen Textdateien laden
     local_balances = load_balances_from_txt("Kontostand.txt")
+    local_maxbids = load_maxbids_from_txt("maxbide.txt")
 
     squads_html_content = ""
     print(f"Starte Abfrage der Kader für Liga {LEAGUE_ID}...")
 
     for m_id, m_name in MANAGER_IDS.items():
         url = f"https://api.kickbase.com/v4/leagues/{LEAGUE_ID}/managers/{m_id}/squad"
-        #print(f"Lade Kader für {m_name}...")
         
         response = kb.get_request(url)
         if hasattr(response, "status_code"):
@@ -99,6 +133,12 @@ def run_generate_squads_html(kb):
         balance_formatiert = f"{manager_balance:,}".replace(",", ".")
         balance_style = "color: #f87171;" if manager_balance < 0 else "color: #4ade80;"
         
+        # MaxBid aus Datei oder alternativ berechnet (Kontostand + 33% des Kaderwerts)
+        initial_calc_maxbid = manager_balance + int(total_value * 0.33)
+        file_maxbid = local_maxbids.get(m_name, initial_calc_maxbid)
+        file_maxbid_formatiert = f"{file_maxbid:,}".replace(",", ".")
+        calc_maxbid_formatiert = f"{initial_calc_maxbid:,}".replace(",", ".")
+
         player_rows = ""
         for p in players:
             p_name = p.get("pn", "Unbekannter Spieler")
@@ -148,9 +188,8 @@ def run_generate_squads_html(kb):
         if not player_rows:
             player_rows = "<tr><td colspan='6' style='text-align: center; color: #64748b; padding: 30px;'>Keine Spieler im Kader.</td></tr>"
         
-        # 'active' Klasse sorgt dafür, dass die Karten standardmäßig geöffnet starten
         squads_html_content += f"""
-        <div class="card active" data-base-balance="{manager_balance}" data-base-count="{player_count}">
+        <div class="card active" data-base-balance="{manager_balance}" data-base-squad-value="{total_value}" data-base-count="{player_count}">
             <div class="card-header">
                 <div class="title-area">
                     <span class="collapse-icon">▲</span>
@@ -161,6 +200,9 @@ def run_generate_squads_html(kb):
                     <span>Konto: <strong style="{balance_style}">{balance_formatiert} €</strong></span>
                     <span>Realer Kontostand: <strong class="real-balance" style="{balance_style}">{balance_formatiert} €</strong></span>
                     <span>Kaderwert: <strong>{total_value_formatiert} €</strong></span>
+                    <span>Realer Kaderwert: <strong class="real-squad-value" style="color: #38bdf8;">{total_value_formatiert} €</strong></span>
+                    <span>Maximalgebot: <strong>{file_maxbid_formatiert} €</strong></span>
+                    <span>Reales Maximalgebot: <strong class="real-max-bid" style="color: #38bdf8;">{calc_maxbid_formatiert} €</strong></span>
                 </div>
             </div>
             <div class="table-container">
@@ -386,12 +428,15 @@ def run_generate_squads_html(kb):
             }});
         }});
 
-        // 2. LIVE-BERECHNUNG FÜR KONTOSTAND & SPIELERANZAHL
+        // 2. LIVE-BERECHNUNG FÜR KONTOSTAND, REALEN KADERWERT, REALES MAXBID & SPIELERANZAHL
         document.querySelectorAll('.card').forEach(card => {{
             const baseBalance = parseInt(card.getAttribute('data-base-balance')) || 0;
+            const baseSquadValue = parseInt(card.getAttribute('data-base-squad-value')) || 0;
             const baseCount = parseInt(card.getAttribute('data-base-count')) || 0;
             
             const realBalanceElem = card.querySelector('.real-balance');
+            const realSquadValueElem = card.querySelector('.real-squad-value');
+            const realMaxBidElem = card.querySelector('.real-max-bid');
             const playerCountElem = card.querySelector('.player-count');
             const checkboxes = card.querySelectorAll('.sale-checkbox');
 
@@ -409,8 +454,27 @@ def run_generate_squads_html(kb):
                     }}
                 }});
 
+                // Dynamischer Kontostand
                 const newBalance = baseBalance + extraCash;
+                
+                // Dynamischer Kaderwert
+                const newSquadValue = Math.max(0, baseSquadValue - extraCash);
+                
+                // Maximales Minus (33% des verbleibenden Kaderwerts)
+                const maxMinusAllowed = Math.floor(newSquadValue * 0.33);
+                
+                // Dynamisches MaxBid (Kontostand + maximales Minus)
+                const newMaxBid = newBalance + maxMinusAllowed;
+
                 realBalanceElem.textContent = formatEuro(newBalance);
+                
+                if (realSquadValueElem) {{
+                    realSquadValueElem.textContent = formatEuro(newSquadValue);
+                }}
+
+                if (realMaxBidElem) {{
+                    realMaxBidElem.textContent = formatEuro(newMaxBid);
+                }}
                 
                 const newCount = baseCount - soldCount;
                 playerCountElem.textContent = newCount;
@@ -463,7 +527,7 @@ def run_generate_squads_html(kb):
 
     with open("kader.html", "w", encoding="utf-8") as f:
         f.write(html_template)
-    print("kader.html erfolgreich ohne Scrollbalken und mit Einklapp-Funktion generiert!")
+    print("kader.html erfolgreich inklusive Realem Kaderwert generiert!")
 
 if __name__ == "__main__":
     pass
