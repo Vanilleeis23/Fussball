@@ -1,3 +1,6 @@
+[{"slr": "CoachLeisi"}, {"pn": "Jatta"}, {"trp": 6830247}, {"dt": "2026-08-27T22:07:57Z"}]
+[{"slr": "CoachLeisi"}, {"pn": "Ito"}, {"trp": 5961193}, {"dt": "2026-08-27T22:07:50Z"}]
+[{"slr": "CoachLeisi"}, {"pn": "Güther"}, {"trp": 3576877}, {"dt": "2026-08-27T22:07:47Z"}]
 [{"slr": "MirkoHengst"}, {"pn": "El-Faouzi"}, {"trp": 15086333}, {"dt": "2026-08-27T21:54:56Z"}]
 [{"byr": "MirkoHengst"}, {"pn": "Hajdari"}, {"trp": 20092222}, {"dt": "2026-08-27T21:54:06Z"}]
 [{"slr": "Philipp"}, {"pn": "Erevbenagie"}, {"trp": 6178485}, {"dt": "2026-08-27T20:37:48Z"}]
