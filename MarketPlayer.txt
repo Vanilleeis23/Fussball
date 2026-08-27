@@ -1,27 +1,25 @@
-Hashioka | 10,599,360 € | Market | 2026-08-27 07:51:56
-Ljubicic | 3,403,931 € | Market | 2026-08-27 09:53:48
-Kawasaki | 4,259,209 € | Market | 2026-08-27 10:25:36
-Banks | 5,929,619 € | Market | 2026-08-27 10:43:10
-Zimmerschied | 3,223,383 € | Market | 2026-08-27 11:12:19
-Stiller | 36,632,176 € | Market | 2026-08-27 11:20:55
-Bachmann | 1,034,989 € | Market | 2026-08-27 11:42:31
-Lemperle | 9,777,109 € | Market | 2026-08-27 15:39:26
-Amaimouni | 4,915,470 € | Market | 2026-08-27 16:49:57
-Andrés | 6,686,209 € | Market | 2026-08-27 20:13:26
-Hajdari | 19,053,606 € | Market | 2026-08-27 21:53:45
-Zingerle | 500,000 € | Market | 2026-08-27 23:59:25
-Porath | 3,344,298 € | Market | 2026-08-28 02:31:33
-Baack | 3,570,663 € | Market | 2026-08-28 02:59:04
-Yamamoto | 4,526,368 € | Market | 2026-08-28 05:31:50
-Simpson-Pusey | 12,596,551 € | Market | 2026-08-28 10:14:13
-Irié | 3,198,028 € | Market | 2026-08-28 10:48:33
-Bitshiabu | 2,583,628 € | Market | 2026-08-28 22:29:32
+Lemperle | 9,777,109 € | Market | 2026-08-27 15:39:25
+Amaimouni | 4,915,470 € | Market | 2026-08-27 16:49:56
+Huth | 500,000 € | Market | 2026-08-27 19:45:26
+Andrés | 6,686,209 € | Market | 2026-08-27 20:13:25
+Hajdari | 19,053,606 € | Market | 2026-08-27 21:53:44
+Zingerle | 500,000 € | Market | 2026-08-27 23:59:24
+Porath | 3,344,298 € | Market | 2026-08-28 02:31:32
+Baack | 3,570,663 € | Market | 2026-08-28 02:59:03
+Yamamoto | 4,526,368 € | Market | 2026-08-28 05:31:49
+Götze | 5,218,686 € | Market | 2026-08-28 07:24:29
+Simpson-Pusey | 12,596,551 € | Market | 2026-08-28 10:14:12
+Irié | 3,198,028 € | Market | 2026-08-28 10:48:32
+Kane | 68,831,759 € | Market | 2026-08-28 11:48:55
+Jakić | 2,118,434 € | Market | 2026-08-28 14:25:55
+van den Berg | 2,057,723 € | Market | 2026-08-28 21:00:13
+Bitshiabu | 2,583,628 € | Market | 2026-08-28 22:29:31
+Collins | 9,241,358 € | Market | 2026-08-29 04:37:17
 Chandler | 2,158,598 € | CoachLeisi | Kein Ablaufdatum
 Kübler | 3,852,737 € | Braunbär7 | Kein Ablaufdatum
 Prömel | 13,928,518 € | Braunbär7 | Kein Ablaufdatum
 Anton | 34,098,519 € | Robinho | Kein Ablaufdatum
 Jatta | 6,579,138 € | CoachLeisi | Kein Ablaufdatum
-Burkardt | 26,841,612 € | Braunbär7 | Kein Ablaufdatum
 Ryerson | 26,105,247 € | Sascha187 | Kein Ablaufdatum
 Silas | 2,345,481 € | Braunbär7 | Kein Ablaufdatum
 Chiarodia | 1,740,300 € | Vanilleeis23 | Kein Ablaufdatum
@@ -29,14 +27,13 @@ Ito | 5,780,497 € | CoachLeisi | Kein Ablaufdatum
 Topp | 883,153 € | Vanilleeis23 | Kein Ablaufdatum
 Stage | 20,096,226 € | Timo Kramer  | Kein Ablaufdatum
 Diehl | 624,307 € | Vanilleeis23 | Kein Ablaufdatum
-Pavlović | 32,570,412 € | Braunbär7 | Kein Ablaufdatum
+Arthur | 3,116,672 € | Sascha187 | Kein Ablaufdatum
 Seiwald | 17,963,405 € | Timo Kramer  | Kein Ablaufdatum
 Sano | 16,397,617 € | Vanilleeis23 | Kein Ablaufdatum
 Awortwie-Grant | 635,691 € | Vanilleeis23 | Kein Ablaufdatum
 Schmetgens | 8,197,699 € | Joel | Kein Ablaufdatum
 Avdullahu | 16,765,736 € | Robinho | Kein Ablaufdatum
 Mickelson | 5,133,295 € | Timo Kramer  | Kein Ablaufdatum
-Nandja | 1,607,066 € | Braunbär7 | Kein Ablaufdatum
 Latte Lath | 10,068,701 € | Philipp | Kein Ablaufdatum
 Güther | 3,450,110 € | CoachLeisi | Kein Ablaufdatum
 Erevbenagie | 6,178,485 € | Philipp | Kein Ablaufdatum
