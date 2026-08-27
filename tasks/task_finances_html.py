@@ -407,7 +407,7 @@ def run_generate_html_dashboard():
     <div class="container">
         <header>
                 <div>
-                        <h1>Spielerliste</h1>
+                        <h1>Finanzen</h1>
                         <div class="stand">Stand: {aktuelles_datum}</div>
                 </div>
                 <div style="display: flex; gap: 10px;">
