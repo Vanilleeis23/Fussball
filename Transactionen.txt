@@ -1,3 +1,7 @@
+[{"slr": "Julian"}, {"pn": "Friedrich"}, {"trp": 3353828}, {"dt": "2026-08-28T14:54:50Z"}]
+[{"slr": "Vanilleeis23"}, {"pn": "Chiarodia"}, {"trp": 2024401}, {"dt": "2026-08-28T14:54:26Z"}]
+[{"byr": "Julian"}, {"pn": "Schmetgens"}, {"trp": 9200000}, {"dt": "2026-08-28T14:54:22Z"}]
+[{"slr": "Vanilleeis23"}, {"pn": "Schmetgens"}, {"trp": 9200000}, {"dt": "2026-08-28T14:54:22Z"}]
 [{"slr": "MirkoHengst"}, {"pn": "Suso"}, {"trp": 2151465}, {"dt": "2026-08-28T14:33:27Z"}]
 [{"byr": "MirkoHengst"}, {"pn": "Bachmann"}, {"trp": 1500000}, {"dt": "2026-08-28T14:33:07Z"}]
 [{"slr": "Timo Kramer "}, {"pn": "Bachmann"}, {"trp": 1500000}, {"dt": "2026-08-28T14:33:07Z"}]
