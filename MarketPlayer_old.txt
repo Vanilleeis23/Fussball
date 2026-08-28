@@ -1,4 +1,3 @@
-Jakić | 2,405,345 € | Market | 2026-08-28 14:25:57
 Leweling | 23,220,791 € | Market | 2026-08-28 16:54:19
 Becker | 7,790,777 € | Market | 2026-08-28 19:32:42
 Ljubičić | 5,121,581 € | Market | 2026-08-28 20:27:47
@@ -15,19 +14,14 @@ Pieringer | 1,089,248 € | Market | 2026-08-29 19:38:21
 Nakuzola | 500,000 € | Market | 2026-08-29 22:32:39
 Tillman | 14,040,327 € | Market | 2026-08-30 00:48:43
 Veerman | 18,543,633 € | Market | 2026-08-30 01:29:32
+Ben Seghir | 1,086,392 € | Market | 2026-08-30 07:23:26
 Schubert | 3,402,715 € | Market | 2026-08-30 12:40:37
-Günter | 6,240,348 € | Robinho | Kein Ablaufdatum
 Chandler | 2,362,092 € | CoachLeisi | Kein Ablaufdatum
 Zingerle | 500,000 € | Joel | Kein Ablaufdatum
 Kübler | 4,048,682 € | Braunbär7 | Kein Ablaufdatum
 Porath | 3,208,277 € | Joel | Kein Ablaufdatum
 Silas | 2,403,707 € | Braunbär7 | Kein Ablaufdatum
 Chiarodia | 2,024,401 € | Vanilleeis23 | Kein Ablaufdatum
-Bachmann | 963,228 € | Timo Kramer  | Kein Ablaufdatum
 Schnellbacher | 6,492,208 € | Joel | Kein Ablaufdatum
 Fellhauer | 9,670,024 € | Robinho | Kein Ablaufdatum
-Curda | 9,274,283 € | Vanilleeis23 | Kein Ablaufdatum
-Jóhannesson | 10,008,196 € | Vanilleeis23 | Kein Ablaufdatum
-Gantenbein | 1,053,017 € | Robinho | Kein Ablaufdatum
-Avdullahu | 16,853,171 € | Robinho | Kein Ablaufdatum
-Mickelson | 5,247,434 € | Timo Kramer  | Kein Ablaufdatum
+Schmetgens | 8,382,778 € | Vanilleeis23 | Kein Ablaufdatum
