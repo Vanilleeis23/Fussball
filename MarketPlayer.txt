@@ -16,7 +16,6 @@ Nakuzola | 500,000 € | Market | 2026-08-29 22:32:38
 Tillman | 14,040,327 € | Market | 2026-08-30 00:48:42
 Veerman | 18,543,633 € | Market | 2026-08-30 01:29:31
 Schubert | 3,402,715 € | Market | 2026-08-30 12:40:36
-Günter | 6,240,348 € | Robinho | Kein Ablaufdatum
 Chandler | 2,362,092 € | CoachLeisi | Kein Ablaufdatum
 Zingerle | 500,000 € | Joel | Kein Ablaufdatum
 Kübler | 4,048,682 € | Braunbär7 | Kein Ablaufdatum
@@ -24,12 +23,7 @@ Porath | 3,208,277 € | Joel | Kein Ablaufdatum
 Silas | 2,403,707 € | Braunbär7 | Kein Ablaufdatum
 Chiarodia | 2,024,401 € | Vanilleeis23 | Kein Ablaufdatum
 Bachmann | 963,228 € | Timo Kramer  | Kein Ablaufdatum
-Stage | 20,186,948 € | Timo Kramer  | Kein Ablaufdatum
 Schnellbacher | 6,492,208 € | Joel | Kein Ablaufdatum
 Fellhauer | 9,670,024 € | Robinho | Kein Ablaufdatum
-Seiwald | 18,056,818 € | Timo Kramer  | Kein Ablaufdatum
-Curda | 9,274,283 € | Vanilleeis23 | Kein Ablaufdatum
 Jóhannesson | 10,008,196 € | Vanilleeis23 | Kein Ablaufdatum
-Gantenbein | 1,053,017 € | Robinho | Kein Ablaufdatum
-Avdullahu | 16,853,171 € | Robinho | Kein Ablaufdatum
 Mickelson | 5,247,434 € | Timo Kramer  | Kein Ablaufdatum
