@@ -1,7 +1,3 @@
-Irié | 3,077,838 € | Market | 2026-08-28 10:48:33
-Kane | 68,838,736 € | Market | 2026-08-28 11:48:56
-Suso | 2,151,465 € | Market | 2026-08-28 12:57:27
-Querfeld | 14,232,343 € | Market | 2026-08-28 13:30:00
 Jakić | 2,405,345 € | Market | 2026-08-28 14:25:56
 Leweling | 23,220,791 € | Market | 2026-08-28 16:54:18
 Becker | 7,790,777 € | Market | 2026-08-28 19:32:41
@@ -14,15 +10,17 @@ Adam | 4,419,851 € | Market | 2026-08-29 03:44:31
 Collins | 8,900,819 € | Market | 2026-08-29 04:37:18
 Mwene | 9,360,534 € | Market | 2026-08-29 04:52:05
 Moffi | 5,250,724 € | Market | 2026-08-29 12:23:57
+Quansah | 20,172,442 € | Market | 2026-08-29 17:53:50
 Pieringer | 1,089,248 € | Market | 2026-08-29 19:38:20
 Nakuzola | 500,000 € | Market | 2026-08-29 22:32:38
+Tillman | 14,040,327 € | Market | 2026-08-30 00:48:42
 Veerman | 18,543,633 € | Market | 2026-08-30 01:29:31
+Schubert | 3,402,715 € | Market | 2026-08-30 12:40:36
 Günter | 6,240,348 € | Robinho | Kein Ablaufdatum
 Chandler | 2,362,092 € | CoachLeisi | Kein Ablaufdatum
 Zingerle | 500,000 € | Joel | Kein Ablaufdatum
 Kübler | 4,048,682 € | Braunbär7 | Kein Ablaufdatum
 Porath | 3,208,277 € | Joel | Kein Ablaufdatum
-Baack | 3,436,527 € | Joel | Kein Ablaufdatum
 Silas | 2,403,707 € | Braunbär7 | Kein Ablaufdatum
 Chiarodia | 2,024,401 € | Vanilleeis23 | Kein Ablaufdatum
 Bachmann | 963,228 € | Timo Kramer  | Kein Ablaufdatum
@@ -30,6 +28,8 @@ Stage | 20,186,948 € | Timo Kramer  | Kein Ablaufdatum
 Schnellbacher | 6,492,208 € | Joel | Kein Ablaufdatum
 Fellhauer | 9,670,024 € | Robinho | Kein Ablaufdatum
 Seiwald | 18,056,818 € | Timo Kramer  | Kein Ablaufdatum
+Curda | 9,274,283 € | Vanilleeis23 | Kein Ablaufdatum
+Jóhannesson | 10,008,196 € | Vanilleeis23 | Kein Ablaufdatum
 Gantenbein | 1,053,017 € | Robinho | Kein Ablaufdatum
-Schmetgens | 8,382,778 € | Joel | Kein Ablaufdatum
+Avdullahu | 16,853,171 € | Robinho | Kein Ablaufdatum
 Mickelson | 5,247,434 € | Timo Kramer  | Kein Ablaufdatum
