@@ -1,28 +1,29 @@
-Moffi | 5,125,230 € | Market | 2026-08-29 12:23:56
-Quansah | 19,797,159 € | Market | 2026-08-29 17:53:49
-Pieringer | 1,207,720 € | Market | 2026-08-29 19:38:19
-García | 39,090,890 € | Market | 2026-08-29 19:44:47
-Seol | 3,240,571 € | Market | 2026-08-29 20:51:15
-Nsoki | 3,231,222 € | Market | 2026-08-29 22:06:42
-Nakuzola | 655,700 € | Market | 2026-08-29 22:32:37
-Tillman | 14,242,587 € | Market | 2026-08-30 00:48:41
-Veerman | 18,544,003 € | Market | 2026-08-30 01:29:30
-Karius | 16,843,675 € | Market | 2026-08-30 07:18:53
-Ben Seghir | 1,251,186 € | Market | 2026-08-30 07:23:24
-Van den Bosch | 12,708,865 € | Market | 2026-08-30 08:04:11
-Khedira | 8,806,329 € | Market | 2026-08-30 09:19:34
-Neuer | 13,795,012 € | Market | 2026-08-30 09:39:11
-Poulsen | 2,369,388 € | Market | 2026-08-30 11:22:58
-Schubert | 3,273,818 € | Market | 2026-08-30 12:40:35
-Kleindienst | 18,882,383 € | Market | 2026-08-30 13:35:49
-Duric | 3,305,094 € | Market | 2026-08-30 13:39:32
-Gnabry | 13,123,458 € | Market | 2026-08-30 13:48:32
-Maloney | 918,953 € | Market | 2026-08-30 14:56:53
-Jaquez | 2,937,986 € | Market | 2026-08-30 20:25:41
-Rômulo | 16,852,171 € | Market | 2026-08-30 21:03:24
+Quansah | 19,797,159 € | Market | 2026-08-29 17:53:50
+Pieringer | 1,207,720 € | Market | 2026-08-29 19:38:20
+García | 39,090,890 € | Market | 2026-08-29 19:44:48
+Seol | 3,240,571 € | Market | 2026-08-29 20:51:16
+Nsoki | 3,231,222 € | Market | 2026-08-29 22:06:43
+Nakuzola | 655,700 € | Market | 2026-08-29 22:32:38
+Tillman | 14,242,587 € | Market | 2026-08-30 00:48:42
+Veerman | 18,544,003 € | Market | 2026-08-30 01:29:31
+Zagadou | 2,187,056 € | Market | 2026-08-30 03:25:32
+Karius | 16,843,675 € | Market | 2026-08-30 07:18:54
+Ben Seghir | 1,251,186 € | Market | 2026-08-30 07:23:25
+Van den Bosch | 12,708,865 € | Market | 2026-08-30 08:04:12
+Khedira | 8,806,329 € | Market | 2026-08-30 09:19:35
+Neuer | 13,795,012 € | Market | 2026-08-30 09:39:12
+Poulsen | 2,369,388 € | Market | 2026-08-30 11:22:59
+Schubert | 3,273,818 € | Market | 2026-08-30 12:40:36
+Kleindienst | 18,882,383 € | Market | 2026-08-30 13:35:50
+Duric | 3,305,094 € | Market | 2026-08-30 13:39:33
+Gnabry | 13,123,458 € | Market | 2026-08-30 13:48:33
+Maloney | 918,953 € | Market | 2026-08-30 14:56:54
+Jaquez | 2,937,986 € | Market | 2026-08-30 20:25:42
+Rômulo | 16,852,171 € | Market | 2026-08-30 21:03:25
 Chandler | 2,379,805 € | CoachLeisi | Kein Ablaufdatum
+Mwene | 9,509,142 € | Braunbär7 | Kein Ablaufdatum
+Pieper | 11,502,454 € | MirkoHengst | Kein Ablaufdatum
 Kömür | 6,038,346 € | Timo Kramer  | Kein Ablaufdatum
-Fellhauer | 9,768,146 € | Robinho | Kein Ablaufdatum
 Jóhannesson | 9,945,030 € | Vanilleeis23 | Kein Ablaufdatum
 Awortwie-Grant | 943,242 € | Vanilleeis23 | Kein Ablaufdatum
 Nandja | 2,194,112 € | Braunbär7 | Kein Ablaufdatum
