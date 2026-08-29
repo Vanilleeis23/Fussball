@@ -70,8 +70,8 @@ def run_calculate_kontostand():
                         balances[m] += total_add
                         break
 
-    # 3. Bonus-Berechnung (Startdatum: 24. Aug 2026)
-    start_date = datetime(2026, 8, 15)  # Gestern (15.08.2026) war Tag 1
+    # 3. Bonus-Berechnung (Startdatum: 15. Aug 2026)
+    start_date = datetime(2026, 8, 15)
     today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
 
     # Vergangene Tage ab dem Starttag inklusive heute (+1)
@@ -89,23 +89,7 @@ def run_calculate_kontostand():
     for m in balances:
         balances[m] += bonus_total
 
-    # Spieltagspunkte einlesen und dazurechnen
-    if Path("SPG.txt").exists():
-        with open("SPG.txt", "r", encoding="utf-8") as file:
-            for line in file:
-                if ":" not in line:
-                    continue
-                name, value = line.split(":", 1)
-                name = name.strip()
-                value = value.strip().replace(",", ".")
-                try:
-                    spieltagspunkte = float(value) * 1000
-                    if name in balances:
-                        balances[name] += spieltagspunkte
-                except ValueError:
-                    pass
-
-    # 4. HIER GEÄNDERT: Transaktionen flexibel und modern verrechnen
+    # 4. Transaktionen verrechnen
     if Path("Transactionen.txt").exists():
         with open("Transactionen.txt", "r", encoding="utf-8") as f:
             for line in f:
@@ -113,14 +97,12 @@ def run_calculate_kontostand():
                 if not line:
                     continue
                 try:
-                    # Da es valides JSON ist, nutzen wir json.loads statt ast.literal_eval
                     entry = json.loads(line)
                     
                     buyer = None
                     seller = None
                     amount = 0
                     
-                    # Schleife durchsucht die Liste dynamisch nach den Keys
                     for item in entry:
                         if isinstance(item, dict):
                             if "byr" in item:
@@ -130,14 +112,12 @@ def run_calculate_kontostand():
                             elif "trp" in item:
                                 amount = item["trp"]
                     
-                    # Kontostände anpassen
                     if buyer and buyer in balances:
                         balances[buyer] -= amount
                     if seller and seller in balances:
                         balances[seller] += amount
                         
-                except Exception as e:
-                    # Falls eine Zeile mal fehlerhaft formatiert ist, überspringen
+                except Exception:
                     pass
 
     # Sortiert nach Kontostand absteigend

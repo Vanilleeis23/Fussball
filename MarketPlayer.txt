@@ -1,6 +1,3 @@
-Collins | 8,598,344 € | Market | 2026-08-29 04:37:17
-Mwene | 9,509,142 € | Market | 2026-08-29 04:52:04
-Ndiaye | 2,132,725 € | Market | 2026-08-29 07:17:50
 Moffi | 5,125,230 € | Market | 2026-08-29 12:23:56
 Quansah | 19,797,159 € | Market | 2026-08-29 17:53:49
 Pieringer | 1,207,720 € | Market | 2026-08-29 19:38:19
@@ -14,11 +11,14 @@ Karius | 16,843,675 € | Market | 2026-08-30 07:18:53
 Ben Seghir | 1,251,186 € | Market | 2026-08-30 07:23:24
 Van den Bosch | 12,708,865 € | Market | 2026-08-30 08:04:11
 Neuer | 13,795,012 € | Market | 2026-08-30 09:39:11
+Poulsen | 2,369,388 € | Market | 2026-08-30 11:22:58
 Schubert | 3,273,818 € | Market | 2026-08-30 12:40:35
 Kleindienst | 18,882,383 € | Market | 2026-08-30 13:35:49
 Duric | 3,305,094 € | Market | 2026-08-30 13:39:32
 Gnabry | 13,123,458 € | Market | 2026-08-30 13:48:32
 Maloney | 918,953 € | Market | 2026-08-30 14:56:53
+Jaquez | 2,937,986 € | Market | 2026-08-30 20:25:41
+Rômulo | 16,852,171 € | Market | 2026-08-30 21:03:24
 Chandler | 2,379,805 € | CoachLeisi | Kein Ablaufdatum
 Kömür | 6,038,346 € | Timo Kramer  | Kein Ablaufdatum
 Fellhauer | 9,768,146 € | Robinho | Kein Ablaufdatum
