@@ -1,3 +1,8 @@
+[{"slr": "CoachLeisi"}, {"pn": "Chandler"}, {"trp": 2311856}, {"dt": "2026-08-29T23:39:09Z"}]
+[{"slr": "MirkoHengst"}, {"pn": "Stange"}, {"trp": 5820943}, {"dt": "2026-08-29T22:43:22Z"}]
+[{"byr": "Timo Kramer "}, {"pn": "Nakuzola"}, {"trp": 2185465}, {"dt": "2026-08-29T22:32:57Z"}]
+[{"slr": "Philipp"}, {"pn": "Bakayoko"}, {"trp": 11666148}, {"dt": "2026-08-29T21:50:21Z"}]
+[{"slr": "Timo Kramer "}, {"pn": "Kömür"}, {"trp": 6038346}, {"dt": "2026-08-29T21:15:05Z"}]
 [{"byr": "Robinho"}, {"pn": "García"}, {"trp": 44444445}, {"dt": "2026-08-29T19:45:32Z"}]
 [{"byr": "Philipp"}, {"pn": "Pieringer"}, {"trp": 4237799}, {"dt": "2026-08-29T19:38:30Z"}]
 [{"byr": "CoachLeisi"}, {"pn": "Mwene"}, {"trp": 12000000}, {"dt": "2026-08-29T19:12:04Z"}]
