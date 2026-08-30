@@ -1,25 +1,25 @@
-Jaquez | 2,826,684 € | Market | 2026-08-30 20:25:42
-Rômulo | 16,301,287 € | Market | 2026-08-30 21:03:25
-Ogundu | 4,124,392 € | Market | 2026-08-31 02:48:33
-Al Dakhil | 1,921,714 € | Market | 2026-08-31 02:50:01
-Theate | 8,795,281 € | Market | 2026-08-31 04:01:20
-Baku | 18,475,223 € | Market | 2026-08-31 05:58:44
-Aséko | 5,255,411 € | Market | 2026-08-31 09:52:31
-Bredlow | 11,428,574 € | Market | 2026-08-31 11:33:48
-Neuhaus | 1,223,597 € | Market | 2026-08-31 15:45:50
-Maluze | 500,000 € | Market | 2026-08-31 16:25:12
-Nmecha | 27,588,019 € | Market | 2026-08-31 16:43:22
-Nguefack | 500,000 € | Market | 2026-08-31 17:50:24
-Rosenfelder | 2,882,593 € | Market | 2026-08-31 18:22:16
-Ginter | 26,608,181 € | Market | 2026-08-31 18:52:40
-Burke | 3,270,918 € | Market | 2026-08-31 22:13:29
-Amiri | 34,184,958 € | Market | 2026-09-01 01:27:56
-Raum | 34,501,464 € | Market | 2026-09-01 05:40:16
-Soylu | 1,837,657 € | Market | 2026-09-01 12:21:55
-Hanche-Olsen | 2,530,559 € | Market | 2026-09-01 12:22:53
-Sakar | 4,039,371 € | Market | 2026-09-01 13:11:10
-Gnabry | 12,864,469 € | Market | 2026-09-01 18:05:10
-Götze | 5,013,215 € | Sascha187 | Kein Ablaufdatum
+Jaquez | 2,826,684 € | Market | 2026-08-30 20:25:41
+Rômulo | 16,301,287 € | Market | 2026-08-30 21:03:24
+Ogundu | 4,124,392 € | Market | 2026-08-31 02:48:32
+Al Dakhil | 1,921,714 € | Market | 2026-08-31 02:50:00
+Theate | 8,795,281 € | Market | 2026-08-31 04:01:19
+Baku | 18,475,223 € | Market | 2026-08-31 05:58:43
+Aséko | 5,255,411 € | Market | 2026-08-31 09:52:30
+Bredlow | 11,428,574 € | Market | 2026-08-31 11:33:47
+Neuhaus | 1,223,597 € | Market | 2026-08-31 15:45:49
+Maluze | 500,000 € | Market | 2026-08-31 16:25:11
+Nmecha | 27,588,019 € | Market | 2026-08-31 16:43:21
+Nguefack | 500,000 € | Market | 2026-08-31 17:50:23
+Rosenfelder | 2,882,593 € | Market | 2026-08-31 18:22:15
+Ginter | 26,608,181 € | Market | 2026-08-31 18:52:39
+Gruda | 20,734,133 € | Market | 2026-08-31 21:53:20
+Burke | 3,270,918 € | Market | 2026-08-31 22:13:28
+Amiri | 34,184,958 € | Market | 2026-09-01 01:27:55
+Raum | 34,501,464 € | Market | 2026-09-01 05:40:15
+Soylu | 1,837,657 € | Market | 2026-09-01 12:21:54
+Hanche-Olsen | 2,530,559 € | Market | 2026-09-01 12:22:52
+Sakar | 4,039,371 € | Market | 2026-09-01 13:11:09
+Gnabry | 12,864,469 € | Market | 2026-09-01 18:05:09
 Hack | 10,246,524 € | Robinho | Kein Ablaufdatum
 Burkardt | 26,822,627 € | Braunbär7 | Kein Ablaufdatum
 Maloney | 1,031,154 € | CoachLeisi | Kein Ablaufdatum
@@ -35,6 +35,5 @@ Banzuzi | 9,964,996 € | Braunbär7 | Kein Ablaufdatum
 Katic | 14,118,223 € | Robinho | Kein Ablaufdatum
 Nandja | 2,479,470 € | Braunbär7 | Kein Ablaufdatum
 Castro-Montes | 9,023,146 € | Robinho | Kein Ablaufdatum
-Vozar | 3,326,139 € | Philipp | Kein Ablaufdatum
 Bolin | 10,821,096 € | CoachLeisi | Kein Ablaufdatum
 De Cat | 18,433,513 € | Philipp | Kein Ablaufdatum
