@@ -1,5 +1,3 @@
-Khedira | 8,772,179 € | Market | 2026-08-30 09:19:34
-Neuer | 13,878,219 € | Market | 2026-08-30 09:39:11
 Poulsen | 2,267,076 € | Market | 2026-08-30 11:22:58
 Schubert | 3,128,634 € | Market | 2026-08-30 12:40:35
 Kleindienst | 19,038,891 € | Market | 2026-08-30 13:35:49
@@ -11,6 +9,7 @@ Jaquez | 2,826,684 € | Market | 2026-08-30 20:25:41
 Rômulo | 16,301,287 € | Market | 2026-08-30 21:03:24
 Ogundu | 4,124,392 € | Market | 2026-08-31 02:48:32
 Theate | 8,795,281 € | Market | 2026-08-31 04:01:19
+Baku | 18,475,223 € | Market | 2026-08-31 05:58:43
 Aséko | 5,255,411 € | Market | 2026-08-31 09:52:30
 Bredlow | 11,428,574 € | Market | 2026-08-31 11:33:47
 Neuhaus | 1,223,597 € | Market | 2026-08-31 15:45:49
@@ -24,7 +23,10 @@ Pieper | 11,523,330 € | MirkoHengst | Kein Ablaufdatum
 Wimmer | 9,223,982 € | Braunbär7 | Kein Ablaufdatum
 Keidel | 7,687,496 € | Braunbär7 | Kein Ablaufdatum
 Hložek | 11,087,963 € | Braunbär7 | Kein Ablaufdatum
+Stage | 20,193,214 € | Robinho | Kein Ablaufdatum
+Gantenbein | 1,276,756 € | Robinho | Kein Ablaufdatum
 Sano | 16,692,490 € | Vanilleeis23 | Kein Ablaufdatum
 Awortwie-Grant | 1,147,543 € | Vanilleeis23 | Kein Ablaufdatum
 Nandja | 2,479,470 € | Braunbär7 | Kein Ablaufdatum
+Castro-Montes | 9,023,146 € | Robinho | Kein Ablaufdatum
 Hashioka | 10,389,877 € | Sascha187 | Kein Ablaufdatum
