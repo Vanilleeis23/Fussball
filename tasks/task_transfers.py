@@ -247,3 +247,118 @@ def run_ueber_markt_gelaufen(kb):
         with open(output_filepath, "a", encoding="utf-8") as f:
             for player in expired_unbought:
                 f.write(f"{timestamp} | {player}\n")
+
+def run_generate_bald_auf_markt(kb):
+    """
+    Ermittelt Spieler, die durch Verkäufe an den Markt (aus Transactionen.txt)
+    oder bisherige Markt-Angebote (MarketPlayer.txt & ÜberMarktGelaufen.txt)
+    nach ca. 14 Tagen wieder auf den Markt kommen.
+    
+    Filtert auf ein Fenster von +/- 2 Tagen bezogen auf reference_date (Standard: heute).
+    Speichert das Ergebnis sortiert in BaldAufMarkt.txt.
+    """
+    print("Starte: generate_bald_auf_markt...")
+
+    reference_date = datetime.now()
+
+    # Zeitraum: Heute - 2 Tage bis Heute + 2 Tage
+    min_date = reference_date - timedelta(days=2)
+    max_date = reference_date.replace(hour=23, minute=59, second=59) + timedelta(days=2)
+
+    all_market_events = []
+
+    # 1. Transaktionen auswerten (Nur echte Verkäufe an den Markt)
+    tx_filepath = "Transactionen.txt"
+    if os.path.exists(tx_filepath):
+        # Erst alle Transaktionen sammeln, um Käufer/Verkäufer-Paare zu erkennen
+        raw_transactions = []
+        buyers_set = set() # Speichert (spieler, dt_str), um Käufe zwischen Spielern zu identifizieren
+
+        with open(tx_filepath, "r", encoding="utf-8") as f:
+            for line in f:
+                line_str = line.strip()
+                if not line_str:
+                    continue
+                try:
+                    data_list = json.loads(line_str)
+                    entry = {}
+                    for item in data_list:
+                        entry.update(item)
+                    
+                    if "pn" in entry and "dt" in entry:
+                        raw_transactions.append(entry)
+                        if "byr" in entry:
+                            # Merken, dass es für diesen Spieler zu dieser Zeit einen Käufer gab
+                            buyers_set.add((entry["pn"].strip(), entry["dt"]))
+                except Exception:
+                    continue
+
+        # Jetzt nur Verkäufe filtern, bei denen KEIN Käufer zum selben Zeitpunkt existiert
+        for entry in raw_transactions:
+            if "slr" in entry:
+                player_name = entry["pn"].strip()
+                dt_str = entry["dt"]
+
+                # Wenn zu diesem Zeitpunkt KEIN Käufer eingetragen ist -> Verkauf an den Markt!
+                if (player_name, dt_str) not in buyers_set:
+                    dt_str_clean = dt_str.replace("Z", "")
+                    try:
+                        dt_obj = datetime.strptime(dt_str_clean, "%Y-%m-%dT%H:%M:%S")
+                        all_market_events.append((player_name, dt_obj))
+                    except ValueError:
+                        continue
+
+    # 2. ÜberMarktGelaufen.txt auswerten (Historie)
+    history_filepath = "ÜberMarktGelaufen.txt"
+    if os.path.exists(history_filepath):
+        with open(history_filepath, "r", encoding="utf-8") as f:
+            for line in f:
+                parts = [p.strip() for p in line.strip().split("|")]
+                if len(parts) >= 2:
+                    date_str, player_name = parts[0], parts[1]
+                    try:
+                        dt_obj = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+                        all_market_events.append((player_name, dt_obj))
+                    except ValueError:
+                        continue
+
+    # 3. Aktuellen Markt auswerten (MarketPlayer.txt - Spieler mit Seller == 'Market')
+    market_filepath = "MarketPlayer.txt"
+    if os.path.exists(market_filepath):
+        with open(market_filepath, "r", encoding="utf-8") as f:
+            for line in f:
+                parts = [p.strip() for p in line.strip().split("|")]
+                if len(parts) >= 4 and parts[2].lower() == "market":
+                    player_name = parts[0]
+                    date_str = parts[3]
+                    try:
+                        dt_obj = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+                        all_market_events.append((player_name, dt_obj))
+                    except ValueError:
+                        continue
+
+    # 4. Projizierten Wiederkehr-Zeitpunkt berechnen (+14 Tage) & filtern (+/- 2 Tage)
+    results = []
+    seen_entries = set()
+
+    for player, event_dt in all_market_events:
+        return_dt = event_dt + timedelta(days=14)
+        
+        if min_date <= return_dt <= max_date:
+            formatted_dt = return_dt.strftime("%Y-%m-%d %H:%M:%S")
+            entry_str = f"{formatted_dt} | {player}"
+            
+            if entry_str not in seen_entries:
+                seen_entries.add(entry_str)
+                results.append((return_dt, entry_str))
+
+    # Chronologisch sortieren
+    results.sort(key=lambda x: x[0])
+
+    # 5. In BaldAufMarkt.txt schreiben
+    output_filepath = "BaldAufMarkt.txt"
+    with open(output_filepath, "w", encoding="utf-8") as f:
+        for _, entry_str in results:
+            f.write(entry_str + "\n")
+
+    print(f" [BaldAufMarkt] {len(results)} Spieler im Fenster (+/- 2 Tage) gefunden und gespeichert.")
