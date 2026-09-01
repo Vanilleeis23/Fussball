@@ -1,22 +1,22 @@
-Bell | 1,444,748 € | Market | 2026-09-01 23:01:08
-Daka | 11,919,750 € | Market | 2026-09-02 00:44:36
-Kobel | 21,163,681 € | Market | 2026-09-02 01:13:57
-Kade | 13,644,123 € | Market | 2026-09-02 01:29:10
-Poreba | 8,112,815 € | Market | 2026-09-02 01:49:16
-Lenz | 1,774,978 € | Market | 2026-09-02 02:04:34
-Binder | 2,696,516 € | Market | 2026-09-02 03:26:20
-Tiago Tomás | 9,213,660 € | Market | 2026-09-02 05:43:21
-Demirović | 16,143,424 € | Market | 2026-09-02 10:20:27
-Behrens | 11,799,509 € | Market | 2026-09-02 11:25:35
-Ulreich | 500,000 € | Market | 2026-09-02 18:02:44
-Brackelmann | 5,647,530 € | Market | 2026-09-02 19:32:48
-Haberer | 2,398,141 € | Market | 2026-09-02 21:17:14
-Vidović | 7,845,758 € | Market | 2026-09-02 22:10:52
-Le Joncour | 1,139,166 € | Market | 2026-09-02 22:15:36
-Rieder | 15,570,067 € | Market | 2026-09-03 03:08:12
-Blaswich | 2,397,471 € | Market | 2026-09-03 05:39:17
-Džeko | 8,902,637 € | Market | 2026-09-03 12:06:22
-Eichhorn | 3,392,729 € | Market | 2026-09-03 18:25:59
+Daka | 11,919,750 € | Market | 2026-09-02 00:44:34
+Kobel | 21,163,681 € | Market | 2026-09-02 01:13:55
+Kade | 13,644,123 € | Market | 2026-09-02 01:29:08
+Poreba | 8,112,815 € | Market | 2026-09-02 01:49:14
+Lenz | 1,774,978 € | Market | 2026-09-02 02:04:32
+Binder | 2,696,516 € | Market | 2026-09-02 03:26:18
+Tiago Tomás | 9,213,660 € | Market | 2026-09-02 05:43:19
+Demirović | 16,143,424 € | Market | 2026-09-02 10:20:25
+Behrens | 11,799,509 € | Market | 2026-09-02 11:25:33
+Ulreich | 500,000 € | Market | 2026-09-02 18:02:42
+Gomis | 1,659,250 € | Market | 2026-09-02 18:39:55
+Brackelmann | 5,647,530 € | Market | 2026-09-02 19:32:46
+Haberer | 2,398,141 € | Market | 2026-09-02 21:17:12
+Vidović | 7,845,758 € | Market | 2026-09-02 22:10:50
+Le Joncour | 1,139,166 € | Market | 2026-09-02 22:15:34
+Rieder | 15,570,067 € | Market | 2026-09-03 03:08:10
+Blaswich | 2,397,471 € | Market | 2026-09-03 05:39:15
+Džeko | 8,902,637 € | Market | 2026-09-03 12:06:20
+Eichhorn | 3,392,729 € | Market | 2026-09-03 18:25:57
 Gregoritsch | 11,426,774 € | Vanilleeis23 | Kein Ablaufdatum
 Kleindienst | 19,306,206 € | Joel | Kein Ablaufdatum
 Mittelstädt | 26,472,655 € | MirkoHengst | Kein Ablaufdatum
@@ -28,7 +28,8 @@ Ulrich | 7,908,779 € | Julian | Kein Ablaufdatum
 Kristof | 12,703,342 € | CoachLeisi | Kein Ablaufdatum
 Fellhauer | 10,335,146 € | CoachLeisi | Kein Ablaufdatum
 Seiwald | 18,592,359 € | Robinho | Kein Ablaufdatum
-Awortwie-Grant | 1,738,722 € | Vanilleeis23 | Kein Ablaufdatum
+Hajdari | 18,073,090 € | MirkoHengst | Kein Ablaufdatum
+Al Dakhil | 1,503,143 € | Vanilleeis23 | Kein Ablaufdatum
 Avdullahu | 16,999,908 € | Robinho | Kein Ablaufdatum
 Nandja | 3,121,340 € | Braunbär7 | Kein Ablaufdatum
 Lemke | 7,240,155 € | Joel | Kein Ablaufdatum
