@@ -1,11 +1,11 @@
-CoachLeisi : 0,
-Braunbär7 : 123211,
-Julian : 0,
-Timo Kramer : 0,
-Sascha187 : 702849,
-Joel : 0,
-MirkoHengst : 252935,
-Philipp: 99690,
+CoachLeisi : 0,688000
+Braunbär7 : 123211,888000
+Julian : 0,472000
+Timo Kramer : 0,1272000
+Sascha187 : 702849,916000
+Joel : 0,715000
+MirkoHengst : 252935,495000
+Philipp: 99690,584000
 Robinho : 0,
-Vincent : 0,
-Vanilleeis23: 0,
+Vincent : 0,771000
+Vanilleeis23: 0,984000
