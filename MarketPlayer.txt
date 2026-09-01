@@ -1,7 +1,3 @@
-Onyeka | 7,985,129 € | Market | 2026-09-01 02:25:37
-Jung | 1,642,338 € | Market | 2026-09-01 04:51:12
-Klostermann | 1,132,867 € | Market | 2026-09-01 05:12:47
-Raum | 34,653,142 € | Market | 2026-09-01 05:40:15
 Rots | 9,020,858 € | Market | 2026-09-01 09:28:45
 Soylu | 1,530,587 € | Market | 2026-09-01 12:21:54
 Hanche-Olsen | 2,231,920 € | Market | 2026-09-01 12:22:52
@@ -11,6 +7,8 @@ Tanaka | 4,552,605 € | Market | 2026-09-01 20:25:54
 Stark | 2,066,546 € | Market | 2026-09-01 21:12:18
 Kinzig | 500,000 € | Market | 2026-09-01 22:05:37
 Lienhart | 13,370,800 € | Market | 2026-09-01 22:29:19
+Onyedika | 15,542,298 € | Market | 2026-09-01 22:44:01
+Daka | 12,005,148 € | Market | 2026-09-02 00:44:34
 Kobel | 21,167,597 € | Market | 2026-09-02 01:13:55
 Kade | 13,409,792 € | Market | 2026-09-02 01:29:08
 Poreba | 8,201,130 € | Market | 2026-09-02 01:49:14
@@ -18,6 +16,8 @@ Lenz | 1,907,965 € | Market | 2026-09-02 02:04:32
 Demirović | 16,462,614 € | Market | 2026-09-02 10:20:25
 Behrens | 11,632,877 € | Market | 2026-09-02 11:25:33
 Brackelmann | 5,344,508 € | Market | 2026-09-02 19:32:46
+Haberer | 2,493,023 € | Market | 2026-09-02 21:17:12
+Vidović | 7,573,256 € | Market | 2026-09-02 22:10:50
 Gregoritsch | 11,197,195 € | Vanilleeis23 | Kein Ablaufdatum
 Kleindienst | 19,231,689 € | Joel | Kein Ablaufdatum
 Mittelstädt | 26,406,117 € | MirkoHengst | Kein Ablaufdatum
@@ -28,7 +28,10 @@ Reis | 7,986,969 € | CoachLeisi | Kein Ablaufdatum
 Keidel | 7,874,936 € | Braunbär7 | Kein Ablaufdatum
 Hložek | 11,307,171 € | Braunbär7 | Kein Ablaufdatum
 Fellhauer | 10,239,878 € | CoachLeisi | Kein Ablaufdatum
+Seiwald | 18,436,380 € | Robinho | Kein Ablaufdatum
 Højlund | 5,797,943 € | Julian | Kein Ablaufdatum
 Awortwie-Grant | 1,545,176 € | Vanilleeis23 | Kein Ablaufdatum
 Schmetgens | 7,857,382 € | Julian | Kein Ablaufdatum
+Avdullahu | 16,950,401 € | Robinho | Kein Ablaufdatum
 Nandja | 2,908,556 € | Braunbär7 | Kein Ablaufdatum
+Castro-Montes | 9,491,570 € | Robinho | Kein Ablaufdatum
