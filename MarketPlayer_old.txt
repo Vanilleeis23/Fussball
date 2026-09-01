@@ -1,5 +1,3 @@
-Gnabry | 12,404,787 € | Market | 2026-09-01 18:05:09
-Tanaka | 4,552,605 € | Market | 2026-09-01 20:25:54
 Stark | 2,066,546 € | Market | 2026-09-01 21:12:18
 Kinzig | 500,000 € | Market | 2026-09-01 22:05:37
 Lienhart | 13,370,800 € | Market | 2026-09-01 22:29:19
@@ -19,15 +17,14 @@ Haberer | 2,493,023 € | Market | 2026-09-02 21:17:12
 Vidović | 7,573,256 € | Market | 2026-09-02 22:10:50
 Le Joncour | 1,221,424 € | Market | 2026-09-02 22:15:34
 Rieder | 15,377,888 € | Market | 2026-09-03 03:08:10
+Blaswich | 2,190,084 € | Market | 2026-09-03 05:39:15
 Džeko | 9,264,686 € | Market | 2026-09-03 12:06:20
 Gregoritsch | 11,197,195 € | Vanilleeis23 | Kein Ablaufdatum
 Kleindienst | 19,231,689 € | Joel | Kein Ablaufdatum
 Mittelstädt | 26,406,117 € | MirkoHengst | Kein Ablaufdatum
 Prömel | 14,685,889 € | CoachLeisi | Kein Ablaufdatum
-Hack | 9,957,297 € | Robinho | Kein Ablaufdatum
 Wimmer | 9,950,544 € | Braunbär7 | Kein Ablaufdatum
 Reis | 7,986,969 € | CoachLeisi | Kein Ablaufdatum
-Keidel | 7,874,936 € | Braunbär7 | Kein Ablaufdatum
 Hložek | 11,307,171 € | Braunbär7 | Kein Ablaufdatum
 Ulrich | 7,718,479 € | Julian | Kein Ablaufdatum
 Fellhauer | 10,239,878 € | CoachLeisi | Kein Ablaufdatum
