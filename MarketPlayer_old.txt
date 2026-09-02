@@ -1,12 +1,8 @@
-Daka | 11,919,750 € | Market | 2026-09-02 00:44:34
-Kobel | 21,163,681 € | Market | 2026-09-02 01:13:55
-Kade | 13,644,123 € | Market | 2026-09-02 01:29:08
-Poreba | 8,112,815 € | Market | 2026-09-02 01:49:14
-Lenz | 1,774,978 € | Market | 2026-09-02 02:04:32
 Binder | 2,696,516 € | Market | 2026-09-02 03:26:18
 Tiago Tomás | 9,213,660 € | Market | 2026-09-02 05:43:19
 Demirović | 16,143,424 € | Market | 2026-09-02 10:20:25
 Behrens | 11,799,509 € | Market | 2026-09-02 11:25:33
+Urbig | 5,840,339 € | Market | 2026-09-02 16:17:02
 Ulreich | 500,000 € | Market | 2026-09-02 18:02:42
 Gomis | 1,659,250 € | Market | 2026-09-02 18:39:55
 Brackelmann | 5,647,530 € | Market | 2026-09-02 19:32:46
@@ -16,6 +12,7 @@ Le Joncour | 1,139,166 € | Market | 2026-09-02 22:15:34
 Rieder | 15,570,067 € | Market | 2026-09-03 03:08:10
 Blaswich | 2,397,471 € | Market | 2026-09-03 05:39:15
 Džeko | 8,902,637 € | Market | 2026-09-03 12:06:20
+Svensson | 17,607,659 € | Market | 2026-09-03 14:49:12
 Eichhorn | 3,392,729 € | Market | 2026-09-03 18:25:57
 Gregoritsch | 11,426,774 € | Vanilleeis23 | Kein Ablaufdatum
 Kleindienst | 19,306,206 € | Joel | Kein Ablaufdatum
