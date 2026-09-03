@@ -1,3 +1,7 @@
+[{"slr": "Joel"}, {"pn": "Huth"}, {"trp": 500000}, {"dt": "2026-09-03T06:20:17Z"}]
+[{"slr": "Joel"}, {"pn": "Lemke"}, {"trp": 7421877}, {"dt": "2026-09-03T06:17:21Z"}]
+[{"byr": "MirkoHengst"}, {"pn": "Blaswich"}, {"trp": 2685534}, {"dt": "2026-09-03T05:39:44Z"}]
+[{"byr": "MirkoHengst"}, {"pn": "Rieder"}, {"trp": 16555555}, {"dt": "2026-09-03T03:08:27Z"}]
 [{"byr": "Sascha187"}, {"pn": "Schmied"}, {"trp": 1350000}, {"dt": "2026-09-02T22:51:02Z"}]
 [{"slr": "CoachLeisi"}, {"pn": "Fellhauer"}, {"trp": 10362478}, {"dt": "2026-09-02T22:42:36Z"}]
 [{"slr": "CoachLeisi"}, {"pn": "Kristof"}, {"trp": 12571944}, {"dt": "2026-09-02T22:42:20Z"}]
