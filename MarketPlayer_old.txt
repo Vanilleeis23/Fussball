@@ -1,25 +1,24 @@
-Becker | 14,675,890 € | Market | 2026-09-03 14:38:40
-Svensson | 17,842,181 € | Market | 2026-09-03 14:49:14
-Königsdörffer | 4,862,327 € | Market | 2026-09-03 16:56:21
-Eichhorn | 3,276,297 € | Market | 2026-09-03 18:25:59
-Kimmich | 59,866,450 € | Market | 2026-09-03 19:37:51
-Undav | 42,417,566 € | Market | 2026-09-03 19:39:29
-Stanišić | 20,135,197 € | Market | 2026-09-03 21:05:12
-Wisbereit | 500,000 € | Market | 2026-09-03 21:35:58
-Zieler | 539,887 € | Market | 2026-09-03 22:46:19
-Can | 2,194,353 € | Market | 2026-09-04 00:27:43
-Doué | 18,429,365 € | Market | 2026-09-04 03:36:39
-Uno | 900,559 € | Market | 2026-09-04 03:41:59
-Bouanani | 3,186,780 € | Market | 2026-09-04 06:20:34
-Laimer | 32,174,762 € | Market | 2026-09-04 07:35:54
-Nebel | 4,213,432 € | Market | 2026-09-04 08:04:42
-El Aynaoui | 15,068,654 € | Market | 2026-09-04 09:30:46
-Upamecano | 33,363,852 € | Market | 2026-09-04 15:46:08
-Assignon | 3,532,462 € | Market | 2026-09-04 16:58:02
-Wöber | 2,527,377 € | Market | 2026-09-04 18:32:01
-Møller Wolfe | 9,083,801 € | Market | 2026-09-04 18:54:04
-Köbbing | 500,000 € | Market | 2026-09-04 23:10:25
-Omari | 2,352,668 € | Market | 2026-09-05 01:00:12
+Eichhorn | 3,276,297 € | Market | 2026-09-03 18:25:58
+Kimmich | 59,866,450 € | Market | 2026-09-03 19:37:50
+Undav | 42,417,566 € | Market | 2026-09-03 19:39:28
+Stanišić | 20,135,197 € | Market | 2026-09-03 21:05:11
+Wisbereit | 500,000 € | Market | 2026-09-03 21:35:57
+Zieler | 539,887 € | Market | 2026-09-03 22:46:18
+Can | 2,194,353 € | Market | 2026-09-04 00:27:42
+Doué | 18,429,365 € | Market | 2026-09-04 03:36:38
+Uno | 900,559 € | Market | 2026-09-04 03:41:58
+Bouanani | 3,186,780 € | Market | 2026-09-04 06:20:33
+Laimer | 32,174,762 € | Market | 2026-09-04 07:35:53
+Nebel | 4,213,432 € | Market | 2026-09-04 08:04:41
+Konstantelias | 16,085,470 € | Market | 2026-09-04 09:19:44
+El Aynaoui | 15,068,654 € | Market | 2026-09-04 09:30:45
+Upamecano | 33,363,852 € | Market | 2026-09-04 15:46:07
+Assignon | 3,532,462 € | Market | 2026-09-04 16:58:01
+Wöber | 2,527,377 € | Market | 2026-09-04 18:32:00
+Møller Wolfe | 9,083,801 € | Market | 2026-09-04 18:54:03
+Köbbing | 500,000 € | Market | 2026-09-04 23:10:24
+Omari | 2,352,668 € | Market | 2026-09-05 01:00:11
+Sosa | 4,524,298 € | Market | 2026-09-05 08:03:39
 Gregoritsch | 11,640,707 € | Vanilleeis23 | Kein Ablaufdatum
 Stöger | 10,080,054 € | Vanilleeis23 | Kein Ablaufdatum
 Lienhart | 13,606,275 € | Braunbär7 | Kein Ablaufdatum
@@ -27,13 +26,16 @@ Maloney | 2,194,447 € | CoachLeisi | Kein Ablaufdatum
 Lee | 12,664,573 € | Robinho | Kein Ablaufdatum
 Tigges | 4,398,507 € | Robinho | Kein Ablaufdatum
 Wimmer | 10,467,479 € | Braunbär7 | Kein Ablaufdatum
+Brown | 30,123,531 € | Philipp | Kein Ablaufdatum
 Ulrich | 8,073,239 € | Vanilleeis23 | Kein Ablaufdatum
 Seiwald | 18,705,654 € | Robinho | Kein Ablaufdatum
 Jeltsch | 15,804,410 € | Vanilleeis23 | Kein Ablaufdatum
-Hajdari | 17,480,377 € | MirkoHengst | Kein Ablaufdatum
 Awortwie-Grant | 1,864,115 € | Vanilleeis23 | Kein Ablaufdatum
+Al Dakhil | 1,406,180 € | Braunbär7 | Kein Ablaufdatum
 Behrens | 11,952,845 € | Timo Kramer  | Kein Ablaufdatum
 Røssing-Lelesiit | 542,424 € | CoachLeisi | Kein Ablaufdatum
+Machida | 2,439,619 € | Braunbär7 | Kein Ablaufdatum
 Avdullahu | 17,011,174 € | Robinho | Kein Ablaufdatum
 Katic | 12,330,272 € | Vanilleeis23 | Kein Ablaufdatum
+Kosugi | 10,986,254 € | Timo Kramer  | Kein Ablaufdatum
 Gayret | 1,052,743 € | Timo Kramer  | Kein Ablaufdatum

@@ -1,6 +1,5 @@
 Summen pro Nutzer (absteigend sortiert):
 
-Vincent : 63.076.058 €
 CoachLeisi : 54.614.188 €
 Joel : 52.889.195 €
 Timo Kramer : 45.772.323 €
@@ -11,3 +10,4 @@ MirkoHengst : 42.407.817 €
 Braunbär7 : 36.893.224 €
 Philipp : 36.513.348 €
 Robinho : 29.191.970 €
+Vincent : 22.331.987 €
