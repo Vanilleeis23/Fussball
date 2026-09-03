@@ -1,36 +1,27 @@
-Stanišić | 20,135,197 € | Market | 2026-09-03 21:05:10
-Wisbereit | 500,000 € | Market | 2026-09-03 21:35:56
-Zieler | 539,887 € | Market | 2026-09-03 22:46:17
-Can | 2,194,353 € | Market | 2026-09-04 00:27:41
-Doué | 18,429,365 € | Market | 2026-09-04 03:36:37
-Uno | 900,559 € | Market | 2026-09-04 03:41:57
-Bouanani | 3,186,780 € | Market | 2026-09-04 06:20:32
-Laimer | 32,174,762 € | Market | 2026-09-04 07:35:52
-Nebel | 4,213,432 € | Market | 2026-09-04 08:04:40
-Konstantelias | 16,085,470 € | Market | 2026-09-04 09:19:43
-El Aynaoui | 15,068,654 € | Market | 2026-09-04 09:30:44
-Schmahl | 3,260,979 € | Market | 2026-09-04 14:51:10
-Engelhardt | 11,522,542 € | Market | 2026-09-04 15:07:56
-Upamecano | 33,363,852 € | Market | 2026-09-04 15:46:06
-Assignon | 3,532,462 € | Market | 2026-09-04 16:58:00
-Wöber | 2,527,377 € | Market | 2026-09-04 18:31:59
-Møller Wolfe | 9,083,801 € | Market | 2026-09-04 18:54:02
-Capaldo | 10,006,623 € | Market | 2026-09-04 20:28:19
+Can | 2,293,842 € | Market | 2026-09-04 00:27:41
+Doué | 18,532,785 € | Market | 2026-09-04 03:36:37
+Uno | 874,716 € | Market | 2026-09-04 03:41:57
+Bouanani | 3,038,496 € | Market | 2026-09-04 06:20:32
+Laimer | 32,157,097 € | Market | 2026-09-04 07:35:52
+Nebel | 4,100,041 € | Market | 2026-09-04 08:04:40
+Konstantelias | 15,403,044 € | Market | 2026-09-04 09:19:43
+El Aynaoui | 15,140,682 € | Market | 2026-09-04 09:30:44
+Chukwuemeka | 2,721,389 € | Market | 2026-09-04 11:20:38
+Schmahl | 3,123,632 € | Market | 2026-09-04 14:51:10
+Engelhardt | 11,640,454 € | Market | 2026-09-04 15:07:56
+Upamecano | 33,398,087 € | Market | 2026-09-04 15:46:06
+Assignon | 3,413,252 € | Market | 2026-09-04 16:58:00
+Thielmann | 6,147,482 € | Market | 2026-09-04 17:46:29
+Wöber | 2,427,556 € | Market | 2026-09-04 18:31:59
+Møller Wolfe | 9,228,459 € | Market | 2026-09-04 18:54:02
+Capaldo | 10,125,665 € | Market | 2026-09-04 20:28:19
 Köbbing | 500,000 € | Market | 2026-09-04 23:10:23
-Omari | 2,352,668 € | Market | 2026-09-05 01:00:10
-Sosa | 4,524,298 € | Market | 2026-09-05 08:03:38
-Gregoritsch | 11,640,707 € | Vanilleeis23 | Kein Ablaufdatum
-Lienhart | 13,606,275 € | Braunbär7 | Kein Ablaufdatum
-Maloney | 2,194,447 € | CoachLeisi | Kein Ablaufdatum
-Lee | 12,664,573 € | Robinho | Kein Ablaufdatum
-Tigges | 4,398,507 € | Robinho | Kein Ablaufdatum
-Wimmer | 10,467,479 € | Braunbär7 | Kein Ablaufdatum
-Brown | 30,123,531 € | Philipp | Kein Ablaufdatum
-Ulrich | 8,073,239 € | Vanilleeis23 | Kein Ablaufdatum
-Seiwald | 18,705,654 € | Robinho | Kein Ablaufdatum
-Awortwie-Grant | 1,864,115 € | Vanilleeis23 | Kein Ablaufdatum
-Behrens | 11,952,845 € | Timo Kramer  | Kein Ablaufdatum
-Røssing-Lelesiit | 542,424 € | CoachLeisi | Kein Ablaufdatum
-Avdullahu | 17,011,174 € | Robinho | Kein Ablaufdatum
-Kosugi | 10,986,254 € | Timo Kramer  | Kein Ablaufdatum
-Gayret | 1,052,743 € | Timo Kramer  | Kein Ablaufdatum
+Omari | 2,225,537 € | Market | 2026-09-05 01:00:10
+Sosa | 4,516,100 € | Market | 2026-09-05 08:03:38
+Lienhart | 13,704,154 € | Braunbär7 | Kein Ablaufdatum
+Wimmer | 10,569,853 € | Braunbär7 | Kein Ablaufdatum
+Ulrich | 8,191,598 € | Vanilleeis23 | Kein Ablaufdatum
+Seiwald | 18,806,979 € | Robinho | Kein Ablaufdatum
+Behrens | 12,089,471 € | Timo Kramer  | Kein Ablaufdatum
+Kosugi | 11,004,052 € | Timo Kramer  | Kein Ablaufdatum
+Gayret | 1,122,466 € | Timo Kramer  | Kein Ablaufdatum
