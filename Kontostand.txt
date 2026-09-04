@@ -8,6 +8,6 @@ Julian : 209.555 €
 Vincent  : 129.255 €
 CoachLeisi : 100.416 €
 Sascha187 : 5.072 €
-Joel : -260.695 €
-Timo Kramer  : -331.140 €
-Braunbär7 : -396.725 €
+Braunbär7 : 0 €
+Timo Kramer  : 0 €
+Joel : 0 €

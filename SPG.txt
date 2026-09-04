@@ -1,9 +1,9 @@
 CoachLeisi : 0,688000
-Braunbär7 : 123211,888000
+Braunbär7 : 123211,888000,396725
 Julian : 0,472000
-Timo Kramer : 0,1272000
+Timo Kramer : 0,1272000,331140
 Sascha187 : 702849,916000
-Joel : 0,715000
+Joel : 0,715000,260695
 MirkoHengst : 252935,495000
 Philipp: 99690,584000
 Robinho : 0,
