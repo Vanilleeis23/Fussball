@@ -1,5 +1,3 @@
-Sosa | 4,542,699 € | Market | 2026-09-05 08:03:38
-Nwaneri | 18,241,545 € | Market | 2026-09-05 08:29:39
 Bah | 8,177,394 € | Market | 2026-09-05 11:43:21
 Vandevoordt | 17,386,644 € | Market | 2026-09-05 11:51:28
 Karaman | 8,663,794 € | Market | 2026-09-05 12:12:48
@@ -8,6 +6,7 @@ Chuki | 6,997,789 € | Market | 2026-09-05 14:54:25
 Ogbus | 2,815,858 € | Market | 2026-09-05 16:02:45
 Badé | 12,151,471 € | Market | 2026-09-05 16:59:38
 Boss | 2,123,457 € | Market | 2026-09-05 20:11:33
+Müller | 500,000 € | Market | 2026-09-05 22:08:55
 Hofmann | 3,121,940 € | Market | 2026-09-05 22:59:18
 Ndiaye | 2,502,490 € | Market | 2026-09-05 23:13:55
 Coufal | 25,759,277 € | Market | 2026-09-05 23:56:50
@@ -18,11 +17,16 @@ Santos | 4,726,763 € | Market | 2026-09-06 00:55:04
 Becker | 4,744,045 € | Market | 2026-09-06 10:41:23
 Prass | 2,054,836 € | Market | 2026-09-06 14:19:18
 Hwang | 4,820,456 € | Market | 2026-09-06 14:36:31
+Moore | 10,811,639 € | Market | 2026-09-06 14:37:06
 Hollerbach | 2,590,651 € | Market | 2026-09-06 16:24:12
 Culbreath | 2,026,664 € | Market | 2026-09-06 18:13:57
+Stöger | 10,026,632 € | Vanilleeis23 | Kein Ablaufdatum
+Thielmann | 6,260,055 € | Sascha187 | Kein Ablaufdatum
 Vidović | 8,343,313 € | Joel | Kein Ablaufdatum
 Ulrich | 8,128,686 € | Joel | Kein Ablaufdatum
 Seimen | 6,117,793 € | Robinho | Kein Ablaufdatum
+Le Joncour | 1,134,380 € | Vanilleeis23 | Kein Ablaufdatum
 Al Dakhil | 1,282,820 € | Braunbär7 | Kein Ablaufdatum
+Chukwuemeka | 2,734,920 € | Vanilleeis23 | Kein Ablaufdatum
 Machida | 2,743,077 € | Braunbär7 | Kein Ablaufdatum
 Uno | 908,148 € | Braunbär7 | Kein Ablaufdatum
