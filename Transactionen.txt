@@ -1,3 +1,6 @@
+[{"byr": "CoachLeisi"}, {"pn": "Skov"}, {"trp": 2000000}, {"dt": "2026-09-06T15:13:42Z"}]
+[{"byr": "Philipp"}, {"pn": "Moore"}, {"trp": 13245399}, {"dt": "2026-09-06T14:37:27Z"}]
+[{"byr": "CoachLeisi"}, {"pn": "Hwang"}, {"trp": 5000000}, {"dt": "2026-09-06T14:36:56Z"}]
 [{"byr": "CoachLeisi"}, {"pn": "Becker"}, {"trp": 4900000}, {"dt": "2026-09-06T10:41:43Z"}]
 [{"slr": "Sascha187"}, {"pn": "Thielmann"}, {"trp": 6361968}, {"dt": "2026-09-06T08:48:06Z"}]
 [{"slr": "Joel"}, {"pn": "Vidović"}, {"trp": 8373531}, {"dt": "2026-09-06T07:36:59Z"}]
