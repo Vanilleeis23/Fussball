@@ -1,4 +1,3 @@
-Becker | 4,671,972 € | Market | 2026-09-06 10:41:23
 Prass | 1,950,071 € | Market | 2026-09-06 14:19:18
 Hwang | 4,797,052 € | Market | 2026-09-06 14:36:31
 Moore | 10,945,312 € | Market | 2026-09-06 14:37:06
@@ -20,9 +19,8 @@ Vagnoman | 8,870,147 € | Market | 2026-09-07 15:51:07
 Knauff | 4,171,195 € | Market | 2026-09-07 17:03:13
 Funk | 2,274,001 € | Market | 2026-09-08 01:22:47
 Weiser | 4,864,405 € | Market | 2026-09-08 01:25:17
-Kleindienst | 19,366,730 € | Joel | Kein Ablaufdatum
+Klaus | 3,349,333 € | Market | 2026-09-08 01:51:15
 Sosa | 4,660,473 € | Braunbär7 | Kein Ablaufdatum
-Thielmann | 6,361,968 € | Sascha187 | Kein Ablaufdatum
 Wimmer | 10,358,759 € | Braunbär7 | Kein Ablaufdatum
 Rosenfelder | 4,827,300 € | Sascha187 | Kein Ablaufdatum
 Jeltsch | 16,076,871 € | Vanilleeis23 | Kein Ablaufdatum
