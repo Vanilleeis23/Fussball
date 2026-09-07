@@ -6,6 +6,7 @@ Rohr | 10,106,918 € | Market | 2026-09-07 09:53:14
 Millgramm | 3,037,379 € | Market | 2026-09-07 11:51:25
 Kühn | 6,743,030 € | Market | 2026-09-07 13:19:31
 Vagnoman | 9,275,955 € | Market | 2026-09-07 15:51:07
+Diks | 15,921,809 € | Market | 2026-09-07 16:31:24
 Wójcik | 2,372,024 € | Market | 2026-09-07 16:48:40
 Knauff | 4,039,745 € | Market | 2026-09-07 17:03:13
 Diaby | 25,508,764 € | Market | 2026-09-07 22:30:26
@@ -18,6 +19,7 @@ Dallinga | 7,748,075 € | Market | 2026-09-08 15:10:23
 Grahl | 500,000 € | Market | 2026-09-08 16:11:17
 Pruhs | 2,281,927 € | Market | 2026-09-08 16:19:11
 Pimpong | 2,334,394 € | Market | 2026-09-08 17:41:03
+Gyamerah | 5,891,837 € | Market | 2026-09-08 21:00:22
 Sosa | 4,900,878 € | Braunbär7 | Kein Ablaufdatum
 Bornauw | 9,759,293 € | Vanilleeis23 | Kein Ablaufdatum
 Rosenfelder | 5,069,520 € | Sascha187 | Kein Ablaufdatum
