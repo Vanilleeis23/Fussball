@@ -1,5 +1,3 @@
-Meyer | 1,645,864 € | Market | 2026-09-07 02:25:18
-Sebulonsen | 1,598,189 € | Market | 2026-09-07 02:31:48
 Vieira | 19,274,662 € | Market | 2026-09-07 08:29:12
 Quetant | 1,045,783 € | Market | 2026-09-07 08:55:16
 Rohr | 10,106,918 € | Market | 2026-09-07 09:53:14
@@ -9,6 +7,7 @@ Vagnoman | 9,275,955 € | Market | 2026-09-07 15:51:07
 Diks | 15,921,809 € | Market | 2026-09-07 16:31:24
 Wójcik | 2,372,024 € | Market | 2026-09-07 16:48:40
 Knauff | 4,039,745 € | Market | 2026-09-07 17:03:13
+Aebischer | 4,656,268 € | Market | 2026-09-07 17:11:07
 Diaby | 25,508,764 € | Market | 2026-09-07 22:30:26
 Funk | 2,123,984 € | Market | 2026-09-08 01:22:47
 Weiser | 4,745,075 € | Market | 2026-09-08 01:25:17
@@ -20,8 +19,10 @@ Grahl | 500,000 € | Market | 2026-09-08 16:11:17
 Pruhs | 2,281,927 € | Market | 2026-09-08 16:19:11
 Pimpong | 2,334,394 € | Market | 2026-09-08 17:41:03
 Gyamerah | 5,891,837 € | Market | 2026-09-08 21:00:22
+Kohr | 6,657,479 € | Market | 2026-09-09 01:01:36
 Sosa | 4,900,878 € | Braunbär7 | Kein Ablaufdatum
 Bornauw | 9,759,293 € | Vanilleeis23 | Kein Ablaufdatum
+Itakura | 11,689,334 € | Vincent  | Kein Ablaufdatum
 Rosenfelder | 5,069,520 € | Sascha187 | Kein Ablaufdatum
 Jeltsch | 16,231,309 € | Vanilleeis23 | Kein Ablaufdatum
 Le Joncour | 1,370,907 € | Vanilleeis23 | Kein Ablaufdatum
