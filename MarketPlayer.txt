@@ -1,40 +1,40 @@
-Gyamerah | 6,110,556 € | Market | 2026-09-08 21:00:22
-Oermann | 2,814,600 € | Market | 2026-09-09 00:38:37
-Brassier | 12,556,758 € | Market | 2026-09-09 00:42:52
-Kohr | 6,286,496 € | Market | 2026-09-09 01:01:36
-El Ouahdi | 10,669,604 € | Market | 2026-09-09 02:06:12
-Inácio | 5,881,080 € | Market | 2026-09-09 05:07:51
-Batista Meier | 4,464,519 € | Market | 2026-09-09 05:59:38
-Matsima | 14,738,124 € | Market | 2026-09-09 07:51:41
-Maksimovic | 3,600,992 € | Market | 2026-09-09 08:03:44
-Höler | 4,723,150 € | Market | 2026-09-09 10:32:22
-Michel | 1,491,613 € | Market | 2026-09-09 10:38:23
-Treu | 10,129,810 € | Market | 2026-09-09 12:55:14
-Guiu | 9,928,072 € | Market | 2026-09-09 14:35:20
-Götze | 4,381,743 € | Market | 2026-09-09 19:08:19
-Pejčinović | 11,569,710 € | Market | 2026-09-10 05:26:20
-ter Horst | 9,567,785 € | Market | 2026-09-10 06:11:36
+Oermann | 2,667,024 € | Market | 2026-09-09 00:38:37
+Brassier | 12,702,083 € | Market | 2026-09-09 00:42:52
+Kohr | 5,911,495 € | Market | 2026-09-09 01:01:36
+El Ouahdi | 10,229,885 € | Market | 2026-09-09 02:06:12
+Inácio | 5,625,612 € | Market | 2026-09-09 05:07:51
+Batista Meier | 4,321,116 € | Market | 2026-09-09 05:59:38
+Matsima | 14,932,181 € | Market | 2026-09-09 07:51:41
+Maksimovic | 3,952,463 € | Market | 2026-09-09 08:03:44
+Höler | 4,587,365 € | Market | 2026-09-09 10:32:22
+Michel | 1,731,212 € | Market | 2026-09-09 10:38:23
+Treu | 10,204,613 € | Market | 2026-09-09 12:55:14
+Guiu | 9,462,843 € | Market | 2026-09-09 14:35:20
+Götze | 4,260,994 € | Market | 2026-09-09 19:08:19
+Pejčinović | 11,688,074 € | Market | 2026-09-10 05:26:20
+ter Horst | 9,804,821 € | Market | 2026-09-10 06:11:36
 Drewes | 500,000 € | Market | 2026-09-10 07:40:53
-Machino | 2,882,792 € | Market | 2026-09-10 08:29:09
-Scheller | 8,646,038 € | Market | 2026-09-10 09:17:01
-Vagnoman | 9,669,213 € | Vanilleeis23 | Kein Ablaufdatum
-Sosa | 5,186,864 € | Braunbär7 | Kein Ablaufdatum
-Hwang | 4,705,993 € | CoachLeisi | Kein Ablaufdatum
-Skov | 1,440,549 € | CoachLeisi | Kein Ablaufdatum
-Widmer | 2,207,000 € | Joel | Kein Ablaufdatum
-Uzun | 28,296,380 € | MirkoHengst | Kein Ablaufdatum
-Rosenfelder | 5,334,116 € | Sascha187 | Kein Ablaufdatum
-Jeltsch | 16,394,677 € | Vanilleeis23 | Kein Ablaufdatum
-Le Joncour | 1,623,889 € | Vanilleeis23 | Kein Ablaufdatum
-Becker | 4,477,006 € | CoachLeisi | Kein Ablaufdatum
-Ogbus | 3,461,410 € | Timo Kramer  | Kein Ablaufdatum
-Behrens | 12,425,973 € | Timo Kramer  | Kein Ablaufdatum
-Chukwuemeka | 3,203,267 € | Vanilleeis23 | Kein Ablaufdatum
-Røssing-Lelesiit | 1,309,787 € | CoachLeisi | Kein Ablaufdatum
-Machida | 3,213,414 € | Braunbär7 | Kein Ablaufdatum
-Maluze | 4,173,772 € | Joel | Kein Ablaufdatum
-Nandja | 2,508,927 € | Julian | Kein Ablaufdatum
-Bolin | 11,872,239 € | Robinho | Kein Ablaufdatum
-Moreira | 23,878,669 € | Joel | Kein Ablaufdatum
-Uno | 1,580,308 € | Braunbär7 | Kein Ablaufdatum
-Regeer | 6,565,482 € | Braunbär7 | Kein Ablaufdatum
+Machino | 2,734,624 € | Market | 2026-09-10 08:29:09
+Scheller | 8,976,874 € | Market | 2026-09-10 09:17:01
+Baumgartner | 10,938,765 € | Market | 2026-09-10 16:42:15
+Keitel | 1,579,189 € | Market | 2026-09-10 17:55:54
+Karazor | 3,511,542 € | Market | 2026-09-10 21:33:38
+Vagnoman | 10,072,336 € | Vanilleeis23 | Kein Ablaufdatum
+Sosa | 5,426,137 € | Braunbär7 | Kein Ablaufdatum
+Hwang | 4,621,598 € | CoachLeisi | Kein Ablaufdatum
+Skov | 1,703,656 € | CoachLeisi | Kein Ablaufdatum
+Günther | 8,591,468 € | Joel | Kein Ablaufdatum
+Widmer | 2,429,807 € | Joel | Kein Ablaufdatum
+Rosenfelder | 5,584,108 € | Sascha187 | Kein Ablaufdatum
+Jeltsch | 16,519,179 € | Vanilleeis23 | Kein Ablaufdatum
+Le Joncour | 1,919,125 € | Vanilleeis23 | Kein Ablaufdatum
+Becker | 4,366,496 € | CoachLeisi | Kein Ablaufdatum
+Ogbus | 3,814,250 € | Timo Kramer  | Kein Ablaufdatum
+Behrens | 12,540,524 € | Timo Kramer  | Kein Ablaufdatum
+Chukwuemeka | 3,509,400 € | Vanilleeis23 | Kein Ablaufdatum
+Røssing-Lelesiit | 1,569,818 € | CoachLeisi | Kein Ablaufdatum
+Machida | 3,473,577 € | Braunbär7 | Kein Ablaufdatum
+Maluze | 4,394,550 € | Joel | Kein Ablaufdatum
+Nandja | 2,355,534 € | Julian | Kein Ablaufdatum
+Uno | 1,899,759 € | Braunbär7 | Kein Ablaufdatum
+Regeer | 6,890,653 € | Braunbär7 | Kein Ablaufdatum
