@@ -1,8 +1,7 @@
-Funk | 1,975,537 € | Market | 2026-09-08 01:22:47
-Weiser | 4,643,827 € | Market | 2026-09-08 01:25:17
 Klaus | 3,060,245 € | Market | 2026-09-08 01:51:15
 Heskey | 3,705,242 € | Market | 2026-09-08 02:03:47
 Darvich | 4,474,213 € | Market | 2026-09-08 11:34:51
+Günther | 8,383,742 € | Market | 2026-09-08 12:00:35
 Grifo | 8,724,314 € | Market | 2026-09-08 14:24:35
 Uduokhai | 5,621,973 € | Market | 2026-09-08 14:47:48
 Dallinga | 7,982,760 € | Market | 2026-09-08 15:10:23
@@ -19,18 +18,17 @@ El Ouahdi | 10,669,604 € | Market | 2026-09-09 02:06:12
 Inácio | 5,881,080 € | Market | 2026-09-09 05:07:51
 Matsima | 14,738,124 € | Market | 2026-09-09 07:51:41
 Treu | 10,129,810 € | Market | 2026-09-09 12:55:14
-Wolf | 8,553,667 € | CoachLeisi | Kein Ablaufdatum
 Sosa | 5,186,864 € | Braunbär7 | Kein Ablaufdatum
 Hwang | 4,705,993 € | CoachLeisi | Kein Ablaufdatum
 Skov | 1,440,549 € | CoachLeisi | Kein Ablaufdatum
 Widmer | 2,207,000 € | Joel | Kein Ablaufdatum
-Nmecha | 28,176,077 € | CoachLeisi | Kein Ablaufdatum
 Itakura | 10,969,977 € | Vincent  | Kein Ablaufdatum
 Rosenfelder | 5,334,116 € | Sascha187 | Kein Ablaufdatum
 Jeltsch | 16,394,677 € | Vanilleeis23 | Kein Ablaufdatum
 Le Joncour | 1,623,889 € | Vanilleeis23 | Kein Ablaufdatum
 Vandevoordt | 17,290,593 € | Joel | Kein Ablaufdatum
 Becker | 4,477,006 € | CoachLeisi | Kein Ablaufdatum
+Grønbæk | 12,210,337 € | Vincent  | Kein Ablaufdatum
 Chukwuemeka | 3,203,267 € | Vanilleeis23 | Kein Ablaufdatum
 Røssing-Lelesiit | 1,309,787 € | CoachLeisi | Kein Ablaufdatum
 Machida | 3,213,414 € | Braunbär7 | Kein Ablaufdatum
