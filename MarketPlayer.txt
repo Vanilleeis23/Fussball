@@ -1,11 +1,3 @@
-Günther | 8,383,742 € | Market | 2026-09-08 12:00:35
-Grifo | 8,724,314 € | Market | 2026-09-08 14:24:35
-Uduokhai | 5,621,973 € | Market | 2026-09-08 14:47:48
-Dallinga | 7,982,760 € | Market | 2026-09-08 15:10:23
-Grahl | 500,000 € | Market | 2026-09-08 16:11:17
-Adeline | 4,831,075 € | Market | 2026-09-08 16:16:01
-Pruhs | 2,127,327 € | Market | 2026-09-08 16:19:11
-Gosens | 7,723,625 € | Market | 2026-09-08 16:19:54
 Pimpong | 2,186,707 € | Market | 2026-09-08 17:41:03
 Lynen | 6,897,474 € | Market | 2026-09-08 18:46:43
 Gyamerah | 6,110,556 € | Market | 2026-09-08 21:00:22
@@ -14,17 +6,26 @@ Brassier | 12,556,758 € | Market | 2026-09-09 00:42:52
 Kohr | 6,286,496 € | Market | 2026-09-09 01:01:36
 El Ouahdi | 10,669,604 € | Market | 2026-09-09 02:06:12
 Inácio | 5,881,080 € | Market | 2026-09-09 05:07:51
+Batista Meier | 4,464,519 € | Market | 2026-09-09 05:59:38
 Matsima | 14,738,124 € | Market | 2026-09-09 07:51:41
+Maksimovic | 3,600,992 € | Market | 2026-09-09 08:03:44
 Michel | 1,491,613 € | Market | 2026-09-09 10:38:23
 Treu | 10,129,810 € | Market | 2026-09-09 12:55:14
 Guiu | 9,928,072 € | Market | 2026-09-09 14:35:20
 Götze | 4,381,743 € | Market | 2026-09-09 19:08:19
+Pejčinović | 11,569,710 € | Market | 2026-09-10 05:26:20
+Scheller | 8,646,038 € | Market | 2026-09-10 09:17:01
+Vagnoman | 9,669,213 € | Vanilleeis23 | Kein Ablaufdatum
 Sosa | 5,186,864 € | Braunbär7 | Kein Ablaufdatum
 Hwang | 4,705,993 € | CoachLeisi | Kein Ablaufdatum
 Skov | 1,440,549 € | CoachLeisi | Kein Ablaufdatum
+Tigges | 4,171,925 € | Robinho | Kein Ablaufdatum
 Widmer | 2,207,000 € | Joel | Kein Ablaufdatum
 Itakura | 10,969,977 € | Vincent  | Kein Ablaufdatum
+Uzun | 28,296,380 € | MirkoHengst | Kein Ablaufdatum
 Rosenfelder | 5,334,116 € | Sascha187 | Kein Ablaufdatum
+Jóhannesson | 11,521,662 € | Vanilleeis23 | Kein Ablaufdatum
+Gosens | 7,723,625 € | Vanilleeis23 | Kein Ablaufdatum
 Jeltsch | 16,394,677 € | Vanilleeis23 | Kein Ablaufdatum
 Le Joncour | 1,623,889 € | Vanilleeis23 | Kein Ablaufdatum
 Becker | 4,477,006 € | CoachLeisi | Kein Ablaufdatum
