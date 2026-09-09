@@ -1,9 +1,7 @@
-Maksimovic | 3,952,463 € | Market | 2026-09-09 08:03:44
-Höler | 4,587,365 € | Market | 2026-09-09 10:32:22
-Michel | 1,731,212 € | Market | 2026-09-09 10:38:23
 Treu | 10,204,613 € | Market | 2026-09-09 12:55:14
 Guiu | 9,462,843 € | Market | 2026-09-09 14:35:20
 Götze | 4,260,994 € | Market | 2026-09-09 19:08:19
+Lippmann | 1,963,929 € | Market | 2026-09-09 23:08:01
 Raab | 4,765,669 € | Market | 2026-09-09 23:31:31
 Konoplia | 1,770,420 € | Market | 2026-09-10 04:31:49
 Pejčinović | 11,688,074 € | Market | 2026-09-10 05:26:20
@@ -14,11 +12,14 @@ Scheller | 8,976,874 € | Market | 2026-09-10 09:17:01
 Yilmaz | 3,496,552 € | Market | 2026-09-10 10:42:06
 Dina Ebimbe | 4,892,520 € | Market | 2026-09-10 10:47:57
 Herold | 3,665,002 € | Market | 2026-09-10 13:08:58
+Scally | 5,737,983 € | Market | 2026-09-10 16:16:34
 Baumgartner | 10,938,765 € | Market | 2026-09-10 16:42:15
 Keitel | 1,579,189 € | Market | 2026-09-10 17:55:54
 Guirassy | 30,958,881 € | Market | 2026-09-10 21:03:28
 Ilic | 3,615,555 € | Market | 2026-09-10 21:10:18
 Karazor | 3,511,542 € | Market | 2026-09-10 21:33:38
+Petersson | 500,000 € | Market | 2026-09-11 08:29:04
+Bell | 848,824 € | Vanilleeis23 | Kein Ablaufdatum
 Vagnoman | 10,072,336 € | Vanilleeis23 | Kein Ablaufdatum
 Sosa | 5,426,137 € | Braunbär7 | Kein Ablaufdatum
 Hwang | 4,621,598 € | CoachLeisi | Kein Ablaufdatum
@@ -26,7 +27,7 @@ Skov | 1,703,656 € | CoachLeisi | Kein Ablaufdatum
 Günther | 8,591,468 € | Joel | Kein Ablaufdatum
 Widmer | 2,429,807 € | Joel | Kein Ablaufdatum
 Rosenfelder | 5,584,108 € | Sascha187 | Kein Ablaufdatum
-Jóhannesson | 11,620,392 € | Vanilleeis23 | Kein Ablaufdatum
+Gosens | 7,739,613 € | Vanilleeis23 | Kein Ablaufdatum
 Jeltsch | 16,519,179 € | Vanilleeis23 | Kein Ablaufdatum
 Le Joncour | 1,919,125 € | Vanilleeis23 | Kein Ablaufdatum
 Becker | 4,366,496 € | CoachLeisi | Kein Ablaufdatum
