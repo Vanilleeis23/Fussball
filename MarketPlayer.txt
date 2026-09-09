@@ -1,7 +1,3 @@
-Oermann | 2,667,024 € | Market | 2026-09-09 00:38:37
-Brassier | 12,702,083 € | Market | 2026-09-09 00:42:52
-Kohr | 5,911,495 € | Market | 2026-09-09 01:01:36
-El Ouahdi | 10,229,885 € | Market | 2026-09-09 02:06:12
 Inácio | 5,625,612 € | Market | 2026-09-09 05:07:51
 Batista Meier | 4,321,116 € | Market | 2026-09-09 05:59:38
 Matsima | 14,932,181 € | Market | 2026-09-09 07:51:41
@@ -18,6 +14,8 @@ Machino | 2,734,624 € | Market | 2026-09-10 08:29:09
 Scheller | 8,976,874 € | Market | 2026-09-10 09:17:01
 Baumgartner | 10,938,765 € | Market | 2026-09-10 16:42:15
 Keitel | 1,579,189 € | Market | 2026-09-10 17:55:54
+Guirassy | 30,958,881 € | Market | 2026-09-10 21:03:28
+Ilic | 3,615,555 € | Market | 2026-09-10 21:10:18
 Karazor | 3,511,542 € | Market | 2026-09-10 21:33:38
 Vagnoman | 10,072,336 € | Vanilleeis23 | Kein Ablaufdatum
 Sosa | 5,426,137 € | Braunbär7 | Kein Ablaufdatum
