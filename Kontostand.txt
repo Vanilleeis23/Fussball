@@ -1,8 +1,8 @@
 Summen pro Nutzer (absteigend sortiert):
 
-CoachLeisi : 22.629.880 €
 Vincent  : 18.986.046 €
 Sascha187 : 15.096.016 €
+CoachLeisi : 13.129.880 €
 Julian : 1.897.205 €
 Robinho : 220.139 €
 Joel : -2.074.431 €
