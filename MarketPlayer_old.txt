@@ -1,23 +1,26 @@
-ter Horst | 9,982,739 € | Market | 2026-09-10 06:11:36
-Drewes | 500,000 € | Market | 2026-09-10 07:40:53
-Machino | 2,591,678 € | Market | 2026-09-10 08:29:09
-Scheller | 9,257,908 € | Market | 2026-09-10 09:17:01
-Yilmaz | 3,373,081 € | Market | 2026-09-10 10:42:06
-Dina Ebimbe | 4,843,765 € | Market | 2026-09-10 10:47:57
-Herold | 3,564,075 € | Market | 2026-09-10 13:08:58
-Sabitzer | 7,828,965 € | Market | 2026-09-10 14:23:23
-Scally | 6,065,410 € | Market | 2026-09-10 16:16:34
-Baumgartner | 10,473,988 € | Market | 2026-09-10 16:42:15
-Keitel | 1,475,282 € | Market | 2026-09-10 17:55:54
-Guirassy | 31,065,365 € | Market | 2026-09-10 21:03:28
-Ilic | 3,464,150 € | Market | 2026-09-10 21:10:18
-Karazor | 3,412,218 € | Market | 2026-09-10 21:33:38
-Skhiri | 7,766,663 € | Market | 2026-09-11 03:40:48
-Goto | 3,096,422 € | Market | 2026-09-11 05:01:49
-Lehmann | 500,000 € | Market | 2026-09-11 06:38:25
-Petersson | 500,000 € | Market | 2026-09-11 08:29:04
-Nyland | 2,128,164 € | Market | 2026-09-11 11:05:50
+ter Horst | 9,982,739 € | Market | 2026-09-10 06:11:37
+Drewes | 500,000 € | Market | 2026-09-10 07:40:54
+Machino | 2,591,678 € | Market | 2026-09-10 08:29:10
+Scheller | 9,257,908 € | Market | 2026-09-10 09:17:02
+Yilmaz | 3,373,081 € | Market | 2026-09-10 10:42:07
+Dina Ebimbe | 4,843,765 € | Market | 2026-09-10 10:47:58
+Herold | 3,564,075 € | Market | 2026-09-10 13:08:59
+Sabitzer | 7,828,965 € | Market | 2026-09-10 14:23:24
+Scally | 6,065,410 € | Market | 2026-09-10 16:16:35
+Baumgartner | 10,473,988 € | Market | 2026-09-10 16:42:16
+Keitel | 1,475,282 € | Market | 2026-09-10 17:55:55
+Guirassy | 31,065,365 € | Market | 2026-09-10 21:03:29
+Ilic | 3,464,150 € | Market | 2026-09-10 21:10:19
+Karazor | 3,412,218 € | Market | 2026-09-10 21:33:39
+Skhiri | 7,766,663 € | Market | 2026-09-11 03:40:49
+Goto | 3,096,422 € | Market | 2026-09-11 05:01:50
+Lehmann | 500,000 € | Market | 2026-09-11 06:38:26
+Petersson | 500,000 € | Market | 2026-09-11 08:29:05
+Nyland | 2,128,164 € | Market | 2026-09-11 11:05:51
+Fábio Silva | 9,020,403 € | Market | 2026-09-11 16:24:23
+Ouédraogo | 9,544,322 € | Market | 2026-09-12 00:17:06
 Michel | 1,937,595 € | Sascha187 | Kein Ablaufdatum
+Gyamerah | 6,594,139 € | Philipp | Kein Ablaufdatum
 Sosa | 5,604,812 € | Braunbär7 | Kein Ablaufdatum
 Skov | 1,958,372 € | CoachLeisi | Kein Ablaufdatum
 Günther | 8,817,501 € | Joel | Kein Ablaufdatum
