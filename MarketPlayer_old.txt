@@ -1,43 +1,40 @@
-Ilic | 3,464,150 € | Market | 2026-09-10 21:10:19
-Karazor | 3,412,218 € | Market | 2026-09-10 21:33:39
-Skhiri | 7,766,663 € | Market | 2026-09-11 03:40:49
-Goto | 3,096,422 € | Market | 2026-09-11 05:01:50
+Skhiri | 7,833,347 € | Market | 2026-09-11 03:40:49
+Goto | 2,996,290 € | Market | 2026-09-11 05:01:50
 Lehmann | 500,000 € | Market | 2026-09-11 06:38:26
 Petersson | 500,000 € | Market | 2026-09-11 08:29:05
-Gendrey | 1,316,550 € | Market | 2026-09-11 08:51:10
-Müller | 2,476,455 € | Market | 2026-09-11 10:19:06
-Nyland | 2,128,164 € | Market | 2026-09-11 11:05:51
-Davies | 14,899,701 € | Market | 2026-09-11 11:06:48
-Tella | 4,380,029 € | Market | 2026-09-11 12:32:48
-Castrop | 1,496,408 € | Market | 2026-09-11 12:41:41
-Saibari | 29,550,079 € | Market | 2026-09-11 14:26:12
-Deman | 9,787,335 € | Market | 2026-09-11 14:48:19
-Fábio Silva | 9,020,403 € | Market | 2026-09-11 16:24:23
-Minjae | 12,804,409 € | Market | 2026-09-11 23:33:30
-Ouédraogo | 9,544,322 € | Market | 2026-09-12 00:17:06
-Hübers | 1,584,630 € | Market | 2026-09-12 01:07:00
-El Mala | 25,255,743 € | Market | 2026-09-12 04:50:09
-Arrhov | 1,194,740 € | Market | 2026-09-12 06:08:38
+Gendrey | 1,214,357 € | Market | 2026-09-11 08:51:10
+Müller | 2,334,360 € | Market | 2026-09-11 10:19:06
+Nyland | 1,994,087 € | Market | 2026-09-11 11:05:51
+Davies | 15,141,233 € | Market | 2026-09-11 11:06:48
+Tella | 4,246,191 € | Market | 2026-09-11 12:32:48
+Castrop | 1,367,839 € | Market | 2026-09-11 12:41:41
+Saibari | 28,974,224 € | Market | 2026-09-11 14:26:12
+Deman | 10,032,762 € | Market | 2026-09-11 14:48:19
+Fábio Silva | 9,397,556 € | Market | 2026-09-11 16:24:23
+Minjae | 12,913,190 € | Market | 2026-09-11 23:33:30
+Ouédraogo | 9,769,186 € | Market | 2026-09-12 00:17:06
+Hübers | 1,793,827 € | Market | 2026-09-12 01:07:00
+El Mala | 25,178,580 € | Market | 2026-09-12 04:50:09
+Arrhov | 1,092,058 € | Market | 2026-09-12 06:08:38
 Labrović | 500,000 € | Market | 2026-09-12 06:50:55
-Reitz | 9,865,946 € | Market | 2026-09-12 13:08:06
-Michel | 1,937,595 € | Sascha187 | Kein Ablaufdatum
-Gyamerah | 6,594,139 € | Philipp | Kein Ablaufdatum
-Sabitzer | 7,828,965 € | Sascha187 | Kein Ablaufdatum
-Maina | 8,163,070 € | Timo Kramer  | Kein Ablaufdatum
-Sosa | 5,604,812 € | Braunbär7 | Kein Ablaufdatum
-Skov | 1,958,372 € | CoachLeisi | Kein Ablaufdatum
-Günther | 8,817,501 € | Joel | Kein Ablaufdatum
-Widmer | 2,647,019 € | Joel | Kein Ablaufdatum
-Rosenfelder | 5,788,332 € | Sascha187 | Kein Ablaufdatum
-Gosens | 7,780,669 € | Vanilleeis23 | Kein Ablaufdatum
-Baum | 13,821,133 € | Timo Kramer  | Kein Ablaufdatum
-Onyeka | 10,724,470 € | Julian | Kein Ablaufdatum
-Le Joncour | 2,192,720 € | Vanilleeis23 | Kein Ablaufdatum
-ter Horst | 9,982,739 € | Vanilleeis23 | Kein Ablaufdatum
-Schmied | 1,834,367 € | Sascha187 | Kein Ablaufdatum
-Gomis | 10,058,770 € | Joel | Kein Ablaufdatum
-Røssing-Lelesiit | 1,789,748 € | CoachLeisi | Kein Ablaufdatum
-Machida | 3,799,241 € | Braunbär7 | Kein Ablaufdatum
-Maluze | 4,574,234 € | Vanilleeis23 | Kein Ablaufdatum
-Lippmann | 2,221,536 € | Sascha187 | Kein Ablaufdatum
-Nakuzola | 1,458,748 € | Timo Kramer  | Kein Ablaufdatum
+Reitz | 9,516,962 € | Market | 2026-09-12 13:08:06
+Michel | 2,095,851 € | Sascha187 | Kein Ablaufdatum
+Gyamerah | 6,842,403 € | Philipp | Kein Ablaufdatum
+Sabitzer | 8,030,802 € | Sascha187 | Kein Ablaufdatum
+Maina | 8,207,714 € | Timo Kramer  | Kein Ablaufdatum
+Sosa | 5,677,134 € | Braunbär7 | Kein Ablaufdatum
+Skov | 2,155,839 € | CoachLeisi | Kein Ablaufdatum
+Günther | 9,002,601 € | Joel | Kein Ablaufdatum
+Widmer | 2,733,735 € | Joel | Kein Ablaufdatum
+Rosenfelder | 5,915,792 € | Sascha187 | Kein Ablaufdatum
+Gosens | 7,847,105 € | Vanilleeis23 | Kein Ablaufdatum
+Baum | 13,792,532 € | Timo Kramer  | Kein Ablaufdatum
+Onyeka | 10,853,057 € | Julian | Kein Ablaufdatum
+Le Joncour | 2,413,687 € | Vanilleeis23 | Kein Ablaufdatum
+ter Horst | 10,062,222 € | Vanilleeis23 | Kein Ablaufdatum
+Schmied | 2,051,649 € | Sascha187 | Kein Ablaufdatum
+Røssing-Lelesiit | 1,959,965 € | CoachLeisi | Kein Ablaufdatum
+Machida | 4,111,035 € | Braunbär7 | Kein Ablaufdatum
+Maluze | 4,679,018 € | Vanilleeis23 | Kein Ablaufdatum
+Lippmann | 2,418,725 € | Sascha187 | Kein Ablaufdatum
+Nakuzola | 1,353,434 € | Timo Kramer  | Kein Ablaufdatum

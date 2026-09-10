@@ -1,31 +1,31 @@
-Skhiri | 7,833,347 € | Market | 2026-09-11 03:40:49
-Goto | 2,996,290 € | Market | 2026-09-11 05:01:50
-Lehmann | 500,000 € | Market | 2026-09-11 06:38:26
-Petersson | 500,000 € | Market | 2026-09-11 08:29:05
-Gendrey | 1,214,357 € | Market | 2026-09-11 08:51:10
-Müller | 2,334,360 € | Market | 2026-09-11 10:19:06
-Nyland | 1,994,087 € | Market | 2026-09-11 11:05:51
-Davies | 15,141,233 € | Market | 2026-09-11 11:06:48
-Tella | 4,246,191 € | Market | 2026-09-11 12:32:48
-Castrop | 1,367,839 € | Market | 2026-09-11 12:41:41
-Saibari | 28,974,224 € | Market | 2026-09-11 14:26:12
-Deman | 10,032,762 € | Market | 2026-09-11 14:48:19
-Fábio Silva | 9,397,556 € | Market | 2026-09-11 16:24:23
-Minjae | 12,913,190 € | Market | 2026-09-11 23:33:30
-Ouédraogo | 9,769,186 € | Market | 2026-09-12 00:17:06
-Hübers | 1,793,827 € | Market | 2026-09-12 01:07:00
-El Mala | 25,178,580 € | Market | 2026-09-12 04:50:09
-Arrhov | 1,092,058 € | Market | 2026-09-12 06:08:38
-Labrović | 500,000 € | Market | 2026-09-12 06:50:55
-Reitz | 9,516,962 € | Market | 2026-09-12 13:08:06
+Skhiri | 7,833,347 € | Market | 2026-09-11 03:40:48
+Goto | 2,996,290 € | Market | 2026-09-11 05:01:49
+Lehmann | 500,000 € | Market | 2026-09-11 06:38:25
+Petersson | 500,000 € | Market | 2026-09-11 08:29:04
+Gendrey | 1,214,357 € | Market | 2026-09-11 08:51:09
+Müller | 2,334,360 € | Market | 2026-09-11 10:19:05
+Nyland | 1,994,087 € | Market | 2026-09-11 11:05:50
+Davies | 15,141,233 € | Market | 2026-09-11 11:06:47
+Tella | 4,246,191 € | Market | 2026-09-11 12:32:47
+Castrop | 1,367,839 € | Market | 2026-09-11 12:41:40
+Saibari | 28,974,224 € | Market | 2026-09-11 14:26:11
+Batz | 500,000 € | Market | 2026-09-11 14:35:40
+Deman | 10,032,762 € | Market | 2026-09-11 14:48:18
+Fábio Silva | 9,397,556 € | Market | 2026-09-11 16:24:22
+Minjae | 12,913,190 € | Market | 2026-09-11 23:33:29
+Ouédraogo | 9,769,186 € | Market | 2026-09-12 00:17:05
+Hübers | 1,793,827 € | Market | 2026-09-12 01:06:59
+El Mala | 25,178,580 € | Market | 2026-09-12 04:50:08
+Arrhov | 1,092,058 € | Market | 2026-09-12 06:08:37
+Labrović | 500,000 € | Market | 2026-09-12 06:50:54
+Moerstedt | 4,217,704 € | Market | 2026-09-12 12:27:30
+Reitz | 9,516,962 € | Market | 2026-09-12 13:08:05
 Michel | 2,095,851 € | Sascha187 | Kein Ablaufdatum
 Gyamerah | 6,842,403 € | Philipp | Kein Ablaufdatum
 Sabitzer | 8,030,802 € | Sascha187 | Kein Ablaufdatum
 Maina | 8,207,714 € | Timo Kramer  | Kein Ablaufdatum
-Sosa | 5,677,134 € | Braunbär7 | Kein Ablaufdatum
 Skov | 2,155,839 € | CoachLeisi | Kein Ablaufdatum
 Günther | 9,002,601 € | Joel | Kein Ablaufdatum
-Widmer | 2,733,735 € | Joel | Kein Ablaufdatum
 Rosenfelder | 5,915,792 € | Sascha187 | Kein Ablaufdatum
 Gosens | 7,847,105 € | Vanilleeis23 | Kein Ablaufdatum
 Baum | 13,792,532 € | Timo Kramer  | Kein Ablaufdatum
@@ -34,7 +34,6 @@ Le Joncour | 2,413,687 € | Vanilleeis23 | Kein Ablaufdatum
 ter Horst | 10,062,222 € | Vanilleeis23 | Kein Ablaufdatum
 Schmied | 2,051,649 € | Sascha187 | Kein Ablaufdatum
 Røssing-Lelesiit | 1,959,965 € | CoachLeisi | Kein Ablaufdatum
-Machida | 4,111,035 € | Braunbär7 | Kein Ablaufdatum
 Maluze | 4,679,018 € | Vanilleeis23 | Kein Ablaufdatum
 Lippmann | 2,418,725 € | Sascha187 | Kein Ablaufdatum
 Nakuzola | 1,353,434 € | Timo Kramer  | Kein Ablaufdatum
