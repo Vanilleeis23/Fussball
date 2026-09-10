@@ -1,41 +1,34 @@
-Lippmann | 1,963,929 € | Market | 2026-09-09 23:08:01
-Raab | 4,765,669 € | Market | 2026-09-09 23:31:31
-Konoplia | 1,770,420 € | Market | 2026-09-10 04:31:49
-Pejčinović | 11,688,074 € | Market | 2026-09-10 05:26:20
-ter Horst | 9,804,821 € | Market | 2026-09-10 06:11:36
+ter Horst | 9,982,739 € | Market | 2026-09-10 06:11:36
 Drewes | 500,000 € | Market | 2026-09-10 07:40:53
-Machino | 2,734,624 € | Market | 2026-09-10 08:29:09
-Scheller | 8,976,874 € | Market | 2026-09-10 09:17:01
-Yilmaz | 3,496,552 € | Market | 2026-09-10 10:42:06
-Dina Ebimbe | 4,892,520 € | Market | 2026-09-10 10:47:57
-Herold | 3,665,002 € | Market | 2026-09-10 13:08:58
-Scally | 5,737,983 € | Market | 2026-09-10 16:16:34
-Baumgartner | 10,938,765 € | Market | 2026-09-10 16:42:15
-Keitel | 1,579,189 € | Market | 2026-09-10 17:55:54
-Guirassy | 30,958,881 € | Market | 2026-09-10 21:03:28
-Ilic | 3,615,555 € | Market | 2026-09-10 21:10:18
-Karazor | 3,511,542 € | Market | 2026-09-10 21:33:38
-Skhiri | 7,656,349 € | Market | 2026-09-11 03:40:48
-Goto | 3,197,706 € | Market | 2026-09-11 05:01:49
+Machino | 2,591,678 € | Market | 2026-09-10 08:29:09
+Scheller | 9,257,908 € | Market | 2026-09-10 09:17:01
+Yilmaz | 3,373,081 € | Market | 2026-09-10 10:42:06
+Dina Ebimbe | 4,843,765 € | Market | 2026-09-10 10:47:57
+Herold | 3,564,075 € | Market | 2026-09-10 13:08:58
+Sabitzer | 7,828,965 € | Market | 2026-09-10 14:23:23
+Scally | 6,065,410 € | Market | 2026-09-10 16:16:34
+Baumgartner | 10,473,988 € | Market | 2026-09-10 16:42:15
+Keitel | 1,475,282 € | Market | 2026-09-10 17:55:54
+Guirassy | 31,065,365 € | Market | 2026-09-10 21:03:28
+Ilic | 3,464,150 € | Market | 2026-09-10 21:10:18
+Karazor | 3,412,218 € | Market | 2026-09-10 21:33:38
+Skhiri | 7,766,663 € | Market | 2026-09-11 03:40:48
+Goto | 3,096,422 € | Market | 2026-09-11 05:01:49
 Lehmann | 500,000 € | Market | 2026-09-11 06:38:25
 Petersson | 500,000 € | Market | 2026-09-11 08:29:04
-Nyland | 2,269,303 € | Market | 2026-09-11 11:05:50
-Michel | 1,731,212 € | Sascha187 | Kein Ablaufdatum
-Sosa | 5,426,137 € | Braunbär7 | Kein Ablaufdatum
-Skov | 1,703,656 € | CoachLeisi | Kein Ablaufdatum
-Günther | 8,591,468 € | Joel | Kein Ablaufdatum
-Widmer | 2,429,807 € | Joel | Kein Ablaufdatum
-Honorat | 10,447,194 € | Sascha187 | Kein Ablaufdatum
-Rosenfelder | 5,584,108 € | Sascha187 | Kein Ablaufdatum
-Baum | 13,783,223 € | Timo Kramer  | Kein Ablaufdatum
-Jeltsch | 16,519,179 € | Vanilleeis23 | Kein Ablaufdatum
-Le Joncour | 1,919,125 € | Vanilleeis23 | Kein Ablaufdatum
-Ogbus | 3,814,250 € | Timo Kramer  | Kein Ablaufdatum
-Schmied | 1,593,203 € | Sascha187 | Kein Ablaufdatum
-Behrens | 12,540,524 € | Timo Kramer  | Kein Ablaufdatum
-Røssing-Lelesiit | 1,569,818 € | CoachLeisi | Kein Ablaufdatum
-Inácio | 5,625,612 € | Sascha187 | Kein Ablaufdatum
-Machida | 3,473,577 € | Braunbär7 | Kein Ablaufdatum
-Nandja | 2,355,534 € | Julian | Kein Ablaufdatum
-Uno | 1,899,759 € | Braunbär7 | Kein Ablaufdatum
-Regeer | 6,890,653 € | Braunbär7 | Kein Ablaufdatum
+Nyland | 2,128,164 € | Market | 2026-09-11 11:05:50
+Michel | 1,937,595 € | Sascha187 | Kein Ablaufdatum
+Sosa | 5,604,812 € | Braunbär7 | Kein Ablaufdatum
+Skov | 1,958,372 € | CoachLeisi | Kein Ablaufdatum
+Günther | 8,817,501 € | Joel | Kein Ablaufdatum
+Widmer | 2,647,019 € | Joel | Kein Ablaufdatum
+Rosenfelder | 5,788,332 € | Sascha187 | Kein Ablaufdatum
+Baum | 13,821,133 € | Timo Kramer  | Kein Ablaufdatum
+Jeltsch | 16,606,846 € | Vanilleeis23 | Kein Ablaufdatum
+Onyeka | 10,724,470 € | Julian | Kein Ablaufdatum
+Ogbus | 4,145,061 € | Timo Kramer  | Kein Ablaufdatum
+Schmied | 1,834,367 € | Sascha187 | Kein Ablaufdatum
+Behrens | 12,641,543 € | Timo Kramer  | Kein Ablaufdatum
+Røssing-Lelesiit | 1,789,748 € | CoachLeisi | Kein Ablaufdatum
+Machida | 3,799,241 € | Braunbär7 | Kein Ablaufdatum
+Lippmann | 2,221,536 € | Sascha187 | Kein Ablaufdatum
