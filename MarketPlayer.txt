@@ -19,7 +19,9 @@ Goto | 3,096,422 € | Market | 2026-09-11 05:01:49
 Lehmann | 500,000 € | Market | 2026-09-11 06:38:25
 Petersson | 500,000 € | Market | 2026-09-11 08:29:04
 Nyland | 2,128,164 € | Market | 2026-09-11 11:05:50
+Ouédraogo | 9,544,322 € | Market | 2026-09-12 00:17:05
 Michel | 1,937,595 € | Sascha187 | Kein Ablaufdatum
+Gyamerah | 6,594,139 € | Philipp | Kein Ablaufdatum
 Sosa | 5,604,812 € | Braunbär7 | Kein Ablaufdatum
 Skov | 1,958,372 € | CoachLeisi | Kein Ablaufdatum
 Günther | 8,817,501 € | Joel | Kein Ablaufdatum
