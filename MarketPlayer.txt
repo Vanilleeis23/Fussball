@@ -1,5 +1,3 @@
-Nyland | 1,994,087 € | Market | 2026-09-11 11:05:50
-Davies | 15,141,233 € | Market | 2026-09-11 11:06:47
 Tella | 4,246,191 € | Market | 2026-09-11 12:32:47
 Castrop | 1,367,839 € | Market | 2026-09-11 12:41:40
 Saibari | 28,974,224 € | Market | 2026-09-11 14:26:11
@@ -19,16 +17,13 @@ Moerstedt | 4,217,704 € | Market | 2026-09-12 12:27:30
 Reitz | 9,516,962 € | Market | 2026-09-12 13:08:05
 Castello Jr. | 20,840,356 € | Market | 2026-09-12 18:51:03
 Itten | 3,668,255 € | Market | 2026-09-12 21:21:36
+Neuer | 14,858,009 € | Robinho | Kein Ablaufdatum
 Gyamerah | 6,842,403 € | Philipp | Kein Ablaufdatum
-Sabitzer | 8,030,802 € | Sascha187 | Kein Ablaufdatum
 Maina | 8,207,714 € | Timo Kramer  | Kein Ablaufdatum
 Skov | 2,155,839 € | CoachLeisi | Kein Ablaufdatum
-Atubolu | 13,665,820 € | Vanilleeis23 | Kein Ablaufdatum
 Günther | 9,002,601 € | Joel | Kein Ablaufdatum
-Rosenfelder | 5,915,792 € | Sascha187 | Kein Ablaufdatum
 Baum | 13,792,532 € | Timo Kramer  | Kein Ablaufdatum
 Onyeka | 10,853,057 € | Julian | Kein Ablaufdatum
 ter Horst | 10,062,222 € | Vanilleeis23 | Kein Ablaufdatum
-Mokwa | 7,619,609 € | Sascha187 | Kein Ablaufdatum
 Røssing-Lelesiit | 1,959,965 € | CoachLeisi | Kein Ablaufdatum
 Nakuzola | 1,353,434 € | Timo Kramer  | Kein Ablaufdatum
