@@ -1,36 +1,31 @@
-Tella | 4,246,191 € | Market | 2026-09-11 12:32:47
-Castrop | 1,367,839 € | Market | 2026-09-11 12:41:40
-Saibari | 28,974,224 € | Market | 2026-09-11 14:26:11
-Batz | 500,000 € | Market | 2026-09-11 14:35:40
-Deman | 10,032,762 € | Market | 2026-09-11 14:48:18
-Fábio Silva | 9,397,556 € | Market | 2026-09-11 16:24:22
-Minjae | 12,913,190 € | Market | 2026-09-11 23:33:29
-Ouédraogo | 9,769,186 € | Market | 2026-09-12 00:17:05
-Hübers | 1,793,827 € | Market | 2026-09-12 01:06:59
-Amoako | 901,651 € | Market | 2026-09-12 02:25:48
-El Mala | 25,178,580 € | Market | 2026-09-12 04:50:08
-Kolke | 500,000 € | Market | 2026-09-12 05:01:17
-Arrhov | 1,092,058 € | Market | 2026-09-12 06:08:37
-Labrović | 500,000 € | Market | 2026-09-12 06:50:54
-Ibrahimović | 7,382,794 € | Market | 2026-09-12 10:29:24
-Waldschmidt | 2,497,581 € | Market | 2026-09-12 10:32:28
-Moerstedt | 4,217,704 € | Market | 2026-09-12 12:27:30
-Reitz | 9,516,962 € | Market | 2026-09-12 13:08:05
-Castello Jr. | 20,840,356 € | Market | 2026-09-12 18:51:03
-Itten | 3,668,255 € | Market | 2026-09-12 21:21:36
+Saibari | 28,974,224 € | Market | 2026-09-11 14:26:12
+Batz | 500,000 € | Market | 2026-09-11 14:35:41
+Deman | 10,032,762 € | Market | 2026-09-11 14:48:19
+Fábio Silva | 9,397,556 € | Market | 2026-09-11 16:24:23
+Minjae | 12,913,190 € | Market | 2026-09-11 23:33:30
+Ouédraogo | 9,769,186 € | Market | 2026-09-12 00:17:06
+Hübers | 1,793,827 € | Market | 2026-09-12 01:07:00
+Amoako | 901,651 € | Market | 2026-09-12 02:25:49
+El Mala | 25,178,580 € | Market | 2026-09-12 04:50:09
+Kolke | 500,000 € | Market | 2026-09-12 05:01:18
+Arrhov | 1,092,058 € | Market | 2026-09-12 06:08:38
+Labrović | 500,000 € | Market | 2026-09-12 06:50:55
+Ibrahimović | 7,382,794 € | Market | 2026-09-12 10:29:25
+Waldschmidt | 2,497,581 € | Market | 2026-09-12 10:32:29
+Moerstedt | 4,217,704 € | Market | 2026-09-12 12:27:31
+Reitz | 9,516,962 € | Market | 2026-09-12 13:08:06
+Castello Jr. | 20,840,356 € | Market | 2026-09-12 18:51:04
+Itten | 3,668,255 € | Market | 2026-09-12 21:21:37
+Schlager | 1,245,713 € | Market | 2026-09-13 07:27:13
 Neuer | 14,858,009 € | Robinho | Kein Ablaufdatum
 Gyamerah | 6,842,403 € | Philipp | Kein Ablaufdatum
 Sabitzer | 8,030,802 € | Sascha187 | Kein Ablaufdatum
-Uduokhai | 6,418,500 € | Robinho | Kein Ablaufdatum
 Maina | 8,207,714 € | Timo Kramer  | Kein Ablaufdatum
 Skov | 2,155,839 € | CoachLeisi | Kein Ablaufdatum
 Scally | 6,343,714 € | Sascha187 | Kein Ablaufdatum
-Günther | 9,002,601 € | Joel | Kein Ablaufdatum
-Arthur | 7,070,380 € | Sascha187 | Kein Ablaufdatum
-Rosenfelder | 5,915,792 € | Sascha187 | Kein Ablaufdatum
 Baum | 13,792,532 € | Timo Kramer  | Kein Ablaufdatum
 Onyeka | 10,853,057 € | Julian | Kein Ablaufdatum
 ter Horst | 10,062,222 € | Vanilleeis23 | Kein Ablaufdatum
+Ogbus | 4,418,373 € | Timo Kramer  | Kein Ablaufdatum
 Røssing-Lelesiit | 1,959,965 € | CoachLeisi | Kein Ablaufdatum
 Maluze | 4,679,018 € | Vanilleeis23 | Kein Ablaufdatum
-Nakuzola | 1,353,434 € | Timo Kramer  | Kein Ablaufdatum
