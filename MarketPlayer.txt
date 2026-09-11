@@ -1,25 +1,25 @@
-Minjae | 12,913,190 € | Market | 2026-09-11 23:33:30
-Ouédraogo | 9,769,186 € | Market | 2026-09-12 00:17:06
-Hübers | 1,793,827 € | Market | 2026-09-12 01:07:00
-Amoako | 901,651 € | Market | 2026-09-12 02:25:49
-El Mala | 25,178,580 € | Market | 2026-09-12 04:50:09
-Kolke | 500,000 € | Market | 2026-09-12 05:01:18
-Arrhov | 1,092,058 € | Market | 2026-09-12 06:08:38
-Koné | 1,439,277 € | Market | 2026-09-12 06:48:39
-Labrović | 500,000 € | Market | 2026-09-12 06:50:55
-Ibrahimović | 7,382,794 € | Market | 2026-09-12 10:29:25
-Waldschmidt | 2,497,581 € | Market | 2026-09-12 10:32:29
-Moerstedt | 4,217,704 € | Market | 2026-09-12 12:27:31
-Reitz | 9,516,962 € | Market | 2026-09-12 13:08:06
-Lidberg | 3,817,275 € | Market | 2026-09-12 15:11:17
-Castello Jr. | 20,840,356 € | Market | 2026-09-12 18:51:04
-Itten | 3,668,255 € | Market | 2026-09-12 21:21:37
-Condé | 2,244,278 € | Market | 2026-09-12 22:41:19
-Sylla | 8,324,685 € | Market | 2026-09-13 00:43:35
-Köhn | 2,716,592 € | Market | 2026-09-13 05:38:24
-Schlager | 1,245,713 € | Market | 2026-09-13 07:27:13
-Schallenberg | 3,338,196 € | Market | 2026-09-13 08:23:46
-Asllani | 15,984,025 € | Market | 2026-09-13 16:17:54
+Minjae | 12,913,190 € | Market | 2026-09-11 23:33:29
+Ouédraogo | 9,769,186 € | Market | 2026-09-12 00:17:05
+Hübers | 1,793,827 € | Market | 2026-09-12 01:06:59
+Amoako | 901,651 € | Market | 2026-09-12 02:25:48
+El Mala | 25,178,580 € | Market | 2026-09-12 04:50:08
+Kolke | 500,000 € | Market | 2026-09-12 05:01:17
+Arrhov | 1,092,058 € | Market | 2026-09-12 06:08:37
+Koné | 1,439,277 € | Market | 2026-09-12 06:48:38
+Labrović | 500,000 € | Market | 2026-09-12 06:50:54
+Ibrahimović | 7,382,794 € | Market | 2026-09-12 10:29:24
+Waldschmidt | 2,497,581 € | Market | 2026-09-12 10:32:28
+Moerstedt | 4,217,704 € | Market | 2026-09-12 12:27:30
+Reitz | 9,516,962 € | Market | 2026-09-12 13:08:05
+Lidberg | 3,817,275 € | Market | 2026-09-12 15:11:16
+Castello Jr. | 20,840,356 € | Market | 2026-09-12 18:51:03
+Itten | 3,668,255 € | Market | 2026-09-12 21:21:36
+Condé | 2,244,278 € | Market | 2026-09-12 22:41:18
+Sylla | 8,324,685 € | Market | 2026-09-13 00:43:34
+Köhn | 2,716,592 € | Market | 2026-09-13 05:38:23
+Schlager | 1,245,713 € | Market | 2026-09-13 07:27:12
+Schallenberg | 3,338,196 € | Market | 2026-09-13 08:23:45
+Asllani | 15,984,025 € | Market | 2026-09-13 16:17:53
 Skov | 2,155,839 € | CoachLeisi | Kein Ablaufdatum
 Bachmann | 2,199,359 € | Vincent  | Kein Ablaufdatum
 Onyeka | 10,853,057 € | Julian | Kein Ablaufdatum
