@@ -17,7 +17,6 @@ Itten | 3,668,255 € | Market | 2026-09-12 21:21:37
 Köhn | 2,716,592 € | Market | 2026-09-13 05:38:24
 Schlager | 1,245,713 € | Market | 2026-09-13 07:27:13
 Schallenberg | 3,338,196 € | Market | 2026-09-13 08:23:46
-Neuer | 14,858,009 € | Robinho | Kein Ablaufdatum
 Sabitzer | 8,030,802 € | Sascha187 | Kein Ablaufdatum
 Maina | 8,207,714 € | Timo Kramer  | Kein Ablaufdatum
 Skov | 2,155,839 € | CoachLeisi | Kein Ablaufdatum
@@ -29,5 +28,4 @@ Baum | 13,792,532 € | Timo Kramer  | Kein Ablaufdatum
 Onyeka | 10,853,057 € | Julian | Kein Ablaufdatum
 ter Horst | 10,062,222 € | Vanilleeis23 | Kein Ablaufdatum
 Ogbus | 4,418,373 € | Timo Kramer  | Kein Ablaufdatum
-Gendrey | 1,214,357 € | Philipp | Kein Ablaufdatum
 Røssing-Lelesiit | 1,959,965 € | CoachLeisi | Kein Ablaufdatum
