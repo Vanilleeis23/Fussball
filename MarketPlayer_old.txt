@@ -1,6 +1,3 @@
-Skhiri | 7,833,347 € | Market | 2026-09-11 03:40:48
-Goto | 2,996,290 € | Market | 2026-09-11 05:01:49
-Lehmann | 500,000 € | Market | 2026-09-11 06:38:25
 Petersson | 500,000 € | Market | 2026-09-11 08:29:04
 Gendrey | 1,214,357 € | Market | 2026-09-11 08:51:09
 Müller | 2,334,360 € | Market | 2026-09-11 10:19:05
@@ -16,11 +13,13 @@ Minjae | 12,913,190 € | Market | 2026-09-11 23:33:29
 Ouédraogo | 9,769,186 € | Market | 2026-09-12 00:17:05
 Hübers | 1,793,827 € | Market | 2026-09-12 01:06:59
 El Mala | 25,178,580 € | Market | 2026-09-12 04:50:08
+Kolke | 500,000 € | Market | 2026-09-12 05:01:17
 Arrhov | 1,092,058 € | Market | 2026-09-12 06:08:37
 Labrović | 500,000 € | Market | 2026-09-12 06:50:54
+Waldschmidt | 2,497,581 € | Market | 2026-09-12 10:32:28
 Moerstedt | 4,217,704 € | Market | 2026-09-12 12:27:30
 Reitz | 9,516,962 € | Market | 2026-09-12 13:08:05
-Michel | 2,095,851 € | Sascha187 | Kein Ablaufdatum
+Itten | 3,668,255 € | Market | 2026-09-12 21:21:36
 Gyamerah | 6,842,403 € | Philipp | Kein Ablaufdatum
 Sabitzer | 8,030,802 € | Sascha187 | Kein Ablaufdatum
 Maina | 8,207,714 € | Timo Kramer  | Kein Ablaufdatum
@@ -32,8 +31,7 @@ Baum | 13,792,532 € | Timo Kramer  | Kein Ablaufdatum
 Onyeka | 10,853,057 € | Julian | Kein Ablaufdatum
 Le Joncour | 2,413,687 € | Vanilleeis23 | Kein Ablaufdatum
 ter Horst | 10,062,222 € | Vanilleeis23 | Kein Ablaufdatum
-Schmied | 2,051,649 € | Sascha187 | Kein Ablaufdatum
+Ebnoutalib | 15,680,127 € | Sascha187 | Kein Ablaufdatum
 Røssing-Lelesiit | 1,959,965 € | CoachLeisi | Kein Ablaufdatum
 Maluze | 4,679,018 € | Vanilleeis23 | Kein Ablaufdatum
-Lippmann | 2,418,725 € | Sascha187 | Kein Ablaufdatum
 Nakuzola | 1,353,434 € | Timo Kramer  | Kein Ablaufdatum
