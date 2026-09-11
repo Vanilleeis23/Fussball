@@ -5,6 +5,7 @@ Amoako | 901,651 € | Market | 2026-09-12 02:25:49
 El Mala | 25,178,580 € | Market | 2026-09-12 04:50:09
 Kolke | 500,000 € | Market | 2026-09-12 05:01:18
 Arrhov | 1,092,058 € | Market | 2026-09-12 06:08:38
+Koné | 1,439,277 € | Market | 2026-09-12 06:48:39
 Labrović | 500,000 € | Market | 2026-09-12 06:50:55
 Ibrahimović | 7,382,794 € | Market | 2026-09-12 10:29:25
 Waldschmidt | 2,497,581 € | Market | 2026-09-12 10:32:29
@@ -17,7 +18,6 @@ Köhn | 2,716,592 € | Market | 2026-09-13 05:38:24
 Schlager | 1,245,713 € | Market | 2026-09-13 07:27:13
 Schallenberg | 3,338,196 € | Market | 2026-09-13 08:23:46
 Neuer | 14,858,009 € | Robinho | Kein Ablaufdatum
-Gyamerah | 6,842,403 € | Philipp | Kein Ablaufdatum
 Sabitzer | 8,030,802 € | Sascha187 | Kein Ablaufdatum
 Maina | 8,207,714 € | Timo Kramer  | Kein Ablaufdatum
 Skov | 2,155,839 € | CoachLeisi | Kein Ablaufdatum
@@ -29,4 +29,5 @@ Baum | 13,792,532 € | Timo Kramer  | Kein Ablaufdatum
 Onyeka | 10,853,057 € | Julian | Kein Ablaufdatum
 ter Horst | 10,062,222 € | Vanilleeis23 | Kein Ablaufdatum
 Ogbus | 4,418,373 € | Timo Kramer  | Kein Ablaufdatum
+Gendrey | 1,214,357 € | Philipp | Kein Ablaufdatum
 Røssing-Lelesiit | 1,959,965 € | CoachLeisi | Kein Ablaufdatum
