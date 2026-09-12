@@ -1,6 +1,3 @@
-Ibrahimović | 7,739,389 € | Market | 2026-09-12 10:29:24
-Waldschmidt | 2,402,553 € | Market | 2026-09-12 10:32:28
-Moerstedt | 4,109,535 € | Market | 2026-09-12 12:27:30
 Reitz | 9,175,751 € | Market | 2026-09-12 13:08:05
 Lidberg | 3,705,054 € | Market | 2026-09-12 15:11:16
 Castello Jr. | 20,531,949 € | Market | 2026-09-12 18:51:03
@@ -8,6 +5,7 @@ Itten | 3,590,023 € | Market | 2026-09-12 21:21:36
 Condé | 2,294,692 € | Market | 2026-09-12 22:41:18
 Sylla | 8,359,781 € | Market | 2026-09-13 00:43:34
 Conté | 9,711,570 € | Market | 2026-09-13 02:39:19
+Njinmah | 4,130,999 € | Market | 2026-09-13 02:40:57
 Köhn | 2,795,314 € | Market | 2026-09-13 05:38:23
 Muheim | 3,873,070 € | Market | 2026-09-13 07:21:03
 Schlager | 1,107,681 € | Market | 2026-09-13 07:27:12
@@ -16,12 +14,18 @@ Schallenberg | 3,210,654 € | Market | 2026-09-13 08:23:45
 Stergiou | 1,459,856 € | Market | 2026-09-13 12:13:29
 Asllani | 15,510,965 € | Market | 2026-09-13 16:17:53
 Hranác | 5,308,672 € | Market | 2026-09-13 16:58:48
+Beier | 22,665,896 € | Market | 2026-09-13 17:10:00
 Schlotterbeck | 24,663,153 € | Market | 2026-09-13 20:15:16
 Osterhage | 1,801,076 € | Market | 2026-09-14 00:04:55
+Philipp | 500,000 € | Market | 2026-09-14 05:35:17
+Potulski | 7,762,630 € | Market | 2026-09-14 10:41:15
 Bell | 919,105 € | Vanilleeis23 | Kein Ablaufdatum
 Skov | 2,166,120 € | CoachLeisi | Kein Ablaufdatum
 Bachmann | 2,208,499 € | Vincent  | Kein Ablaufdatum
 Rosenfelder | 5,631,593 € | Vanilleeis23 | Kein Ablaufdatum
 Gosens | 7,915,082 € | Vanilleeis23 | Kein Ablaufdatum
+Amoako | 841,478 € | Robinho | Kein Ablaufdatum
 Onyeka | 10,719,641 € | Julian | Kein Ablaufdatum
 Le Joncour | 2,449,975 € | Vanilleeis23 | Kein Ablaufdatum
+Arrhov | 1,014,730 € | Robinho | Kein Ablaufdatum
+Koné | 1,362,640 € | Robinho | Kein Ablaufdatum
