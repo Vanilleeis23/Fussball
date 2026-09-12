@@ -1,4 +1,3 @@
-Castello Jr. | 20,531,949 € | Market | 2026-09-12 18:51:03
 Itten | 3,590,023 € | Market | 2026-09-12 21:21:36
 Condé | 2,294,692 € | Market | 2026-09-12 22:41:18
 Sylla | 8,359,781 € | Market | 2026-09-13 00:43:34
@@ -20,13 +19,19 @@ Andrich | 3,828,077 € | Market | 2026-09-14 02:12:44
 Trimmel | 2,077,288 € | Market | 2026-09-14 04:31:27
 Philipp | 500,000 € | Market | 2026-09-14 05:35:17
 Potulski | 7,762,630 € | Market | 2026-09-14 10:41:15
+Chabot | 22,967,979 € | Market | 2026-09-14 17:20:39
 Bell | 919,105 € | Vanilleeis23 | Kein Ablaufdatum
 Skov | 2,166,120 € | CoachLeisi | Kein Ablaufdatum
+Ibrahimović | 7,739,389 € | Braunbär7 | Kein Ablaufdatum
 Bachmann | 2,208,499 € | Vincent  | Kein Ablaufdatum
+Guiu | 8,382,097 € | CoachLeisi | Kein Ablaufdatum
 Rosenfelder | 5,631,593 € | Vanilleeis23 | Kein Ablaufdatum
 Gosens | 7,915,082 € | Vanilleeis23 | Kein Ablaufdatum
 Amoako | 841,478 € | Robinho | Kein Ablaufdatum
 Onyeka | 10,719,641 € | Julian | Kein Ablaufdatum
 Le Joncour | 2,449,975 € | Vanilleeis23 | Kein Ablaufdatum
+Lidberg | 3,705,054 € | Robinho | Kein Ablaufdatum
 Arrhov | 1,014,730 € | Robinho | Kein Ablaufdatum
 Koné | 1,362,640 € | Robinho | Kein Ablaufdatum
+Nguefack | 3,304,452 € | Braunbär7 | Kein Ablaufdatum
+Regeer | 7,685,029 € | Braunbär7 | Kein Ablaufdatum

@@ -1,4 +1,3 @@
-Itten | 3,590,023 € | Market | 2026-09-12 21:21:36
 Condé | 2,294,692 € | Market | 2026-09-12 22:41:18
 Sylla | 8,359,781 € | Market | 2026-09-13 00:43:34
 Conté | 9,711,570 € | Market | 2026-09-13 02:39:19
@@ -25,12 +24,13 @@ Skov | 2,166,120 € | CoachLeisi | Kein Ablaufdatum
 Ibrahimović | 7,739,389 € | Braunbär7 | Kein Ablaufdatum
 Bachmann | 2,208,499 € | Vincent  | Kein Ablaufdatum
 Guiu | 8,382,097 € | CoachLeisi | Kein Ablaufdatum
-Rosenfelder | 5,631,593 € | Vanilleeis23 | Kein Ablaufdatum
 Gosens | 7,915,082 € | Vanilleeis23 | Kein Ablaufdatum
 Amoako | 841,478 € | Robinho | Kein Ablaufdatum
 Onyeka | 10,719,641 € | Julian | Kein Ablaufdatum
 Le Joncour | 2,449,975 € | Vanilleeis23 | Kein Ablaufdatum
+Konoplia | 2,223,230 € | Braunbär7 | Kein Ablaufdatum
 Lidberg | 3,705,054 € | Robinho | Kein Ablaufdatum
+Chukwuemeka | 4,528,977 € | CoachLeisi | Kein Ablaufdatum
 Arrhov | 1,014,730 € | Robinho | Kein Ablaufdatum
 Koné | 1,362,640 € | Robinho | Kein Ablaufdatum
 Nguefack | 3,304,452 € | Braunbär7 | Kein Ablaufdatum
