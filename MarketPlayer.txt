@@ -1,6 +1,3 @@
-Sylla | 8,383,348 € | Market | 2026-09-13 00:43:34
-Conté | 9,526,448 € | Market | 2026-09-13 02:39:19
-Njinmah | 3,988,569 € | Market | 2026-09-13 02:40:57
 Köhn | 2,874,614 € | Market | 2026-09-13 05:38:23
 Muheim | 3,756,901 € | Market | 2026-09-13 07:21:03
 Schlager | 969,468 € | Market | 2026-09-13 07:27:12
@@ -20,6 +17,7 @@ Trimmel | 1,930,818 € | Market | 2026-09-14 04:31:27
 Philipp | 500,000 € | Market | 2026-09-14 05:35:17
 Potulski | 8,074,347 € | Market | 2026-09-14 10:41:15
 Chabot | 22,681,506 € | Market | 2026-09-14 17:20:39
+Skarke | 6,792,502 € | Market | 2026-09-14 19:55:49
 Bell | 1,130,420 € | Vanilleeis23 | Kein Ablaufdatum
 Scally | 6,684,446 € | Sascha187 | Kein Ablaufdatum
 Ibrahimović | 8,101,375 € | Braunbär7 | Kein Ablaufdatum
@@ -34,7 +32,6 @@ Petersson | 500,000 € | Sascha187 | Kein Ablaufdatum
 Lidberg | 3,585,792 € | Robinho | Kein Ablaufdatum
 Ebnoutalib | 16,111,373 € | Sascha187 | Kein Ablaufdatum
 Schmied | 2,277,616 € | Sascha187 | Kein Ablaufdatum
-Chukwuemeka | 4,914,150 € | CoachLeisi | Kein Ablaufdatum
 Arrhov | 894,000 € | Robinho | Kein Ablaufdatum
 Koné | 1,257,554 € | Robinho | Kein Ablaufdatum
 Lippmann | 2,246,839 € | Sascha187 | Kein Ablaufdatum
