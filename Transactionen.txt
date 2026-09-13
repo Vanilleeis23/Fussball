@@ -1,3 +1,8 @@
+[{"byr": "Braunbär7"}, {"pn": "Agu"}, {"trp": 2384115}, {"dt": "2026-09-13T23:29:02Z"}]
+[{"slr": "Philipp"}, {"pn": "Reis"}, {"trp": 9901588}, {"dt": "2026-09-13T22:32:18Z"}]
+[{"byr": "CoachLeisi"}, {"pn": "Regeer"}, {"trp": 9000000}, {"dt": "2026-09-13T22:30:56Z"}]
+[{"slr": "Braunbär7"}, {"pn": "Regeer"}, {"trp": 9000000}, {"dt": "2026-09-13T22:30:56Z"}]
+[{"slr": "MirkoHengst"}, {"pn": "Stark"}, {"trp": 4158499}, {"dt": "2026-09-13T22:23:27Z"}]
 [{"slr": "Timo Kramer "}, {"pn": "Castello Jr."}, {"trp": 20199395}, {"dt": "2026-09-13T21:41:23Z"}]
 [{"slr": "Timo Kramer "}, {"pn": "Itten"}, {"trp": 3485870}, {"dt": "2026-09-13T21:31:52Z"}]
 [{"slr": "Philipp"}, {"pn": "Pieringer"}, {"trp": 4429813}, {"dt": "2026-09-13T21:21:13Z"}]
