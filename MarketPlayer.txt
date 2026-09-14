@@ -1,4 +1,3 @@
-Potulski | 8,360,542 € | Market | 2026-09-14 10:41:14
 Dahmen | 16,921,679 € | Market | 2026-09-14 14:40:41
 Mane | 4,001,877 € | Market | 2026-09-14 15:00:44
 Olschowsky | 500,000 € | Market | 2026-09-14 15:06:59
@@ -17,13 +16,17 @@ Claude-Maurice | 8,679,528 € | Market | 2026-09-15 11:13:25
 Hoffmeier | 2,789,470 € | Market | 2026-09-15 12:16:46
 Tangvik | 500,000 € | Market | 2026-09-15 17:01:50
 Yamamoto | 2,173,773 € | Market | 2026-09-15 17:34:56
+Ribeiro | 5,187,742 € | Market | 2026-09-15 18:28:11
 Leopold | 3,827,146 € | Market | 2026-09-15 19:29:14
 Kramarić | 10,429,000 € | Market | 2026-09-15 21:00:14
+Karl | 20,835,971 € | Market | 2026-09-15 21:58:07
 Ulreich | 500,000 € | CoachLeisi | Kein Ablaufdatum
 Bell | 1,393,310 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 7,447,100 € | Philipp | Kein Ablaufdatum
+Prömel | 16,821,335 € | CoachLeisi | Kein Ablaufdatum
 Davies | 15,765,446 € | Philipp | Kein Ablaufdatum
-Lee | 13,782,386 € | Robinho | Kein Ablaufdatum
+Musiala | 25,280,315 € | Robinho | Kein Ablaufdatum
+Agu | 1,130,484 € | Braunbär7 | Kein Ablaufdatum
 Scally | 6,896,102 € | Sascha187 | Kein Ablaufdatum
 Ibrahimović | 8,477,511 € | Braunbär7 | Kein Ablaufdatum
 Conté | 9,553,294 € | Braunbär7 | Kein Ablaufdatum
