@@ -1,8 +1,3 @@
-Chabot | 22,225,497 € | Market | 2026-09-14 17:20:39
-Kofane | 10,015,113 € | Market | 2026-09-14 18:36:57
-Sauer | 4,931,471 € | Market | 2026-09-14 18:59:17
-Skarke | 7,031,131 € | Market | 2026-09-14 19:55:49
-Hansen | 6,866,770 € | Market | 2026-09-14 20:05:27
 Zimmerschied | 1,082,595 € | Market | 2026-09-15 01:09:27
 Terrier | 2,175,467 € | Market | 2026-09-15 03:20:31
 Spalt | 1,399,453 € | Market | 2026-09-15 05:59:39
@@ -18,21 +13,25 @@ Ribeiro | 5,187,742 € | Market | 2026-09-15 18:28:12
 Leopold | 3,827,146 € | Market | 2026-09-15 19:29:15
 Kramarić | 10,429,000 € | Market | 2026-09-15 21:00:15
 Karl | 20,835,971 € | Market | 2026-09-15 21:58:08
+Castañeda | 9,732,505 € | Market | 2026-09-15 22:22:38
+Grüll | 9,497,747 € | Market | 2026-09-16 04:01:33
+Mensah | 10,404,575 € | Market | 2026-09-16 05:56:17
+Schwolow | 4,668,964 € | Market | 2026-09-16 12:30:55
+Marino | 4,206,287 € | Market | 2026-09-16 16:10:41
 Ulreich | 500,000 € | CoachLeisi | Kein Ablaufdatum
 Bell | 1,393,310 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 7,447,100 € | Philipp | Kein Ablaufdatum
 Davies | 15,765,446 € | Philipp | Kein Ablaufdatum
+Lee | 13,782,386 € | Robinho | Kein Ablaufdatum
 Musiala | 25,280,315 € | Robinho | Kein Ablaufdatum
 Agu | 1,130,484 € | Braunbär7 | Kein Ablaufdatum
 Scally | 6,896,102 € | Sascha187 | Kein Ablaufdatum
 Conté | 9,553,294 € | Braunbär7 | Kein Ablaufdatum
 Boniface | 3,929,083 € | Julian | Kein Ablaufdatum
-Gosens | 8,467,619 € | Vanilleeis23 | Kein Ablaufdatum
 Stergiou | 1,189,635 € | Braunbär7 | Kein Ablaufdatum
 Onyeka | 10,604,352 € | Julian | Kein Ablaufdatum
 Petersson | 500,000 € | Sascha187 | Kein Ablaufdatum
 Maksimovic | 5,782,516 € | Julian | Kein Ablaufdatum
-Ebnoutalib | 16,258,586 € | Sascha187 | Kein Ablaufdatum
 Schmied | 2,476,587 € | Sascha187 | Kein Ablaufdatum
 Ben Seghir | 4,761,733 € | Philipp | Kein Ablaufdatum
 Arrhov | 763,983 € | Robinho | Kein Ablaufdatum
