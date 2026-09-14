@@ -1,6 +1,3 @@
-Dahmen | 16,921,679 € | Market | 2026-09-14 14:40:41
-Mane | 4,001,877 € | Market | 2026-09-14 15:00:44
-Olschowsky | 500,000 € | Market | 2026-09-14 15:06:59
 Chabot | 22,225,497 € | Market | 2026-09-14 17:20:38
 Kofane | 10,015,113 € | Market | 2026-09-14 18:36:56
 Sauer | 4,931,471 € | Market | 2026-09-14 18:59:16
@@ -10,6 +7,7 @@ Zimmerschied | 1,082,595 € | Market | 2026-09-15 01:09:26
 Terrier | 2,175,467 € | Market | 2026-09-15 03:20:30
 Spalt | 1,399,453 € | Market | 2026-09-15 05:59:38
 Suso | 502,120 € | Market | 2026-09-15 06:20:46
+Petkov | 12,379,853 € | Market | 2026-09-15 09:16:56
 Nicolas | 17,607,847 € | Market | 2026-09-15 09:48:20
 Bellingham | 19,541,083 € | Market | 2026-09-15 10:17:53
 Claude-Maurice | 8,679,528 € | Market | 2026-09-15 11:13:25
@@ -23,19 +21,15 @@ Karl | 20,835,971 € | Market | 2026-09-15 21:58:07
 Ulreich | 500,000 € | CoachLeisi | Kein Ablaufdatum
 Bell | 1,393,310 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 7,447,100 € | Philipp | Kein Ablaufdatum
-Prömel | 16,821,335 € | CoachLeisi | Kein Ablaufdatum
 Davies | 15,765,446 € | Philipp | Kein Ablaufdatum
 Musiala | 25,280,315 € | Robinho | Kein Ablaufdatum
 Agu | 1,130,484 € | Braunbär7 | Kein Ablaufdatum
 Scally | 6,896,102 € | Sascha187 | Kein Ablaufdatum
-Ibrahimović | 8,477,511 € | Braunbär7 | Kein Ablaufdatum
 Conté | 9,553,294 € | Braunbär7 | Kein Ablaufdatum
 Boniface | 3,929,083 € | Julian | Kein Ablaufdatum
-Makengo | 10,455,155 € | Braunbär7 | Kein Ablaufdatum
 Gosens | 8,467,619 € | Vanilleeis23 | Kein Ablaufdatum
 Stergiou | 1,189,635 € | Braunbär7 | Kein Ablaufdatum
 Onyeka | 10,604,352 € | Julian | Kein Ablaufdatum
-Konoplia | 2,120,516 € | Braunbär7 | Kein Ablaufdatum
 Petersson | 500,000 € | Sascha187 | Kein Ablaufdatum
 Maksimovic | 5,782,516 € | Julian | Kein Ablaufdatum
 Ebnoutalib | 16,258,586 € | Sascha187 | Kein Ablaufdatum
@@ -43,4 +37,3 @@ Schmied | 2,476,587 € | Sascha187 | Kein Ablaufdatum
 Ben Seghir | 4,761,733 € | Philipp | Kein Ablaufdatum
 Arrhov | 763,983 € | Robinho | Kein Ablaufdatum
 Reggiani | 4,653,384 € | Robinho | Kein Ablaufdatum
-Nguefack | 2,975,515 € | Braunbär7 | Kein Ablaufdatum

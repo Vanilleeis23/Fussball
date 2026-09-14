@@ -1,3 +1,7 @@
+[{"slr": "Braunbär7"}, {"pn": "Nguefack"}, {"trp": 2975515}, {"dt": "2026-09-14T15:48:13Z"}]
+[{"byr": "CoachLeisi"}, {"pn": "Dahmen"}, {"trp": 17600000}, {"dt": "2026-09-14T14:40:50Z"}]
+[{"byr": "Vanilleeis23"}, {"pn": "Prömel"}, {"trp": 17250000}, {"dt": "2026-09-14T13:27:54Z"}]
+[{"slr": "CoachLeisi"}, {"pn": "Prömel"}, {"trp": 17250000}, {"dt": "2026-09-14T13:27:54Z"}]
 [{"byr": "MirkoHengst"}, {"pn": "Potulski"}, {"trp": 10074347}, {"dt": "2026-09-14T10:41:36Z"}]
 [{"slr": "Sascha187"}, {"pn": "Lippmann"}, {"trp": 2063373}, {"dt": "2026-09-14T08:31:37Z"}]
 [{"slr": "CoachLeisi"}, {"pn": "Wolf"}, {"trp": 9895436}, {"dt": "2026-09-14T07:28:34Z"}]
