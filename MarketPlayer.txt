@@ -1,12 +1,9 @@
-Chaïbi | 8,780,673 € | Market | 2026-09-14 01:10:30
-Pfeiffer | 884,816 € | Market | 2026-09-14 01:45:01
-Andrich | 3,625,590 € | Market | 2026-09-14 02:12:44
-Reggiani | 4,653,384 € | Market | 2026-09-14 02:19:16
 Trimmel | 1,786,741 € | Market | 2026-09-14 04:31:27
 Philipp | 500,000 € | Market | 2026-09-14 05:35:17
 Hendriks | 7,897,242 € | Market | 2026-09-14 06:36:00
 Potulski | 8,360,542 € | Market | 2026-09-14 10:41:15
 Dahmen | 16,921,679 € | Market | 2026-09-14 14:40:42
+Mane | 4,001,877 € | Market | 2026-09-14 15:00:45
 Olschowsky | 500,000 € | Market | 2026-09-14 15:07:00
 Chabot | 22,225,497 € | Market | 2026-09-14 17:20:39
 Kofane | 10,015,113 € | Market | 2026-09-14 18:36:57
@@ -17,7 +14,9 @@ Zimmerschied | 1,082,595 € | Market | 2026-09-15 01:09:27
 Spalt | 1,399,453 € | Market | 2026-09-15 05:59:39
 Bellingham | 19,541,083 € | Market | 2026-09-15 10:17:54
 Claude-Maurice | 8,679,528 € | Market | 2026-09-15 11:13:26
+Tangvik | 500,000 € | Market | 2026-09-15 17:01:51
 Yamamoto | 2,173,773 € | Market | 2026-09-15 17:34:57
+Leopold | 3,827,146 € | Market | 2026-09-15 19:29:15
 Bell | 1,393,310 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 7,447,100 € | Philipp | Kein Ablaufdatum
 Wolf | 9,895,436 € | CoachLeisi | Kein Ablaufdatum
