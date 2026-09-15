@@ -1,5 +1,3 @@
-Spalt | 1,762,428 € | Market | 2026-09-15 05:59:39
-Suso | 500,000 € | Market | 2026-09-15 06:20:47
 Petkov | 12,574,130 € | Market | 2026-09-15 09:16:57
 Nicolas | 17,150,185 € | Market | 2026-09-15 09:48:21
 Bellingham | 19,771,524 € | Market | 2026-09-15 10:17:54
@@ -20,6 +18,8 @@ Mensah | 10,588,870 € | Market | 2026-09-16 05:56:17
 Schwolow | 5,068,619 € | Market | 2026-09-16 12:30:55
 Obermair | 8,697,976 € | Market | 2026-09-16 16:07:28
 Marino | 4,081,815 € | Market | 2026-09-16 16:10:41
+Chiarodia | 2,291,076 € | Market | 2026-09-16 17:59:00
+Friedrich | 846,861 € | Market | 2026-09-17 00:55:27
 Bell | 1,682,796 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 7,818,644 € | Philipp | Kein Ablaufdatum
 Lee | 13,793,833 € | Robinho | Kein Ablaufdatum
@@ -34,5 +34,6 @@ Onyeka | 9,971,579 € | Julian | Kein Ablaufdatum
 Petersson | 500,000 € | Sascha187 | Kein Ablaufdatum
 Maksimovic | 6,120,496 € | Julian | Kein Ablaufdatum
 Schmied | 2,727,008 € | Sascha187 | Kein Ablaufdatum
+Banzuzi | 10,008,294 € | Julian | Kein Ablaufdatum
 Arrhov | 648,550 € | Robinho | Kein Ablaufdatum
 Reggiani | 5,056,416 € | Robinho | Kein Ablaufdatum

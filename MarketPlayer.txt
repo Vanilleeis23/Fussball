@@ -1,4 +1,3 @@
-Petkov | 12,574,130 € | Market | 2026-09-15 09:16:57
 Nicolas | 17,150,185 € | Market | 2026-09-15 09:48:21
 Bellingham | 19,771,524 € | Market | 2026-09-15 10:17:54
 Claude-Maurice | 8,985,874 € | Market | 2026-09-15 11:13:26
@@ -22,15 +21,15 @@ Chiarodia | 2,291,076 € | Market | 2026-09-16 17:59:00
 Friedrich | 846,861 € | Market | 2026-09-17 00:55:27
 Bell | 1,682,796 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 7,818,644 € | Philipp | Kein Ablaufdatum
-Lee | 13,793,833 € | Robinho | Kein Ablaufdatum
+Skarke | 7,306,803 € | Joel | Kein Ablaufdatum
 Musiala | 25,381,075 € | Robinho | Kein Ablaufdatum
-Agu | 1,027,783 € | Braunbär7 | Kein Ablaufdatum
 Scally | 7,135,107 € | Sascha187 | Kein Ablaufdatum
 Conté | 9,679,125 € | Braunbär7 | Kein Ablaufdatum
+Minjae | 13,234,951 € | Joel | Kein Ablaufdatum
 Boniface | 3,798,889 € | Julian | Kein Ablaufdatum
 Gosens | 8,805,182 € | Vanilleeis23 | Kein Ablaufdatum
-Stergiou | 1,045,912 € | Braunbär7 | Kein Ablaufdatum
 Onyeka | 9,971,579 € | Julian | Kein Ablaufdatum
+Sauer | 5,213,464 € | Joel | Kein Ablaufdatum
 Petersson | 500,000 € | Sascha187 | Kein Ablaufdatum
 Maksimovic | 6,120,496 € | Julian | Kein Ablaufdatum
 Schmied | 2,727,008 € | Sascha187 | Kein Ablaufdatum
