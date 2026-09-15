@@ -1,7 +1,3 @@
-Tangvik | 500,000 € | Market | 2026-09-15 17:01:52
-Yamamoto | 2,029,373 € | Market | 2026-09-15 17:34:58
-Ribeiro | 4,809,986 € | Market | 2026-09-15 18:28:13
-Leopold | 3,672,967 € | Market | 2026-09-15 19:29:16
 Kramarić | 10,006,959 € | Market | 2026-09-15 21:00:16
 Karl | 20,911,496 € | Market | 2026-09-15 21:58:09
 Castañeda | 9,494,451 € | Market | 2026-09-15 22:22:39
@@ -18,12 +14,14 @@ Porath | 767,782 € | Market | 2026-09-16 16:45:26
 Baack | 1,138,576 € | Market | 2026-09-16 17:05:07
 Chiarodia | 2,291,076 € | Market | 2026-09-16 17:59:01
 Friedrich | 846,861 € | Market | 2026-09-17 00:55:28
+Torunarigha | 7,108,374 € | Market | 2026-09-17 01:54:16
+Ndiaye | 816,989 € | Market | 2026-09-17 05:25:45
 Nartey | 4,150,221 € | Market | 2026-09-17 05:30:47
 Musah | 2,948,760 € | Market | 2026-09-17 10:22:52
 Bell | 1,682,796 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 7,818,644 € | Philipp | Kein Ablaufdatum
+Lee | 13,793,833 € | Robinho | Kein Ablaufdatum
 Skarke | 7,306,803 € | Joel | Kein Ablaufdatum
-Musiala | 25,381,075 € | Robinho | Kein Ablaufdatum
 Agu | 1,027,783 € | Braunbär7 | Kein Ablaufdatum
 Scally | 7,135,107 € | Sascha187 | Kein Ablaufdatum
 Conté | 9,679,125 € | Braunbär7 | Kein Ablaufdatum
