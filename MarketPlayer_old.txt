@@ -1,25 +1,24 @@
-Dōan | 16,766,019 € | Market | 2026-09-16 05:34:17
-Mensah | 10,747,015 € | Market | 2026-09-16 05:56:18
-Schwolow | 5,411,987 € | Market | 2026-09-16 12:30:56
-Kawasaki | 1,501,133 € | Market | 2026-09-16 13:03:45
-Futkeu | 6,586,425 € | Market | 2026-09-16 15:08:35
-Obermair | 8,405,062 € | Market | 2026-09-16 16:07:29
-Marino | 3,965,849 € | Market | 2026-09-16 16:10:42
-Porath | 661,293 € | Market | 2026-09-16 16:45:26
-Bensebaini | 13,791,510 € | Market | 2026-09-16 16:51:09
-Baack | 1,014,271 € | Market | 2026-09-16 17:05:07
-Chiarodia | 2,150,241 € | Market | 2026-09-16 17:59:01
-Ayhan | 3,218,035 € | Market | 2026-09-16 18:27:23
-Friedrich | 771,084 € | Market | 2026-09-17 00:55:28
-Führich | 19,232,740 € | Market | 2026-09-17 00:59:27
-Torunarigha | 6,938,578 € | Market | 2026-09-17 01:54:16
-Heuer Fernandes | 10,952,837 € | Market | 2026-09-17 01:56:45
-Philippe | 5,644,811 € | Market | 2026-09-17 02:43:46
-Ndiaye | 743,034 € | Market | 2026-09-17 05:25:45
-Nartey | 4,430,579 € | Market | 2026-09-17 05:30:47
-van den Berg | 1,690,735 € | Market | 2026-09-17 08:28:39
-Musah | 2,815,090 € | Market | 2026-09-17 10:22:52
-Da Costa | 8,508,145 € | Market | 2026-09-17 20:20:04
+Mensah | 10,747,015 € | Market | 2026-09-16 05:56:19
+Schwolow | 5,411,987 € | Market | 2026-09-16 12:30:57
+Kawasaki | 1,501,133 € | Market | 2026-09-16 13:03:46
+Futkeu | 6,586,425 € | Market | 2026-09-16 15:08:36
+Obermair | 8,405,062 € | Market | 2026-09-16 16:07:30
+Marino | 3,965,849 € | Market | 2026-09-16 16:10:43
+Porath | 661,293 € | Market | 2026-09-16 16:45:27
+Bensebaini | 13,791,510 € | Market | 2026-09-16 16:51:10
+Baack | 1,014,271 € | Market | 2026-09-16 17:05:08
+Chiarodia | 2,150,241 € | Market | 2026-09-16 17:59:02
+Ayhan | 3,218,035 € | Market | 2026-09-16 18:27:24
+Friedrich | 771,084 € | Market | 2026-09-17 00:55:29
+Führich | 19,232,740 € | Market | 2026-09-17 00:59:28
+Torunarigha | 6,938,578 € | Market | 2026-09-17 01:54:17
+Heuer Fernandes | 10,952,837 € | Market | 2026-09-17 01:56:46
+Philippe | 5,644,811 € | Market | 2026-09-17 02:43:47
+Ndiaye | 743,034 € | Market | 2026-09-17 05:25:46
+Nartey | 4,430,579 € | Market | 2026-09-17 05:30:48
+van den Berg | 1,690,735 € | Market | 2026-09-17 08:28:40
+Musah | 2,815,090 € | Market | 2026-09-17 10:22:53
+Da Costa | 8,508,145 € | Market | 2026-09-17 20:20:05
 Bell | 1,954,270 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 8,178,051 € | Philipp | Kein Ablaufdatum
 Vagnoman | 11,680,462 € | CoachLeisi | Kein Ablaufdatum
