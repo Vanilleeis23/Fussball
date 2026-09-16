@@ -1,3 +1,7 @@
+[{"byr": "Braunbär7"}, {"pn": "Chiarodia"}, {"trp": 2416844}, {"dt": "2026-09-16T17:59:12Z"}]
+[{"byr": "Vanilleeis23"}, {"pn": "Obermair"}, {"trp": 8405069}, {"dt": "2026-09-16T16:07:57Z"}]
+[{"byr": "Sascha187"}, {"pn": "Moore"}, {"trp": 13000000}, {"dt": "2026-09-16T15:22:54Z"}]
+[{"slr": "Philipp"}, {"pn": "Moore"}, {"trp": 13000000}, {"dt": "2026-09-16T15:22:54Z"}]
 [{"slr": "CoachLeisi"}, {"pn": "Castañeda"}, {"trp": 9336600}, {"dt": "2026-09-16T13:05:51Z"}]
 [{"byr": "Timo Kramer "}, {"pn": "Schwolow"}, {"trp": 11238619}, {"dt": "2026-09-16T12:30:59Z"}]
 [{"byr": "Vanilleeis23"}, {"pn": "Banzuzi"}, {"trp": 10027080}, {"dt": "2026-09-16T10:08:03Z"}]
