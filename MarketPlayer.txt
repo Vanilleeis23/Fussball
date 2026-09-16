@@ -1,4 +1,3 @@
-Schwolow | 5,411,987 € | Market | 2026-09-16 12:30:56
 Kawasaki | 1,501,133 € | Market | 2026-09-16 13:03:45
 Futkeu | 6,586,425 € | Market | 2026-09-16 15:08:35
 Obermair | 8,405,062 € | Market | 2026-09-16 16:07:29
@@ -15,6 +14,7 @@ Heuer Fernandes | 10,952,837 € | Market | 2026-09-17 01:56:45
 Philippe | 5,644,811 € | Market | 2026-09-17 02:43:46
 Ndiaye | 743,034 € | Market | 2026-09-17 05:25:45
 Nartey | 4,430,579 € | Market | 2026-09-17 05:30:47
+Stiller | 27,868,318 € | Market | 2026-09-17 07:59:38
 van den Berg | 1,690,735 € | Market | 2026-09-17 08:28:39
 Musah | 2,815,090 € | Market | 2026-09-17 10:22:52
 Da Costa | 8,508,145 € | Market | 2026-09-17 20:20:04
@@ -29,14 +29,14 @@ Agu | 924,034 € | Braunbär7 | Kein Ablaufdatum
 Scally | 7,360,472 € | Sascha187 | Kein Ablaufdatum
 Conté | 9,816,334 € | Braunbär7 | Kein Ablaufdatum
 Minjae | 13,316,701 € | Joel | Kein Ablaufdatum
-Boniface | 3,687,512 € | Julian | Kein Ablaufdatum
 Stergiou | 925,557 € | Braunbär7 | Kein Ablaufdatum
 Sauer | 5,464,030 € | Joel | Kein Ablaufdatum
+Sylla | 8,525,574 € | Sascha187 | Kein Ablaufdatum
 Petersson | 500,000 € | Sascha187 | Kein Ablaufdatum
-Maksimovic | 6,411,451 € | Julian | Kein Ablaufdatum
+Mokwa | 9,320,742 € | Sascha187 | Kein Ablaufdatum
 Schmied | 2,996,663 € | Sascha187 | Kein Ablaufdatum
 Gomis | 10,174,468 € | Joel | Kein Ablaufdatum
-Banzuzi | 10,027,080 € | Julian | Kein Ablaufdatum
+Banzuzi | 10,027,080 € | Vanilleeis23 | Kein Ablaufdatum
 Arrhov | 564,367 € | Robinho | Kein Ablaufdatum
 Reggiani | 5,390,638 € | Robinho | Kein Ablaufdatum
 Moore | 11,876,317 € | Philipp | Kein Ablaufdatum
