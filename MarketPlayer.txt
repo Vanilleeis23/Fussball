@@ -1,20 +1,22 @@
-Friedrich | 771,084 € | Market | 2026-09-17 00:55:27
-Führich | 19,232,740 € | Market | 2026-09-17 00:59:26
-Torunarigha | 6,938,578 € | Market | 2026-09-17 01:54:15
-Heuer Fernandes | 10,952,837 € | Market | 2026-09-17 01:56:44
-Philippe | 5,644,811 € | Market | 2026-09-17 02:43:45
-Ndiaye | 743,034 € | Market | 2026-09-17 05:25:44
-Nartey | 4,430,579 € | Market | 2026-09-17 05:30:46
-Jeong | 4,053,269 € | Market | 2026-09-17 07:33:41
-Stiller | 27,868,318 € | Market | 2026-09-17 07:59:37
-van den Berg | 1,690,735 € | Market | 2026-09-17 08:28:38
-Musah | 2,815,090 € | Market | 2026-09-17 10:22:51
-Henrichs | 5,398,123 € | Market | 2026-09-17 18:02:20
-Daghim | 12,117,183 € | Market | 2026-09-17 19:57:05
-Da Costa | 8,508,145 € | Market | 2026-09-17 20:20:03
-Prates | 4,592,901 € | Market | 2026-09-17 23:13:54
-Krattenmacher | 6,226,376 € | Market | 2026-09-18 02:29:55
-Okon-Engstler | 3,660,986 € | Market | 2026-09-18 03:07:17
+Friedrich | 771,084 € | Market | 2026-09-17 00:55:28
+Führich | 19,232,740 € | Market | 2026-09-17 00:59:27
+Torunarigha | 6,938,578 € | Market | 2026-09-17 01:54:16
+Heuer Fernandes | 10,952,837 € | Market | 2026-09-17 01:56:45
+Philippe | 5,644,811 € | Market | 2026-09-17 02:43:46
+Ndiaye | 743,034 € | Market | 2026-09-17 05:25:45
+Nartey | 4,430,579 € | Market | 2026-09-17 05:30:47
+Jeong | 4,053,269 € | Market | 2026-09-17 07:33:42
+Stiller | 27,868,318 € | Market | 2026-09-17 07:59:38
+van den Berg | 1,690,735 € | Market | 2026-09-17 08:28:39
+Musah | 2,815,090 € | Market | 2026-09-17 10:22:52
+Seol | 2,251,572 € | Market | 2026-09-17 17:49:08
+Henrichs | 5,398,123 € | Market | 2026-09-17 18:02:21
+Daghim | 12,117,183 € | Market | 2026-09-17 19:57:06
+Da Costa | 8,508,145 € | Market | 2026-09-17 20:20:04
+Prates | 4,592,901 € | Market | 2026-09-17 23:13:55
+Krattenmacher | 6,226,376 € | Market | 2026-09-18 02:29:56
+Okon-Engstler | 3,660,986 € | Market | 2026-09-18 03:07:18
+Mickelson | 2,427,676 € | Market | 2026-09-18 06:01:41
 Bell | 1,954,270 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 8,178,051 € | Philipp | Kein Ablaufdatum
 Lee | 13,740,782 € | Robinho | Kein Ablaufdatum
