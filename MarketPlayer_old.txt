@@ -1,12 +1,10 @@
-Seol | 2,185,416 € | Market | 2026-09-17 17:49:07
-Henrichs | 5,750,467 € | Market | 2026-09-17 18:02:20
-Daghim | 12,374,790 € | Market | 2026-09-17 19:57:05
 Da Costa | 8,193,302 € | Market | 2026-09-17 20:20:03
 Prates | 4,433,084 € | Market | 2026-09-17 23:13:54
 Krattenmacher | 6,640,490 € | Market | 2026-09-18 02:29:55
 Okon-Engstler | 3,537,038 € | Market | 2026-09-18 03:07:17
 Mickelson | 2,313,841 € | Market | 2026-09-18 06:01:40
 Ryerson | 22,334,248 € | Market | 2026-09-18 07:34:31
+Leweling | 15,768,919 € | Market | 2026-09-18 08:57:45
 Erevbenagie | 2,795,314 € | Market | 2026-09-18 09:23:10
 Poulsen | 745,422 € | Market | 2026-09-18 09:42:12
 Zagadou | 635,152 € | Market | 2026-09-18 10:18:43
@@ -18,11 +16,15 @@ Latte Lath | 6,676,937 € | Market | 2026-09-19 00:49:41
 Nsoki | 674,969 € | Market | 2026-09-19 01:15:21
 Sambi Lokonga | 6,964,701 € | Market | 2026-09-19 01:57:25
 Ache | 10,757,857 € | Market | 2026-09-19 02:06:32
+Irié | 4,362,202 € | Market | 2026-09-19 02:44:33
 Anton | 34,051,557 € | Market | 2026-09-19 03:42:08
 Chandler | 823,413 € | Market | 2026-09-19 05:38:48
+Ruoppi | 1,423,962 € | Market | 2026-09-19 13:27:15
 Bell | 2,195,403 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 8,486,022 € | Philipp | Kein Ablaufdatum
+Baku | 21,916,703 € | Joel | Kein Ablaufdatum
 Skarke | 7,756,523 € | Joel | Kein Ablaufdatum
+Scally | 7,539,045 € | Sascha187 | Kein Ablaufdatum
 Philippe | 5,861,294 € | Sascha187 | Kein Ablaufdatum
 Hansen | 7,581,464 € | Timo Kramer  | Kein Ablaufdatum
 Suso | 500,000 € | Robinho | Kein Ablaufdatum
