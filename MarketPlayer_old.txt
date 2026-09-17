@@ -1,5 +1,3 @@
-Musah | 2,681,026 € | Market | 2026-09-17 10:22:51
-El-Faouzi | 13,495,068 € | Market | 2026-09-17 14:06:05
 Finkgräfe | 2,387,712 € | Market | 2026-09-17 16:17:34
 Seol | 2,185,416 € | Market | 2026-09-17 17:49:07
 Henrichs | 5,750,467 € | Market | 2026-09-17 18:02:20
@@ -11,18 +9,25 @@ Okon-Engstler | 3,537,038 € | Market | 2026-09-18 03:07:17
 Mickelson | 2,313,841 € | Market | 2026-09-18 06:01:40
 Ryerson | 22,334,248 € | Market | 2026-09-18 07:34:31
 Poulsen | 745,422 € | Market | 2026-09-18 09:42:12
+Zagadou | 635,152 € | Market | 2026-09-18 10:18:43
 Ito | 3,223,875 € | Market | 2026-09-18 11:30:55
 Kemlein | 5,525,553 € | Market | 2026-09-18 15:42:51
 Jatta | 4,244,347 € | Market | 2026-09-18 19:30:55
 Adam | 1,568,521 € | Market | 2026-09-18 23:29:31
+Latte Lath | 6,676,937 € | Market | 2026-09-19 00:49:41
 Nsoki | 674,969 € | Market | 2026-09-19 01:15:21
 Sambi Lokonga | 6,964,701 € | Market | 2026-09-19 01:57:25
 Ache | 10,757,857 € | Market | 2026-09-19 02:06:32
+Anton | 34,051,557 € | Market | 2026-09-19 03:42:08
+Chandler | 823,413 € | Market | 2026-09-19 05:38:48
 Bell | 2,195,403 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 8,486,022 € | Philipp | Kein Ablaufdatum
 Skarke | 7,756,523 € | Joel | Kein Ablaufdatum
+Philippe | 5,861,294 € | Sascha187 | Kein Ablaufdatum
+Hansen | 7,581,464 € | Timo Kramer  | Kein Ablaufdatum
 Suso | 500,000 € | Robinho | Kein Ablaufdatum
 Sauer | 5,671,146 € | Joel | Kein Ablaufdatum
+Chuki | 10,294,692 € | Sascha187 | Kein Ablaufdatum
 Sylla | 8,516,420 € | Sascha187 | Kein Ablaufdatum
 Schmied | 3,335,894 € | Sascha187 | Kein Ablaufdatum
 Gomis | 10,286,763 € | Joel | Kein Ablaufdatum
