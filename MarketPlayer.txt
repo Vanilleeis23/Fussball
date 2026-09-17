@@ -1,24 +1,22 @@
-Führich | 18,901,848 € | Market | 2026-09-17 00:59:27
-Torunarigha | 6,748,370 € | Market | 2026-09-17 01:54:16
-Heuer Fernandes | 10,762,917 € | Market | 2026-09-17 01:56:45
-Philippe | 5,861,294 € | Market | 2026-09-17 02:43:46
-Ndiaye | 692,196 € | Market | 2026-09-17 05:25:45
-Nartey | 4,742,049 € | Market | 2026-09-17 05:30:47
-Jeong | 3,942,336 € | Market | 2026-09-17 07:33:42
-Stiller | 27,219,363 € | Market | 2026-09-17 07:59:38
-van den Berg | 1,951,520 € | Market | 2026-09-17 08:28:39
-Musah | 2,681,026 € | Market | 2026-09-17 10:22:52
-El-Faouzi | 13,495,068 € | Market | 2026-09-17 14:06:06
-Finkgräfe | 2,387,712 € | Market | 2026-09-17 16:17:35
-Seol | 2,185,416 € | Market | 2026-09-17 17:49:08
-Henrichs | 5,750,467 € | Market | 2026-09-17 18:02:21
-Daghim | 12,374,790 € | Market | 2026-09-17 19:57:06
-Da Costa | 8,193,302 € | Market | 2026-09-17 20:20:04
-Prates | 4,433,084 € | Market | 2026-09-17 23:13:55
-Krattenmacher | 6,640,490 € | Market | 2026-09-18 02:29:56
-Okon-Engstler | 3,537,038 € | Market | 2026-09-18 03:07:18
-Mickelson | 2,313,841 € | Market | 2026-09-18 06:01:41
-Kemlein | 5,525,553 € | Market | 2026-09-18 15:42:52
+Ndiaye | 692,196 € | Market | 2026-09-17 05:25:44
+Nartey | 4,742,049 € | Market | 2026-09-17 05:30:46
+Jeong | 3,942,336 € | Market | 2026-09-17 07:33:41
+Stiller | 27,219,363 € | Market | 2026-09-17 07:59:37
+van den Berg | 1,951,520 € | Market | 2026-09-17 08:28:38
+Musah | 2,681,026 € | Market | 2026-09-17 10:22:51
+El-Faouzi | 13,495,068 € | Market | 2026-09-17 14:06:05
+Finkgräfe | 2,387,712 € | Market | 2026-09-17 16:17:34
+Seol | 2,185,416 € | Market | 2026-09-17 17:49:07
+Henrichs | 5,750,467 € | Market | 2026-09-17 18:02:20
+Daghim | 12,374,790 € | Market | 2026-09-17 19:57:05
+Da Costa | 8,193,302 € | Market | 2026-09-17 20:20:03
+Prates | 4,433,084 € | Market | 2026-09-17 23:13:54
+Krattenmacher | 6,640,490 € | Market | 2026-09-18 02:29:55
+Okon-Engstler | 3,537,038 € | Market | 2026-09-18 03:07:17
+Mickelson | 2,313,841 € | Market | 2026-09-18 06:01:40
+Kemlein | 5,525,553 € | Market | 2026-09-18 15:42:51
+Adam | 1,568,521 € | Market | 2026-09-18 23:29:31
+Sambi Lokonga | 6,964,701 € | Market | 2026-09-19 01:57:25
 Bell | 2,195,403 € | Vanilleeis23 | Kein Ablaufdatum
 Gyamerah | 8,486,022 € | Philipp | Kein Ablaufdatum
 Skarke | 7,756,523 € | Joel | Kein Ablaufdatum
