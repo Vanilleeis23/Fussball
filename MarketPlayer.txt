@@ -1,25 +1,24 @@
-Moffi | 3,626,278 € | Market | 2026-09-18 21:53:36
-Remberg | 7,675,832 € | Market | 2026-09-18 21:59:49
-Adam | 1,435,396 € | Market | 2026-09-18 23:29:31
-Latte Lath | 6,354,714 € | Market | 2026-09-19 00:49:41
-Nsoki | 610,384 € | Market | 2026-09-19 01:15:21
-Sambi Lokonga | 6,883,431 € | Market | 2026-09-19 01:57:25
-Ache | 10,343,650 € | Market | 2026-09-19 02:06:32
-Irié | 4,241,387 € | Market | 2026-09-19 02:44:33
-Anton | 34,054,829 € | Market | 2026-09-19 03:42:08
-Burcu | 4,137,967 € | Market | 2026-09-19 05:17:27
-Chandler | 1,138,952 € | Market | 2026-09-19 05:38:48
-Gantenbein | 500,000 € | Market | 2026-09-19 07:24:30
-Günter | 2,777,492 € | Market | 2026-09-19 09:39:37
-Schnellbacher | 2,722,665 € | Market | 2026-09-19 09:59:11
-Ogundu | 1,461,933 € | Market | 2026-09-19 10:43:30
-Ruoppi | 1,676,004 € | Market | 2026-09-19 13:27:15
-Simpson-Pusey | 10,156,495 € | Market | 2026-09-19 15:17:50
-Beste | 14,934,363 € | Market | 2026-09-19 18:38:47
-Querfeld | 12,046,172 € | Market | 2026-09-19 18:55:21
-Kübler | 5,214,344 € | Market | 2026-09-19 20:15:57
-Duric | 631,802 € | Market | 2026-09-19 20:21:53
-Becker | 9,351,200 € | Market | 2026-09-20 09:48:29
-Obermair | 7,896,052 € | Vanilleeis23 | Kein Ablaufdatum
-Kemlein | 5,319,826 € | Vanilleeis23 | Kein Ablaufdatum
-Arrhov | 500,000 € | Vanilleeis23 | Kein Ablaufdatum
+Latte Lath | 6,072,493 € | Market | 2026-09-19 00:49:41
+Nsoki | 568,274 € | Market | 2026-09-19 01:15:21
+Sambi Lokonga | 6,876,815 € | Market | 2026-09-19 01:57:25
+Ache | 10,032,601 € | Market | 2026-09-19 02:06:32
+Irié | 4,128,432 € | Market | 2026-09-19 02:44:33
+Anton | 33,959,728 € | Market | 2026-09-19 03:42:08
+Burcu | 4,040,499 € | Market | 2026-09-19 05:17:27
+Chandler | 1,424,349 € | Market | 2026-09-19 05:38:48
+Gantenbein | 513,114 € | Market | 2026-09-19 07:24:30
+Günter | 2,685,130 € | Market | 2026-09-19 09:39:37
+Schnellbacher | 2,611,857 € | Market | 2026-09-19 09:59:11
+Ogundu | 1,347,583 € | Market | 2026-09-19 10:43:30
+Ruoppi | 1,905,483 € | Market | 2026-09-19 13:27:15
+Simpson-Pusey | 10,198,566 € | Market | 2026-09-19 15:17:50
+Collins | 6,096,427 € | Market | 2026-09-19 15:57:04
+Schick | 29,731,850 € | Market | 2026-09-19 18:20:40
+Beste | 14,989,721 € | Market | 2026-09-19 18:38:47
+Querfeld | 11,808,951 € | Market | 2026-09-19 18:55:21
+Kübler | 4,957,470 € | Market | 2026-09-19 20:15:57
+Duric | 572,479 € | Market | 2026-09-19 20:21:53
+Becker | 9,419,043 € | Market | 2026-09-20 09:48:29
+Lemperle | 14,004,652 € | Vanilleeis23 | Kein Ablaufdatum
+Pinckert | 11,574,916 € | Vanilleeis23 | Kein Ablaufdatum
+Arrhov | 509,739 € | Vanilleeis23 | Kein Ablaufdatum
