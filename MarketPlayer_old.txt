@@ -1,38 +1,35 @@
-Da Costa | 8,193,302 € | Market | 2026-09-17 20:20:03
-Prates | 4,433,084 € | Market | 2026-09-17 23:13:54
-Krattenmacher | 6,640,490 € | Market | 2026-09-18 02:29:55
-Okon-Engstler | 3,537,038 € | Market | 2026-09-18 03:07:17
-Mickelson | 2,313,841 € | Market | 2026-09-18 06:01:40
-Ryerson | 22,334,248 € | Market | 2026-09-18 07:34:31
-Leweling | 15,768,919 € | Market | 2026-09-18 08:57:45
-Erevbenagie | 2,795,314 € | Market | 2026-09-18 09:23:10
-Poulsen | 745,422 € | Market | 2026-09-18 09:42:12
-Zagadou | 635,152 € | Market | 2026-09-18 10:18:43
-Ito | 3,223,875 € | Market | 2026-09-18 11:30:55
-Kemlein | 5,525,553 € | Market | 2026-09-18 15:42:51
-Jatta | 4,244,347 € | Market | 2026-09-18 19:30:55
-Adam | 1,568,521 € | Market | 2026-09-18 23:29:31
-Latte Lath | 6,676,937 € | Market | 2026-09-19 00:49:41
-Nsoki | 674,969 € | Market | 2026-09-19 01:15:21
-Sambi Lokonga | 6,964,701 € | Market | 2026-09-19 01:57:25
-Ache | 10,757,857 € | Market | 2026-09-19 02:06:32
-Irié | 4,362,202 € | Market | 2026-09-19 02:44:33
-Anton | 34,051,557 € | Market | 2026-09-19 03:42:08
-Chandler | 823,413 € | Market | 2026-09-19 05:38:48
-Ruoppi | 1,423,962 € | Market | 2026-09-19 13:27:15
-Bell | 2,195,403 € | Vanilleeis23 | Kein Ablaufdatum
-Gyamerah | 8,486,022 € | Philipp | Kein Ablaufdatum
-Baku | 21,916,703 € | Joel | Kein Ablaufdatum
-Skarke | 7,756,523 € | Joel | Kein Ablaufdatum
-Scally | 7,539,045 € | Sascha187 | Kein Ablaufdatum
-Philippe | 5,861,294 € | Sascha187 | Kein Ablaufdatum
-Hansen | 7,581,464 € | Timo Kramer  | Kein Ablaufdatum
+Krattenmacher | 7,033,894 € | Market | 2026-09-18 02:29:55
+Okon-Engstler | 3,414,532 € | Market | 2026-09-18 03:07:17
+Mickelson | 2,199,780 € | Market | 2026-09-18 06:01:40
+Ryerson | 21,897,991 € | Market | 2026-09-18 07:34:31
+Leweling | 15,183,183 € | Market | 2026-09-18 08:57:45
+Erevbenagie | 2,697,107 € | Market | 2026-09-18 09:23:10
+Poulsen | 728,610 € | Market | 2026-09-18 09:42:12
+Zagadou | 847,908 € | Market | 2026-09-18 10:18:43
+Ito | 3,168,929 € | Market | 2026-09-18 11:30:55
+Kemlein | 5,319,826 € | Market | 2026-09-18 15:42:51
+Jatta | 4,113,853 € | Market | 2026-09-18 19:30:55
+Remberg | 7,675,832 € | Market | 2026-09-18 21:59:49
+Adam | 1,435,396 € | Market | 2026-09-18 23:29:31
+Latte Lath | 6,354,714 € | Market | 2026-09-19 00:49:41
+Nsoki | 610,384 € | Market | 2026-09-19 01:15:21
+Sambi Lokonga | 6,883,431 € | Market | 2026-09-19 01:57:25
+Ache | 10,343,650 € | Market | 2026-09-19 02:06:32
+Irié | 4,241,387 € | Market | 2026-09-19 02:44:33
+Anton | 34,054,829 € | Market | 2026-09-19 03:42:08
+Chandler | 1,138,952 € | Market | 2026-09-19 05:38:48
+Ruoppi | 1,676,004 € | Market | 2026-09-19 13:27:15
+Simpson-Pusey | 10,156,495 € | Market | 2026-09-19 15:17:50
+Bell | 2,396,523 € | Vanilleeis23 | Kein Ablaufdatum
+Gyamerah | 8,727,414 € | Philipp | Kein Ablaufdatum
+Baku | 21,938,031 € | Joel | Kein Ablaufdatum
+Skarke | 7,880,319 € | Joel | Kein Ablaufdatum
+Philippe | 5,995,816 € | Sascha187 | Kein Ablaufdatum
+Hansen | 7,630,117 € | Timo Kramer  | Kein Ablaufdatum
 Suso | 500,000 € | Robinho | Kein Ablaufdatum
-Sauer | 5,671,146 € | Joel | Kein Ablaufdatum
-Chuki | 10,294,692 € | Sascha187 | Kein Ablaufdatum
-Sylla | 8,516,420 € | Sascha187 | Kein Ablaufdatum
-Schmied | 3,335,894 € | Sascha187 | Kein Ablaufdatum
-Gomis | 10,286,763 € | Joel | Kein Ablaufdatum
-Banzuzi | 10,053,982 € | Vanilleeis23 | Kein Ablaufdatum
-Arrhov | 508,769 € | Robinho | Kein Ablaufdatum
-Reggiani | 5,682,071 € | Vanilleeis23 | Kein Ablaufdatum
+Sauer | 5,809,976 € | Joel | Kein Ablaufdatum
+Sylla | 8,317,004 € | Sascha187 | Kein Ablaufdatum
+Gomis | 10,380,430 € | Joel | Kein Ablaufdatum
+Banzuzi | 10,059,832 € | Vanilleeis23 | Kein Ablaufdatum
+Arrhov | 500,000 € | Robinho | Kein Ablaufdatum
+Reggiani | 5,863,794 € | Vanilleeis23 | Kein Ablaufdatum
