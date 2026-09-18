@@ -1,4 +1,3 @@
-Jatta | 4,113,853 € | Market | 2026-09-18 19:30:55
 Moffi | 3,626,278 € | Market | 2026-09-18 21:53:36
 Remberg | 7,675,832 € | Market | 2026-09-18 21:59:49
 Adam | 1,435,396 € | Market | 2026-09-18 23:29:31
@@ -11,6 +10,7 @@ Anton | 34,054,829 € | Market | 2026-09-19 03:42:08
 Burcu | 4,137,967 € | Market | 2026-09-19 05:17:27
 Chandler | 1,138,952 € | Market | 2026-09-19 05:38:48
 Gantenbein | 500,000 € | Market | 2026-09-19 07:24:30
+Günter | 2,777,492 € | Market | 2026-09-19 09:39:37
 Schnellbacher | 2,722,665 € | Market | 2026-09-19 09:59:11
 Ogundu | 1,461,933 € | Market | 2026-09-19 10:43:30
 Ruoppi | 1,676,004 € | Market | 2026-09-19 13:27:15
@@ -20,13 +20,6 @@ Querfeld | 12,046,172 € | Market | 2026-09-19 18:55:21
 Kübler | 5,214,344 € | Market | 2026-09-19 20:15:57
 Duric | 631,802 € | Market | 2026-09-19 20:21:53
 Becker | 9,351,200 € | Market | 2026-09-20 09:48:29
-Gyamerah | 8,727,414 € | Philipp | Kein Ablaufdatum
 Obermair | 7,896,052 € | Vanilleeis23 | Kein Ablaufdatum
-Baku | 21,938,031 € | Joel | Kein Ablaufdatum
-Skarke | 7,880,319 € | Joel | Kein Ablaufdatum
 Kemlein | 5,319,826 € | Vanilleeis23 | Kein Ablaufdatum
-Philippe | 5,995,816 € | Sascha187 | Kein Ablaufdatum
-Sauer | 5,809,976 € | Joel | Kein Ablaufdatum
-Sylla | 8,317,004 € | Sascha187 | Kein Ablaufdatum
-Schmied | 3,663,610 € | Sascha187 | Kein Ablaufdatum
 Arrhov | 500,000 € | Vanilleeis23 | Kein Ablaufdatum
