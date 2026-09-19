@@ -1,6 +1,3 @@
-Günter | 2,685,130 € | Market | 2026-09-19 09:39:37
-Schnellbacher | 2,611,857 € | Market | 2026-09-19 09:59:11
-Ogundu | 1,347,583 € | Market | 2026-09-19 10:43:30
 Ruoppi | 1,905,483 € | Market | 2026-09-19 13:27:15
 Simpson-Pusey | 10,198,566 € | Market | 2026-09-19 15:17:50
 Collins | 6,096,427 € | Market | 2026-09-19 15:57:04
@@ -12,11 +9,24 @@ Bakayoko | 5,086,395 € | Market | 2026-09-19 19:59:20
 Kübler | 4,957,470 € | Market | 2026-09-19 20:15:57
 Duric | 572,479 € | Market | 2026-09-19 20:21:53
 Quansah | 17,644,569 € | Market | 2026-09-19 22:46:46
+Topp | 518,305 € | Market | 2026-09-19 23:38:36
 Jaquez | 948,546 € | Market | 2026-09-20 07:12:00
 Becker | 9,419,043 € | Market | 2026-09-20 09:48:29
+Mohya | 5,432,991 € | Market | 2026-09-20 11:55:48
 Vozar | 857,278 € | Market | 2026-09-20 16:55:22
+Stange | 2,655,672 € | Market | 2026-09-20 17:43:14
 Schubert | 500,000 € | Market | 2026-09-20 22:43:45
 Flekken | 12,452,388 € | Market | 2026-09-21 00:00:08
+Karius | 17,309,328 € | Market | 2026-09-21 05:37:56
+Sakar | 1,172,406 € | Market | 2026-09-21 06:16:10
+Chandler | 1,424,349 € | Robinho | Kein Ablaufdatum
+Gregoritsch | 14,819,095 € | CoachLeisi | Kein Ablaufdatum
 Lemperle | 14,004,652 € | Vanilleeis23 | Kein Ablaufdatum
+Nsoki | 568,274 € | Robinho | Kein Ablaufdatum
 Pinckert | 11,574,916 € | Vanilleeis23 | Kein Ablaufdatum
+Remberg | 7,718,956 € | Robinho | Kein Ablaufdatum
+Gantenbein | 513,114 € | Robinho | Kein Ablaufdatum
+Sambi Lokonga | 6,876,815 € | CoachLeisi | Kein Ablaufdatum
+Kofane | 10,595,158 € | CoachLeisi | Kein Ablaufdatum
 Arrhov | 509,739 € | Vanilleeis23 | Kein Ablaufdatum
+Regeer | 8,276,803 € | CoachLeisi | Kein Ablaufdatum
