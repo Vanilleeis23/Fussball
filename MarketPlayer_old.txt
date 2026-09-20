@@ -1,32 +1,35 @@
-Hashioka | 4,091,112 € | Market | 2026-09-20 22:41:03
-Schubert | 500,000 € | Market | 2026-09-20 22:43:46
-Kömür | 4,035,031 € | Market | 2026-09-20 23:24:06
-Flekken | 12,197,414 € | Market | 2026-09-21 00:00:09
-Otávio | 4,391,310 € | Market | 2026-09-21 02:52:33
-Burger | 17,889,515 € | Market | 2026-09-21 03:44:27
-Karius | 17,194,260 € | Market | 2026-09-21 05:37:57
-Sakar | 1,042,158 € | Market | 2026-09-21 06:16:11
-Aséko | 5,760,345 € | Market | 2026-09-21 06:43:23
-Bülter | 4,917,456 € | Market | 2026-09-21 07:46:39
-Khedira | 4,975,126 € | Market | 2026-09-21 08:13:55
-Götze | 6,422,589 € | Market | 2026-09-21 09:29:46
-El Khannouss | 18,194,502 € | Market | 2026-09-21 14:10:34
-Binder | 507,069 € | Market | 2026-09-21 15:08:00
-De Cat | 7,692,152 € | Market | 2026-09-21 16:55:11
-Eichhorn | 1,417,335 € | Market | 2026-09-21 22:46:57
-Friedl | 10,755,445 € | Market | 2026-09-22 01:25:06
-Zingerle | 500,000 € | Market | 2026-09-22 07:04:50
-Tah | 29,397,572 € | Market | 2026-09-22 07:42:45
-Maloney | 986,048 € | Market | 2026-09-22 10:53:11
-Soylu | 2,053,335 € | Market | 2026-09-22 13:16:22
+Hashioka | 4,091,112 € | Market | 2026-09-20 22:41:02
+Schubert | 500,000 € | Market | 2026-09-20 22:43:45
+Kömür | 4,035,031 € | Market | 2026-09-20 23:24:05
+Flekken | 12,197,414 € | Market | 2026-09-21 00:00:08
+Otávio | 4,391,310 € | Market | 2026-09-21 02:52:32
+Burger | 17,889,515 € | Market | 2026-09-21 03:44:26
+Karius | 17,194,260 € | Market | 2026-09-21 05:37:56
+Sakar | 1,042,158 € | Market | 2026-09-21 06:16:10
+Aséko | 5,760,345 € | Market | 2026-09-21 06:43:22
+Bülter | 4,917,456 € | Market | 2026-09-21 07:46:38
+Khedira | 4,975,126 € | Market | 2026-09-21 08:13:54
+Götze | 6,422,589 € | Market | 2026-09-21 09:29:45
+El Khannouss | 18,194,502 € | Market | 2026-09-21 14:10:33
+Binder | 507,069 € | Market | 2026-09-21 15:07:59
+Ginter | 27,226,804 € | Market | 2026-09-21 15:22:42
+De Cat | 7,692,152 € | Market | 2026-09-21 16:55:10
+Eichhorn | 1,417,335 € | Market | 2026-09-21 22:46:56
+Friedl | 10,755,445 € | Market | 2026-09-22 01:25:05
+Zingerle | 500,000 € | Market | 2026-09-22 07:04:49
+Tah | 29,397,572 € | Market | 2026-09-22 07:42:44
+Maloney | 986,048 € | Market | 2026-09-22 10:53:10
+Soylu | 2,053,335 € | Market | 2026-09-22 13:16:21
 Chandler | 1,805,334 € | Robinho | Kein Ablaufdatum
 Gregoritsch | 14,993,879 € | CoachLeisi | Kein Ablaufdatum
+Henrichs | 6,276,308 € | Sascha187 | Kein Ablaufdatum
 Lemperle | 14,098,460 € | Vanilleeis23 | Kein Ablaufdatum
 Ibrahimović | 10,223,648 € | Braunbär7 | Kein Ablaufdatum
 Nsoki | 538,165 € | Robinho | Kein Ablaufdatum
 Pinckert | 11,597,876 € | Vanilleeis23 | Kein Ablaufdatum
 Remberg | 7,846,442 € | Robinho | Kein Ablaufdatum
 Makengo | 11,398,846 € | Braunbär7 | Kein Ablaufdatum
+Quansah | 17,338,335 € | Sascha187 | Kein Ablaufdatum
 Gantenbein | 735,624 € | Robinho | Kein Ablaufdatum
 Sambi Lokonga | 6,935,672 € | CoachLeisi | Kein Ablaufdatum
 Duric | 502,496 € | Braunbär7 | Kein Ablaufdatum
