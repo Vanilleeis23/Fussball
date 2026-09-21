@@ -1,6 +1,3 @@
-De Cat | 7,433,645 € | Market | 2026-09-21 16:55:10
-Schmetgens | 3,381,696 € | Market | 2026-09-21 18:07:46
-Burke | 801,151 € | Market | 2026-09-21 21:24:55
 Eichhorn | 1,371,866 € | Market | 2026-09-21 22:46:56
 Klostermann | 3,243,457 € | Market | 2026-09-21 23:47:07
 Rots | 10,324,639 € | Market | 2026-09-22 01:02:17
@@ -13,17 +10,22 @@ Ullrich | 4,885,308 € | Market | 2026-09-22 10:18:05
 Burkardt | 25,025,868 € | Market | 2026-09-22 10:36:50
 Maloney | 861,471 € | Market | 2026-09-22 10:53:10
 Soylu | 2,306,288 € | Market | 2026-09-22 13:16:21
+Rômulo | 10,178,742 € | Market | 2026-09-22 15:00:49
 Dinkçi | 9,224,880 € | Market | 2026-09-22 17:57:18
 Müller | 500,000 € | Market | 2026-09-22 18:06:27
+Poreba | 9,576,753 € | Market | 2026-09-23 02:14:17
 Assignon | 2,236,523 € | Market | 2026-09-23 02:44:00
 Hack | 4,740,309 € | Market | 2026-09-23 03:35:57
 Schäfer | 3,014,754 € | Market | 2026-09-23 08:39:15
+Veerman | 15,724,928 € | Market | 2026-09-23 09:35:29
+Demirović | 16,252,204 € | Market | 2026-09-23 13:10:29
 Chandler | 2,193,269 € | Robinho | Kein Ablaufdatum
 Gregoritsch | 15,136,141 € | CoachLeisi | Kein Ablaufdatum
 Henrichs | 6,519,282 € | Sascha187 | Kein Ablaufdatum
 Baku | 21,862,116 € | Joel | Kein Ablaufdatum
 Bülter | 5,286,440 € | Braunbär7 | Kein Ablaufdatum
 Silas | 1,996,550 € | CoachLeisi | Kein Ablaufdatum
+Nsoki | 500,706 € | Robinho | Kein Ablaufdatum
 Kömür | 4,415,033 € | CoachLeisi | Kein Ablaufdatum
 Remberg | 8,089,460 € | Robinho | Kein Ablaufdatum
 Makengo | 11,583,878 € | Braunbär7 | Kein Ablaufdatum
