@@ -1,9 +1,3 @@
-Burger | 18,010,201 € | Market | 2026-09-21 03:44:26
-Karius | 17,026,629 € | Market | 2026-09-21 05:37:56
-Sakar | 910,823 € | Market | 2026-09-21 06:16:10
-Aséko | 6,077,119 € | Market | 2026-09-21 06:43:22
-Bülter | 5,286,440 € | Market | 2026-09-21 07:46:38
-Khedira | 4,877,989 € | Market | 2026-09-21 08:13:54
 Götze | 5,995,849 € | Market | 2026-09-21 09:29:45
 El Khannouss | 17,914,714 € | Market | 2026-09-21 14:10:33
 Binder | 500,000 € | Market | 2026-09-21 15:07:59
@@ -12,19 +6,21 @@ De Cat | 7,433,645 € | Market | 2026-09-21 16:55:10
 Schmetgens | 3,381,696 € | Market | 2026-09-21 18:07:46
 Burke | 801,151 € | Market | 2026-09-21 21:24:55
 Eichhorn | 1,371,866 € | Market | 2026-09-21 22:46:56
+Rots | 10,324,639 € | Market | 2026-09-22 01:02:17
 Friedl | 10,957,955 € | Market | 2026-09-22 01:25:05
 Lenz | 779,554 € | Market | 2026-09-22 06:09:51
 Zingerle | 500,000 € | Market | 2026-09-22 07:04:49
 Tah | 29,463,072 € | Market | 2026-09-22 07:42:44
+Gnabry | 13,826,732 € | Market | 2026-09-22 08:58:55
 Ullrich | 4,885,308 € | Market | 2026-09-22 10:18:05
+Burkardt | 25,025,868 € | Market | 2026-09-22 10:36:50
 Maloney | 861,471 € | Market | 2026-09-22 10:53:10
 Soylu | 2,306,288 € | Market | 2026-09-22 13:16:21
 Dinkçi | 9,224,880 € | Market | 2026-09-22 17:57:18
 Chandler | 2,193,269 € | Robinho | Kein Ablaufdatum
 Gregoritsch | 15,136,141 € | CoachLeisi | Kein Ablaufdatum
 Henrichs | 6,519,282 € | Sascha187 | Kein Ablaufdatum
-Lemperle | 14,179,323 € | Vanilleeis23 | Kein Ablaufdatum
-Nsoki | 500,706 € | Robinho | Kein Ablaufdatum
+Bülter | 5,286,440 € | Braunbär7 | Kein Ablaufdatum
 Remberg | 8,089,460 € | Robinho | Kein Ablaufdatum
 Makengo | 11,583,878 € | Braunbär7 | Kein Ablaufdatum
 Quansah | 17,079,809 € | Sascha187 | Kein Ablaufdatum
