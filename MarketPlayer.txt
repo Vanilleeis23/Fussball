@@ -1,26 +1,27 @@
-Demirović | 15,230,560 € | Market | 2026-09-23 13:10:34
-Zieler | 500,000 € | Market | 2026-09-23 13:24:56
-Boss | 500,000 € | Market | 2026-09-23 16:01:47
-Köbbing | 500,000 € | Market | 2026-09-23 19:31:46
-Haberer | 4,272,054 € | Market | 2026-09-23 19:35:22
-Nebel | 5,602,192 € | Market | 2026-09-23 22:22:18
-Königsdörffer | 7,725,716 € | Market | 2026-09-23 22:27:15
-Džeko | 4,329,635 € | Market | 2026-09-24 00:22:04
-Kristof | 12,237,209 € | Market | 2026-09-24 02:27:45
-Awortwie-Grant | 500,000 € | Market | 2026-09-24 06:59:52
-Undav | 29,899,853 € | Market | 2026-09-24 10:37:50
-Tiago Tomás | 5,353,743 € | Market | 2026-09-24 11:01:52
-Brown | 20,529,435 € | Market | 2026-09-24 11:30:35
-Sander | 8,794,565 € | Market | 2026-09-24 13:56:39
-Schmahl | 504,884 € | Market | 2026-09-24 15:17:10
-Becker | 15,851,754 € | Market | 2026-09-24 15:32:06
-Hajdari | 12,960,398 € | Market | 2026-09-24 16:28:29
-Klaas | 500,000 € | Market | 2026-09-25 01:57:11
-Wisbereit | 500,000 € | Market | 2026-09-25 05:25:51
+Boss | 500,000 € | Market | 2026-09-23 16:01:42
+Köbbing | 500,000 € | Market | 2026-09-23 19:31:41
+Haberer | 4,272,054 € | Market | 2026-09-23 19:35:17
+Nebel | 5,602,192 € | Market | 2026-09-23 22:22:13
+Königsdörffer | 7,725,716 € | Market | 2026-09-23 22:27:10
+Džeko | 4,329,635 € | Market | 2026-09-24 00:21:59
+Kristof | 12,237,209 € | Market | 2026-09-24 02:27:40
+Awortwie-Grant | 500,000 € | Market | 2026-09-24 06:59:47
+Undav | 29,899,853 € | Market | 2026-09-24 10:37:45
+Tiago Tomás | 5,353,743 € | Market | 2026-09-24 11:01:47
+Konstantelias | 5,544,007 € | Market | 2026-09-24 11:06:25
+Brown | 20,529,435 € | Market | 2026-09-24 11:30:30
+Sander | 8,794,565 € | Market | 2026-09-24 13:56:34
+Schmahl | 504,884 € | Market | 2026-09-24 15:17:05
+Becker | 15,851,754 € | Market | 2026-09-24 15:32:01
+Hajdari | 12,960,398 € | Market | 2026-09-24 16:28:24
+Klaas | 500,000 € | Market | 2026-09-25 01:57:06
+Wisbereit | 500,000 € | Market | 2026-09-25 05:25:46
+Sticker | 1,455,288 € | Market | 2026-09-25 10:28:38
 Chandler | 2,960,484 € | Robinho | Kein Ablaufdatum
 Gregoritsch | 15,347,905 € | CoachLeisi | Kein Ablaufdatum
 Henrichs | 7,011,249 € | Sascha187 | Kein Ablaufdatum
 Bülter | 6,014,849 € | Braunbär7 | Kein Ablaufdatum
+Martel | 5,275,401 € | Sascha187 | Kein Ablaufdatum
 Silas | 2,599,843 € | CoachLeisi | Kein Ablaufdatum
 Nsoki | 500,000 € | Robinho | Kein Ablaufdatum
 Kömür | 5,279,181 € | CoachLeisi | Kein Ablaufdatum
@@ -29,6 +30,7 @@ Fellhauer | 9,508,338 € | Braunbär7 | Kein Ablaufdatum
 Remberg | 8,703,376 € | Robinho | Kein Ablaufdatum
 Gantenbein | 1,907,823 € | Robinho | Kein Ablaufdatum
 Sambi Lokonga | 7,576,381 € | CoachLeisi | Kein Ablaufdatum
+Jaquez | 1,513,018 € | Sascha187 | Kein Ablaufdatum
 Lenz | 1,420,455 € | Braunbär7 | Kein Ablaufdatum
 Burger | 18,334,319 € | Vanilleeis23 | Kein Ablaufdatum
 Ben Seghir | 4,283,626 € | Philipp | Kein Ablaufdatum
