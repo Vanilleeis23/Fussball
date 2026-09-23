@@ -1,43 +1,46 @@
-Mittelstädt | 27,472,106 € | Market | 2026-09-22 21:42:07
-Lemke | 3,340,032 € | Market | 2026-09-22 23:01:10
-Poreba | 9,257,696 € | Market | 2026-09-23 02:14:17
-Assignon | 2,617,752 € | Market | 2026-09-23 02:44:00
-Hack | 4,624,942 € | Market | 2026-09-23 03:35:57
-Fellhauer | 9,415,505 € | Market | 2026-09-23 04:38:58
-Diehl | 500,000 € | Market | 2026-09-23 07:34:37
-Kobel | 18,248,402 € | Market | 2026-09-23 08:38:28
-Schäfer | 2,946,351 € | Market | 2026-09-23 08:39:15
-Veerman | 15,881,847 € | Market | 2026-09-23 09:35:29
-Blaswich | 500,000 € | Market | 2026-09-23 10:40:18
-Hložek | 10,336,949 € | Market | 2026-09-23 10:45:43
-Martel | 4,808,523 € | Market | 2026-09-23 11:31:52
-Demirović | 15,781,892 € | Market | 2026-09-23 13:10:29
-Zieler | 500,000 € | Market | 2026-09-23 13:24:51
-Haberer | 4,461,035 € | Market | 2026-09-23 19:35:17
-Königsdörffer | 7,417,204 € | Market | 2026-09-23 22:27:10
-Džeko | 4,384,657 € | Market | 2026-09-24 00:21:59
-Kristof | 12,143,302 € | Market | 2026-09-24 02:27:40
-Undav | 30,403,483 € | Market | 2026-09-24 10:37:45
-Tiago Tomás | 5,020,767 € | Market | 2026-09-24 11:01:47
-Schmahl | 642,280 € | Market | 2026-09-24 15:17:05
-Chandler | 2,582,107 € | Robinho | Kein Ablaufdatum
-Gregoritsch | 15,247,826 € | CoachLeisi | Kein Ablaufdatum
-Henrichs | 6,761,860 € | Sascha187 | Kein Ablaufdatum
-Bülter | 5,652,549 € | Braunbär7 | Kein Ablaufdatum
-Silas | 2,306,538 € | CoachLeisi | Kein Ablaufdatum
+Poreba | 8,896,665 € | Market | 2026-09-23 02:14:18
+Assignon | 2,995,379 € | Market | 2026-09-23 02:44:01
+Hack | 4,498,480 € | Market | 2026-09-23 03:35:58
+Fellhauer | 9,508,338 € | Market | 2026-09-23 04:38:59
+Diehl | 500,000 € | Market | 2026-09-23 07:34:38
+Kobel | 18,275,351 € | Market | 2026-09-23 08:38:29
+Schäfer | 2,833,321 € | Market | 2026-09-23 08:39:16
+Veerman | 16,055,368 € | Market | 2026-09-23 09:35:30
+Blaswich | 500,000 € | Market | 2026-09-23 10:40:19
+Hložek | 10,591,575 € | Market | 2026-09-23 10:45:44
+Martel | 5,275,401 € | Market | 2026-09-23 11:31:53
+Demirović | 15,230,560 € | Market | 2026-09-23 13:10:30
+Zieler | 500,000 € | Market | 2026-09-23 13:24:52
+Köbbing | 500,000 € | Market | 2026-09-23 19:31:42
+Haberer | 4,272,054 € | Market | 2026-09-23 19:35:18
+Königsdörffer | 7,725,716 € | Market | 2026-09-23 22:27:11
+Džeko | 4,329,635 € | Market | 2026-09-24 00:22:00
+Kristof | 12,237,209 € | Market | 2026-09-24 02:27:41
+Undav | 29,899,853 € | Market | 2026-09-24 10:37:46
+Tiago Tomás | 5,353,743 € | Market | 2026-09-24 11:01:48
+Sander | 8,794,565 € | Market | 2026-09-24 13:56:35
+Schmahl | 504,884 € | Market | 2026-09-24 15:17:06
+Chandler | 2,960,484 € | Robinho | Kein Ablaufdatum
+Gregoritsch | 15,347,905 € | CoachLeisi | Kein Ablaufdatum
+Mittelstädt | 27,539,621 € | Vanilleeis23 | Kein Ablaufdatum
+Henrichs | 7,011,249 € | Sascha187 | Kein Ablaufdatum
+Bülter | 6,014,849 € | Braunbär7 | Kein Ablaufdatum
+Silas | 2,599,843 € | CoachLeisi | Kein Ablaufdatum
+Scherhant | 13,540,906 € | Vanilleeis23 | Kein Ablaufdatum
 Nsoki | 500,000 € | Robinho | Kein Ablaufdatum
-Kömür | 4,850,077 € | CoachLeisi | Kein Ablaufdatum
-Pinckert | 11,722,505 € | Vanilleeis23 | Kein Ablaufdatum
-Remberg | 8,394,528 € | Robinho | Kein Ablaufdatum
-Makengo | 11,776,789 € | Braunbär7 | Kein Ablaufdatum
-Gantenbein | 1,495,079 € | Robinho | Kein Ablaufdatum
-Sambi Lokonga | 7,311,014 € | CoachLeisi | Kein Ablaufdatum
+Kömür | 5,279,181 € | CoachLeisi | Kein Ablaufdatum
+Pinckert | 11,831,917 € | Vanilleeis23 | Kein Ablaufdatum
+Remberg | 8,703,376 € | Robinho | Kein Ablaufdatum
+Gantenbein | 1,907,823 € | Robinho | Kein Ablaufdatum
+Sambi Lokonga | 7,576,381 € | CoachLeisi | Kein Ablaufdatum
+Zimmerschied | 2,103,075 € | Vanilleeis23 | Kein Ablaufdatum
 Duric | 500,000 € | Braunbär7 | Kein Ablaufdatum
-Gomis | 10,472,809 € | Joel | Kein Ablaufdatum
-Lenz | 1,096,059 € | Braunbär7 | Kein Ablaufdatum
-Burger | 18,167,712 € | Vanilleeis23 | Kein Ablaufdatum
-Ben Seghir | 4,457,222 € | Philipp | Kein Ablaufdatum
-Vozar | 1,902,735 € | Joel | Kein Ablaufdatum
-Arrhov | 1,219,567 € | Vanilleeis23 | Kein Ablaufdatum
-Ruoppi | 2,961,898 € | CoachLeisi | Kein Ablaufdatum
-Hashioka | 4,621,696 € | CoachLeisi | Kein Ablaufdatum
+Gomis | 10,447,069 € | Joel | Kein Ablaufdatum
+Lenz | 1,420,455 € | Braunbär7 | Kein Ablaufdatum
+Burger | 18,334,319 € | Vanilleeis23 | Kein Ablaufdatum
+Ben Seghir | 4,283,626 € | Philipp | Kein Ablaufdatum
+Vozar | 2,304,895 € | Joel | Kein Ablaufdatum
+Arrhov | 1,560,083 € | Vanilleeis23 | Kein Ablaufdatum
+Tangvik | 500,000 € | Timo Kramer  | Kein Ablaufdatum
+Ruoppi | 3,360,478 € | CoachLeisi | Kein Ablaufdatum
+Hashioka | 5,000,175 € | CoachLeisi | Kein Ablaufdatum
