@@ -1,10 +1,10 @@
 Summen pro Nutzer (absteigend sortiert):
 
-Vincent  : 10.839.635 €
 Joel : 5.246.063 €
 Sascha187 : -5.736.359 €
 Robinho : -12.933.663 €
 Julian : -14.348.139 €
+Vincent  : -17.085.748 €
 CoachLeisi : -19.819.699 €
 Vanilleeis23 : -25.857.569 €
 Braunbär7 : -26.354.096 €
