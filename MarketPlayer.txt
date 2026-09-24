@@ -1,23 +1,22 @@
-Müller | 500,000 € | Market | 2026-09-24 17:33:02
-Avdullahu | 17,158,337 € | Market | 2026-09-24 17:38:12
-Gruda | 18,567,667 € | Market | 2026-09-24 18:46:51
-Amaimouni | 4,484,775 € | Market | 2026-09-24 21:42:35
-Klaas | 500,000 € | Market | 2026-09-25 01:57:06
-Stanišić | 16,739,036 € | Market | 2026-09-25 04:39:01
-Upamecano | 33,689,366 € | Market | 2026-09-25 04:48:24
-Wisbereit | 500,000 € | Market | 2026-09-25 05:25:46
-Doué | 8,096,593 € | Market | 2026-09-25 05:30:10
-El Aynaoui | 11,387,845 € | Market | 2026-09-25 07:38:50
-Kade | 10,181,136 € | Market | 2026-09-25 08:05:38
-Sticker | 1,396,532 € | Market | 2026-09-25 10:28:38
-Culbreath | 2,429,064 € | Market | 2026-09-25 12:26:54
-Møller Wolfe | 4,894,280 € | Market | 2026-09-25 16:18:37
-Imeri | 1,363,017 € | Market | 2026-09-25 19:43:40
-Laimer | 23,638,020 € | Market | 2026-09-25 21:01:42
-Katic | 13,324,612 € | Market | 2026-09-26 00:29:51
-Prass | 2,502,133 € | Market | 2026-09-26 05:45:53
-Can | 768,993 € | Market | 2026-09-26 06:22:21
-Wöber | 5,694,157 € | Market | 2026-09-26 13:28:27
+Amaimouni | 4,484,775 € | Market | 2026-09-24 21:42:34
+Klaas | 500,000 € | Market | 2026-09-25 01:57:05
+Stanišić | 16,739,036 € | Market | 2026-09-25 04:39:00
+Upamecano | 33,689,366 € | Market | 2026-09-25 04:48:23
+Wisbereit | 500,000 € | Market | 2026-09-25 05:25:45
+Doué | 8,096,593 € | Market | 2026-09-25 05:30:09
+El Aynaoui | 11,387,845 € | Market | 2026-09-25 07:38:49
+Kade | 10,181,136 € | Market | 2026-09-25 08:05:37
+Sticker | 1,396,532 € | Market | 2026-09-25 10:28:37
+Seiwald | 11,186,443 € | Market | 2026-09-25 11:10:54
+Culbreath | 2,429,064 € | Market | 2026-09-25 12:26:53
+Kosugi | 9,669,327 € | Market | 2026-09-25 14:03:27
+Møller Wolfe | 4,894,280 € | Market | 2026-09-25 16:18:36
+Imeri | 1,363,017 € | Market | 2026-09-25 19:43:39
+Laimer | 23,638,020 € | Market | 2026-09-25 21:01:41
+Katic | 13,324,612 € | Market | 2026-09-26 00:29:50
+Prass | 2,502,133 € | Market | 2026-09-26 05:45:52
+Can | 768,993 € | Market | 2026-09-26 06:22:20
+Wöber | 5,694,157 € | Market | 2026-09-26 13:28:26
 Chandler | 3,328,820 € | Robinho | Kein Ablaufdatum
 Henrichs | 7,245,152 € | Sascha187 | Kein Ablaufdatum
 Bülter | 6,342,846 € | Braunbär7 | Kein Ablaufdatum
