@@ -1,6 +1,3 @@
-Møller Wolfe | 4,855,514 € | Market | 2026-09-25 16:18:37
-Højlund | 2,519,958 € | Market | 2026-09-25 16:28:00
-Imeri | 1,265,717 € | Market | 2026-09-25 19:43:40
 Laimer | 23,122,478 € | Market | 2026-09-25 21:01:42
 Katic | 13,533,376 € | Market | 2026-09-26 00:29:51
 Meyer | 500,000 € | Market | 2026-09-26 05:03:40
@@ -17,8 +14,11 @@ Wöber | 6,001,202 € | Market | 2026-09-26 13:28:27
 Tillman | 8,209,512 € | Market | 2026-09-26 14:35:35
 Omari | 3,632,612 € | Market | 2026-09-26 15:55:56
 Adamu | 4,506,166 € | Market | 2026-09-26 18:36:09
+Wójcik | 2,343,115 € | Market | 2026-09-27 05:54:39
 Funk | 500,000 € | Market | 2026-09-27 06:05:26
 Stöger | 4,146,916 € | Market | 2026-09-27 06:46:05
+Lienhart | 16,452,625 € | Market | 2026-09-27 10:49:23
+Vázquez | 3,555,441 € | Market | 2026-09-27 13:20:02
 Chandler | 3,702,285 € | Robinho | Kein Ablaufdatum
 Henrichs | 7,432,572 € | Sascha187 | Kein Ablaufdatum
 Bülter | 6,612,905 € | Braunbär7 | Kein Ablaufdatum
@@ -29,10 +29,10 @@ Pinckert | 11,990,714 € | Vanilleeis23 | Kein Ablaufdatum
 Fellhauer | 9,750,536 € | Braunbär7 | Kein Ablaufdatum
 Remberg | 9,262,572 € | Robinho | Kein Ablaufdatum
 Amoako | 2,734,300 € | Robinho | Kein Ablaufdatum
-Chuki | 11,717,871 € | Sascha187 | Kein Ablaufdatum
 Gantenbein | 2,693,220 € | Robinho | Kein Ablaufdatum
 Petersson | 500,000 € | Sascha187 | Kein Ablaufdatum
 Sambi Lokonga | 8,088,486 € | CoachLeisi | Kein Ablaufdatum
+Awortwie-Grant | 500,000 € | Sascha187 | Kein Ablaufdatum
 Lidberg | 6,294,096 € | Robinho | Kein Ablaufdatum
 Claude-Maurice | 10,457,774 € | Philipp | Kein Ablaufdatum
 Svensson | 20,858,285 € | Philipp | Kein Ablaufdatum
