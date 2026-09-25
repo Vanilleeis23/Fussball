@@ -1,8 +1,3 @@
-Sticker | 1,297,556 € | Market | 2026-09-25 10:28:38
-Seiwald | 10,516,357 € | Market | 2026-09-25 11:10:55
-Capaldo | 7,211,963 € | Market | 2026-09-25 12:10:05
-Culbreath | 2,726,250 € | Market | 2026-09-25 12:26:54
-Kosugi | 9,915,419 € | Market | 2026-09-25 14:03:28
 Møller Wolfe | 4,855,514 € | Market | 2026-09-25 16:18:37
 Højlund | 2,519,958 € | Market | 2026-09-25 16:28:00
 Imeri | 1,265,717 € | Market | 2026-09-25 19:43:40
@@ -12,12 +7,18 @@ Meyer | 500,000 € | Market | 2026-09-26 05:03:40
 Prass | 2,804,348 € | Market | 2026-09-26 05:45:53
 Can | 1,030,467 € | Market | 2026-09-26 06:22:21
 Jung | 500,000 € | Market | 2026-09-26 06:57:28
+Santos | 1,781,194 € | Market | 2026-09-26 07:29:19
 Bernardo | 3,537,395 € | Market | 2026-09-26 08:24:40
+Seimen | 7,195,339 € | Market | 2026-09-26 08:38:04
 Daka | 4,453,188 € | Market | 2026-09-26 09:21:24
 Millgramm | 500,000 € | Market | 2026-09-26 11:43:47
 Badé | 4,520,388 € | Market | 2026-09-26 11:51:32
 Wöber | 6,001,202 € | Market | 2026-09-26 13:28:27
+Tillman | 8,209,512 € | Market | 2026-09-26 14:35:35
+Omari | 3,632,612 € | Market | 2026-09-26 15:55:56
 Adamu | 4,506,166 € | Market | 2026-09-26 18:36:09
+Funk | 500,000 € | Market | 2026-09-27 06:05:26
+Stöger | 4,146,916 € | Market | 2026-09-27 06:46:05
 Chandler | 3,702,285 € | Robinho | Kein Ablaufdatum
 Henrichs | 7,432,572 € | Sascha187 | Kein Ablaufdatum
 Bülter | 6,612,905 € | Braunbär7 | Kein Ablaufdatum
@@ -27,10 +28,12 @@ Kömür | 5,936,318 € | CoachLeisi | Kein Ablaufdatum
 Pinckert | 11,990,714 € | Vanilleeis23 | Kein Ablaufdatum
 Fellhauer | 9,750,536 € | Braunbär7 | Kein Ablaufdatum
 Remberg | 9,262,572 € | Robinho | Kein Ablaufdatum
+Amoako | 2,734,300 € | Robinho | Kein Ablaufdatum
 Chuki | 11,717,871 € | Sascha187 | Kein Ablaufdatum
 Gantenbein | 2,693,220 € | Robinho | Kein Ablaufdatum
 Petersson | 500,000 € | Sascha187 | Kein Ablaufdatum
 Sambi Lokonga | 8,088,486 € | CoachLeisi | Kein Ablaufdatum
+Lidberg | 6,294,096 € | Robinho | Kein Ablaufdatum
 Claude-Maurice | 10,457,774 € | Philipp | Kein Ablaufdatum
 Svensson | 20,858,285 € | Philipp | Kein Ablaufdatum
 Lenz | 2,040,835 € | Braunbär7 | Kein Ablaufdatum
@@ -39,5 +42,6 @@ Ben Seghir | 3,983,881 € | Philipp | Kein Ablaufdatum
 Vozar | 2,934,032 € | Joel | Kein Ablaufdatum
 Arrhov | 2,238,555 € | Vanilleeis23 | Kein Ablaufdatum
 Ruoppi | 4,193,090 € | CoachLeisi | Kein Ablaufdatum
+Quetant | 2,179,082 € | Robinho | Kein Ablaufdatum
 Gadou | 20,961,272 € | Joel | Kein Ablaufdatum
 Hashioka | 5,617,502 € | CoachLeisi | Kein Ablaufdatum
