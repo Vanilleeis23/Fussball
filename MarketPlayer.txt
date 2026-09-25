@@ -1,25 +1,23 @@
-Stanišić | 16,865,928 € | Market | 2026-09-25 04:39:02
-Upamecano | 33,549,371 € | Market | 2026-09-25 04:48:25
-Wisbereit | 500,000 € | Market | 2026-09-25 05:25:47
-Doué | 7,669,241 € | Market | 2026-09-25 05:30:11
-El Aynaoui | 11,631,623 € | Market | 2026-09-25 07:38:51
-Kade | 10,313,611 € | Market | 2026-09-25 08:05:39
-Sticker | 1,297,556 € | Market | 2026-09-25 10:28:39
-Seiwald | 10,516,357 € | Market | 2026-09-25 11:10:56
-Capaldo | 7,211,963 € | Market | 2026-09-25 12:10:06
-Culbreath | 2,726,250 € | Market | 2026-09-25 12:26:55
-Kosugi | 9,915,419 € | Market | 2026-09-25 14:03:29
-Møller Wolfe | 4,855,514 € | Market | 2026-09-25 16:18:38
-Højlund | 2,519,958 € | Market | 2026-09-25 16:28:01
-Imeri | 1,265,717 € | Market | 2026-09-25 19:43:41
-Laimer | 23,122,478 € | Market | 2026-09-25 21:01:43
-Katic | 13,533,376 € | Market | 2026-09-26 00:29:52
-Meyer | 500,000 € | Market | 2026-09-26 05:03:41
-Prass | 2,804,348 € | Market | 2026-09-26 05:45:54
-Can | 1,030,467 € | Market | 2026-09-26 06:22:22
-Daka | 4,453,188 € | Market | 2026-09-26 09:21:25
-Wöber | 6,001,202 € | Market | 2026-09-26 13:28:28
-Adamu | 4,506,166 € | Market | 2026-09-26 18:36:10
+Sticker | 1,297,556 € | Market | 2026-09-25 10:28:40
+Seiwald | 10,516,357 € | Market | 2026-09-25 11:10:57
+Capaldo | 7,211,963 € | Market | 2026-09-25 12:10:07
+Culbreath | 2,726,250 € | Market | 2026-09-25 12:26:56
+Kosugi | 9,915,419 € | Market | 2026-09-25 14:03:30
+Møller Wolfe | 4,855,514 € | Market | 2026-09-25 16:18:39
+Højlund | 2,519,958 € | Market | 2026-09-25 16:28:02
+Imeri | 1,265,717 € | Market | 2026-09-25 19:43:42
+Laimer | 23,122,478 € | Market | 2026-09-25 21:01:44
+Katic | 13,533,376 € | Market | 2026-09-26 00:29:53
+Meyer | 500,000 € | Market | 2026-09-26 05:03:42
+Prass | 2,804,348 € | Market | 2026-09-26 05:45:55
+Can | 1,030,467 € | Market | 2026-09-26 06:22:23
+Jung | 500,000 € | Market | 2026-09-26 06:57:30
+Bernardo | 3,537,395 € | Market | 2026-09-26 08:24:42
+Daka | 4,453,188 € | Market | 2026-09-26 09:21:26
+Millgramm | 500,000 € | Market | 2026-09-26 11:43:49
+Badé | 4,520,388 € | Market | 2026-09-26 11:51:34
+Wöber | 6,001,202 € | Market | 2026-09-26 13:28:29
+Adamu | 4,506,166 € | Market | 2026-09-26 18:36:11
 Chandler | 3,702,285 € | Robinho | Kein Ablaufdatum
 Henrichs | 7,432,572 € | Sascha187 | Kein Ablaufdatum
 Bülter | 6,612,905 € | Braunbär7 | Kein Ablaufdatum
@@ -33,6 +31,8 @@ Chuki | 11,717,871 € | Sascha187 | Kein Ablaufdatum
 Gantenbein | 2,693,220 € | Robinho | Kein Ablaufdatum
 Petersson | 500,000 € | Sascha187 | Kein Ablaufdatum
 Sambi Lokonga | 8,088,486 € | CoachLeisi | Kein Ablaufdatum
+Claude-Maurice | 10,457,774 € | Philipp | Kein Ablaufdatum
+Svensson | 20,858,285 € | Philipp | Kein Ablaufdatum
 Lenz | 2,040,835 € | Braunbär7 | Kein Ablaufdatum
 Burger | 18,643,072 € | Vanilleeis23 | Kein Ablaufdatum
 Ben Seghir | 3,983,881 € | Philipp | Kein Ablaufdatum
