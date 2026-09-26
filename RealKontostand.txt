@@ -1,8 +1,8 @@
 Summen pro Nutzer (absteigend sortiert):
 
 Joel : 42.830.073 € (Kontostand: 19.062.407 €, Spieler auf dem Markt: 23.767.666 €)
-Robinho : 35.261.698 € (Kontostand: 1.541.628 €, Spieler auf dem Markt: 33.720.070 €)
-Vanilleeis23 : 9.678.610 € (Kontostand: -25.657.569 €, Spieler auf dem Markt: 35.336.179 €)
+Robinho : 35.261.698 € (Kontostand: 16.153.814 €, Spieler auf dem Markt: 19.107.884 €)
+Vanilleeis23 : 9.678.610 € (Kontostand: -14.617.986 €, Spieler auf dem Markt: 24.296.596 €)
 CoachLeisi : 7.973.053 € (Kontostand: -23.405.283 €, Spieler auf dem Markt: 31.378.336 €)
 Philipp : 3.916.613 € (Kontostand: 3.916.613 €, Spieler auf dem Markt: 0 €)
 Braunbär7 : -692.996 € (Kontostand: -26.154.096 €, Spieler auf dem Markt: 25.461.100 €)

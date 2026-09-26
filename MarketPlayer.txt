@@ -9,10 +9,12 @@ Lienhart | 16,552,102 € | Market | 2026-09-27 10:49:23
 Ulrich | 6,463,090 € | Market | 2026-09-27 11:38:15
 Vázquez | 3,418,852 € | Market | 2026-09-27 13:20:02
 Krauß | 8,275,666 € | Market | 2026-09-27 14:09:10
+Bornauw | 4,992,684 € | Market | 2026-09-27 16:22:30
 Vidović | 4,910,620 € | Market | 2026-09-27 19:38:54
 Al Dakhil | 4,883,445 € | Market | 2026-09-27 21:23:46
 Heskey | 1,175,198 € | Market | 2026-09-27 21:37:31
 Rothe | 10,183,539 € | Market | 2026-09-27 22:01:27
+Wimmer | 5,460,766 € | Market | 2026-09-28 01:06:56
 Bah | 2,707,623 € | Market | 2026-09-28 02:12:10
 Backhaus | 14,120,713 € | Market | 2026-09-28 04:00:37
 Thielmann | 3,407,879 € | Market | 2026-09-28 06:04:03
@@ -22,7 +24,6 @@ Chandler | 4,037,352 € | Robinho | Kein Ablaufdatum
 Henrichs | 7,553,464 € | Sascha187 | Kein Ablaufdatum
 Bülter | 6,818,720 € | Braunbär7 | Kein Ablaufdatum
 Silas | 3,399,366 € | CoachLeisi | Kein Ablaufdatum
-Atubolu | 14,612,186 € | Robinho | Kein Ablaufdatum
 Tiago Tomás | 6,422,758 € | Braunbär7 | Kein Ablaufdatum
 Kömür | 6,190,852 € | CoachLeisi | Kein Ablaufdatum
 Fellhauer | 9,898,172 € | Braunbär7 | Kein Ablaufdatum
@@ -37,7 +38,6 @@ Lenz | 2,321,450 € | Braunbär7 | Kein Ablaufdatum
 Burger | 18,772,739 € | Vanilleeis23 | Kein Ablaufdatum
 Vozar | 3,164,492 € | Joel | Kein Ablaufdatum
 Arrhov | 2,564,434 € | Vanilleeis23 | Kein Ablaufdatum
-Simpson-Pusey | 11,039,583 € | Vanilleeis23 | Kein Ablaufdatum
 Ruoppi | 4,553,790 € | CoachLeisi | Kein Ablaufdatum
 Quetant | 2,453,908 € | Robinho | Kein Ablaufdatum
 Gadou | 20,603,174 € | Joel | Kein Ablaufdatum
