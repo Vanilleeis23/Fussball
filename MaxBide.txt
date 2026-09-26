@@ -2,7 +2,7 @@ Summen pro Nutzer (absteigend sortiert):
 
 Joel : 64.026.863 €
 Philipp : 58.677.007 €
-Robinho : 58.196.440 €
+Robinho : 58.195.440 €
 Sascha187 : 46.745.882 €
 Vanilleeis23 : 44.081.629 €
 Vincent : 39.756.324 €
@@ -10,4 +10,4 @@ Timo Kramer : 39.669.079 €
 Braunbär7 : 37.829.584 €
 CoachLeisi : 37.453.488 €
 Julian : 34.656.272 €
-MirkoHengst : 24.916.336 €
+MirkoHengst : 19.874.327 €
