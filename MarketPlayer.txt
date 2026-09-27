@@ -1,7 +1,3 @@
-Lienhart | 16,615,508 € | Market | 2026-09-27 10:49:23
-Ulrich | 6,741,250 € | Market | 2026-09-27 11:38:15
-Vázquez | 3,278,215 € | Market | 2026-09-27 13:20:02
-Krauß | 8,272,062 € | Market | 2026-09-27 14:09:10
 Bornauw | 5,203,068 € | Market | 2026-09-27 16:22:30
 Vidović | 5,158,804 € | Market | 2026-09-27 19:38:54
 Al Dakhil | 5,207,854 € | Market | 2026-09-27 21:23:46
@@ -10,25 +6,28 @@ Rothe | 10,240,875 € | Market | 2026-09-27 22:01:27
 Knauff | 5,637,625 € | Market | 2026-09-27 22:14:03
 Darvich | 7,102,093 € | Market | 2026-09-27 23:11:21
 Wimmer | 5,180,288 € | Market | 2026-09-28 01:06:56
+Nmecha | 26,413,710 € | Market | 2026-09-28 02:02:59
 Bah | 2,494,653 € | Market | 2026-09-28 02:12:10
 Backhaus | 13,554,585 € | Market | 2026-09-28 04:00:37
 Thielmann | 3,272,033 € | Market | 2026-09-28 06:04:03
 Vandevoordt | 15,845,508 € | Market | 2026-09-28 09:40:59
 Ljubičić | 2,602,264 € | Market | 2026-09-28 11:25:50
+Kleindienst | 9,630,784 € | Market | 2026-09-28 12:28:47
 Kühn | 2,398,636 € | Market | 2026-09-28 13:59:14
+Diaby | 22,086,885 € | Market | 2026-09-28 14:31:38
 Hollerbach | 4,264,633 € | Market | 2026-09-28 16:56:24
 Aebischer | 3,103,077 € | Market | 2026-09-28 22:37:51
 Adeline | 2,188,019 € | Market | 2026-09-28 23:05:28
 Oermann | 500,000 € | Market | 2026-09-29 03:29:42
+Höler | 2,427,152 € | Market | 2026-09-29 04:34:14
 Chandler | 4,323,290 € | Robinho | Kein Ablaufdatum
 Henrichs | 7,592,733 € | Sascha187 | Kein Ablaufdatum
-Becker | 9,714,986 € | Julian | Kein Ablaufdatum
+Uduokhai | 10,311,961 € | Robinho | Kein Ablaufdatum
 Becker | 9,714,986 € | Julian | Kein Ablaufdatum
 Silas | 3,618,734 € | CoachLeisi | Kein Ablaufdatum
 Tiago Tomás | 6,727,906 € | Braunbär7 | Kein Ablaufdatum
 Kömür | 6,392,206 € | CoachLeisi | Kein Ablaufdatum
 Fellhauer | 10,050,855 € | Braunbär7 | Kein Ablaufdatum
-Gosens | 10,542,545 € | Julian | Kein Ablaufdatum
 Gosens | 10,542,545 € | Julian | Kein Ablaufdatum
 Amoako | 3,350,968 € | Robinho | Kein Ablaufdatum
 Prass | 3,404,036 € | CoachLeisi | Kein Ablaufdatum
