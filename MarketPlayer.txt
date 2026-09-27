@@ -23,10 +23,12 @@ Oermann | 500,000 € | Market | 2026-09-29 03:29:42
 Chandler | 4,323,290 € | Robinho | Kein Ablaufdatum
 Henrichs | 7,592,733 € | Sascha187 | Kein Ablaufdatum
 Becker | 9,714,986 € | Julian | Kein Ablaufdatum
+Becker | 9,714,986 € | Julian | Kein Ablaufdatum
 Silas | 3,618,734 € | CoachLeisi | Kein Ablaufdatum
 Tiago Tomás | 6,727,906 € | Braunbär7 | Kein Ablaufdatum
 Kömür | 6,392,206 € | CoachLeisi | Kein Ablaufdatum
 Fellhauer | 10,050,855 € | Braunbär7 | Kein Ablaufdatum
+Gosens | 10,542,545 € | Julian | Kein Ablaufdatum
 Gosens | 10,542,545 € | Julian | Kein Ablaufdatum
 Amoako | 3,350,968 € | Robinho | Kein Ablaufdatum
 Prass | 3,404,036 € | CoachLeisi | Kein Ablaufdatum
