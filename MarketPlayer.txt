@@ -1,25 +1,25 @@
-Aebischer | 2,998,441 € | Market | 2026-09-28 22:37:51
-Adeline | 2,034,347 € | Market | 2026-09-28 23:05:28
-Diks | 9,338,464 € | Market | 2026-09-29 02:23:46
-Itakura | 6,496,010 € | Market | 2026-09-29 02:44:48
-Oermann | 500,000 € | Market | 2026-09-29 03:29:42
-Höler | 2,284,055 € | Market | 2026-09-29 04:34:14
-Pruhs | 500,000 € | Market | 2026-09-29 07:35:17
-Grahl | 500,000 € | Market | 2026-09-29 08:09:33
-Castro-Montes | 3,841,822 € | Market | 2026-09-29 11:21:07
-Grønbæk | 7,990,918 € | Market | 2026-09-29 13:04:46
-Uzun | 26,076,589 € | Market | 2026-09-29 14:24:40
-El Ouahdi | 4,786,246 € | Market | 2026-09-29 15:08:11
-Uno | 539,134 € | Market | 2026-09-29 18:53:18
-Lynen | 4,999,927 € | Market | 2026-09-29 22:40:21
-Coufal | 20,606,462 € | Market | 2026-09-29 23:14:08
-Gouweleeuw | 3,133,296 € | Market | 2026-09-29 23:36:12
-Becker | 1,968,911 € | Market | 2026-09-30 01:06:08
-Kohr | 2,504,036 € | Market | 2026-09-30 03:10:53
-Drewes | 500,000 € | Market | 2026-09-30 04:44:25
-Grifo | 8,358,124 € | Market | 2026-09-30 05:18:00
-Machino | 5,627,710 € | Market | 2026-09-30 10:28:25
-Batista Meier | 1,569,427 € | Market | 2026-09-30 16:39:52
+Aebischer | 2,998,441 € | Market | 2026-09-28 22:37:52
+Adeline | 2,034,347 € | Market | 2026-09-28 23:05:29
+Diks | 9,338,464 € | Market | 2026-09-29 02:23:47
+Itakura | 6,496,010 € | Market | 2026-09-29 02:44:49
+Oermann | 500,000 € | Market | 2026-09-29 03:29:43
+Höler | 2,284,055 € | Market | 2026-09-29 04:34:15
+Pruhs | 500,000 € | Market | 2026-09-29 07:35:18
+Grahl | 500,000 € | Market | 2026-09-29 08:09:34
+Castro-Montes | 3,841,822 € | Market | 2026-09-29 11:21:08
+Grønbæk | 7,990,918 € | Market | 2026-09-29 13:04:47
+Uzun | 26,076,589 € | Market | 2026-09-29 14:24:41
+El Ouahdi | 4,786,246 € | Market | 2026-09-29 15:08:12
+Uno | 539,134 € | Market | 2026-09-29 18:53:19
+Lynen | 4,999,927 € | Market | 2026-09-29 22:40:22
+Coufal | 20,606,462 € | Market | 2026-09-29 23:14:09
+Gouweleeuw | 3,133,296 € | Market | 2026-09-29 23:36:13
+Becker | 1,968,911 € | Market | 2026-09-30 01:06:09
+Kohr | 2,504,036 € | Market | 2026-09-30 03:10:54
+Drewes | 500,000 € | Market | 2026-09-30 04:44:26
+Grifo | 8,358,124 € | Market | 2026-09-30 05:18:01
+Machino | 5,627,710 € | Market | 2026-09-30 10:28:26
+Batista Meier | 1,569,427 € | Market | 2026-09-30 16:39:53
 Chandler | 4,568,465 € | Robinho | Kein Ablaufdatum
 Silas | 3,798,204 € | CoachLeisi | Kein Ablaufdatum
 Knauff | 5,834,468 € | Vanilleeis23 | Kein Ablaufdatum
@@ -37,8 +37,8 @@ Awortwie-Grant | 500,000 € | Sascha187 | Kein Ablaufdatum
 Zimmerschied | 3,570,581 € | Vanilleeis23 | Kein Ablaufdatum
 Lidberg | 6,978,265 € | Robinho | Kein Ablaufdatum
 Al Dakhil | 5,455,393 € | Vanilleeis23 | Kein Ablaufdatum
+Sebulonsen | 6,077,189 € | Robinho | Kein Ablaufdatum
 Lenz | 2,831,704 € | Braunbär7 | Kein Ablaufdatum
-Burger | 18,981,398 € | Vanilleeis23 | Kein Ablaufdatum
 Omari | 4,715,229 € | Joel | Kein Ablaufdatum
 Vozar | 3,537,313 € | Joel | Kein Ablaufdatum
 Kosugi | 10,456,834 € | Joel | Kein Ablaufdatum

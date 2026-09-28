@@ -1,6 +1,3 @@
-Kühn | 2,221,693 € | Market | 2026-09-28 13:59:14
-Diaby | 22,230,606 € | Market | 2026-09-28 14:31:38
-Hollerbach | 4,604,189 € | Market | 2026-09-28 16:56:24
 Aebischer | 2,998,441 € | Market | 2026-09-28 22:37:51
 Adeline | 2,034,347 € | Market | 2026-09-28 23:05:28
 Diks | 9,338,464 € | Market | 2026-09-29 02:23:46
@@ -17,11 +14,13 @@ Uno | 539,134 € | Market | 2026-09-29 18:53:18
 Lynen | 4,999,927 € | Market | 2026-09-29 22:40:21
 Coufal | 20,606,462 € | Market | 2026-09-29 23:14:08
 Gouweleeuw | 3,133,296 € | Market | 2026-09-29 23:36:12
+Becker | 1,968,911 € | Market | 2026-09-30 01:06:08
 Kohr | 2,504,036 € | Market | 2026-09-30 03:10:53
+Drewes | 500,000 € | Market | 2026-09-30 04:44:25
 Grifo | 8,358,124 € | Market | 2026-09-30 05:18:00
 Machino | 5,627,710 € | Market | 2026-09-30 10:28:25
+Batista Meier | 1,569,427 € | Market | 2026-09-30 16:39:52
 Chandler | 4,568,465 € | Robinho | Kein Ablaufdatum
-Uduokhai | 10,036,248 € | Robinho | Kein Ablaufdatum
 Silas | 3,798,204 € | CoachLeisi | Kein Ablaufdatum
 Knauff | 5,834,468 € | Vanilleeis23 | Kein Ablaufdatum
 Nmecha | 26,522,285 € | Sascha187 | Kein Ablaufdatum
