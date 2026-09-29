@@ -1,50 +1,50 @@
-Uno | 500,000 € | Market | 2026-09-29 18:53:18
-Lynen | 5,105,753 € | Market | 2026-09-29 22:40:21
-Hofmann | 2,559,361 € | Market | 2026-09-29 22:59:01
-Coufal | 20,425,685 € | Market | 2026-09-29 23:14:08
-Gouweleeuw | 2,988,461 € | Market | 2026-09-29 23:36:12
-Becker | 1,824,206 € | Market | 2026-09-30 01:06:08
+Hofmann | 2,432,934 € | Market | 2026-09-29 22:59:01
+Coufal | 20,430,135 € | Market | 2026-09-29 23:14:08
+Gouweleeuw | 2,861,423 € | Market | 2026-09-29 23:36:12
+Becker | 1,703,097 € | Market | 2026-09-30 01:06:08
 Pimpong | 500,000 € | Market | 2026-09-30 01:07:03
-Kohr | 2,350,202 € | Market | 2026-09-30 03:10:53
+Kohr | 2,211,004 € | Market | 2026-09-30 03:10:53
 Drewes | 500,000 € | Market | 2026-09-30 04:44:25
-Grifo | 7,977,028 € | Market | 2026-09-30 05:18:00
-Inácio | 5,023,999 € | Market | 2026-09-30 06:44:40
-Karetsas | 24,887,919 € | Market | 2026-09-30 08:40:45
-Machino | 5,871,259 € | Market | 2026-09-30 10:28:25
-Machida | 6,823,883 € | Market | 2026-09-30 10:35:04
-Baumgartner | 11,259,286 € | Market | 2026-09-30 11:54:22
-Jeltsch | 14,048,402 € | Market | 2026-09-30 14:13:40
-Batista Meier | 1,414,309 € | Market | 2026-09-30 16:39:52
-Ilic | 1,743,656 € | Market | 2026-09-30 22:23:23
-Yilmaz | 870,341 € | Market | 2026-10-01 01:25:23
-Sosa | 3,301,398 € | Market | 2026-10-01 01:36:37
-Ndiaye | 747,453 € | Market | 2026-10-01 06:57:44
-Keitel | 4,058,343 € | Market | 2026-10-01 07:53:08
-Chandler | 4,825,133 € | Robinho | Kein Ablaufdatum
-Silas | 3,967,018 € | CoachLeisi | Kein Ablaufdatum
-Knauff | 6,040,932 € | Robinho | Kein Ablaufdatum
-Nmecha | 26,638,654 € | Sascha187 | Kein Ablaufdatum
-Tiago Tomás | 7,271,275 € | Braunbär7 | Kein Ablaufdatum
-Dina Ebimbe | 8,971,202 € | Sascha187 | Kein Ablaufdatum
-Kömür | 6,658,113 € | CoachLeisi | Kein Ablaufdatum
-Fellhauer | 10,236,331 € | Braunbär7 | Kein Ablaufdatum
-Amoako | 4,104,548 € | Robinho | Kein Ablaufdatum
-Aebischer | 2,905,808 € | Vanilleeis23 | Kein Ablaufdatum
-Prass | 4,127,607 € | CoachLeisi | Kein Ablaufdatum
-Konoplia | 4,098,975 € | Braunbär7 | Kein Ablaufdatum
-Gantenbein | 4,050,054 € | Robinho | Kein Ablaufdatum
-Sambi Lokonga | 8,782,815 € | CoachLeisi | Kein Ablaufdatum
+Grifo | 7,317,510 € | Market | 2026-09-30 05:18:00
+Inácio | 4,549,212 € | Market | 2026-09-30 06:44:40
+Karetsas | 25,145,346 € | Market | 2026-09-30 08:40:45
+Machino | 6,113,041 € | Market | 2026-09-30 10:28:25
+Machida | 7,060,211 € | Market | 2026-09-30 10:35:04
+Baumgartner | 11,437,308 € | Market | 2026-09-30 11:54:22
+Jeltsch | 13,756,011 € | Market | 2026-09-30 14:13:40
+Batista Meier | 1,276,661 € | Market | 2026-09-30 16:39:52
+Ilic | 1,682,142 € | Market | 2026-09-30 22:23:23
+Yilmaz | 743,750 € | Market | 2026-10-01 01:25:23
+Sosa | 3,151,230 € | Market | 2026-10-01 01:36:37
+Raab | 1,588,452 € | Market | 2026-10-01 05:11:37
+Ndiaye | 616,818 € | Market | 2026-10-01 06:57:44
+Keitel | 4,481,248 € | Market | 2026-10-01 07:53:08
+Chandler | 5,082,790 € | Robinho | Kein Ablaufdatum
+Silas | 4,098,227 € | CoachLeisi | Kein Ablaufdatum
+Knauff | 6,257,210 € | Robinho | Kein Ablaufdatum
+Nmecha | 26,766,894 € | Sascha187 | Kein Ablaufdatum
+Tiago Tomás | 7,510,428 € | Braunbär7 | Kein Ablaufdatum
+Dina Ebimbe | 9,234,470 € | Sascha187 | Kein Ablaufdatum
+Kömür | 6,730,807 € | CoachLeisi | Kein Ablaufdatum
+Pinckert | 12,133,760 € | Vanilleeis23 | Kein Ablaufdatum
+Fellhauer | 10,297,194 € | Braunbär7 | Kein Ablaufdatum
+Amoako | 4,499,827 € | Robinho | Kein Ablaufdatum
+Aebischer | 2,859,337 € | Vanilleeis23 | Kein Ablaufdatum
+Prass | 4,527,339 € | CoachLeisi | Kein Ablaufdatum
+Konoplia | 4,446,288 € | Braunbär7 | Kein Ablaufdatum
+Gantenbein | 4,408,875 € | Robinho | Kein Ablaufdatum
+Sambi Lokonga | 8,933,604 € | CoachLeisi | Kein Ablaufdatum
 Awortwie-Grant | 500,000 € | Sascha187 | Kein Ablaufdatum
-Zimmerschied | 3,915,419 € | Vanilleeis23 | Kein Ablaufdatum
-Lidberg | 7,183,481 € | Robinho | Kein Ablaufdatum
-Al Dakhil | 5,706,728 € | Vanilleeis23 | Kein Ablaufdatum
-Sebulonsen | 6,357,511 € | Vanilleeis23 | Kein Ablaufdatum
-Lenz | 3,121,407 € | Braunbär7 | Kein Ablaufdatum
-Omari | 5,063,251 € | Joel | Kein Ablaufdatum
-Vozar | 3,679,081 € | Joel | Kein Ablaufdatum
-Kosugi | 10,568,542 € | Joel | Kein Ablaufdatum
-Arrhov | 3,547,435 € | Vanilleeis23 | Kein Ablaufdatum
-Ruoppi | 5,426,166 € | CoachLeisi | Kein Ablaufdatum
-El Ouahdi | 4,739,270 € | Braunbär7 | Kein Ablaufdatum
-Quetant | 3,243,919 € | Robinho | Kein Ablaufdatum
-Soylu | 4,949,356 € | Joel | Kein Ablaufdatum
+Zimmerschied | 4,300,425 € | Vanilleeis23 | Kein Ablaufdatum
+Lidberg | 7,408,514 € | Robinho | Kein Ablaufdatum
+Al Dakhil | 5,940,137 € | Vanilleeis23 | Kein Ablaufdatum
+Sebulonsen | 6,625,607 € | Vanilleeis23 | Kein Ablaufdatum
+Lenz | 3,498,801 € | Braunbär7 | Kein Ablaufdatum
+Omari | 5,366,438 € | Joel | Kein Ablaufdatum
+Vozar | 3,787,000 € | Joel | Kein Ablaufdatum
+Kosugi | 10,660,354 € | Joel | Kein Ablaufdatum
+Arrhov | 3,935,695 € | Vanilleeis23 | Kein Ablaufdatum
+Ruoppi | 5,686,748 € | CoachLeisi | Kein Ablaufdatum
+El Ouahdi | 4,774,213 € | Braunbär7 | Kein Ablaufdatum
+Quetant | 3,609,505 € | Robinho | Kein Ablaufdatum
+Soylu | 5,273,836 € | Joel | Kein Ablaufdatum

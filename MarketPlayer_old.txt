@@ -1,4 +1,3 @@
-El Ouahdi | 4,739,270 € | Market | 2026-09-29 15:08:11
 Uno | 500,000 € | Market | 2026-09-29 18:53:18
 Lynen | 5,105,753 € | Market | 2026-09-29 22:40:21
 Hofmann | 2,559,361 € | Market | 2026-09-29 22:59:01
@@ -17,7 +16,9 @@ Baumgartner | 11,259,286 € | Market | 2026-09-30 11:54:22
 Jeltsch | 14,048,402 € | Market | 2026-09-30 14:13:40
 Batista Meier | 1,414,309 € | Market | 2026-09-30 16:39:52
 Ilic | 1,743,656 € | Market | 2026-09-30 22:23:23
+Yilmaz | 870,341 € | Market | 2026-10-01 01:25:23
 Sosa | 3,301,398 € | Market | 2026-10-01 01:36:37
+Ndiaye | 747,453 € | Market | 2026-10-01 06:57:44
 Keitel | 4,058,343 € | Market | 2026-10-01 07:53:08
 Chandler | 4,825,133 € | Robinho | Kein Ablaufdatum
 Silas | 3,967,018 € | CoachLeisi | Kein Ablaufdatum
@@ -44,5 +45,6 @@ Vozar | 3,679,081 € | Joel | Kein Ablaufdatum
 Kosugi | 10,568,542 € | Joel | Kein Ablaufdatum
 Arrhov | 3,547,435 € | Vanilleeis23 | Kein Ablaufdatum
 Ruoppi | 5,426,166 € | CoachLeisi | Kein Ablaufdatum
+El Ouahdi | 4,739,270 € | Braunbär7 | Kein Ablaufdatum
 Quetant | 3,243,919 € | Robinho | Kein Ablaufdatum
 Soylu | 4,949,356 € | Joel | Kein Ablaufdatum
