@@ -1,31 +1,31 @@
-Batista Meier | 1,276,661 € | Market | 2026-09-30 16:39:52
-Ilic | 1,682,142 € | Market | 2026-09-30 22:23:23
-Saibari | 27,682,388 € | Market | 2026-09-30 23:12:36
-Maluze | 3,884,457 € | Market | 2026-10-01 00:13:54
-Yilmaz | 743,750 € | Market | 2026-10-01 01:25:23
-Sosa | 3,151,230 € | Market | 2026-10-01 01:36:37
-Gendrey | 5,692,428 € | Market | 2026-10-01 02:36:23
-Raab | 1,588,452 € | Market | 2026-10-01 05:11:37
-Ndiaye | 616,818 € | Market | 2026-10-01 06:57:44
-Keitel | 4,481,248 € | Market | 2026-10-01 07:53:08
-Lehmann | 500,000 € | Market | 2026-10-01 08:45:59
-Castrop | 4,769,951 € | Market | 2026-10-01 08:48:50
-Goto | 969,848 € | Market | 2026-10-01 10:33:17
-Sabitzer | 4,489,566 € | Market | 2026-10-01 14:42:25
-Røssing-Lelesiit | 500,000 € | Market | 2026-10-01 16:39:32
-Widmer | 500,000 € | Market | 2026-10-01 19:03:30
-Müller | 500,000 € | Market | 2026-10-01 22:35:03
-Tella | 3,817,040 € | Market | 2026-10-02 02:28:12
-Labrović | 500,000 € | Market | 2026-10-02 04:20:19
-Nyland | 500,000 € | Market | 2026-10-02 04:52:50
-Hwang | 7,687,790 € | Market | 2026-10-02 07:41:43
-Michel | 500,000 € | Market | 2026-10-02 09:47:56
+Ilic | 1,682,142 € | Market | 2026-09-30 22:23:24
+Saibari | 27,682,388 € | Market | 2026-09-30 23:12:37
+Maluze | 3,884,457 € | Market | 2026-10-01 00:13:55
+Yilmaz | 743,750 € | Market | 2026-10-01 01:25:24
+Sosa | 3,151,230 € | Market | 2026-10-01 01:36:38
+Gendrey | 5,692,428 € | Market | 2026-10-01 02:36:24
+Raab | 1,588,452 € | Market | 2026-10-01 05:11:38
+Ndiaye | 616,818 € | Market | 2026-10-01 06:57:45
+Keitel | 4,481,248 € | Market | 2026-10-01 07:53:09
+Lehmann | 500,000 € | Market | 2026-10-01 08:46:00
+Castrop | 4,769,951 € | Market | 2026-10-01 08:48:51
+Goto | 969,848 € | Market | 2026-10-01 10:33:18
+Sabitzer | 4,489,566 € | Market | 2026-10-01 14:42:26
+Røssing-Lelesiit | 500,000 € | Market | 2026-10-01 16:39:33
+Widmer | 500,000 € | Market | 2026-10-01 19:03:31
+Müller | 500,000 € | Market | 2026-10-01 22:35:04
+Tella | 3,817,040 € | Market | 2026-10-02 02:28:13
+Labrović | 500,000 € | Market | 2026-10-02 04:20:20
+Nyland | 500,000 € | Market | 2026-10-02 04:52:51
+Hwang | 7,687,790 € | Market | 2026-10-02 07:41:44
+Michel | 500,000 € | Market | 2026-10-02 09:47:57
 Chandler | 5,082,790 € | Robinho | Kein Ablaufdatum
 Rönnow | 10,983,668 € | Vanilleeis23 | Kein Ablaufdatum
 Silas | 4,098,227 € | CoachLeisi | Kein Ablaufdatum
 Knauff | 6,257,210 € | Robinho | Kein Ablaufdatum
 Nmecha | 26,766,894 € | Sascha187 | Kein Ablaufdatum
 Vidović | 6,125,644 € | Timo Kramer  | Kein Ablaufdatum
+Asllani | 15,057,939 € | Philipp | Kein Ablaufdatum
 Kade | 11,038,293 € | Timo Kramer  | Kein Ablaufdatum
 Tiago Tomás | 7,510,428 € | Braunbär7 | Kein Ablaufdatum
 Scherhant | 14,689,982 € | Vanilleeis23 | Kein Ablaufdatum
