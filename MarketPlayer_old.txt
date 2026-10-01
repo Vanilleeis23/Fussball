@@ -1,50 +1,52 @@
-Müller | 500,000 € | Market | 2026-10-01 22:35:04
-Maina | 8,904,492 € | Market | 2026-10-01 22:43:22
-Ogbus | 1,594,561 € | Market | 2026-10-02 01:22:54
-Tella | 4,152,642 € | Market | 2026-10-02 02:28:13
-Labrović | 500,000 € | Market | 2026-10-02 04:20:20
-Nyland | 500,000 € | Market | 2026-10-02 04:52:51
-Kolke | 500,000 € | Market | 2026-10-02 05:37:46
-Engelhardt | 13,687,967 € | Market | 2026-10-02 06:56:05
-Hwang | 7,948,256 € | Market | 2026-10-02 07:41:44
-Jóhannesson | 4,809,830 € | Market | 2026-10-02 08:44:44
-Michel | 500,000 € | Market | 2026-10-02 09:47:57
-Schlager | 500,000 € | Market | 2026-10-02 10:05:15
-Orban | 28,143,750 € | Market | 2026-10-02 11:20:49
-Arthur | 5,702,627 € | Market | 2026-10-02 14:38:38
-Karazor | 6,148,460 € | Market | 2026-10-02 15:30:37
-Baum | 8,419,545 € | Market | 2026-10-02 16:21:36
-Günther | 4,648,901 € | Market | 2026-10-02 16:47:01
-Neuer | 12,619,901 € | Market | 2026-10-02 21:15:33
-Batz | 500,000 € | Market | 2026-10-02 23:37:34
-Waldschmidt | 500,000 € | Market | 2026-10-03 00:49:45
-Curda | 6,986,214 € | Market | 2026-10-03 01:42:11
-Tigges | 5,478,938 € | Market | 2026-10-03 02:48:02
-Chandler | 5,271,024 € | Robinho | Kein Ablaufdatum
-Martel | 7,814,165 € | Sascha187 | Kein Ablaufdatum
-Knauff | 6,474,881 € | Robinho | Kein Ablaufdatum
-Nmecha | 26,891,328 € | Sascha187 | Kein Ablaufdatum
-Vidović | 6,480,736 € | Timo Kramer  | Kein Ablaufdatum
-Kade | 11,223,929 € | Timo Kramer  | Kein Ablaufdatum
-Tiago Tomás | 7,695,532 € | Braunbär7 | Kein Ablaufdatum
-Dina Ebimbe | 9,475,827 € | Sascha187 | Kein Ablaufdatum
-Hollerbach | 5,618,009 € | Timo Kramer  | Kein Ablaufdatum
-Amoako | 4,880,082 € | Robinho | Kein Ablaufdatum
-Aebischer | 2,846,363 € | Vanilleeis23 | Kein Ablaufdatum
-Prass | 4,910,191 € | CoachLeisi | Kein Ablaufdatum
-Konoplia | 4,816,413 € | Braunbär7 | Kein Ablaufdatum
-Gantenbein | 4,739,651 € | Robinho | Kein Ablaufdatum
-Sambi Lokonga | 9,072,575 € | CoachLeisi | Kein Ablaufdatum
+Ogbus | 1,462,096 € | Market | 2026-10-02 01:22:53
+Tella | 4,489,545 € | Market | 2026-10-02 02:28:12
+Labrović | 500,000 € | Market | 2026-10-02 04:20:19
+Nyland | 500,000 € | Market | 2026-10-02 04:52:50
+Kolke | 500,000 € | Market | 2026-10-02 05:37:45
+Engelhardt | 13,879,613 € | Market | 2026-10-02 06:56:04
+Hwang | 8,151,497 € | Market | 2026-10-02 07:41:43
+Jóhannesson | 4,709,624 € | Market | 2026-10-02 08:44:43
+Michel | 500,000 € | Market | 2026-10-02 09:47:56
+Schlager | 500,000 € | Market | 2026-10-02 10:05:14
+Orban | 28,193,435 € | Market | 2026-10-02 11:20:48
+Arthur | 5,552,643 € | Market | 2026-10-02 14:38:37
+Karazor | 6,365,268 € | Market | 2026-10-02 15:30:36
+Baum | 8,180,761 € | Market | 2026-10-02 16:21:35
+Günther | 4,769,927 € | Market | 2026-10-02 16:47:00
+Neuer | 12,677,280 € | Market | 2026-10-02 21:15:32
+Batz | 500,000 € | Market | 2026-10-02 23:37:33
+Waldschmidt | 500,000 € | Market | 2026-10-03 00:49:44
+Curda | 7,266,260 € | Market | 2026-10-03 01:42:10
+Tigges | 5,765,569 € | Market | 2026-10-03 02:48:01
+Zagadou | 5,432,178 € | Philipp | Kein Ablaufdatum
+Trimmel | 4,853,706 € | Philipp | Kein Ablaufdatum
+Martel | 8,001,851 € | Sascha187 | Kein Ablaufdatum
+Knauff | 6,681,631 € | Robinho | Kein Ablaufdatum
+Nmecha | 27,006,337 € | Sascha187 | Kein Ablaufdatum
+Vidović | 6,805,950 € | Timo Kramer  | Kein Ablaufdatum
+Kade | 11,396,665 € | Timo Kramer  | Kein Ablaufdatum
+Tiago Tomás | 7,794,384 € | Braunbär7 | Kein Ablaufdatum
+Dina Ebimbe | 9,679,930 € | Sascha187 | Kein Ablaufdatum
+Hollerbach | 5,876,006 € | Timo Kramer  | Kein Ablaufdatum
+Amoako | 5,221,005 € | Robinho | Kein Ablaufdatum
+Aebischer | 2,876,153 € | Vanilleeis23 | Kein Ablaufdatum
+Prass | 5,276,889 € | CoachLeisi | Kein Ablaufdatum
+Konoplia | 5,191,734 € | Braunbär7 | Kein Ablaufdatum
+Gantenbein | 5,026,183 € | Robinho | Kein Ablaufdatum
+Sambi Lokonga | 9,175,750 € | CoachLeisi | Kein Ablaufdatum
 Awortwie-Grant | 500,000 € | Sascha187 | Kein Ablaufdatum
-Zimmerschied | 4,674,867 € | Vanilleeis23 | Kein Ablaufdatum
-Lidberg | 7,625,972 € | Robinho | Kein Ablaufdatum
-Al Dakhil | 6,134,004 € | Vanilleeis23 | Kein Ablaufdatum
-Capaldo | 8,647,313 € | Timo Kramer  | Kein Ablaufdatum
-Lenz | 3,879,795 € | Braunbär7 | Kein Ablaufdatum
-Omari | 5,647,557 € | Joel | Kein Ablaufdatum
-Culbreath | 4,654,953 € | Timo Kramer  | Kein Ablaufdatum
-Arrhov | 4,301,749 € | Vanilleeis23 | Kein Ablaufdatum
-Ruoppi | 5,907,231 € | CoachLeisi | Kein Ablaufdatum
-El Ouahdi | 4,854,363 € | Braunbär7 | Kein Ablaufdatum
-Quetant | 3,976,568 € | Robinho | Kein Ablaufdatum
-Soylu | 5,536,720 € | Joel | Kein Ablaufdatum
+Zimmerschied | 5,029,663 € | Vanilleeis23 | Kein Ablaufdatum
+Lidberg | 7,818,360 € | Robinho | Kein Ablaufdatum
+Gendrey | 6,249,001 € | Philipp | Kein Ablaufdatum
+Al Dakhil | 6,253,473 € | Vanilleeis23 | Kein Ablaufdatum
+Jaquez | 3,862,220 € | Sascha187 | Kein Ablaufdatum
+Capaldo | 8,902,804 € | Timo Kramer  | Kein Ablaufdatum
+Lenz | 4,243,508 € | Braunbär7 | Kein Ablaufdatum
+Omari | 5,882,882 € | Joel | Kein Ablaufdatum
+Culbreath | 4,979,839 € | Timo Kramer  | Kein Ablaufdatum
+van den Berg | 6,294,534 € | Philipp | Kein Ablaufdatum
+Arrhov | 4,648,149 € | Vanilleeis23 | Kein Ablaufdatum
+Ruoppi | 6,079,806 € | CoachLeisi | Kein Ablaufdatum
+El Ouahdi | 4,988,312 € | Braunbär7 | Kein Ablaufdatum
+Quetant | 4,319,780 € | Robinho | Kein Ablaufdatum
+Soylu | 5,755,184 € | Joel | Kein Ablaufdatum
