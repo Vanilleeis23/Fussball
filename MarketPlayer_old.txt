@@ -1,4 +1,3 @@
-Batista Meier | 1,276,661 € | Market | 2026-09-30 16:39:52
 Ilic | 1,682,142 € | Market | 2026-09-30 22:23:23
 Saibari | 27,682,388 € | Market | 2026-09-30 23:12:36
 Maluze | 3,884,457 € | Market | 2026-10-01 00:13:54
@@ -11,6 +10,7 @@ Keitel | 4,481,248 € | Market | 2026-10-01 07:53:08
 Lehmann | 500,000 € | Market | 2026-10-01 08:45:59
 Castrop | 4,769,951 € | Market | 2026-10-01 08:48:50
 Goto | 969,848 € | Market | 2026-10-01 10:33:17
+Herold | 1,440,277 € | Market | 2026-10-01 12:11:00
 Sabitzer | 4,489,566 € | Market | 2026-10-01 14:42:25
 Røssing-Lelesiit | 500,000 € | Market | 2026-10-01 16:39:32
 Widmer | 500,000 € | Market | 2026-10-01 19:03:30
@@ -26,6 +26,7 @@ Silas | 4,098,227 € | CoachLeisi | Kein Ablaufdatum
 Knauff | 6,257,210 € | Robinho | Kein Ablaufdatum
 Nmecha | 26,766,894 € | Sascha187 | Kein Ablaufdatum
 Vidović | 6,125,644 € | Timo Kramer  | Kein Ablaufdatum
+Asllani | 15,057,939 € | Philipp | Kein Ablaufdatum
 Kade | 11,038,293 € | Timo Kramer  | Kein Ablaufdatum
 Tiago Tomás | 7,510,428 € | Braunbär7 | Kein Ablaufdatum
 Scherhant | 14,689,982 € | Vanilleeis23 | Kein Ablaufdatum
@@ -33,7 +34,6 @@ Dina Ebimbe | 9,234,470 € | Sascha187 | Kein Ablaufdatum
 Kuruçay | 10,773,302 € | Vanilleeis23 | Kein Ablaufdatum
 Kömür | 6,730,807 € | CoachLeisi | Kein Ablaufdatum
 Hollerbach | 5,324,752 € | Timo Kramer  | Kein Ablaufdatum
-Pinckert | 12,133,760 € | Vanilleeis23 | Kein Ablaufdatum
 Lynen | 5,143,339 € | CoachLeisi | Kein Ablaufdatum
 Amoako | 4,499,827 € | Robinho | Kein Ablaufdatum
 Aebischer | 2,859,337 € | Vanilleeis23 | Kein Ablaufdatum
