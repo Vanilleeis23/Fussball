@@ -1,22 +1,22 @@
-Lehmann | 500,000 € | Market | 2026-10-01 08:45:59
-Castrop | 5,125,546 € | Market | 2026-10-01 08:48:50
-Goto | 866,160 € | Market | 2026-10-01 10:33:17
-Herold | 1,326,267 € | Market | 2026-10-01 12:11:00
-Sabitzer | 4,402,924 € | Market | 2026-10-01 14:42:25
 ter Horst | 7,869,356 € | Market | 2026-10-01 15:55:40
 Røssing-Lelesiit | 500,000 € | Market | 2026-10-01 16:39:32
 Widmer | 500,000 € | Market | 2026-10-01 19:03:30
 Müller | 500,000 € | Market | 2026-10-01 22:35:03
+Maina | 8,904,492 € | Market | 2026-10-01 22:43:21
 Ogbus | 1,594,561 € | Market | 2026-10-02 01:22:53
 Tella | 4,152,642 € | Market | 2026-10-02 02:28:12
 Labrović | 500,000 € | Market | 2026-10-02 04:20:19
 Nyland | 500,000 € | Market | 2026-10-02 04:52:50
+Kolke | 500,000 € | Market | 2026-10-02 05:37:45
 Engelhardt | 13,687,967 € | Market | 2026-10-02 06:56:04
 Hwang | 7,948,256 € | Market | 2026-10-02 07:41:43
 Michel | 500,000 € | Market | 2026-10-02 09:47:56
+Schlager | 500,000 € | Market | 2026-10-02 10:05:14
 Orban | 28,143,750 € | Market | 2026-10-02 11:20:48
+Arthur | 5,702,627 € | Market | 2026-10-02 14:38:37
 Baum | 8,419,545 € | Market | 2026-10-02 16:21:35
 Günther | 4,648,901 € | Market | 2026-10-02 16:47:00
+Neuer | 12,619,901 € | Market | 2026-10-02 21:15:32
 Batz | 500,000 € | Market | 2026-10-02 23:37:33
 Waldschmidt | 500,000 € | Market | 2026-10-03 00:49:44
 Curda | 6,986,214 € | Market | 2026-10-03 01:42:10
@@ -43,11 +43,8 @@ Capaldo | 8,647,313 € | Timo Kramer  | Kein Ablaufdatum
 Lenz | 3,879,795 € | Braunbär7 | Kein Ablaufdatum
 Omari | 5,647,557 € | Joel | Kein Ablaufdatum
 Culbreath | 4,654,953 € | Timo Kramer  | Kein Ablaufdatum
-Vozar | 3,839,541 € | Joel | Kein Ablaufdatum
-Kosugi | 10,673,722 € | Joel | Kein Ablaufdatum
 Arrhov | 4,301,749 € | Vanilleeis23 | Kein Ablaufdatum
 Ruoppi | 5,907,231 € | CoachLeisi | Kein Ablaufdatum
-Saibari | 27,732,483 € | Robinho | Kein Ablaufdatum
 El Ouahdi | 4,854,363 € | Braunbär7 | Kein Ablaufdatum
 Quetant | 3,976,568 € | Robinho | Kein Ablaufdatum
 Soylu | 5,536,720 € | Joel | Kein Ablaufdatum
