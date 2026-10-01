@@ -1,3 +1,7 @@
+[{"slr": "Joel"}, {"pn": "Kosugi"}, {"trp": 10673722}, {"dt": "2026-10-01T10:29:23Z"}]
+[{"slr": "Joel"}, {"pn": "Ullrich"}, {"trp": 7429164}, {"dt": "2026-10-01T10:29:12Z"}]
+[{"slr": "Joel"}, {"pn": "Vozar"}, {"trp": 3839541}, {"dt": "2026-10-01T10:28:59Z"}]
+[{"byr": "CoachLeisi"}, {"pn": "Castrop"}, {"trp": 6200000}, {"dt": "2026-10-01T08:49:01Z"}]
 [{"byr": "MirkoHengst"}, {"pn": "Keitel"}, {"trp": 5777777}, {"dt": "2026-10-01T07:53:40Z"}]
 [{"byr": "Philipp"}, {"pn": "Gendrey"}, {"trp": 6391799}, {"dt": "2026-10-01T02:36:31Z"}]
 [{"byr": "CoachLeisi"}, {"pn": "Sosa"}, {"trp": 3026963}, {"dt": "2026-10-01T01:36:57Z"}]
