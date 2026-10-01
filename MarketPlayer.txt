@@ -1,5 +1,3 @@
-Gendrey | 5,991,781 € | Market | 2026-10-01 02:36:23
-Raab | 1,447,998 € | Market | 2026-10-01 05:11:37
 Ndiaye | 500,000 € | Market | 2026-10-01 06:57:44
 Keitel | 4,875,123 € | Market | 2026-10-01 07:53:08
 Lehmann | 500,000 € | Market | 2026-10-01 08:45:59
@@ -15,9 +13,12 @@ Ogbus | 1,594,561 € | Market | 2026-10-02 01:22:53
 Tella | 4,152,642 € | Market | 2026-10-02 02:28:12
 Labrović | 500,000 € | Market | 2026-10-02 04:20:19
 Nyland | 500,000 € | Market | 2026-10-02 04:52:50
+Engelhardt | 13,687,967 € | Market | 2026-10-02 06:56:04
 Hwang | 7,948,256 € | Market | 2026-10-02 07:41:43
 Michel | 500,000 € | Market | 2026-10-02 09:47:56
 Baum | 8,419,545 € | Market | 2026-10-02 16:21:35
+Waldschmidt | 500,000 € | Market | 2026-10-03 00:49:44
+Curda | 6,986,214 € | Market | 2026-10-03 01:42:10
 Chandler | 5,271,024 € | Robinho | Kein Ablaufdatum
 Martel | 7,814,165 € | Sascha187 | Kein Ablaufdatum
 Knauff | 6,474,881 € | Robinho | Kein Ablaufdatum
