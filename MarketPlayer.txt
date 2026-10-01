@@ -1,4 +1,3 @@
-Ndiaye | 500,000 € | Market | 2026-10-01 06:57:44
 Keitel | 4,875,123 € | Market | 2026-10-01 07:53:08
 Lehmann | 500,000 € | Market | 2026-10-01 08:45:59
 Castrop | 5,125,546 € | Market | 2026-10-01 08:48:50
@@ -16,7 +15,9 @@ Nyland | 500,000 € | Market | 2026-10-02 04:52:50
 Engelhardt | 13,687,967 € | Market | 2026-10-02 06:56:04
 Hwang | 7,948,256 € | Market | 2026-10-02 07:41:43
 Michel | 500,000 € | Market | 2026-10-02 09:47:56
+Orban | 28,143,750 € | Market | 2026-10-02 11:20:48
 Baum | 8,419,545 € | Market | 2026-10-02 16:21:35
+Batz | 500,000 € | Market | 2026-10-02 23:37:33
 Waldschmidt | 500,000 € | Market | 2026-10-03 00:49:44
 Curda | 6,986,214 € | Market | 2026-10-03 01:42:10
 Chandler | 5,271,024 € | Robinho | Kein Ablaufdatum
@@ -46,6 +47,7 @@ Vozar | 3,839,541 € | Joel | Kein Ablaufdatum
 Kosugi | 10,673,722 € | Joel | Kein Ablaufdatum
 Arrhov | 4,301,749 € | Vanilleeis23 | Kein Ablaufdatum
 Ruoppi | 5,907,231 € | CoachLeisi | Kein Ablaufdatum
+Saibari | 27,732,483 € | Robinho | Kein Ablaufdatum
 El Ouahdi | 4,854,363 € | Braunbär7 | Kein Ablaufdatum
 Quetant | 3,976,568 € | Robinho | Kein Ablaufdatum
 Soylu | 5,536,720 € | Joel | Kein Ablaufdatum
