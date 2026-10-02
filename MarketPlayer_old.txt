@@ -18,6 +18,8 @@ Batz | 500,000 € | Market | 2026-10-02 23:37:33
 Waldschmidt | 500,000 € | Market | 2026-10-03 00:49:44
 Curda | 7,266,260 € | Market | 2026-10-03 01:42:10
 Tigges | 5,765,569 € | Market | 2026-10-03 02:48:01
+Njinmah | 1,201,305 € | Market | 2026-10-03 17:49:30
+Rosenfelder | 2,620,041 € | Market | 2026-10-03 22:23:04
 Zagadou | 5,432,178 € | Philipp | Kein Ablaufdatum
 Trimmel | 4,853,706 € | Philipp | Kein Ablaufdatum
 Martel | 8,001,851 € | Sascha187 | Kein Ablaufdatum
