@@ -1,6 +1,3 @@
-Pieringer | 4,020,023 € | Market | 2026-10-03 23:48:53
-Mane | 1,263,101 € | Market | 2026-10-04 00:00:03
-Hranác | 1,988,513 € | Market | 2026-10-04 01:40:25
 Le Joncour | 500,000 € | Market | 2026-10-04 03:17:59
 Beier | 18,452,752 € | Market | 2026-10-04 03:32:13
 Guiu | 2,409,363 € | Market | 2026-10-04 03:33:36
@@ -18,6 +15,8 @@ Lippmann | 500,000 € | Market | 2026-10-05 00:24:50
 Zentner | 7,374,514 € | Market | 2026-10-05 02:51:02
 Olschowsky | 500,000 € | Market | 2026-10-05 03:36:40
 Nadir | 5,265,518 € | Market | 2026-10-05 04:01:21
+Stark | 1,261,601 € | Market | 2026-10-05 08:58:24
+Condé | 500,000 € | Market | 2026-10-05 10:01:12
 Skov | 500,000 € | Market | 2026-10-05 15:57:45
 Zagadou | 5,779,734 € | Philipp | Kein Ablaufdatum
 Trimmel | 5,380,203 € | Philipp | Kein Ablaufdatum
@@ -29,7 +28,6 @@ Nmecha | 27,200,109 € | Sascha187 | Kein Ablaufdatum
 Vidović | 7,340,250 € | Timo Kramer  | Kein Ablaufdatum
 Kade | 11,677,718 € | Timo Kramer  | Kein Ablaufdatum
 Tiago Tomás | 7,088,959 € | Braunbär7 | Kein Ablaufdatum
-Engelhardt | 14,225,875 € | Robinho | Kein Ablaufdatum
 Dina Ebimbe | 9,955,897 € | Sascha187 | Kein Ablaufdatum
 Hollerbach | 6,281,283 € | Timo Kramer  | Kein Ablaufdatum
 Curda | 7,901,609 € | Braunbär7 | Kein Ablaufdatum
@@ -40,7 +38,6 @@ Konoplia | 5,827,245 € | Braunbär7 | Kein Ablaufdatum
 Gantenbein | 5,384,159 € | Robinho | Kein Ablaufdatum
 Awortwie-Grant | 500,000 € | Sascha187 | Kein Ablaufdatum
 Zimmerschied | 5,584,544 € | Vanilleeis23 | Kein Ablaufdatum
-Lidberg | 8,078,611 € | Robinho | Kein Ablaufdatum
 Gendrey | 6,626,883 € | Philipp | Kein Ablaufdatum
 Jaquez | 4,469,284 € | Sascha187 | Kein Ablaufdatum
 Capaldo | 9,350,122 € | Timo Kramer  | Kein Ablaufdatum
@@ -49,6 +46,7 @@ Omari | 6,220,743 € | Joel | Kein Ablaufdatum
 Culbreath | 5,521,834 € | Timo Kramer  | Kein Ablaufdatum
 van den Berg | 6,433,828 € | Philipp | Kein Ablaufdatum
 Arrhov | 5,266,187 € | Vanilleeis23 | Kein Ablaufdatum
+Saibari | 27,863,274 € | Robinho | Kein Ablaufdatum
 El Ouahdi | 5,346,087 € | Braunbär7 | Kein Ablaufdatum
 Quetant | 4,986,282 € | Robinho | Kein Ablaufdatum
 Soylu | 6,013,395 € | Joel | Kein Ablaufdatum
