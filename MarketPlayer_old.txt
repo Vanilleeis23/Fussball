@@ -1,5 +1,3 @@
-Ljubičić | 3,102,806 € | Market | 2026-10-03 09:56:28
-Reis | 4,787,480 € | Market | 2026-10-03 10:08:40
 Njinmah | 1,087,516 € | Market | 2026-10-03 17:49:30
 Moreira | 15,351,093 € | Market | 2026-10-03 19:01:02
 Osterhage | 500,000 € | Market | 2026-10-03 19:22:57
@@ -7,6 +5,7 @@ Hendriks | 4,050,568 € | Market | 2026-10-03 21:39:34
 Itten | 872,837 € | Market | 2026-10-03 22:03:38
 Rosenfelder | 2,515,691 € | Market | 2026-10-03 22:23:04
 Pieringer | 3,987,416 € | Market | 2026-10-03 23:48:53
+Mane | 1,394,132 € | Market | 2026-10-04 00:00:03
 Hranác | 2,106,496 € | Market | 2026-10-04 01:40:25
 Le Joncour | 500,000 € | Market | 2026-10-04 03:17:59
 Beier | 18,379,098 € | Market | 2026-10-04 03:32:13
@@ -16,11 +15,12 @@ Koné | 500,000 € | Market | 2026-10-04 04:29:40
 Chaïbi | 4,145,135 € | Market | 2026-10-04 08:23:06
 Wolf | 6,394,289 € | Market | 2026-10-04 08:36:48
 Philipp | 500,000 € | Market | 2026-10-04 10:13:16
+Chabot | 18,165,375 € | Market | 2026-10-04 13:01:36
 Andrich | 4,300,794 € | Market | 2026-10-04 13:37:32
 Bachmann | 500,000 € | Market | 2026-10-04 18:20:17
 Lippmann | 500,000 € | Market | 2026-10-05 00:24:50
+Nadir | 4,963,670 € | Market | 2026-10-05 04:01:21
 Zagadou | 5,633,706 € | Philipp | Kein Ablaufdatum
-Rönnow | 9,979,912 € | Vanilleeis23 | Kein Ablaufdatum
 Trimmel | 5,151,015 € | Philipp | Kein Ablaufdatum
 Martel | 8,123,309 € | Sascha187 | Kein Ablaufdatum
 Tigges | 6,012,271 € | Vanilleeis23 | Kein Ablaufdatum
@@ -30,7 +30,8 @@ Nmecha | 27,110,888 € | Sascha187 | Kein Ablaufdatum
 Vidović | 7,099,019 € | Timo Kramer  | Kein Ablaufdatum
 Kade | 11,550,327 € | Timo Kramer  | Kein Ablaufdatum
 Tiago Tomás | 7,681,391 € | Braunbär7 | Kein Ablaufdatum
-Engelhardt | 14,063,413 € | Robinho | Kein Ablaufdatum
+Reis | 4,787,480 € | Vanilleeis23 | Kein Ablaufdatum
+Hložek | 11,453,773 € | Timo Kramer  | Kein Ablaufdatum
 Dina Ebimbe | 9,848,298 € | Sascha187 | Kein Ablaufdatum
 Hollerbach | 6,099,503 € | Timo Kramer  | Kein Ablaufdatum
 Curda | 7,579,212 € | Braunbär7 | Kein Ablaufdatum
@@ -50,6 +51,7 @@ Omari | 6,073,028 € | Joel | Kein Ablaufdatum
 Culbreath | 5,282,959 € | Timo Kramer  | Kein Ablaufdatum
 van den Berg | 6,418,890 € | Philipp | Kein Ablaufdatum
 Arrhov | 4,970,785 € | Vanilleeis23 | Kein Ablaufdatum
+Saibari | 27,825,858 € | Robinho | Kein Ablaufdatum
 El Ouahdi | 5,172,915 € | Braunbär7 | Kein Ablaufdatum
 Quetant | 4,660,546 € | Robinho | Kein Ablaufdatum
 Soylu | 5,922,274 € | Joel | Kein Ablaufdatum
