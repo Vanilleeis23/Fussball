@@ -18,9 +18,12 @@ Wolf | 6,394,289 € | Market | 2026-10-04 08:36:48
 Philipp | 500,000 € | Market | 2026-10-04 10:13:16
 Andrich | 4,300,794 € | Market | 2026-10-04 13:37:32
 Bachmann | 500,000 € | Market | 2026-10-04 18:20:17
+Lippmann | 500,000 € | Market | 2026-10-05 00:24:50
 Zagadou | 5,633,706 € | Philipp | Kein Ablaufdatum
+Rönnow | 9,979,912 € | Vanilleeis23 | Kein Ablaufdatum
 Trimmel | 5,151,015 € | Philipp | Kein Ablaufdatum
 Martel | 8,123,309 € | Sascha187 | Kein Ablaufdatum
+Tigges | 6,012,271 € | Vanilleeis23 | Kein Ablaufdatum
 Castrop | 5,658,656 € | CoachLeisi | Kein Ablaufdatum
 Knauff | 6,884,875 € | Robinho | Kein Ablaufdatum
 Nmecha | 27,110,888 € | Sascha187 | Kein Ablaufdatum
@@ -33,7 +36,6 @@ Hollerbach | 6,099,503 € | Timo Kramer  | Kein Ablaufdatum
 Curda | 7,579,212 € | Braunbär7 | Kein Ablaufdatum
 Tella | 4,822,434 € | Vanilleeis23 | Kein Ablaufdatum
 Amoako | 5,481,738 € | Robinho | Kein Ablaufdatum
-Aebischer | 2,948,961 € | Vanilleeis23 | Kein Ablaufdatum
 Prass | 5,571,622 € | CoachLeisi | Kein Ablaufdatum
 Konoplia | 5,512,763 € | Braunbär7 | Kein Ablaufdatum
 Gantenbein | 5,231,413 € | Robinho | Kein Ablaufdatum

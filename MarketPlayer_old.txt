@@ -1,15 +1,15 @@
-Juranović | 6,198,745 € | Market | 2026-10-03 03:25:26
-Stalmach | 2,422,866 € | Market | 2026-10-03 06:43:41
-Campbell | 7,663,434 € | Market | 2026-10-03 07:28:19
-El Mala | 21,180,186 € | Market | 2026-10-03 07:29:17
 Ljubičić | 3,102,806 € | Market | 2026-10-03 09:56:28
 Reis | 4,787,480 € | Market | 2026-10-03 10:08:40
 Njinmah | 1,087,516 € | Market | 2026-10-03 17:49:30
 Moreira | 15,351,093 € | Market | 2026-10-03 19:01:02
 Osterhage | 500,000 € | Market | 2026-10-03 19:22:57
+Hendriks | 4,050,568 € | Market | 2026-10-03 21:39:34
 Itten | 872,837 € | Market | 2026-10-03 22:03:38
 Rosenfelder | 2,515,691 € | Market | 2026-10-03 22:23:04
 Pieringer | 3,987,416 € | Market | 2026-10-03 23:48:53
+Hranác | 2,106,496 € | Market | 2026-10-04 01:40:25
+Le Joncour | 500,000 € | Market | 2026-10-04 03:17:59
+Beier | 18,379,098 € | Market | 2026-10-04 03:32:13
 Guiu | 2,546,255 € | Market | 2026-10-04 03:33:36
 Reitz | 10,852,832 € | Market | 2026-10-04 04:09:00
 Koné | 500,000 € | Market | 2026-10-04 04:29:40
@@ -30,6 +30,7 @@ Tiago Tomás | 7,681,391 € | Braunbär7 | Kein Ablaufdatum
 Engelhardt | 14,063,413 € | Robinho | Kein Ablaufdatum
 Dina Ebimbe | 9,848,298 € | Sascha187 | Kein Ablaufdatum
 Hollerbach | 6,099,503 € | Timo Kramer  | Kein Ablaufdatum
+Curda | 7,579,212 € | Braunbär7 | Kein Ablaufdatum
 Tella | 4,822,434 € | Vanilleeis23 | Kein Ablaufdatum
 Amoako | 5,481,738 € | Robinho | Kein Ablaufdatum
 Aebischer | 2,948,961 € | Vanilleeis23 | Kein Ablaufdatum
