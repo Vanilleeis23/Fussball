@@ -1,5 +1,3 @@
-Njinmah | 1,087,516 € | Market | 2026-10-03 17:49:30
-Moreira | 15,351,093 € | Market | 2026-10-03 19:01:02
 Osterhage | 500,000 € | Market | 2026-10-03 19:22:57
 Hendriks | 4,050,568 € | Market | 2026-10-03 21:39:34
 Itten | 872,837 € | Market | 2026-10-03 22:03:38
@@ -20,6 +18,7 @@ Andrich | 4,300,794 € | Market | 2026-10-04 13:37:32
 Bachmann | 500,000 € | Market | 2026-10-04 18:20:17
 Lippmann | 500,000 € | Market | 2026-10-05 00:24:50
 Nadir | 4,963,670 € | Market | 2026-10-05 04:01:21
+Skov | 500,000 € | Market | 2026-10-05 15:57:45
 Zagadou | 5,633,706 € | Philipp | Kein Ablaufdatum
 Trimmel | 5,151,015 € | Philipp | Kein Ablaufdatum
 Martel | 8,123,309 € | Sascha187 | Kein Ablaufdatum
@@ -30,7 +29,6 @@ Nmecha | 27,110,888 € | Sascha187 | Kein Ablaufdatum
 Vidović | 7,099,019 € | Timo Kramer  | Kein Ablaufdatum
 Kade | 11,550,327 € | Timo Kramer  | Kein Ablaufdatum
 Tiago Tomás | 7,681,391 € | Braunbär7 | Kein Ablaufdatum
-Reis | 4,787,480 € | Vanilleeis23 | Kein Ablaufdatum
 Hložek | 11,453,773 € | Timo Kramer  | Kein Ablaufdatum
 Dina Ebimbe | 9,848,298 € | Sascha187 | Kein Ablaufdatum
 Hollerbach | 6,099,503 € | Timo Kramer  | Kein Ablaufdatum
