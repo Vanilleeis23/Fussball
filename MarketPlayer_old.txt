@@ -1,8 +1,3 @@
-Le Joncour | 500,000 € | Market | 2026-10-04 03:17:59
-Beier | 18,452,752 € | Market | 2026-10-04 03:32:13
-Guiu | 2,409,363 € | Market | 2026-10-04 03:33:36
-Reitz | 10,928,878 € | Market | 2026-10-04 04:09:00
-Koné | 500,000 € | Market | 2026-10-04 04:29:40
 Chaïbi | 4,046,974 € | Market | 2026-10-04 08:23:06
 Wolf | 6,236,005 € | Market | 2026-10-04 08:36:48
 Philipp | 500,000 € | Market | 2026-10-04 10:13:16
@@ -12,12 +7,18 @@ Bachmann | 500,000 € | Market | 2026-10-04 18:20:17
 Ulreich | 500,000 € | Market | 2026-10-04 22:35:08
 Rondic | 623,501 € | Market | 2026-10-04 22:59:00
 Lippmann | 500,000 € | Market | 2026-10-05 00:24:50
+Ebnoutalib | 18,149,222 € | Market | 2026-10-05 00:39:28
 Zentner | 7,374,514 € | Market | 2026-10-05 02:51:02
 Olschowsky | 500,000 € | Market | 2026-10-05 03:36:40
 Nadir | 5,265,518 € | Market | 2026-10-05 04:01:21
 Stark | 1,261,601 € | Market | 2026-10-05 08:58:24
 Condé | 500,000 € | Market | 2026-10-05 10:01:12
+Castello Jr. | 12,746,494 € | Market | 2026-10-05 11:55:12
 Skov | 500,000 € | Market | 2026-10-05 15:57:45
+Kramarić | 6,955,152 € | Market | 2026-10-05 17:29:50
+Nguefack | 686,733 € | Market | 2026-10-06 00:47:36
+Yamamoto | 500,000 € | Market | 2026-10-06 01:10:26
+Ribeiro | 2,632,370 € | Market | 2026-10-06 01:21:55
 Zagadou | 5,779,734 € | Philipp | Kein Ablaufdatum
 Trimmel | 5,380,203 € | Philipp | Kein Ablaufdatum
 Martel | 8,160,479 € | Sascha187 | Kein Ablaufdatum
@@ -27,7 +28,6 @@ Knauff | 7,077,552 € | Robinho | Kein Ablaufdatum
 Nmecha | 27,200,109 € | Sascha187 | Kein Ablaufdatum
 Vidović | 7,340,250 € | Timo Kramer  | Kein Ablaufdatum
 Kade | 11,677,718 € | Timo Kramer  | Kein Ablaufdatum
-Tiago Tomás | 7,088,959 € | Braunbär7 | Kein Ablaufdatum
 Dina Ebimbe | 9,955,897 € | Sascha187 | Kein Ablaufdatum
 Hollerbach | 6,281,283 € | Timo Kramer  | Kein Ablaufdatum
 Curda | 7,901,609 € | Braunbär7 | Kein Ablaufdatum
