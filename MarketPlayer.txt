@@ -1,6 +1,3 @@
-Onyeka | 7,108,621 € | Market | 2026-10-06 05:14:54
-Lee | 7,332,333 € | Market | 2026-10-06 05:32:34
-Nicolas | 12,616,428 € | Market | 2026-10-06 09:05:21
 Mensah | 4,855,211 € | Market | 2026-10-06 10:02:00
 Leopold | 500,000 € | Market | 2026-10-06 10:18:26
 Nwaneri | 10,567,546 € | Market | 2026-10-06 10:55:46
@@ -13,7 +10,9 @@ Bell | 4,565,974 € | Market | 2026-10-06 19:21:20
 Führich | 16,790,776 € | Market | 2026-10-06 20:39:31
 Ryerson | 13,940,421 € | Market | 2026-10-06 21:21:34
 Leweling | 10,280,469 € | Market | 2026-10-06 23:16:35
+Ayhan | 575,942 € | Market | 2026-10-07 00:45:43
 Heuer Fernandes | 10,457,356 € | Market | 2026-10-07 01:09:05
+Bellingham | 15,258,429 € | Market | 2026-10-07 04:08:50
 Agu | 5,372,210 € | Market | 2026-10-07 04:53:55
 Pfeiffer | 500,000 € | Market | 2026-10-07 08:04:51
 Prates | 1,890,246 € | Market | 2026-10-07 09:53:12
@@ -21,7 +20,7 @@ Jeong | 1,942,501 € | Market | 2026-10-07 11:43:00
 Stergiou | 500,000 € | Market | 2026-10-07 21:43:18
 Porath | 500,000 € | Market | 2026-10-07 22:38:52
 Poulsen | 6,598,626 € | Vincent  | Kein Ablaufdatum
-Uduokhai | 7,655,734 € | Robinho | Kein Ablaufdatum
+Burke | 2,190,901 € | Timo Kramer  | Kein Ablaufdatum
 Maina | 8,197,371 € | Sascha187 | Kein Ablaufdatum
 Trimmel | 5,747,268 € | Philipp | Kein Ablaufdatum
 Castrop | 6,207,090 € | CoachLeisi | Kein Ablaufdatum
@@ -38,9 +37,9 @@ Awortwie-Grant | 500,000 € | Sascha187 | Kein Ablaufdatum
 Zimmerschied | 6,051,320 € | Vanilleeis23 | Kein Ablaufdatum
 Jaquez | 5,051,238 € | Sascha187 | Kein Ablaufdatum
 Capaldo | 9,713,549 € | Timo Kramer  | Kein Ablaufdatum
+Sebulonsen | 7,487,458 € | Vanilleeis23 | Kein Ablaufdatum
 Lenz | 5,536,906 € | Braunbär7 | Kein Ablaufdatum
 Culbreath | 5,902,719 € | Timo Kramer  | Kein Ablaufdatum
 Arrhov | 5,717,390 € | Vanilleeis23 | Kein Ablaufdatum
 El Ouahdi | 5,689,705 € | Braunbär7 | Kein Ablaufdatum
-Møller Wolfe | 6,681,410 € | Sascha187 | Kein Ablaufdatum
 Quetant | 5,569,471 € | Robinho | Kein Ablaufdatum
