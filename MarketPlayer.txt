@@ -1,7 +1,3 @@
-Banzuzi | 6,759,885 € | Market | 2026-10-08 14:37:02
-Kemlein | 2,880,183 € | Market | 2026-10-08 15:46:37
-Deman | 9,000,176 € | Market | 2026-10-08 16:12:45
-Adam | 500,000 € | Market | 2026-10-08 16:51:28
 Mokwa | 6,514,866 € | Market | 2026-10-08 19:23:51
 Hansen | 3,805,225 € | Market | 2026-10-08 19:32:38
 Suso | 500,000 € | Market | 2026-10-08 19:33:51
@@ -15,20 +11,27 @@ Honorat | 4,622,547 € | Market | 2026-10-09 04:33:33
 Scally | 3,651,326 € | Market | 2026-10-09 05:35:56
 Burcu | 1,663,953 € | Market | 2026-10-09 06:20:48
 Hübers | 500,000 € | Market | 2026-10-09 06:26:18
+Kübler | 2,846,861 € | Market | 2026-10-09 06:32:53
+Sauer | 2,625,247 € | Market | 2026-10-09 11:41:34
 Ache | 5,069,675 € | Market | 2026-10-09 11:47:26
+Dallinga | 4,171,353 € | Market | 2026-10-09 14:02:11
+Schmied | 3,641,704 € | Market | 2026-10-09 14:29:00
 Querfeld | 13,341,033 € | Market | 2026-10-09 22:12:21
+Bakayoko | 2,647,217 € | Market | 2026-10-09 22:55:07
+Chiarodia | 500,000 € | Market | 2026-10-10 02:33:42
 Latte Lath | 3,173,624 € | Market | 2026-10-10 05:33:51
 Da Costa | 5,392,018 € | Sascha187 | Kein Ablaufdatum
-Nicolas | 12,897,980 € | Vanilleeis23 | Kein Ablaufdatum
+Zentner | 7,932,880 € | Vanilleeis23 | Kein Ablaufdatum
 Burke | 2,984,874 € | Timo Kramer  | Kein Ablaufdatum
 Maina | 8,136,358 € | Sascha187 | Kein Ablaufdatum
 Trimmel | 5,911,006 € | Philipp | Kein Ablaufdatum
 Becker | 17,750,105 € | Vincent  | Kein Ablaufdatum
-Bensebaini | 8,696,481 € | Vanilleeis23 | Kein Ablaufdatum
 Knauff | 7,719,865 € | Robinho | Kein Ablaufdatum
+Collins | 10,986,586 € | Braunbär7 | Kein Ablaufdatum
 Günther | 6,638,766 € | Vincent  | Kein Ablaufdatum
 Vidović | 8,075,131 € | Timo Kramer  | Kein Ablaufdatum
 Kade | 11,982,863 € | Timo Kramer  | Kein Ablaufdatum
+Pinckert | 12,728,910 € | Vanilleeis23 | Kein Ablaufdatum
 Curda | 9,189,250 € | Braunbär7 | Kein Ablaufdatum
 Tella | 6,193,081 € | Vanilleeis23 | Kein Ablaufdatum
 Prass | 6,721,977 € | CoachLeisi | Kein Ablaufdatum
