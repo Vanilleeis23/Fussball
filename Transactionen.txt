@@ -1,3 +1,6 @@
+[{"byr": "Philipp"}, {"pn": "Skarke"}, {"trp": 3847444}, {"dt": "2026-10-08T07:37:50Z"}]
+[{"byr": "Braunbär7"}, {"pn": "Prömel"}, {"trp": 14241222}, {"dt": "2026-10-08T05:03:08Z"}]
+[{"byr": "MirkoHengst"}, {"pn": "Minjae"}, {"trp": 10277324}, {"dt": "2026-10-08T04:29:45Z"}]
 [{"byr": "Sascha187"}, {"pn": "Obermair"}, {"trp": 6810000}, {"dt": "2026-10-07T22:39:18Z"}]
 [{"slr": "CoachLeisi"}, {"pn": "Castrop"}, {"trp": 6300481}, {"dt": "2026-10-07T22:23:18Z"}]
 [{"slr": "MirkoHengst"}, {"pn": "Ndiaye"}, {"trp": 5785851}, {"dt": "2026-10-07T22:19:06Z"}]
