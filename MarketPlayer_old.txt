@@ -1,47 +1,46 @@
-Stergiou | 500,000 € | Market | 2026-10-07 21:43:18
-Porath | 500,000 € | Market | 2026-10-07 22:38:52
-Obermair | 6,397,583 € | Market | 2026-10-07 22:39:09
-Dōan | 13,922,830 € | Market | 2026-10-08 01:20:16
-Minjae | 10,077,324 € | Market | 2026-10-08 04:29:34
-Prömel | 13,427,331 € | Market | 2026-10-08 05:02:43
-Stiller | 27,119,398 € | Market | 2026-10-08 05:49:22
-Köhn | 1,659,003 € | Market | 2026-10-08 05:53:04
-Skarke | 3,742,533 € | Market | 2026-10-08 07:37:32
-Massengo | 7,223,220 € | Market | 2026-10-08 09:21:14
-Vagnoman | 14,128,943 € | Market | 2026-10-08 09:30:32
-Finkgräfe | 652,744 € | Market | 2026-10-08 10:35:23
-Banzuzi | 6,851,766 € | Market | 2026-10-08 14:37:02
-Kemlein | 2,885,515 € | Market | 2026-10-08 15:46:37
-Deman | 8,997,252 € | Market | 2026-10-08 16:12:45
+Dōan | 13,951,793 € | Market | 2026-10-08 01:20:16
+Minjae | 10,234,096 € | Market | 2026-10-08 04:29:34
+Prömel | 13,611,688 € | Market | 2026-10-08 05:02:43
+Stiller | 27,182,943 € | Market | 2026-10-08 05:49:22
+Köhn | 1,557,781 € | Market | 2026-10-08 05:53:04
+Skarke | 3,747,479 € | Market | 2026-10-08 07:37:32
+Massengo | 7,389,478 € | Market | 2026-10-08 09:21:14
+Vagnoman | 14,203,173 € | Market | 2026-10-08 09:30:32
+Finkgräfe | 942,676 € | Market | 2026-10-08 10:35:23
+Banzuzi | 6,759,885 € | Market | 2026-10-08 14:37:02
+Kemlein | 2,880,183 € | Market | 2026-10-08 15:46:37
+Deman | 9,000,176 € | Market | 2026-10-08 16:12:45
 Adam | 500,000 € | Market | 2026-10-08 16:51:28
-Mokwa | 6,739,210 € | Market | 2026-10-08 19:23:51
-Hansen | 3,738,518 € | Market | 2026-10-08 19:32:38
+Mokwa | 6,514,866 € | Market | 2026-10-08 19:23:51
+Hansen | 3,805,225 € | Market | 2026-10-08 19:32:38
 Suso | 500,000 € | Market | 2026-10-08 19:33:51
-Okon-Engstler | 822,074 € | Market | 2026-10-08 19:46:59
-Maksimović | 3,153,849 € | Market | 2026-10-08 20:24:38
-Mwene | 8,484,031 € | Market | 2026-10-09 00:38:00
-Da Costa | 5,155,187 € | Sascha187 | Kein Ablaufdatum
-Poulsen | 6,706,072 € | Vincent  | Kein Ablaufdatum
-Nicolas | 12,765,310 € | Vanilleeis23 | Kein Ablaufdatum
-Burke | 2,582,759 € | Timo Kramer  | Kein Ablaufdatum
-Maina | 8,136,247 € | Sascha187 | Kein Ablaufdatum
-Trimmel | 5,872,333 € | Philipp | Kein Ablaufdatum
-Bensebaini | 8,326,303 € | Vanilleeis23 | Kein Ablaufdatum
-Castrop | 6,314,827 € | CoachLeisi | Kein Ablaufdatum
-Knauff | 7,577,274 € | Robinho | Kein Ablaufdatum
-Collins | 10,929,493 € | Braunbär7 | Kein Ablaufdatum
-Vidović | 7,933,366 € | Timo Kramer  | Kein Ablaufdatum
-Kade | 11,946,087 € | Timo Kramer  | Kein Ablaufdatum
-Curda | 8,894,027 € | Braunbär7 | Kein Ablaufdatum
-Tella | 5,967,808 € | Vanilleeis23 | Kein Ablaufdatum
-Amoako | 6,045,762 € | Robinho | Kein Ablaufdatum
-Prass | 6,530,674 € | CoachLeisi | Kein Ablaufdatum
-Konoplia | 6,766,137 € | Braunbär7 | Kein Ablaufdatum
-Castañeda | 10,774,975 € | Braunbär7 | Kein Ablaufdatum
+Okon-Engstler | 730,977 € | Market | 2026-10-08 19:46:59
+Maksimović | 3,227,821 € | Market | 2026-10-08 20:24:38
+Mwene | 8,728,003 € | Market | 2026-10-09 00:38:00
+Scally | 3,651,326 € | Market | 2026-10-09 05:35:56
+Burcu | 1,663,953 € | Market | 2026-10-09 06:20:48
+Da Costa | 5,392,018 € | Sascha187 | Kein Ablaufdatum
+Nicolas | 12,897,980 € | Vanilleeis23 | Kein Ablaufdatum
+Burke | 2,984,874 € | Timo Kramer  | Kein Ablaufdatum
+Maina | 8,136,358 € | Sascha187 | Kein Ablaufdatum
+Trimmel | 5,911,006 € | Philipp | Kein Ablaufdatum
+Becker | 17,750,105 € | Vincent  | Kein Ablaufdatum
+Bensebaini | 8,696,481 € | Vanilleeis23 | Kein Ablaufdatum
+Knauff | 7,719,865 € | Robinho | Kein Ablaufdatum
+Günther | 6,638,766 € | Vincent  | Kein Ablaufdatum
+Vidović | 8,075,131 € | Timo Kramer  | Kein Ablaufdatum
+Kade | 11,982,863 € | Timo Kramer  | Kein Ablaufdatum
+Curda | 9,189,250 € | Braunbär7 | Kein Ablaufdatum
+Tella | 6,193,081 € | Vanilleeis23 | Kein Ablaufdatum
+Prass | 6,721,977 € | CoachLeisi | Kein Ablaufdatum
+Konoplia | 7,044,553 € | Braunbär7 | Kein Ablaufdatum
+Castañeda | 10,902,932 € | Braunbär7 | Kein Ablaufdatum
 Awortwie-Grant | 500,000 € | Sascha187 | Kein Ablaufdatum
-Zimmerschied | 6,276,631 € | Vanilleeis23 | Kein Ablaufdatum
-Jaquez | 5,298,841 € | Sascha187 | Kein Ablaufdatum
-Capaldo | 9,867,510 € | Timo Kramer  | Kein Ablaufdatum
-Lenz | 5,790,723 € | Braunbär7 | Kein Ablaufdatum
-El Ouahdi | 5,872,587 € | Braunbär7 | Kein Ablaufdatum
-Quetant | 5,817,319 € | Robinho | Kein Ablaufdatum
+Zimmerschied | 6,467,606 € | Vanilleeis23 | Kein Ablaufdatum
+Jaquez | 5,504,931 € | Sascha187 | Kein Ablaufdatum
+Capaldo | 9,995,142 € | Timo Kramer  | Kein Ablaufdatum
+El Ouahdi | 6,052,368 € | Braunbär7 | Kein Ablaufdatum
+Quetant | 6,022,488 € | Robinho | Kein Ablaufdatum
+Wójcik | 6,295,713 € | Vincent  | Kein Ablaufdatum
+Estève | 6,960,526 € | CoachLeisi | Kein Ablaufdatum
+Nguefack | 2,087,260 € | Robinho | Kein Ablaufdatum
