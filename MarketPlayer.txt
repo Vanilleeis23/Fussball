@@ -1,24 +1,25 @@
-Sauer | 2,606,039 € | Market | 2026-10-09 11:41:35
-Ache | 4,764,338 € | Market | 2026-10-09 11:47:27
-Ogundu | 500,000 € | Market | 2026-10-09 12:47:35
-Dallinga | 4,063,292 € | Market | 2026-10-09 14:02:12
-Schmied | 3,528,400 € | Market | 2026-10-09 14:29:01
-Dahmen | 15,106,374 € | Market | 2026-10-09 16:28:15
-Ito | 986,672 € | Market | 2026-10-09 20:09:42
-Flekken | 11,818,045 € | Market | 2026-10-09 21:05:59
-Querfeld | 13,402,269 € | Market | 2026-10-09 22:12:22
-Karius | 14,094,298 € | Market | 2026-10-09 22:12:50
-Van den Bosch | 3,053,755 € | Market | 2026-10-09 22:46:16
-Bakayoko | 2,579,774 € | Market | 2026-10-09 22:55:08
-Chiarodia | 500,000 € | Market | 2026-10-10 02:33:43
-Bredlow | 5,758,331 € | Market | 2026-10-10 03:56:53
-Latte Lath | 3,097,001 € | Market | 2026-10-10 05:33:52
-Sylla | 3,817,244 € | Market | 2026-10-10 09:23:12
-Topp | 500,000 € | Market | 2026-10-10 17:37:06
-Stage | 3,203,713 € | Market | 2026-10-10 19:48:24
-Lemperle | 8,473,136 € | Market | 2026-10-10 21:21:13
-Gyamerah | 3,766,668 € | Market | 2026-10-11 00:18:23
-Günter | 998,044 € | Market | 2026-10-11 03:39:10
+Sauer | 2,606,039 € | Market | 2026-10-09 11:41:34
+Ache | 4,764,338 € | Market | 2026-10-09 11:47:26
+Ogundu | 500,000 € | Market | 2026-10-09 12:47:34
+Dallinga | 4,063,292 € | Market | 2026-10-09 14:02:11
+Schmied | 3,528,400 € | Market | 2026-10-09 14:29:00
+Dahmen | 15,106,374 € | Market | 2026-10-09 16:28:14
+Ito | 986,672 € | Market | 2026-10-09 20:09:41
+Flekken | 11,818,045 € | Market | 2026-10-09 21:05:58
+Querfeld | 13,402,269 € | Market | 2026-10-09 22:12:21
+Karius | 14,094,298 € | Market | 2026-10-09 22:12:49
+Van den Bosch | 3,053,755 € | Market | 2026-10-09 22:46:15
+Bakayoko | 2,579,774 € | Market | 2026-10-09 22:55:07
+Chiarodia | 500,000 € | Market | 2026-10-10 02:33:42
+Bredlow | 5,758,331 € | Market | 2026-10-10 03:56:52
+Latte Lath | 3,097,001 € | Market | 2026-10-10 05:33:51
+Sylla | 3,817,244 € | Market | 2026-10-10 09:23:11
+Topp | 500,000 € | Market | 2026-10-10 17:37:05
+Stage | 3,203,713 € | Market | 2026-10-10 19:48:23
+Lemperle | 8,473,136 € | Market | 2026-10-10 21:21:12
+Gyamerah | 3,766,668 € | Market | 2026-10-11 00:18:22
+Götze | 3,032,249 € | Market | 2026-10-11 01:19:06
+Günter | 998,044 € | Market | 2026-10-11 03:39:09
 Da Costa | 5,605,436 € | Sascha187 | Kein Ablaufdatum
 Zentner | 8,013,077 € | Vanilleeis23 | Kein Ablaufdatum
 Burke | 3,353,730 € | Timo Kramer  | Kein Ablaufdatum
@@ -35,12 +36,13 @@ Ulrich | 9,035,614 € | Philipp | Kein Ablaufdatum
 Pinckert | 12,779,417 € | Vanilleeis23 | Kein Ablaufdatum
 Curda | 9,423,451 € | Braunbär7 | Kein Ablaufdatum
 Konoplia | 7,254,140 € | Braunbär7 | Kein Ablaufdatum
-Chuki | 11,741,120 € | Sascha187 | Kein Ablaufdatum
 Castañeda | 11,003,585 € | Braunbär7 | Kein Ablaufdatum
-Awortwie-Grant | 500,000 € | Sascha187 | Kein Ablaufdatum
 Jaquez | 5,637,626 € | Sascha187 | Kein Ablaufdatum
 Capaldo | 10,076,366 € | Timo Kramer  | Kein Ablaufdatum
+Spalt | 870,020 € | Joel | Kein Ablaufdatum
+Seol | 1,574,882 € | Joel | Kein Ablaufdatum
 El Ouahdi | 6,197,347 € | Braunbär7 | Kein Ablaufdatum
 Quetant | 6,160,894 € | Robinho | Kein Ablaufdatum
 Wójcik | 6,447,933 € | Vincent  | Kein Ablaufdatum
 Nguefack | 2,467,410 € | Robinho | Kein Ablaufdatum
+Imeri | 885,612 € | Sascha187 | Kein Ablaufdatum
