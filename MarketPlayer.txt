@@ -1,7 +1,3 @@
-Bredlow | 5,624,267 € | Market | 2026-10-10 03:56:52
-Latte Lath | 3,038,059 € | Market | 2026-10-10 05:33:51
-Eichhorn | 1,763,028 € | Market | 2026-10-10 05:47:50
-Jatta | 1,217,559 € | Market | 2026-10-10 09:00:21
 Sylla | 3,926,887 € | Market | 2026-10-10 09:23:11
 De Cat | 3,533,058 € | Market | 2026-10-10 13:10:35
 Hack | 2,782,045 € | Market | 2026-10-10 17:06:11
@@ -13,11 +9,15 @@ Gyamerah | 3,812,115 € | Market | 2026-10-11 00:18:22
 Götze | 3,044,516 € | Market | 2026-10-11 01:19:06
 Schallenberg | 691,485 € | Market | 2026-10-11 02:16:45
 Günter | 1,334,557 € | Market | 2026-10-11 03:39:09
+Gomis | 7,710,903 € | Market | 2026-10-11 05:39:26
+Kobel | 18,818,016 € | Market | 2026-10-11 05:51:50
 Stange | 1,310,630 € | Market | 2026-10-11 06:23:27
 Baku | 14,827,026 € | Market | 2026-10-11 07:20:31
 Ibrahimović | 6,333,717 € | Market | 2026-10-11 07:22:36
+Huth | 500,000 € | Market | 2026-10-11 09:06:18
 El Khannouss | 13,741,390 € | Market | 2026-10-11 13:52:08
 Khedira | 5,215,130 € | Market | 2026-10-11 13:54:30
 Urbig | 3,659,920 € | Market | 2026-10-11 14:27:22
+Poreba | 7,581,912 € | Market | 2026-10-11 23:38:31
 Burke | 3,554,548 € | Timo Kramer  | Kein Ablaufdatum
 Bachmann | 500,000 € | Vincent  | Kein Ablaufdatum
