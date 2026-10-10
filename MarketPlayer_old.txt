@@ -1,27 +1,30 @@
-Hack | 2,782,045 € | Market | 2026-10-10 17:06:12
-Topp | 500,000 € | Market | 2026-10-10 17:37:06
-Petkov | 10,536,849 € | Market | 2026-10-10 19:31:14
-Stage | 3,102,487 € | Market | 2026-10-10 19:48:24
-Lemperle | 8,768,000 € | Market | 2026-10-10 21:21:13
-Gyamerah | 3,812,115 € | Market | 2026-10-11 00:18:23
-Götze | 3,044,516 € | Market | 2026-10-11 01:19:07
-Schallenberg | 691,485 € | Market | 2026-10-11 02:16:46
-Günter | 1,334,557 € | Market | 2026-10-11 03:39:10
-Gomis | 7,710,903 € | Market | 2026-10-11 05:39:27
-Schmetgens | 997,797 € | Market | 2026-10-11 05:46:02
-Kobel | 18,818,016 € | Market | 2026-10-11 05:51:51
-Stange | 1,310,630 € | Market | 2026-10-11 06:23:28
-Baku | 14,827,026 € | Market | 2026-10-11 07:20:32
-Ibrahimović | 6,333,717 € | Market | 2026-10-11 07:22:37
-Huth | 500,000 € | Market | 2026-10-11 09:06:19
-El Khannouss | 13,741,390 € | Market | 2026-10-11 13:52:09
-Khedira | 5,215,130 € | Market | 2026-10-11 13:54:31
-Urbig | 3,659,920 € | Market | 2026-10-11 14:27:23
-Poreba | 7,581,912 € | Market | 2026-10-11 23:38:32
-Sakar | 500,000 € | Market | 2026-10-12 02:08:51
-Schubert | 500,000 € | Market | 2026-10-12 09:00:21
+Hack | 2,782,045 € | Market | 2026-10-10 17:06:11
+Topp | 500,000 € | Market | 2026-10-10 17:37:05
+Petkov | 10,536,849 € | Market | 2026-10-10 19:31:13
+Stage | 3,102,487 € | Market | 2026-10-10 19:48:23
+Lemperle | 8,768,000 € | Market | 2026-10-10 21:21:12
+Gyamerah | 3,812,115 € | Market | 2026-10-11 00:18:22
+Götze | 3,044,516 € | Market | 2026-10-11 01:19:06
+Schallenberg | 691,485 € | Market | 2026-10-11 02:16:45
+Günter | 1,334,557 € | Market | 2026-10-11 03:39:09
+Gomis | 7,710,903 € | Market | 2026-10-11 05:39:26
+Schmetgens | 997,797 € | Market | 2026-10-11 05:46:01
+Kobel | 18,818,016 € | Market | 2026-10-11 05:51:50
+Stange | 1,310,630 € | Market | 2026-10-11 06:23:27
+Baku | 14,827,026 € | Market | 2026-10-11 07:20:31
+Ibrahimović | 6,333,717 € | Market | 2026-10-11 07:22:36
+Huth | 500,000 € | Market | 2026-10-11 09:06:18
+El Khannouss | 13,741,390 € | Market | 2026-10-11 13:52:08
+Khedira | 5,215,130 € | Market | 2026-10-11 13:54:30
+Urbig | 3,659,920 € | Market | 2026-10-11 14:27:22
+Poreba | 7,581,912 € | Market | 2026-10-11 23:38:31
+Sakar | 500,000 € | Market | 2026-10-12 02:08:50
+Schubert | 500,000 € | Market | 2026-10-12 09:00:20
+Prömel | 13,980,905 € | Braunbär7 | Kein Ablaufdatum
 Burke | 3,554,548 € | Timo Kramer  | Kein Ablaufdatum
 Hübers | 500,000 € | Vanilleeis23 | Kein Ablaufdatum
 Mwene | 9,238,812 € | Vanilleeis23 | Kein Ablaufdatum
 Bachmann | 500,000 € | Vincent  | Kein Ablaufdatum
 Aebischer | 5,011,292 € | Vanilleeis23 | Kein Ablaufdatum
+Van den Bosch | 3,067,786 € | Braunbär7 | Kein Ablaufdatum
+De Cat | 3,533,058 € | Braunbär7 | Kein Ablaufdatum
