@@ -1,6 +1,3 @@
-El Khannouss | 13,889,728 € | Market | 2026-10-11 13:52:08
-Khedira | 5,472,260 € | Market | 2026-10-11 13:54:30
-Urbig | 3,808,909 € | Market | 2026-10-11 14:27:22
 Brown | 15,008,168 € | Market | 2026-10-11 20:49:06
 Maloney | 500,000 € | Market | 2026-10-11 22:16:42
 Kofane | 5,156,177 € | Market | 2026-10-11 22:44:05
@@ -11,21 +8,31 @@ Sakar | 500,000 € | Market | 2026-10-12 02:08:50
 Müller | 500,000 € | Market | 2026-10-12 05:41:24
 Schubert | 500,000 € | Market | 2026-10-12 09:00:20
 Undav | 28,972,555 € | Market | 2026-10-12 09:53:14
+Avdullahu | 11,836,379 € | Market | 2026-10-12 10:27:41
+Lemke | 916,297 € | Market | 2026-10-12 13:06:26
 Gregoritsch | 12,375,531 € | Market | 2026-10-12 14:01:57
 Potulski | 7,146,976 € | Market | 2026-10-12 15:04:30
+Zingerle | 500,000 € | Market | 2026-10-12 16:12:37
 Tanaka | 6,265,675 € | Market | 2026-10-12 18:52:23
 Džeko | 2,911,776 € | Market | 2026-10-12 20:16:08
+Amaimouni | 2,560,426 € | Market | 2026-10-13 03:55:48
 Demirović | 11,385,599 € | Market | 2026-10-13 05:40:55
+Hajdari | 6,362,864 € | Market | 2026-10-13 08:53:29
+Gruda | 13,693,758 € | Market | 2026-10-13 11:51:49
 Götze | 3,152,596 € | Vanilleeis23 | Kein Ablaufdatum
 Prömel | 14,182,694 € | Braunbär7 | Kein Ablaufdatum
 Burke | 3,752,375 € | Timo Kramer  | Kein Ablaufdatum
 Torunarigha | 5,953,144 € | CoachLeisi | Kein Ablaufdatum
 Hack | 2,928,128 € | Robinho | Kein Ablaufdatum
+Mwene | 9,528,552 € | Vanilleeis23 | Kein Ablaufdatum
 Lemperle | 9,118,584 € | Braunbär7 | Kein Ablaufdatum
 Collins | 10,842,028 € | Braunbär7 | Kein Ablaufdatum
+Ibrahimović | 6,626,134 € | Vanilleeis23 | Kein Ablaufdatum
 Bachmann | 500,000 € | Vincent  | Kein Ablaufdatum
+Scheller | 8,058,767 € | Vanilleeis23 | Kein Ablaufdatum
 Aebischer | 5,258,134 € | Vanilleeis23 | Kein Ablaufdatum
 Coufal | 20,831,339 € | Vincent  | Kein Ablaufdatum
 Schmetgens | 1,053,836 € | Vanilleeis23 | Kein Ablaufdatum
 Mickelson | 1,931,248 € | Robinho | Kein Ablaufdatum
 Van den Bosch | 3,169,685 € | Braunbär7 | Kein Ablaufdatum
+Leszczynski | 7,207,995 € | Braunbär7 | Kein Ablaufdatum
