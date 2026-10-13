@@ -17,16 +17,25 @@ Binder | 500,000 € | Market | 2026-10-14 13:37:01
 Daka | 2,220,538 € | Market | 2026-10-14 14:54:39
 Gray | 500,000 € | Market | 2026-10-14 23:39:04
 Rots | 6,385,506 € | Market | 2026-10-15 04:35:55
+Tillman | 6,136,688 € | Market | 2026-10-15 06:45:10
 Flekken | 12,019,518 € | Timo Kramer  | Kein Ablaufdatum
+Günter | 2,522,751 € | Joel | Kein Ablaufdatum
 Götze | 3,651,537 € | Vanilleeis23 | Kein Ablaufdatum
+Gyamerah | 4,482,553 € | Joel | Kein Ablaufdatum
 Prömel | 14,546,286 € | Braunbär7 | Kein Ablaufdatum
 Burke | 4,355,036 € | Timo Kramer  | Kein Ablaufdatum
 Götze | 4,541,734 € | Joel | Kein Ablaufdatum
 Torunarigha | 6,272,396 € | CoachLeisi | Kein Ablaufdatum
+Hack | 3,539,803 € | CoachLeisi | Kein Ablaufdatum
+Lemperle | 9,879,236 € | Braunbär7 | Kein Ablaufdatum
+Collins | 10,147,082 € | Braunbär7 | Kein Ablaufdatum
+Schallenberg | 1,578,447 € | Joel | Kein Ablaufdatum
 Ibrahimović | 7,412,696 € | Vanilleeis23 | Kein Ablaufdatum
 Bachmann | 500,000 € | Vincent  | Kein Ablaufdatum
 Poreba | 8,578,457 € | Vanilleeis23 | Kein Ablaufdatum
+Stange | 2,499,631 € | Joel | Kein Ablaufdatum
 Aebischer | 5,883,992 € | Vanilleeis23 | Kein Ablaufdatum
+Sticker | 2,322,758 € | Braunbär7 | Kein Ablaufdatum
 Gomis | 8,617,950 € | Sascha187 | Kein Ablaufdatum
 Mickelson | 2,777,527 € | Robinho | Kein Ablaufdatum
 Lemke | 1,281,802 € | Timo Kramer  | Kein Ablaufdatum
