@@ -1,13 +1,13 @@
 Summen pro Nutzer (absteigend sortiert):
 
-CoachLeisi : 5.925.152 €
-Julian : 5.289.651 €
-Timo Kramer  : -291.565 €
-Sascha187 : -3.421.280 €
-Philipp : -6.982.349 €
-Joel : -7.607.964 €
-MirkoHengst : -12.926.653 €
-Braunbär7 : -18.915.933 €
-Vanilleeis23 : -24.543.403 €
-Vincent  : -32.714.957 €
-Robinho : -36.038.358 €
+CoachLeisi : 13.947.152 €
+Julian : 5.996.651 €
+Timo Kramer  : 739.435 €
+Sascha187 : -2.351.280 €
+Joel : -6.293.964 €
+Philipp : -6.424.349 €
+MirkoHengst : -12.336.653 €
+Vincent  : -20.624.957 €
+Vanilleeis23 : -23.411.403 €
+Braunbär7 : -24.818.933 €
+Robinho : -34.920.358 €
