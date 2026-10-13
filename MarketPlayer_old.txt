@@ -1,7 +1,3 @@
-Seiwald | 7,015,709 € | Market | 2026-10-13 14:17:26
-Zieler | 500,000 € | Market | 2026-10-13 15:16:17
-Tangvik | 500,000 € | Market | 2026-10-13 15:25:33
-Musiala | 18,823,701 € | Market | 2026-10-13 17:28:34
 Adamu | 3,766,140 € | Market | 2026-10-13 21:52:03
 Duric | 500,000 € | Market | 2026-10-13 22:08:40
 Claude-Maurice | 7,000,638 € | Market | 2026-10-14 01:34:38
@@ -14,10 +10,13 @@ Binder | 500,000 € | Market | 2026-10-14 13:37:01
 Simpson-Pusey | 8,211,288 € | Market | 2026-10-14 14:13:17
 Daka | 2,220,538 € | Market | 2026-10-14 14:54:39
 Atubolu | 13,658,689 € | Market | 2026-10-14 15:51:57
+Badé | 2,898,439 € | Market | 2026-10-14 21:15:20
 Müller | 500,000 € | Market | 2026-10-14 21:52:18
 Gray | 500,000 € | Market | 2026-10-14 23:39:04
+Tah | 28,350,621 € | Market | 2026-10-15 04:00:13
 Rots | 6,385,506 € | Market | 2026-10-15 04:35:55
 Tillman | 6,136,688 € | Market | 2026-10-15 06:45:10
+Quansah | 16,029,963 € | Market | 2026-10-15 07:22:36
 Flekken | 12,019,518 € | Timo Kramer  | Kein Ablaufdatum
 Günter | 2,522,751 € | Joel | Kein Ablaufdatum
 Götze | 3,651,537 € | Vanilleeis23 | Kein Ablaufdatum
@@ -30,7 +29,6 @@ Torunarigha | 6,272,396 € | CoachLeisi | Kein Ablaufdatum
 Hack | 3,539,803 € | CoachLeisi | Kein Ablaufdatum
 Maloney | 583,924 € | CoachLeisi | Kein Ablaufdatum
 Lemperle | 9,879,236 € | Braunbär7 | Kein Ablaufdatum
-Collins | 10,147,082 € | Braunbär7 | Kein Ablaufdatum
 Schallenberg | 1,578,447 € | Joel | Kein Ablaufdatum
 Ibrahimović | 7,412,696 € | Vanilleeis23 | Kein Ablaufdatum
 Schäfer | 2,065,810 € | Braunbär7 | Kein Ablaufdatum
@@ -40,7 +38,10 @@ Stange | 2,499,631 € | Joel | Kein Ablaufdatum
 Aebischer | 5,883,992 € | Vanilleeis23 | Kein Ablaufdatum
 Sticker | 2,322,758 € | Braunbär7 | Kein Ablaufdatum
 Gomis | 8,617,950 € | Sascha187 | Kein Ablaufdatum
+Diks | 10,864,247 € | Vanilleeis23 | Kein Ablaufdatum
 Mickelson | 2,777,527 € | Robinho | Kein Ablaufdatum
+Spalt | 2,495,270 € | Sascha187 | Kein Ablaufdatum
 Lemke | 1,281,802 € | Timo Kramer  | Kein Ablaufdatum
 Mensah | 6,600,429 € | Timo Kramer  | Kein Ablaufdatum
 Nguefack | 3,866,308 € | Robinho | Kein Ablaufdatum
+Imeri | 2,251,563 € | Sascha187 | Kein Ablaufdatum

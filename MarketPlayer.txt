@@ -1,47 +1,51 @@
-Adamu | 3,766,140 € | Market | 2026-10-13 21:52:03
-Duric | 500,000 € | Market | 2026-10-13 22:08:40
-Claude-Maurice | 7,000,638 € | Market | 2026-10-14 01:34:38
-Banks | 5,086,323 € | Market | 2026-10-14 04:43:05
-Svensson | 18,671,127 € | Market | 2026-10-14 05:56:54
-Haberer | 3,369,394 € | Market | 2026-10-14 06:17:40
+Claude-Maurice | 7,251,375 € | Market | 2026-10-14 01:34:38
+Banks | 4,764,765 € | Market | 2026-10-14 04:43:05
+Svensson | 18,883,166 € | Market | 2026-10-14 05:56:54
+Haberer | 3,709,200 € | Market | 2026-10-14 06:17:40
 Kinzig | 500,000 € | Market | 2026-10-14 07:20:59
-Dinkçi | 6,659,169 € | Market | 2026-10-14 10:48:52
+Dinkçi | 6,942,754 € | Market | 2026-10-14 10:48:52
 Binder | 500,000 € | Market | 2026-10-14 13:37:01
-Simpson-Pusey | 8,211,288 € | Market | 2026-10-14 14:13:17
-Daka | 2,220,538 € | Market | 2026-10-14 14:54:39
-Atubolu | 13,658,689 € | Market | 2026-10-14 15:51:57
-Badé | 2,898,439 € | Market | 2026-10-14 21:15:20
+Simpson-Pusey | 8,510,379 € | Market | 2026-10-14 14:13:17
+Daka | 2,095,949 € | Market | 2026-10-14 14:54:39
+Atubolu | 13,692,901 € | Market | 2026-10-14 15:51:57
+Badé | 2,971,690 € | Market | 2026-10-14 21:15:20
 Müller | 500,000 € | Market | 2026-10-14 21:52:18
 Gray | 500,000 € | Market | 2026-10-14 23:39:04
-Tah | 28,350,621 € | Market | 2026-10-15 04:00:13
-Rots | 6,385,506 € | Market | 2026-10-15 04:35:55
-Tillman | 6,136,688 € | Market | 2026-10-15 06:45:10
-Quansah | 16,029,963 € | Market | 2026-10-15 07:22:36
-Flekken | 12,019,518 € | Timo Kramer  | Kein Ablaufdatum
-Günter | 2,522,751 € | Joel | Kein Ablaufdatum
-Götze | 3,651,537 € | Vanilleeis23 | Kein Ablaufdatum
-Gyamerah | 4,482,553 € | Joel | Kein Ablaufdatum
-Prömel | 14,546,286 € | Braunbär7 | Kein Ablaufdatum
-Burke | 4,355,036 € | Timo Kramer  | Kein Ablaufdatum
-Gnabry | 15,439,684 € | CoachLeisi | Kein Ablaufdatum
-Götze | 4,541,734 € | Joel | Kein Ablaufdatum
-Torunarigha | 6,272,396 € | CoachLeisi | Kein Ablaufdatum
-Hack | 3,539,803 € | CoachLeisi | Kein Ablaufdatum
-Maloney | 583,924 € | CoachLeisi | Kein Ablaufdatum
-Lemperle | 9,879,236 € | Braunbär7 | Kein Ablaufdatum
-Schallenberg | 1,578,447 € | Joel | Kein Ablaufdatum
-Ibrahimović | 7,412,696 € | Vanilleeis23 | Kein Ablaufdatum
-Schäfer | 2,065,810 € | Braunbär7 | Kein Ablaufdatum
+Tah | 28,375,700 € | Market | 2026-10-15 04:00:13
+Rots | 6,698,524 € | Market | 2026-10-15 04:35:55
+Tillman | 6,388,069 € | Market | 2026-10-15 06:45:10
+Quansah | 16,262,001 € | Market | 2026-10-15 07:22:36
+Laimer | 21,291,093 € | Market | 2026-10-15 09:54:47
+Diehl | 500,000 € | Market | 2026-10-15 10:08:06
+Bülter | 6,119,551 € | Market | 2026-10-15 12:47:55
+Rothe | 8,054,280 € | Market | 2026-10-15 13:01:16
+Flekken | 12,050,298 € | Timo Kramer  | Kein Ablaufdatum
+Günter | 2,924,961 € | Joel | Kein Ablaufdatum
+Götze | 3,929,015 € | Vanilleeis23 | Kein Ablaufdatum
+Gyamerah | 4,739,723 € | Joel | Kein Ablaufdatum
+Prömel | 14,656,243 € | Braunbär7 | Kein Ablaufdatum
+Burke | 4,610,421 € | Timo Kramer  | Kein Ablaufdatum
+Gnabry | 15,477,335 € | CoachLeisi | Kein Ablaufdatum
+Götze | 4,555,011 € | Joel | Kein Ablaufdatum
+Torunarigha | 6,403,577 € | CoachLeisi | Kein Ablaufdatum
+Upamecano | 29,833,726 € | Robinho | Kein Ablaufdatum
+Hack | 3,876,035 € | CoachLeisi | Kein Ablaufdatum
+Maloney | 761,804 € | CoachLeisi | Kein Ablaufdatum
+Lemperle | 10,240,890 € | Braunbär7 | Kein Ablaufdatum
+Schallenberg | 1,872,324 € | Joel | Kein Ablaufdatum
+Ibrahimović | 7,769,813 € | Vanilleeis23 | Kein Ablaufdatum
+Schäfer | 2,466,115 € | Braunbär7 | Kein Ablaufdatum
+Conté | 11,400,171 € | Julian | Kein Ablaufdatum
 Bachmann | 500,000 € | Vincent  | Kein Ablaufdatum
-Poreba | 8,578,457 € | Vanilleeis23 | Kein Ablaufdatum
-Stange | 2,499,631 € | Joel | Kein Ablaufdatum
-Aebischer | 5,883,992 € | Vanilleeis23 | Kein Ablaufdatum
-Sticker | 2,322,758 € | Braunbär7 | Kein Ablaufdatum
-Gomis | 8,617,950 € | Sascha187 | Kein Ablaufdatum
-Diks | 10,864,247 € | Vanilleeis23 | Kein Ablaufdatum
-Mickelson | 2,777,527 € | Robinho | Kein Ablaufdatum
-Spalt | 2,495,270 € | Sascha187 | Kein Ablaufdatum
-Lemke | 1,281,802 € | Timo Kramer  | Kein Ablaufdatum
-Mensah | 6,600,429 € | Timo Kramer  | Kein Ablaufdatum
-Nguefack | 3,866,308 € | Robinho | Kein Ablaufdatum
-Imeri | 2,251,563 € | Sascha187 | Kein Ablaufdatum
+Poreba | 8,893,131 € | Vanilleeis23 | Kein Ablaufdatum
+Stange | 2,889,955 € | Joel | Kein Ablaufdatum
+Aebischer | 6,150,823 € | Vanilleeis23 | Kein Ablaufdatum
+Sticker | 2,658,590 € | Braunbär7 | Kein Ablaufdatum
+Gomis | 8,952,900 € | Sascha187 | Kein Ablaufdatum
+Diks | 10,894,350 € | Vanilleeis23 | Kein Ablaufdatum
+Mickelson | 3,178,177 € | Robinho | Kein Ablaufdatum
+Spalt | 2,894,572 € | Sascha187 | Kein Ablaufdatum
+Lemke | 1,624,221 € | Timo Kramer  | Kein Ablaufdatum
+Mensah | 6,873,725 € | Timo Kramer  | Kein Ablaufdatum
+Nguefack | 4,153,412 € | Robinho | Kein Ablaufdatum
+Imeri | 2,688,460 € | Sascha187 | Kein Ablaufdatum
