@@ -1,38 +1,37 @@
-Džeko | 3,130,666 € | Market | 2026-10-12 20:16:08
-Blaswich | 500,000 € | Market | 2026-10-12 21:39:44
-El-Faouzi | 9,613,836 € | Market | 2026-10-13 03:38:27
-Amaimouni | 2,486,008 € | Market | 2026-10-13 03:55:48
-Demirović | 11,557,473 € | Market | 2026-10-13 05:40:55
-Onyedika | 7,504,414 € | Market | 2026-10-13 06:39:41
-Upamecano | 29,664,701 € | Market | 2026-10-13 07:35:58
-Sticker | 2,003,052 € | Market | 2026-10-13 07:58:12
-Hajdari | 6,439,443 € | Market | 2026-10-13 08:53:29
-Behrens | 10,341,187 € | Market | 2026-10-13 09:06:35
-Stanišić | 13,840,421 € | Market | 2026-10-13 09:25:09
-Schäfer | 1,668,974 € | Market | 2026-10-13 11:38:54
-Gruda | 13,899,521 € | Market | 2026-10-13 11:51:49
-Doué | 3,943,610 € | Market | 2026-10-13 12:14:03
-Seiwald | 6,924,004 € | Market | 2026-10-13 14:17:26
+El-Faouzi | 9,942,225 € | Market | 2026-10-13 03:38:27
+Amaimouni | 2,390,634 € | Market | 2026-10-13 03:55:48
+Demirović | 11,702,706 € | Market | 2026-10-13 05:40:55
+Onyedika | 7,766,950 € | Market | 2026-10-13 06:39:41
+Upamecano | 29,748,455 € | Market | 2026-10-13 07:35:58
+Sticker | 2,322,758 € | Market | 2026-10-13 07:58:12
+Hajdari | 6,562,262 € | Market | 2026-10-13 08:53:29
+Behrens | 10,581,111 € | Market | 2026-10-13 09:06:35
+Stanišić | 13,918,224 € | Market | 2026-10-13 09:25:09
+Schäfer | 2,065,810 € | Market | 2026-10-13 11:38:54
+Gruda | 14,113,332 € | Market | 2026-10-13 11:51:49
+Doué | 3,938,473 € | Market | 2026-10-13 12:14:03
+Seiwald | 7,015,709 € | Market | 2026-10-13 14:17:26
 Zieler | 500,000 € | Market | 2026-10-13 15:16:17
 Tangvik | 500,000 € | Market | 2026-10-13 15:25:33
-Musiala | 18,661,774 € | Market | 2026-10-13 17:28:34
+Musiala | 18,823,701 € | Market | 2026-10-13 17:28:34
 Duric | 500,000 € | Market | 2026-10-13 22:08:40
-Claude-Maurice | 6,738,107 € | Market | 2026-10-14 01:34:38
-Svensson | 18,468,834 € | Market | 2026-10-14 05:56:54
-Haberer | 2,990,629 € | Market | 2026-10-14 06:17:40
-Flekken | 11,971,247 € | Timo Kramer  | Kein Ablaufdatum
-Götze | 3,370,564 € | Vanilleeis23 | Kein Ablaufdatum
-Prömel | 14,383,201 € | Braunbär7 | Kein Ablaufdatum
-Guirassy | 33,059,236 € | Sascha187 | Kein Ablaufdatum
-Burke | 4,064,709 € | Timo Kramer  | Kein Ablaufdatum
-Torunarigha | 6,111,484 € | CoachLeisi | Kein Ablaufdatum
-Petkov | 10,820,689 € | Robinho | Kein Ablaufdatum
-Ibrahimović | 7,022,073 € | Vanilleeis23 | Kein Ablaufdatum
+Claude-Maurice | 7,000,638 € | Market | 2026-10-14 01:34:38
+Svensson | 18,671,127 € | Market | 2026-10-14 05:56:54
+Haberer | 3,369,394 € | Market | 2026-10-14 06:17:40
+Kinzig | 500,000 € | Market | 2026-10-14 07:20:59
+Dinkçi | 6,659,169 € | Market | 2026-10-14 10:48:52
+Flekken | 12,019,518 € | Timo Kramer  | Kein Ablaufdatum
+Götze | 3,651,537 € | Vanilleeis23 | Kein Ablaufdatum
+Prömel | 14,546,286 € | Braunbär7 | Kein Ablaufdatum
+Burke | 4,355,036 € | Timo Kramer  | Kein Ablaufdatum
+Torunarigha | 6,272,396 € | CoachLeisi | Kein Ablaufdatum
+Ibrahimović | 7,412,696 € | Vanilleeis23 | Kein Ablaufdatum
 Bachmann | 500,000 € | Vincent  | Kein Ablaufdatum
-Poreba | 8,233,108 € | Vanilleeis23 | Kein Ablaufdatum
-Aebischer | 5,580,928 € | Vanilleeis23 | Kein Ablaufdatum
-Coufal | 20,899,665 € | Vincent  | Kein Ablaufdatum
-Mickelson | 2,349,783 € | Robinho | Kein Ablaufdatum
-Lemke | 1,018,899 € | Timo Kramer  | Kein Ablaufdatum
-Mensah | 6,267,671 € | Timo Kramer  | Kein Ablaufdatum
-Leszczynski | 6,897,169 € | Braunbär7 | Kein Ablaufdatum
+Poreba | 8,578,457 € | Vanilleeis23 | Kein Ablaufdatum
+Aebischer | 5,883,992 € | Vanilleeis23 | Kein Ablaufdatum
+Coufal | 20,960,657 € | Vincent  | Kein Ablaufdatum
+Gomis | 8,617,950 € | Sascha187 | Kein Ablaufdatum
+Mickelson | 2,777,527 € | Robinho | Kein Ablaufdatum
+Lemke | 1,281,802 € | Timo Kramer  | Kein Ablaufdatum
+Mensah | 6,600,429 € | Timo Kramer  | Kein Ablaufdatum
+Nguefack | 3,866,308 € | Robinho | Kein Ablaufdatum
