@@ -1,3 +1,7 @@
+[{"slr": "Vanilleeis23"}, {"pn": "Götze"}, {"trp": 3929015}, {"dt": "2026-10-14T11:48:12Z"}]
+[{"byr": "Julian"}, {"pn": "Lemperle"}, {"trp": 10240890}, {"dt": "2026-10-14T10:39:58Z"}]
+[{"slr": "Braunbär7"}, {"pn": "Lemperle"}, {"trp": 10240890}, {"dt": "2026-10-14T10:39:58Z"}]
+[{"slr": "Joel"}, {"pn": "Götze"}, {"trp": 4555011}, {"dt": "2026-10-14T10:26:20Z"}]
 [{"byr": "Vincent "}, {"pn": "Haberer"}, {"trp": 3800000}, {"dt": "2026-10-14T06:18:10Z"}]
 [{"byr": "Robinho"}, {"pn": "Svensson"}, {"trp": 21540000}, {"dt": "2026-10-14T05:57:24Z"}]
 [{"byr": "MirkoHengst"}, {"pn": "Claude-Maurice"}, {"trp": 7330638}, {"dt": "2026-10-14T01:34:45Z"}]
