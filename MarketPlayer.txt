@@ -1,24 +1,24 @@
-Simpson-Pusey | 8,510,379 € | Market | 2026-10-14 14:13:18
-Sirch | 4,744,096 € | Market | 2026-10-14 14:49:32
-Daka | 2,095,949 € | Market | 2026-10-14 14:54:40
-Atubolu | 13,692,901 € | Market | 2026-10-14 15:51:58
-Nsoki | 500,000 € | Market | 2026-10-14 18:54:04
-Badé | 2,971,690 € | Market | 2026-10-14 21:15:21
-Müller | 500,000 € | Market | 2026-10-14 21:52:19
-Gray | 500,000 € | Market | 2026-10-14 23:39:05
-Tah | 28,375,700 € | Market | 2026-10-15 04:00:14
-Højlund | 2,137,668 € | Market | 2026-10-15 04:29:43
-Rots | 6,698,524 € | Market | 2026-10-15 04:35:56
-Tillman | 6,388,069 € | Market | 2026-10-15 06:45:11
-Quansah | 16,262,001 € | Market | 2026-10-15 07:22:37
-Vázquez | 2,250,318 € | Market | 2026-10-15 08:57:28
-Laimer | 21,291,093 € | Market | 2026-10-15 09:54:48
-Diehl | 500,000 € | Market | 2026-10-15 10:08:07
-Bülter | 6,119,551 € | Market | 2026-10-15 12:47:56
-Rothe | 8,054,280 € | Market | 2026-10-15 13:01:17
-Henrichs | 5,749,493 € | Market | 2026-10-15 17:27:36
-Fleck | 500,000 € | Market | 2026-10-15 21:07:17
-Hashioka | 3,695,610 € | Market | 2026-10-16 04:48:21
+Badé | 2,971,690 € | Market | 2026-10-14 21:15:20
+Müller | 500,000 € | Market | 2026-10-14 21:52:18
+Gray | 500,000 € | Market | 2026-10-14 23:39:04
+Tah | 28,375,700 € | Market | 2026-10-15 04:00:13
+Højlund | 2,137,668 € | Market | 2026-10-15 04:29:42
+Rots | 6,698,524 € | Market | 2026-10-15 04:35:55
+Tillman | 6,388,069 € | Market | 2026-10-15 06:45:10
+Quansah | 16,262,001 € | Market | 2026-10-15 07:22:36
+Vázquez | 2,250,318 € | Market | 2026-10-15 08:57:27
+Laimer | 21,291,093 € | Market | 2026-10-15 09:54:47
+Diehl | 500,000 € | Market | 2026-10-15 10:08:06
+Krauß | 6,519,296 € | Market | 2026-10-15 11:27:38
+Sander | 7,404,228 € | Market | 2026-10-15 12:02:05
+Bülter | 6,119,551 € | Market | 2026-10-15 12:47:55
+Rothe | 8,054,280 € | Market | 2026-10-15 13:01:16
+Moffi | 3,519,134 € | Market | 2026-10-15 13:18:59
+Krattenmacher | 7,831,913 € | Market | 2026-10-15 16:34:52
+Henrichs | 5,749,493 € | Market | 2026-10-15 17:27:35
+Fleck | 500,000 € | Market | 2026-10-15 21:07:16
+Wisbereit | 500,000 € | Market | 2026-10-15 23:57:22
+Hashioka | 3,695,610 € | Market | 2026-10-16 04:48:20
 Flekken | 12,050,298 € | Timo Kramer  | Kein Ablaufdatum
 Günter | 2,924,961 € | Joel | Kein Ablaufdatum
 Gyamerah | 4,739,723 € | Joel | Kein Ablaufdatum
@@ -33,7 +33,6 @@ Maloney | 761,804 € | CoachLeisi | Kein Ablaufdatum
 Schallenberg | 1,872,324 € | Joel | Kein Ablaufdatum
 Ibrahimović | 7,769,813 € | Vanilleeis23 | Kein Ablaufdatum
 Schäfer | 2,466,115 € | Braunbär7 | Kein Ablaufdatum
-Conté | 11,400,171 € | Julian | Kein Ablaufdatum
 Engelhardt | 15,175,859 € | Robinho | Kein Ablaufdatum
 Bachmann | 500,000 € | Vincent  | Kein Ablaufdatum
 Poreba | 8,893,131 € | Vanilleeis23 | Kein Ablaufdatum
@@ -47,4 +46,3 @@ Spalt | 2,894,572 € | Sascha187 | Kein Ablaufdatum
 Lemke | 1,624,221 € | Timo Kramer  | Kein Ablaufdatum
 Mensah | 6,873,725 € | Timo Kramer  | Kein Ablaufdatum
 Nguefack | 4,153,412 € | Robinho | Kein Ablaufdatum
-Imeri | 2,688,460 € | Sascha187 | Kein Ablaufdatum
