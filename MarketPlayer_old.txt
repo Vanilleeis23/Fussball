@@ -1,23 +1,22 @@
-Sander | 7,443,271 € | Market | 2026-10-15 12:02:05
-Bülter | 6,346,760 € | Market | 2026-10-15 12:47:55
-Rothe | 8,209,023 € | Market | 2026-10-15 13:01:16
-Moffi | 3,777,671 € | Market | 2026-10-15 13:18:59
-Krattenmacher | 7,966,146 € | Market | 2026-10-15 16:34:52
-Henrichs | 5,954,158 € | Market | 2026-10-15 17:27:35
-Ben Seghir | 1,614,650 € | Market | 2026-10-15 20:01:39
-Fleck | 500,000 € | Market | 2026-10-15 21:07:16
-Nartey | 3,361,104 € | Market | 2026-10-15 23:46:52
-Wisbereit | 500,000 € | Market | 2026-10-15 23:57:22
-Königsdörffer | 5,080,900 € | Market | 2026-10-16 02:26:37
-Klaas | 500,000 € | Market | 2026-10-16 02:53:23
-Bah | 2,914,148 € | Market | 2026-10-16 04:18:49
-Hashioka | 3,826,927 € | Market | 2026-10-16 04:48:20
-Thielmann | 3,178,285 € | Market | 2026-10-16 05:15:15
-Treu | 13,444,436 € | Market | 2026-10-16 07:31:37
-Becker | 7,082,139 € | Market | 2026-10-16 08:08:17
-Terrier | 3,282,816 € | Market | 2026-10-16 12:53:41
-Darvich | 4,995,507 € | Market | 2026-10-16 15:54:08
-Petersson | 500,000 € | Market | 2026-10-16 16:26:14
+Bülter | 6,346,760 € | Market | 2026-10-15 12:47:54
+Rothe | 8,209,023 € | Market | 2026-10-15 13:01:15
+Moffi | 3,777,671 € | Market | 2026-10-15 13:18:58
+Krattenmacher | 7,966,146 € | Market | 2026-10-15 16:34:51
+Henrichs | 5,954,158 € | Market | 2026-10-15 17:27:34
+Ben Seghir | 1,614,650 € | Market | 2026-10-15 20:01:38
+Fleck | 500,000 € | Market | 2026-10-15 21:07:15
+Nartey | 3,361,104 € | Market | 2026-10-15 23:46:51
+Wisbereit | 500,000 € | Market | 2026-10-15 23:57:21
+Königsdörffer | 5,080,900 € | Market | 2026-10-16 02:26:36
+Klaas | 500,000 € | Market | 2026-10-16 02:53:22
+Bah | 2,914,148 € | Market | 2026-10-16 04:18:48
+Hashioka | 3,826,927 € | Market | 2026-10-16 04:48:19
+Thielmann | 3,178,285 € | Market | 2026-10-16 05:15:14
+Treu | 13,444,436 € | Market | 2026-10-16 07:31:36
+Becker | 7,082,139 € | Market | 2026-10-16 08:08:16
+Terrier | 3,282,816 € | Market | 2026-10-16 12:53:40
+Darvich | 4,995,507 € | Market | 2026-10-16 15:54:07
+Petersson | 500,000 € | Market | 2026-10-16 16:26:13
 Flekken | 12,062,004 € | Timo Kramer  | Kein Ablaufdatum
 Günter | 3,261,985 € | Joel | Kein Ablaufdatum
 Gyamerah | 4,942,991 € | Joel | Kein Ablaufdatum

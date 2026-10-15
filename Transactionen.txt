@@ -1,3 +1,8 @@
+[{"byr": "Sascha187"}, {"pn": "Krattenmacher"}, {"trp": 7971000}, {"dt": "2026-10-15T16:35:16Z"}]
+[{"slr": "CoachLeisi"}, {"pn": "Torunarigha"}, {"trp": 6475548}, {"dt": "2026-10-15T14:07:23Z"}]
+[{"slr": "CoachLeisi"}, {"pn": "Gnabry"}, {"trp": 15498700}, {"dt": "2026-10-15T14:07:19Z"}]
+[{"byr": "Robinho"}, {"pn": "Rothe"}, {"trp": 8215000}, {"dt": "2026-10-15T13:01:53Z"}]
+[{"byr": "Vanilleeis23"}, {"pn": "Bülter"}, {"trp": 6421754}, {"dt": "2026-10-15T12:48:12Z"}]
 [{"byr": "Robinho"}, {"pn": "Sander"}, {"trp": 7640000}, {"dt": "2026-10-15T12:02:38Z"}]
 [{"byr": "CoachLeisi"}, {"pn": "Krauß"}, {"trp": 8000000}, {"dt": "2026-10-15T11:27:43Z"}]
 [{"slr": "Philipp"}, {"pn": "Sylla"}, {"trp": 5423725}, {"dt": "2026-10-15T11:25:32Z"}]
