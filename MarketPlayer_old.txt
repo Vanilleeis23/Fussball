@@ -1,33 +1,33 @@
-Bülter | 6,346,760 € | Market | 2026-10-15 12:47:54
-Rothe | 8,209,023 € | Market | 2026-10-15 13:01:15
-Moffi | 3,777,671 € | Market | 2026-10-15 13:18:58
-Krattenmacher | 7,966,146 € | Market | 2026-10-15 16:34:51
-Henrichs | 5,954,158 € | Market | 2026-10-15 17:27:34
-Ben Seghir | 1,614,650 € | Market | 2026-10-15 20:01:38
-Fleck | 500,000 € | Market | 2026-10-15 21:07:15
-Nartey | 3,361,104 € | Market | 2026-10-15 23:46:51
-Wisbereit | 500,000 € | Market | 2026-10-15 23:57:21
-Königsdörffer | 5,080,900 € | Market | 2026-10-16 02:26:36
-Klaas | 500,000 € | Market | 2026-10-16 02:53:22
-Bah | 2,914,148 € | Market | 2026-10-16 04:18:48
-Hashioka | 3,826,927 € | Market | 2026-10-16 04:48:19
-Thielmann | 3,178,285 € | Market | 2026-10-16 05:15:14
-Treu | 13,444,436 € | Market | 2026-10-16 07:31:36
-Becker | 7,082,139 € | Market | 2026-10-16 08:08:16
-Terrier | 3,282,816 € | Market | 2026-10-16 12:53:40
-Darvich | 4,995,507 € | Market | 2026-10-16 15:54:07
-Petersson | 500,000 € | Market | 2026-10-16 16:26:13
+Henrichs | 5,954,158 € | Market | 2026-10-15 17:27:36
+Ben Seghir | 1,614,650 € | Market | 2026-10-15 20:01:40
+Fleck | 500,000 € | Market | 2026-10-15 21:07:17
+Nartey | 3,361,104 € | Market | 2026-10-15 23:46:53
+Wisbereit | 500,000 € | Market | 2026-10-15 23:57:23
+Königsdörffer | 5,080,900 € | Market | 2026-10-16 02:26:38
+Klaas | 500,000 € | Market | 2026-10-16 02:53:24
+Bah | 2,914,148 € | Market | 2026-10-16 04:18:50
+Hashioka | 3,826,927 € | Market | 2026-10-16 04:48:21
+Thielmann | 3,178,285 € | Market | 2026-10-16 05:15:16
+Treu | 13,444,436 € | Market | 2026-10-16 07:31:38
+Becker | 7,082,139 € | Market | 2026-10-16 08:08:18
+Güther | 500,000 € | Market | 2026-10-16 11:12:54
+Terrier | 3,282,816 € | Market | 2026-10-16 12:53:42
+Darvich | 4,995,507 € | Market | 2026-10-16 15:54:09
+Petersson | 500,000 € | Market | 2026-10-16 16:26:15
+Adeline | 3,573,228 € | Market | 2026-10-16 16:32:27
+Gosens | 8,648,732 € | Market | 2026-10-16 17:28:02
+Ginter | 27,796,001 € | Market | 2026-10-17 05:22:49
+Klostermann | 2,510,979 € | Market | 2026-10-17 10:28:32
 Flekken | 12,062,004 € | Timo Kramer  | Kein Ablaufdatum
 Günter | 3,261,985 € | Joel | Kein Ablaufdatum
 Gyamerah | 4,942,991 € | Joel | Kein Ablaufdatum
 Mittelstädt | 28,542,203 € | Robinho | Kein Ablaufdatum
 Prömel | 14,702,369 € | Braunbär7 | Kein Ablaufdatum
 Burke | 4,779,280 € | Timo Kramer  | Kein Ablaufdatum
-Gnabry | 15,498,700 € | CoachLeisi | Kein Ablaufdatum
-Torunarigha | 6,475,548 € | CoachLeisi | Kein Ablaufdatum
-Hack | 4,174,421 € | CoachLeisi | Kein Ablaufdatum
 Maloney | 935,896 € | CoachLeisi | Kein Ablaufdatum
+Bülter | 6,346,760 € | Vanilleeis23 | Kein Ablaufdatum
 Schallenberg | 2,096,842 € | Joel | Kein Ablaufdatum
+Rothe | 8,209,023 € | Robinho | Kein Ablaufdatum
 Ibrahimović | 8,025,632 € | Vanilleeis23 | Kein Ablaufdatum
 Schäfer | 2,874,848 € | Braunbär7 | Kein Ablaufdatum
 Bachmann | 500,000 € | Vincent  | Kein Ablaufdatum
@@ -35,6 +35,8 @@ Schnellbacher | 2,339,211 € | Philipp | Kein Ablaufdatum
 Poreba | 9,141,033 € | Vanilleeis23 | Kein Ablaufdatum
 Stange | 3,250,635 € | Joel | Kein Ablaufdatum
 Aebischer | 6,333,030 € | Vanilleeis23 | Kein Ablaufdatum
+Quansah | 16,456,839 € | Vanilleeis23 | Kein Ablaufdatum
+Lochoshvili | 10,078,488 € | Vanilleeis23 | Kein Ablaufdatum
 Sirch | 5,001,019 € | Philipp | Kein Ablaufdatum
 Højlund | 2,426,841 € | Braunbär7 | Kein Ablaufdatum
 Sticker | 2,997,179 € | Braunbär7 | Kein Ablaufdatum
@@ -45,3 +47,4 @@ Lemke | 1,953,788 € | Timo Kramer  | Kein Ablaufdatum
 Mensah | 7,064,279 € | Timo Kramer  | Kein Ablaufdatum
 Uno | 2,500,642 € | Philipp | Kein Ablaufdatum
 Nguefack | 4,349,859 € | Robinho | Kein Ablaufdatum
+Imeri | 3,112,406 € | Sascha187 | Kein Ablaufdatum
