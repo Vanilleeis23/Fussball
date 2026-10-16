@@ -1,7 +1,7 @@
 Summen pro Nutzer (absteigend sortiert):
 
-Timo Kramer : 18.016.593 € (Kontostand: -8.259.089 €, Spieler auf dem Markt: 26.275.682 €)
-Vincent : 11.258.680 € (Kontostand: -6.776.326 €, Spieler auf dem Markt: 18.035.006 €)
+Timo Kramer : 18.016.593 € (Kontostand: 3.718.925 €, Spieler auf dem Markt: 14.297.668 €)
+Vincent : 11.258.680 € (Kontostand: 11.258.680 €, Spieler auf dem Markt: 0 €)
 Philipp : 10.299.487 € (Kontostand: 5.058.726 €, Spieler auf dem Markt: 5.240.761 €)
 Julian : 4.605.761 € (Kontostand: 4.605.761 €, Spieler auf dem Markt: 0 €)
 MirkoHengst : 3.960.135 € (Kontostand: 3.960.135 €, Spieler auf dem Markt: 0 €)
