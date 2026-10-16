@@ -1,23 +1,29 @@
-Asllani | 12,360,532 € | Market | 2026-10-17 00:17:38
-Kuruçay | 10,856,474 € | Market | 2026-10-17 04:09:25
-Ginter | 27,812,256 € | Market | 2026-10-17 05:22:47
-Otávio | 2,819,006 € | Market | 2026-10-17 05:58:50
-Schmahl | 500,000 € | Market | 2026-10-17 06:16:33
-Castro-Montes | 2,769,317 € | Market | 2026-10-17 08:54:29
-Meyer | 500,000 € | Market | 2026-10-17 09:13:26
-Fellhauer | 11,394,935 € | Market | 2026-10-17 10:07:26
-Klostermann | 2,383,865 € | Market | 2026-10-17 10:28:30
-Höler | 2,594,221 € | Market | 2026-10-17 11:48:06
-Wöber | 4,027,467 € | Market | 2026-10-17 12:43:50
-Nakuzola | 500,000 € | Market | 2026-10-17 17:09:27
-Grifo | 5,530,881 € | Market | 2026-10-17 17:46:02
-Jeltsch | 15,068,510 € | Market | 2026-10-17 19:04:29
-Kömür | 3,704,348 € | Market | 2026-10-17 23:05:37
-Klaus | 500,000 € | Market | 2026-10-18 00:37:35
-Remberg | 4,522,448 € | Market | 2026-10-18 00:49:03
-Baumgartner | 9,000,928 € | Market | 2026-10-18 02:13:36
-Lynen | 2,735,312 € | Market | 2026-10-18 09:33:28
-Flekken | 12,063,600 € | Timo Kramer  | Kein Ablaufdatum
-Schnellbacher | 2,496,319 € | Philipp | Kein Ablaufdatum
-Lemke | 2,234,068 € | Timo Kramer  | Kein Ablaufdatum
-Uno | 2,744,442 € | Philipp | Kein Ablaufdatum
+Asllani | 12,517,079 € | Market | 2026-10-17 00:17:39
+Kuruçay | 10,939,961 € | Market | 2026-10-17 04:09:26
+Ginter | 27,825,835 € | Market | 2026-10-17 05:22:48
+Otávio | 2,712,106 € | Market | 2026-10-17 05:58:51
+Schmahl | 500,000 € | Market | 2026-10-17 06:16:34
+Castro-Montes | 2,818,904 € | Market | 2026-10-17 08:54:30
+Meyer | 500,000 € | Market | 2026-10-17 09:13:27
+Fellhauer | 11,552,816 € | Market | 2026-10-17 10:07:27
+Klostermann | 2,276,161 € | Market | 2026-10-17 10:28:31
+Höler | 2,944,511 € | Market | 2026-10-17 11:48:07
+Wöber | 4,162,318 € | Market | 2026-10-17 12:43:51
+Ilic | 3,608,152 € | Market | 2026-10-17 15:26:57
+Nakuzola | 500,000 € | Market | 2026-10-17 17:09:28
+Grifo | 5,640,550 € | Market | 2026-10-17 17:46:03
+Jeltsch | 15,131,034 € | Market | 2026-10-17 19:04:30
+Kömür | 3,696,175 € | Market | 2026-10-17 23:05:38
+Klaus | 500,000 € | Market | 2026-10-18 00:37:36
+Remberg | 4,399,659 € | Market | 2026-10-18 00:49:04
+Baumgartner | 8,745,249 € | Market | 2026-10-18 02:13:37
+Ullrich | 5,495,253 € | Market | 2026-10-18 08:00:03
+Lynen | 2,625,425 € | Market | 2026-10-18 09:33:29
+Maluze | 6,695,670 € | Market | 2026-10-18 09:48:59
+Flekken | 12,052,909 € | Timo Kramer  | Kein Ablaufdatum
+Uzun | 25,986,177 € | Vanilleeis23 | Kein Ablaufdatum
+Schnellbacher | 2,423,623 € | Philipp | Kein Ablaufdatum
+Quansah | 16,758,271 € | Vanilleeis23 | Kein Ablaufdatum
+Lemke | 2,405,539 € | Timo Kramer  | Kein Ablaufdatum
+Uno | 2,972,088 € | Philipp | Kein Ablaufdatum
+Adeline | 4,109,908 € | Vanilleeis23 | Kein Ablaufdatum
