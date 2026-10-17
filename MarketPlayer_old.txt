@@ -1,25 +1,25 @@
-Nakuzola | 500,000 € | Market | 2026-10-17 17:09:29
-Grifo | 5,640,550 € | Market | 2026-10-17 17:46:04
-Jeltsch | 15,131,034 € | Market | 2026-10-17 19:04:31
-Widmer | 2,567,081 € | Market | 2026-10-17 19:07:21
-Kömür | 3,696,175 € | Market | 2026-10-17 23:05:39
-Klaus | 500,000 € | Market | 2026-10-18 00:37:37
-Remberg | 4,399,659 € | Market | 2026-10-18 00:49:05
-Baumgartner | 8,745,249 € | Market | 2026-10-18 02:13:38
-Funk | 500,000 € | Market | 2026-10-18 02:59:08
-Ullrich | 5,495,253 € | Market | 2026-10-18 08:00:04
-Bernardo | 1,187,184 € | Market | 2026-10-18 08:05:10
-Stöger | 4,672,060 € | Market | 2026-10-18 09:10:17
-Lynen | 2,625,425 € | Market | 2026-10-18 09:33:30
-Maluze | 6,695,670 € | Market | 2026-10-18 09:49:00
-Santos | 500,000 € | Market | 2026-10-18 09:54:34
-Kosugi | 6,514,958 € | Market | 2026-10-18 13:26:03
-Millgramm | 500,000 € | Market | 2026-10-18 17:09:14
-Goto | 3,067,097 € | Market | 2026-10-18 19:40:25
-Jung | 500,000 € | Market | 2026-10-19 02:28:55
-Yilmaz | 2,493,630 € | Market | 2026-10-19 07:00:59
-Hwang | 4,406,441 € | Market | 2026-10-19 08:40:49
+Kömür | 3,696,175 € | Market | 2026-10-17 23:05:38
+Klaus | 500,000 € | Market | 2026-10-18 00:37:36
+Remberg | 4,399,659 € | Market | 2026-10-18 00:49:04
+Baumgartner | 8,745,249 € | Market | 2026-10-18 02:13:37
+Funk | 500,000 € | Market | 2026-10-18 02:59:07
+Ullrich | 5,495,253 € | Market | 2026-10-18 08:00:03
+Bernardo | 1,187,184 € | Market | 2026-10-18 08:05:09
+Stöger | 4,672,060 € | Market | 2026-10-18 09:10:16
+Lynen | 2,625,425 € | Market | 2026-10-18 09:33:29
+Maluze | 6,695,670 € | Market | 2026-10-18 09:48:59
+Santos | 500,000 € | Market | 2026-10-18 09:54:33
+Kosugi | 6,514,958 € | Market | 2026-10-18 13:26:02
+Millgramm | 500,000 € | Market | 2026-10-18 17:09:13
+Goto | 3,067,097 € | Market | 2026-10-18 19:40:24
+Schlager | 3,168,980 € | Market | 2026-10-19 02:22:02
+Jung | 500,000 € | Market | 2026-10-19 02:28:54
+Yilmaz | 2,493,630 € | Market | 2026-10-19 07:00:58
+Hwang | 4,406,441 € | Market | 2026-10-19 08:40:48
+Orban | 28,842,469 € | Market | 2026-10-19 09:16:01
+Lerma | 500,000 € | Market | 2026-10-19 12:23:54
 Flekken | 12,052,909 € | Timo Kramer  | Kein Ablaufdatum
+Pejčinović | 9,308,242 € | Timo Kramer  | Kein Ablaufdatum
 Gruber | 11,084,839 € | Braunbär7 | Kein Ablaufdatum
 Lemke | 2,405,539 € | Timo Kramer  | Kein Ablaufdatum
 Uno | 2,972,088 € | Philipp | Kein Ablaufdatum
