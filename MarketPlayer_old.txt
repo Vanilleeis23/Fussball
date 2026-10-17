@@ -1,7 +1,3 @@
-Kuruçay | 10,939,961 € | Market | 2026-10-17 04:09:26
-Ginter | 27,825,835 € | Market | 2026-10-17 05:22:48
-Otávio | 2,712,106 € | Market | 2026-10-17 05:58:51
-Schmahl | 500,000 € | Market | 2026-10-17 06:16:34
 Castro-Montes | 2,818,904 € | Market | 2026-10-17 08:54:30
 Meyer | 500,000 € | Market | 2026-10-17 09:13:27
 Fellhauer | 11,552,816 € | Market | 2026-10-17 10:07:27
@@ -17,8 +13,10 @@ Klaus | 500,000 € | Market | 2026-10-18 00:37:36
 Remberg | 4,399,659 € | Market | 2026-10-18 00:49:04
 Baumgartner | 8,745,249 € | Market | 2026-10-18 02:13:37
 Ullrich | 5,495,253 € | Market | 2026-10-18 08:00:03
+Stöger | 4,672,060 € | Market | 2026-10-18 09:10:16
 Lynen | 2,625,425 € | Market | 2026-10-18 09:33:29
 Maluze | 6,695,670 € | Market | 2026-10-18 09:48:59
+Kosugi | 6,514,958 € | Market | 2026-10-18 13:26:02
 Goto | 3,067,097 € | Market | 2026-10-18 19:40:24
 Flekken | 12,052,909 € | Timo Kramer  | Kein Ablaufdatum
 Uzun | 25,986,177 € | Vanilleeis23 | Kein Ablaufdatum
