@@ -1,35 +1,35 @@
-Jóhannesson | 5,907,340 € | Market | 2026-10-18 21:36:41
-Schlager | 2,778,020 € | Market | 2026-10-19 02:22:02
+Schlager | 2,545,486 € | Market | 2026-10-19 02:22:02
 Jung | 500,000 € | Market | 2026-10-19 02:28:54
 Grahl | 500,000 € | Market | 2026-10-19 02:44:59
-Yilmaz | 2,224,212 € | Market | 2026-10-19 07:00:58
-Arthur | 8,628,770 € | Market | 2026-10-19 07:34:25
+Yilmaz | 2,003,315 € | Market | 2026-10-19 07:00:58
+Arthur | 8,744,807 € | Market | 2026-10-19 07:34:25
 Köbbing | 500,000 € | Market | 2026-10-19 07:53:55
-Hwang | 4,366,844 € | Market | 2026-10-19 08:40:48
-Orban | 28,903,451 € | Market | 2026-10-19 09:16:01
-Campbell | 7,016,457 € | Market | 2026-10-19 12:20:06
+Hwang | 4,357,171 € | Market | 2026-10-19 08:40:48
+Orban | 28,986,073 € | Market | 2026-10-19 09:16:01
+Campbell | 6,681,374 € | Market | 2026-10-19 12:20:06
 Lerma | 500,000 € | Market | 2026-10-19 12:23:54
-Burger | 19,805,721 € | Market | 2026-10-19 13:08:04
-Ljubičić | 512,516 € | Market | 2026-10-19 17:05:38
-Neuer | 10,159,788 € | Market | 2026-10-19 17:53:45
-Kühn | 2,452,901 € | Market | 2026-10-19 19:13:52
-Al Dakhil | 2,584,733 € | Market | 2026-10-19 20:45:49
-Baum | 7,904,374 € | Market | 2026-10-19 22:36:41
+Burger | 19,833,537 € | Market | 2026-10-19 13:08:04
+Becker | 1,456,532 € | Market | 2026-10-19 15:32:14
+Ljubičić | 500,000 € | Market | 2026-10-19 17:05:38
+Neuer | 9,636,042 € | Market | 2026-10-19 17:53:45
+Kühn | 2,793,286 € | Market | 2026-10-19 19:13:52
+Al Dakhil | 2,470,449 € | Market | 2026-10-19 20:45:49
+Baum | 7,623,924 € | Market | 2026-10-19 22:36:41
+Waldschmidt | 3,186,303 € | Market | 2026-10-19 23:52:15
 Pruhs | 500,000 € | Market | 2026-10-20 03:25:57
-Heskey | 2,074,145 € | Market | 2026-10-20 08:51:55
-Muheim | 4,070,235 € | Market | 2026-10-20 09:30:44
-Ruoppi | 2,609,857 € | Market | 2026-10-20 11:05:03
-Flekken | 11,976,869 € | Timo Kramer  | Kein Ablaufdatum
-Eggestein | 19,714,333 € | CoachLeisi | Kein Ablaufdatum
-Bülter | 6,853,952 € | Vanilleeis23 | Kein Ablaufdatum
-Pejčinović | 8,934,344 € | Timo Kramer  | Kein Ablaufdatum
-Ullrich | 5,756,521 € | Braunbär7 | Kein Ablaufdatum
-Hansen | 6,085,882 € | Joel | Kein Ablaufdatum
-Quansah | 16,910,825 € | Vanilleeis23 | Kein Ablaufdatum
-Bah | 4,456,476 € | Vanilleeis23 | Kein Ablaufdatum
-Kosugi | 6,632,243 € | Braunbär7 | Kein Ablaufdatum
-Lemke | 2,639,921 € | Timo Kramer  | Kein Ablaufdatum
-Moreira | 17,351,088 € | Sascha187 | Kein Ablaufdatum
-Uno | 3,278,883 € | Philipp | Kein Ablaufdatum
-Adeline | 4,366,010 € | Vanilleeis23 | Kein Ablaufdatum
-Moore | 9,997,050 € | Sascha187 | Kein Ablaufdatum
+Heskey | 1,860,041 € | Market | 2026-10-20 08:51:55
+Muheim | 4,594,371 € | Market | 2026-10-20 09:30:44
+Ruoppi | 2,504,842 € | Market | 2026-10-20 11:05:03
+Flekken | 11,841,631 € | Timo Kramer  | Kein Ablaufdatum
+Eggestein | 19,908,819 € | CoachLeisi | Kein Ablaufdatum
+Bülter | 7,118,749 € | Vanilleeis23 | Kein Ablaufdatum
+Pejčinović | 8,627,173 € | Timo Kramer  | Kein Ablaufdatum
+Ullrich | 6,086,361 € | Braunbär7 | Kein Ablaufdatum
+Hansen | 6,031,967 € | Joel | Kein Ablaufdatum
+Bah | 4,965,702 € | Vanilleeis23 | Kein Ablaufdatum
+Kosugi | 6,857,673 € | Braunbär7 | Kein Ablaufdatum
+Lemke | 3,052,362 € | Timo Kramer  | Kein Ablaufdatum
+Moreira | 17,507,281 € | Sascha187 | Kein Ablaufdatum
+Uno | 3,690,187 € | Philipp | Kein Ablaufdatum
+Adeline | 4,761,246 € | Vanilleeis23 | Kein Ablaufdatum
+Moore | 10,012,714 € | Sascha187 | Kein Ablaufdatum
