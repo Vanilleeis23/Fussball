@@ -1,28 +1,27 @@
-Kömür | 3,696,175 € | Market | 2026-10-17 23:05:38
 Klaus | 500,000 € | Market | 2026-10-18 00:37:36
-Remberg | 4,399,659 € | Market | 2026-10-18 00:49:04
-Baumgartner | 8,745,249 € | Market | 2026-10-18 02:13:37
+Remberg | 4,280,328 € | Market | 2026-10-18 00:49:04
+Baumgartner | 8,627,830 € | Market | 2026-10-18 02:13:37
 Funk | 500,000 € | Market | 2026-10-18 02:59:07
-Ullrich | 5,495,253 € | Market | 2026-10-18 08:00:03
-Bernardo | 1,187,184 € | Market | 2026-10-18 08:05:09
-Stöger | 4,672,060 € | Market | 2026-10-18 09:10:16
-Lynen | 2,625,425 € | Market | 2026-10-18 09:33:29
-Maluze | 6,695,670 € | Market | 2026-10-18 09:48:59
+Ullrich | 5,756,521 € | Market | 2026-10-18 08:00:03
+Bernardo | 1,160,584 € | Market | 2026-10-18 08:05:09
+Stöger | 4,391,986 € | Market | 2026-10-18 09:10:16
+Lynen | 2,533,251 € | Market | 2026-10-18 09:33:29
+Maluze | 6,705,579 € | Market | 2026-10-18 09:48:59
 Santos | 500,000 € | Market | 2026-10-18 09:54:33
-Kosugi | 6,514,958 € | Market | 2026-10-18 13:26:02
+Kosugi | 6,632,243 € | Market | 2026-10-18 13:26:02
 Millgramm | 500,000 € | Market | 2026-10-18 17:09:13
-Herold | 3,711,694 € | Market | 2026-10-18 17:41:53
-Goto | 3,067,097 € | Market | 2026-10-18 19:40:24
-Jóhannesson | 5,610,887 € | Market | 2026-10-18 21:36:41
-Schlager | 3,168,980 € | Market | 2026-10-19 02:22:02
+Herold | 3,552,682 € | Market | 2026-10-18 17:41:53
+Goto | 3,376,999 € | Market | 2026-10-18 19:40:24
+Jóhannesson | 5,907,340 € | Market | 2026-10-18 21:36:41
+Schlager | 2,778,020 € | Market | 2026-10-19 02:22:02
 Jung | 500,000 € | Market | 2026-10-19 02:28:54
-Yilmaz | 2,493,630 € | Market | 2026-10-19 07:00:58
-Hwang | 4,406,441 € | Market | 2026-10-19 08:40:48
-Orban | 28,842,469 € | Market | 2026-10-19 09:16:01
+Yilmaz | 2,224,212 € | Market | 2026-10-19 07:00:58
+Hwang | 4,366,844 € | Market | 2026-10-19 08:40:48
+Orban | 28,903,451 € | Market | 2026-10-19 09:16:01
 Lerma | 500,000 € | Market | 2026-10-19 12:23:54
-Flekken | 12,052,909 € | Timo Kramer  | Kein Ablaufdatum
-Pejčinović | 9,308,242 € | Timo Kramer  | Kein Ablaufdatum
-Gruber | 11,084,839 € | Braunbär7 | Kein Ablaufdatum
-Lemke | 2,405,539 € | Timo Kramer  | Kein Ablaufdatum
-Uno | 2,972,088 € | Philipp | Kein Ablaufdatum
-Adeline | 4,109,908 € | Vanilleeis23 | Kein Ablaufdatum
+Kühn | 2,452,901 € | Market | 2026-10-19 19:13:52
+Flekken | 11,976,869 € | Timo Kramer  | Kein Ablaufdatum
+Pejčinović | 8,934,344 € | Timo Kramer  | Kein Ablaufdatum
+Lemke | 2,639,921 € | Timo Kramer  | Kein Ablaufdatum
+Uno | 3,278,883 € | Philipp | Kein Ablaufdatum
+Adeline | 4,366,010 € | Vanilleeis23 | Kein Ablaufdatum
