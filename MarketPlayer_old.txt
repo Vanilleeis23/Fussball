@@ -1,15 +1,16 @@
-Kosugi | 6,632,243 € | Market | 2026-10-18 13:26:02
 Millgramm | 500,000 € | Market | 2026-10-18 17:09:13
 Herold | 3,552,682 € | Market | 2026-10-18 17:41:53
 Goto | 3,376,999 € | Market | 2026-10-18 19:40:24
 Jóhannesson | 5,907,340 € | Market | 2026-10-18 21:36:41
 Schlager | 2,778,020 € | Market | 2026-10-19 02:22:02
 Jung | 500,000 € | Market | 2026-10-19 02:28:54
+Grahl | 500,000 € | Market | 2026-10-19 02:44:59
 Yilmaz | 2,224,212 € | Market | 2026-10-19 07:00:58
 Arthur | 8,628,770 € | Market | 2026-10-19 07:34:25
 Köbbing | 500,000 € | Market | 2026-10-19 07:53:55
 Hwang | 4,366,844 € | Market | 2026-10-19 08:40:48
 Orban | 28,903,451 € | Market | 2026-10-19 09:16:01
+Campbell | 7,016,457 € | Market | 2026-10-19 12:20:06
 Lerma | 500,000 € | Market | 2026-10-19 12:23:54
 Burger | 19,805,721 € | Market | 2026-10-19 13:08:04
 Ljubičić | 512,516 € | Market | 2026-10-19 17:05:38
@@ -18,11 +19,14 @@ Kühn | 2,452,901 € | Market | 2026-10-19 19:13:52
 Al Dakhil | 2,584,733 € | Market | 2026-10-19 20:45:49
 Baum | 7,904,374 € | Market | 2026-10-19 22:36:41
 Muheim | 4,070,235 € | Market | 2026-10-20 09:30:44
+Ruoppi | 2,609,857 € | Market | 2026-10-20 11:05:03
 Flekken | 11,976,869 € | Timo Kramer  | Kein Ablaufdatum
 Bülter | 6,853,952 € | Vanilleeis23 | Kein Ablaufdatum
 Pejčinović | 8,934,344 € | Timo Kramer  | Kein Ablaufdatum
+Ullrich | 5,756,521 € | Braunbär7 | Kein Ablaufdatum
 Hansen | 6,085,882 € | Joel | Kein Ablaufdatum
 Bah | 4,456,476 € | Vanilleeis23 | Kein Ablaufdatum
+Kosugi | 6,632,243 € | Braunbär7 | Kein Ablaufdatum
 Lemke | 2,639,921 € | Timo Kramer  | Kein Ablaufdatum
 Uno | 3,278,883 € | Philipp | Kein Ablaufdatum
 Adeline | 4,366,010 € | Vanilleeis23 | Kein Ablaufdatum
