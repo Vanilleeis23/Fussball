@@ -17,7 +17,9 @@ Köbbing | 500,000 € | Market | 2026-10-19 07:53:55
 Hwang | 4,366,844 € | Market | 2026-10-19 08:40:48
 Orban | 28,903,451 € | Market | 2026-10-19 09:16:01
 Lerma | 500,000 € | Market | 2026-10-19 12:23:54
+Burger | 19,805,721 € | Market | 2026-10-19 13:08:04
 Kühn | 2,452,901 € | Market | 2026-10-19 19:13:52
+Baum | 7,904,374 € | Market | 2026-10-19 22:36:41
 Flekken | 11,976,869 € | Timo Kramer  | Kein Ablaufdatum
 Pejčinović | 8,934,344 € | Timo Kramer  | Kein Ablaufdatum
 Lemke | 2,639,921 € | Timo Kramer  | Kein Ablaufdatum
