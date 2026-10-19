@@ -1,15 +1,12 @@
-Campbell | 6,681,374 € | Market | 2026-10-19 12:20:06
-Lerma | 500,000 € | Market | 2026-10-19 12:23:54
-Burger | 19,833,537 € | Market | 2026-10-19 13:08:04
-Becker | 1,456,532 € | Market | 2026-10-19 15:32:14
-Njinmah | 2,193,168 € | Market | 2026-10-19 16:20:08
-Ljubičić | 500,000 € | Market | 2026-10-19 17:05:38
 Neuer | 9,636,042 € | Market | 2026-10-19 17:53:45
 Kühn | 2,793,286 € | Market | 2026-10-19 19:13:52
 Al Dakhil | 2,470,449 € | Market | 2026-10-19 20:45:49
 Baum | 7,623,924 € | Market | 2026-10-19 22:36:41
 Waldschmidt | 3,186,303 € | Market | 2026-10-19 23:52:15
 Pruhs | 500,000 € | Market | 2026-10-20 03:25:57
+Reitz | 10,108,478 € | Market | 2026-10-20 05:15:44
+Boey | 623,934 € | Market | 2026-10-20 06:13:32
+Pimpong | 500,000 € | Market | 2026-10-20 07:14:51
 Heskey | 1,860,041 € | Market | 2026-10-20 08:51:55
 Muheim | 4,594,371 € | Market | 2026-10-20 09:30:44
 Ruoppi | 2,504,842 € | Market | 2026-10-20 11:05:03
@@ -18,16 +15,20 @@ Hendriks | 6,842,945 € | Market | 2026-10-20 21:40:36
 Hložek | 8,857,749 € | Market | 2026-10-20 22:28:30
 Lidberg | 4,869,406 € | Market | 2026-10-21 00:17:32
 Sambi Lokonga | 5,345,218 € | Market | 2026-10-21 00:37:15
+Juranović | 4,860,939 € | Market | 2026-10-21 07:31:35
+Hofmann | 697,943 € | Market | 2026-10-21 11:37:20
+El Mala | 20,732,370 € | Market | 2026-10-21 12:06:45
+Chaïbi | 3,823,151 € | Market | 2026-10-21 13:07:37
 Flekken | 11,841,631 € | Timo Kramer  | Kein Ablaufdatum
 Eggestein | 19,908,819 € | CoachLeisi | Kein Ablaufdatum
+Hack | 4,869,589 € | CoachLeisi | Kein Ablaufdatum
 Bülter | 7,118,749 € | Vanilleeis23 | Kein Ablaufdatum
 Pieringer | 5,736,468 € | Robinho | Kein Ablaufdatum
 Ullrich | 6,086,361 € | Braunbär7 | Kein Ablaufdatum
 Hansen | 6,031,967 € | Joel | Kein Ablaufdatum
 Bah | 4,965,702 € | Vanilleeis23 | Kein Ablaufdatum
+Castro-Montes | 3,052,193 € | Sascha187 | Kein Ablaufdatum
 Kosugi | 6,857,673 € | Braunbär7 | Kein Ablaufdatum
 Lemke | 3,052,362 € | Timo Kramer  | Kein Ablaufdatum
-Moreira | 17,507,281 € | Sascha187 | Kein Ablaufdatum
 Uno | 3,690,187 € | Philipp | Kein Ablaufdatum
 Adeline | 4,761,246 € | Vanilleeis23 | Kein Ablaufdatum
-Moore | 10,012,714 € | Sascha187 | Kein Ablaufdatum

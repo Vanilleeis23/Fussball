@@ -1,34 +1,38 @@
-Neuer | 9,636,042 € | Market | 2026-10-19 17:53:45
-Kühn | 2,793,286 € | Market | 2026-10-19 19:13:52
-Al Dakhil | 2,470,449 € | Market | 2026-10-19 20:45:49
-Baum | 7,623,924 € | Market | 2026-10-19 22:36:41
-Waldschmidt | 3,186,303 € | Market | 2026-10-19 23:52:15
-Pruhs | 500,000 € | Market | 2026-10-20 03:25:57
-Reitz | 10,108,478 € | Market | 2026-10-20 05:15:44
-Boey | 623,934 € | Market | 2026-10-20 06:13:32
-Pimpong | 500,000 € | Market | 2026-10-20 07:14:51
-Heskey | 1,860,041 € | Market | 2026-10-20 08:51:55
-Muheim | 4,594,371 € | Market | 2026-10-20 09:30:44
-Ruoppi | 2,504,842 € | Market | 2026-10-20 11:05:03
-Reis | 9,192,619 € | Market | 2026-10-20 17:00:51
-Hendriks | 6,842,945 € | Market | 2026-10-20 21:40:36
-Hložek | 8,857,749 € | Market | 2026-10-20 22:28:30
-Lidberg | 4,869,406 € | Market | 2026-10-21 00:17:32
-Sambi Lokonga | 5,345,218 € | Market | 2026-10-21 00:37:15
-Juranović | 4,860,939 € | Market | 2026-10-21 07:31:35
-Hofmann | 697,943 € | Market | 2026-10-21 11:37:20
-El Mala | 20,732,370 € | Market | 2026-10-21 12:06:45
-Chaïbi | 3,823,151 € | Market | 2026-10-21 13:07:37
-Flekken | 11,841,631 € | Timo Kramer  | Kein Ablaufdatum
-Eggestein | 19,908,819 € | CoachLeisi | Kein Ablaufdatum
-Hack | 4,869,589 € | CoachLeisi | Kein Ablaufdatum
-Bülter | 7,118,749 € | Vanilleeis23 | Kein Ablaufdatum
-Pieringer | 5,736,468 € | Robinho | Kein Ablaufdatum
-Ullrich | 6,086,361 € | Braunbär7 | Kein Ablaufdatum
-Hansen | 6,031,967 € | Joel | Kein Ablaufdatum
-Bah | 4,965,702 € | Vanilleeis23 | Kein Ablaufdatum
-Castro-Montes | 3,052,193 € | Sascha187 | Kein Ablaufdatum
-Kosugi | 6,857,673 € | Braunbär7 | Kein Ablaufdatum
-Lemke | 3,052,362 € | Timo Kramer  | Kein Ablaufdatum
-Uno | 3,690,187 € | Philipp | Kein Ablaufdatum
-Adeline | 4,761,246 € | Vanilleeis23 | Kein Ablaufdatum
+Waldschmidt | 2,981,155 € | Market | 2026-10-19 23:52:16
+Pruhs | 500,000 € | Market | 2026-10-20 03:25:58
+Reitz | 10,311,746 € | Market | 2026-10-20 05:15:45
+Boey | 623,934 € | Market | 2026-10-20 06:13:33
+Pimpong | 500,000 € | Market | 2026-10-20 07:14:52
+Heskey | 1,635,264 € | Market | 2026-10-20 08:51:56
+Muheim | 5,131,588 € | Market | 2026-10-20 09:30:45
+Ruoppi | 2,392,213 € | Market | 2026-10-20 11:05:04
+Wolf | 7,316,318 € | Market | 2026-10-20 11:30:54
+Mane | 2,447,304 € | Market | 2026-10-20 16:07:32
+Reis | 9,525,698 € | Market | 2026-10-20 17:00:52
+Hendriks | 7,215,302 € | Market | 2026-10-20 21:40:37
+Hložek | 8,935,937 € | Market | 2026-10-20 22:28:31
+Lidberg | 5,169,876 € | Market | 2026-10-21 00:17:33
+Sambi Lokonga | 5,168,859 € | Market | 2026-10-21 00:37:16
+Juranović | 4,744,161 € | Market | 2026-10-21 07:31:36
+Hofmann | 904,794 € | Market | 2026-10-21 11:37:21
+Siebeking | 500,000 € | Market | 2026-10-21 11:41:34
+El Mala | 20,894,266 € | Market | 2026-10-21 12:06:46
+Chaïbi | 4,239,481 € | Market | 2026-10-21 13:07:38
+Albert | 623,685 € | Market | 2026-10-21 18:24:23
+Sabitzer | 7,244,679 € | Market | 2026-10-21 19:13:26
+Flekken | 11,673,743 € | Timo Kramer  | Kein Ablaufdatum
+Grifo | 6,482,541 € | Timo Kramer  | Kein Ablaufdatum
+Eggestein | 20,102,783 € | CoachLeisi | Kein Ablaufdatum
+Hack | 5,122,486 € | CoachLeisi | Kein Ablaufdatum
+Bülter | 7,412,908 € | Vanilleeis23 | Kein Ablaufdatum
+Pieringer | 5,335,952 € | Robinho | Kein Ablaufdatum
+Ullrich | 6,441,020 € | Braunbär7 | Kein Ablaufdatum
+Kömür | 4,416,005 € | Timo Kramer  | Kein Ablaufdatum
+Hansen | 5,880,739 € | Joel | Kein Ablaufdatum
+Bah | 5,455,366 € | Vanilleeis23 | Kein Ablaufdatum
+Castro-Montes | 3,287,693 € | Sascha187 | Kein Ablaufdatum
+Kosugi | 7,161,277 € | Braunbär7 | Kein Ablaufdatum
+Lemke | 3,513,753 € | Timo Kramer  | Kein Ablaufdatum
+Goto | 4,220,076 € | Timo Kramer  | Kein Ablaufdatum
+Uno | 4,100,197 € | Philipp | Kein Ablaufdatum
+Adeline | 5,160,488 € | Vanilleeis23 | Kein Ablaufdatum
