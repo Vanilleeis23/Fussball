@@ -1,25 +1,25 @@
-Hendriks | 7,215,302 € | Market | 2026-10-20 21:40:36
-Hložek | 8,935,937 € | Market | 2026-10-20 22:28:30
-Lidberg | 5,169,876 € | Market | 2026-10-21 00:17:32
-Sambi Lokonga | 5,168,859 € | Market | 2026-10-21 00:37:15
-Tigges | 4,394,273 € | Market | 2026-10-21 02:50:28
-Beier | 20,044,971 € | Market | 2026-10-21 04:07:37
-Juranović | 4,744,161 € | Market | 2026-10-21 07:31:35
-Drewes | 500,000 € | Market | 2026-10-21 09:18:00
-Hofmann | 904,794 € | Market | 2026-10-21 11:37:20
-Siebeking | 500,000 € | Market | 2026-10-21 11:41:33
-El Mala | 20,894,266 € | Market | 2026-10-21 12:06:45
-Chaïbi | 4,239,481 € | Market | 2026-10-21 13:07:37
-Batista Meier | 1,282,548 € | Market | 2026-10-21 15:25:36
-Chabot | 19,804,245 € | Market | 2026-10-21 17:26:29
-Albert | 623,685 € | Market | 2026-10-21 18:24:22
-Sabitzer | 7,244,679 € | Market | 2026-10-21 19:13:25
-Martel | 5,293,679 € | Market | 2026-10-22 01:29:40
-Assignon | 3,115,478 € | Market | 2026-10-22 03:21:08
-Hollerbach | 3,577,233 € | Market | 2026-10-22 06:44:25
-Boey | 623,934 € | Market | 2026-10-22 07:46:41
-Dina Ebimbe | 4,897,822 € | Market | 2026-10-22 09:45:54
-Silas | 1,352,835 € | Market | 2026-10-22 09:57:02
+Hendriks | 7,215,302 € | Market | 2026-10-20 21:40:37
+Hložek | 8,935,937 € | Market | 2026-10-20 22:28:31
+Lidberg | 5,169,876 € | Market | 2026-10-21 00:17:33
+Sambi Lokonga | 5,168,859 € | Market | 2026-10-21 00:37:16
+Tigges | 4,394,273 € | Market | 2026-10-21 02:50:29
+Beier | 20,044,971 € | Market | 2026-10-21 04:07:38
+Juranović | 4,744,161 € | Market | 2026-10-21 07:31:36
+Drewes | 500,000 € | Market | 2026-10-21 09:18:01
+Hofmann | 904,794 € | Market | 2026-10-21 11:37:21
+Siebeking | 500,000 € | Market | 2026-10-21 11:41:34
+El Mala | 20,894,266 € | Market | 2026-10-21 12:06:46
+Chaïbi | 4,239,481 € | Market | 2026-10-21 13:07:38
+Batista Meier | 1,282,548 € | Market | 2026-10-21 15:25:37
+Chabot | 19,804,245 € | Market | 2026-10-21 17:26:30
+Albert | 623,685 € | Market | 2026-10-21 18:24:23
+Sabitzer | 7,244,679 € | Market | 2026-10-21 19:13:26
+Martel | 5,293,679 € | Market | 2026-10-22 01:29:41
+Assignon | 3,115,478 € | Market | 2026-10-22 03:21:09
+Hollerbach | 3,577,233 € | Market | 2026-10-22 06:44:26
+Boey | 623,934 € | Market | 2026-10-22 07:46:42
+Dina Ebimbe | 4,897,822 € | Market | 2026-10-22 09:45:55
+Silas | 1,352,835 € | Market | 2026-10-22 09:57:03
 Flekken | 11,673,743 € | Timo Kramer  | Kein Ablaufdatum
 Grifo | 6,482,541 € | Timo Kramer  | Kein Ablaufdatum
 Eggestein | 20,102,783 € | CoachLeisi | Kein Ablaufdatum
