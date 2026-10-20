@@ -1,25 +1,25 @@
-Waldschmidt | 2,981,155 € | Market | 2026-10-19 23:52:16
-Pruhs | 500,000 € | Market | 2026-10-20 03:25:58
-Reitz | 10,311,746 € | Market | 2026-10-20 05:15:45
-Boey | 623,934 € | Market | 2026-10-20 06:13:33
-Pimpong | 500,000 € | Market | 2026-10-20 07:14:52
-Heskey | 1,635,264 € | Market | 2026-10-20 08:51:56
-Muheim | 5,131,588 € | Market | 2026-10-20 09:30:45
-Ruoppi | 2,392,213 € | Market | 2026-10-20 11:05:04
-Wolf | 7,316,318 € | Market | 2026-10-20 11:30:54
-Mane | 2,447,304 € | Market | 2026-10-20 16:07:32
-Reis | 9,525,698 € | Market | 2026-10-20 17:00:52
-Hendriks | 7,215,302 € | Market | 2026-10-20 21:40:37
-Hložek | 8,935,937 € | Market | 2026-10-20 22:28:31
-Lidberg | 5,169,876 € | Market | 2026-10-21 00:17:33
-Sambi Lokonga | 5,168,859 € | Market | 2026-10-21 00:37:16
-Juranović | 4,744,161 € | Market | 2026-10-21 07:31:36
-Hofmann | 904,794 € | Market | 2026-10-21 11:37:21
-Siebeking | 500,000 € | Market | 2026-10-21 11:41:34
-El Mala | 20,894,266 € | Market | 2026-10-21 12:06:46
-Chaïbi | 4,239,481 € | Market | 2026-10-21 13:07:38
-Albert | 623,685 € | Market | 2026-10-21 18:24:23
-Sabitzer | 7,244,679 € | Market | 2026-10-21 19:13:26
+Pruhs | 500,000 € | Market | 2026-10-20 03:25:57
+Reitz | 10,311,746 € | Market | 2026-10-20 05:15:44
+Boey | 623,934 € | Market | 2026-10-20 06:13:32
+Pimpong | 500,000 € | Market | 2026-10-20 07:14:51
+Heskey | 1,635,264 € | Market | 2026-10-20 08:51:55
+Muheim | 5,131,588 € | Market | 2026-10-20 09:30:44
+Ruoppi | 2,392,213 € | Market | 2026-10-20 11:05:03
+Wolf | 7,316,318 € | Market | 2026-10-20 11:30:53
+Tiago Tomás | 3,779,198 € | Market | 2026-10-20 12:18:36
+Mane | 2,447,304 € | Market | 2026-10-20 16:07:31
+Reis | 9,525,698 € | Market | 2026-10-20 17:00:51
+Hendriks | 7,215,302 € | Market | 2026-10-20 21:40:36
+Hložek | 8,935,937 € | Market | 2026-10-20 22:28:30
+Lidberg | 5,169,876 € | Market | 2026-10-21 00:17:32
+Sambi Lokonga | 5,168,859 € | Market | 2026-10-21 00:37:15
+Juranović | 4,744,161 € | Market | 2026-10-21 07:31:35
+Hofmann | 904,794 € | Market | 2026-10-21 11:37:20
+Siebeking | 500,000 € | Market | 2026-10-21 11:41:33
+El Mala | 20,894,266 € | Market | 2026-10-21 12:06:45
+Chaïbi | 4,239,481 € | Market | 2026-10-21 13:07:37
+Albert | 623,685 € | Market | 2026-10-21 18:24:22
+Sabitzer | 7,244,679 € | Market | 2026-10-21 19:13:25
 Flekken | 11,673,743 € | Timo Kramer  | Kein Ablaufdatum
 Grifo | 6,482,541 € | Timo Kramer  | Kein Ablaufdatum
 Eggestein | 20,102,783 € | CoachLeisi | Kein Ablaufdatum
