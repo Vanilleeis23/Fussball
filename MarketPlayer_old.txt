@@ -1,5 +1,3 @@
-Lidberg | 5,443,779 € | Market | 2026-10-21 00:17:32
-Sambi Lokonga | 4,987,784 € | Market | 2026-10-21 00:37:15
 Tigges | 4,599,031 € | Market | 2026-10-21 02:50:28
 Beier | 20,112,013 € | Market | 2026-10-21 04:07:37
 Juranović | 4,634,778 € | Market | 2026-10-21 07:31:35
@@ -8,10 +6,12 @@ Hofmann | 1,227,002 € | Market | 2026-10-21 11:37:20
 Siebeking | 500,000 € | Market | 2026-10-21 11:41:33
 El Mala | 21,051,323 € | Market | 2026-10-21 12:06:45
 Chaïbi | 4,683,693 € | Market | 2026-10-21 13:07:37
+van den Berg | 2,752,981 € | Market | 2026-10-21 13:28:59
 Batista Meier | 1,120,239 € | Market | 2026-10-21 15:25:36
 Chabot | 19,930,431 € | Market | 2026-10-21 17:26:29
 Albert | 949,662 € | Market | 2026-10-21 18:24:22
 Sabitzer | 7,464,100 € | Market | 2026-10-21 19:13:25
+Oermann | 500,000 € | Market | 2026-10-21 22:53:34
 Machino | 3,814,657 € | Market | 2026-10-22 00:33:43
 Martel | 5,566,823 € | Market | 2026-10-22 01:29:40
 Assignon | 3,267,497 € | Market | 2026-10-22 03:21:08
@@ -31,7 +31,6 @@ Keidel | 10,246,236 € | Vanilleeis23 | Kein Ablaufdatum
 Hložek | 9,091,738 € | Vanilleeis23 | Kein Ablaufdatum
 Ullrich | 6,790,835 € | Braunbär7 | Kein Ablaufdatum
 Kömür | 4,838,993 € | Timo Kramer  | Kein Ablaufdatum
-Adamu | 4,122,646 € | Vincent  | Kein Ablaufdatum
 Hansen | 5,765,031 € | Joel | Kein Ablaufdatum
 Boniface | 2,375,706 € | Julian | Kein Ablaufdatum
 Bah | 5,839,888 € | Vanilleeis23 | Kein Ablaufdatum

@@ -1,7 +1,7 @@
 Summen pro Nutzer (absteigend sortiert):
 
-Timo Kramer : 46.590.492 € (Kontostand: 26.352.546 €, Spieler auf dem Markt: 20.237.946 €)
-Philipp : 31.465.713 € (Kontostand: 26.969.702 €, Spieler auf dem Markt: 4.496.011 €)
+Timo Kramer : 25.731.521 € (Kontostand: 5.493.575 €, Spieler auf dem Markt: 20.237.946 €)
+Philipp : 25.566.614 € (Kontostand: 21.070.603 €, Spieler auf dem Markt: 4.496.011 €)
 Vanilleeis23 : 18.125.657 € (Kontostand: -20.269.031 €, Spieler auf dem Markt: 38.394.688 €)
 Vincent : 12.070.074 € (Kontostand: -418.674 €, Spieler auf dem Markt: 12.488.748 €)
 Robinho : 8.988.882 € (Kontostand: -3.623.847 €, Spieler auf dem Markt: 12.612.729 €)
