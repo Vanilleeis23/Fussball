@@ -1,7 +1,3 @@
-Chabot | 19,930,431 € | Market | 2026-10-21 17:26:29
-Albert | 949,662 € | Market | 2026-10-21 18:24:22
-Ebnoutalib | 19,834,054 € | Market | 2026-10-21 19:02:45
-Sabitzer | 7,464,100 € | Market | 2026-10-21 19:13:25
 Oermann | 500,000 € | Market | 2026-10-21 22:53:34
 Machino | 3,814,657 € | Market | 2026-10-22 00:33:43
 Martel | 5,566,823 € | Market | 2026-10-22 01:29:40
@@ -19,12 +15,15 @@ Andrich | 6,658,760 € | Market | 2026-10-22 15:20:07
 Nadir | 3,722,425 € | Market | 2026-10-22 16:06:00
 Omari | 4,821,226 € | Market | 2026-10-22 16:29:13
 Vozar | 1,017,531 € | Market | 2026-10-22 22:17:22
+Ndiaye | 500,000 € | Market | 2026-10-23 01:17:37
+Kohr | 500,000 € | Market | 2026-10-23 08:27:43
+Lehmann | 500,000 € | Market | 2026-10-23 12:24:08
+Futkeu | 4,442,820 € | Market | 2026-10-23 18:02:58
 Grifo | 6,794,305 € | Timo Kramer  | Kein Ablaufdatum
 Eggestein | 20,266,931 € | CoachLeisi | Kein Ablaufdatum
 Hack | 5,357,698 € | CoachLeisi | Kein Ablaufdatum
 Lemperle | 11,131,917 € | Julian | Kein Ablaufdatum
 Demirović | 12,488,748 € | Vincent  | Kein Ablaufdatum
-Tiago Tomás | 3,877,088 € | Robinho | Kein Ablaufdatum
 Hložek | 9,091,738 € | Vanilleeis23 | Kein Ablaufdatum
 Ullrich | 6,790,835 € | Braunbär7 | Kein Ablaufdatum
 Kömür | 4,838,993 € | Timo Kramer  | Kein Ablaufdatum

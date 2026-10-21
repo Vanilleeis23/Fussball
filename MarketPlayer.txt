@@ -1,38 +1,38 @@
-Oermann | 500,000 € | Market | 2026-10-21 22:53:34
-Machino | 3,814,657 € | Market | 2026-10-22 00:33:43
-Martel | 5,566,823 € | Market | 2026-10-22 01:29:40
+Martel | 5,826,670 € | Market | 2026-10-22 01:29:40
 Raab | 500,000 € | Market | 2026-10-22 02:11:44
-Assignon | 3,267,497 € | Market | 2026-10-22 03:21:08
-Kramarić | 5,663,244 € | Market | 2026-10-22 06:23:43
-Hollerbach | 3,485,649 € | Market | 2026-10-22 06:44:25
-Karl | 14,083,857 € | Market | 2026-10-22 07:07:49
-Boey | 912,941 € | Market | 2026-10-22 07:46:41
-Saibari | 28,586,438 € | Market | 2026-10-22 08:03:42
-Dina Ebimbe | 4,797,651 € | Market | 2026-10-22 09:45:54
-Silas | 1,251,085 € | Market | 2026-10-22 09:57:02
-Soylu | 2,260,618 € | Market | 2026-10-22 10:40:22
-Andrich | 6,658,760 € | Market | 2026-10-22 15:20:07
-Nadir | 3,722,425 € | Market | 2026-10-22 16:06:00
-Omari | 4,821,226 € | Market | 2026-10-22 16:29:13
-Vozar | 1,017,531 € | Market | 2026-10-22 22:17:22
+Assignon | 3,554,213 € | Market | 2026-10-22 03:21:08
+Kramarić | 5,421,862 € | Market | 2026-10-22 06:23:43
+Hollerbach | 3,395,674 € | Market | 2026-10-22 06:44:25
+Karl | 13,981,561 € | Market | 2026-10-22 07:07:49
+Boey | 1,184,598 € | Market | 2026-10-22 07:46:41
+Saibari | 28,625,824 € | Market | 2026-10-22 08:03:42
+Dina Ebimbe | 4,716,110 € | Market | 2026-10-22 09:45:54
+Silas | 1,153,206 € | Market | 2026-10-22 09:57:02
+Soylu | 2,138,511 € | Market | 2026-10-22 10:40:22
+Andrich | 6,797,093 € | Market | 2026-10-22 15:20:07
+Nadir | 3,850,591 € | Market | 2026-10-22 16:06:00
+Gantenbein | 5,366,215 € | Market | 2026-10-22 16:25:09
+Omari | 5,288,353 € | Market | 2026-10-22 16:29:13
+Vozar | 883,762 € | Market | 2026-10-22 22:17:22
 Ndiaye | 500,000 € | Market | 2026-10-23 01:17:37
+Yamamoto | 2,694,968 € | Market | 2026-10-23 05:46:19
 Kohr | 500,000 € | Market | 2026-10-23 08:27:43
 Lehmann | 500,000 € | Market | 2026-10-23 12:24:08
-Futkeu | 4,442,820 € | Market | 2026-10-23 18:02:58
-Grifo | 6,794,305 € | Timo Kramer  | Kein Ablaufdatum
-Eggestein | 20,266,931 € | CoachLeisi | Kein Ablaufdatum
-Hack | 5,357,698 € | CoachLeisi | Kein Ablaufdatum
-Lemperle | 11,131,917 € | Julian | Kein Ablaufdatum
-Demirović | 12,488,748 € | Vincent  | Kein Ablaufdatum
-Hložek | 9,091,738 € | Vanilleeis23 | Kein Ablaufdatum
-Ullrich | 6,790,835 € | Braunbär7 | Kein Ablaufdatum
-Kömür | 4,838,993 € | Timo Kramer  | Kein Ablaufdatum
-Hansen | 5,765,031 € | Joel | Kein Ablaufdatum
-Boniface | 2,375,706 € | Julian | Kein Ablaufdatum
-Bah | 5,839,888 € | Vanilleeis23 | Kein Ablaufdatum
+Futkeu | 4,329,112 € | Market | 2026-10-23 18:02:58
+Grifo | 7,059,149 € | Timo Kramer  | Kein Ablaufdatum
+Eggestein | 20,400,136 € | CoachLeisi | Kein Ablaufdatum
+Hack | 5,553,754 € | CoachLeisi | Kein Ablaufdatum
+Lemperle | 11,079,866 € | Julian | Kein Ablaufdatum
+Demirović | 12,587,055 € | Vincent  | Kein Ablaufdatum
+Hložek | 9,273,654 € | Vanilleeis23 | Kein Ablaufdatum
+Ullrich | 7,101,300 € | Braunbär7 | Kein Ablaufdatum
+Kömür | 5,227,903 € | Timo Kramer  | Kein Ablaufdatum
+Hansen | 5,671,839 € | Joel | Kein Ablaufdatum
+Boniface | 2,206,926 € | Julian | Kein Ablaufdatum
+Bah | 6,149,316 € | Vanilleeis23 | Kein Ablaufdatum
 Nandja | 500,000 € | Julian | Kein Ablaufdatum
-Kosugi | 7,513,435 € | Braunbär7 | Kein Ablaufdatum
-Lemke | 3,979,481 € | Timo Kramer  | Kein Ablaufdatum
-Goto | 4,625,167 € | Timo Kramer  | Kein Ablaufdatum
-Uno | 4,496,011 € | Philipp | Kein Ablaufdatum
-Adeline | 5,491,979 € | Vanilleeis23 | Kein Ablaufdatum
+Kosugi | 7,843,655 € | Braunbär7 | Kein Ablaufdatum
+Lemke | 4,393,830 € | Timo Kramer  | Kein Ablaufdatum
+Goto | 4,970,191 € | Timo Kramer  | Kein Ablaufdatum
+Uno | 4,841,715 € | Philipp | Kein Ablaufdatum
+Adeline | 5,767,384 € | Vanilleeis23 | Kein Ablaufdatum
