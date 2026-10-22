@@ -1,36 +1,38 @@
-Chandler | 1,710,112 € | Market | 2026-10-22 18:41:31
-Vozar | 883,762 € | Market | 2026-10-22 22:17:22
-Lee | 9,613,278 € | Market | 2026-10-22 23:07:31
+Vozar | 764,356 € | Market | 2026-10-22 22:17:22
+Lee | 9,776,171 € | Market | 2026-10-22 23:07:31
 Müller | 500,000 € | Market | 2026-10-22 23:58:15
 Ndiaye | 500,000 € | Market | 2026-10-23 01:17:37
 Michel | 500,000 € | Market | 2026-10-23 01:26:15
-Yamamoto | 2,694,968 € | Market | 2026-10-23 05:46:19
-Sebulonsen | 5,293,576 € | Market | 2026-10-23 07:43:40
+Yamamoto | 3,015,088 € | Market | 2026-10-23 05:46:19
+Sebulonsen | 5,551,660 € | Market | 2026-10-23 07:43:40
 Gayret | 500,000 € | Market | 2026-10-23 08:04:27
 Kohr | 500,000 € | Market | 2026-10-23 08:27:43
 Lehmann | 500,000 € | Market | 2026-10-23 12:24:08
-Ribeiro | 5,163,898 € | Market | 2026-10-23 13:39:36
+Ribeiro | 5,379,809 € | Market | 2026-10-23 13:39:36
 Nyland | 500,000 € | Market | 2026-10-23 16:18:58
-Gendrey | 3,211,658 € | Market | 2026-10-23 16:25:57
-Hranác | 2,031,199 € | Market | 2026-10-23 17:33:02
-Futkeu | 4,329,112 € | Market | 2026-10-23 18:02:58
-Røssing-Lelesiit | 1,570,335 € | Market | 2026-10-23 18:23:06
+Gendrey | 3,101,289 € | Market | 2026-10-23 16:25:57
+Hranác | 2,394,076 € | Market | 2026-10-23 17:33:02
+Futkeu | 4,219,591 € | Market | 2026-10-23 18:02:58
+Røssing-Lelesiit | 1,562,472 € | Market | 2026-10-23 18:23:06
+Zagadou | 2,493,218 € | Market | 2026-10-23 23:09:15
 Ogbus | 500,000 € | Market | 2026-10-24 03:54:43
 Labrović | 500,000 € | Market | 2026-10-24 09:52:13
-Nmecha | 28,232,253 € | Market | 2026-10-24 10:29:41
-Karaman | 8,925,727 € | Braunbär7 | Kein Ablaufdatum
-Eggestein | 20,400,136 € | CoachLeisi | Kein Ablaufdatum
-Hack | 5,553,754 € | CoachLeisi | Kein Ablaufdatum
-Lemperle | 11,079,866 € | Julian | Kein Ablaufdatum
-Demirović | 12,587,055 € | Vincent  | Kein Ablaufdatum
-Keidel | 10,377,192 € | Vanilleeis23 | Kein Ablaufdatum
-Hložek | 9,273,654 € | Vanilleeis23 | Kein Ablaufdatum
-Ullrich | 7,101,300 € | Braunbär7 | Kein Ablaufdatum
-Kömür | 5,227,903 € | Timo Kramer  | Kein Ablaufdatum
-Hansen | 5,671,839 € | Joel | Kein Ablaufdatum
-Boniface | 2,206,926 € | Julian | Kein Ablaufdatum
+Nmecha | 28,287,066 € | Market | 2026-10-24 10:29:41
+Marino | 5,165,745 € | Market | 2026-10-24 11:17:26
+Arrhov | 2,595,625 € | Market | 2026-10-24 15:31:41
+Eggestein | 20,505,495 € | CoachLeisi | Kein Ablaufdatum
+Hack | 5,675,917 € | CoachLeisi | Kein Ablaufdatum
+Lemperle | 10,732,009 € | Julian | Kein Ablaufdatum
+Demirović | 12,685,653 € | Vincent  | Kein Ablaufdatum
+Keidel | 10,443,962 € | Vanilleeis23 | Kein Ablaufdatum
+Hložek | 9,455,340 € | Vanilleeis23 | Kein Ablaufdatum
+Ullrich | 7,337,829 € | Braunbär7 | Kein Ablaufdatum
+Kömür | 5,481,228 € | Timo Kramer  | Kein Ablaufdatum
+Hansen | 5,636,143 € | Joel | Kein Ablaufdatum
+Boniface | 2,073,129 € | Julian | Kein Ablaufdatum
+Omari | 5,691,487 € | Braunbär7 | Kein Ablaufdatum
 Nandja | 500,000 € | Julian | Kein Ablaufdatum
-Kosugi | 7,843,655 € | Braunbär7 | Kein Ablaufdatum
-Lemke | 4,393,830 € | Timo Kramer  | Kein Ablaufdatum
-Goto | 4,970,191 € | Timo Kramer  | Kein Ablaufdatum
-Uno | 4,841,715 € | Philipp | Kein Ablaufdatum
+Kosugi | 8,122,136 € | Braunbär7 | Kein Ablaufdatum
+Lemke | 4,729,002 € | Timo Kramer  | Kein Ablaufdatum
+Goto | 5,229,208 € | Timo Kramer  | Kein Ablaufdatum
+Uno | 5,103,292 € | Philipp | Kein Ablaufdatum
