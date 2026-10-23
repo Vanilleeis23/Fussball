@@ -1,5 +1,3 @@
-Lehmann | 500,000 € | Market | 2026-10-23 12:24:08
-Ribeiro | 5,379,809 € | Market | 2026-10-23 13:39:36
 Nwaneri | 13,688,853 € | Market | 2026-10-23 14:25:33
 Nyland | 500,000 € | Market | 2026-10-23 16:18:58
 Gendrey | 3,101,289 € | Market | 2026-10-23 16:25:57
@@ -19,19 +17,22 @@ Reggiani | 2,555,637 € | Market | 2026-10-24 11:48:03
 Ryerson | 14,659,081 € | Market | 2026-10-24 13:59:52
 Arrhov | 2,595,625 € | Market | 2026-10-24 15:31:41
 Heuer Fernandes | 11,125,371 € | Market | 2026-10-24 20:56:47
+Osterhage | 747,934 € | Market | 2026-10-24 21:36:04
 Batz | 500,000 € | Market | 2026-10-24 23:34:46
 Stark | 500,000 € | Julian | Kein Ablaufdatum
-Bülter | 8,194,812 € | Vanilleeis23 | Kein Ablaufdatum
+Gregoritsch | 14,685,358 € | Joel | Kein Ablaufdatum
+Kühn | 4,242,082 € | Joel | Kein Ablaufdatum
+Sander | 9,231,990 € | Robinho | Kein Ablaufdatum
 Demirović | 12,685,653 € | Vincent  | Kein Ablaufdatum
 Keidel | 10,443,962 € | Vanilleeis23 | Kein Ablaufdatum
 Hložek | 9,455,340 € | Vanilleeis23 | Kein Ablaufdatum
 Ullrich | 7,337,829 € | Braunbär7 | Kein Ablaufdatum
 Kömür | 5,481,228 € | Timo Kramer  | Kein Ablaufdatum
 Fellhauer | 12,562,974 € | Vincent  | Kein Ablaufdatum
-Hansen | 5,636,143 € | Joel | Kein Ablaufdatum
+Hendriks | 8,177,520 € | Joel | Kein Ablaufdatum
+Fábio Silva | 10,568,936 € | CoachLeisi | Kein Ablaufdatum
 Bah | 6,363,643 € | Vanilleeis23 | Kein Ablaufdatum
-Sebulonsen | 5,551,660 € | Braunbär7 | Kein Ablaufdatum
-Omari | 5,691,487 € | Braunbär7 | Kein Ablaufdatum
+Diks | 8,892,711 € | Sascha187 | Kein Ablaufdatum
 Castro-Montes | 4,171,700 € | Sascha187 | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
 Kosugi | 8,122,136 € | Braunbär7 | Kein Ablaufdatum
