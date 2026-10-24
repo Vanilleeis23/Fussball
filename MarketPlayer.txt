@@ -1,25 +1,22 @@
-Bellingham | 17,305,780 € | Market | 2026-10-24 08:45:43
-Labrović | 500,000 € | Market | 2026-10-24 09:52:13
-Nmecha | 28,348,627 € | Market | 2026-10-24 10:29:41
-Stalmach | 1,332,562 € | Market | 2026-10-24 10:44:51
-Marino | 5,299,420 € | Market | 2026-10-24 11:17:26
-Reggiani | 2,440,167 € | Market | 2026-10-24 11:48:03
-Jeong | 5,974,887 € | Market | 2026-10-24 12:42:08
-Ryerson | 14,856,607 € | Market | 2026-10-24 13:59:52
-Arrhov | 2,487,311 € | Market | 2026-10-24 15:31:41
-Bell | 2,285,443 € | Market | 2026-10-24 17:56:06
-Heuer Fernandes | 11,148,818 € | Market | 2026-10-24 20:56:47
-Osterhage | 958,507 € | Market | 2026-10-24 21:36:04
-Batz | 500,000 € | Market | 2026-10-24 23:34:46
-Ljubičić | 884,674 € | Market | 2026-10-25 01:10:04
-Itten | 1,229,312 € | Market | 2026-10-25 02:09:12
-Kolke | 500,000 € | Market | 2026-10-25 02:18:06
-Le Joncour | 500,000 € | Market | 2026-10-25 02:50:02
-Agu | 1,908,258 € | Market | 2026-10-25 02:59:55
-Culbreath | 2,914,434 € | Market | 2026-10-25 04:07:14
-Ndiaye | 2,688,401 € | Market | 2026-10-25 09:43:57
-Rosenfelder | 587,491 € | Market | 2026-10-25 10:08:43
-Poulsen | 6,575,960 € | Market | 2026-10-25 14:17:12
+Ryerson | 14,856,607 € | Market | 2026-10-24 13:59:51
+Arrhov | 2,487,311 € | Market | 2026-10-24 15:31:40
+Bell | 2,285,443 € | Market | 2026-10-24 17:56:05
+Heuer Fernandes | 11,148,818 € | Market | 2026-10-24 20:56:46
+Osterhage | 958,507 € | Market | 2026-10-24 21:36:03
+Batz | 500,000 € | Market | 2026-10-24 23:34:45
+Stiller | 28,221,769 € | Market | 2026-10-25 01:04:02
+Ljubičić | 884,674 € | Market | 2026-10-25 01:10:03
+Itten | 1,229,312 € | Market | 2026-10-25 02:09:11
+Kolke | 500,000 € | Market | 2026-10-25 02:18:05
+Le Joncour | 500,000 € | Market | 2026-10-25 02:50:01
+Agu | 1,908,258 € | Market | 2026-10-25 02:59:54
+Culbreath | 2,914,434 € | Market | 2026-10-25 04:07:13
+Ndiaye | 2,688,401 € | Market | 2026-10-25 09:43:56
+Rosenfelder | 587,491 € | Market | 2026-10-25 10:08:42
+Poulsen | 6,575,960 € | Market | 2026-10-25 14:17:11
+Castrop | 3,216,612 € | Market | 2026-10-25 22:25:31
+Karazor | 8,029,931 € | Market | 2026-10-25 23:18:26
+Guiu | 500,000 € | Market | 2026-10-26 11:14:46
 Jeltsch | 15,535,921 € | Braunbär7 | Kein Ablaufdatum
 Fábio Silva | 10,306,317 € | CoachLeisi | Kein Ablaufdatum
 Assignon | 4,312,845 € | Vanilleeis23 | Kein Ablaufdatum
