@@ -1,3 +1,6 @@
+[{"byr": "CoachLeisi"}, {"pn": "Moreira"}, {"trp": 18500000}, {"dt": "2026-10-27T00:36:26Z"}]
+[{"slr": "Braunbär7"}, {"pn": "Moreira"}, {"trp": 18500000}, {"dt": "2026-10-27T00:36:26Z"}]
+[{"slr": "Timo Kramer "}, {"pn": "Brackelmann"}, {"trp": 13516840}, {"dt": "2026-10-26T22:23:15Z"}]
 [{"byr": "Vanilleeis23"}, {"pn": "Dōan"}, {"trp": 17352482}, {"dt": "2026-10-26T21:03:09Z"}]
 [{"byr": "MirkoHengst"}, {"pn": "Schick"}, {"trp": 33333123}, {"dt": "2026-10-26T20:30:38Z"}]
 [{"slr": "Joel"}, {"pn": "Diaby"}, {"trp": 24815202}, {"dt": "2026-10-26T20:26:45Z"}]
