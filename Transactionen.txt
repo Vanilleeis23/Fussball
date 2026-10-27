@@ -1,3 +1,6 @@
+[{"byr": "CoachLeisi"}, {"pn": "Chukwuemeka"}, {"trp": 4000000}, {"dt": "2026-10-27T10:33:11Z"}]
+[{"slr": "Robinho"}, {"pn": "Chukwuemeka"}, {"trp": 4000000}, {"dt": "2026-10-27T10:33:11Z"}]
+[{"slr": "CoachLeisi"}, {"pn": "Fábio Silva"}, {"trp": 9752532}, {"dt": "2026-10-27T10:07:04Z"}]
 [{"byr": "Timo Kramer "}, {"pn": "Minjae"}, {"trp": 11062291}, {"dt": "2026-10-27T05:04:39Z"}]
 [{"byr": "MirkoHengst"}, {"pn": "Banzuzi"}, {"trp": 11439309}, {"dt": "2026-10-27T04:53:32Z"}]
 [{"byr": "CoachLeisi"}, {"pn": "Moreira"}, {"trp": 18500000}, {"dt": "2026-10-27T00:36:26Z"}]
