@@ -248,32 +248,60 @@ def run_ueber_markt_gelaufen(kb):
             for player in expired_unbought:
                 f.write(f"{timestamp} | {player}\n")
 
-def run_generate_bald_auf_markt(kb):
+def run_generate_bald_auf_markt(kb, recent_days_threshold=12):
     """
-    Ermittelt Spieler, die durch Verkäufe an den Markt (aus Transactionen.txt)
-    oder bisherige Markt-Angebote (MarketPlayer.txt & ÜberMarktGelaufen.txt)
-    nach ca. 14 Tagen wieder auf den Markt kommen.
+    Findet jeweils den aktuellsten Referenz-Spieler für:
+      1. Verkäufe an den Markt (aus Transactionen.txt bzw. Fallback ÜberMarktGelaufen.txt)
+      2. Über den Markt gelaufene Spieler (aus Feed Typ 3)
     
-    Filtert auf ein Fenster von +/- 2 Tagen bezogen auf reference_date (Standard: heute).
-    Speichert das Ergebnis sortiert in BaldAufMarkt.txt.
+    Gibt für beide Kategorien die Nachfolger und Vorgänger aus und prüft,
+    ob die Kandidaten in den letzten `recent_days_threshold` Tagen bereits
+    auf dem Markt aufgetaucht sind oder gekauft wurden.
     """
     print("Starte: generate_bald_auf_markt...")
 
-    reference_date = datetime.now()
+    ref_date = datetime.now()
+    min_window = ref_date - timedelta(days=20)
+    max_window = ref_date - timedelta(days=12)
+    recent_cutoff = ref_date - timedelta(days=recent_days_threshold)
 
-    # Zeitraum: Heute - 2 Tage bis Heute + 2 Tage
-    min_date = reference_date - timedelta(days=2)
-    max_date = reference_date.replace(hour=23, minute=59, second=59) + timedelta(days=2)
+    # 1. Feed-Aktivitäten auslesen
+    feed_type_3_players = [] # (Name, Datum)
+    try:
+        url = "https://api.kickbase.com/v4/leagues/2556726/activitiesFeed"
+        params = {"start": 0, "max": 30}
+        response = kb.get_request(url, params=params)
 
-    all_market_events = []
+        if hasattr(response, "status_code"):
+            data = response.json() if response.status_code == 200 else {}
+        else:
+            data = response if isinstance(response, dict) else {}
 
-    # 1. Transaktionen auswerten (Nur echte Verkäufe an den Markt)
+        activities = data if isinstance(data, list) else data.get("af", [])
+
+        for act in activities:
+            if act.get("t") == 3:
+                act_data = act.get("data", {})
+                last_name = act_data.get("ln")
+                dt_str = act.get("dt")
+                if last_name and dt_str:
+                    date_clean = dt_str.replace("Z", "")
+                    try:
+                        dt_obj = datetime.strptime(date_clean[:19], "%Y-%m-%dT%H:%M:%S")
+                        feed_type_3_players.append((last_name.strip(), dt_obj))
+                    except ValueError:
+                        continue
+    except Exception as e:
+        print(f" [Hinweis] Fehler beim Auslesen des Feeds: {e}")
+
+    # 2. Transaktionen (Verkäufe & Käufe) einlesen
+    tx_events = [] # List of (dt, player_name)
+    buyers_set = set()
+    raw_transactions = []
+    recently_bought_players = set()
+
     tx_filepath = "Transactionen.txt"
     if os.path.exists(tx_filepath):
-        # Erst alle Transaktionen sammeln, um Käufer/Verkäufer-Paare zu erkennen
-        raw_transactions = []
-        buyers_set = set() # Speichert (spieler, dt_str), um Käufe zwischen Spielern zu identifizieren
-
         with open(tx_filepath, "r", encoding="utf-8") as f:
             for line in f:
                 line_str = line.strip()
@@ -284,31 +312,43 @@ def run_generate_bald_auf_markt(kb):
                     entry = {}
                     for item in data_list:
                         entry.update(item)
-                    
+
                     if "pn" in entry and "dt" in entry:
                         raw_transactions.append(entry)
-                        if "byr" in entry:
-                            # Merken, dass es für diesen Spieler zu dieser Zeit einen Käufer gab
-                            buyers_set.add((entry["pn"].strip(), entry["dt"]))
+                        player_name = entry["pn"].strip()
+                        dt_str_clean = entry["dt"].replace("Z", "")
+                        try:
+                            dt_obj = datetime.strptime(dt_str_clean[:19], "%Y-%m-%dT%H:%M:%S")
+                            if "byr" in entry:
+                                buyers_set.add((player_name, entry["dt"]))
+                                # Merken, wenn der Spieler kürzlich gekauft wurde
+                                if dt_obj >= recent_cutoff:
+                                    recently_bought_players.add(player_name.lower())
+                        except ValueError:
+                            pass
                 except Exception:
                     continue
 
-        # Jetzt nur Verkäufe filtern, bei denen KEIN Käufer zum selben Zeitpunkt existiert
         for entry in raw_transactions:
             if "slr" in entry:
                 player_name = entry["pn"].strip()
                 dt_str = entry["dt"]
 
-                # Wenn zu diesem Zeitpunkt KEIN Käufer eingetragen ist -> Verkauf an den Markt!
+                # Nur echte Verkäufe an den Markt
                 if (player_name, dt_str) not in buyers_set:
                     dt_str_clean = dt_str.replace("Z", "")
                     try:
-                        dt_obj = datetime.strptime(dt_str_clean, "%Y-%m-%dT%H:%M:%S")
-                        all_market_events.append((player_name, dt_obj))
+                        dt_obj = datetime.strptime(dt_str_clean[:19], "%Y-%m-%dT%H:%M:%S")
+                        tx_events.append((dt_obj, player_name))
                     except ValueError:
                         continue
 
-    # 2. ÜberMarktGelaufen.txt auswerten (Historie)
+    tx_events.sort(key=lambda x: x[0])
+
+    # 3. ÜberMarktGelaufen.txt & Aktuellen Markt (MarketPlayer.txt) einlesen
+    market_history_events = [] # List of (dt, player_name)
+    recently_on_market_players = set()
+
     history_filepath = "ÜberMarktGelaufen.txt"
     if os.path.exists(history_filepath):
         with open(history_filepath, "r", encoding="utf-8") as f:
@@ -318,47 +358,115 @@ def run_generate_bald_auf_markt(kb):
                     date_str, player_name = parts[0], parts[1]
                     try:
                         dt_obj = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
-                        all_market_events.append((player_name, dt_obj))
+                        market_history_events.append((dt_obj, player_name))
+                        # Prüfen, ob der Spieler kürzlich über den Markt gelaufen ist
+                        if dt_obj >= recent_cutoff:
+                            recently_on_market_players.add(player_name.lower())
                     except ValueError:
                         continue
 
-    # 3. Aktuellen Markt auswerten (MarketPlayer.txt - Spieler mit Seller == 'Market')
+    market_history_events.sort(key=lambda x: x[0])
+
+    # Aktuell auf dem Markt befindliche Spieler auslesen
     market_filepath = "MarketPlayer.txt"
     if os.path.exists(market_filepath):
         with open(market_filepath, "r", encoding="utf-8") as f:
             for line in f:
                 parts = [p.strip() for p in line.strip().split("|")]
-                if len(parts) >= 4 and parts[2].lower() == "market":
-                    player_name = parts[0]
-                    date_str = parts[3]
-                    try:
-                        dt_obj = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
-                        all_market_events.append((player_name, dt_obj))
-                    except ValueError:
-                        continue
+                if len(parts) >= 1:
+                    recently_on_market_players.add(parts[0].lower())
 
-    # 4. Projizierten Wiederkehr-Zeitpunkt berechnen (+14 Tage) & filtern (+/- 2 Tage)
-    results = []
-    seen_entries = set()
+    # ---------------------------------------------------------
+    # SUCHE 1: Verkaufs-Referenzspieler bestimmen (12-20 Tage Fenster)
+    # ---------------------------------------------------------
+    ref_sold_player = None
+    ref_sold_source = None
 
-    for player, event_dt in all_market_events:
-        return_dt = event_dt + timedelta(days=14)
-        
-        if min_date <= return_dt <= max_date:
-            formatted_dt = return_dt.strftime("%Y-%m-%d %H:%M:%S")
-            entry_str = f"{formatted_dt} | {player}"
+    for name, dt in feed_type_3_players:
+        for tx_dt, tx_name in reversed(tx_events):
+            if name.lower() == tx_name.lower() and min_window <= tx_dt <= max_window:
+                ref_sold_player = (tx_name, tx_dt)
+                ref_sold_source = "Transactionen.txt"
+                break
+        if ref_sold_player:
+            break
+
+    if not ref_sold_player:
+        for dt, name in reversed(market_history_events):
+            if min_window <= dt <= max_window:
+                ref_sold_player = (name, dt)
+                ref_sold_source = "ÜberMarktGelaufen.txt (Fallback)"
+                break
+
+    # ---------------------------------------------------------
+    # SUCHE 2: Markt-Referenzspieler bestimmen (Über Markt gelaufen)
+    # ---------------------------------------------------------
+    ref_market_player = feed_type_3_players[0] if feed_type_3_players else None
+
+    # ---------------------------------------------------------
+    # AUSGABE GENERIEREN (Nachbarn ermitteln & filtern)
+    # ---------------------------------------------------------
+    output_lines = []
+
+    def append_neighbors(player_tuple, event_list, category_title, source_name):
+        if not player_tuple or not event_list:
+            output_lines.append(f"=== {category_title}: Keinen passenden Spieler gefunden. ===\n")
+            return
+
+        p_name, p_dt = player_tuple
+        matching_indices = [
+            i for i, ev in enumerate(event_list)
+            if p_name.lower() == ev[1].lower()
+        ]
+
+        if not matching_indices:
+            output_lines.append(f"=== {category_title}: '{p_name}' nicht in {source_name} gefunden. ===\n")
+            return
+
+        idx = matching_indices[-1]
+        total = len(event_list)
+
+        output_lines.append("==================================================")
+        output_lines.append(f" {category_title}")
+        output_lines.append(f" REFERENZ: {p_name} ({p_dt.strftime('%Y-%m-%d %H:%M:%S')}) [{source_name}]")
+        output_lines.append("==================================================")
+
+        # 10 Davor
+        start_before = max(0, idx - 10)
+        output_lines.append("\n--- 10 Spieler davor (historisch) ---")
+        for i in range(start_before, idx):
+            dt, name = event_list[i]
+            output_lines.append(f"  {dt.strftime('%Y-%m-%d %H:%M:%S')} | {name}")
+
+        # 10 Danach mit Ausfilterungs-Hinweisen
+        end_after = min(total, idx + 11)
+        output_lines.append(f"\n--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte {recent_days_threshold} Tage) ---")
+        for i in range(idx + 1, end_after):
+            dt, name = event_list[i]
+            name_lower = name.lower()
             
-            if entry_str not in seen_entries:
-                seen_entries.add(entry_str)
-                results.append((return_dt, entry_str))
+            flags = []
+            if name_lower in recently_on_market_players:
+                flags.append("BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN")
+            if name_lower in recently_bought_players:
+                flags.append("KÜRZLICH GEKAUFT")
 
-    # Chronologisch sortieren
-    results.sort(key=lambda x: x[0])
+            flag_str = f" <-- SKIP ({', '.join(flags)})" if flags else ""
+            output_lines.append(f"  {dt.strftime('%Y-%m-%d %H:%M:%S')} | {name}{flag_str}")
+        output_lines.append("\n")
 
-    # 5. In BaldAufMarkt.txt schreiben
+    # 1. Nachbarn für Verkaufs-Referenz ausgeben
+    if ref_sold_player:
+        source_list = tx_events if "Transactionen" in ref_sold_source else market_history_events
+        append_neighbors(ref_sold_player, source_list, "VERKAUF AN DEN MARKT (VERLAUF)", ref_sold_source)
+
+    # 2. Nachbarn für Markt-Durchlauf-Referenz ausgeben
+    if ref_market_player:
+        append_neighbors(ref_market_player, market_history_events, "ÜBER DEN MARKT GELAUFEN (VERLAUF)", "ÜberMarktGelaufen.txt")
+
+    # Ergebnis in Datei schreiben
     output_filepath = "BaldAufMarkt.txt"
     with open(output_filepath, "w", encoding="utf-8") as f:
-        for _, entry_str in results:
-            f.write(entry_str + "\n")
+        f.write("\n".join(output_lines))
 
-    print(f" [BaldAufMarkt] {len(results)} Spieler im Fenster (+/- 2 Tage) gefunden und gespeichert.")
+    print(f" [BaldAufMarkt] Analyse abgeschlossen und in '{output_filepath}' gespeichert.")

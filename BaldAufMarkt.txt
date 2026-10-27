@@ -1,34 +1,59 @@
-2026-10-25 17:39:16 | Urbig
-2026-10-25 17:46:40 | Neuhaus
-2026-10-25 18:22:47 | Itakura
-2026-10-25 21:13:44 | Suzuki
-2026-10-25 21:53:18 | Kleindienst
-2026-10-25 21:53:18 | Skhiri
-2026-10-25 21:53:24 | Scheller
-2026-10-25 22:57:28 | Rondic
-2026-10-26 02:31:23 | Sakar
-2026-10-26 09:13:22 | Schubert
-2026-10-26 13:16:41 | Schmetgens
-2026-10-26 19:52:59 | Konstantelias
-2026-10-26 23:00:39 | Leszczynski
-2026-10-27 02:38:13 | Džeko
-2026-10-27 07:58:05 | Coufal
-2026-10-27 09:41:38 | Stanišić
-2026-10-27 17:56:33 | Collins
-2026-10-27 22:41:50 | Adam
-2026-10-28 10:26:20 | Götze
-2026-10-28 11:48:12 | Götze
-2026-10-28 16:08:13 | Hajdari
-2026-10-28 21:25:15 | Engelhardt
-2026-10-28 21:50:50 | Pieper
-2026-10-28 22:40:55 | Badé
-2026-10-29 01:54:27 | Gray
-2026-10-29 08:08:18 | Seiwald
-2026-10-29 11:25:32 | Sylla
-2026-10-29 11:53:10 | Laimer
-2026-10-29 14:07:19 | Gnabry
-2026-10-29 14:07:23 | Torunarigha
-2026-10-29 22:18:41 | Maloney
-2026-10-29 22:20:07 | Sticker
-2026-10-29 22:30:37 | Aebischer
-2026-10-29 22:58:03 | Krattenmacher
+==================================================
+ VERKAUF AN DEN MARKT (VERLAUF)
+ REFERENZ: Capaldo (2026-10-09 17:54:57) [Transactionen.txt]
+==================================================
+
+--- 10 Spieler davor (historisch) ---
+  2026-10-08 22:09:45 | Zimmerschied
+  2026-10-08 22:25:52 | Trimmel
+  2026-10-08 22:36:13 | Boss
+  2026-10-09 10:05:32 | Keitel
+  2026-10-09 10:05:39 | Minjae
+  2026-10-09 16:42:09 | Onyeka
+  2026-10-09 17:01:49 | Becker
+  2026-10-09 17:01:54 | Wójcik
+  2026-10-09 17:01:59 | Günther
+  2026-10-09 17:53:02 | Quetant
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-09 18:01:37 | Ulrich
+  2026-10-09 18:23:14 | Awortwie-Grant
+  2026-10-09 18:24:25 | Vidović <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-09 18:24:29 | Kade
+  2026-10-09 18:24:34 | El Ouahdi
+  2026-10-09 18:46:19 | Jaquez
+  2026-10-09 18:46:22 | Da Costa
+  2026-10-09 18:46:26 | Chuki
+  2026-10-09 19:07:51 | Seol
+  2026-10-09 19:26:05 | Castañeda
+
+
+==================================================
+ ÜBER DEN MARKT GELAUFEN (VERLAUF)
+ REFERENZ: Köhn (2026-10-27 18:06:02) [ÜberMarktGelaufen.txt]
+==================================================
+
+--- 10 Spieler davor (historisch) ---
+  2026-08-24 07:52:27 | Mensah
+  2026-08-24 12:03:06 | Petersson
+  2026-08-24 13:43:01 | Amoako
+  2026-08-24 15:11:47 | Castrop
+  2026-08-24 16:04:00 | Hübers
+  2026-08-25 01:34:07 | Arévalo
+  2026-08-25 01:34:07 | Nartey
+  2026-08-25 03:51:36 | Osterhage
+  2026-08-25 05:12:10 | Arrhov
+  2026-08-25 05:12:10 | Führich
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-08-25 07:46:41 | Futkeu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-25 07:46:41 | Koné
+  2026-08-25 19:44:44 | Philippe <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-25 20:56:04 | Batz <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-26 03:57:31 | Kolke <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-26 03:57:31 | Schlager <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-26 03:57:31 | Waldschmidt <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-26 09:58:07 | Jovanovic
+  2026-08-26 09:58:07 | Stergiou
+  2026-08-26 15:16:22 | Condé
+
