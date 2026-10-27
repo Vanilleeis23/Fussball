@@ -1,6 +1,6 @@
 Summen pro Nutzer (absteigend sortiert):
 
-Timo Kramer : 59.875.248 € (Kontostand: 59.875.248 €, Spieler auf dem Markt: 0 €)
+Timo Kramer : 48.812.957 € (Kontostand: 48.812.957 €, Spieler auf dem Markt: 0 €)
 Sascha187 : 37.482.528 € (Kontostand: -6.742.969 €, Spieler auf dem Markt: 44.225.497 €)
 Joel : 25.887.506 € (Kontostand: 25.887.506 €, Spieler auf dem Markt: 0 €)
 Vincent : 12.782.395 € (Kontostand: 12.282.395 €, Spieler auf dem Markt: 500.000 €)
@@ -10,4 +10,4 @@ Braunbär7 : 5.932.675 € (Kontostand: -7.966.795 €, Spieler auf dem Markt: 1
 Robinho : 3.009.219 € (Kontostand: -11.973.769 €, Spieler auf dem Markt: 14.982.988 €)
 CoachLeisi : -2.506.509 € (Kontostand: -32.088.694 €, Spieler auf dem Markt: 29.582.185 €)
 Philipp : -9.474.463 € (Kontostand: -9.474.463 €, Spieler auf dem Markt: 0 €)
-MirkoHengst : -30.245.243 € (Kontostand: -30.245.243 €, Spieler auf dem Markt: 0 €)
+MirkoHengst : -41.684.552 € (Kontostand: -41.684.552 €, Spieler auf dem Markt: 0 €)

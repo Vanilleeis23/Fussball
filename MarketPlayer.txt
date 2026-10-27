@@ -1,7 +1,3 @@
-Banzuzi | 11,369,309 € | Market | 2026-10-27 03:53:20
-Minjae | 10,592,777 € | Market | 2026-10-27 04:04:09
-Philipp | 500,000 € | Market | 2026-10-27 04:32:36
-Kübler | 3,608,063 € | Market | 2026-10-27 04:53:55
 Can | 500,000 € | Market | 2026-10-27 05:28:53
 Friedrich | 500,000 € | Market | 2026-10-27 11:03:09
 Condé | 500,000 € | Market | 2026-10-27 14:18:33
@@ -14,11 +10,13 @@ Sauer | 3,291,080 € | Market | 2026-10-27 22:27:52
 Honorat | 3,921,677 € | Market | 2026-10-27 22:57:18
 Onyeka | 4,147,771 € | Market | 2026-10-28 02:24:53
 Prates | 500,000 € | Market | 2026-10-28 03:55:25
+Baack | 532,434 € | Market | 2026-10-28 05:44:25
 Ache | 4,192,506 € | Market | 2026-10-28 08:21:19
 Pfeiffer | 500,000 € | Market | 2026-10-28 08:57:55
 Porath | 500,000 € | Market | 2026-10-28 09:37:17
 Musah | 500,000 € | Market | 2026-10-28 11:44:23
 Dallinga | 1,817,292 € | Market | 2026-10-28 12:45:53
+Philippe | 1,548,601 € | Market | 2026-10-29 01:17:47
 Poulsen | 7,723,389 € | Vanilleeis23 | Kein Ablaufdatum
 Mwene | 11,611,112 € | CoachLeisi | Kein Ablaufdatum
 Osterhage | 1,934,063 € | Braunbär7 | Kein Ablaufdatum
