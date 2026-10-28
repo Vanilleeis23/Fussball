@@ -1,5 +1,3 @@
-Sauer | 3,385,334 € | Market | 2026-10-27 22:27:52
-Honorat | 4,061,517 € | Market | 2026-10-27 22:57:18
 Onyeka | 4,372,984 € | Market | 2026-10-28 02:24:53
 Prates | 500,000 € | Market | 2026-10-28 03:55:25
 Baack | 653,820 € | Market | 2026-10-28 05:44:25
@@ -11,6 +9,7 @@ Suso | 500,000 € | Market | 2026-10-28 11:40:24
 Musah | 500,000 € | Market | 2026-10-28 11:44:23
 Dallinga | 1,690,897 € | Market | 2026-10-28 12:45:53
 Becker | 19,508,822 € | Market | 2026-10-28 12:49:40
+El Ouahdi | 4,845,972 € | Market | 2026-10-28 16:47:43
 Vidović | 6,792,046 € | Market | 2026-10-28 16:52:05
 Kade | 14,081,473 € | Market | 2026-10-28 19:29:24
 Günther | 6,319,774 € | Market | 2026-10-28 22:30:07
@@ -19,7 +18,8 @@ Köhn | 500,000 € | Market | 2026-10-29 00:53:02
 Philippe | 1,930,906 € | Market | 2026-10-29 01:17:47
 Ogundu | 500,000 € | Market | 2026-10-29 07:05:16
 Quetant | 2,408,986 € | Market | 2026-10-29 07:08:47
-Poulsen | 8,000,553 € | Vanilleeis23 | Kein Ablaufdatum
+Scally | 6,905,994 € | Market | 2026-10-29 10:53:27
+Jaquez | 3,975,501 € | Market | 2026-10-29 13:14:27
 Mwene | 11,657,026 € | CoachLeisi | Kein Ablaufdatum
 Osterhage | 2,289,321 € | Braunbär7 | Kein Ablaufdatum
 Castrop | 4,230,536 € | Braunbär7 | Kein Ablaufdatum
