@@ -1,12 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Bensebaini (2026-10-09 19:51:20) [Transactionen.txt]
+ REFERENZ: Møller Wolfe (2026-10-10 18:48:09) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-09 18:24:29 | Kade
-  2026-10-09 18:24:34 | El Ouahdi
-  2026-10-09 18:46:19 | Jaquez
   2026-10-09 18:46:22 | Da Costa
   2026-10-09 18:46:26 | Chuki
   2026-10-09 19:07:51 | Seol
@@ -14,18 +11,49 @@
   2026-10-09 19:26:08 | Konoplia
   2026-10-09 19:50:58 | Pinckert
   2026-10-09 19:51:02 | Zentner
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-09 19:51:20 | Bensebaini
   2026-10-10 14:48:57 | Jatta
   2026-10-10 17:30:23 | Mokwa
-  2026-10-10 18:48:09 | Møller Wolfe
-  2026-10-10 18:48:13 | Wimmer
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-10 18:48:13 | Wimmer <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-10-10 19:49:31 | De Cat
   2026-10-10 22:53:03 | ter Horst
   2026-10-11 06:10:28 | Hübers
   2026-10-11 10:07:16 | Knauff
   2026-10-11 17:46:40 | Neuhaus
   2026-10-11 18:22:47 | Itakura
+  2026-10-11 21:13:44 | Suzuki
+  2026-10-11 21:53:18 | Kleindienst
+  2026-10-11 21:53:18 | Skhiri
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Bensebaini' nicht in ÜberMarktGelaufen.txt gefunden. ===
+==================================================
+ ÜBER DEN MARKT GELAUFEN (VERLAUF)
+ REFERENZ: Møller Wolfe (2026-10-29 06:05:50) [ÜberMarktGelaufen.txt]
+==================================================
+
+--- 10 Spieler davor (historisch) ---
+  2026-09-04 08:29:13 | Laimer
+  2026-09-04 08:29:13 | Nebel
+  2026-09-04 08:29:13 | Stanišić
+  2026-09-04 08:29:13 | Undav
+  2026-09-04 08:29:13 | Wisbereit
+  2026-09-04 09:39:56 | El Aynaoui
+  2026-09-04 09:39:56 | Konstantelias
+  2026-09-04 16:20:55 | Schmahl
+  2026-09-04 16:20:55 | Upamecano
+  2026-09-04 17:27:32 | Assignon
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-09-04 20:56:18 | Capaldo <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-09-05 18:04:22 | Badé
+  2026-09-06 00:57:18 | Backhaus
+  2026-09-06 00:57:18 | Rothe
+  2026-09-06 00:57:18 | Santos <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-06 07:56:39 | Sticker
+  2026-09-06 19:02:10 | Culbreath
+  2026-09-06 19:02:10 | Siebeking <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-07 06:39:02 | Meyer <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-07 06:39:02 | Sebulonsen <-- SKIP (KÜRZLICH GEKAUFT)
+
