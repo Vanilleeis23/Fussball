@@ -1,24 +1,25 @@
-Chiarodia | 5,613,387 € | Market | 2026-10-29 15:47:37
-Querfeld | 9,501,516 € | Market | 2026-10-29 20:37:52
-Mokwa | 5,412,824 € | Market | 2026-10-29 21:46:50
-Castañeda | 11,192,016 € | Market | 2026-10-29 21:57:12
-Bredlow | 3,374,254 € | Market | 2026-10-30 00:57:42
-Schnitzer | 645,071 € | Market | 2026-10-30 01:23:17
-Ulrich | 7,155,691 € | Market | 2026-10-30 01:50:49
-Karius | 15,436,738 € | Market | 2026-10-30 02:05:06
-Pinckert | 14,446,686 € | Market | 2026-10-30 07:47:04
-Da Costa | 8,122,780 € | Market | 2026-10-30 08:03:05
-Latte Lath | 3,447,764 € | Market | 2026-10-30 09:59:29
-Schmied | 1,398,284 € | Market | 2026-10-30 13:16:45
-Wimmer | 3,048,772 € | Market | 2026-10-30 14:10:35
-Bakayoko | 1,723,950 € | Market | 2026-10-30 14:48:11
-Bensebaini | 6,185,318 € | Market | 2026-10-30 15:36:58
-De Cat | 2,132,748 € | Market | 2026-10-30 19:10:49
-Møller Wolfe | 6,807,199 € | Market | 2026-10-30 20:29:50
-Rondic | 500,000 € | Market | 2026-10-30 22:06:06
-Eichhorn | 1,638,205 € | Market | 2026-10-30 23:03:15
-Boss | 500,000 € | Market | 2026-10-31 01:31:07
-Kobel | 18,428,972 € | Market | 2026-10-31 08:29:10
+Querfeld | 9,501,516 € | Market | 2026-10-29 20:37:53
+Mokwa | 5,412,824 € | Market | 2026-10-29 21:46:51
+Castañeda | 11,192,016 € | Market | 2026-10-29 21:57:13
+Bredlow | 3,374,254 € | Market | 2026-10-30 00:57:43
+Schnitzer | 645,071 € | Market | 2026-10-30 01:23:18
+Ulrich | 7,155,691 € | Market | 2026-10-30 01:50:50
+Karius | 15,436,738 € | Market | 2026-10-30 02:05:07
+Huth | 500,000 € | Market | 2026-10-30 06:36:34
+ter Horst | 7,522,728 € | Market | 2026-10-30 07:12:22
+Pinckert | 14,446,686 € | Market | 2026-10-30 07:47:05
+Da Costa | 8,122,780 € | Market | 2026-10-30 08:03:06
+Latte Lath | 3,447,764 € | Market | 2026-10-30 09:59:30
+Schmied | 1,398,284 € | Market | 2026-10-30 13:16:46
+Wimmer | 3,048,772 € | Market | 2026-10-30 14:10:36
+Bakayoko | 1,723,950 € | Market | 2026-10-30 14:48:12
+Bensebaini | 6,185,318 € | Market | 2026-10-30 15:36:59
+De Cat | 2,132,748 € | Market | 2026-10-30 19:10:50
+Møller Wolfe | 6,807,199 € | Market | 2026-10-30 20:29:51
+Rondic | 500,000 € | Market | 2026-10-30 22:06:07
+Eichhorn | 1,638,205 € | Market | 2026-10-30 23:03:16
+Boss | 500,000 € | Market | 2026-10-31 01:31:08
+Kobel | 18,428,972 € | Market | 2026-10-31 08:29:11
 Hofmann | 4,266,788 € | Philipp | Kein Ablaufdatum
 Heuer Fernandes | 11,422,558 € | Robinho | Kein Ablaufdatum
 Mwene | 11,691,616 € | CoachLeisi | Kein Ablaufdatum
@@ -33,10 +34,10 @@ Ljubičić | 1,225,861 € | Braunbär7 | Kein Ablaufdatum
 Conté | 14,693,401 € | Braunbär7 | Kein Ablaufdatum
 Marino | 6,713,898 € | CoachLeisi | Kein Ablaufdatum
 Rosenfelder | 1,561,371 € | Robinho | Kein Ablaufdatum
-Jóhannesson | 9,319,251 € | Vanilleeis23 | Kein Ablaufdatum
 Maksimović | 7,010,697 € | Philipp | Kein Ablaufdatum
 Irié | 4,769,431 € | Philipp | Kein Ablaufdatum
 Bellingham | 17,719,481 € | Philipp | Kein Ablaufdatum
 Omari | 7,927,972 € | Braunbär7 | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
+Okon-Engstler | 571,444 € | Vanilleeis23 | Kein Ablaufdatum
 Nwaneri | 13,991,668 € | Joel | Kein Ablaufdatum
