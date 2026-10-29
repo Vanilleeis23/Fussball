@@ -1,31 +1,31 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Castañeda (2026-10-09 19:26:05) [Transactionen.txt]
+ REFERENZ: Bensebaini (2026-10-09 19:51:20) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-09 17:54:57 | Capaldo
-  2026-10-09 18:01:37 | Ulrich
-  2026-10-09 18:23:14 | Awortwie-Grant
-  2026-10-09 18:24:25 | Vidović
   2026-10-09 18:24:29 | Kade
   2026-10-09 18:24:34 | El Ouahdi
   2026-10-09 18:46:19 | Jaquez
   2026-10-09 18:46:22 | Da Costa
   2026-10-09 18:46:26 | Chuki
   2026-10-09 19:07:51 | Seol
+  2026-10-09 19:26:05 | Castañeda
+  2026-10-09 19:26:08 | Konoplia
+  2026-10-09 19:50:58 | Pinckert
+  2026-10-09 19:51:02 | Zentner
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-09 19:26:08 | Konoplia <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-09 19:50:58 | Pinckert <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-09 19:51:02 | Zentner <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-09 19:51:20 | Bensebaini
   2026-10-10 14:48:57 | Jatta
   2026-10-10 17:30:23 | Mokwa
   2026-10-10 18:48:09 | Møller Wolfe
   2026-10-10 18:48:13 | Wimmer
   2026-10-10 19:49:31 | De Cat
   2026-10-10 22:53:03 | ter Horst
+  2026-10-11 06:10:28 | Hübers
+  2026-10-11 10:07:16 | Knauff
+  2026-10-11 17:46:40 | Neuhaus
+  2026-10-11 18:22:47 | Itakura
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Bakayoko' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Bensebaini' nicht in ÜberMarktGelaufen.txt gefunden. ===
