@@ -1,40 +1,38 @@
-Mokwa | 5,412,824 € | Market | 2026-10-29 21:46:50
-Castañeda | 11,192,016 € | Market | 2026-10-29 21:57:12
-Bredlow | 3,374,254 € | Market | 2026-10-30 00:57:42
-Schnitzer | 645,071 € | Market | 2026-10-30 01:23:17
-Ulrich | 7,155,691 € | Market | 2026-10-30 01:50:49
-Karius | 15,436,738 € | Market | 2026-10-30 02:05:06
+Karius | 15,520,528 € | Market | 2026-10-30 02:05:06
 Huth | 500,000 € | Market | 2026-10-30 06:36:33
-ter Horst | 7,522,728 € | Market | 2026-10-30 07:12:21
-Pinckert | 14,446,686 € | Market | 2026-10-30 07:47:04
-Da Costa | 8,122,780 € | Market | 2026-10-30 08:03:05
-Latte Lath | 3,447,764 € | Market | 2026-10-30 09:59:29
-Schmied | 1,398,284 € | Market | 2026-10-30 13:16:45
-Wimmer | 3,048,772 € | Market | 2026-10-30 14:10:35
-Bakayoko | 1,723,950 € | Market | 2026-10-30 14:48:11
-Bensebaini | 6,185,318 € | Market | 2026-10-30 15:36:58
-De Cat | 2,132,748 € | Market | 2026-10-30 19:10:49
-Møller Wolfe | 6,807,199 € | Market | 2026-10-30 20:29:50
+ter Horst | 7,760,445 € | Market | 2026-10-30 07:12:21
+Pinckert | 14,481,484 € | Market | 2026-10-30 07:47:04
+Da Costa | 8,359,305 € | Market | 2026-10-30 08:03:05
+Latte Lath | 3,681,784 € | Market | 2026-10-30 09:59:29
+Schmied | 1,304,219 € | Market | 2026-10-30 13:16:45
+Wimmer | 2,919,754 € | Market | 2026-10-30 14:10:35
+Bakayoko | 1,606,916 € | Market | 2026-10-30 14:48:11
+Bensebaini | 6,246,313 € | Market | 2026-10-30 15:36:58
+De Cat | 2,001,006 € | Market | 2026-10-30 19:10:49
+Møller Wolfe | 6,992,034 € | Market | 2026-10-30 20:29:50
 Rondic | 500,000 € | Market | 2026-10-30 22:06:06
-Eichhorn | 1,638,205 € | Market | 2026-10-30 23:03:15
+Eichhorn | 1,509,390 € | Market | 2026-10-30 23:03:15
 Boss | 500,000 € | Market | 2026-10-31 01:31:07
-Kobel | 18,428,972 € | Market | 2026-10-31 08:29:10
-Hofmann | 4,266,788 € | Philipp | Kein Ablaufdatum
-Heuer Fernandes | 11,422,558 € | Robinho | Kein Ablaufdatum
-Mwene | 11,691,616 € | CoachLeisi | Kein Ablaufdatum
-Hwang | 5,649,857 € | Robinho | Kein Ablaufdatum
-Baack | 878,755 € | Robinho | Kein Ablaufdatum
-Tigges | 7,241,563 € | Philipp | Kein Ablaufdatum
-Castrop | 4,614,660 € | Braunbär7 | Kein Ablaufdatum
-Nebel | 7,649,965 € | Vanilleeis23 | Kein Ablaufdatum
-Reitz | 12,274,477 € | CoachLeisi | Kein Ablaufdatum
-Ljubičić | 1,225,861 € | Braunbär7 | Kein Ablaufdatum
-Conté | 14,693,401 € | Braunbär7 | Kein Ablaufdatum
-Marino | 6,713,898 € | CoachLeisi | Kein Ablaufdatum
-Rosenfelder | 1,561,371 € | Robinho | Kein Ablaufdatum
-Maksimović | 7,010,697 € | Philipp | Kein Ablaufdatum
-Irié | 4,769,431 € | Philipp | Kein Ablaufdatum
-Bellingham | 17,719,481 € | Philipp | Kein Ablaufdatum
-Omari | 7,927,972 € | Braunbär7 | Kein Ablaufdatum
+Itakura | 5,113,064 € | Market | 2026-10-31 08:16:46
+Kobel | 18,462,771 € | Market | 2026-10-31 08:29:10
+Jatta | 500,000 € | Market | 2026-10-31 13:15:45
+Urbig | 7,442,344 € | Market | 2026-10-31 22:22:50
+Hofmann | 4,561,284 € | Philipp | Kein Ablaufdatum
+Heuer Fernandes | 11,478,855 € | Robinho | Kein Ablaufdatum
+Hwang | 5,710,012 € | Robinho | Kein Ablaufdatum
+Baack | 1,123,900 € | Robinho | Kein Ablaufdatum
+Tigges | 7,494,061 € | Philipp | Kein Ablaufdatum
+Castrop | 4,935,584 € | Braunbär7 | Kein Ablaufdatum
+Nebel | 7,935,418 € | Vanilleeis23 | Kein Ablaufdatum
+Reitz | 12,384,850 € | CoachLeisi | Kein Ablaufdatum
+Ljubičić | 1,430,669 € | Braunbär7 | Kein Ablaufdatum
+Conté | 14,883,283 € | Braunbär7 | Kein Ablaufdatum
+Marino | 7,006,903 € | CoachLeisi | Kein Ablaufdatum
+Rosenfelder | 1,814,309 € | Robinho | Kein Ablaufdatum
+Deman | 9,858,342 € | CoachLeisi | Kein Ablaufdatum
+Maksimović | 7,198,983 € | Philipp | Kein Ablaufdatum
+Irié | 5,019,075 € | Philipp | Kein Ablaufdatum
+Bellingham | 17,763,217 € | Philipp | Kein Ablaufdatum
+Omari | 8,163,160 € | Braunbär7 | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
-Nwaneri | 13,991,668 € | Joel | Kein Ablaufdatum
+Nwaneri | 13,327,323 € | Joel | Kein Ablaufdatum
