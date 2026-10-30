@@ -1,24 +1,23 @@
-Bensebaini | 6,246,313 € | Market | 2026-10-30 15:36:58
-De Cat | 2,001,006 € | Market | 2026-10-30 19:10:49
-Møller Wolfe | 6,992,034 € | Market | 2026-10-30 20:29:50
-Kleindienst | 4,380,222 € | Market | 2026-10-30 21:42:41
-Rondic | 500,000 € | Market | 2026-10-30 22:06:06
-Eichhorn | 1,509,390 € | Market | 2026-10-30 23:03:15
-Müller | 500,000 € | Market | 2026-10-30 23:10:42
-Boss | 500,000 € | Market | 2026-10-31 01:31:07
-Neuhaus | 7,277,417 € | Market | 2026-10-31 02:24:33
-Itakura | 5,113,064 € | Market | 2026-10-31 08:16:46
-Kobel | 18,462,771 € | Market | 2026-10-31 08:29:10
-Baku | 16,506,152 € | Market | 2026-10-31 12:53:12
-Coufal | 22,391,644 € | Market | 2026-10-31 13:12:06
-Jatta | 500,000 € | Market | 2026-10-31 13:15:45
-Leszczynski | 3,039,554 € | Market | 2026-10-31 13:38:00
-Stage | 895,911 € | Market | 2026-10-31 19:08:46
-Urbig | 7,442,344 € | Market | 2026-10-31 22:22:50
-Kofane | 4,489,965 € | Market | 2026-10-31 22:29:40
-Džeko | 2,547,386 € | Market | 2026-11-01 00:25:46
-Sakar | 500,000 € | Market | 2026-11-01 01:58:53
-Hübers | 500,000 € | Market | 2026-11-01 02:55:33
+De Cat | 2,001,006 € | Market | 2026-10-30 19:10:50
+Møller Wolfe | 6,992,034 € | Market | 2026-10-30 20:29:51
+Kleindienst | 4,380,222 € | Market | 2026-10-30 21:42:42
+Rondic | 500,000 € | Market | 2026-10-30 22:06:07
+Eichhorn | 1,509,390 € | Market | 2026-10-30 23:03:16
+Müller | 500,000 € | Market | 2026-10-30 23:10:43
+Boss | 500,000 € | Market | 2026-10-31 01:31:08
+Neuhaus | 7,277,417 € | Market | 2026-10-31 02:24:34
+Itakura | 5,113,064 € | Market | 2026-10-31 08:16:47
+Kobel | 18,462,771 € | Market | 2026-10-31 08:29:11
+Baku | 16,506,152 € | Market | 2026-10-31 12:53:13
+Coufal | 22,391,644 € | Market | 2026-10-31 13:12:07
+Jatta | 500,000 € | Market | 2026-10-31 13:15:46
+Leszczynski | 3,039,554 € | Market | 2026-10-31 13:38:01
+Stage | 895,911 € | Market | 2026-10-31 19:08:47
+Urbig | 7,442,344 € | Market | 2026-10-31 22:22:51
+Kofane | 4,489,965 € | Market | 2026-10-31 22:29:41
+Džeko | 2,547,386 € | Market | 2026-11-01 00:25:47
+Sakar | 500,000 € | Market | 2026-11-01 01:58:54
+Hübers | 500,000 € | Market | 2026-11-01 02:55:34
 Hofmann | 4,561,284 € | Philipp | Kein Ablaufdatum
 Heuer Fernandes | 11,478,855 € | Robinho | Kein Ablaufdatum
 Karazor | 9,949,275 € | Vincent  | Kein Ablaufdatum
