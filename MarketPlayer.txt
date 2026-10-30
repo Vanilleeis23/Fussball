@@ -1,7 +1,3 @@
-Latte Lath | 3,681,784 € | Market | 2026-10-30 09:59:29
-Schmied | 1,304,219 € | Market | 2026-10-30 13:16:45
-Wimmer | 2,919,754 € | Market | 2026-10-30 14:10:35
-Bakayoko | 1,606,916 € | Market | 2026-10-30 14:48:11
 Bensebaini | 6,246,313 € | Market | 2026-10-30 15:36:58
 De Cat | 2,001,006 € | Market | 2026-10-30 19:10:49
 Møller Wolfe | 6,992,034 € | Market | 2026-10-30 20:29:50
@@ -14,27 +10,29 @@ Neuhaus | 7,277,417 € | Market | 2026-10-31 02:24:33
 Itakura | 5,113,064 € | Market | 2026-10-31 08:16:46
 Kobel | 18,462,771 € | Market | 2026-10-31 08:29:10
 Baku | 16,506,152 € | Market | 2026-10-31 12:53:12
+Coufal | 22,391,644 € | Market | 2026-10-31 13:12:06
 Jatta | 500,000 € | Market | 2026-10-31 13:15:45
+Leszczynski | 3,039,554 € | Market | 2026-10-31 13:38:00
+Stage | 895,911 € | Market | 2026-10-31 19:08:46
 Urbig | 7,442,344 € | Market | 2026-10-31 22:22:50
+Kofane | 4,489,965 € | Market | 2026-10-31 22:29:40
+Džeko | 2,547,386 € | Market | 2026-11-01 00:25:46
+Sakar | 500,000 € | Market | 2026-11-01 01:58:53
 Hübers | 500,000 € | Market | 2026-11-01 02:55:33
 Hofmann | 4,561,284 € | Philipp | Kein Ablaufdatum
 Heuer Fernandes | 11,478,855 € | Robinho | Kein Ablaufdatum
-Nicolas | 10,592,880 € | Vanilleeis23 | Kein Ablaufdatum
 Karazor | 9,949,275 € | Vincent  | Kein Ablaufdatum
 Hwang | 5,710,012 € | Robinho | Kein Ablaufdatum
 Baack | 1,123,900 € | Robinho | Kein Ablaufdatum
-Tigges | 7,494,061 € | Philipp | Kein Ablaufdatum
 Ache | 4,992,117 € | Vincent  | Kein Ablaufdatum
 Castrop | 4,935,584 € | Braunbär7 | Kein Ablaufdatum
-Nebel | 7,935,418 € | Vanilleeis23 | Kein Ablaufdatum
 Reitz | 12,384,850 € | CoachLeisi | Kein Ablaufdatum
-Ljubičić | 1,430,669 € | Braunbär7 | Kein Ablaufdatum
-Conté | 14,883,283 € | Braunbär7 | Kein Ablaufdatum
+Günther | 6,751,064 € | Philipp | Kein Ablaufdatum
 Marino | 7,006,903 € | CoachLeisi | Kein Ablaufdatum
 Rosenfelder | 1,814,309 € | Robinho | Kein Ablaufdatum
-Deman | 9,858,342 € | CoachLeisi | Kein Ablaufdatum
 Maksimović | 7,198,983 € | Philipp | Kein Ablaufdatum
 Irié | 5,019,075 € | Philipp | Kein Ablaufdatum
+Assignon | 6,357,878 € | Vanilleeis23 | Kein Ablaufdatum
 Bellingham | 17,763,217 € | Philipp | Kein Ablaufdatum
 Capaldo | 9,913,939 € | Vincent  | Kein Ablaufdatum
 Omari | 8,163,160 € | Braunbär7 | Kein Ablaufdatum
