@@ -1,22 +1,22 @@
-Latte Lath | 3,681,784 € | Market | 2026-10-30 09:59:30
-Schmied | 1,304,219 € | Market | 2026-10-30 13:16:46
-Wimmer | 2,919,754 € | Market | 2026-10-30 14:10:36
-Bakayoko | 1,606,916 € | Market | 2026-10-30 14:48:12
-Bensebaini | 6,246,313 € | Market | 2026-10-30 15:36:59
-De Cat | 2,001,006 € | Market | 2026-10-30 19:10:50
-Møller Wolfe | 6,992,034 € | Market | 2026-10-30 20:29:51
-Kleindienst | 4,380,222 € | Market | 2026-10-30 21:42:42
-Rondic | 500,000 € | Market | 2026-10-30 22:06:07
-Eichhorn | 1,509,390 € | Market | 2026-10-30 23:03:16
-Müller | 500,000 € | Market | 2026-10-30 23:10:43
-Boss | 500,000 € | Market | 2026-10-31 01:31:08
-Neuhaus | 7,277,417 € | Market | 2026-10-31 02:24:34
-Itakura | 5,113,064 € | Market | 2026-10-31 08:16:47
-Kobel | 18,462,771 € | Market | 2026-10-31 08:29:11
-Baku | 16,506,152 € | Market | 2026-10-31 12:53:13
-Jatta | 500,000 € | Market | 2026-10-31 13:15:46
-Urbig | 7,442,344 € | Market | 2026-10-31 22:22:51
-Hübers | 500,000 € | Market | 2026-11-01 02:55:34
+Latte Lath | 3,681,784 € | Market | 2026-10-30 09:59:29
+Schmied | 1,304,219 € | Market | 2026-10-30 13:16:45
+Wimmer | 2,919,754 € | Market | 2026-10-30 14:10:35
+Bakayoko | 1,606,916 € | Market | 2026-10-30 14:48:11
+Bensebaini | 6,246,313 € | Market | 2026-10-30 15:36:58
+De Cat | 2,001,006 € | Market | 2026-10-30 19:10:49
+Møller Wolfe | 6,992,034 € | Market | 2026-10-30 20:29:50
+Kleindienst | 4,380,222 € | Market | 2026-10-30 21:42:41
+Rondic | 500,000 € | Market | 2026-10-30 22:06:06
+Eichhorn | 1,509,390 € | Market | 2026-10-30 23:03:15
+Müller | 500,000 € | Market | 2026-10-30 23:10:42
+Boss | 500,000 € | Market | 2026-10-31 01:31:07
+Neuhaus | 7,277,417 € | Market | 2026-10-31 02:24:33
+Itakura | 5,113,064 € | Market | 2026-10-31 08:16:46
+Kobel | 18,462,771 € | Market | 2026-10-31 08:29:10
+Baku | 16,506,152 € | Market | 2026-10-31 12:53:12
+Jatta | 500,000 € | Market | 2026-10-31 13:15:45
+Urbig | 7,442,344 € | Market | 2026-10-31 22:22:50
+Hübers | 500,000 € | Market | 2026-11-01 02:55:33
 Hofmann | 4,561,284 € | Philipp | Kein Ablaufdatum
 Heuer Fernandes | 11,478,855 € | Robinho | Kein Ablaufdatum
 Nicolas | 10,592,880 € | Vanilleeis23 | Kein Ablaufdatum
