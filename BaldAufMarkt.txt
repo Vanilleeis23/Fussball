@@ -1,10 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Engelhardt (2026-10-14 21:25:15) [Transactionen.txt]
+ REFERENZ: Pieper (2026-10-14 21:50:50) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-11 21:53:24 | Scheller
   2026-10-11 22:57:28 | Rondic
   2026-10-12 13:16:41 | Schmetgens
   2026-10-12 23:00:39 | Leszczynski
@@ -14,9 +13,9 @@
   2026-10-14 10:26:20 | Götze
   2026-10-14 11:48:12 | Götze
   2026-10-14 16:08:13 | Hajdari
+  2026-10-14 21:25:15 | Engelhardt
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-14 21:50:50 | Pieper
   2026-10-15 08:08:18 | Seiwald
   2026-10-15 11:25:32 | Sylla
   2026-10-15 14:07:19 | Gnabry
@@ -26,6 +25,7 @@
   2026-10-15 22:30:37 | Aebischer
   2026-10-15 22:58:03 | Krattenmacher
   2026-10-16 06:16:47 | Kemlein
+  2026-10-16 06:26:47 | Vázquez
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Engelhardt' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Pieper' nicht in ÜberMarktGelaufen.txt gefunden. ===
