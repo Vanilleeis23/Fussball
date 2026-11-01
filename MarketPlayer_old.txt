@@ -16,6 +16,7 @@ Dinkçi | 6,957,418 € | Market | 2026-11-02 15:20:26
 Engelhardt | 13,498,119 € | Market | 2026-11-02 16:51:16
 Hajdari | 3,230,589 € | Market | 2026-11-02 21:09:09
 Sylla | 2,869,649 € | Market | 2026-11-02 23:56:02
+Zieler | 500,000 € | Market | 2026-11-03 01:53:59
 Tah | 28,943,720 € | Market | 2026-11-03 02:03:05
 Seiwald | 4,574,776 € | Market | 2026-11-03 06:03:07
 Gnabry | 17,132,926 € | Market | 2026-11-03 07:54:06
@@ -27,14 +28,13 @@ Baack | 1,624,927 € | Robinho | Kein Ablaufdatum
 Ache | 4,987,846 € | Vincent  | Kein Ablaufdatum
 Castrop | 5,128,242 € | Braunbär7 | Kein Ablaufdatum
 Nebel | 8,239,567 € | Vanilleeis23 | Kein Ablaufdatum
-Petkov | 12,143,351 € | Robinho | Kein Ablaufdatum
 Ljubičić | 1,911,871 € | Braunbär7 | Kein Ablaufdatum
 Itakura | 5,470,518 € | Braunbär7 | Kein Ablaufdatum
+Schäfer | 7,707,208 € | Sascha187 | Kein Ablaufdatum
 Hložek | 10,779,671 € | Sascha187 | Kein Ablaufdatum
 Kömür | 4,085,870 € | Julian | Kein Ablaufdatum
 Curda | 11,409,388 € | Sascha187 | Kein Ablaufdatum
 Tella | 6,001,673 € | Vanilleeis23 | Kein Ablaufdatum
-Coufal | 22,330,741 € | Vanilleeis23 | Kein Ablaufdatum
 Behrens | 13,912,219 € | Sascha187 | Kein Ablaufdatum
 Suzuki | 18,364,925 € | Braunbär7 | Kein Ablaufdatum
 Omari | 8,037,684 € | Braunbär7 | Kein Ablaufdatum
