@@ -1,5 +1,3 @@
-Džeko | 2,381,443 € | Market | 2026-11-01 00:25:46
-Sakar | 500,000 € | Market | 2026-11-01 01:58:53
 Musiala | 20,487,324 € | Market | 2026-11-01 02:34:57
 Hübers | 500,000 € | Market | 2026-11-01 02:55:33
 Collins | 7,370,606 € | Market | 2026-11-01 05:08:36
@@ -16,8 +14,11 @@ Blaswich | 500,000 € | Market | 2026-11-01 15:02:21
 Kinzig | 500,000 € | Market | 2026-11-02 02:48:06
 Scheller | 10,239,488 € | Market | 2026-11-02 04:44:26
 Knauff | 3,882,467 € | Market | 2026-11-02 07:38:35
+Atubolu | 14,082,984 € | Market | 2026-11-02 07:47:18
 Götze | 3,321,170 € | Market | 2026-11-02 10:13:48
+Badé | 1,401,154 € | Market | 2026-11-02 13:10:23
 Dinkçi | 6,957,418 € | Market | 2026-11-02 15:20:26
+Engelhardt | 13,498,119 € | Market | 2026-11-02 16:51:16
 Hofmann | 4,844,631 € | Philipp | Kein Ablaufdatum
 Da Costa | 8,480,977 € | Braunbär7 | Kein Ablaufdatum
 Neuhaus | 7,960,352 € | Robinho | Kein Ablaufdatum

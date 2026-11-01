@@ -1,11 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Götze (2026-10-14 11:48:12) [Transactionen.txt]
+ REFERENZ: Engelhardt (2026-10-14 21:25:15) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-11 21:53:18 | Kleindienst
-  2026-10-11 21:53:18 | Skhiri
   2026-10-11 21:53:24 | Scheller
   2026-10-11 22:57:28 | Rondic
   2026-10-12 13:16:41 | Schmetgens
@@ -14,10 +12,10 @@
   2026-10-13 17:56:33 | Collins
   2026-10-13 22:41:50 | Adam
   2026-10-14 10:26:20 | Götze
+  2026-10-14 11:48:12 | Götze
+  2026-10-14 16:08:13 | Hajdari
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-14 16:08:13 | Hajdari
-  2026-10-14 21:25:15 | Engelhardt
   2026-10-14 21:50:50 | Pieper
   2026-10-15 08:08:18 | Seiwald
   2026-10-15 11:25:32 | Sylla
@@ -26,6 +24,8 @@
   2026-10-15 22:18:41 | Maloney
   2026-10-15 22:20:07 | Sticker
   2026-10-15 22:30:37 | Aebischer
+  2026-10-15 22:58:03 | Krattenmacher
+  2026-10-16 06:16:47 | Kemlein
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Dinkçi' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Engelhardt' nicht in ÜberMarktGelaufen.txt gefunden. ===
