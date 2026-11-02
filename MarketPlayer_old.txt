@@ -1,22 +1,25 @@
-Götze | 3,564,583 € | Market | 2026-11-02 10:13:50
-Badé | 1,293,748 € | Market | 2026-11-02 13:10:25
-Nsoki | 500,000 € | Market | 2026-11-02 14:44:01
-Duric | 500,000 € | Market | 2026-11-02 15:13:51
-Dinkçi | 6,990,198 € | Market | 2026-11-02 15:20:28
-Engelhardt | 13,629,383 € | Market | 2026-11-02 16:51:18
-Moffi | 3,351,015 € | Market | 2026-11-02 20:32:50
-Abraha | 837,140 € | Market | 2026-11-02 20:37:30
-Hajdari | 3,112,849 € | Market | 2026-11-02 21:09:11
-Krattenmacher | 10,116,612 € | Market | 2026-11-02 21:48:21
-Sylla | 2,754,256 € | Market | 2026-11-02 23:56:04
-Zieler | 500,000 € | Market | 2026-11-03 01:54:01
-Tah | 28,981,387 € | Market | 2026-11-03 02:03:07
-Seiwald | 4,478,362 € | Market | 2026-11-03 06:03:09
-Gnabry | 16,665,989 € | Market | 2026-11-03 07:54:08
-Maloney | 3,513,783 € | Market | 2026-11-03 11:47:57
-Ben Seghir | 500,000 € | Market | 2026-11-03 18:39:24
-Aebischer | 4,361,104 € | Market | 2026-11-03 20:46:05
-Wisbereit | 500,000 € | Market | 2026-11-03 23:39:21
+Badé | 1,293,748 € | Market | 2026-11-02 13:10:23
+Nsoki | 500,000 € | Market | 2026-11-02 14:43:59
+Duric | 500,000 € | Market | 2026-11-02 15:13:49
+Dinkçi | 6,990,198 € | Market | 2026-11-02 15:20:26
+Engelhardt | 13,629,383 € | Market | 2026-11-02 16:51:16
+Moffi | 3,351,015 € | Market | 2026-11-02 20:32:48
+Abraha | 837,140 € | Market | 2026-11-02 20:37:28
+Hajdari | 3,112,849 € | Market | 2026-11-02 21:09:09
+Krattenmacher | 10,116,612 € | Market | 2026-11-02 21:48:19
+Sylla | 2,754,256 € | Market | 2026-11-02 23:56:02
+Zieler | 500,000 € | Market | 2026-11-03 01:53:59
+Tah | 28,981,387 € | Market | 2026-11-03 02:03:05
+Seiwald | 4,478,362 € | Market | 2026-11-03 06:03:07
+Sticker | 1,202,394 € | Market | 2026-11-03 07:31:16
+Gnabry | 16,665,989 € | Market | 2026-11-03 07:54:06
+Maloney | 3,513,783 € | Market | 2026-11-03 11:47:55
+Nartey | 1,816,795 € | Market | 2026-11-03 14:39:39
+Torunarigha | 3,908,364 € | Market | 2026-11-03 15:41:36
+Ben Seghir | 500,000 € | Market | 2026-11-03 18:39:22
+Daka | 1,409,932 € | Market | 2026-11-03 19:50:27
+Aebischer | 4,361,104 € | Market | 2026-11-03 20:46:03
+Wisbereit | 500,000 € | Market | 2026-11-03 23:39:19
 Hofmann | 5,048,612 € | Philipp | Kein Ablaufdatum
 Obermair | 8,202,040 € | Sascha187 | Kein Ablaufdatum
 Dahmen | 17,145,727 € | Sascha187 | Kein Ablaufdatum
@@ -32,10 +35,10 @@ Hložek | 10,869,394 € | Sascha187 | Kein Ablaufdatum
 Kömür | 3,985,564 € | Julian | Kein Ablaufdatum
 Curda | 11,574,835 € | Sascha187 | Kein Ablaufdatum
 Tella | 6,298,250 € | Vanilleeis23 | Kein Ablaufdatum
+Matsima | 17,410,689 € | Robinho | Kein Ablaufdatum
 Behrens | 13,992,022 € | Sascha187 | Kein Ablaufdatum
 Suzuki | 18,607,583 € | Braunbär7 | Kein Ablaufdatum
 Omari | 7,777,083 € | Braunbär7 | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
-Okon-Engstler | 1,487,936 € | Vanilleeis23 | Kein Ablaufdatum
 Van den Bosch | 8,853,585 € | Vanilleeis23 | Kein Ablaufdatum
 Estève | 6,051,259 € | Sascha187 | Kein Ablaufdatum

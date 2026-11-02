@@ -1,7 +1,3 @@
-Badé | 1,293,748 € | Market | 2026-11-02 13:10:23
-Nsoki | 500,000 € | Market | 2026-11-02 14:43:59
-Duric | 500,000 € | Market | 2026-11-02 15:13:49
-Dinkçi | 6,990,198 € | Market | 2026-11-02 15:20:26
 Engelhardt | 13,629,383 € | Market | 2026-11-02 16:51:16
 Moffi | 3,351,015 € | Market | 2026-11-02 20:32:48
 Abraha | 837,140 € | Market | 2026-11-02 20:37:28
@@ -16,18 +12,21 @@ Gnabry | 16,665,989 € | Market | 2026-11-03 07:54:06
 Maloney | 3,513,783 € | Market | 2026-11-03 11:47:55
 Nartey | 1,816,795 € | Market | 2026-11-03 14:39:39
 Torunarigha | 3,908,364 € | Market | 2026-11-03 15:41:36
+Kemlein | 2,187,945 € | Market | 2026-11-03 15:52:59
 Ben Seghir | 500,000 € | Market | 2026-11-03 18:39:22
 Daka | 1,409,932 € | Market | 2026-11-03 19:50:27
 Aebischer | 4,361,104 € | Market | 2026-11-03 20:46:03
 Wisbereit | 500,000 € | Market | 2026-11-03 23:39:19
+Thielmann | 1,401,021 € | Market | 2026-11-04 09:50:50
+Lasme | 500,000 € | Market | 2026-11-04 15:14:10
 Hofmann | 5,048,612 € | Philipp | Kein Ablaufdatum
 Obermair | 8,202,040 € | Sascha187 | Kein Ablaufdatum
 Dahmen | 17,145,727 € | Sascha187 | Kein Ablaufdatum
-Neuhaus | 8,323,363 € | Robinho | Kein Ablaufdatum
 Baack | 1,935,023 € | Robinho | Kein Ablaufdatum
 Ache | 5,018,561 € | Vincent  | Kein Ablaufdatum
 Castrop | 5,234,421 € | Braunbär7 | Kein Ablaufdatum
 Nebel | 8,366,325 € | Vanilleeis23 | Kein Ablaufdatum
+Petkov | 12,288,847 € | Robinho | Kein Ablaufdatum
 Ljubičić | 2,256,886 € | Braunbär7 | Kein Ablaufdatum
 Itakura | 5,751,541 € | Braunbär7 | Kein Ablaufdatum
 Schäfer | 7,842,467 € | Sascha187 | Kein Ablaufdatum
@@ -35,10 +34,11 @@ Hložek | 10,869,394 € | Sascha187 | Kein Ablaufdatum
 Kömür | 3,985,564 € | Julian | Kein Ablaufdatum
 Curda | 11,574,835 € | Sascha187 | Kein Ablaufdatum
 Tella | 6,298,250 € | Vanilleeis23 | Kein Ablaufdatum
+Onyeka | 5,791,883 € | Robinho | Kein Ablaufdatum
 Matsima | 17,410,689 € | Robinho | Kein Ablaufdatum
 Behrens | 13,992,022 € | Sascha187 | Kein Ablaufdatum
 Suzuki | 18,607,583 € | Braunbär7 | Kein Ablaufdatum
 Omari | 7,777,083 € | Braunbär7 | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
-Van den Bosch | 8,853,585 € | Vanilleeis23 | Kein Ablaufdatum
+Okon-Engstler | 1,487,936 € | Vanilleeis23 | Kein Ablaufdatum
 Estève | 6,051,259 € | Sascha187 | Kein Ablaufdatum
