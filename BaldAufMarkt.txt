@@ -1,12 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Brown (2026-10-16 06:28:01) [Transactionen.txt]
+ REFERENZ: Spalt (2026-10-16 10:10:56) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-15 11:25:32 | Sylla
-  2026-10-15 14:07:19 | Gnabry
-  2026-10-15 14:07:23 | Torunarigha
   2026-10-15 22:18:41 | Maloney
   2026-10-15 22:20:07 | Sticker
   2026-10-15 22:30:37 | Aebischer
@@ -14,11 +11,11 @@
   2026-10-16 06:16:47 | Kemlein
   2026-10-16 06:26:47 | Vázquez
   2026-10-16 06:27:08 | Claude-Maurice
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-16 06:28:01 | Brown
   2026-10-16 08:03:52 | Ibrahimović
   2026-10-16 10:10:52 | Henrichs
-  2026-10-16 10:10:56 | Spalt
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
   2026-10-16 10:10:59 | Gomis
   2026-10-16 11:58:03 | Gyamerah
   2026-10-16 12:06:53 | Bachmann
@@ -26,6 +23,37 @@
   2026-10-16 15:05:48 | Rothe
   2026-10-16 15:05:51 | Nguefack
   2026-10-16 15:05:54 | Mickelson
+  2026-10-16 15:12:36 | El Aynaoui
+  2026-10-16 15:12:40 | Günter
+  2026-10-16 15:12:43 | Schallenberg
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Brown' nicht in ÜberMarktGelaufen.txt gefunden. ===
+==================================================
+ ÜBER DEN MARKT GELAUFEN (VERLAUF)
+ REFERENZ: Gray (2026-11-02 22:41:59) [ÜberMarktGelaufen.txt]
+==================================================
+
+--- 10 Spieler davor (historisch) ---
+  2026-10-09 22:55:01 | Querfeld
+  2026-10-10 09:05:18 | Eichhorn
+  2026-10-11 10:48:18 | Kobel
+  2026-10-11 17:39:16 | Urbig
+  2026-10-12 02:31:23 | Sakar
+  2026-10-12 09:13:22 | Schubert
+  2026-10-12 19:52:59 | Konstantelias
+  2026-10-13 02:38:13 | Džeko
+  2026-10-13 09:41:38 | Stanišić
+  2026-10-14 22:40:55 | Badé
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-15 11:53:10 | Laimer <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-10-16 00:15:25 | Wisbereit <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-16 19:23:01 | Darvich
+  2026-10-17 06:23:11 | Schmahl
+  2026-10-17 10:44:44 | Meyer
+  2026-10-18 03:01:08 | Baumgartner
+  2026-10-18 03:01:08 | Klaus
+  2026-10-18 13:02:11 | Santos
+  2026-10-19 03:16:47 | Schlager
+  2026-10-19 17:35:02 | Njinmah
+
