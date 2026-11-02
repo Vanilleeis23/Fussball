@@ -1,59 +1,31 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Gnabry (2026-10-15 14:07:19) [Transactionen.txt]
+ REFERENZ: Aebischer (2026-10-15 22:30:37) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-13 07:58:05 | Coufal
-  2026-10-13 17:56:33 | Collins
-  2026-10-13 22:41:50 | Adam
-  2026-10-14 10:26:20 | Götze
   2026-10-14 11:48:12 | Götze
   2026-10-14 16:08:13 | Hajdari
   2026-10-14 21:25:15 | Engelhardt
   2026-10-14 21:50:50 | Pieper
   2026-10-15 08:08:18 | Seiwald
   2026-10-15 11:25:32 | Sylla
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-15 14:07:19 | Gnabry
   2026-10-15 14:07:23 | Torunarigha
   2026-10-15 22:18:41 | Maloney
   2026-10-15 22:20:07 | Sticker
-  2026-10-15 22:30:37 | Aebischer
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
   2026-10-15 22:58:03 | Krattenmacher
   2026-10-16 06:16:47 | Kemlein
   2026-10-16 06:26:47 | Vázquez
   2026-10-16 06:27:08 | Claude-Maurice
   2026-10-16 06:28:01 | Brown
   2026-10-16 08:03:52 | Ibrahimović
+  2026-10-16 10:10:52 | Henrichs
+  2026-10-16 10:10:56 | Spalt
+  2026-10-16 10:10:59 | Gomis
+  2026-10-16 11:58:03 | Gyamerah
 
 
-==================================================
- ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Moffi (2026-11-01 22:37:48) [ÜberMarktGelaufen.txt]
-==================================================
-
---- 10 Spieler davor (historisch) ---
-  2026-08-27 11:46:27 | Zimmerschied
-  2026-08-27 20:44:25 | Andrés
-  2026-08-28 07:23:02 | Yamamoto
-  2026-08-28 10:15:24 | Simpson-Pusey
-  2026-08-28 10:56:18 | Irié
-  2026-08-28 13:53:47 | Querfeld
-  2026-08-28 20:40:28 | Leweling
-  2026-08-28 20:40:28 | Ljubičić
-  2026-08-29 04:10:26 | Adam
-  2026-08-29 07:11:58 | Collins
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-08-29 20:27:54 | Quansah
-  2026-08-29 23:43:09 | Nsoki <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-08-29 23:43:09 | Seol
-  2026-08-30 08:38:25 | Karius <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-08-30 08:38:25 | Van den Bosch
-  2026-08-30 09:30:45 | Khedira
-  2026-08-30 14:52:53 | Duric <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-08-30 14:52:53 | Schubert
-  2026-08-30 23:04:05 | Rômulo
-  2026-08-31 07:32:40 | Ogundu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Ben Seghir' nicht in ÜberMarktGelaufen.txt gefunden. ===
