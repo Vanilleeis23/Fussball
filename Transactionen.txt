@@ -1,3 +1,8 @@
+[{"byr": "Philipp"}, {"pn": "Aebischer"}, {"trp": 5359999}, {"dt": "2026-11-03T21:46:09Z"}]
+[{"byr": "Braunbär7"}, {"pn": "Daka"}, {"trp": 2110220}, {"dt": "2026-11-03T20:50:31Z"}]
+[{"byr": "Vanilleeis23"}, {"pn": "Spalt"}, {"trp": 1375467}, {"dt": "2026-11-03T20:17:07Z"}]
+[{"byr": "Julian"}, {"pn": "Omari"}, {"trp": 7550000}, {"dt": "2026-11-03T19:45:25Z"}]
+[{"slr": "Braunbär7"}, {"pn": "Omari"}, {"trp": 7550000}, {"dt": "2026-11-03T19:45:25Z"}]
 [{"byr": "Braunbär7"}, {"pn": "Torunarigha"}, {"trp": 5102144}, {"dt": "2026-11-03T16:42:04Z"}]
 [{"slr": "Timo Kramer "}, {"pn": "Maina"}, {"trp": 11330852}, {"dt": "2026-11-03T14:58:26Z"}]
 [{"slr": "MirkoHengst"}, {"pn": "Ulrich"}, {"trp": 7785902}, {"dt": "2026-11-03T00:05:03Z"}]
