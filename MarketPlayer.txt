@@ -1,5 +1,3 @@
-Torunarigha | 4,051,703 € | Market | 2026-11-03 15:41:36
-Kemlein | 2,068,454 € | Market | 2026-11-03 15:52:59
 Ben Seghir | 500,000 € | Market | 2026-11-03 18:39:22
 Spalt | 709,388 € | Market | 2026-11-03 19:16:55
 Daka | 1,726,211 € | Market | 2026-11-03 19:50:27
@@ -20,6 +18,7 @@ Bachmann | 578,324 € | Market | 2026-11-04 17:08:02
 Ibrahimović | 9,335,515 € | Market | 2026-11-04 19:01:09
 Claude-Maurice | 4,445,823 € | Market | 2026-11-04 20:38:58
 Becker | 6,562,002 € | Market | 2026-11-05 01:52:47
+Nguefack | 1,662,264 € | Market | 2026-11-05 15:06:07
 Hofmann | 5,216,848 € | Philipp | Kein Ablaufdatum
 Obermair | 8,547,182 € | Sascha187 | Kein Ablaufdatum
 Dahmen | 17,177,498 € | Sascha187 | Kein Ablaufdatum
