@@ -1,9 +1,11 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Bachmann (2026-10-16 12:06:53) [Transactionen.txt]
+ REFERENZ: Gomis (2026-10-16 10:10:59) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
+  2026-10-15 22:20:07 | Sticker
+  2026-10-15 22:30:37 | Aebischer
   2026-10-15 22:58:03 | Krattenmacher
   2026-10-16 06:16:47 | Kemlein
   2026-10-16 06:26:47 | Vázquez
@@ -12,10 +14,10 @@
   2026-10-16 08:03:52 | Ibrahimović
   2026-10-16 10:10:52 | Henrichs
   2026-10-16 10:10:56 | Spalt
-  2026-10-16 10:10:59 | Gomis
-  2026-10-16 11:58:03 | Gyamerah
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-16 11:58:03 | Gyamerah
+  2026-10-16 12:06:53 | Bachmann <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-10-16 15:05:45 | Mittelstädt
   2026-10-16 15:05:48 | Rothe
   2026-10-16 15:05:51 | Nguefack
@@ -24,8 +26,6 @@
   2026-10-16 15:12:40 | Günter
   2026-10-16 15:12:43 | Schallenberg
   2026-10-16 15:12:46 | Stange
-  2026-10-16 16:33:00 | Scherhant
-  2026-10-16 16:33:03 | Poreba
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Bachmann' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Hashioka' nicht in ÜberMarktGelaufen.txt gefunden. ===
