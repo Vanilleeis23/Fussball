@@ -30,30 +30,30 @@
 
 ==================================================
  ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Terrier (2026-11-04 07:13:43) [ÜberMarktGelaufen.txt]
+ REFERENZ: Petersson (2026-11-04 08:22:50) [ÜberMarktGelaufen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-08-26 03:57:31 | Waldschmidt
-  2026-08-26 09:58:07 | Jovanovic
-  2026-08-26 09:58:07 | Stergiou
-  2026-08-26 15:16:22 | Condé
-  2026-08-26 17:53:11 | Agu
-  2026-08-27 01:31:09 | Ayhan
-  2026-08-27 01:31:09 | Trimmel
-  2026-08-27 05:17:39 | Krattenmacher
-  2026-08-27 05:17:39 | Okon-Engstler
-  2026-08-27 05:17:39 | Pfeiffer
+  2026-08-23 17:35:21 | Palacios
+  2026-08-23 18:42:34 | Lippmann
+  2026-08-23 18:42:34 | Vogt
+  2026-08-23 19:33:23 | Gendrey
+  2026-08-24 00:36:51 | Nyland
+  2026-08-24 01:34:28 | Castañeda
+  2026-08-24 05:15:40 | Jeong
+  2026-08-24 07:00:17 | Marino
+  2026-08-24 07:52:27 | Grüll
+  2026-08-24 07:52:27 | Mensah
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-08-27 11:46:27 | Kawasaki <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-08-27 11:46:27 | Stiller <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-08-27 11:46:27 | Zimmerschied
-  2026-08-27 20:44:25 | Andrés
-  2026-08-28 07:23:02 | Yamamoto
-  2026-08-28 10:15:24 | Simpson-Pusey
-  2026-08-28 10:56:18 | Irié <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-08-28 13:53:47 | Querfeld <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-08-28 20:40:28 | Leweling
-  2026-08-28 20:40:28 | Ljubičić <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN, KÜRZLICH GEKAUFT)
+  2026-08-24 13:43:01 | Amoako
+  2026-08-24 15:11:47 | Castrop <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN, KÜRZLICH GEKAUFT)
+  2026-08-24 16:04:00 | Hübers
+  2026-08-25 01:34:07 | Arévalo
+  2026-08-25 01:34:07 | Nartey
+  2026-08-25 03:51:36 | Osterhage <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-08-25 05:12:10 | Arrhov
+  2026-08-25 05:12:10 | Führich
+  2026-08-25 05:12:10 | Köhn
+  2026-08-25 07:46:41 | Futkeu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
 
