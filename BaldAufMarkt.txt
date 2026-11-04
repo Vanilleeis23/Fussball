@@ -1,11 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Mensah (2026-10-16 19:38:20) [Transactionen.txt]
+ REFERENZ: Haberer (2026-10-16 19:58:25) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-16 15:05:51 | Nguefack
-  2026-10-16 15:05:54 | Mickelson
   2026-10-16 15:12:36 | El Aynaoui
   2026-10-16 15:12:40 | Günter
   2026-10-16 15:12:43 | Schallenberg
@@ -14,10 +12,10 @@
   2026-10-16 16:33:03 | Poreba
   2026-10-16 18:45:00 | Sirch
   2026-10-16 18:55:55 | Skarke
+  2026-10-16 19:38:20 | Mensah
+  2026-10-16 19:38:26 | Burke
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-16 19:38:26 | Burke
-  2026-10-16 19:58:25 | Haberer
   2026-10-16 19:58:33 | Mohya
   2026-10-16 19:58:37 | Onyedika
   2026-10-16 22:02:30 | Veerman
@@ -26,34 +24,8 @@
   2026-10-16 23:53:12 | Khedira
   2026-10-16 23:53:21 | Schnellbacher
   2026-10-17 09:23:13 | Uzun
+  2026-10-17 10:11:41 | Prömel
+  2026-10-17 10:23:28 | Højlund
 
 
-==================================================
- ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Mensah (2026-11-04 17:12:20) [ÜberMarktGelaufen.txt]
-==================================================
-
---- 10 Spieler davor (historisch) ---
-  2026-09-14 08:16:55 | Hendriks
-  2026-09-14 08:52:03 | Andrich
-  2026-09-14 08:52:03 | Hendriks
-  2026-09-14 15:59:26 | Mane
-  2026-09-14 21:21:00 | Chabot
-  2026-09-15 20:11:29 | Leopold
-  2026-09-15 20:11:29 | Ribeiro
-  2026-09-15 20:11:29 | Yamamoto
-  2026-09-15 23:22:22 | Karl
-  2026-09-15 23:22:22 | Kramarić
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-09-16 13:30:57 | Kawasaki <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-09-16 18:53:45 | Ayhan <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-09-16 18:53:45 | Futkeu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-09-16 18:53:45 | Marino <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-09-17 03:24:25 | Führich
-  2026-09-17 08:05:44 | Jeong <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-09-17 08:05:44 | Stiller <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-09-17 20:12:06 | Seol
-  2026-09-18 07:54:08 | Okon-Engstler <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-09-18 13:12:12 | Leweling
-
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Haberer' nicht in ÜberMarktGelaufen.txt gefunden. ===
