@@ -1,59 +1,59 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Gyamerah (2026-10-16 11:58:03) [Transactionen.txt]
+ REFERENZ: Mensah (2026-10-16 19:38:20) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-15 22:30:37 | Aebischer
-  2026-10-15 22:58:03 | Krattenmacher
-  2026-10-16 06:16:47 | Kemlein
-  2026-10-16 06:26:47 | Vázquez
-  2026-10-16 06:27:08 | Claude-Maurice
-  2026-10-16 06:28:01 | Brown
-  2026-10-16 08:03:52 | Ibrahimović
-  2026-10-16 10:10:52 | Henrichs
-  2026-10-16 10:10:56 | Spalt
-  2026-10-16 10:10:59 | Gomis
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-16 12:06:53 | Bachmann <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-16 15:05:45 | Mittelstädt <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-16 15:05:48 | Rothe <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-16 15:05:51 | Nguefack <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-16 15:05:51 | Nguefack
   2026-10-16 15:05:54 | Mickelson
-  2026-10-16 15:12:36 | El Aynaoui <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-16 15:12:36 | El Aynaoui
   2026-10-16 15:12:40 | Günter
   2026-10-16 15:12:43 | Schallenberg
-  2026-10-16 15:12:46 | Stange <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-16 15:12:46 | Stange
   2026-10-16 16:33:00 | Scherhant
+  2026-10-16 16:33:03 | Poreba
+  2026-10-16 18:45:00 | Sirch
+  2026-10-16 18:55:55 | Skarke
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-16 19:38:26 | Burke
+  2026-10-16 19:58:25 | Haberer
+  2026-10-16 19:58:33 | Mohya
+  2026-10-16 19:58:37 | Onyedika
+  2026-10-16 22:02:30 | Veerman
+  2026-10-16 22:10:58 | Tanaka
+  2026-10-16 22:52:52 | Lochoshvili
+  2026-10-16 23:53:12 | Khedira
+  2026-10-16 23:53:21 | Schnellbacher
+  2026-10-17 09:23:13 | Uzun
 
 
 ==================================================
  ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Petersson (2026-11-04 08:22:50) [ÜberMarktGelaufen.txt]
+ REFERENZ: Mensah (2026-11-04 17:12:20) [ÜberMarktGelaufen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-08-23 17:35:21 | Palacios
-  2026-08-23 18:42:34 | Lippmann
-  2026-08-23 18:42:34 | Vogt
-  2026-08-23 19:33:23 | Gendrey
-  2026-08-24 00:36:51 | Nyland
-  2026-08-24 01:34:28 | Castañeda
-  2026-08-24 05:15:40 | Jeong
-  2026-08-24 07:00:17 | Marino
-  2026-08-24 07:52:27 | Grüll
-  2026-08-24 07:52:27 | Mensah
+  2026-09-14 08:16:55 | Hendriks
+  2026-09-14 08:52:03 | Andrich
+  2026-09-14 08:52:03 | Hendriks
+  2026-09-14 15:59:26 | Mane
+  2026-09-14 21:21:00 | Chabot
+  2026-09-15 20:11:29 | Leopold
+  2026-09-15 20:11:29 | Ribeiro
+  2026-09-15 20:11:29 | Yamamoto
+  2026-09-15 23:22:22 | Karl
+  2026-09-15 23:22:22 | Kramarić
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-08-24 13:43:01 | Amoako
-  2026-08-24 15:11:47 | Castrop <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN, KÜRZLICH GEKAUFT)
-  2026-08-24 16:04:00 | Hübers
-  2026-08-25 01:34:07 | Arévalo
-  2026-08-25 01:34:07 | Nartey
-  2026-08-25 03:51:36 | Osterhage <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-08-25 05:12:10 | Arrhov
-  2026-08-25 05:12:10 | Führich
-  2026-08-25 05:12:10 | Köhn
-  2026-08-25 07:46:41 | Futkeu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-16 13:30:57 | Kawasaki <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-16 18:53:45 | Ayhan <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-16 18:53:45 | Futkeu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-16 18:53:45 | Marino <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-09-17 03:24:25 | Führich
+  2026-09-17 08:05:44 | Jeong <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-09-17 08:05:44 | Stiller <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-09-17 20:12:06 | Seol
+  2026-09-18 07:54:08 | Okon-Engstler <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-09-18 13:12:12 | Leweling
 
