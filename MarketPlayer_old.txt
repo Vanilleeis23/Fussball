@@ -1,11 +1,7 @@
-Ben Seghir | 500,000 € | Market | 2026-11-03 18:39:22
-Spalt | 709,388 € | Market | 2026-11-03 19:16:55
-Daka | 1,726,211 € | Market | 2026-11-03 19:50:27
-Aebischer | 4,609,692 € | Market | 2026-11-03 20:46:03
-Vázquez | 978,748 € | Market | 2026-11-03 21:39:00
 Wisbereit | 500,000 € | Market | 2026-11-03 23:39:19
 Diehl | 500,000 € | Market | 2026-11-04 00:11:41
 Gomis | 12,119,294 € | Market | 2026-11-04 03:36:22
+Mickelson | 1,308,821 € | Market | 2026-11-04 06:22:18
 Gray | 1,700,746 € | Market | 2026-11-04 06:26:59
 Machida | 9,331,311 € | Market | 2026-11-04 06:32:05
 Hashioka | 4,409,483 € | Market | 2026-11-04 07:47:48
@@ -18,16 +14,22 @@ Bachmann | 578,324 € | Market | 2026-11-04 17:08:02
 Ibrahimović | 9,335,515 € | Market | 2026-11-04 19:01:09
 Claude-Maurice | 4,445,823 € | Market | 2026-11-04 20:38:58
 Becker | 6,562,002 € | Market | 2026-11-05 01:52:47
+El Aynaoui | 15,562,189 € | Market | 2026-11-05 11:03:47
+Mittelstädt | 29,659,563 € | Market | 2026-11-05 11:34:10
 Nguefack | 1,662,264 € | Market | 2026-11-05 15:06:07
+Stange | 1,533,839 € | Market | 2026-11-05 16:15:44
 Hofmann | 5,216,848 € | Philipp | Kein Ablaufdatum
+Götze | 3,861,464 € | Philipp | Kein Ablaufdatum
+Torunarigha | 4,051,703 € | Braunbär7 | Kein Ablaufdatum
 Obermair | 8,547,182 € | Sascha187 | Kein Ablaufdatum
 Dahmen | 17,177,498 € | Sascha187 | Kein Ablaufdatum
+Karazor | 10,309,478 € | Sascha187 | Kein Ablaufdatum
 Baack | 2,296,742 € | Robinho | Kein Ablaufdatum
+Tigges | 7,803,812 € | Joel | Kein Ablaufdatum
 Ache | 5,010,003 € | Vincent  | Kein Ablaufdatum
 Castrop | 5,273,341 € | Braunbär7 | Kein Ablaufdatum
 Petkov | 12,446,576 € | Robinho | Kein Ablaufdatum
 Ljubičić | 2,638,303 € | Braunbär7 | Kein Ablaufdatum
-Itakura | 6,046,617 € | Braunbär7 | Kein Ablaufdatum
 Schäfer | 7,981,483 € | Sascha187 | Kein Ablaufdatum
 Hložek | 10,971,155 € | Sascha187 | Kein Ablaufdatum
 Kömür | 3,866,330 € | Julian | Kein Ablaufdatum
@@ -36,7 +38,7 @@ Tella | 6,551,100 € | Vanilleeis23 | Kein Ablaufdatum
 Onyeka | 6,145,581 € | Robinho | Kein Ablaufdatum
 Matsima | 17,478,597 € | Robinho | Kein Ablaufdatum
 Behrens | 14,075,060 € | Sascha187 | Kein Ablaufdatum
-Suzuki | 18,838,852 € | Braunbär7 | Kein Ablaufdatum
-Omari | 7,148,910 € | Braunbär7 | Kein Ablaufdatum
+Schmetgens | 2,340,558 € | Philipp | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
 Estève | 5,936,195 € | Sascha187 | Kein Ablaufdatum
+Daka | 1,726,211 € | Braunbär7 | Kein Ablaufdatum
