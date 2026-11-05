@@ -1,25 +1,25 @@
-Poreba | 9,921,048 € | Market | 2026-11-05 00:31:17
-Becker | 7,114,500 € | Market | 2026-11-05 01:52:47
-Mensah | 3,115,427 € | Market | 2026-11-05 06:18:20
-Scherhant | 19,816,378 € | Market | 2026-11-05 07:19:16
-El Aynaoui | 15,878,893 € | Market | 2026-11-05 11:03:47
-Mittelstädt | 29,895,491 € | Market | 2026-11-05 11:34:10
-Nguefack | 1,412,134 € | Market | 2026-11-05 15:06:07
-Sirch | 4,563,489 € | Market | 2026-11-05 15:50:26
-Stange | 1,320,709 € | Market | 2026-11-05 16:15:44
-Günter | 733,068 € | Market | 2026-11-05 18:04:54
-El Mala | 1,275,561 € | Market | 2026-11-05 18:46:36
-Burke | 2,032,326 € | Market | 2026-11-05 19:10:33
-Gyamerah | 2,488,498 € | Market | 2026-11-05 20:03:30
-Gosens | 5,677,702 € | Market | 2026-11-05 21:18:42
-Gouweleeuw | 6,992,085 € | Market | 2026-11-05 23:59:44
-Darvich | 3,559,005 € | Market | 2026-11-06 00:23:11
-Treu | 10,744,318 € | Market | 2026-11-06 01:07:02
-Haberer | 5,961,883 € | Market | 2026-11-06 01:07:10
-Ilicevic | 718,267 € | Market | 2026-11-06 01:57:01
-Petersson | 500,000 € | Market | 2026-11-06 06:33:50
-Grønbæk | 7,681,831 € | Market | 2026-11-06 07:26:54
-Skarke | 4,162,602 € | Market | 2026-11-06 14:02:49
+Mensah | 3,115,427 € | Market | 2026-11-05 06:18:21
+Scherhant | 19,816,378 € | Market | 2026-11-05 07:19:17
+El Aynaoui | 15,878,893 € | Market | 2026-11-05 11:03:48
+Mittelstädt | 29,895,491 € | Market | 2026-11-05 11:34:11
+Nguefack | 1,412,134 € | Market | 2026-11-05 15:06:08
+Sirch | 4,563,489 € | Market | 2026-11-05 15:50:27
+Stange | 1,320,709 € | Market | 2026-11-05 16:15:45
+Günter | 733,068 € | Market | 2026-11-05 18:04:55
+El Mala | 1,275,561 € | Market | 2026-11-05 18:46:37
+Burke | 2,032,326 € | Market | 2026-11-05 19:10:34
+Gyamerah | 2,488,498 € | Market | 2026-11-05 20:03:31
+Gosens | 5,677,702 € | Market | 2026-11-05 21:18:43
+Gouweleeuw | 6,992,085 € | Market | 2026-11-05 23:59:45
+Darvich | 3,559,005 € | Market | 2026-11-06 00:23:12
+Treu | 10,744,318 € | Market | 2026-11-06 01:07:03
+Haberer | 5,961,883 € | Market | 2026-11-06 01:07:11
+Ilicevic | 718,267 € | Market | 2026-11-06 01:57:02
+Petersson | 500,000 € | Market | 2026-11-06 06:33:51
+Grønbæk | 7,681,831 € | Market | 2026-11-06 07:26:55
+Otávio | 500,000 € | Market | 2026-11-06 09:31:16
+Skarke | 4,162,602 € | Market | 2026-11-06 14:02:50
+Tanaka | 7,704,415 € | Market | 2026-11-07 00:06:21
 Götze | 4,457,939 € | Philipp | Kein Ablaufdatum
 Torunarigha | 4,597,007 € | Braunbär7 | Kein Ablaufdatum
 Obermair | 9,187,296 € | Sascha187 | Kein Ablaufdatum
