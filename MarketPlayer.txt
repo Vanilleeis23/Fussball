@@ -16,6 +16,7 @@ Ilicevic | 718,267 € | Market | 2026-11-06 01:57:01
 Petersson | 500,000 € | Market | 2026-11-06 06:33:50
 Grønbæk | 7,681,831 € | Market | 2026-11-06 07:26:54
 Otávio | 500,000 € | Market | 2026-11-06 09:31:15
+Meyer | 500,000 € | Market | 2026-11-06 13:38:12
 Skarke | 4,162,602 € | Market | 2026-11-06 14:02:49
 Tanaka | 7,704,415 € | Market | 2026-11-07 00:06:20
 Schallenberg | 500,000 € | Market | 2026-11-07 07:31:46
@@ -37,6 +38,7 @@ Aebischer | 5,236,648 € | Philipp | Kein Ablaufdatum
 Hendriks | 10,450,721 € | Joel | Kein Ablaufdatum
 Behrens | 14,220,825 € | Sascha187 | Kein Ablaufdatum
 Schmetgens | 3,161,939 € | Philipp | Kein Ablaufdatum
+Massengo | 11,766,449 € | Joel | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
 Gray | 2,499,710 € | Philipp | Kein Ablaufdatum
 Estève | 5,599,653 € | Sascha187 | Kein Ablaufdatum
