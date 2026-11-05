@@ -1,59 +1,31 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Veerman (2026-10-16 22:02:30) [Transactionen.txt]
+ REFERENZ: Højlund (2026-10-17 10:23:28) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-16 15:12:46 | Stange
-  2026-10-16 16:33:00 | Scherhant
-  2026-10-16 16:33:03 | Poreba
-  2026-10-16 18:45:00 | Sirch
-  2026-10-16 18:55:55 | Skarke
-  2026-10-16 19:38:20 | Mensah
-  2026-10-16 19:38:26 | Burke
   2026-10-16 19:58:25 | Haberer
   2026-10-16 19:58:33 | Mohya
   2026-10-16 19:58:37 | Onyedika
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-16 22:10:58 | Tanaka <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-16 22:02:30 | Veerman
+  2026-10-16 22:10:58 | Tanaka
   2026-10-16 22:52:52 | Lochoshvili
   2026-10-16 23:53:12 | Khedira
-  2026-10-16 23:53:21 | Schnellbacher <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-16 23:53:21 | Schnellbacher
   2026-10-17 09:23:13 | Uzun
   2026-10-17 10:11:41 | Prömel
-  2026-10-17 10:23:28 | Højlund
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
   2026-10-17 17:25:51 | El-Faouzi
   2026-10-17 21:35:31 | Karetsas
   2026-10-17 22:38:50 | Erevbenagie
+  2026-10-17 23:47:27 | Gruber
+  2026-10-19 08:48:20 | Pejčinović
+  2026-10-20 16:24:09 | Pieringer
+  2026-10-20 21:31:50 | Flekken
+  2026-10-21 00:48:02 | Adamu
+  2026-10-21 13:43:58 | Daghim
+  2026-10-21 17:13:54 | Tiago Tomás
 
 
-==================================================
- ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Meyer (2026-11-05 11:37:12) [ÜberMarktGelaufen.txt]
-==================================================
-
---- 10 Spieler davor (historisch) ---
-  2026-10-12 09:13:22 | Schubert
-  2026-10-12 19:52:59 | Konstantelias
-  2026-10-13 02:38:13 | Džeko
-  2026-10-13 09:41:38 | Stanišić
-  2026-10-14 22:40:55 | Badé
-  2026-10-15 01:54:27 | Gray
-  2026-10-15 11:53:10 | Laimer
-  2026-10-16 00:15:25 | Wisbereit
-  2026-10-16 19:23:01 | Darvich
-  2026-10-17 06:23:11 | Schmahl
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-18 03:01:08 | Baumgartner
-  2026-10-18 03:01:08 | Klaus
-  2026-10-18 13:02:11 | Santos
-  2026-10-19 03:16:47 | Schlager
-  2026-10-19 17:35:02 | Njinmah
-  2026-10-20 02:18:51 | Waldschmidt
-  2026-10-20 07:59:56 | Pimpong
-  2026-10-20 13:33:44 | Heskey
-  2026-10-21 12:07:07 | Siebeking
-  2026-10-21 17:13:28 | Batista Meier
-
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Højlund' nicht in ÜberMarktGelaufen.txt gefunden. ===
