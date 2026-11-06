@@ -1,9 +1,10 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Højlund (2026-10-17 10:23:28) [Transactionen.txt]
+ REFERENZ: Prömel (2026-10-17 10:11:41) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
+  2026-10-16 19:38:26 | Burke
   2026-10-16 19:58:25 | Haberer
   2026-10-16 19:58:33 | Mohya
   2026-10-16 19:58:37 | Onyedika
@@ -13,10 +14,10 @@
   2026-10-16 23:53:12 | Khedira
   2026-10-16 23:53:21 | Schnellbacher
   2026-10-17 09:23:13 | Uzun
-  2026-10-17 10:11:41 | Prömel
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-17 17:25:51 | El-Faouzi
+  2026-10-17 10:23:28 | Højlund <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-17 17:25:51 | El-Faouzi <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-10-17 21:35:31 | Karetsas
   2026-10-17 22:38:50 | Erevbenagie
   2026-10-17 23:47:27 | Gruber
@@ -25,7 +26,6 @@
   2026-10-20 21:31:50 | Flekken
   2026-10-21 00:48:02 | Adamu
   2026-10-21 13:43:58 | Daghim
-  2026-10-21 17:13:54 | Tiago Tomás
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Højlund' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Klostermann' nicht in ÜberMarktGelaufen.txt gefunden. ===
