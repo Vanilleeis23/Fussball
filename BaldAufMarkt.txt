@@ -1,22 +1,31 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Pejčinović (2026-10-19 08:48:20) [Transactionen.txt]
+ REFERENZ: Flekken (2026-10-20 21:31:50) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-11-06 20:51:43 | Petkov
-  2026-11-06 20:52:01 | Baack
-  2026-11-06 21:29:27 | Aebischer
-  2026-11-06 21:29:32 | Gray
-  2026-11-06 21:29:45 | Schmetgens
-  2026-11-06 23:01:07 | Itakura
-  2026-11-06 23:02:17 | Reitz
-  2026-11-06 23:25:55 | Keitel
-  2026-11-07 18:11:55 | Chukwuemeka
-  2026-11-07 18:29:18 | Ryerson
+  2026-10-16 23:53:21 | Schnellbacher
+  2026-10-17 09:23:13 | Uzun
+  2026-10-17 10:11:41 | Prömel
+  2026-10-17 10:23:28 | Højlund
+  2026-10-17 17:25:51 | El-Faouzi
+  2026-10-17 21:35:31 | Karetsas
+  2026-10-17 22:38:50 | Erevbenagie
+  2026-10-17 23:47:27 | Gruber
+  2026-10-19 08:48:20 | Pejčinović
+  2026-10-20 16:24:09 | Pieringer
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-07 21:40:18 | Hofmann
+  2026-10-21 00:48:02 | Adamu
+  2026-10-21 13:43:58 | Daghim
+  2026-10-21 17:13:54 | Tiago Tomás
+  2026-10-22 11:47:21 | Adeline
+  2026-10-22 14:26:44 | Grifo
+  2026-10-22 18:05:45 | Karaman
+  2026-10-22 22:11:28 | Hack
+  2026-10-22 22:11:32 | Eggestein
+  2026-10-22 22:20:53 | Lidberg
+  2026-10-22 22:38:47 | Wöber
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Jung' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Flekken' nicht in ÜberMarktGelaufen.txt gefunden. ===
