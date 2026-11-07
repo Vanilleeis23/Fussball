@@ -1,4 +1,3 @@
-Inácio | 769,041 € | Market | 2026-11-07 12:07:53
 Schlager | 500,000 € | Market | 2026-11-07 13:45:29
 Baumgartner | 13,286,164 € | Market | 2026-11-07 14:23:32
 Klaas | 500,000 € | Market | 2026-11-07 14:33:51
@@ -15,11 +14,14 @@ Klaus | 500,000 € | Market | 2026-11-08 06:31:19
 Gruber | 7,950,437 € | Market | 2026-11-08 06:48:28
 Schmahl | 3,243,472 € | Market | 2026-11-08 07:01:27
 Yilmaz | 500,000 € | Market | 2026-11-08 08:29:39
+Herold | 797,902 € | Market | 2026-11-08 13:31:48
 Stöger | 1,805,854 € | Market | 2026-11-08 17:09:41
+Campbell | 6,322,949 € | Market | 2026-11-08 22:33:57
 Millgramm | 500,000 € | Market | 2026-11-09 00:46:29
 Lynen | 2,373,697 € | Market | 2026-11-09 07:31:34
 Götze | 4,630,521 € | Vanilleeis23 | Kein Ablaufdatum
 Ache | 5,212,986 € | Vincent  | Kein Ablaufdatum
+Schallenberg | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Onyeka | 7,093,890 € | Robinho | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
 Spalt | 1,520,980 € | Vanilleeis23 | Kein Ablaufdatum

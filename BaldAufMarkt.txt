@@ -28,4 +28,4 @@
   2026-10-22 22:11:32 | Eggestein
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Campbell' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Baum' nicht in ÜberMarktGelaufen.txt gefunden. ===
