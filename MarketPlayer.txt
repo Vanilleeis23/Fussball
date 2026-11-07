@@ -1,9 +1,3 @@
-Widmer | 1,317,555 € | Market | 2026-11-07 06:18:35
-Karetsas | 18,025,539 € | Market | 2026-11-07 06:32:29
-Schallenberg | 500,000 € | Market | 2026-11-07 07:31:46
-Lochoshvili | 8,136,748 € | Market | 2026-11-07 08:41:22
-Højlund | 500,000 € | Market | 2026-11-07 10:26:28
-Prömel | 10,875,007 € | Market | 2026-11-07 10:49:59
 Inácio | 769,041 € | Market | 2026-11-07 12:07:53
 Schlager | 500,000 € | Market | 2026-11-07 13:45:29
 Baumgartner | 13,286,164 € | Market | 2026-11-07 14:23:32
@@ -15,11 +9,15 @@ Klostermann | 500,000 € | Market | 2026-11-07 18:09:13
 Nakuzola | 500,000 € | Market | 2026-11-07 20:51:33
 Uzun | 24,478,357 € | Market | 2026-11-08 01:18:08
 Funk | 500,000 € | Market | 2026-11-08 03:01:52
+Arthur | 10,848,067 € | Market | 2026-11-08 03:54:35
 Remberg | 1,735,281 € | Market | 2026-11-08 06:05:05
 Klaus | 500,000 € | Market | 2026-11-08 06:31:19
 Gruber | 7,950,437 € | Market | 2026-11-08 06:48:28
 Schmahl | 3,243,472 € | Market | 2026-11-08 07:01:27
+Yilmaz | 500,000 € | Market | 2026-11-08 08:29:39
 Stöger | 1,805,854 € | Market | 2026-11-08 17:09:41
+Millgramm | 500,000 € | Market | 2026-11-09 00:46:29
+Lynen | 2,373,697 € | Market | 2026-11-09 07:31:34
 Götze | 4,630,521 € | Vanilleeis23 | Kein Ablaufdatum
 Ache | 5,212,986 € | Vincent  | Kein Ablaufdatum
 Onyeka | 7,093,890 € | Robinho | Kein Ablaufdatum

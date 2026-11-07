@@ -1,5 +1,3 @@
-Tanaka | 7,952,901 € | Market | 2026-11-07 00:06:20
-Bernardo | 3,820,163 € | Market | 2026-11-07 02:29:46
 Widmer | 1,317,555 € | Market | 2026-11-07 06:18:35
 Karetsas | 18,025,539 € | Market | 2026-11-07 06:32:29
 Schallenberg | 500,000 € | Market | 2026-11-07 07:31:46
@@ -12,6 +10,7 @@ Baumgartner | 13,286,164 € | Market | 2026-11-07 14:23:32
 Klaas | 500,000 € | Market | 2026-11-07 14:33:51
 Ilic | 1,016,079 € | Market | 2026-11-07 14:54:13
 Santos | 500,000 € | Market | 2026-11-07 15:16:03
+Pejčinović | 6,326,917 € | Market | 2026-11-07 16:45:00
 Klostermann | 500,000 € | Market | 2026-11-07 18:09:13
 Nakuzola | 500,000 € | Market | 2026-11-07 20:51:33
 Uzun | 24,478,357 € | Market | 2026-11-08 01:18:08
@@ -20,6 +19,7 @@ Remberg | 1,735,281 € | Market | 2026-11-08 06:05:05
 Klaus | 500,000 € | Market | 2026-11-08 06:31:19
 Gruber | 7,950,437 € | Market | 2026-11-08 06:48:28
 Schmahl | 3,243,472 € | Market | 2026-11-08 07:01:27
+Stöger | 1,805,854 € | Market | 2026-11-08 17:09:41
 Götze | 4,630,521 € | Vanilleeis23 | Kein Ablaufdatum
 Ache | 5,212,986 € | Vincent  | Kein Ablaufdatum
 Onyeka | 7,093,890 € | Robinho | Kein Ablaufdatum
