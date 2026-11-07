@@ -2,11 +2,11 @@ Summen pro Nutzer (absteigend sortiert):
 
 Vanilleeis23 : 24.845.014 € (Kontostand: 7.818.248 €, Spieler auf dem Markt: 17.026.766 €)
 Vincent : 15.845.000 € (Kontostand: 10.132.014 €, Spieler auf dem Markt: 5.712.986 €)
-Robinho : 7.988.986 € (Kontostand: 895.096 €, Spieler auf dem Markt: 7.093.890 €)
 Braunbär7 : 7.935.367 € (Kontostand: 6.935.367 €, Spieler auf dem Markt: 1.000.000 €)
-CoachLeisi : 7.696.560 € (Kontostand: 1.184.040 €, Spieler auf dem Markt: 6.512.520 €)
+CoachLeisi : 7.696.560 € (Kontostand: 7.696.560 €, Spieler auf dem Markt: 0 €)
 Julian : 4.966.012 € (Kontostand: 4.966.012 €, Spieler auf dem Markt: 0 €)
 Philipp : 2.765.601 € (Kontostand: 2.765.601 €, Spieler auf dem Markt: 0 €)
+Robinho : 1.638.986 € (Kontostand: -5.454.904 €, Spieler auf dem Markt: 7.093.890 €)
 Timo Kramer : 1.249.304 € (Kontostand: 1.249.304 €, Spieler auf dem Markt: 0 €)
 Sascha187 : -4.495.731 € (Kontostand: -4.495.731 €, Spieler auf dem Markt: 0 €)
 MirkoHengst : -15.017.761 € (Kontostand: -15.017.761 €, Spieler auf dem Markt: 0 €)

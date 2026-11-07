@@ -1,4 +1,3 @@
-Pejčinović | 6,326,917 € | Market | 2026-11-07 16:45:00
 Klostermann | 500,000 € | Market | 2026-11-07 18:09:13
 Nakuzola | 500,000 € | Market | 2026-11-07 20:51:33
 Uzun | 24,478,357 € | Market | 2026-11-08 01:18:08
@@ -13,6 +12,7 @@ Yilmaz | 500,000 € | Market | 2026-11-08 08:29:39
 Burger | 17,115,382 € | Market | 2026-11-08 10:21:07
 Herold | 797,902 € | Market | 2026-11-08 13:31:48
 Stöger | 1,805,854 € | Market | 2026-11-08 17:09:41
+Becker | 3,697,176 € | Market | 2026-11-08 18:16:53
 Baum | 9,269,635 € | Market | 2026-11-08 20:36:06
 Campbell | 6,322,949 € | Market | 2026-11-08 22:33:57
 Millgramm | 500,000 € | Market | 2026-11-09 00:46:29
@@ -21,7 +21,6 @@ Götze | 4,630,521 € | Vanilleeis23 | Kein Ablaufdatum
 Ache | 5,212,986 € | Vincent  | Kein Ablaufdatum
 Schallenberg | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Onyeka | 7,093,890 € | Robinho | Kein Ablaufdatum
-Chukwuemeka | 6,512,520 € | CoachLeisi | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
 Spalt | 1,520,980 € | Vanilleeis23 | Kein Ablaufdatum
 Okon-Engstler | 3,460,224 € | Vanilleeis23 | Kein Ablaufdatum

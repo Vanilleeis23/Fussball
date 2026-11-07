@@ -1,8 +1,3 @@
-Schlager | 500,000 € | Market | 2026-11-07 13:45:29
-Baumgartner | 13,286,164 € | Market | 2026-11-07 14:23:32
-Klaas | 500,000 € | Market | 2026-11-07 14:33:51
-Ilic | 1,016,079 € | Market | 2026-11-07 14:54:13
-Santos | 500,000 € | Market | 2026-11-07 15:16:03
 Pejčinović | 6,326,917 € | Market | 2026-11-07 16:45:00
 Klostermann | 500,000 € | Market | 2026-11-07 18:09:13
 Nakuzola | 500,000 € | Market | 2026-11-07 20:51:33
@@ -13,9 +8,12 @@ Remberg | 1,735,281 € | Market | 2026-11-08 06:05:05
 Klaus | 500,000 € | Market | 2026-11-08 06:31:19
 Gruber | 7,950,437 € | Market | 2026-11-08 06:48:28
 Schmahl | 3,243,472 € | Market | 2026-11-08 07:01:27
+Erevbenagie | 594,777 € | Market | 2026-11-08 08:04:01
 Yilmaz | 500,000 € | Market | 2026-11-08 08:29:39
+Burger | 17,115,382 € | Market | 2026-11-08 10:21:07
 Herold | 797,902 € | Market | 2026-11-08 13:31:48
 Stöger | 1,805,854 € | Market | 2026-11-08 17:09:41
+Baum | 9,269,635 € | Market | 2026-11-08 20:36:06
 Campbell | 6,322,949 € | Market | 2026-11-08 22:33:57
 Millgramm | 500,000 € | Market | 2026-11-09 00:46:29
 Lynen | 2,373,697 € | Market | 2026-11-09 07:31:34
@@ -23,6 +21,7 @@ Götze | 4,630,521 € | Vanilleeis23 | Kein Ablaufdatum
 Ache | 5,212,986 € | Vincent  | Kein Ablaufdatum
 Schallenberg | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Onyeka | 7,093,890 € | Robinho | Kein Ablaufdatum
+Chukwuemeka | 6,512,520 € | CoachLeisi | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
 Spalt | 1,520,980 € | Vanilleeis23 | Kein Ablaufdatum
 Okon-Engstler | 3,460,224 € | Vanilleeis23 | Kein Ablaufdatum
