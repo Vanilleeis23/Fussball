@@ -1,22 +1,24 @@
-Yilmaz | 500,000 € | Market | 2026-11-08 08:29:39
-Njinmah | 1,912,954 € | Market | 2026-11-08 08:33:51
-Burger | 17,309,040 € | Market | 2026-11-08 10:21:07
-Herold | 689,897 € | Market | 2026-11-08 13:31:48
-Lerma | 500,000 € | Market | 2026-11-08 15:34:45
 Stöger | 1,687,467 € | Market | 2026-11-08 17:09:41
 Becker | 3,973,927 € | Market | 2026-11-08 18:16:53
 Baum | 9,444,306 € | Market | 2026-11-08 20:36:06
 Wolf | 7,071,733 € | Market | 2026-11-08 21:37:27
 Daghim | 15,913,927 € | Market | 2026-11-08 22:11:41
 Campbell | 5,963,665 € | Market | 2026-11-08 22:33:57
+Sabitzer | 4,906,938 € | Market | 2026-11-08 23:09:47
 Flekken | 9,900,178 € | Market | 2026-11-08 23:41:43
 Millgramm | 500,000 € | Market | 2026-11-09 00:46:29
 Jung | 500,000 € | Market | 2026-11-09 02:02:48
+Kramarić | 8,698,242 € | Market | 2026-11-09 03:56:44
 Maluze | 5,443,545 € | Market | 2026-11-09 04:29:43
 Lynen | 2,558,889 € | Market | 2026-11-09 07:31:34
 Juranović | 4,177,722 € | Market | 2026-11-09 07:42:37
 Adamu | 2,592,542 € | Market | 2026-11-09 11:42:56
 Neuer | 6,944,763 € | Market | 2026-11-09 20:58:24
+Sambi Lokonga | 5,181,392 € | Market | 2026-11-09 22:32:44
+Hollerbach | 1,900,696 € | Market | 2026-11-09 23:05:48
+Machino | 7,302,000 € | Market | 2026-11-10 07:27:48
+Waldschmidt | 694,428 € | Market | 2026-11-10 10:36:45
+Grahl | 500,000 € | Market | 2026-11-10 11:20:50
 Dahmen | 16,783,179 € | Sascha187 | Kein Ablaufdatum
 Ache | 5,275,628 € | Vincent  | Kein Ablaufdatum
 Schallenberg | 500,000 € | Braunbär7 | Kein Ablaufdatum
@@ -26,6 +28,7 @@ Onyeka | 7,075,563 € | Robinho | Kein Ablaufdatum
 Behrens | 14,367,285 € | Sascha187 | Kein Ablaufdatum
 Suzuki | 19,589,539 € | Braunbär7 | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
+Tanaka | 7,920,520 € | Timo Kramer  | Kein Ablaufdatum
 Spalt | 2,033,751 € | Vanilleeis23 | Kein Ablaufdatum
 Okon-Engstler | 3,847,171 € | Vanilleeis23 | Kein Ablaufdatum
 Abraha | 2,464,861 € | Vanilleeis23 | Kein Ablaufdatum
