@@ -1,11 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Flekken (2026-10-20 21:31:50) [Transactionen.txt]
+ REFERENZ: Daghim (2026-10-21 13:43:58) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-16 23:53:21 | Schnellbacher
-  2026-10-17 09:23:13 | Uzun
   2026-10-17 10:11:41 | Prömel
   2026-10-17 10:23:28 | Højlund
   2026-10-17 17:25:51 | El-Faouzi
@@ -14,10 +12,10 @@
   2026-10-17 23:47:27 | Gruber
   2026-10-19 08:48:20 | Pejčinović
   2026-10-20 16:24:09 | Pieringer
+  2026-10-20 21:31:50 | Flekken
+  2026-10-21 00:48:02 | Adamu
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-21 00:48:02 | Adamu
-  2026-10-21 13:43:58 | Daghim
   2026-10-21 17:13:54 | Tiago Tomás
   2026-10-22 11:47:21 | Adeline
   2026-10-22 14:26:44 | Grifo
@@ -26,6 +24,8 @@
   2026-10-22 22:11:32 | Eggestein
   2026-10-22 22:20:53 | Lidberg
   2026-10-22 22:38:47 | Wöber
+  2026-10-22 22:40:49 | Lemperle
+  2026-10-23 13:46:52 | Mane
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Flekken' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Daghim' nicht in ÜberMarktGelaufen.txt gefunden. ===
