@@ -1,6 +1,3 @@
-Stöger | 1,687,467 € | Market | 2026-11-08 17:09:41
-Becker | 3,973,927 € | Market | 2026-11-08 18:16:53
-Baum | 9,444,306 € | Market | 2026-11-08 20:36:06
 Wolf | 7,071,733 € | Market | 2026-11-08 21:37:27
 Daghim | 15,913,927 € | Market | 2026-11-08 22:11:41
 Campbell | 5,963,665 € | Market | 2026-11-08 22:33:57
@@ -13,10 +10,13 @@ Maluze | 5,443,545 € | Market | 2026-11-09 04:29:43
 Lynen | 2,558,889 € | Market | 2026-11-09 07:31:34
 Juranović | 4,177,722 € | Market | 2026-11-09 07:42:37
 Adamu | 2,592,542 € | Market | 2026-11-09 11:42:56
+Köbbing | 500,000 € | Market | 2026-11-09 17:12:49
 Neuer | 6,944,763 € | Market | 2026-11-09 20:58:24
+Karl | 16,520,687 € | Market | 2026-11-09 22:26:42
 Sambi Lokonga | 5,181,392 € | Market | 2026-11-09 22:32:44
 Hollerbach | 1,900,696 € | Market | 2026-11-09 23:05:48
 Machino | 7,302,000 € | Market | 2026-11-10 07:27:48
+Tiago Tomás | 3,079,297 € | Market | 2026-11-10 10:18:42
 Waldschmidt | 694,428 € | Market | 2026-11-10 10:36:45
 Grahl | 500,000 € | Market | 2026-11-10 11:20:50
 Dahmen | 16,783,179 € | Sascha187 | Kein Ablaufdatum
@@ -25,6 +25,7 @@ Schallenberg | 500,000 € | Braunbär7 | Kein Ablaufdatum
 El-Faouzi | 5,007,283 € | Sascha187 | Kein Ablaufdatum
 Curda | 11,973,991 € | Sascha187 | Kein Ablaufdatum
 Onyeka | 7,075,563 € | Robinho | Kein Ablaufdatum
+Becker | 3,973,927 € | Robinho | Kein Ablaufdatum
 Behrens | 14,367,285 € | Sascha187 | Kein Ablaufdatum
 Suzuki | 19,589,539 € | Braunbär7 | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
@@ -32,5 +33,6 @@ Tanaka | 7,920,520 € | Timo Kramer  | Kein Ablaufdatum
 Spalt | 2,033,751 € | Vanilleeis23 | Kein Ablaufdatum
 Okon-Engstler | 3,847,171 € | Vanilleeis23 | Kein Ablaufdatum
 Abraha | 2,464,861 € | Vanilleeis23 | Kein Ablaufdatum
+Moreira | 15,074,753 € | CoachLeisi | Kein Ablaufdatum
 Otávio | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Moffi | 5,372,704 € | Vanilleeis23 | Kein Ablaufdatum
