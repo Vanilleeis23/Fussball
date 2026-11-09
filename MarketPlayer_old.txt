@@ -1,38 +1,34 @@
-Wolf | 7,071,733 € | Market | 2026-11-08 21:37:27
-Daghim | 15,913,927 € | Market | 2026-11-08 22:11:41
-Campbell | 5,963,665 € | Market | 2026-11-08 22:33:57
-Sabitzer | 4,906,938 € | Market | 2026-11-08 23:09:47
-Flekken | 9,900,178 € | Market | 2026-11-08 23:41:43
 Millgramm | 500,000 € | Market | 2026-11-09 00:46:29
 Jung | 500,000 € | Market | 2026-11-09 02:02:48
-Kramarić | 8,698,242 € | Market | 2026-11-09 03:56:44
-Maluze | 5,443,545 € | Market | 2026-11-09 04:29:43
-Lynen | 2,558,889 € | Market | 2026-11-09 07:31:34
-Juranović | 4,177,722 € | Market | 2026-11-09 07:42:37
-Adamu | 2,592,542 € | Market | 2026-11-09 11:42:56
+Kramarić | 8,944,337 € | Market | 2026-11-09 03:56:44
+Maluze | 5,482,464 € | Market | 2026-11-09 04:29:43
+Lynen | 2,865,555 € | Market | 2026-11-09 07:31:34
+Juranović | 4,097,214 € | Market | 2026-11-09 07:42:37
+Adamu | 2,508,765 € | Market | 2026-11-09 11:42:56
 Köbbing | 500,000 € | Market | 2026-11-09 17:12:49
-Neuer | 6,944,763 € | Market | 2026-11-09 20:58:24
-Karl | 16,520,687 € | Market | 2026-11-09 22:26:42
-Sambi Lokonga | 5,181,392 € | Market | 2026-11-09 22:32:44
-Hollerbach | 1,900,696 € | Market | 2026-11-09 23:05:48
-Machino | 7,302,000 € | Market | 2026-11-10 07:27:48
-Tiago Tomás | 3,079,297 € | Market | 2026-11-10 10:18:42
-Waldschmidt | 694,428 € | Market | 2026-11-10 10:36:45
+Heskey | 500,000 € | Market | 2026-11-09 17:30:37
+Neuer | 6,760,320 € | Market | 2026-11-09 20:58:24
+Karl | 16,767,959 € | Market | 2026-11-09 22:26:42
+Sambi Lokonga | 5,460,474 € | Market | 2026-11-09 22:32:44
+Hollerbach | 1,895,181 € | Market | 2026-11-09 23:05:48
+Dina Ebimbe | 3,901,549 € | Market | 2026-11-10 02:54:49
+Adeline | 3,792,839 € | Market | 2026-11-10 05:08:40
+Machino | 7,016,565 € | Market | 2026-11-10 07:27:48
+Ljubičić | 500,000 € | Market | 2026-11-10 08:31:49
+Tiago Tomás | 3,232,344 € | Market | 2026-11-10 10:18:42
+Waldschmidt | 577,221 € | Market | 2026-11-10 10:36:45
 Grahl | 500,000 € | Market | 2026-11-10 11:20:50
-Dahmen | 16,783,179 € | Sascha187 | Kein Ablaufdatum
-Ache | 5,275,628 € | Vincent  | Kein Ablaufdatum
-Schallenberg | 500,000 € | Braunbär7 | Kein Ablaufdatum
-El-Faouzi | 5,007,283 € | Sascha187 | Kein Ablaufdatum
-Curda | 11,973,991 € | Sascha187 | Kein Ablaufdatum
-Onyeka | 7,075,563 € | Robinho | Kein Ablaufdatum
-Becker | 3,973,927 € | Robinho | Kein Ablaufdatum
-Behrens | 14,367,285 € | Sascha187 | Kein Ablaufdatum
-Suzuki | 19,589,539 € | Braunbär7 | Kein Ablaufdatum
+Dahmen | 16,372,653 € | Sascha187 | Kein Ablaufdatum
+Ache | 5,418,040 € | Vincent  | Kein Ablaufdatum
+El-Faouzi | 5,114,150 € | Sascha187 | Kein Ablaufdatum
+Curda | 11,795,807 € | Sascha187 | Kein Ablaufdatum
+Becker | 4,341,125 € | Robinho | Kein Ablaufdatum
+Behrens | 14,423,442 € | Sascha187 | Kein Ablaufdatum
+Suzuki | 19,659,227 € | Braunbär7 | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
-Tanaka | 7,920,520 € | Timo Kramer  | Kein Ablaufdatum
-Spalt | 2,033,751 € | Vanilleeis23 | Kein Ablaufdatum
-Okon-Engstler | 3,847,171 € | Vanilleeis23 | Kein Ablaufdatum
-Abraha | 2,464,861 € | Vanilleeis23 | Kein Ablaufdatum
-Moreira | 15,074,753 € | CoachLeisi | Kein Ablaufdatum
+Tanaka | 7,860,836 € | Timo Kramer  | Kein Ablaufdatum
+Spalt | 2,571,249 € | Vanilleeis23 | Kein Ablaufdatum
+Okon-Engstler | 4,265,156 € | Vanilleeis23 | Kein Ablaufdatum
+Moreira | 15,138,800 € | CoachLeisi | Kein Ablaufdatum
 Otávio | 500,000 € | Braunbär7 | Kein Ablaufdatum
-Moffi | 5,372,704 € | Vanilleeis23 | Kein Ablaufdatum
+Moffi | 5,687,349 € | Vanilleeis23 | Kein Ablaufdatum
