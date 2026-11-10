@@ -1,20 +1,24 @@
-Grahl | 500,000 € | Market | 2026-11-10 11:20:50
-Martel | 3,361,289 € | Market | 2026-11-10 13:05:08
-Batista Meier | 500,000 € | Market | 2026-11-10 18:19:28
 Pieringer | 3,161,259 € | Market | 2026-11-10 18:58:53
 Sander | 7,591,602 € | Market | 2026-11-10 22:00:27
 Wöber | 2,167,613 € | Market | 2026-11-11 02:34:46
 Lidberg | 3,049,950 € | Market | 2026-11-11 06:47:17
 Imeri | 2,954,810 € | Market | 2026-11-11 08:58:50
+van den Berg | 500,000 € | Market | 2026-11-11 10:14:58
+Ullrich | 4,783,834 € | Market | 2026-11-11 10:46:40
 Lemperle | 7,687,954 € | Market | 2026-11-11 12:11:48
 Andrich | 4,028,289 € | Market | 2026-11-11 13:27:54
 Mane | 1,816,064 € | Market | 2026-11-11 15:54:48
+Røssing-Lelesiit | 1,770,128 € | Market | 2026-11-11 16:12:26
+Raab | 500,000 € | Market | 2026-11-11 17:18:01
+Höler | 2,903,471 € | Market | 2026-11-11 17:22:15
 Nyland | 909,203 € | Market | 2026-11-11 21:22:37
 Diks | 7,659,777 € | Market | 2026-11-11 21:39:01
 Eggestein | 22,236,584 € | Market | 2026-11-11 21:45:35
 Yamamoto | 2,833,199 € | Market | 2026-11-12 00:48:11
 Pruhs | 500,000 € | Market | 2026-11-12 01:57:34
 Goto | 4,862,933 € | Market | 2026-11-12 04:32:36
+Soylu | 500,000 € | Market | 2026-11-12 06:17:18
+Drewes | 500,000 € | Market | 2026-11-12 09:51:45
 Karius | 16,724,497 € | Vanilleeis23 | Kein Ablaufdatum
 Kramarić | 9,219,335 € | Braunbär7 | Kein Ablaufdatum
 Ache | 5,638,025 € | Vincent  | Kein Ablaufdatum
