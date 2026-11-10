@@ -1,10 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Mane (2026-10-23 13:46:52) [Transactionen.txt]
+ REFERENZ: Diks (2026-10-23 14:58:43) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-21 13:43:58 | Daghim
   2026-10-21 17:13:54 | Tiago Tomás
   2026-10-22 11:47:21 | Adeline
   2026-10-22 14:26:44 | Grifo
@@ -14,9 +13,9 @@
   2026-10-22 22:20:53 | Lidberg
   2026-10-22 22:38:47 | Wöber
   2026-10-22 22:40:49 | Lemperle
+  2026-10-23 13:46:52 | Mane
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-23 14:58:43 | Diks
   2026-10-23 16:24:16 | Sander
   2026-10-23 17:50:34 | Goto
   2026-10-23 17:51:19 | Lemke
@@ -26,34 +25,35 @@
   2026-10-23 19:16:30 | Gantenbein
   2026-10-23 19:35:17 | Ullrich
   2026-10-23 19:35:49 | Kosugi
+  2026-10-23 19:38:37 | Demirović
 
 
 ==================================================
  ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Mane (2026-11-10 00:30:48) [ÜberMarktGelaufen.txt]
+ REFERENZ: Yamamoto (2026-11-10 03:44:11) [ÜberMarktGelaufen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-02 11:44:12 | Kolke
-  2026-10-02 11:44:12 | Labrović
-  2026-10-02 11:44:12 | Nyland
-  2026-10-02 11:44:12 | Schlager
-  2026-10-03 03:11:18 | Batz
-  2026-10-03 03:11:18 | Waldschmidt
-  2026-10-03 08:14:00 | Stalmach
-  2026-10-03 19:15:41 | Njinmah
-  2026-10-03 23:13:08 | Hendriks
-  2026-10-03 23:13:08 | Osterhage
+  2026-10-19 03:16:47 | Schlager
+  2026-10-19 17:35:02 | Njinmah
+  2026-10-20 02:18:51 | Waldschmidt
+  2026-10-20 07:59:56 | Pimpong
+  2026-10-20 13:33:44 | Heskey
+  2026-10-21 12:07:07 | Siebeking
+  2026-10-21 17:13:28 | Batista Meier
+  2026-10-22 06:41:48 | Kramarić
+  2026-10-22 09:03:35 | Karl
+  2026-10-22 17:16:00 | Andrich
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-04 07:44:29 | Reitz <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-10-04 14:19:52 | Andrich <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-04 14:19:52 | Chaïbi
-  2026-10-05 09:01:41 | Futkeu
-  2026-10-05 17:59:11 | Kramarić <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN, KÜRZLICH GEKAUFT)
-  2026-10-06 00:36:37 | Karl <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-10-06 00:36:37 | Kawasaki
-  2026-10-06 04:57:25 | Ribeiro
-  2026-10-06 04:57:25 | Yamamoto
-  2026-10-06 12:15:31 | Leopold
+  2026-10-23 08:39:21 | Kohr
+  2026-10-23 14:15:33 | Lehmann
+  2026-10-23 14:15:33 | Ribeiro
+  2026-10-23 17:02:53 | Nyland
+  2026-10-23 19:48:00 | Futkeu
+  2026-10-24 12:51:56 | Labrović
+  2026-10-24 12:51:56 | Stalmach
+  2026-10-25 01:12:19 | Batz
+  2026-10-25 02:12:42 | Kolke
+  2026-10-25 07:10:44 | Danfa
 
