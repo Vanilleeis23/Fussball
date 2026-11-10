@@ -1,32 +1,33 @@
-Adeline | 4,038,843 € | Market | 2026-11-10 05:08:41
-Machino | 6,404,880 € | Market | 2026-11-10 07:27:49
-Ruoppi | 500,000 € | Market | 2026-11-10 08:04:58
-Al Dakhil | 500,000 € | Market | 2026-11-10 08:08:05
-Ljubičić | 500,000 € | Market | 2026-11-10 08:31:50
-Tiago Tomás | 3,524,419 € | Market | 2026-11-10 10:18:43
-Waldschmidt | 500,000 € | Market | 2026-11-10 10:36:46
-Grahl | 500,000 € | Market | 2026-11-10 11:20:51
-Martel | 3,361,289 € | Market | 2026-11-10 13:05:09
-Batista Meier | 500,000 € | Market | 2026-11-10 18:19:29
-Pieringer | 3,161,259 € | Market | 2026-11-10 18:58:54
-Wöber | 2,167,613 € | Market | 2026-11-11 02:34:47
-Lidberg | 3,049,950 € | Market | 2026-11-11 06:47:18
-Lemperle | 7,687,954 € | Market | 2026-11-11 12:11:49
-Andrich | 4,028,289 € | Market | 2026-11-11 13:27:55
-Mane | 1,816,064 € | Market | 2026-11-11 15:54:49
-Diks | 7,659,777 € | Market | 2026-11-11 21:39:02
-Eggestein | 22,236,584 € | Market | 2026-11-11 21:45:36
-Yamamoto | 2,833,199 € | Market | 2026-11-12 00:48:12
+Grahl | 500,000 € | Market | 2026-11-10 11:20:50
+Martel | 3,361,289 € | Market | 2026-11-10 13:05:08
+Batista Meier | 500,000 € | Market | 2026-11-10 18:19:28
+Pieringer | 3,161,259 € | Market | 2026-11-10 18:58:53
+Sander | 7,591,602 € | Market | 2026-11-10 22:00:27
+Wöber | 2,167,613 € | Market | 2026-11-11 02:34:46
+Lidberg | 3,049,950 € | Market | 2026-11-11 06:47:17
+Imeri | 2,954,810 € | Market | 2026-11-11 08:58:50
+Lemperle | 7,687,954 € | Market | 2026-11-11 12:11:48
+Andrich | 4,028,289 € | Market | 2026-11-11 13:27:54
+Mane | 1,816,064 € | Market | 2026-11-11 15:54:48
+Nyland | 909,203 € | Market | 2026-11-11 21:22:37
+Diks | 7,659,777 € | Market | 2026-11-11 21:39:01
+Eggestein | 22,236,584 € | Market | 2026-11-11 21:45:35
+Yamamoto | 2,833,199 € | Market | 2026-11-12 00:48:11
+Pruhs | 500,000 € | Market | 2026-11-12 01:57:34
+Goto | 4,862,933 € | Market | 2026-11-12 04:32:36
 Karius | 16,724,497 € | Vanilleeis23 | Kein Ablaufdatum
 Kramarić | 9,219,335 € | Braunbär7 | Kein Ablaufdatum
 Ache | 5,638,025 € | Vincent  | Kein Ablaufdatum
+Hollerbach | 1,976,844 € | Robinho | Kein Ablaufdatum
 Adamu | 2,535,979 € | Braunbär7 | Kein Ablaufdatum
 Arthur | 11,348,934 € | Robinho | Kein Ablaufdatum
 Becker | 4,723,483 € | Robinho | Kein Ablaufdatum
+Sambi Lokonga | 5,787,007 € | Braunbär7 | Kein Ablaufdatum
 Suzuki | 19,728,948 € | Braunbär7 | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
 Spalt | 3,113,423 € | Vanilleeis23 | Kein Ablaufdatum
 Okon-Engstler | 4,693,491 € | Vanilleeis23 | Kein Ablaufdatum
 Moreira | 15,219,702 € | CoachLeisi | Kein Ablaufdatum
+Adeline | 4,038,843 € | Robinho | Kein Ablaufdatum
 Otávio | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Moffi | 6,027,177 € | Vanilleeis23 | Kein Ablaufdatum
