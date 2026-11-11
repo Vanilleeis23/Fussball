@@ -1,5 +1,3 @@
-Wöber | 2,044,303 € | Market | 2026-11-11 02:34:46
-Lidberg | 2,951,829 € | Market | 2026-11-11 06:47:17
 Imeri | 3,323,242 € | Market | 2026-11-11 08:58:50
 Silas | 690,235 € | Market | 2026-11-11 10:09:40
 van den Berg | 500,000 € | Market | 2026-11-11 10:14:58
@@ -16,9 +14,11 @@ Eggestein | 22,335,396 € | Market | 2026-11-11 21:45:35
 Yamamoto | 2,702,606 € | Market | 2026-11-12 00:48:11
 Pruhs | 500,000 € | Market | 2026-11-12 01:57:34
 Goto | 5,096,210 € | Market | 2026-11-12 04:32:36
+Futkeu | 2,943,895 € | Market | 2026-11-12 04:47:53
 Soylu | 500,000 € | Market | 2026-11-12 06:17:18
 Ribeiro | 3,155,325 € | Market | 2026-11-12 06:43:49
 Lemke | 2,887,433 € | Market | 2026-11-12 07:47:01
+Gantenbein | 2,271,782 € | Market | 2026-11-12 09:14:46
 Drewes | 500,000 € | Market | 2026-11-12 09:51:45
 Kramarić | 9,513,758 € | Braunbär7 | Kein Ablaufdatum
 Ache | 5,931,711 € | Vincent  | Kein Ablaufdatum
