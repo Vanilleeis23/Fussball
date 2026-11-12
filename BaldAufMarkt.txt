@@ -1,12 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Gregoritsch (2026-10-23 20:00:21) [Transactionen.txt]
+ REFERENZ: Bah (2026-10-23 20:06:50) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-23 17:50:34 | Goto
-  2026-10-23 17:51:19 | Lemke
-  2026-10-23 17:56:06 | Imeri
   2026-10-23 17:56:14 | Stark
   2026-10-23 19:16:26 | Höler
   2026-10-23 19:16:30 | Gantenbein
@@ -14,18 +11,21 @@
   2026-10-23 19:35:49 | Kosugi
   2026-10-23 19:38:37 | Demirović
   2026-10-23 19:38:42 | Fellhauer
+  2026-10-23 20:00:21 | Gregoritsch
+  2026-10-23 20:00:24 | Kühn
+  2026-10-23 20:06:46 | Keidel
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-23 20:00:24 | Kühn <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-23 20:06:46 | Keidel <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-23 20:06:50 | Bah
   2026-10-23 20:12:15 | Sebulonsen
   2026-10-23 20:15:52 | Hansen <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-10-24 15:50:54 | Uduokhai
-  2026-10-24 18:33:33 | Jeltsch
+  2026-10-24 18:33:33 | Jeltsch <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-10-24 21:20:53 | Uno
   2026-10-24 21:21:07 | Avdullahu
   2026-10-24 22:55:08 | Jeong
+  2026-10-25 12:40:05 | Burkardt
+  2026-10-25 20:28:01 | Vieira
+  2026-10-25 22:46:46 | Díaz
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Gregoritsch' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Oermann' nicht in ÜberMarktGelaufen.txt gefunden. ===
