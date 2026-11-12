@@ -1,11 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Avdullahu (2026-10-24 21:21:07) [Transactionen.txt]
+ REFERENZ: Burkardt (2026-10-25 12:40:05) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-23 19:38:42 | Fellhauer
-  2026-10-23 20:00:21 | Gregoritsch
   2026-10-23 20:00:24 | Kühn
   2026-10-23 20:06:46 | Keidel
   2026-10-23 20:06:50 | Bah
@@ -14,10 +12,10 @@
   2026-10-24 15:50:54 | Uduokhai
   2026-10-24 18:33:33 | Jeltsch
   2026-10-24 21:20:53 | Uno
+  2026-10-24 21:21:07 | Avdullahu
+  2026-10-24 22:55:08 | Jeong
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-24 22:55:08 | Jeong
-  2026-10-25 12:40:05 | Burkardt
   2026-10-25 20:28:01 | Vieira
   2026-10-25 22:46:46 | Díaz
   2026-10-26 20:26:45 | Diaby
@@ -26,34 +24,36 @@
   2026-10-27 23:22:01 | Poulsen
   2026-10-28 10:47:48 | Nadir
   2026-10-28 11:13:09 | Schwolow
+  2026-10-28 23:10:19 | Albert
+  2026-10-28 23:11:17 | Sauer
 
 
 ==================================================
  ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Lehmann (2026-11-12 07:20:56) [ÜberMarktGelaufen.txt]
+ REFERENZ: Amoako (2026-11-12 10:40:58) [ÜberMarktGelaufen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-20 02:18:51 | Waldschmidt
-  2026-10-20 07:59:56 | Pimpong
-  2026-10-20 13:33:44 | Heskey
-  2026-10-21 12:07:07 | Siebeking
-  2026-10-21 17:13:28 | Batista Meier
-  2026-10-22 06:41:48 | Kramarić
-  2026-10-22 09:03:35 | Karl
-  2026-10-22 17:16:00 | Andrich
-  2026-10-23 06:46:50 | Yamamoto
-  2026-10-23 08:39:21 | Kohr
+  2026-08-23 18:42:34 | Lippmann
+  2026-08-23 18:42:34 | Vogt
+  2026-08-23 19:33:23 | Gendrey
+  2026-08-24 00:36:51 | Nyland
+  2026-08-24 01:34:28 | Castañeda
+  2026-08-24 05:15:40 | Jeong
+  2026-08-24 07:00:17 | Marino
+  2026-08-24 07:52:27 | Grüll
+  2026-08-24 07:52:27 | Mensah
+  2026-08-24 12:03:06 | Petersson
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-23 14:15:33 | Ribeiro <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-23 17:02:53 | Nyland <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-23 19:48:00 | Futkeu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-24 12:51:56 | Labrović
-  2026-10-24 12:51:56 | Stalmach
-  2026-10-25 01:12:19 | Batz <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-25 02:12:42 | Kolke
-  2026-10-25 07:10:44 | Danfa
-  2026-10-26 20:17:36 | Kawasaki
-  2026-10-27 19:42:57 | Ayhan
+  2026-08-24 15:11:47 | Castrop
+  2026-08-24 16:04:00 | Hübers
+  2026-08-25 01:34:07 | Arévalo
+  2026-08-25 01:34:07 | Nartey
+  2026-08-25 03:51:36 | Osterhage
+  2026-08-25 05:12:10 | Arrhov
+  2026-08-25 05:12:10 | Führich
+  2026-08-25 05:12:10 | Köhn
+  2026-08-25 07:46:41 | Futkeu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-25 07:46:41 | Koné
 

@@ -1,9 +1,3 @@
-Goto | 5,364,801 € | Market | 2026-11-12 04:32:37
-Futkeu | 3,245,187 € | Market | 2026-11-12 04:47:54
-Fellhauer | 8,241,358 € | Market | 2026-11-12 06:12:46
-Soylu | 500,000 € | Market | 2026-11-12 06:17:19
-Ribeiro | 3,067,515 € | Market | 2026-11-12 06:43:50
-Lemke | 2,770,200 € | Market | 2026-11-12 07:47:02
 Gantenbein | 2,171,255 € | Market | 2026-11-12 09:14:47
 Drewes | 500,000 € | Market | 2026-11-12 09:51:46
 Siebeking | 500,000 € | Market | 2026-11-12 12:03:32
@@ -14,11 +8,15 @@ Bah | 3,818,968 € | Market | 2026-11-12 19:55:33
 Vozar | 500,000 € | Market | 2026-11-12 20:08:53
 Oermann | 500,000 € | Market | 2026-11-12 20:21:39
 Demirović | 16,385,233 € | Market | 2026-11-13 01:38:52
+Uduokhai | 5,344,012 € | Market | 2026-11-13 03:05:10
+Avdullahu | 14,956,953 € | Market | 2026-11-13 04:34:33
 Hansen | 9,760,433 € | Market | 2026-11-13 05:58:50
 Ndiaye | 500,000 € | Market | 2026-11-13 07:31:43
 Boey | 517,436 € | Market | 2026-11-13 07:58:23
 Gregoritsch | 16,063,193 € | Market | 2026-11-13 13:41:00
+Batz | 4,604,884 € | Market | 2026-11-13 14:12:43
 Chandler | 500,000 € | Market | 2026-11-13 14:15:53
+Lehmann | 500,000 € | Market | 2026-11-13 15:15:57
 Jeltsch | 9,056,943 € | Market | 2026-11-13 21:42:01
 Kramarić | 9,784,587 € | Braunbär7 | Kein Ablaufdatum
 Laimer | 25,171,409 € | Joel | Kein Ablaufdatum
