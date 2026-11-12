@@ -1,10 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Burkardt (2026-10-25 12:40:05) [Transactionen.txt]
+ REFERENZ: Vieira (2026-10-25 20:28:01) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-23 20:00:24 | Kühn
   2026-10-23 20:06:46 | Keidel
   2026-10-23 20:06:50 | Bah
   2026-10-23 20:12:15 | Sebulonsen
@@ -14,9 +13,9 @@
   2026-10-24 21:20:53 | Uno
   2026-10-24 21:21:07 | Avdullahu
   2026-10-24 22:55:08 | Jeong
+  2026-10-25 12:40:05 | Burkardt
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-25 20:28:01 | Vieira
   2026-10-25 22:46:46 | Díaz
   2026-10-26 20:26:45 | Diaby
   2026-10-26 22:23:15 | Brackelmann
@@ -26,34 +25,7 @@
   2026-10-28 11:13:09 | Schwolow
   2026-10-28 23:10:19 | Albert
   2026-10-28 23:11:17 | Sauer
+  2026-10-29 15:39:24 | Stiller
 
 
-==================================================
- ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Amoako (2026-11-12 10:40:58) [ÜberMarktGelaufen.txt]
-==================================================
-
---- 10 Spieler davor (historisch) ---
-  2026-08-23 18:42:34 | Lippmann
-  2026-08-23 18:42:34 | Vogt
-  2026-08-23 19:33:23 | Gendrey
-  2026-08-24 00:36:51 | Nyland
-  2026-08-24 01:34:28 | Castañeda
-  2026-08-24 05:15:40 | Jeong
-  2026-08-24 07:00:17 | Marino
-  2026-08-24 07:52:27 | Grüll
-  2026-08-24 07:52:27 | Mensah
-  2026-08-24 12:03:06 | Petersson
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-08-24 15:11:47 | Castrop
-  2026-08-24 16:04:00 | Hübers
-  2026-08-25 01:34:07 | Arévalo
-  2026-08-25 01:34:07 | Nartey
-  2026-08-25 03:51:36 | Osterhage
-  2026-08-25 05:12:10 | Arrhov
-  2026-08-25 05:12:10 | Führich
-  2026-08-25 05:12:10 | Köhn
-  2026-08-25 07:46:41 | Futkeu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-08-25 07:46:41 | Koné
-
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Prass' nicht in ÜberMarktGelaufen.txt gefunden. ===
