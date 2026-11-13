@@ -1,3 +1,6 @@
+[{"slr": "Joel"}, {"pn": "Laimer"}, {"trp": 25384585}, {"dt": "2026-11-14T00:04:37Z"}]
+[{"byr": "MirkoHengst"}, {"pn": "Zagadou"}, {"trp": 2273499}, {"dt": "2026-11-13T23:13:31Z"}]
+[{"slr": "MirkoHengst"}, {"pn": "Matanović"}, {"trp": 27097667}, {"dt": "2026-11-13T21:48:43Z"}]
 [{"byr": "Braunbär7"}, {"pn": "Le Joncour"}, {"trp": 2814222}, {"dt": "2026-11-13T17:31:20Z"}]
 [{"slr": "Braunbär7"}, {"pn": "Otávio"}, {"trp": 500000}, {"dt": "2026-11-13T15:32:20Z"}]
 [{"byr": "Robinho"}, {"pn": "Burkardt"}, {"trp": 27409000}, {"dt": "2026-11-13T15:13:44Z"}]

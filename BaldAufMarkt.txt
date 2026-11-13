@@ -1,31 +1,59 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Uno (2026-10-24 21:20:53) [Transactionen.txt]
+ REFERENZ: Brackelmann (2026-10-26 22:23:15) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-23 19:38:37 | Demirović
-  2026-10-23 19:38:42 | Fellhauer
-  2026-10-23 20:00:21 | Gregoritsch
-  2026-10-23 20:00:24 | Kühn
-  2026-10-23 20:06:46 | Keidel
-  2026-10-23 20:06:50 | Bah
-  2026-10-23 20:12:15 | Sebulonsen
   2026-10-23 20:15:52 | Hansen
   2026-10-24 15:50:54 | Uduokhai
   2026-10-24 18:33:33 | Jeltsch
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-24 21:21:07 | Avdullahu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN, KÜRZLICH GEKAUFT)
-  2026-10-24 22:55:08 | Jeong <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-25 12:40:05 | Burkardt <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-10-25 20:28:01 | Vieira <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-24 21:20:53 | Uno
+  2026-10-24 21:21:07 | Avdullahu
+  2026-10-24 22:55:08 | Jeong
+  2026-10-25 12:40:05 | Burkardt
+  2026-10-25 20:28:01 | Vieira
   2026-10-25 22:46:46 | Díaz
   2026-10-26 20:26:45 | Diaby
-  2026-10-26 22:23:15 | Brackelmann
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
   2026-10-27 10:07:04 | Fábio Silva
   2026-10-27 23:22:01 | Poulsen
   2026-10-28 10:47:48 | Nadir
+  2026-10-28 11:13:09 | Schwolow
+  2026-10-28 23:10:19 | Albert
+  2026-10-28 23:11:17 | Sauer
+  2026-10-29 15:39:24 | Stiller
+  2026-10-29 20:04:01 | Jóhannesson
+  2026-10-29 22:11:18 | Osterhage
+  2026-10-29 23:38:49 | Nmecha
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Vagnoman' nicht in ÜberMarktGelaufen.txt gefunden. ===
+==================================================
+ ÜBER DEN MARKT GELAUFEN (VERLAUF)
+ REFERENZ: Reggiani (2026-11-13 22:29:16) [ÜberMarktGelaufen.txt]
+==================================================
+
+--- 10 Spieler davor (historisch) ---
+  2026-08-20 23:42:52 | Chabot
+  2026-08-20 23:42:52 | Sauer
+  2026-08-21 00:44:18 | Pauli
+  2026-08-21 01:39:11 | Bahoya
+  2026-08-21 03:56:39 | Chaïbi
+  2026-08-21 06:53:16 | Kofane
+  2026-08-21 09:56:04 | Sebulonsen
+  2026-08-21 12:46:46 | Hansen
+  2026-08-21 12:46:46 | Tape
+  2026-08-21 15:09:56 | Dahmen
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-08-22 00:40:29 | Grüger
+  2026-08-22 01:37:12 | Michel <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-08-22 06:48:28 | Bellingham
+  2026-08-22 06:48:28 | Leopold
+  2026-08-22 08:58:24 | Mane
+  2026-08-22 12:39:17 | Kramarić <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN, KÜRZLICH GEKAUFT)
+  2026-08-22 20:48:10 | Karl <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-08-22 20:48:10 | Keitel
+  2026-08-23 01:34:15 | Konoplia
+  2026-08-23 05:14:42 | Chaves
+
