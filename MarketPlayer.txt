@@ -1,40 +1,41 @@
-Bah | 3,818,968 € | Market | 2026-11-12 19:55:32
-Vozar | 500,000 € | Market | 2026-11-12 20:08:52
-Oermann | 500,000 € | Market | 2026-11-12 20:21:38
-Demirović | 16,385,233 € | Market | 2026-11-13 01:38:51
-Uduokhai | 5,344,012 € | Market | 2026-11-13 03:05:09
-Avdullahu | 14,956,953 € | Market | 2026-11-13 04:34:32
-Hansen | 9,760,433 € | Market | 2026-11-13 05:58:49
+Demirović | 16,503,571 € | Market | 2026-11-13 01:38:51
+Uduokhai | 5,634,869 € | Market | 2026-11-13 03:05:09
+Avdullahu | 15,012,072 € | Market | 2026-11-13 04:34:32
+Hansen | 10,047,897 € | Market | 2026-11-13 05:58:49
 Ndiaye | 500,000 € | Market | 2026-11-13 07:31:42
-Boey | 517,436 € | Market | 2026-11-13 07:58:22
-Sebulonsen | 4,149,165 € | Market | 2026-11-13 08:29:14
-Gregoritsch | 16,063,193 € | Market | 2026-11-13 13:40:59
-Batz | 4,604,884 € | Market | 2026-11-13 14:12:42
-Burkardt | 27,360,951 € | Market | 2026-11-13 14:13:27
+Boey | 500,000 € | Market | 2026-11-13 07:58:22
+Sebulonsen | 4,083,719 € | Market | 2026-11-13 08:29:14
+Gregoritsch | 16,142,649 € | Market | 2026-11-13 13:40:59
+Batz | 4,954,651 € | Market | 2026-11-13 14:12:42
+Burkardt | 27,408,000 € | Market | 2026-11-13 14:13:27
 Chandler | 500,000 € | Market | 2026-11-13 14:15:52
+Kohr | 500,000 € | Market | 2026-11-13 14:58:10
 Lehmann | 500,000 € | Market | 2026-11-13 15:15:56
-Le Joncour | 1,317,399 € | Market | 2026-11-13 16:31:13
-Jeltsch | 9,056,943 € | Market | 2026-11-13 21:42:00
-Koné | 3,573,049 € | Market | 2026-11-14 08:57:11
-Amoako | 1,875,898 € | Market | 2026-11-14 10:44:58
+Le Joncour | 1,687,202 € | Market | 2026-11-13 16:31:13
+Stark | 500,000 € | Market | 2026-11-13 18:51:59
+Jeltsch | 8,948,495 € | Market | 2026-11-13 21:42:00
+Koné | 3,398,750 € | Market | 2026-11-14 08:57:11
+Amoako | 1,747,235 € | Market | 2026-11-14 10:44:58
 Gayret | 500,000 € | Market | 2026-11-14 12:06:20
-Vieira | 6,802,855 € | Market | 2026-11-14 13:28:46
-Prass | 10,380,659 € | Market | 2026-11-14 17:42:37
-Kramarić | 9,784,587 € | Braunbär7 | Kein Ablaufdatum
-Laimer | 25,171,409 € | Joel | Kein Ablaufdatum
-Silas | 1,034,463 € | Robinho | Kein Ablaufdatum
-Ache | 6,234,896 € | Vincent  | Kein Ablaufdatum
-Tiago Tomás | 4,279,639 € | Joel | Kein Ablaufdatum
-Hollerbach | 2,439,217 € | Robinho | Kein Ablaufdatum
-Adamu | 2,900,873 € | Braunbär7 | Kein Ablaufdatum
-Arthur | 11,693,127 € | Robinho | Kein Ablaufdatum
-Grüll | 19,457,313 € | Joel | Kein Ablaufdatum
-Becker | 5,467,677 € | Robinho | Kein Ablaufdatum
-Sambi Lokonga | 6,472,795 € | Braunbär7 | Kein Ablaufdatum
-Røssing-Lelesiit | 2,720,168 € | Braunbär7 | Kein Ablaufdatum
-Suzuki | 19,879,627 € | Braunbär7 | Kein Ablaufdatum
+Vieira | 7,008,359 € | Market | 2026-11-14 13:28:46
+Prass | 10,552,152 € | Market | 2026-11-14 17:42:37
+Ouédraogo | 1,497,574 € | Market | 2026-11-14 18:17:42
+Andrich | 4,064,628 € | Vanilleeis23 | Kein Ablaufdatum
+Kramarić | 10,005,576 € | Braunbär7 | Kein Ablaufdatum
+Laimer | 25,283,873 € | Joel | Kein Ablaufdatum
+Silas | 1,397,091 € | Robinho | Kein Ablaufdatum
+Ache | 6,510,159 € | Vincent  | Kein Ablaufdatum
+Tiago Tomás | 4,645,807 € | Joel | Kein Ablaufdatum
+Hollerbach | 2,720,063 € | Robinho | Kein Ablaufdatum
+Adamu | 3,153,493 € | Braunbär7 | Kein Ablaufdatum
+Arthur | 11,829,160 € | Robinho | Kein Ablaufdatum
+Grüll | 19,482,765 € | Joel | Kein Ablaufdatum
+Becker | 5,758,793 € | Robinho | Kein Ablaufdatum
+Sambi Lokonga | 6,769,626 € | Braunbär7 | Kein Ablaufdatum
+Røssing-Lelesiit | 3,135,114 € | Braunbär7 | Kein Ablaufdatum
+Suzuki | 19,929,257 € | Braunbär7 | Kein Ablaufdatum
 Fleck | 500,000 € | Vincent  | Kein Ablaufdatum
-Okon-Engstler | 5,469,727 € | Vanilleeis23 | Kein Ablaufdatum
-Adeline | 4,813,563 € | Robinho | Kein Ablaufdatum
+Okon-Engstler | 5,769,520 € | Vanilleeis23 | Kein Ablaufdatum
+Adeline | 5,211,882 € | Robinho | Kein Ablaufdatum
 Otávio | 500,000 € | Braunbär7 | Kein Ablaufdatum
-Onyedika | 11,505,443 € | Joel | Kein Ablaufdatum
+Onyedika | 11,591,061 € | Joel | Kein Ablaufdatum

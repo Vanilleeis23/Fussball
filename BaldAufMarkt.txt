@@ -28,4 +28,4 @@
   2026-10-29 15:39:24 | Stiller
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Prass' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Stark' nicht in ÜberMarktGelaufen.txt gefunden. ===

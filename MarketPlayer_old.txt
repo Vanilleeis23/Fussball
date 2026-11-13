@@ -1,7 +1,3 @@
-Siebeking | 500,000 € | Market | 2026-11-12 12:03:31
-Kosugi | 5,685,083 € | Market | 2026-11-12 13:39:50
-Keidel | 11,528,941 € | Market | 2026-11-12 16:07:30
-Michel | 500,000 € | Market | 2026-11-12 17:36:16
 Bah | 3,818,968 € | Market | 2026-11-12 19:55:32
 Vozar | 500,000 € | Market | 2026-11-12 20:08:52
 Oermann | 500,000 € | Market | 2026-11-12 20:21:38
@@ -17,8 +13,13 @@ Batz | 4,604,884 € | Market | 2026-11-13 14:12:42
 Burkardt | 27,360,951 € | Market | 2026-11-13 14:13:27
 Chandler | 500,000 € | Market | 2026-11-13 14:15:52
 Lehmann | 500,000 € | Market | 2026-11-13 15:15:56
+Le Joncour | 1,317,399 € | Market | 2026-11-13 16:31:13
 Jeltsch | 9,056,943 € | Market | 2026-11-13 21:42:00
+Koné | 3,573,049 € | Market | 2026-11-14 08:57:11
 Amoako | 1,875,898 € | Market | 2026-11-14 10:44:58
+Gayret | 500,000 € | Market | 2026-11-14 12:06:20
+Vieira | 6,802,855 € | Market | 2026-11-14 13:28:46
+Prass | 10,380,659 € | Market | 2026-11-14 17:42:37
 Kramarić | 9,784,587 € | Braunbär7 | Kein Ablaufdatum
 Laimer | 25,171,409 € | Joel | Kein Ablaufdatum
 Silas | 1,034,463 € | Robinho | Kein Ablaufdatum
@@ -37,4 +38,3 @@ Okon-Engstler | 5,469,727 € | Vanilleeis23 | Kein Ablaufdatum
 Adeline | 4,813,563 € | Robinho | Kein Ablaufdatum
 Otávio | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Onyedika | 11,505,443 € | Joel | Kein Ablaufdatum
-Moffi | 6,700,122 € | Vanilleeis23 | Kein Ablaufdatum
