@@ -1,9 +1,11 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Vieira (2026-10-25 20:28:01) [Transactionen.txt]
+ REFERENZ: Jeong (2026-10-24 22:55:08) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
+  2026-10-23 20:00:21 | Gregoritsch
+  2026-10-23 20:00:24 | Kühn
   2026-10-23 20:06:46 | Keidel
   2026-10-23 20:06:50 | Bah
   2026-10-23 20:12:15 | Sebulonsen
@@ -12,10 +14,10 @@
   2026-10-24 18:33:33 | Jeltsch
   2026-10-24 21:20:53 | Uno
   2026-10-24 21:21:07 | Avdullahu
-  2026-10-24 22:55:08 | Jeong
-  2026-10-25 12:40:05 | Burkardt
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-25 12:40:05 | Burkardt <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-25 20:28:01 | Vieira <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-10-25 22:46:46 | Díaz
   2026-10-26 20:26:45 | Diaby
   2026-10-26 22:23:15 | Brackelmann
@@ -24,8 +26,34 @@
   2026-10-28 10:47:48 | Nadir
   2026-10-28 11:13:09 | Schwolow
   2026-10-28 23:10:19 | Albert
-  2026-10-28 23:11:17 | Sauer
-  2026-10-29 15:39:24 | Stiller
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Stark' nicht in ÜberMarktGelaufen.txt gefunden. ===
+==================================================
+ ÜBER DEN MARKT GELAUFEN (VERLAUF)
+ REFERENZ: Jeong (2026-11-13 07:14:50) [ÜberMarktGelaufen.txt]
+==================================================
+
+--- 10 Spieler davor (historisch) ---
+  2026-10-04 14:19:52 | Chaïbi
+  2026-10-05 09:01:41 | Futkeu
+  2026-10-05 17:59:11 | Kramarić
+  2026-10-06 00:36:37 | Karl
+  2026-10-06 00:36:37 | Kawasaki
+  2026-10-06 04:57:25 | Ribeiro
+  2026-10-06 04:57:25 | Yamamoto
+  2026-10-06 12:15:31 | Leopold
+  2026-10-06 19:10:33 | Marino
+  2026-10-07 03:31:33 | Ayhan
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-08 08:09:56 | Stiller
+  2026-10-09 00:03:31 | Irié
+  2026-10-09 00:03:31 | Maksimović
+  2026-10-09 00:03:31 | Okon-Engstler <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-09 18:10:57 | Ogundu
+  2026-10-09 22:55:01 | Karius
+  2026-10-09 22:55:01 | Querfeld
+  2026-10-10 09:05:18 | Eichhorn
+  2026-10-11 10:48:18 | Kobel
+  2026-10-11 17:39:16 | Urbig
+
