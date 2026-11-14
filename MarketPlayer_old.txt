@@ -1,37 +1,45 @@
-Stark | 500,000 € | Market | 2026-11-13 18:51:59
-Jeltsch | 8,948,495 € | Market | 2026-11-13 21:42:00
-Zagadou | 1,273,499 € | Market | 2026-11-13 22:13:27
 Ogbus | 500,000 € | Market | 2026-11-13 23:36:41
-Müller | 1,113,080 € | Market | 2026-11-14 07:14:59
-Jeong | 3,428,438 € | Market | 2026-11-14 08:33:50
-Koné | 3,398,750 € | Market | 2026-11-14 08:57:11
-Amoako | 1,747,235 € | Market | 2026-11-14 10:44:58
+Müller | 1,365,112 € | Market | 2026-11-14 07:14:59
+Jeong | 3,306,659 € | Market | 2026-11-14 08:33:50
+Koné | 3,261,251 € | Market | 2026-11-14 08:57:11
+Culbreath | 2,071,534 € | Market | 2026-11-14 09:17:48
+Amoako | 1,619,229 € | Market | 2026-11-14 10:44:58
 Gayret | 500,000 € | Market | 2026-11-14 12:06:20
-Vieira | 7,008,359 € | Market | 2026-11-14 13:28:46
-Prass | 10,552,152 € | Market | 2026-11-14 17:42:37
-Ouédraogo | 1,497,574 € | Market | 2026-11-14 18:17:42
+Vieira | 7,278,717 € | Market | 2026-11-14 13:28:46
+Prass | 10,715,598 € | Market | 2026-11-14 17:42:37
+Díaz | 41,451,799 € | Market | 2026-11-14 18:09:15
+Ouédraogo | 1,766,271 € | Market | 2026-11-14 18:17:42
 Labrović | 500,000 € | Market | 2026-11-14 20:34:19
 Arrhov | 500,000 € | Market | 2026-11-14 22:01:54
 Gendrey | 500,000 € | Market | 2026-11-14 22:30:59
-Uno | 5,053,131 € | Market | 2026-11-14 22:42:14
-Vagnoman | 7,260,399 € | Market | 2026-11-15 04:02:32
-Moerstedt | 1,149,310 € | Market | 2026-11-15 08:16:15
-Andrich | 4,064,628 € | Vanilleeis23 | Kein Ablaufdatum
-Kramarić | 10,005,576 € | Braunbär7 | Kein Ablaufdatum
-Laimer | 25,283,873 € | Joel | Kein Ablaufdatum
-Silas | 1,397,091 € | Robinho | Kein Ablaufdatum
-Ache | 6,510,159 € | Vincent  | Kein Ablaufdatum
-Tiago Tomás | 4,645,807 € | Joel | Kein Ablaufdatum
-Engelhardt | 15,715,046 € | Joel | Kein Ablaufdatum
-Hollerbach | 2,720,063 € | Robinho | Kein Ablaufdatum
-Adamu | 3,153,493 € | Braunbär7 | Kein Ablaufdatum
-Arthur | 11,829,160 € | Robinho | Kein Ablaufdatum
-Grüll | 19,482,765 € | Joel | Kein Ablaufdatum
-Becker | 5,758,793 € | Robinho | Kein Ablaufdatum
-Sambi Lokonga | 6,769,626 € | Braunbär7 | Kein Ablaufdatum
-Røssing-Lelesiit | 3,135,114 € | Braunbär7 | Kein Ablaufdatum
-Suzuki | 19,929,257 € | Braunbär7 | Kein Ablaufdatum
-Avdullahu | 15,012,072 € | Joel | Kein Ablaufdatum
-Okon-Engstler | 5,769,520 € | Vanilleeis23 | Kein Ablaufdatum
-Adeline | 5,211,882 € | Robinho | Kein Ablaufdatum
-Onyedika | 11,591,061 € | Joel | Kein Ablaufdatum
+Uno | 5,335,832 € | Market | 2026-11-14 22:42:14
+Brackelmann | 8,104,905 € | Market | 2026-11-15 00:06:56
+Vagnoman | 7,481,421 € | Market | 2026-11-15 04:02:32
+Moerstedt | 1,432,032 € | Market | 2026-11-15 08:16:15
+Reggiani | 500,000 € | Market | 2026-11-15 14:49:16
+Burcu | 2,061,097 € | Market | 2026-11-15 15:28:39
+Vušković | 677,564 € | Market | 2026-11-15 20:35:07
+Andrich | 4,179,233 € | Vanilleeis23 | Kein Ablaufdatum
+Kramarić | 10,106,658 € | Braunbär7 | Kein Ablaufdatum
+Silas | 1,760,859 € | Robinho | Kein Ablaufdatum
+Tillman | 7,436,548 € | Timo Kramer  | Kein Ablaufdatum
+Ache | 6,748,097 € | Vincent  | Kein Ablaufdatum
+Pieringer | 4,283,199 € | Timo Kramer  | Kein Ablaufdatum
+Tiago Tomás | 4,976,382 € | Joel | Kein Ablaufdatum
+Engelhardt | 15,915,781 € | Joel | Kein Ablaufdatum
+Hollerbach | 3,003,237 € | Robinho | Kein Ablaufdatum
+Adamu | 3,395,496 € | Braunbär7 | Kein Ablaufdatum
+Arthur | 11,938,674 € | Robinho | Kein Ablaufdatum
+Minjae | 13,256,949 € | Timo Kramer  | Kein Ablaufdatum
+Le Joncour | 2,076,685 € | Braunbär7 | Kein Ablaufdatum
+Grüll | 19,497,914 € | Joel | Kein Ablaufdatum
+Becker | 5,993,140 € | Robinho | Kein Ablaufdatum
+Sambi Lokonga | 7,026,567 € | Braunbär7 | Kein Ablaufdatum
+Røssing-Lelesiit | 3,503,945 € | Braunbär7 | Kein Ablaufdatum
+Suzuki | 19,956,320 € | Braunbär7 | Kein Ablaufdatum
+Diks | 8,249,363 € | Timo Kramer  | Kein Ablaufdatum
+Avdullahu | 15,046,453 € | Joel | Kein Ablaufdatum
+Okon-Engstler | 6,011,498 € | Vanilleeis23 | Kein Ablaufdatum
+Rots | 10,222,374 € | Timo Kramer  | Kein Ablaufdatum
+Adeline | 5,535,154 € | Robinho | Kein Ablaufdatum
+Onyedika | 11,645,260 € | Joel | Kein Ablaufdatum
