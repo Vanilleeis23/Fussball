@@ -1,12 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Brackelmann (2026-10-26 22:23:15) [Transactionen.txt]
+ REFERENZ: Nadir (2026-10-28 10:47:48) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-23 20:15:52 | Hansen
-  2026-10-24 15:50:54 | Uduokhai
-  2026-10-24 18:33:33 | Jeltsch
   2026-10-24 21:20:53 | Uno
   2026-10-24 21:21:07 | Avdullahu
   2026-10-24 22:55:08 | Jeong
@@ -14,11 +11,11 @@
   2026-10-25 20:28:01 | Vieira
   2026-10-25 22:46:46 | Díaz
   2026-10-26 20:26:45 | Diaby
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-26 22:23:15 | Brackelmann
   2026-10-27 10:07:04 | Fábio Silva
   2026-10-27 23:22:01 | Poulsen
-  2026-10-28 10:47:48 | Nadir
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
   2026-10-28 11:13:09 | Schwolow
   2026-10-28 23:10:19 | Albert
   2026-10-28 23:11:17 | Sauer
@@ -26,6 +23,34 @@
   2026-10-29 20:04:01 | Jóhannesson
   2026-10-29 22:11:18 | Osterhage
   2026-10-29 23:38:49 | Nmecha
+  2026-10-29 23:39:33 | Honorat
+  2026-10-29 23:41:35 | Jaquez
+  2026-10-29 23:41:48 | Banzuzi
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Friedrich' nicht in ÜberMarktGelaufen.txt gefunden. ===
+==================================================
+ ÜBER DEN MARKT GELAUFEN (VERLAUF)
+ REFERENZ: Nadir (2026-11-14 09:29:23) [ÜberMarktGelaufen.txt]
+==================================================
+
+--- 10 Spieler davor (historisch) ---
+  2026-08-16 16:41:03 | Dina Ebimbe
+  2026-08-16 18:46:30 | Ulreich
+  2026-08-16 21:34:01 | Itten
+  2026-08-16 22:35:30 | Zieler
+  2026-08-17 01:54:07 | Cekaz
+  2026-08-17 03:12:17 | Reitz
+  2026-08-17 17:37:55 | Okpala
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-08-17 18:44:50 | Siebeking <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-17 20:57:04 | Culbreath <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-08-17 22:43:05 | Castello Jr.
+  2026-08-17 22:43:05 | Hofmann
+  2026-08-18 15:06:53 | Ogbus
+  2026-08-18 23:37:13 | Pimpong <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-19 03:52:08 | Meyer <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-19 03:52:08 | Potulski
+  2026-08-19 05:31:30 | Hendriks
+  2026-08-19 07:30:33 | Coulibaly
+
