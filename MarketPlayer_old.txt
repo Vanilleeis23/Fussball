@@ -1,6 +1,3 @@
-Reggiani | 500,000 € | Market | 2026-11-15 14:49:16
-Burcu | 1,935,482 € | Market | 2026-11-15 15:28:39
-Nadir | 2,000,934 € | Market | 2026-11-15 17:06:23
 Vušković | 947,363 € | Market | 2026-11-15 20:35:07
 Bell | 500,000 € | Market | 2026-11-15 21:25:56
 Fábio Silva | 12,745,511 € | Market | 2026-11-15 21:26:38
@@ -13,15 +10,19 @@ Danfa | 500,000 € | Market | 2026-11-16 02:22:58
 El Ouahdi | 6,684,116 € | Market | 2026-11-16 04:18:23
 Ndiaye | 500,000 € | Market | 2026-11-16 07:48:27
 Lippmann | 500,000 € | Market | 2026-11-16 11:03:51
+Chiarodia | 4,006,189 € | Market | 2026-11-16 12:05:19
 Agu | 500,000 € | Market | 2026-11-16 12:06:39
 Köhn | 4,752,728 € | Market | 2026-11-16 14:12:05
 Scally | 10,692,275 € | Market | 2026-11-16 16:01:42
+Chuki | 11,078,948 € | Market | 2026-11-16 17:22:09
 Vidović | 4,265,402 € | Market | 2026-11-16 20:59:19
 Ito | 4,100,061 € | Market | 2026-11-17 00:45:32
 Philippe | 3,557,329 € | Market | 2026-11-17 05:17:13
 Poulsen | 3,967,272 € | Market | 2026-11-17 06:40:50
+Osterhage | 3,222,551 € | Market | 2026-11-17 09:02:31
 Batz | 5,441,669 € | CoachLeisi | Kein Ablaufdatum
 Andrich | 4,310,579 € | Vanilleeis23 | Kein Ablaufdatum
+Uduokhai | 6,087,508 € | Vanilleeis23 | Kein Ablaufdatum
 Silas | 2,123,084 € | Robinho | Kein Ablaufdatum
 Tillman | 7,547,115 € | Timo Kramer  | Kein Ablaufdatum
 Ache | 6,939,857 € | Vincent  | Kein Ablaufdatum
@@ -34,10 +35,9 @@ Arthur | 12,017,555 € | Robinho | Kein Ablaufdatum
 Le Joncour | 2,450,802 € | Braunbär7 | Kein Ablaufdatum
 Grüll | 19,514,176 € | Joel | Kein Ablaufdatum
 Becker | 6,162,127 € | Robinho | Kein Ablaufdatum
-Castañeda | 14,224,655 € | Timo Kramer  | Kein Ablaufdatum
-Sambi Lokonga | 7,232,784 € | Braunbär7 | Kein Ablaufdatum
 Diks | 8,360,572 € | Timo Kramer  | Kein Ablaufdatum
 Avdullahu | 15,059,494 € | Joel | Kein Ablaufdatum
+Spalt | 5,291,491 € | Vanilleeis23 | Kein Ablaufdatum
 Okon-Engstler | 6,191,176 € | Vanilleeis23 | Kein Ablaufdatum
 Rots | 10,376,460 € | Timo Kramer  | Kein Ablaufdatum
 Onyedika | 11,665,293 € | Joel | Kein Ablaufdatum
