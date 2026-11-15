@@ -1,12 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Diaby (2026-10-26 20:26:45) [Transactionen.txt]
+ REFERENZ: Poulsen (2026-10-27 23:22:01) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-23 20:12:15 | Sebulonsen
-  2026-10-23 20:15:52 | Hansen
-  2026-10-24 15:50:54 | Uduokhai
   2026-10-24 18:33:33 | Jeltsch
   2026-10-24 21:20:53 | Uno
   2026-10-24 21:21:07 | Avdullahu
@@ -14,11 +11,11 @@
   2026-10-25 12:40:05 | Burkardt
   2026-10-25 20:28:01 | Vieira
   2026-10-25 22:46:46 | Díaz
+  2026-10-26 20:26:45 | Diaby
+  2026-10-26 22:23:15 | Brackelmann
+  2026-10-27 10:07:04 | Fábio Silva
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-26 22:23:15 | Brackelmann <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-10-27 10:07:04 | Fábio Silva <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-27 23:22:01 | Poulsen
   2026-10-28 10:47:48 | Nadir <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-10-28 11:13:09 | Schwolow <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-10-28 23:10:19 | Albert
@@ -26,17 +23,17 @@
   2026-10-29 15:39:24 | Stiller
   2026-10-29 20:04:01 | Jóhannesson
   2026-10-29 22:11:18 | Osterhage
+  2026-10-29 23:38:49 | Nmecha
+  2026-10-29 23:39:33 | Honorat
+  2026-10-29 23:41:35 | Jaquez
 
 
 ==================================================
  ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Köhn (2026-11-15 01:39:05) [ÜberMarktGelaufen.txt]
+ REFERENZ: Philippe (2026-11-15 09:07:13) [ÜberMarktGelaufen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-08-24 07:52:27 | Mensah
-  2026-08-24 12:03:06 | Petersson
-  2026-08-24 13:43:01 | Amoako
   2026-08-24 15:11:47 | Castrop
   2026-08-24 16:04:00 | Hübers
   2026-08-25 01:34:07 | Arévalo
@@ -44,11 +41,11 @@
   2026-08-25 03:51:36 | Osterhage
   2026-08-25 05:12:10 | Arrhov
   2026-08-25 05:12:10 | Führich
+  2026-08-25 05:12:10 | Köhn
+  2026-08-25 07:46:41 | Futkeu
+  2026-08-25 07:46:41 | Koné
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-08-25 07:46:41 | Futkeu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-08-25 07:46:41 | Koné
-  2026-08-25 19:44:44 | Philippe
   2026-08-25 20:56:04 | Batz <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN, KÜRZLICH GEKAUFT)
   2026-08-26 03:57:31 | Kolke <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-08-26 03:57:31 | Schlager <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
@@ -56,4 +53,7 @@
   2026-08-26 09:58:07 | Jovanovic
   2026-08-26 09:58:07 | Stergiou
   2026-08-26 15:16:22 | Condé
+  2026-08-26 17:53:11 | Agu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-27 01:31:09 | Ayhan <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-08-27 01:31:09 | Trimmel
 
