@@ -1,9 +1,11 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Osterhage (2026-10-29 22:11:18) [Transactionen.txt]
+ REFERENZ: Stiller (2026-10-29 15:39:24) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
+  2026-10-25 20:28:01 | Vieira
+  2026-10-25 22:46:46 | Díaz
   2026-10-26 20:26:45 | Diaby
   2026-10-26 22:23:15 | Brackelmann
   2026-10-27 10:07:04 | Fábio Silva
@@ -12,10 +14,10 @@
   2026-10-28 11:13:09 | Schwolow
   2026-10-28 23:10:19 | Albert
   2026-10-28 23:11:17 | Sauer
-  2026-10-29 15:39:24 | Stiller
-  2026-10-29 20:04:01 | Jóhannesson
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-29 20:04:01 | Jóhannesson
+  2026-10-29 22:11:18 | Osterhage <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-10-29 23:38:49 | Nmecha
   2026-10-29 23:39:33 | Honorat
   2026-10-29 23:41:35 | Jaquez
@@ -24,8 +26,34 @@
   2026-10-30 14:17:52 | Conté
   2026-10-30 14:18:16 | Bolin
   2026-10-30 14:54:16 | Nicolas
-  2026-10-30 18:33:43 | Marino
-  2026-10-30 18:51:34 | Capaldo
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Olschowsky' nicht in ÜberMarktGelaufen.txt gefunden. ===
+==================================================
+ ÜBER DEN MARKT GELAUFEN (VERLAUF)
+ REFERENZ: Stiller (2026-11-16 00:05:19) [ÜberMarktGelaufen.txt]
+==================================================
+
+--- 10 Spieler davor (historisch) ---
+  2026-10-05 09:01:41 | Futkeu
+  2026-10-05 17:59:11 | Kramarić
+  2026-10-06 00:36:37 | Karl
+  2026-10-06 00:36:37 | Kawasaki
+  2026-10-06 04:57:25 | Ribeiro
+  2026-10-06 04:57:25 | Yamamoto
+  2026-10-06 12:15:31 | Leopold
+  2026-10-06 19:10:33 | Marino
+  2026-10-07 03:31:33 | Ayhan
+  2026-10-07 18:27:04 | Jeong
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-09 00:03:31 | Irié
+  2026-10-09 00:03:31 | Maksimović
+  2026-10-09 00:03:31 | Okon-Engstler <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-10-09 18:10:57 | Ogundu
+  2026-10-09 22:55:01 | Karius
+  2026-10-09 22:55:01 | Querfeld
+  2026-10-10 09:05:18 | Eichhorn
+  2026-10-11 10:48:18 | Kobel
+  2026-10-11 17:39:16 | Urbig
+  2026-10-12 02:31:23 | Sakar
+

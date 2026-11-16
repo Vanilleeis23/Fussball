@@ -1,24 +1,22 @@
-Schwolow | 3,753,731 € | Market | 2026-11-15 23:44:36
-Diaby | 16,178,508 € | Market | 2026-11-15 23:48:31
-Ayhan | 5,182,681 € | Market | 2026-11-16 00:09:52
-Zeitler | 500,000 € | Market | 2026-11-16 01:10:56
-Skov | 500,000 € | Market | 2026-11-16 01:14:10
-Danfa | 500,000 € | Market | 2026-11-16 02:22:58
-El Ouahdi | 6,877,729 € | Market | 2026-11-16 04:18:23
-Ndiaye | 500,000 € | Market | 2026-11-16 07:48:27
-Lippmann | 500,000 € | Market | 2026-11-16 11:03:51
-Chiarodia | 3,912,673 € | Market | 2026-11-16 12:05:19
-Agu | 500,000 € | Market | 2026-11-16 12:06:39
-Köhn | 4,997,986 € | Market | 2026-11-16 14:12:05
-Scally | 10,712,359 € | Market | 2026-11-16 16:01:42
-Chuki | 11,153,619 € | Market | 2026-11-16 17:22:09
-Olschowsky | 500,000 € | Market | 2026-11-16 20:16:44
-Vidović | 4,189,329 € | Market | 2026-11-16 20:59:19
-Ito | 4,212,107 € | Market | 2026-11-17 00:45:32
-Ulreich | 500,000 € | Market | 2026-11-17 04:47:17
-Philippe | 3,421,253 € | Market | 2026-11-17 05:17:13
-Poulsen | 3,829,409 € | Market | 2026-11-17 06:40:50
-Osterhage | 3,084,550 € | Market | 2026-11-17 09:02:31
+Danfa | 500,000 € | Market | 2026-11-16 02:22:59
+El Ouahdi | 6,877,729 € | Market | 2026-11-16 04:18:24
+Ndiaye | 500,000 € | Market | 2026-11-16 07:48:28
+Lippmann | 500,000 € | Market | 2026-11-16 11:03:52
+Chiarodia | 3,912,673 € | Market | 2026-11-16 12:05:20
+Agu | 500,000 € | Market | 2026-11-16 12:06:40
+Köhn | 4,997,986 € | Market | 2026-11-16 14:12:06
+Scally | 10,712,359 € | Market | 2026-11-16 16:01:43
+Chuki | 11,153,619 € | Market | 2026-11-16 17:22:10
+Olschowsky | 500,000 € | Market | 2026-11-16 20:16:45
+Vidović | 4,189,329 € | Market | 2026-11-16 20:59:20
+Ito | 4,212,107 € | Market | 2026-11-17 00:45:33
+Ulreich | 500,000 € | Market | 2026-11-17 04:47:18
+Philippe | 3,421,253 € | Market | 2026-11-17 05:17:14
+Poulsen | 3,829,409 € | Market | 2026-11-17 06:40:51
+Osterhage | 3,084,550 € | Market | 2026-11-17 09:02:32
+Konoplia | 1,559,246 € | Market | 2026-11-17 09:58:47
+Stiller | 19,448,191 € | Market | 2026-11-17 14:04:20
+Kawasaki | 500,000 € | Market | 2026-11-17 17:50:03
 Batz | 5,572,215 € | CoachLeisi | Kein Ablaufdatum
 Andrich | 4,464,116 € | Vanilleeis23 | Kein Ablaufdatum
 Uduokhai | 6,235,762 € | Vanilleeis23 | Kein Ablaufdatum
@@ -35,6 +33,7 @@ Arthur | 12,064,654 € | Robinho | Kein Ablaufdatum
 Le Joncour | 2,796,975 € | Braunbär7 | Kein Ablaufdatum
 Grüll | 19,529,819 € | Joel | Kein Ablaufdatum
 Becker | 6,267,097 € | Robinho | Kein Ablaufdatum
+Ayhan | 5,182,681 € | Vanilleeis23 | Kein Ablaufdatum
 Diks | 8,443,508 € | Timo Kramer  | Kein Ablaufdatum
 Avdullahu | 15,023,446 € | Joel | Kein Ablaufdatum
 Spalt | 5,540,574 € | Vanilleeis23 | Kein Ablaufdatum
