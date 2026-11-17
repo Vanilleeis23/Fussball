@@ -1,26 +1,24 @@
-Philippe | 3,290,093 € | Market | 2026-11-17 05:17:13
-Poulsen | 3,702,625 € | Market | 2026-11-17 06:40:50
-Can | 500,000 € | Market | 2026-11-17 07:47:49
-Osterhage | 2,950,205 € | Market | 2026-11-17 09:02:31
-Jóhannesson | 4,600,616 € | Market | 2026-11-17 09:44:04
-Konoplia | 1,431,249 € | Market | 2026-11-17 09:58:46
-Ogundu | 3,266,994 € | Market | 2026-11-17 11:08:20
-Zimmerschied | 514,880 € | Market | 2026-11-17 11:34:54
-Jaquez | 3,623,340 € | Market | 2026-11-17 12:25:46
-Stiller | 19,580,571 € | Market | 2026-11-17 14:04:19
 Kawasaki | 500,000 € | Market | 2026-11-17 17:50:02
 Bredlow | 1,125,498 € | Market | 2026-11-17 18:26:58
 Banzuzi | 13,742,119 € | Market | 2026-11-17 20:54:25
 Trimmel | 500,000 € | Market | 2026-11-17 21:43:35
 Philipp | 500,000 € | Market | 2026-11-17 22:23:41
+Latte Lath | 2,802,882 € | Market | 2026-11-18 01:40:44
+Porath | 500,000 € | Market | 2026-11-18 02:06:32
 Mokwa | 8,929,041 € | Market | 2026-11-18 04:56:43
+Deman | 10,386,560 € | Market | 2026-11-18 06:30:03
+Leopold | 500,000 € | Market | 2026-11-18 06:40:06
+Nmecha | 29,878,631 € | Market | 2026-11-18 08:21:58
 Condé | 500,000 € | Market | 2026-11-18 08:44:26
 Pinckert | 8,477,976 € | Market | 2026-11-18 12:24:42
 Lenz | 500,000 € | Market | 2026-11-18 13:26:13
 Hoffmeier | 500,000 € | Market | 2026-11-18 13:53:01
 ter Horst | 5,292,668 € | Market | 2026-11-18 15:00:02
+Conté | 13,919,676 € | Market | 2026-11-18 18:19:57
+Bolin | 4,866,595 € | Market | 2026-11-18 21:34:16
+Suso | 500,000 € | Market | 2026-11-19 08:00:48
+Schmied | 6,339,945 € | Market | 2026-11-19 08:26:17
 Andrich | 4,668,241 € | Vanilleeis23 | Kein Ablaufdatum
-Uduokhai | 6,355,074 € | Vanilleeis23 | Kein Ablaufdatum
 Silas | 2,825,689 € | Robinho | Kein Ablaufdatum
 Tillman | 7,602,269 € | Timo Kramer  | Kein Ablaufdatum
 Ache | 7,224,429 € | Vincent  | Kein Ablaufdatum
@@ -33,11 +31,9 @@ Le Joncour | 3,151,232 € | Braunbär7 | Kein Ablaufdatum
 Grüll | 19,550,328 € | Joel | Kein Ablaufdatum
 Becker | 6,327,126 € | Robinho | Kein Ablaufdatum
 Ayhan | 5,386,848 € | Vanilleeis23 | Kein Ablaufdatum
-Diks | 8,512,488 € | Timo Kramer  | Kein Ablaufdatum
 Avdullahu | 14,821,454 € | Joel | Kein Ablaufdatum
+Simpson-Pusey | 11,754,244 € | Joel | Kein Ablaufdatum
 Spalt | 5,779,508 € | Vanilleeis23 | Kein Ablaufdatum
 El Ouahdi | 7,083,465 € | Braunbär7 | Kein Ablaufdatum
-Okon-Engstler | 6,379,435 € | Vanilleeis23 | Kein Ablaufdatum
-Rots | 10,558,951 € | Timo Kramer  | Kein Ablaufdatum
 Uno | 6,002,942 € | CoachLeisi | Kein Ablaufdatum
 Imeri | 5,231,822 € | CoachLeisi | Kein Ablaufdatum

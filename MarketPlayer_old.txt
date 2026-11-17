@@ -1,44 +1,43 @@
-Honorat | 4,401,544 € | Market | 2026-11-16 21:30:34
-Ito | 4,212,107 € | Market | 2026-11-17 00:45:32
-Ulreich | 500,000 € | Market | 2026-11-17 04:47:17
-Philippe | 3,421,253 € | Market | 2026-11-17 05:17:13
-Poulsen | 3,829,409 € | Market | 2026-11-17 06:40:50
+Philippe | 3,290,093 € | Market | 2026-11-17 05:17:13
+Poulsen | 3,702,625 € | Market | 2026-11-17 06:40:50
 Can | 500,000 € | Market | 2026-11-17 07:47:49
-Osterhage | 3,084,550 € | Market | 2026-11-17 09:02:31
-Jóhannesson | 4,710,941 € | Market | 2026-11-17 09:44:04
-Konoplia | 1,559,246 € | Market | 2026-11-17 09:58:46
-Ogundu | 2,911,727 € | Market | 2026-11-17 11:08:20
-Zimmerschied | 500,000 € | Market | 2026-11-17 11:34:54
-Stiller | 19,448,191 € | Market | 2026-11-17 14:04:19
+Osterhage | 2,950,205 € | Market | 2026-11-17 09:02:31
+Jóhannesson | 4,600,616 € | Market | 2026-11-17 09:44:04
+Konoplia | 1,431,249 € | Market | 2026-11-17 09:58:46
+Ogundu | 3,266,994 € | Market | 2026-11-17 11:08:20
+Zimmerschied | 514,880 € | Market | 2026-11-17 11:34:54
+Jaquez | 3,623,340 € | Market | 2026-11-17 12:25:46
+Stiller | 19,580,571 € | Market | 2026-11-17 14:04:19
 Kawasaki | 500,000 € | Market | 2026-11-17 17:50:02
-Bredlow | 1,248,257 € | Market | 2026-11-17 18:26:58
-Banzuzi | 13,563,436 € | Market | 2026-11-17 20:54:25
+Bredlow | 1,125,498 € | Market | 2026-11-17 18:26:58
+Banzuzi | 13,742,119 € | Market | 2026-11-17 20:54:25
 Trimmel | 500,000 € | Market | 2026-11-17 21:43:35
 Philipp | 500,000 € | Market | 2026-11-17 22:23:41
-Mokwa | 9,267,883 € | Market | 2026-11-18 04:56:43
+Mokwa | 8,929,041 € | Market | 2026-11-18 04:56:43
 Condé | 500,000 € | Market | 2026-11-18 08:44:26
+Pinckert | 8,477,976 € | Market | 2026-11-18 12:24:42
 Lenz | 500,000 € | Market | 2026-11-18 13:26:13
-ter Horst | 5,419,709 € | Market | 2026-11-18 15:00:02
-Batz | 5,572,215 € | CoachLeisi | Kein Ablaufdatum
-Andrich | 4,464,116 € | Vanilleeis23 | Kein Ablaufdatum
-Uduokhai | 6,235,762 € | Vanilleeis23 | Kein Ablaufdatum
-Silas | 2,474,850 € | Robinho | Kein Ablaufdatum
-Tillman | 7,592,097 € | Timo Kramer  | Kein Ablaufdatum
-Ache | 7,088,415 € | Vincent  | Kein Ablaufdatum
-Pieringer | 4,662,553 € | Timo Kramer  | Kein Ablaufdatum
-Tiago Tomás | 5,478,028 € | Joel | Kein Ablaufdatum
-Engelhardt | 16,254,914 € | Joel | Kein Ablaufdatum
-Hollerbach | 3,522,584 € | Robinho | Kein Ablaufdatum
-Adamu | 3,795,743 € | Braunbär7 | Kein Ablaufdatum
-Le Joncour | 2,796,975 € | Braunbär7 | Kein Ablaufdatum
-Grüll | 19,529,819 € | Joel | Kein Ablaufdatum
-Becker | 6,267,097 € | Robinho | Kein Ablaufdatum
-Ayhan | 5,182,681 € | Vanilleeis23 | Kein Ablaufdatum
-Diks | 8,443,508 € | Timo Kramer  | Kein Ablaufdatum
-Avdullahu | 15,023,446 € | Joel | Kein Ablaufdatum
-Spalt | 5,540,574 € | Vanilleeis23 | Kein Ablaufdatum
-El Ouahdi | 6,877,729 € | Braunbär7 | Kein Ablaufdatum
-Okon-Engstler | 6,304,437 € | Vanilleeis23 | Kein Ablaufdatum
-Rots | 10,481,692 € | Timo Kramer  | Kein Ablaufdatum
-Uno | 5,786,170 € | CoachLeisi | Kein Ablaufdatum
-Imeri | 4,973,227 € | CoachLeisi | Kein Ablaufdatum
+Hoffmeier | 500,000 € | Market | 2026-11-18 13:53:01
+ter Horst | 5,292,668 € | Market | 2026-11-18 15:00:02
+Andrich | 4,668,241 € | Vanilleeis23 | Kein Ablaufdatum
+Uduokhai | 6,355,074 € | Vanilleeis23 | Kein Ablaufdatum
+Silas | 2,825,689 € | Robinho | Kein Ablaufdatum
+Tillman | 7,602,269 € | Timo Kramer  | Kein Ablaufdatum
+Ache | 7,224,429 € | Vincent  | Kein Ablaufdatum
+Pieringer | 4,825,538 € | Timo Kramer  | Kein Ablaufdatum
+Tiago Tomás | 5,692,015 € | Joel | Kein Ablaufdatum
+Engelhardt | 16,411,710 € | Joel | Kein Ablaufdatum
+Hollerbach | 3,817,994 € | Robinho | Kein Ablaufdatum
+Adamu | 3,991,292 € | Braunbär7 | Kein Ablaufdatum
+Le Joncour | 3,151,232 € | Braunbär7 | Kein Ablaufdatum
+Grüll | 19,550,328 € | Joel | Kein Ablaufdatum
+Becker | 6,327,126 € | Robinho | Kein Ablaufdatum
+Ayhan | 5,386,848 € | Vanilleeis23 | Kein Ablaufdatum
+Diks | 8,512,488 € | Timo Kramer  | Kein Ablaufdatum
+Avdullahu | 14,821,454 € | Joel | Kein Ablaufdatum
+Spalt | 5,779,508 € | Vanilleeis23 | Kein Ablaufdatum
+El Ouahdi | 7,083,465 € | Braunbär7 | Kein Ablaufdatum
+Okon-Engstler | 6,379,435 € | Vanilleeis23 | Kein Ablaufdatum
+Rots | 10,558,951 € | Timo Kramer  | Kein Ablaufdatum
+Uno | 6,002,942 € | CoachLeisi | Kein Ablaufdatum
+Imeri | 5,231,822 € | CoachLeisi | Kein Ablaufdatum
