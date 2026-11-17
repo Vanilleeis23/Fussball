@@ -1,9 +1,10 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Banzuzi (2026-10-29 23:41:48) [Transactionen.txt]
+ REFERENZ: Jaquez (2026-10-29 23:41:35) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
+  2026-10-27 23:22:01 | Poulsen
   2026-10-28 10:47:48 | Nadir
   2026-10-28 11:13:09 | Schwolow
   2026-10-28 23:10:19 | Albert
@@ -13,9 +14,9 @@
   2026-10-29 22:11:18 | Osterhage
   2026-10-29 23:38:49 | Nmecha
   2026-10-29 23:39:33 | Honorat
-  2026-10-29 23:41:35 | Jaquez
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-10-29 23:41:48 | Banzuzi <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-10-30 12:50:34 | Deman
   2026-10-30 14:17:52 | Conté
   2026-10-30 14:18:16 | Bolin
@@ -25,7 +26,6 @@
   2026-10-30 19:03:15 | Nwaneri
   2026-10-30 19:24:00 | Wimmer
   2026-10-30 19:24:51 | Heuer Fernandes
-  2026-10-30 19:25:46 | Günther
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Banzuzi' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Hoffmeier' nicht in ÜberMarktGelaufen.txt gefunden. ===
