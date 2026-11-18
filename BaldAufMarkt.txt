@@ -28,4 +28,4 @@
   2026-11-02 23:10:03 | Nebel
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Mwene' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Kleindienst' nicht in ÜberMarktGelaufen.txt gefunden. ===
