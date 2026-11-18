@@ -1,11 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Rosenfelder (2026-10-30 20:37:28) [Transactionen.txt]
+ REFERENZ: Mwene (2026-10-30 22:35:06) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-30 14:54:16 | Nicolas
-  2026-10-30 18:33:43 | Marino
   2026-10-30 18:51:34 | Capaldo
   2026-10-30 19:03:15 | Nwaneri
   2026-10-30 19:24:00 | Wimmer
@@ -14,10 +12,10 @@
   2026-10-30 19:52:50 | Irié
   2026-10-30 19:53:09 | Bellingham
   2026-10-30 20:36:46 | Lee
+  2026-10-30 20:37:28 | Rosenfelder
+  2026-10-30 20:37:39 | Assignon
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-30 20:37:39 | Assignon
-  2026-10-30 22:35:06 | Mwene
   2026-10-31 14:54:09 | Finkgräfe
   2026-10-31 19:40:48 | Posch
   2026-10-31 19:55:01 | Maksimović
@@ -26,6 +24,8 @@
   2026-11-01 20:32:33 | Wójcik
   2026-11-02 17:46:04 | Kuruçay
   2026-11-02 21:34:14 | Hranác
+  2026-11-02 21:35:14 | Weiser
+  2026-11-02 23:10:03 | Nebel
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Rosenfelder' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Mwene' nicht in ÜberMarktGelaufen.txt gefunden. ===

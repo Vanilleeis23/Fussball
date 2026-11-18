@@ -1,26 +1,24 @@
-Deman | 10,550,269 € | Market | 2026-11-18 06:30:03
-Leopold | 500,000 € | Market | 2026-11-18 06:40:06
-Nmecha | 29,949,222 € | Market | 2026-11-18 08:21:58
-Bensebaini | 4,979,076 € | Market | 2026-11-18 08:34:05
-Condé | 500,000 € | Market | 2026-11-18 08:44:26
-Pinckert | 8,277,764 € | Market | 2026-11-18 12:24:42
-Lenz | 500,000 € | Market | 2026-11-18 13:26:13
-Hoffmeier | 500,000 € | Market | 2026-11-18 13:53:01
-ter Horst | 5,286,989 € | Market | 2026-11-18 15:00:02
-Günther | 5,269,443 € | Market | 2026-11-18 17:31:38
-Dallinga | 500,000 € | Market | 2026-11-18 18:06:29
-Conté | 13,991,710 € | Market | 2026-11-18 18:19:57
-Bolin | 4,767,232 € | Market | 2026-11-18 21:34:16
-Heuer Fernandes | 12,782,366 € | Market | 2026-11-19 01:57:28
-Irié | 2,932,174 € | Market | 2026-11-19 02:51:07
-Nwaneri | 6,957,093 € | Market | 2026-11-19 03:05:46
-Marino | 4,909,479 € | Market | 2026-11-19 04:23:18
-Albert | 500,000 € | Market | 2026-11-19 05:17:57
-Pfeiffer | 500,000 € | Market | 2026-11-19 06:27:28
-Suso | 500,000 € | Market | 2026-11-19 08:00:48
-Schmied | 6,465,010 € | Market | 2026-11-19 08:26:17
-Musah | 500,000 € | Market | 2026-11-19 10:11:49
-Andrich | 4,937,143 € | Vanilleeis23 | Kein Ablaufdatum
+Nmecha | 29,949,222 € | Market | 2026-11-18 08:21:59
+Bensebaini | 4,979,076 € | Market | 2026-11-18 08:34:06
+Condé | 500,000 € | Market | 2026-11-18 08:44:27
+Pinckert | 8,277,764 € | Market | 2026-11-18 12:24:43
+Lenz | 500,000 € | Market | 2026-11-18 13:26:14
+Hoffmeier | 500,000 € | Market | 2026-11-18 13:53:02
+ter Horst | 5,286,989 € | Market | 2026-11-18 15:00:03
+Günther | 5,269,443 € | Market | 2026-11-18 17:31:39
+Dallinga | 500,000 € | Market | 2026-11-18 18:06:30
+Conté | 13,991,710 € | Market | 2026-11-18 18:19:58
+Bolin | 4,767,232 € | Market | 2026-11-18 21:34:17
+Heuer Fernandes | 12,782,366 € | Market | 2026-11-19 01:57:29
+Irié | 2,932,174 € | Market | 2026-11-19 02:51:08
+Nwaneri | 6,957,093 € | Market | 2026-11-19 03:05:47
+Marino | 4,909,479 € | Market | 2026-11-19 04:23:19
+Rosenfelder | 4,266,922 € | Market | 2026-11-19 04:35:30
+Albert | 500,000 € | Market | 2026-11-19 05:17:58
+Pfeiffer | 500,000 € | Market | 2026-11-19 06:27:29
+Suso | 500,000 € | Market | 2026-11-19 08:00:49
+Schmied | 6,465,010 € | Market | 2026-11-19 08:26:18
+Musah | 500,000 € | Market | 2026-11-19 10:11:50
 Silas | 3,179,514 € | Robinho | Kein Ablaufdatum
 Ache | 7,366,818 € | Vincent  | Kein Ablaufdatum
 Pieringer | 4,989,576 € | Timo Kramer  | Kein Ablaufdatum
@@ -32,7 +30,6 @@ Le Joncour | 3,508,805 € | Braunbär7 | Kein Ablaufdatum
 Grüll | 19,575,240 € | Joel | Kein Ablaufdatum
 Becker | 6,269,050 € | Robinho | Kein Ablaufdatum
 Avdullahu | 14,490,660 € | Joel | Kein Ablaufdatum
-Simpson-Pusey | 11,391,717 € | Joel | Kein Ablaufdatum
 Spalt | 6,013,699 € | Vanilleeis23 | Kein Ablaufdatum
 El Ouahdi | 7,309,680 € | Braunbär7 | Kein Ablaufdatum
 Uno | 6,227,577 € | CoachLeisi | Kein Ablaufdatum
