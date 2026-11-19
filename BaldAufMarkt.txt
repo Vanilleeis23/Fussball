@@ -1,59 +1,59 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Posch (2026-10-31 19:40:48) [Transactionen.txt]
+ REFERENZ: Wójcik (2026-11-01 20:32:33) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-30 19:24:00 | Wimmer
-  2026-10-30 19:24:51 | Heuer Fernandes
-  2026-10-30 19:25:46 | Günther
-  2026-10-30 19:52:50 | Irié
   2026-10-30 19:53:09 | Bellingham
   2026-10-30 20:36:46 | Lee
   2026-10-30 20:37:28 | Rosenfelder
   2026-10-30 20:37:39 | Assignon
   2026-10-30 22:35:06 | Mwene
   2026-10-31 14:54:09 | Finkgräfe
+  2026-10-31 19:40:48 | Posch
+  2026-10-31 19:55:01 | Maksimović
+  2026-10-31 22:15:12 | Hwang
+  2026-11-01 11:17:36 | Da Costa
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-10-31 19:55:01 | Maksimović <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-10-31 22:15:12 | Hwang <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-11-01 11:17:36 | Da Costa
-  2026-11-01 20:32:33 | Wójcik
   2026-11-02 17:46:04 | Kuruçay
   2026-11-02 21:34:14 | Hranác
   2026-11-02 21:35:14 | Weiser
   2026-11-02 23:10:03 | Nebel
   2026-11-03 00:05:03 | Ulrich
   2026-11-03 14:58:26 | Maina
+  2026-11-04 19:55:25 | Karazor
+  2026-11-04 22:24:57 | Castrop
+  2026-11-04 23:01:24 | Tigges
+  2026-11-04 23:25:00 | Claude-Maurice
 
 
 ==================================================
  ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Urbig (2026-11-19 09:46:35) [ÜberMarktGelaufen.txt]
+ REFERENZ: Wójcik (2026-11-19 13:01:21) [ÜberMarktGelaufen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-25 01:12:19 | Batz
-  2026-10-25 02:12:42 | Kolke
-  2026-10-25 07:10:44 | Danfa
-  2026-10-26 20:17:36 | Kawasaki
-  2026-10-27 19:42:57 | Ayhan
-  2026-10-27 22:17:52 | Leopold
-  2026-10-29 08:03:00 | Ogundu
-  2026-10-30 01:58:02 | Schnitzer
-  2026-10-31 00:44:31 | Eichhorn
-  2026-10-31 13:25:23 | Kobel
+  2026-09-06 00:57:18 | Santos
+  2026-09-06 07:56:39 | Sticker
+  2026-09-06 19:02:10 | Culbreath
+  2026-09-06 19:02:10 | Siebeking
+  2026-09-07 06:39:02 | Meyer
+  2026-09-07 06:39:02 | Sebulonsen
+  2026-09-07 12:16:24 | Millgramm
+  2026-09-07 16:43:46 | Diks
+  2026-09-07 18:26:40 | Aebischer
+  2026-09-07 18:26:40 | Knauff
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-01 02:08:02 | Džeko
-  2026-11-01 02:08:02 | Sakar
-  2026-11-01 16:05:29 | Konstantelias
-  2026-11-01 16:05:29 | Stanišić <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-11-02 16:47:12 | Badé
-  2026-11-04 02:19:37 | Wisbereit
-  2026-11-04 18:13:54 | Lasme
-  2026-11-04 18:13:54 | Schubert
-  2026-11-06 02:31:22 | Darvich
-  2026-11-06 15:08:59 | Meyer
+  2026-09-07 22:33:44 | Diaby <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-09-08 05:12:32 | Heskey <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-08 05:12:32 | Klaus <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-08 11:40:20 | Darvich
+  2026-09-08 16:31:35 | Adeline <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-09-08 16:31:35 | Grifo
+  2026-09-08 20:39:28 | Lynen <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN, KÜRZLICH GEKAUFT)
+  2026-09-08 20:39:28 | Pimpong <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-09 02:13:54 | El Ouahdi <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN, KÜRZLICH GEKAUFT)
+  2026-09-09 02:13:54 | Kohr <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
 
