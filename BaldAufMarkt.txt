@@ -28,4 +28,32 @@
   2026-11-03 14:58:26 | Maina
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Posch' nicht in ÜberMarktGelaufen.txt gefunden. ===
+==================================================
+ ÜBER DEN MARKT GELAUFEN (VERLAUF)
+ REFERENZ: Urbig (2026-11-19 09:46:35) [ÜberMarktGelaufen.txt]
+==================================================
+
+--- 10 Spieler davor (historisch) ---
+  2026-10-25 01:12:19 | Batz
+  2026-10-25 02:12:42 | Kolke
+  2026-10-25 07:10:44 | Danfa
+  2026-10-26 20:17:36 | Kawasaki
+  2026-10-27 19:42:57 | Ayhan
+  2026-10-27 22:17:52 | Leopold
+  2026-10-29 08:03:00 | Ogundu
+  2026-10-30 01:58:02 | Schnitzer
+  2026-10-31 00:44:31 | Eichhorn
+  2026-10-31 13:25:23 | Kobel
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-11-01 02:08:02 | Džeko
+  2026-11-01 02:08:02 | Sakar
+  2026-11-01 16:05:29 | Konstantelias
+  2026-11-01 16:05:29 | Stanišić <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-11-02 16:47:12 | Badé
+  2026-11-04 02:19:37 | Wisbereit
+  2026-11-04 18:13:54 | Lasme
+  2026-11-04 18:13:54 | Schubert
+  2026-11-06 02:31:22 | Darvich
+  2026-11-06 15:08:59 | Meyer
+
