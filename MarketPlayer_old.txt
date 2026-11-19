@@ -1,9 +1,9 @@
-Maksimović | 3,719,370 € | Market | 2026-11-19 11:13:14
-Møller Wolfe | 5,813,922 € | Market | 2026-11-19 13:12:44
 Hwang | 2,875,645 € | Market | 2026-11-19 15:16:18
 Nicolas | 8,969,747 € | Market | 2026-11-19 18:57:35
 Assignon | 2,695,461 € | Market | 2026-11-19 23:36:01
+Kofane | 6,852,432 € | Market | 2026-11-20 02:34:45
 Mwene | 7,181,156 € | Market | 2026-11-20 03:58:10
+Skhiri | 1,703,421 € | Market | 2026-11-20 03:59:12
 Topp | 500,000 € | Market | 2026-11-20 04:57:22
 Kobel | 19,585,395 € | Market | 2026-11-20 08:15:54
 Eichhorn | 4,978,495 € | Market | 2026-11-20 11:12:21
@@ -17,14 +17,14 @@ Capaldo | 7,495,120 € | Market | 2026-11-20 22:26:29
 Stage | 3,834,535 € | Market | 2026-11-21 00:05:39
 Urbig | 10,420,397 € | Market | 2026-11-21 03:03:35
 Doué | 6,123,046 € | Market | 2026-11-21 05:02:06
+Wójcik | 1,949,835 € | Market | 2026-11-21 11:49:21
+Kleindienst | 6,908,906 € | Vanilleeis23 | Kein Ablaufdatum
 Höler | 5,383,348 € | Philipp | Kein Ablaufdatum
 Bensebaini | 5,018,551 € | Vanilleeis23 | Kein Ablaufdatum
 Silas | 3,496,823 € | Robinho | Kein Ablaufdatum
 Ache | 7,499,239 € | Vincent  | Kein Ablaufdatum
 Pieringer | 5,139,143 € | Timo Kramer  | Kein Ablaufdatum
-Widmer | 5,119,762 € | Vincent  | Kein Ablaufdatum
 Tiago Tomás | 6,077,409 € | Joel | Kein Ablaufdatum
-Engelhardt | 16,732,100 € | Joel | Kein Ablaufdatum
 Njinmah | 5,250,587 € | Philipp | Kein Ablaufdatum
 Muheim | 11,589,165 € | Sascha187 | Kein Ablaufdatum
 Vušković | 2,492,872 € | Philipp | Kein Ablaufdatum
@@ -33,12 +33,11 @@ Hollerbach | 4,463,678 € | Robinho | Kein Ablaufdatum
 Adamu | 4,409,269 € | Braunbär7 | Kein Ablaufdatum
 Lynen | 5,673,162 € | Philipp | Kein Ablaufdatum
 Le Joncour | 3,841,038 € | Braunbär7 | Kein Ablaufdatum
-Grüll | 19,587,142 € | Joel | Kein Ablaufdatum
 El Mala | 4,636,475 € | Vincent  | Kein Ablaufdatum
-Avdullahu | 14,082,858 € | Joel | Kein Ablaufdatum
 Müller | 2,865,151 € | Vincent  | Kein Ablaufdatum
 Culbreath | 3,436,691 € | Vincent  | Kein Ablaufdatum
 Spalt | 6,218,183 € | Vanilleeis23 | Kein Ablaufdatum
+Ogundu | 3,940,478 € | Joel | Kein Ablaufdatum
 El Ouahdi | 7,526,455 € | Braunbär7 | Kein Ablaufdatum
 Uno | 6,432,372 € | CoachLeisi | Kein Ablaufdatum
 Imeri | 5,650,559 € | CoachLeisi | Kein Ablaufdatum
