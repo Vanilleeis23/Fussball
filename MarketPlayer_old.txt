@@ -1,43 +1,44 @@
-Hwang | 2,875,645 € | Market | 2026-11-19 15:16:18
-Nicolas | 8,969,747 € | Market | 2026-11-19 18:57:35
-Assignon | 2,695,461 € | Market | 2026-11-19 23:36:01
-Kofane | 6,852,432 € | Market | 2026-11-20 02:34:45
-Mwene | 7,181,156 € | Market | 2026-11-20 03:58:10
-Skhiri | 1,703,421 € | Market | 2026-11-20 03:59:12
+Assignon | 2,578,493 € | Market | 2026-11-19 23:36:01
+Kofane | 6,393,802 € | Market | 2026-11-20 02:34:45
+Mwene | 7,463,256 € | Market | 2026-11-20 03:58:10
+Skhiri | 1,574,293 € | Market | 2026-11-20 03:59:12
 Topp | 500,000 € | Market | 2026-11-20 04:57:22
-Kobel | 19,585,395 € | Market | 2026-11-20 08:15:54
-Eichhorn | 4,978,495 € | Market | 2026-11-20 11:12:21
+Kobel | 19,616,252 € | Market | 2026-11-20 08:15:54
+Eichhorn | 4,937,591 € | Market | 2026-11-20 11:12:21
 Quetant | 500,000 € | Market | 2026-11-20 11:16:07
-Lee | 6,402,547 € | Market | 2026-11-20 12:30:21
-Collins | 4,598,338 € | Market | 2026-11-20 12:48:04
-Stanišić | 15,570,868 € | Market | 2026-11-20 14:26:03
-Sauer | 538,922 € | Market | 2026-11-20 18:47:08
-Posch | 8,421,351 € | Market | 2026-11-20 21:17:55
-Capaldo | 7,495,120 € | Market | 2026-11-20 22:26:29
-Stage | 3,834,535 € | Market | 2026-11-21 00:05:39
-Urbig | 10,420,397 € | Market | 2026-11-21 03:03:35
-Doué | 6,123,046 € | Market | 2026-11-21 05:02:06
-Wójcik | 1,949,835 € | Market | 2026-11-21 11:49:21
-Kleindienst | 6,908,906 € | Vanilleeis23 | Kein Ablaufdatum
-Höler | 5,383,348 € | Philipp | Kein Ablaufdatum
-Bensebaini | 5,018,551 € | Vanilleeis23 | Kein Ablaufdatum
-Silas | 3,496,823 € | Robinho | Kein Ablaufdatum
-Ache | 7,499,239 € | Vincent  | Kein Ablaufdatum
-Pieringer | 5,139,143 € | Timo Kramer  | Kein Ablaufdatum
-Tiago Tomás | 6,077,409 € | Joel | Kein Ablaufdatum
-Njinmah | 5,250,587 € | Philipp | Kein Ablaufdatum
-Muheim | 11,589,165 € | Sascha187 | Kein Ablaufdatum
-Vušković | 2,492,872 € | Philipp | Kein Ablaufdatum
-Köhn | 5,735,394 € | Vincent  | Kein Ablaufdatum
-Hollerbach | 4,463,678 € | Robinho | Kein Ablaufdatum
-Adamu | 4,409,269 € | Braunbär7 | Kein Ablaufdatum
-Lynen | 5,673,162 € | Philipp | Kein Ablaufdatum
-Le Joncour | 3,841,038 € | Braunbär7 | Kein Ablaufdatum
-El Mala | 4,636,475 € | Vincent  | Kein Ablaufdatum
-Müller | 2,865,151 € | Vincent  | Kein Ablaufdatum
-Culbreath | 3,436,691 € | Vincent  | Kein Ablaufdatum
-Spalt | 6,218,183 € | Vanilleeis23 | Kein Ablaufdatum
-Ogundu | 3,940,478 € | Joel | Kein Ablaufdatum
-El Ouahdi | 7,526,455 € | Braunbär7 | Kein Ablaufdatum
-Uno | 6,432,372 € | CoachLeisi | Kein Ablaufdatum
-Imeri | 5,650,559 € | CoachLeisi | Kein Ablaufdatum
+Lee | 6,383,121 € | Market | 2026-11-20 12:30:21
+Collins | 4,700,539 € | Market | 2026-11-20 12:48:04
+Stanišić | 15,744,368 € | Market | 2026-11-20 14:26:03
+Banks | 2,375,577 € | Market | 2026-11-20 15:52:30
+Sauer | 500,000 € | Market | 2026-11-20 18:47:08
+Posch | 8,757,196 € | Market | 2026-11-20 21:17:55
+Capaldo | 7,797,928 € | Market | 2026-11-20 22:26:29
+Stage | 4,045,857 € | Market | 2026-11-21 00:05:39
+Müller | 1,459,639 € | Market | 2026-11-21 00:54:36
+Binder | 3,712,913 € | Market | 2026-11-21 02:05:49
+Da Costa | 4,883,062 € | Market | 2026-11-21 02:09:57
+Urbig | 10,541,429 € | Market | 2026-11-21 03:03:35
+Doué | 6,365,452 € | Market | 2026-11-21 05:02:06
+Wójcik | 1,834,448 € | Market | 2026-11-21 11:49:21
+Höler | 5,503,937 € | Philipp | Kein Ablaufdatum
+Bensebaini | 5,114,771 € | Vanilleeis23 | Kein Ablaufdatum
+Silas | 3,739,009 € | Robinho | Kein Ablaufdatum
+Ache | 7,610,741 € | Vincent  | Kein Ablaufdatum
+Pieringer | 5,239,540 € | Timo Kramer  | Kein Ablaufdatum
+Tiago Tomás | 6,193,158 € | Joel | Kein Ablaufdatum
+Muheim | 11,646,411 € | Sascha187 | Kein Ablaufdatum
+Vušković | 2,832,921 € | Philipp | Kein Ablaufdatum
+Köhn | 5,904,201 € | Vincent  | Kein Ablaufdatum
+Hollerbach | 4,727,436 € | Robinho | Kein Ablaufdatum
+Adamu | 4,587,929 € | Braunbär7 | Kein Ablaufdatum
+Lynen | 5,731,173 € | Philipp | Kein Ablaufdatum
+Le Joncour | 4,148,099 € | Braunbär7 | Kein Ablaufdatum
+ter Horst | 5,447,439 € | Timo Kramer  | Kein Ablaufdatum
+El Mala | 4,775,109 € | Vincent  | Kein Ablaufdatum
+Müller | 3,134,690 € | Vincent  | Kein Ablaufdatum
+Culbreath | 3,693,756 € | Vincent  | Kein Ablaufdatum
+Spalt | 6,379,077 € | Vanilleeis23 | Kein Ablaufdatum
+Ogundu | 4,185,905 € | Joel | Kein Ablaufdatum
+El Ouahdi | 7,713,033 € | Braunbär7 | Kein Ablaufdatum
+Uno | 6,596,943 € | CoachLeisi | Kein Ablaufdatum
+Imeri | 5,754,066 € | CoachLeisi | Kein Ablaufdatum
