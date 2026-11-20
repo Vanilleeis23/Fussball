@@ -1,23 +1,23 @@
-Collins | 4,700,539 € | Market | 2026-11-20 12:48:05
-Stanišić | 15,744,368 € | Market | 2026-11-20 14:26:04
-Banks | 2,375,577 € | Market | 2026-11-20 15:52:31
-Sauer | 500,000 € | Market | 2026-11-20 18:47:09
-Posch | 8,757,196 € | Market | 2026-11-20 21:17:56
-Capaldo | 7,797,928 € | Market | 2026-11-20 22:26:30
-Stage | 4,045,857 € | Market | 2026-11-21 00:05:40
-Müller | 1,459,639 € | Market | 2026-11-21 00:54:37
-Binder | 3,712,913 € | Market | 2026-11-21 02:05:50
-Da Costa | 4,883,062 € | Market | 2026-11-21 02:09:58
-Urbig | 10,541,429 € | Market | 2026-11-21 03:03:36
-Doué | 6,365,452 € | Market | 2026-11-21 05:02:07
-Hranác | 1,625,592 € | Market | 2026-11-21 07:11:09
-Schnitzer | 500,000 € | Market | 2026-11-21 08:18:49
-Wójcik | 1,834,448 € | Market | 2026-11-21 11:49:22
-Seol | 500,000 € | Market | 2026-11-21 18:47:38
-Prates | 500,000 € | Market | 2026-11-21 21:41:09
-Konstantelias | 1,982,084 € | Market | 2026-11-21 21:47:01
-Atubolu | 14,668,903 € | Market | 2026-11-21 22:05:50
-Götze | 1,992,488 € | Market | 2026-11-21 23:47:07
+Banks | 2,375,577 € | Market | 2026-11-20 15:52:30
+Sauer | 500,000 € | Market | 2026-11-20 18:47:08
+Posch | 8,757,196 € | Market | 2026-11-20 21:17:55
+Capaldo | 7,797,928 € | Market | 2026-11-20 22:26:29
+Stage | 4,045,857 € | Market | 2026-11-21 00:05:39
+Müller | 1,459,639 € | Market | 2026-11-21 00:54:36
+Binder | 3,712,913 € | Market | 2026-11-21 02:05:49
+Da Costa | 4,883,062 € | Market | 2026-11-21 02:09:57
+Urbig | 10,541,429 € | Market | 2026-11-21 03:03:35
+Bakayoko | 500,000 € | Market | 2026-11-21 03:32:16
+Doué | 6,365,452 € | Market | 2026-11-21 05:02:06
+Hranác | 1,625,592 € | Market | 2026-11-21 07:11:08
+Schnitzer | 500,000 € | Market | 2026-11-21 08:18:48
+Wójcik | 1,834,448 € | Market | 2026-11-21 11:49:21
+Seol | 500,000 € | Market | 2026-11-21 18:47:37
+Prates | 500,000 € | Market | 2026-11-21 21:41:08
+Konstantelias | 1,982,084 € | Market | 2026-11-21 21:47:00
+Atubolu | 14,668,903 € | Market | 2026-11-21 22:05:49
+Götze | 1,992,488 € | Market | 2026-11-21 23:47:06
+Huth | 500,000 € | Market | 2026-11-22 01:11:29
 Baku | 17,473,839 € | CoachLeisi | Kein Ablaufdatum
 Höler | 5,503,937 € | Philipp | Kein Ablaufdatum
 Bensebaini | 5,114,771 € | Vanilleeis23 | Kein Ablaufdatum
@@ -31,5 +31,6 @@ Adamu | 4,587,929 € | Braunbär7 | Kein Ablaufdatum
 Lynen | 5,731,173 € | Philipp | Kein Ablaufdatum
 Le Joncour | 4,148,099 € | Braunbär7 | Kein Ablaufdatum
 ter Horst | 5,447,439 € | Timo Kramer  | Kein Ablaufdatum
-Ogundu | 4,185,905 € | Joel | Kein Ablaufdatum
+Simpson-Pusey | 10,615,992 € | Vanilleeis23 | Kein Ablaufdatum
+Spalt | 6,379,077 € | Vanilleeis23 | Kein Ablaufdatum
 El Ouahdi | 7,713,033 € | Braunbär7 | Kein Ablaufdatum
