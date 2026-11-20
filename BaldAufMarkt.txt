@@ -28,4 +28,4 @@
   2026-11-05 21:00:40 | Kristof
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Hranác' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Huth' nicht in ÜberMarktGelaufen.txt gefunden. ===
