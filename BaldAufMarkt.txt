@@ -1,31 +1,31 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Da Costa (2026-11-01 11:17:36) [Transactionen.txt]
+ REFERENZ: Götze (2026-11-07 23:25:58) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-30 19:52:50 | Irié
-  2026-10-30 19:53:09 | Bellingham
-  2026-10-30 20:36:46 | Lee
-  2026-10-30 20:37:28 | Rosenfelder
-  2026-10-30 20:37:39 | Assignon
-  2026-10-30 22:35:06 | Mwene
-  2026-10-31 14:54:09 | Finkgräfe
-  2026-10-31 19:40:48 | Posch
-  2026-10-31 19:55:01 | Maksimović
-  2026-10-31 22:15:12 | Hwang
+  2026-11-06 21:29:27 | Aebischer
+  2026-11-06 21:29:32 | Gray
+  2026-11-06 21:29:45 | Schmetgens
+  2026-11-06 23:01:07 | Itakura
+  2026-11-06 23:02:17 | Reitz
+  2026-11-06 23:25:55 | Keitel
+  2026-11-07 18:11:55 | Chukwuemeka
+  2026-11-07 18:29:18 | Ryerson
+  2026-11-07 21:17:52 | Pejčinović
+  2026-11-07 21:40:18 | Hofmann
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-01 20:32:33 | Wójcik <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-11-02 17:46:04 | Kuruçay
-  2026-11-02 21:34:14 | Hranác
-  2026-11-02 21:35:14 | Weiser
-  2026-11-02 23:10:03 | Nebel
-  2026-11-03 00:05:03 | Ulrich
-  2026-11-03 14:58:26 | Maina
-  2026-11-04 19:55:25 | Karazor
-  2026-11-04 22:24:57 | Castrop
-  2026-11-04 23:01:24 | Tigges
+  2026-11-08 19:13:05 | Becker <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-11-08 22:14:13 | Onyeka
+  2026-11-08 23:06:35 | Abraha
+  2026-11-08 23:07:03 | Schallenberg
+  2026-11-09 15:40:14 | Tanaka
+  2026-11-09 17:29:54 | Neuhaus
+  2026-11-09 20:18:57 | Dahmen
+  2026-11-09 20:19:04 | Behrens
+  2026-11-09 20:19:13 | Curda
+  2026-11-09 20:19:55 | Dōan
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Atubolu' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Götze' nicht in ÜberMarktGelaufen.txt gefunden. ===
