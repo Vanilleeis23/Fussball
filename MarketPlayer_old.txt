@@ -1,5 +1,3 @@
-Banks | 2,375,577 € | Market | 2026-11-20 15:52:30
-Sauer | 500,000 € | Market | 2026-11-20 18:47:08
 Posch | 8,757,196 € | Market | 2026-11-20 21:17:55
 Capaldo | 7,797,928 € | Market | 2026-11-20 22:26:29
 Stage | 4,045,857 € | Market | 2026-11-21 00:05:39
@@ -11,26 +9,18 @@ Bakayoko | 500,000 € | Market | 2026-11-21 03:32:16
 Doué | 6,365,452 € | Market | 2026-11-21 05:02:06
 Hranác | 1,625,592 € | Market | 2026-11-21 07:11:08
 Schnitzer | 500,000 € | Market | 2026-11-21 08:18:48
+Awortwie-Grant | 500,000 € | Market | 2026-11-21 11:19:19
 Wójcik | 1,834,448 € | Market | 2026-11-21 11:49:21
+Weiser | 5,159,928 € | Market | 2026-11-21 16:09:25
 Seol | 500,000 € | Market | 2026-11-21 18:47:37
 Prates | 500,000 € | Market | 2026-11-21 21:41:08
 Konstantelias | 1,982,084 € | Market | 2026-11-21 21:47:00
 Atubolu | 14,668,903 € | Market | 2026-11-21 22:05:49
+Badé | 3,559,550 € | Market | 2026-11-21 22:09:26
 Götze | 1,992,488 € | Market | 2026-11-21 23:47:06
 Huth | 500,000 € | Market | 2026-11-22 01:11:29
-Baku | 17,473,839 € | CoachLeisi | Kein Ablaufdatum
+Dinkçi | 10,784,650 € | Market | 2026-11-22 02:13:28
 Höler | 5,503,937 € | Philipp | Kein Ablaufdatum
-Bensebaini | 5,114,771 € | Vanilleeis23 | Kein Ablaufdatum
-Silas | 3,739,009 € | Robinho | Kein Ablaufdatum
-Pieringer | 5,239,540 € | Timo Kramer  | Kein Ablaufdatum
-Tiago Tomás | 6,193,158 € | Joel | Kein Ablaufdatum
-Muheim | 11,646,411 € | Sascha187 | Kein Ablaufdatum
 Vušković | 2,832,921 € | Philipp | Kein Ablaufdatum
 Hollerbach | 4,727,436 € | Robinho | Kein Ablaufdatum
-Adamu | 4,587,929 € | Braunbär7 | Kein Ablaufdatum
 Lynen | 5,731,173 € | Philipp | Kein Ablaufdatum
-Le Joncour | 4,148,099 € | Braunbär7 | Kein Ablaufdatum
-ter Horst | 5,447,439 € | Timo Kramer  | Kein Ablaufdatum
-Simpson-Pusey | 10,615,992 € | Vanilleeis23 | Kein Ablaufdatum
-Spalt | 6,379,077 € | Vanilleeis23 | Kein Ablaufdatum
-El Ouahdi | 7,713,033 € | Braunbär7 | Kein Ablaufdatum

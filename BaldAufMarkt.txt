@@ -1,11 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Weiser (2026-11-02 21:35:14) [Transactionen.txt]
+ REFERENZ: Ulrich (2026-11-03 00:05:03) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-30 20:37:39 | Assignon
-  2026-10-30 22:35:06 | Mwene
   2026-10-31 14:54:09 | Finkgräfe
   2026-10-31 19:40:48 | Posch
   2026-10-31 19:55:01 | Maksimović
@@ -14,10 +12,10 @@
   2026-11-01 20:32:33 | Wójcik
   2026-11-02 17:46:04 | Kuruçay
   2026-11-02 21:34:14 | Hranác
+  2026-11-02 21:35:14 | Weiser
+  2026-11-02 23:10:03 | Nebel
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-02 23:10:03 | Nebel
-  2026-11-03 00:05:03 | Ulrich
   2026-11-03 14:58:26 | Maina
   2026-11-04 19:55:25 | Karazor
   2026-11-04 22:24:57 | Castrop
@@ -26,6 +24,8 @@
   2026-11-05 08:57:00 | Matsima
   2026-11-05 21:00:40 | Kristof
   2026-11-05 22:52:36 | Kömür
+  2026-11-05 23:06:54 | Tella
+  2026-11-06 00:08:13 | Ljubičić
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Awortwie-Grant' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Ulrich' nicht in ÜberMarktGelaufen.txt gefunden. ===
