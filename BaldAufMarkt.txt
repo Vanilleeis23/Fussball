@@ -1,59 +1,31 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Kuruçay (2026-11-02 17:46:04) [Transactionen.txt]
+ REFERENZ: Maina (2026-11-03 14:58:26) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-30 20:36:46 | Lee
-  2026-10-30 20:37:28 | Rosenfelder
-  2026-10-30 20:37:39 | Assignon
-  2026-10-30 22:35:06 | Mwene
-  2026-10-31 14:54:09 | Finkgräfe
   2026-10-31 19:40:48 | Posch
   2026-10-31 19:55:01 | Maksimović
   2026-10-31 22:15:12 | Hwang
   2026-11-01 11:17:36 | Da Costa
   2026-11-01 20:32:33 | Wójcik
+  2026-11-02 17:46:04 | Kuruçay
+  2026-11-02 21:34:14 | Hranác
+  2026-11-02 21:35:14 | Weiser
+  2026-11-02 23:10:03 | Nebel
+  2026-11-03 00:05:03 | Ulrich
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-02 21:34:14 | Hranác
-  2026-11-02 21:35:14 | Weiser <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN, KÜRZLICH GEKAUFT)
-  2026-11-02 23:10:03 | Nebel <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-11-03 00:05:03 | Ulrich <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-11-03 14:58:26 | Maina
   2026-11-04 19:55:25 | Karazor
   2026-11-04 22:24:57 | Castrop
   2026-11-04 23:01:24 | Tigges
   2026-11-04 23:25:00 | Claude-Maurice
   2026-11-05 08:57:00 | Matsima
+  2026-11-05 21:00:40 | Kristof
+  2026-11-05 22:52:36 | Kömür
+  2026-11-05 23:06:54 | Tella
+  2026-11-06 00:08:13 | Ljubičić
+  2026-11-06 15:41:55 | Potulski
 
 
-==================================================
- ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Sakar (2026-11-21 16:02:38) [ÜberMarktGelaufen.txt]
-==================================================
-
---- 10 Spieler davor (historisch) ---
-  2026-10-25 07:10:44 | Danfa
-  2026-10-26 20:17:36 | Kawasaki
-  2026-10-27 19:42:57 | Ayhan
-  2026-10-27 22:17:52 | Leopold
-  2026-10-29 08:03:00 | Ogundu
-  2026-10-30 01:58:02 | Schnitzer
-  2026-10-31 00:44:31 | Eichhorn
-  2026-10-31 13:25:23 | Kobel
-  2026-10-31 22:31:11 | Urbig
-  2026-11-01 02:08:02 | Džeko
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-01 16:05:29 | Konstantelias <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-11-01 16:05:29 | Stanišić <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-11-02 16:47:12 | Badé <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-11-04 02:19:37 | Wisbereit
-  2026-11-04 18:13:54 | Lasme
-  2026-11-04 18:13:54 | Schubert
-  2026-11-06 02:31:22 | Darvich
-  2026-11-06 15:08:59 | Meyer
-  2026-11-07 16:35:29 | Santos
-  2026-11-07 16:35:29 | Schlager
-
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Maina' nicht in ÜberMarktGelaufen.txt gefunden. ===
