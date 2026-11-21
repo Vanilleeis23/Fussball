@@ -1,6 +1,3 @@
-Awortwie-Grant | 500,000 € | Market | 2026-11-21 11:19:19
-Wójcik | 1,741,238 € | Market | 2026-11-21 11:49:21
-Weiser | 5,301,803 € | Market | 2026-11-21 16:09:25
 Seol | 500,000 € | Market | 2026-11-21 18:47:37
 Prates | 500,000 € | Market | 2026-11-21 21:41:08
 Konstantelias | 2,066,476 € | Market | 2026-11-21 21:47:00
@@ -11,6 +8,7 @@ Leszczynski | 500,000 € | Market | 2026-11-22 00:26:51
 Huth | 500,000 € | Market | 2026-11-22 01:11:29
 Dinkçi | 10,741,762 € | Market | 2026-11-22 02:13:28
 Boss | 500,000 € | Market | 2026-11-22 02:42:48
+Krattenmacher | 8,859,648 € | Market | 2026-11-22 04:04:02
 Guiu | 500,000 € | Market | 2026-11-22 05:03:53
 De Cat | 500,000 € | Market | 2026-11-22 08:27:41
 Codjo-Evora | 500,000 € | Market | 2026-11-22 09:43:15
@@ -20,10 +18,12 @@ Ulrich | 3,762,113 € | Market | 2026-11-22 11:34:59
 Knauff | 2,317,173 € | Market | 2026-11-22 13:10:19
 Wimmer | 583,246 € | Market | 2026-11-22 13:27:55
 Tah | 29,602,406 € | Market | 2026-11-22 14:15:57
-Höler | 5,215,742 € | Philipp | Kein Ablaufdatum
+Sakar | 500,000 € | Market | 2026-11-23 05:42:38
+Rondic | 500,000 € | Market | 2026-11-23 06:37:54
+Weiser | 5,301,803 € | Robinho | Kein Ablaufdatum
 Vušković | 3,041,955 € | Philipp | Kein Ablaufdatum
 Hollerbach | 4,817,500 € | Robinho | Kein Ablaufdatum
-Kane | 65,923,375 € | Vanilleeis23 | Kein Ablaufdatum
 Zimmerschied | 1,609,785 € | Vanilleeis23 | Kein Ablaufdatum
 Capaldo | 8,047,412 € | Vanilleeis23 | Kein Ablaufdatum
+Schnitzer | 500,000 € | Braunbär7 | Kein Ablaufdatum
 Spalt | 6,372,426 € | Vanilleeis23 | Kein Ablaufdatum
