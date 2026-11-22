@@ -1,10 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Maina (2026-11-03 14:58:26) [Transactionen.txt]
+ REFERENZ: Karazor (2026-11-04 19:55:25) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-10-31 19:40:48 | Posch
   2026-10-31 19:55:01 | Maksimović
   2026-10-31 22:15:12 | Hwang
   2026-11-01 11:17:36 | Da Costa
@@ -14,46 +13,19 @@
   2026-11-02 21:35:14 | Weiser
   2026-11-02 23:10:03 | Nebel
   2026-11-03 00:05:03 | Ulrich
+  2026-11-03 14:58:26 | Maina
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-04 19:55:25 | Karazor
-  2026-11-04 22:24:57 | Castrop
-  2026-11-04 23:01:24 | Tigges
-  2026-11-04 23:25:00 | Claude-Maurice
+  2026-11-04 22:24:57 | Castrop <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-11-04 23:01:24 | Tigges <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-11-04 23:25:00 | Claude-Maurice <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-11-05 08:57:00 | Matsima
   2026-11-05 21:00:40 | Kristof
   2026-11-05 22:52:36 | Kömür
   2026-11-05 23:06:54 | Tella
   2026-11-06 00:08:13 | Ljubičić
   2026-11-06 15:41:55 | Potulski
+  2026-11-06 17:12:57 | Caci
 
 
-==================================================
- ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Adam (2026-11-22 11:41:15) [ÜberMarktGelaufen.txt]
-==================================================
-
---- 10 Spieler davor (historisch) ---
-  2026-09-16 13:30:57 | Kawasaki
-  2026-09-16 18:53:45 | Ayhan
-  2026-09-16 18:53:45 | Futkeu
-  2026-09-16 18:53:45 | Marino
-  2026-09-17 03:24:25 | Führich
-  2026-09-17 08:05:44 | Jeong
-  2026-09-17 08:05:44 | Stiller
-  2026-09-17 20:12:06 | Seol
-  2026-09-18 07:54:08 | Okon-Engstler
-  2026-09-18 13:12:12 | Leweling
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-09-19 07:52:16 | Irié
-  2026-09-19 12:57:00 | Ogundu <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-09-19 20:00:09 | Querfeld
-  2026-09-20 08:14:44 | Van den Bosch
-  2026-09-21 00:25:42 | Schubert
-  2026-09-21 08:19:13 | Karius
-  2026-09-21 08:19:13 | Khedira
-  2026-09-21 08:19:13 | Sakar <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-09-21 16:07:15 | El Khannouss
-  2026-09-22 01:16:19 | Eichhorn <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Blaswich' nicht in ÜberMarktGelaufen.txt gefunden. ===
