@@ -1,8 +1,3 @@
-Leszczynski | 500,000 € | Market | 2026-11-22 00:26:51
-Huth | 500,000 € | Market | 2026-11-22 01:11:29
-Dinkçi | 10,593,242 € | Market | 2026-11-22 02:13:28
-Boss | 500,000 € | Market | 2026-11-22 02:42:48
-Krattenmacher | 8,822,579 € | Market | 2026-11-22 04:04:02
 Guiu | 500,000 € | Market | 2026-11-22 05:03:53
 De Cat | 500,000 € | Market | 2026-11-22 08:27:41
 Codjo-Evora | 700,635 € | Market | 2026-11-22 09:43:15
@@ -17,6 +12,10 @@ Maloney | 804,639 € | Market | 2026-11-22 21:53:29
 Sylla | 944,411 € | Market | 2026-11-23 00:26:24
 Sakar | 500,000 € | Market | 2026-11-23 05:42:38
 Rondic | 500,000 € | Market | 2026-11-23 06:37:54
+Džeko | 521,564 € | Market | 2026-11-23 10:45:33
+Nartey | 4,933,602 € | Market | 2026-11-23 13:43:32
+Hashioka | 2,118,525 € | Market | 2026-11-24 00:29:13
+Brown | 21,436,642 € | Market | 2026-11-24 03:22:16
 Weiser | 5,529,676 € | Robinho | Kein Ablaufdatum
 Vušković | 3,220,370 € | Philipp | Kein Ablaufdatum
 Hollerbach | 4,816,331 € | Robinho | Kein Ablaufdatum

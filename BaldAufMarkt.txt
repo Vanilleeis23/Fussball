@@ -28,4 +28,4 @@
   2026-11-06 15:41:55 | Potulski
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Maina' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Brown' nicht in ÜberMarktGelaufen.txt gefunden. ===
