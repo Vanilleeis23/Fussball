@@ -1,11 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Kristof (2026-11-05 21:00:40) [Transactionen.txt]
+ REFERENZ: Tella (2026-11-05 23:06:54) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-11-02 21:34:14 | Hranác
-  2026-11-02 21:35:14 | Weiser
   2026-11-02 23:10:03 | Nebel
   2026-11-03 00:05:03 | Ulrich
   2026-11-03 14:58:26 | Maina
@@ -14,10 +12,10 @@
   2026-11-04 23:01:24 | Tigges
   2026-11-04 23:25:00 | Claude-Maurice
   2026-11-05 08:57:00 | Matsima
+  2026-11-05 21:00:40 | Kristof
+  2026-11-05 22:52:36 | Kömür
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-05 22:52:36 | Kömür
-  2026-11-05 23:06:54 | Tella
   2026-11-06 00:08:13 | Ljubičić
   2026-11-06 15:41:55 | Potulski
   2026-11-06 17:12:57 | Caci
@@ -26,34 +24,36 @@
   2026-11-06 18:27:56 | Massengo
   2026-11-06 18:27:59 | Hendriks
   2026-11-06 18:54:33 | Castro-Montes
+  2026-11-06 19:32:54 | El Mala
+  2026-11-06 20:34:18 | Torunarigha
 
 
 ==================================================
  ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Mensah (2026-11-22 23:35:43) [ÜberMarktGelaufen.txt]
+ REFERENZ: Duric (2026-11-23 10:15:10) [ÜberMarktGelaufen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-09-14 08:16:55 | Hendriks
-  2026-09-14 08:52:03 | Andrich
-  2026-09-14 08:52:03 | Hendriks
-  2026-09-14 15:59:26 | Mane
-  2026-09-14 21:21:00 | Chabot
-  2026-09-15 20:11:29 | Leopold
-  2026-09-15 20:11:29 | Ribeiro
-  2026-09-15 20:11:29 | Yamamoto
-  2026-09-15 23:22:22 | Karl
-  2026-09-15 23:22:22 | Kramarić
+  2026-08-28 20:40:28 | Ljubičić
+  2026-08-29 04:10:26 | Adam
+  2026-08-29 07:11:58 | Collins
+  2026-08-29 16:27:45 | Moffi
+  2026-08-29 20:27:54 | Quansah
+  2026-08-29 23:43:09 | Nsoki
+  2026-08-29 23:43:09 | Seol
+  2026-08-30 08:38:25 | Karius
+  2026-08-30 08:38:25 | Van den Bosch
+  2026-08-30 09:30:45 | Khedira
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-09-16 13:30:57 | Kawasaki <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-09-16 18:53:45 | Ayhan <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-09-16 18:53:45 | Futkeu <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-09-16 18:53:45 | Marino
-  2026-09-17 03:24:25 | Führich
-  2026-09-17 08:05:44 | Jeong
-  2026-09-17 08:05:44 | Stiller <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-09-17 20:12:06 | Seol <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-09-18 07:54:08 | Okon-Engstler
-  2026-09-18 13:12:12 | Leweling
+  2026-08-30 14:52:53 | Schubert
+  2026-08-30 23:04:05 | Rômulo
+  2026-08-31 07:32:40 | Ogundu <-- SKIP (KÜRZLICH GEKAUFT)
+  2026-08-31 07:32:40 | Theate
+  2026-08-31 15:43:08 | Aséko
+  2026-08-31 22:03:42 | El Khannouss
+  2026-08-31 22:03:42 | Ginter
+  2026-09-01 01:50:07 | Burke <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-01 16:52:27 | Sakar <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-09-01 22:54:24 | Onyedika
 
