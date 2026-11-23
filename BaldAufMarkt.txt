@@ -1,10 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Tella (2026-11-05 23:06:54) [Transactionen.txt]
+ REFERENZ: Ljubičić (2026-11-06 00:08:13) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-11-02 23:10:03 | Nebel
   2026-11-03 00:05:03 | Ulrich
   2026-11-03 14:58:26 | Maina
   2026-11-04 19:55:25 | Karazor
@@ -14,9 +13,9 @@
   2026-11-05 08:57:00 | Matsima
   2026-11-05 21:00:40 | Kristof
   2026-11-05 22:52:36 | Kömür
+  2026-11-05 23:06:54 | Tella
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-06 00:08:13 | Ljubičić
   2026-11-06 15:41:55 | Potulski
   2026-11-06 17:12:57 | Caci
   2026-11-06 17:33:40 | Poreba
@@ -26,34 +25,35 @@
   2026-11-06 18:54:33 | Castro-Montes
   2026-11-06 19:32:54 | El Mala
   2026-11-06 20:34:18 | Torunarigha
+  2026-11-06 20:34:20 | Sirch
 
 
 ==================================================
  ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Duric (2026-11-23 10:15:10) [ÜberMarktGelaufen.txt]
+ REFERENZ: Ljubičić (2026-11-23 13:32:28) [ÜberMarktGelaufen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-08-28 20:40:28 | Ljubičić
-  2026-08-29 04:10:26 | Adam
+  2026-08-27 05:17:39 | Terrier
+  2026-08-27 11:46:27 | Kawasaki
+  2026-08-27 11:46:27 | Stiller
+  2026-08-27 11:46:27 | Zimmerschied
+  2026-08-27 20:44:25 | Andrés
+  2026-08-28 07:23:02 | Yamamoto
+  2026-08-28 10:15:24 | Simpson-Pusey
+  2026-08-28 10:56:18 | Irié
+  2026-08-28 13:53:47 | Querfeld
+  2026-08-28 20:40:28 | Leweling
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-08-29 04:10:26 | Adam <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-08-29 07:11:58 | Collins
   2026-08-29 16:27:45 | Moffi
   2026-08-29 20:27:54 | Quansah
   2026-08-29 23:43:09 | Nsoki
-  2026-08-29 23:43:09 | Seol
+  2026-08-29 23:43:09 | Seol <-- SKIP (KÜRZLICH GEKAUFT)
   2026-08-30 08:38:25 | Karius
   2026-08-30 08:38:25 | Van den Bosch
   2026-08-30 09:30:45 | Khedira
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-08-30 14:52:53 | Schubert
-  2026-08-30 23:04:05 | Rômulo
-  2026-08-31 07:32:40 | Ogundu <-- SKIP (KÜRZLICH GEKAUFT)
-  2026-08-31 07:32:40 | Theate
-  2026-08-31 15:43:08 | Aséko
-  2026-08-31 22:03:42 | El Khannouss
-  2026-08-31 22:03:42 | Ginter
-  2026-09-01 01:50:07 | Burke <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-09-01 16:52:27 | Sakar <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-09-01 22:54:24 | Onyedika
+  2026-08-30 14:52:53 | Duric <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
 
