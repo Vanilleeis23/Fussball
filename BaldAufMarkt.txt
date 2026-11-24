@@ -1,31 +1,31 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Musiala (2026-11-06 17:34:10) [Transactionen.txt]
+ REFERENZ: Daka (2026-11-06 20:34:23) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-11-04 23:01:24 | Tigges
-  2026-11-04 23:25:00 | Claude-Maurice
-  2026-11-05 08:57:00 | Matsima
-  2026-11-05 21:00:40 | Kristof
-  2026-11-05 22:52:36 | Kömür
-  2026-11-05 23:06:54 | Tella
-  2026-11-06 00:08:13 | Ljubičić
   2026-11-06 15:41:55 | Potulski
   2026-11-06 17:12:57 | Caci
   2026-11-06 17:33:40 | Poreba
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
+  2026-11-06 17:34:10 | Musiala
   2026-11-06 18:27:56 | Massengo
-  2026-11-06 18:27:59 | Hendriks <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
+  2026-11-06 18:27:59 | Hendriks
   2026-11-06 18:54:33 | Castro-Montes
   2026-11-06 19:32:54 | El Mala
   2026-11-06 20:34:18 | Torunarigha
   2026-11-06 20:34:20 | Sirch
-  2026-11-06 20:34:23 | Daka
+
+--- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
   2026-11-06 20:51:43 | Petkov
   2026-11-06 20:52:01 | Baack
   2026-11-06 21:29:27 | Aebischer
+  2026-11-06 21:29:32 | Gray
+  2026-11-06 21:29:45 | Schmetgens
+  2026-11-06 23:01:07 | Itakura
+  2026-11-06 23:02:17 | Reitz
+  2026-11-06 23:25:55 | Keitel
+  2026-11-07 18:11:55 | Chukwuemeka
+  2026-11-07 18:29:18 | Ryerson
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Musiala' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Daka' nicht in ÜberMarktGelaufen.txt gefunden. ===
