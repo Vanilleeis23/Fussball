@@ -28,4 +28,4 @@
   2026-11-07 18:29:18 | Ryerson
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Daka' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Diehl' nicht in ÜberMarktGelaufen.txt gefunden. ===
