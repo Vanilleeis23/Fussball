@@ -1,42 +1,44 @@
-Amaimouni | 500,000 € | Market | 2026-11-25 05:41:37
-Ljubičić | 4,628,143 € | Market | 2026-11-25 06:44:29
-Vázquez | 3,318,611 € | Market | 2026-11-25 07:20:46
-Darvich | 1,232,608 € | Market | 2026-11-25 10:22:15
-Nsoki | 500,000 € | Market | 2026-11-25 14:53:20
-Haberer | 4,763,696 € | Market | 2026-11-25 15:06:31
-Gouweleeuw | 5,809,708 € | Market | 2026-11-25 15:07:43
-Hajdari | 500,000 € | Market | 2026-11-25 15:31:23
-Caci | 16,968,596 € | Market | 2026-11-25 15:52:28
-Musiala | 24,433,717 € | Market | 2026-11-25 16:35:50
-Potulski | 9,145,410 € | Market | 2026-11-25 20:19:27
-Ben Seghir | 500,000 € | Market | 2026-11-26 01:27:04
-Sticker | 500,000 € | Market | 2026-11-26 01:41:54
-Treu | 13,266,683 € | Market | 2026-11-26 01:47:29
-Poreba | 7,706,221 € | Market | 2026-11-26 03:00:13
-Matsima | 9,372,305 € | Market | 2026-11-26 04:14:09
-Daka | 3,667,612 € | Market | 2026-11-26 04:16:43
-Mickelson | 500,000 € | Market | 2026-11-26 04:57:08
-Diehl | 500,000 € | Market | 2026-11-26 05:23:29
-Massengo | 6,627,706 € | Market | 2026-11-26 14:42:29
-Tangvik | 500,000 € | Market | 2026-11-26 19:51:05
-Torunarigha | 4,433,453 € | Market | 2026-11-27 03:06:37
+Nsoki | 500,000 € | Market | 2026-11-25 14:53:19
+Haberer | 4,763,696 € | Market | 2026-11-25 15:06:30
+Gouweleeuw | 5,809,708 € | Market | 2026-11-25 15:07:42
+Hajdari | 500,000 € | Market | 2026-11-25 15:31:22
+Caci | 16,968,596 € | Market | 2026-11-25 15:52:27
+Musiala | 24,433,717 € | Market | 2026-11-25 16:35:49
+Potulski | 9,145,410 € | Market | 2026-11-25 20:19:26
+Thielmann | 500,000 € | Market | 2026-11-25 21:49:51
+Ben Seghir | 500,000 € | Market | 2026-11-26 01:27:03
+Sticker | 500,000 € | Market | 2026-11-26 01:41:53
+Treu | 13,266,683 € | Market | 2026-11-26 01:47:28
+Poreba | 7,706,221 € | Market | 2026-11-26 03:00:12
+Matsima | 9,372,305 € | Market | 2026-11-26 04:14:08
+Daka | 3,667,612 € | Market | 2026-11-26 04:16:42
+Mickelson | 500,000 € | Market | 2026-11-26 04:57:07
+Diehl | 500,000 € | Market | 2026-11-26 05:23:28
+Castro-Montes | 1,864,041 € | Market | 2026-11-26 09:00:38
+Massengo | 6,627,706 € | Market | 2026-11-26 14:42:28
+Khedira | 4,066,454 € | Market | 2026-11-26 18:02:57
+Tangvik | 500,000 € | Market | 2026-11-26 19:51:04
+Aebischer | 4,266,484 € | Market | 2026-11-27 01:48:42
+Torunarigha | 4,433,453 € | Market | 2026-11-27 03:06:36
 Weiser | 6,495,466 € | Robinho | Kein Ablaufdatum
 Andrich | 6,216,235 € | Joel | Kein Ablaufdatum
 Gyamerah | 1,947,098 € | Timo Kramer  | Kein Ablaufdatum
 Maina | 6,368,275 € | Braunbär7 | Kein Ablaufdatum
 Karazor | 7,112,990 € | Philipp | Kein Ablaufdatum
 Knauff | 3,553,029 € | Robinho | Kein Ablaufdatum
+Ljubičić | 4,628,143 € | Robinho | Kein Ablaufdatum
 Chiarodia | 5,438,179 € | Timo Kramer  | Kein Ablaufdatum
+Engelhardt | 17,317,984 € | Joel | Kein Ablaufdatum
 Vušković | 3,821,363 € | Philipp | Kein Ablaufdatum
 Königsdörffer | 2,810,513 € | CoachLeisi | Kein Ablaufdatum
 Badé | 4,724,143 € | Timo Kramer  | Kein Ablaufdatum
+Castello Jr. | 20,088,935 € | Robinho | Kein Ablaufdatum
 Tella | 5,074,493 € | Vanilleeis23 | Kein Ablaufdatum
 Sylla | 1,627,449 € | Braunbär7 | Kein Ablaufdatum
+Becker | 4,683,534 € | CoachLeisi | Kein Ablaufdatum
 Zimmerschied | 3,146,538 € | Vanilleeis23 | Kein Ablaufdatum
 Claude-Maurice | 8,091,196 € | CoachLeisi | Kein Ablaufdatum
-Fábio Silva | 14,280,038 € | CoachLeisi | Kein Ablaufdatum
 Røssing-Lelesiit | 4,049,799 € | Braunbär7 | Kein Ablaufdatum
-Banzuzi | 15,140,671 € | Joel | Kein Ablaufdatum
 Nandja | 3,497,778 € | Julian | Kein Ablaufdatum
 Schnitzer | 951,564 € | Braunbär7 | Kein Ablaufdatum
 Seol | 1,138,930 € | CoachLeisi | Kein Ablaufdatum
