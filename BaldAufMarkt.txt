@@ -28,32 +28,4 @@
   2026-11-09 20:19:55 | Dōan
 
 
-==================================================
- ÜBER DEN MARKT GELAUFEN (VERLAUF)
- REFERENZ: Meyer (2026-11-26 16:52:58) [ÜberMarktGelaufen.txt]
-==================================================
-
---- 10 Spieler davor (historisch) ---
-  2026-10-31 22:31:11 | Urbig
-  2026-11-01 02:08:02 | Džeko
-  2026-11-01 02:08:02 | Sakar
-  2026-11-01 16:05:29 | Konstantelias
-  2026-11-01 16:05:29 | Stanišić
-  2026-11-02 16:47:12 | Badé
-  2026-11-04 02:19:37 | Wisbereit
-  2026-11-04 18:13:54 | Lasme
-  2026-11-04 18:13:54 | Schubert
-  2026-11-06 02:31:22 | Darvich
-
---- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-07 16:35:29 | Santos
-  2026-11-07 16:35:29 | Schlager
-  2026-11-08 08:17:36 | Klaus
-  2026-11-08 08:17:36 | Schmahl <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
-  2026-11-09 18:27:47 | Heskey
-  2026-11-10 02:29:44 | Pimpong
-  2026-11-10 10:46:58 | Waldschmidt
-  2026-11-10 18:48:25 | Batista Meier
-  2026-11-11 22:55:57 | Nyland
-  2026-11-12 03:57:26 | Yamamoto
-
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Ilic' nicht in ÜberMarktGelaufen.txt gefunden. ===
