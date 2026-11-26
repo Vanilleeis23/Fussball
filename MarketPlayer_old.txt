@@ -1,34 +1,33 @@
-Tangvik | 500,000 € | Market | 2026-11-26 19:51:05
-Wisbereit | 500,000 € | Market | 2026-11-26 22:20:30
-Kemlein | 500,000 € | Market | 2026-11-26 23:56:25
-Aebischer | 4,578,963 € | Market | 2026-11-27 01:48:43
-Torunarigha | 4,297,787 € | Market | 2026-11-27 03:06:37
-Petersson | 500,000 € | Market | 2026-11-27 09:44:28
-Højlund | 2,918,343 € | Market | 2026-11-27 09:47:39
-Keitel | 3,556,482 € | Market | 2026-11-27 10:58:41
-Baack | 3,298,708 € | Market | 2026-11-27 16:11:31
-Terrier | 500,000 € | Market | 2026-11-27 16:11:34
-Schmetgens | 3,093,354 € | Market | 2026-11-27 18:50:26
-Pejčinović | 4,992,466 € | Market | 2026-11-27 18:54:38
-Hofmann | 5,357,548 € | Market | 2026-11-27 21:25:33
-Bachmann | 500,000 € | Market | 2026-11-28 00:17:25
-Nguefack | 500,000 € | Market | 2026-11-28 00:27:34
-Chukwuemeka | 4,209,012 € | Market | 2026-11-28 01:56:30
-Stange | 500,000 € | Market | 2026-11-28 02:26:36
-Meyer | 500,000 € | Market | 2026-11-28 04:53:59
-Götze | 2,023,946 € | Market | 2026-11-28 10:41:30
-Schmahl | 826,639 € | Market | 2026-11-28 11:42:32
-Weiser | 6,755,200 € | Robinho | Kein Ablaufdatum
-Andrich | 6,320,360 € | Joel | Kein Ablaufdatum
-Posch | 10,445,142 € | Timo Kramer  | Kein Ablaufdatum
-Maina | 6,606,546 € | Braunbär7 | Kein Ablaufdatum
-Karazor | 7,329,245 € | Philipp | Kein Ablaufdatum
-Knauff | 3,924,873 € | Robinho | Kein Ablaufdatum
-Ljubičić | 4,721,274 € | Robinho | Kein Ablaufdatum
-Chiarodia | 5,721,645 € | Timo Kramer  | Kein Ablaufdatum
-Vušković | 4,020,012 € | Philipp | Kein Ablaufdatum
-Königsdörffer | 3,022,160 € | CoachLeisi | Kein Ablaufdatum
-Badé | 5,010,481 € | Timo Kramer  | Kein Ablaufdatum
-Castello Jr. | 20,136,694 € | Robinho | Kein Ablaufdatum
-Claude-Maurice | 8,143,407 € | CoachLeisi | Kein Ablaufdatum
-Nandja | 3,362,043 € | Julian | Kein Ablaufdatum
+Wisbereit | 500,000 € | Market | 2026-11-26 22:20:29
+Kemlein | 500,000 € | Market | 2026-11-26 23:56:24
+Aebischer | 4,844,739 € | Market | 2026-11-27 01:48:42
+Torunarigha | 4,164,171 € | Market | 2026-11-27 03:06:36
+Petersson | 500,000 € | Market | 2026-11-27 09:44:27
+Højlund | 2,785,604 € | Market | 2026-11-27 09:47:38
+Keitel | 3,781,746 € | Market | 2026-11-27 10:58:40
+Baack | 3,177,319 € | Market | 2026-11-27 16:11:30
+Terrier | 500,000 € | Market | 2026-11-27 16:11:33
+Schmetgens | 2,966,863 € | Market | 2026-11-27 18:50:25
+Pejčinović | 5,197,936 € | Market | 2026-11-27 18:54:37
+Hofmann | 5,496,054 € | Market | 2026-11-27 21:25:32
+Bachmann | 500,000 € | Market | 2026-11-28 00:17:24
+Nguefack | 500,000 € | Market | 2026-11-28 00:27:33
+Chukwuemeka | 4,274,503 € | Market | 2026-11-28 01:56:29
+Stange | 500,000 € | Market | 2026-11-28 02:26:35
+Meyer | 500,000 € | Market | 2026-11-28 04:53:58
+Gray | 500,000 € | Market | 2026-11-28 10:35:11
+Götze | 1,910,684 € | Market | 2026-11-28 10:41:29
+Schmahl | 693,529 € | Market | 2026-11-28 11:42:31
+Ilic | 4,219,242 € | Market | 2026-11-28 17:32:35
+Günter | 500,000 € | Market | 2026-11-28 19:58:27
+Weiser | 6,936,251 € | Robinho | Kein Ablaufdatum
+Andrich | 6,360,949 € | Joel | Kein Ablaufdatum
+Posch | 10,527,246 € | Timo Kramer  | Kein Ablaufdatum
+Maina | 6,824,961 € | Braunbär7 | Kein Ablaufdatum
+Karazor | 7,466,493 € | Philipp | Kein Ablaufdatum
+Ljubičić | 4,817,304 € | Robinho | Kein Ablaufdatum
+Chiarodia | 5,936,661 € | Timo Kramer  | Kein Ablaufdatum
+Vušković | 4,213,634 € | Philipp | Kein Ablaufdatum
+Badé | 5,184,922 € | Timo Kramer  | Kein Ablaufdatum
+Castello Jr. | 20,138,456 € | Robinho | Kein Ablaufdatum
+Nandja | 3,230,283 € | Julian | Kein Ablaufdatum
