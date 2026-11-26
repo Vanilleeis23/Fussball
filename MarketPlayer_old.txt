@@ -1,22 +1,24 @@
-Castro-Montes | 1,732,764 € | Market | 2026-11-26 09:00:38
-Reitz | 7,990,139 € | Market | 2026-11-26 10:49:33
-Itakura | 2,842,712 € | Market | 2026-11-26 11:08:29
-Sirch | 4,013,567 € | Market | 2026-11-26 14:20:18
-Massengo | 6,351,326 € | Market | 2026-11-26 14:42:28
-Petkov | 13,350,872 € | Market | 2026-11-26 17:34:27
-Khedira | 4,003,274 € | Market | 2026-11-26 18:02:57
-Bernardo | 2,676,988 € | Market | 2026-11-26 18:23:30
-Tangvik | 500,000 € | Market | 2026-11-26 19:51:04
-Wisbereit | 500,000 € | Market | 2026-11-26 22:20:29
-Kemlein | 500,000 € | Market | 2026-11-26 23:56:24
-Aebischer | 4,578,963 € | Market | 2026-11-27 01:48:42
-Torunarigha | 4,297,787 € | Market | 2026-11-27 03:06:36
-Baack | 3,298,708 € | Market | 2026-11-27 16:11:30
-Terrier | 500,000 € | Market | 2026-11-27 16:11:33
-Schmetgens | 3,093,354 € | Market | 2026-11-27 18:50:25
-Bachmann | 500,000 € | Market | 2026-11-28 00:17:24
-Chukwuemeka | 4,209,012 € | Market | 2026-11-28 01:56:29
-Stange | 500,000 € | Market | 2026-11-28 02:26:35
+Reitz | 7,990,139 € | Market | 2026-11-26 10:49:35
+Itakura | 2,842,712 € | Market | 2026-11-26 11:08:31
+Sirch | 4,013,567 € | Market | 2026-11-26 14:20:20
+Massengo | 6,351,326 € | Market | 2026-11-26 14:42:30
+Petkov | 13,350,872 € | Market | 2026-11-26 17:34:29
+Khedira | 4,003,274 € | Market | 2026-11-26 18:02:59
+Bernardo | 2,676,988 € | Market | 2026-11-26 18:23:32
+Tangvik | 500,000 € | Market | 2026-11-26 19:51:06
+Wisbereit | 500,000 € | Market | 2026-11-26 22:20:31
+Kemlein | 500,000 € | Market | 2026-11-26 23:56:26
+Aebischer | 4,578,963 € | Market | 2026-11-27 01:48:44
+Torunarigha | 4,297,787 € | Market | 2026-11-27 03:06:38
+Keitel | 3,556,482 € | Market | 2026-11-27 10:58:42
+Baack | 3,298,708 € | Market | 2026-11-27 16:11:32
+Terrier | 500,000 € | Market | 2026-11-27 16:11:35
+Schmetgens | 3,093,354 € | Market | 2026-11-27 18:50:27
+Pejčinović | 4,992,466 € | Market | 2026-11-27 18:54:39
+Bachmann | 500,000 € | Market | 2026-11-28 00:17:26
+Nguefack | 500,000 € | Market | 2026-11-28 00:27:35
+Chukwuemeka | 4,209,012 € | Market | 2026-11-28 01:56:31
+Stange | 500,000 € | Market | 2026-11-28 02:26:37
 Weiser | 6,755,200 € | Robinho | Kein Ablaufdatum
 Andrich | 6,320,360 € | Joel | Kein Ablaufdatum
 Posch | 10,445,142 € | Timo Kramer  | Kein Ablaufdatum
@@ -29,8 +31,6 @@ Vušković | 4,020,012 € | Philipp | Kein Ablaufdatum
 Königsdörffer | 3,022,160 € | CoachLeisi | Kein Ablaufdatum
 Badé | 5,010,481 € | Timo Kramer  | Kein Ablaufdatum
 Castello Jr. | 20,136,694 € | Robinho | Kein Ablaufdatum
-Sylla | 1,913,100 € | Braunbär7 | Kein Ablaufdatum
-Becker | 4,832,577 € | CoachLeisi | Kein Ablaufdatum
 Claude-Maurice | 8,143,407 € | CoachLeisi | Kein Ablaufdatum
 Nandja | 3,362,043 € | Julian | Kein Ablaufdatum
 Seol | 1,459,184 € | CoachLeisi | Kein Ablaufdatum

@@ -1,11 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Pejčinović (2026-11-07 21:17:52) [Transactionen.txt]
+ REFERENZ: Götze (2026-11-07 23:25:58) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-11-06 20:51:43 | Petkov
-  2026-11-06 20:52:01 | Baack
   2026-11-06 21:29:27 | Aebischer
   2026-11-06 21:29:32 | Gray
   2026-11-06 21:29:45 | Schmetgens
@@ -14,10 +12,10 @@
   2026-11-06 23:25:55 | Keitel
   2026-11-07 18:11:55 | Chukwuemeka
   2026-11-07 18:29:18 | Ryerson
+  2026-11-07 21:17:52 | Pejčinović
+  2026-11-07 21:40:18 | Hofmann
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-07 21:40:18 | Hofmann
-  2026-11-07 23:25:58 | Götze
   2026-11-08 19:13:05 | Becker <-- SKIP (KÜRZLICH GEKAUFT)
   2026-11-08 22:14:13 | Onyeka
   2026-11-08 23:06:35 | Abraha
@@ -26,6 +24,8 @@
   2026-11-09 17:29:54 | Neuhaus
   2026-11-09 20:18:57 | Dahmen
   2026-11-09 20:19:04 | Behrens
+  2026-11-09 20:19:13 | Curda
+  2026-11-09 20:19:55 | Dōan
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Nguefack' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Højlund' nicht in ÜberMarktGelaufen.txt gefunden. ===
