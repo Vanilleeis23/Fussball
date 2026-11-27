@@ -28,4 +28,4 @@
   2026-11-09 20:19:59 | Hložek
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Daghim' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Schnellbacher' nicht in ÜberMarktGelaufen.txt gefunden. ===
