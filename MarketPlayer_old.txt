@@ -1,9 +1,3 @@
-Erevbenagie | 962,334 € | Market | 2026-11-28 03:16:22
-Meyer | 500,000 € | Market | 2026-11-28 04:53:58
-Sabitzer | 4,713,558 € | Market | 2026-11-28 10:12:45
-Gray | 500,000 € | Market | 2026-11-28 10:35:11
-Götze | 1,814,372 € | Market | 2026-11-28 10:41:29
-Klaas | 500,000 € | Market | 2026-11-28 11:19:24
 Schmahl | 576,183 € | Market | 2026-11-28 11:42:31
 Campbell | 4,455,012 € | Market | 2026-11-28 13:32:09
 Herold | 2,761,320 € | Market | 2026-11-28 13:48:05
@@ -16,9 +10,13 @@ Daghim | 11,558,410 € | Market | 2026-11-28 21:46:47
 Onyeka | 6,652,747 € | Market | 2026-11-28 22:06:07
 Ryerson | 12,618,540 € | Market | 2026-11-28 22:09:32
 Juranović | 2,066,013 € | Market | 2026-11-29 00:31:04
+Neuhaus | 7,380,626 € | Market | 2026-11-29 04:32:25
+Maluze | 4,744,222 € | Market | 2026-11-29 05:38:25
+Wolf | 6,253,150 € | Market | 2026-11-29 08:19:18
 Santos | 500,000 € | Market | 2026-11-29 08:22:08
 Tanaka | 5,346,604 € | Market | 2026-11-29 09:54:06
 Baum | 5,628,899 € | Market | 2026-11-29 19:24:20
+Dahmen | 13,292,974 € | Market | 2026-11-29 23:04:22
 Friedrich | 4,513,205 € | Joel | Kein Ablaufdatum
 Pejčinović | 5,263,871 € | Vanilleeis23 | Kein Ablaufdatum
 Makengo | 19,447,998 € | CoachLeisi | Kein Ablaufdatum
