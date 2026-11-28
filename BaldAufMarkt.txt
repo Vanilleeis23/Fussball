@@ -1,10 +1,9 @@
 ==================================================
  VERKAUF AN DEN MARKT (VERLAUF)
- REFERENZ: Tanaka (2026-11-09 15:40:14) [Transactionen.txt]
+ REFERENZ: Neuhaus (2026-11-09 17:29:54) [Transactionen.txt]
 ==================================================
 
 --- 10 Spieler davor (historisch) ---
-  2026-11-06 23:25:55 | Keitel
   2026-11-07 18:11:55 | Chukwuemeka
   2026-11-07 18:29:18 | Ryerson
   2026-11-07 21:17:52 | Pejčinović
@@ -14,10 +13,10 @@
   2026-11-08 22:14:13 | Onyeka
   2026-11-08 23:06:35 | Abraha
   2026-11-08 23:07:03 | Schallenberg
+  2026-11-09 15:40:14 | Tanaka
 
 --- 10 Spieler danach (NÄCHSTE KANDIDATEN - gefiltert auf letzte 12 Tage) ---
-  2026-11-09 17:29:54 | Neuhaus
-  2026-11-09 20:18:57 | Dahmen
+  2026-11-09 20:18:57 | Dahmen <-- SKIP (BEREITS AUF DEM MARKT / KÜRZLICH GELAUFEN)
   2026-11-09 20:19:04 | Behrens
   2026-11-09 20:19:13 | Curda
   2026-11-09 20:19:55 | Dōan
@@ -26,6 +25,7 @@
   2026-11-09 20:20:14 | El-Faouzi
   2026-11-09 20:20:40 | Estève
   2026-11-09 21:43:08 | Van den Bosch
+  2026-11-10 18:46:22 | Katic
 
 
-=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Baum' nicht in ÜberMarktGelaufen.txt gefunden. ===
+=== ÜBER DEN MARKT GELAUFEN (VERLAUF): 'Wolf' nicht in ÜberMarktGelaufen.txt gefunden. ===
